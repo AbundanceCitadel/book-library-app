@@ -1,0 +1,77 @@
+{
+  "id": "the-7-habits-of-highly-effective-people",
+  "title": "The 7 Habits of Highly Effective People",
+  "author": "Stephen R. Covey",
+  "categories": ["personal-growth", "business"],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 480,
+  "tags": ["character-ethic", "productivity", "leadership", "principles", "self-improvement"],
+  "structureType": "parts",
+  "summary": "The 7 Habits of Highly Effective People argues that lasting personal and professional effectiveness comes from a \"character ethic\" — building genuine principles like integrity, humility, and fairness into who a person actually is — rather than the \"personality ethic\" of quick-fix techniques, image management, and social skill that Covey argues dominates most self-help advice and produces only superficial, short-lived results. The book's central metaphor is the maturity continuum, moving from dependence through independence to interdependence, and organizes its seven habits accordingly: the first three (Be Proactive, Begin with the End in Mind, Put First Things First) build \"private victory\" — genuine self-mastery — before the next three (Think Win-Win, Seek First to Understand Then to Be Understood, Synergize) build \"public victory,\" or effective interdependence with others, with the seventh habit (Sharpen the Saw) sustaining renewal across all the others. Being Proactive establishes the foundational idea that between any stimulus and a person's response lies a space of genuine choice, and that effective people focus their energy on their \"Circle of Influence\" (things they can actually affect) rather than their broader \"Circle of Concern\" (things that worry them but that they can't control), since focusing on the latter only breeds a victim mentality. Begin with the End in Mind introduces the practice of clarifying a personal mission or set of core values before making decisions, so choices are guided by deliberately chosen principles rather than by circumstance, mood, or other people's expectations. Put First Things First introduces Covey's Time Management Matrix, organized around urgency and importance, arguing effective people deliberately protect time for Quadrant II activities (important but not urgent — relationship-building, planning, genuine prevention) that get chronically neglected in favor of merely urgent demands. Think Win-Win presents an alternative to the assumption that most interactions are zero-sum, arguing genuinely effective negotiators and collaborators look for solutions where all parties gain, and are willing to walk away (\"win-win or no deal\") rather than settle for a compromise that secretly disadvantages one side. Seek First to Understand, Then to Be Understood teaches empathic listening — genuinely understanding another person's perspective before advocating for your own — as the foundation of real influence, arguing most people listen only to reply rather than to understand, which undermines trust before persuasion even has a chance to work. Synergize covers valuing differences in perspective and approach as a source of better solutions than any single viewpoint could produce alone, rather than treating disagreement as something to be minimized or smoothed over. The book closes with Sharpen the Saw, covering renewal across four dimensions — physical, mental, social/emotional, and spiritual — arguing that neglecting any one of these eventually undermines a person's capacity to sustain all the other habits over time.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "Paradigms and Principles",
+      "summary": "Introduces the distinction between the character ethic (genuine principles) and the personality ethic (quick-fix techniques and image management), and the maturity continuum from dependence to interdependence."
+    },
+    {
+      "order": 2,
+      "title": "Habit 1: Be Proactive",
+      "summary": "Establishes that a space of genuine choice exists between stimulus and response, and that effective people focus energy on their Circle of Influence rather than their broader Circle of Concern."
+    },
+    {
+      "order": 3,
+      "title": "Habit 2: Begin with the End in Mind",
+      "summary": "Introduces clarifying a personal mission and core values before making decisions, so choices are guided by deliberately chosen principles rather than circumstance or others' expectations."
+    },
+    {
+      "order": 4,
+      "title": "Habit 3: Put First Things First",
+      "summary": "Introduces the Time Management Matrix (urgency vs. importance) and argues effective people deliberately protect time for important-but-not-urgent activities that otherwise get chronically neglected."
+    },
+    {
+      "order": 5,
+      "title": "Habit 4: Think Win-Win",
+      "summary": "Presents an alternative to zero-sum thinking, arguing effective negotiators look for mutually beneficial solutions and are willing to walk away rather than settle for a hidden-cost compromise."
+    },
+    {
+      "order": 6,
+      "title": "Habit 5: Seek First to Understand, Then to Be Understood",
+      "summary": "Teaches empathic listening — genuinely understanding another person's perspective before advocating for your own — as the foundation of real influence and trust."
+    },
+    {
+      "order": 7,
+      "title": "Habit 6: Synergize",
+      "summary": "Covers valuing differences in perspective as a source of better solutions than any single viewpoint alone, rather than treating disagreement as something to minimize."
+    },
+    {
+      "order": 8,
+      "title": "Habit 7: Sharpen the Saw",
+      "summary": "Closes on renewal across physical, mental, social/emotional, and spiritual dimensions, arguing neglecting any one eventually undermines the capacity to sustain all the other habits."
+    }
+  ],
+  "keyLessons": [
+    "Build genuine character (integrity, humility, fairness) rather than relying on quick-fix technique or image management for lasting effectiveness.",
+    "Focus your energy on your Circle of Influence — what you can actually affect — rather than your broader Circle of Concern.",
+    "Clarify your personal mission and core values before making decisions, so choices are guided by principle rather than circumstance.",
+    "Deliberately protect time for important-but-not-urgent work (relationships, planning, prevention) that otherwise gets crowded out by merely urgent demands.",
+    "Look for win-win solutions in negotiation, and be willing to walk away rather than accept a compromise that secretly disadvantages one side.",
+    "Genuinely understand another person's perspective before advocating for your own — most people listen only to reply, which undermines trust.",
+    "Value differences in perspective and approach as a source of better solutions than any single viewpoint could produce alone.",
+    "Sustain renewal across physical, mental, social/emotional, and spiritual dimensions — neglecting any one undermines your capacity for all the other habits."
+  ],
+  "quotes": [
+    { "text": "Between stimulus and response there is a space. In that space is our power to choose our response.", "attribution": "Stephen R. Covey, The 7 Habits of Highly Effective People" },
+    { "text": "Begin with the end in mind.", "attribution": "Stephen R. Covey, The 7 Habits of Highly Effective People" },
+    { "text": "Seek first to understand, then to be understood.", "attribution": "Stephen R. Covey, The 7 Habits of Highly Effective People" }
+  ],
+  "whoThisIsFor": "Readers who want a principle-based framework for personal effectiveness and collaboration, rather than isolated productivity tricks.",
+  "whenToReadThis": "Read at a career or life transition point when it's worth rebuilding habits from foundational principles rather than patching surface-level symptoms.",
+  "relatedBooks": ["the-one-thing", "essentialism", "grit"],
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-24",
+  "sourceNotes": "Original synthesis from general knowledge of Covey's well-documented seven-habits framework. Three short, widely-cited quotes included with attribution; no passages reproduced."
+}

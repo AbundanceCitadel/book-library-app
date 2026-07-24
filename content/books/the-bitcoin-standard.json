@@ -1,0 +1,72 @@
+{
+  "id": "the-bitcoin-standard",
+  "title": "The Bitcoin Standard: The Decentralized Alternative to Central Banking",
+  "author": "Saifedean Ammous",
+  "categories": ["finance-investing", "science-technology"],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 420,
+  "tags": ["bitcoin", "monetary-history", "sound-money", "austrian-economics", "inflation"],
+  "structureType": "chapters",
+  "summary": "The Bitcoin Standard makes its case for Bitcoin not primarily through technical explanation but through a sweeping history of money itself, arguing that the qualities which have historically made a good form of money — scarcity, durability, divisibility, portability, and verifiability — determine which monetary systems succeed or fail over the long run, and that Bitcoin's specific design (a fixed, mathematically enforced supply cap of 21 million coins, achieved through a difficulty adjustment mechanism that keeps issuance predictable regardless of how much computing power is thrown at mining it) gives it the strongest \"stock-to-flow\" ratio, meaning hardest-to-inflate supply, of any monetary asset in history, including gold. Ammous, writing from an Austrian economics perspective, walks through historical examples of monies that failed specifically because they were easy to debase or inflate — from the Micronesian island of Yap's giant stone currency once outsiders could produce more of it, to the Spanish Empire's silver-driven inflation, to the collapse of the gold standard and the shift to purely government-issued fiat currency in the twentieth century — building the argument that every monetary collapse in history follows the same underlying pattern: a currency loses its \"hardness\" (resistance to increased supply) and its value collapses as a result, regardless of the specific political or technological details of any individual case. A central chapter covers the shift off the gold standard and the subsequent era of fiat currency directly, arguing central banks' ability to expand money supply at will functions as a hidden tax on savers and a subsidy to whoever borrows or spends first, and connects this to Ammous's broader argument (following economists like Ludwig von Mises and Friedrich Hayek) that low, government-controlled interest rates and expandable money supply distort long-term planning and encourage excessive present consumption over saving and investment. The book covers Bitcoin's specific technical design in enough depth to support its economic argument — proof-of-work mining, the difficulty adjustment, the halving schedule that reduces new coin issuance roughly every four years — while treating these mechanisms mainly as evidence for Bitcoin's monetary hardness rather than as ends in themselves. Ammous addresses common objections directly: volatility (which he argues is a natural feature of a new, relatively small but appreciating asset rather than a permanent disqualifying flaw), energy consumption (which he frames as a necessary cost of achieving genuine, unforgeable scarcity, analogous to the real resources spent mining gold), and scalability (acknowledging the debate over Bitcoin's transaction throughput while arguing its primary value proposition is as a store of value/settlement layer, with faster payment systems potentially built on top). The book closes with a broader case for \"low time preference\" — Ammous's term for a civilization-level orientation toward long-term thinking and delayed gratification, which he argues sound, hard money encourages by rewarding savers and long-term planners, and which he contrasts with the short-term, consumption-driven incentives he believes fiat currency systems create at both the individual and civilizational level.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "Primitive Moneys",
+      "summary": "Opens with historical examples of failed monies, including the Micronesian island of Yap's giant stone currency, illustrating how ease of producing more supply destroys a currency's value."
+    },
+    {
+      "order": 2,
+      "title": "Monetary Metals",
+      "summary": "Covers gold and silver's historical dominance as money due to their difficulty to produce more of, and cases (like Spanish Empire silver inflation) where increased supply still caused problems."
+    },
+    {
+      "order": 3,
+      "title": "Government Money",
+      "summary": "Covers the shift off the gold standard to fiat currency, arguing central banks' ability to expand money supply at will functions as a hidden tax on savers and subsidy to early spenders."
+    },
+    {
+      "order": 4,
+      "title": "What Is Money?",
+      "summary": "Establishes the qualities of good money — scarcity, durability, divisibility, portability, verifiability — as the framework for judging any monetary system, including Bitcoin."
+    },
+    {
+      "order": 5,
+      "title": "Bitcoin's Origins and Design",
+      "summary": "Covers Bitcoin's mechanics — proof-of-work mining, the difficulty adjustment, the halving schedule — as evidence for its historically unmatched monetary hardness (stock-to-flow ratio)."
+    },
+    {
+      "order": 6,
+      "title": "Common Objections",
+      "summary": "Addresses volatility, energy consumption, and scalability directly, arguing each is either a temporary feature of a new asset or a necessary cost of achieving genuine scarcity."
+    },
+    {
+      "order": 7,
+      "title": "Time Preference and Sound Money",
+      "summary": "Closes with the case for 'low time preference' — a long-term, delayed-gratification orientation that Ammous argues sound, hard money encourages at both individual and civilizational levels."
+    }
+  ],
+  "keyLessons": [
+    "The qualities that make a good money — scarcity, durability, divisibility, portability, verifiability — determine which monetary systems succeed or fail over time.",
+    "A currency's resistance to increased supply ('hardness') is the single best predictor of whether it holds value over the long run.",
+    "Central banks' ability to expand money supply at will functions as a hidden tax on savers and a subsidy to early borrowers or spenders.",
+    "Bitcoin's fixed supply cap and difficulty adjustment give it a historically unmatched stock-to-flow ratio among monetary assets.",
+    "Treat new-asset volatility as potentially a feature of early-stage price discovery, not automatically a permanent disqualifying flaw.",
+    "Low time preference — favoring long-term planning and delayed gratification — tends to be rewarded by sound, hard money and undermined by easily expandable currency.",
+    "Every major monetary collapse in history follows a similar underlying pattern: loss of hardness leading to loss of value, regardless of the specific political details.",
+    "Evaluate a monetary technology's energy or resource cost against the value of the scarcity and security it actually provides, not in isolation."
+  ],
+  "quotes": [
+    { "text": "Bitcoin is the first form of money invented that is not controlled by a single entity, and whose issuance schedule is known and cannot be altered.", "attribution": "Saifedean Ammous, The Bitcoin Standard" },
+    { "text": "Sound money is an essential requirement for individual freedom from despotism and repression.", "attribution": "Saifedean Ammous, The Bitcoin Standard" },
+    { "text": "As the hardest money ever invented, Bitcoin will likely continue to grow in value as it eats into the market share of all other, less hard, forms of money.", "attribution": "Saifedean Ammous, The Bitcoin Standard" }
+  ],
+  "whoThisIsFor": "Readers interested in monetary history and Bitcoin's economic case, told from an Austrian-economics perspective on sound money.",
+  "whenToReadThis": "Read to understand the economic (not just technical) argument for Bitcoin, or when evaluating monetary history and inflation more broadly.",
+  "relatedBooks": ["the-intelligent-investor"],
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-24",
+  "sourceNotes": "Original synthesis from general knowledge of Ammous's well-documented monetary history argument and Austrian economics framing (stock-to-flow, time preference, sound money). Three short, widely-cited quotes included with attribution; no passages reproduced."
+}

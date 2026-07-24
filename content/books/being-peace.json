@@ -1,0 +1,71 @@
+{
+  "id": "being-peace",
+  "title": "Being Peace",
+  "author": "Thich Nhat Hanh",
+  "categories": ["thich-nhat-hanh", "philosophy-psychology"],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 150,
+  "tags": ["mindfulness", "meditation", "peace", "engaged-buddhism", "interbeing"],
+  "structureType": "parts",
+  "summary": "Being Peace, one of Thich Nhat Hanh's earliest and most influential English-language books, makes the case that peace in the world cannot be separated from peace within a single person's daily consciousness — that international peace movements often fail because the people working for peace are themselves not at peace, carrying anger, exhaustion, and reactivity into the very work meant to reduce those things. Written against the backdrop of the Vietnam War and Nhat Hanh's own experience founding the School of Youth for Social Service and later living in exile, the book introduces what became one of his most enduring concepts: \"interbeing,\" the idea that nothing exists independently, illustrated through his famous meditation on a sheet of paper — look deeply enough and you find the cloud, the rain, the sunshine, the logger, the logger's parents, and the wheat that became the logger's bread all present in the paper, meaning nothing can \"be\" alone, everything can only \"inter-be\" with everything else. From this insight, Nhat Hanh builds a practical case that mindfulness of breathing is not a retreat from engagement with the world's suffering but the necessary foundation for engaging with it sustainably — a person who cannot maintain calm, aware breathing while doing difficult work (whether that's caring for war refugees or arguing with a family member) will eventually be consumed by the same suffering they're trying to address. The book covers walking meditation, mindful breathing, and smiling as concrete, always-available practices rather than abstract ideals, arguing that a half-smile held even during difficult moments can interrupt a spiral of anger or despair before it fully takes hold. A central chapter addresses anger directly, using the metaphor of tending a garden: anger, like a troublesome plant, cannot be uprooted by force or suppression, only tended with the same patient mindfulness applied to everything else, until its energy transforms rather than erupts or festers. Nhat Hanh also addresses working for social change specifically, arguing that \"engaged Buddhism\" (his term, coined partly in this book) means monks and lay practitioners cannot separate meditation from direct action on poverty, war, and injustice, but that action taken without the same mindfulness applied to breath and inner state simply adds more suffering and reactivity to the world rather than reducing it. The book closes by returning to interbeing as the foundation for both personal peace and social action: understanding that your own suffering and another person's suffering are not fundamentally separate is what makes genuine, sustainable compassion for others possible, rather than compassion that burns out because it's disconnected from a stable, mindful relationship with your own present-moment experience.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "Being Peace",
+      "summary": "Introduces the book's core claim that peace work in the world must be grounded in a practitioner's own inner peace, or it collapses under the same reactivity it's meant to address."
+    },
+    {
+      "order": 2,
+      "title": "The Sun My Heart",
+      "summary": "Develops the concept of interbeing through the sheet-of-paper meditation, showing how nothing exists independently — everything contains everything else when examined closely enough."
+    },
+    {
+      "order": 3,
+      "title": "Every Breath, Every Step",
+      "summary": "Covers mindful breathing and walking meditation as concrete, always-available practices for staying present rather than abstract spiritual ideals."
+    },
+    {
+      "order": 4,
+      "title": "Flower Fresh, Mountain Solid",
+      "summary": "Introduces smiling, even a half-smile held deliberately during a difficult moment, as a practical tool for interrupting anger or despair before it takes full hold."
+    },
+    {
+      "order": 5,
+      "title": "Working for Peace",
+      "summary": "Addresses anger directly through the metaphor of a garden — anger cannot be uprooted by force, only tended patiently until its energy transforms."
+    },
+    {
+      "order": 6,
+      "title": "Please Call Me by My True Names",
+      "summary": "Introduces engaged Buddhism — the argument that meditation and direct social action on poverty, war, and injustice cannot be separated from each other."
+    },
+    {
+      "order": 7,
+      "title": "The Fullness of Emptiness",
+      "summary": "Closes by returning to interbeing as the foundation for sustainable compassion — recognizing your own and others' suffering as not fundamentally separate."
+    }
+  ],
+  "keyLessons": [
+    "Peace work collapses if the person doing it isn't personally at peace — inner and outer peace can't be fully separated.",
+    "Nothing exists independently; understanding how deeply you're already connected to everything else (interbeing) changes how you relate to both yourself and others.",
+    "Mindful breathing isn't a retreat from engaging with hard problems — it's the foundation that makes sustained engagement possible without burning out.",
+    "A deliberate half-smile, even during a difficult moment, can interrupt a spiral of anger or despair before it fully takes hold.",
+    "Treat anger like tending a garden — it can't be uprooted by force or suppression, only patiently tended until its energy transforms.",
+    "Action taken without mindfulness of your own inner state tends to add more reactivity and suffering to the world, not less.",
+    "Genuine, sustainable compassion depends on recognizing that your suffering and another person's suffering aren't fundamentally separate."
+  ],
+  "quotes": [
+    { "text": "Smile, breathe, and go slowly.", "attribution": "Thich Nhat Hanh, Being Peace" },
+    { "text": "If we are peaceful, if we are happy, we can smile and blossom like a flower, and everyone in our family, our entire society, will benefit from our peace.", "attribution": "Thich Nhat Hanh, Being Peace" },
+    { "text": "Because you are alive, everything is possible.", "attribution": "Thich Nhat Hanh, Being Peace" }
+  ],
+  "whoThisIsFor": "Readers new to mindfulness or engaged Buddhism who want a short, foundational introduction to peace practice grounded in real social action.",
+  "whenToReadThis": "Read when anger, activism fatigue, or disconnection between your inner state and your work for a cause feels unsustainable.",
+  "relatedBooks": ["peace-is-every-step", "the-miracle-of-mindfulness", "how-to-love"],
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-24",
+  "sourceNotes": "Original synthesis from general knowledge of Thich Nhat Hanh's well-documented teachings and this book's core concepts (interbeing, engaged Buddhism, mindful breathing). Three short, widely-cited quotes included with attribution; no passages reproduced."
+}

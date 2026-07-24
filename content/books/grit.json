@@ -1,0 +1,77 @@
+{
+  "id": "grit",
+  "title": "Grit: The Power of Passion and Perseverance",
+  "author": "Angela Duckworth",
+  "categories": ["personal-growth", "philosophy-psychology"],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 360,
+  "tags": ["perseverance", "psychology", "achievement", "motivation", "deliberate-practice"],
+  "structureType": "parts",
+  "summary": "Grit presents psychologist Angela Duckworth's research argument that sustained passion and perseverance toward long-term goals — what she calls \"grit\" — predicts achievement across wildly different domains (West Point cadets completing a grueling training program, National Spelling Bee finalists, salespeople, teachers in challenging schools) more reliably than talent, IQ, or any other single measured trait, challenging the common assumption that natural ability is the primary driver of exceptional achievement. Duckworth's research career began partly from observing that within any group of talented people, some quit and some persist, and that this persistence itself, not any additional measurable talent, best explained who ultimately succeeded — leading her to develop the \"Grit Scale,\" a short self-assessment measuring consistency of interests and perseverance of effort over time that turned out to predict outcomes (West Point retention, Spelling Bee performance, teacher effectiveness) better than the standardized measures those institutions were already using. The book introduces Duckworth's formula for achievement — talent multiplied by effort produces skill, and skill multiplied by effort produces achievement, meaning effort counts twice in her model, once to build skill and again to convert that skill into actual accomplished work, which is her direct challenge to the assumption that talent alone (without sustained effort) reliably produces great outcomes. A major theme is the distinction between grit and simple stubborn persistence: true grit, in Duckworth's framework, requires a stable, long-term goal that organizes and gives meaning to lower-level goals, since scattered effort across constantly changing interests (even if each individual effort is intense) doesn't compound into deep expertise or achievement the way sustained direction toward one overarching goal does. Duckworth covers deliberate practice explicitly, drawing on research showing that experts across fields don't simply put in more raw hours than others but structure their practice specifically around identified weaknesses, with immediate feedback and full concentration — a more effortful and less pleasant form of practice than simple repetition, but one that produces disproportionately more improvement. The book also addresses whether grit can be developed or is simply an inherited trait, arguing based on her research that both a person's own psychology (developing a growth mindset, finding genuine interest and purpose in their pursuit) and their environment (parenting style, culture, mentors, and organized activities like sports and clubs that teach the completion of hard, multi-year commitments) meaningfully shape how much grit a person develops over time, meaning it is substantially cultivable rather than fixed at birth. Duckworth closes by covering \"gritty cultures\" — families, teams, and organizations that collectively reinforce norms of hard work and long-term commitment — arguing that individual grit is easier to sustain within a surrounding culture that values and models the same perseverance, rather than relying purely on individual willpower in isolation.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "Showing Up",
+      "summary": "Introduces the core research question: within groups of talented people, why do some persist and some quit, and why does that persistence predict outcomes better than measured talent?"
+    },
+    {
+      "order": 2,
+      "title": "Distracted by Talent",
+      "summary": "Challenges the assumption that natural ability is the primary driver of achievement, introducing the formula where effort counts twice — building skill, then converting skill into actual accomplishment."
+    },
+    {
+      "order": 3,
+      "title": "How Gritty Are You?",
+      "summary": "Introduces the Grit Scale, a short self-assessment measuring consistency of interests and perseverance of effort, and covers its surprising predictive power across West Point, spelling bees, and teaching."
+    },
+    {
+      "order": 4,
+      "title": "Grit Grows",
+      "summary": "Distinguishes true grit from simple stubbornness, arguing it requires a stable long-term goal that organizes lower-level goals, rather than scattered intense effort across constantly changing interests."
+    },
+    {
+      "order": 5,
+      "title": "Interest, Practice, Purpose, Hope",
+      "summary": "Covers the psychological components that sustain grit over time: genuine interest, deliberate practice targeting specific weaknesses, a sense of purpose, and a habit of optimism through setbacks."
+    },
+    {
+      "order": 6,
+      "title": "Deliberate Practice",
+      "summary": "Details how experts structure practice around identified weaknesses with immediate feedback and full concentration, a more effortful process than simple repetition but one that produces disproportionate improvement."
+    },
+    {
+      "order": 7,
+      "title": "Nature and Nurture",
+      "summary": "Covers how both individual psychology (growth mindset, purpose) and environment (parenting, culture, mentors, organized activities) shape how much grit a person develops, arguing it is substantially cultivable."
+    },
+    {
+      "order": 8,
+      "title": "A Culture of Grit",
+      "summary": "Closes on 'gritty cultures' — families, teams, and organizations that collectively reinforce norms of hard work — arguing individual grit is easier to sustain within a surrounding culture that models it."
+    }
+  ],
+  "keyLessons": [
+    "Sustained passion and perseverance toward long-term goals predicts achievement more reliably than talent or IQ alone.",
+    "Effort counts twice — once to convert talent into skill, and again to convert skill into actual accomplished work.",
+    "True grit requires a stable, long-term goal that organizes your other goals — scattered intense effort across constantly changing interests doesn't compound the same way.",
+    "Deliberate practice means targeting specific weaknesses with immediate feedback and full concentration, not just accumulating more hours of repetition.",
+    "Grit is substantially cultivable, not fixed at birth — both your own psychology and your environment shape how much you develop over time.",
+    "A growth mindset and a genuine sense of purpose help sustain effort through the inevitable setbacks of a long-term pursuit.",
+    "Surrounding yourself with a culture that values and models perseverance makes individual grit easier to sustain than relying on willpower alone.",
+    "Organized activities that require completing hard, multi-year commitments (sports, clubs) can specifically build grit, especially in young people."
+  ],
+  "quotes": [
+    { "text": "Grit is passion and perseverance for very long-term goals.", "attribution": "Angela Duckworth, Grit" },
+    { "text": "Our potential is one thing. What we do with it is quite another.", "attribution": "Angela Duckworth, Grit" },
+    { "text": "Enthusiasm is common. Endurance is rare.", "attribution": "Angela Duckworth, Grit" }
+  ],
+  "whoThisIsFor": "Readers pursuing a long-term goal who want research-backed strategies for sustaining effort, rather than relying on raw motivation or talent alone.",
+  "whenToReadThis": "Read when motivation for a long-term goal has faded and you need a structural approach (deliberate practice, purpose, environment) rather than another burst of willpower.",
+  "relatedBooks": ["atomic-habits", "mindset", "flow", "essentialism"],
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-24",
+  "sourceNotes": "Original synthesis from general knowledge of Duckworth's well-documented research and framework (Grit Scale, deliberate practice, effort-counts-twice formula). Three short, widely-cited quotes included with attribution; no passages reproduced."
+}

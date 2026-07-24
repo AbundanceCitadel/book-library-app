@@ -1,0 +1,72 @@
+{
+  "id": "security-analysis",
+  "title": "Security Analysis",
+  "author": "Benjamin Graham and David Dodd",
+  "categories": ["finance-investing"],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 900,
+  "tags": ["value-investing", "financial-statement-analysis", "bonds", "graham-and-dodd", "fundamental-analysis"],
+  "structureType": "parts",
+  "summary": "Security Analysis, first published in 1934 in the aftermath of the Great Depression and revised across several editions, is the dense, technical foundation text underlying value investing, aimed less at the general reader than at Benjamin Graham and David Dodd's later, more accessible companion The Intelligent Investor — where that book explains the philosophy, this one works through the actual mechanics of analyzing specific securities in real detail. The book's foundational argument is that securities (both stocks and bonds) should be analyzed based on the intrinsic value of the underlying business — a figure derived from a company's assets, earnings power, dividend record, and financial stability — rather than on price momentum, market sentiment, or speculative stories about future growth, since Graham and Dodd wrote partly as a direct response to the speculative excesses that produced the 1929 crash. A major portion of the book covers bond analysis in detail few later investing books replicate, including how to assess a company's ability to service its debt through coverage ratios and balance sheet analysis, reflecting the book's origin in an era when bond investing was a much larger part of ordinary portfolio construction than it later became. The book introduces and elaborates the margin of safety principle that Graham would later make more famous in The Intelligent Investor, but here develops it with much more granular, security-specific technique: identifying situations where a security trades meaningfully below a conservatively calculated intrinsic value, whether due to temporary market pessimism, an obscure or unpopular industry, or complexity that discourages other analysts from doing the work required to properly value it. A significant section addresses the distinction between investment and speculation in far more technical depth than the later book, laying out specific quantitative tests (earnings stability over a period of years, adequate asset coverage, reasonable price relative to earnings and book value) that separate a defensible investment from a speculative bet dressed up in investment language. The book also covers the analysis of corporate financial statements in detail, including how to adjust reported earnings for one-time items, how to interpret balance sheet strength, and specific red flags in accounting practices that Graham and Dodd argue sophisticated analysts must learn to spot rather than accepting reported figures uncritically. A recurring theme throughout is intellectual humility about the limits of precise valuation — Graham and Dodd argue analysts should think in terms of a reasonable range of intrinsic value rather than a false precise figure, and should only act when a security's price falls meaningfully outside that range, since the whole margin-of-safety approach depends on acknowledging the analyst's own fallibility rather than assuming perfect knowledge. The book closes by establishing the analytical discipline and habits of mind — patience, skepticism toward market narratives, and rigorous use of financial statements — that would go on to shape generations of value investors, including Graham's most famous student, Warren Buffett, who has repeatedly credited this book as foundational to his own investment framework.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "The Scope and Limitations of Security Analysis",
+      "summary": "Establishes the book's foundational premise: securities should be analyzed based on the intrinsic value of the underlying business, not price momentum or speculative narratives."
+    },
+    {
+      "order": 2,
+      "title": "Fixed-Value Investments — Bond Analysis",
+      "summary": "Covers assessing a company's ability to service its debt through coverage ratios and balance sheet analysis, reflecting bond investing's larger historical role in portfolio construction."
+    },
+    {
+      "order": 3,
+      "title": "Investment versus Speculation, in Technical Detail",
+      "summary": "Lays out specific quantitative tests — earnings stability, asset coverage, reasonable price relative to earnings and book value — that separate a defensible investment from speculation."
+    },
+    {
+      "order": 4,
+      "title": "The Margin of Safety in Security-Specific Terms",
+      "summary": "Develops the margin of safety principle with granular technique for identifying securities trading meaningfully below conservatively calculated intrinsic value."
+    },
+    {
+      "order": 5,
+      "title": "Analysis of Financial Statements",
+      "summary": "Covers adjusting reported earnings for one-time items, interpreting balance sheet strength, and spotting red flags in accounting practices rather than accepting reported figures uncritically."
+    },
+    {
+      "order": 6,
+      "title": "Valuation as a Range, Not a Point",
+      "summary": "Argues analysts should think in terms of a reasonable range of intrinsic value and only act when price falls meaningfully outside that range, acknowledging the limits of precise valuation."
+    },
+    {
+      "order": 7,
+      "title": "The Analytical Discipline",
+      "summary": "Closes by establishing the habits of mind — patience, skepticism toward market narratives, rigorous statement analysis — that shaped generations of value investors including Warren Buffett."
+    }
+  ],
+  "keyLessons": [
+    "Analyze securities based on the intrinsic value of the underlying business, not price momentum or speculative narratives.",
+    "Distinguish investment from speculation using specific quantitative tests — earnings stability, asset coverage, reasonable price relative to earnings and book value.",
+    "Look for securities trading meaningfully below a conservatively calculated intrinsic value, whether due to temporary pessimism or analytical neglect.",
+    "Learn to adjust reported earnings for one-time items and spot red flags in accounting practices rather than accepting reported figures uncritically.",
+    "Think of intrinsic value as a reasonable range, not a false precise figure, and act only when price falls meaningfully outside that range.",
+    "Bond analysis (debt coverage, balance sheet strength) deserves the same rigor as stock analysis, not an afterthought.",
+    "Intellectual humility about the limits of valuation is part of sound analysis, not a weakness — the margin of safety exists specifically because analysts can be wrong.",
+    "Rigorous, skeptical use of financial statements is a learnable discipline that compounds in value over an investing career."
+  ],
+  "quotes": [
+    { "text": "The margin of safety is always dependent on the price paid.", "attribution": "Benjamin Graham and David Dodd, Security Analysis" },
+    { "text": "Investment is most intelligent when it is most businesslike.", "attribution": "Benjamin Graham and David Dodd, Security Analysis" },
+    { "text": "Price is what determines whether a security is a good purchase, regardless of how good the company may be.", "attribution": "Benjamin Graham and David Dodd, Security Analysis" }
+  ],
+  "whoThisIsFor": "Serious investors who want the detailed, technical foundation of value investing rather than the more accessible summary in The Intelligent Investor.",
+  "whenToReadThis": "Read after The Intelligent Investor, once you're ready to apply the margin-of-safety philosophy to real financial statement analysis.",
+  "relatedBooks": ["the-intelligent-investor", "one-up-on-wall-street", "buffett-the-making-of-an-american-capitalist"],
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-24",
+  "sourceNotes": "Original synthesis from general knowledge of Graham and Dodd's well-documented foundational value investing text. Three short, widely-cited quotes included with attribution; no passages reproduced."
+}

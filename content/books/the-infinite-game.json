@@ -1,0 +1,67 @@
+{
+  "id": "the-infinite-game",
+  "title": "The Infinite Game",
+  "author": "Simon Sinek",
+  "categories": ["business-strategy", "business"],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 330,
+  "tags": ["strategy", "leadership", "long-term-thinking", "organizational-culture", "just-cause"],
+  "structureType": "chapters",
+  "summary": "The Infinite Game borrows a distinction from game theorist James Carse (finite games have fixed rules, players, and an endpoint where someone wins; infinite games have no fixed endpoint, the players can change over time, and the only real goal is to keep playing) and applies it to business, arguing that most companies mistakenly play business as if it were a finite game, chasing quarterly wins, beating specific competitors, and declaring premature victory, when business is actually infinite — there's no final scoreboard, competitors enter and leave, and the real goal is organizational survival and relevance over an indefinite time horizon. Sinek argues this finite mindset produces predictable failure patterns: obsessing over beating a named rival even when doing so requires actions that damage long-term health, treating quarterly earnings as the ultimate measure of success even when that pressures short-term decisions that undermine the next decade, and experiencing a company's temporary setbacks as catastrophic losses rather than normal variation within a much longer game. The book's central practical framework is the \"Just Cause\" — a specific, affirmative vision of a future the organization is working toward that's bigger than any one product, leader, or competitive win, which Sinek argues has to meet five criteria: it must be for something (affirmative, not just against a rival), inclusive (open to broad support, not narrowly self-serving), service-oriented (primarily for the benefit of others, not just the organization itself), resilient (able to withstand changes in leadership, technology, and culture over time), and idealistic (bold and ultimately unachievable, functioning more as a direction to travel toward than a checkbox to complete). Sinek covers \"Trusting Teams\" as a second pillar — echoing themes from Leaders Eat Last — arguing that people can only bring their full, honest effort to an infinite game if they feel safe enough within the organization to admit mistakes and raise problems early, rather than hiding them out of fear. The book addresses \"Worthy Rivals,\" reframing competitors not as enemies to be defeated but as a source of useful information about your own weaknesses and blind spots — a worthy rival's strength in an area you're weak in is data to learn from, not merely an obstacle to overcome. Sinek covers \"Existential Flexibility\" — the willingness to make a significant, sometimes costly strategic pivot in service of the Just Cause, even abandoning a previously successful line of business, arguing that organizations too committed to defending existing wins struggle to adapt when the Just Cause requires a genuinely different path forward. The book closes on \"The Courage to Lead\" — the argument that adopting an infinite mindset requires real courage because it often means accepting short-term criticism, foregoing an easy quarterly win, or losing people unwilling to work in service of a cause bigger than themselves, but that leaders who make this trade consistently build organizations positioned to remain relevant and resilient over a genuinely long time horizon.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "Finite and Infinite Games",
+      "summary": "Introduces the core distinction: finite games have fixed rules and an endpoint; infinite games have no endpoint and changing players, and business is fundamentally an infinite game most companies mistakenly play as finite."
+    },
+    {
+      "order": 2,
+      "title": "The Just Cause",
+      "summary": "Presents the book's central framework: an affirmative, inclusive, service-oriented, resilient, and idealistic vision bigger than any single product or competitive win."
+    },
+    {
+      "order": 3,
+      "title": "Trusting Teams",
+      "summary": "Argues people can only bring full, honest effort to an infinite game if they feel safe admitting mistakes and raising problems early, rather than hiding them out of fear."
+    },
+    {
+      "order": 4,
+      "title": "Worthy Rivals",
+      "summary": "Reframes competitors as sources of useful information about your own weaknesses rather than enemies to be defeated."
+    },
+    {
+      "order": 5,
+      "title": "Existential Flexibility",
+      "summary": "Covers the willingness to make significant, sometimes costly strategic pivots in service of the Just Cause, even abandoning a previously successful line of business."
+    },
+    {
+      "order": 6,
+      "title": "The Courage to Lead",
+      "summary": "Closes by arguing an infinite mindset requires real courage — accepting short-term criticism or a lost quarterly win in service of a cause bigger than any single leader or result."
+    }
+  ],
+  "keyLessons": [
+    "Recognize business as an infinite game with no final scoreboard, rather than playing it like a finite game with fixed rivals and a fixed endpoint.",
+    "Define a Just Cause bigger than any single product or competitive win — affirmative, inclusive, service-oriented, resilient, and idealistic.",
+    "Build psychological safety so people can admit mistakes and raise problems early instead of hiding them out of fear.",
+    "Treat competitors as worthy rivals whose strengths reveal your own blind spots, not just obstacles to defeat.",
+    "Be willing to make a significant strategic pivot, even abandoning a successful line of business, if it serves your Just Cause better.",
+    "Don't treat quarterly results as the ultimate measure of success if pursuing them undermines the organization's health over the next decade.",
+    "Expect real courage to be required — an infinite mindset often means accepting short-term criticism in service of long-term relevance.",
+    "Temporary setbacks are normal variation within a long game, not catastrophic losses that define the whole outcome."
+  ],
+  "quotes": [
+    { "text": "The task of a leader is not to come up with all the good ideas... The task of a leader is to create an environment in which great ideas can happen.", "attribution": "Simon Sinek, The Infinite Game" },
+    { "text": "In the Infinite Game, the true value of an organization cannot be measured by the success it has achieved based on a set of arbitrary metrics over an arbitrary period of time.", "attribution": "Simon Sinek, The Infinite Game" },
+    { "text": "A Just Cause is a specific vision of a future state that does not yet exist.", "attribution": "Simon Sinek, The Infinite Game" }
+  ],
+  "whoThisIsFor": "Executives and founders making strategic decisions who want a long-term, purpose-driven framework rather than quarter-by-quarter competitive thinking.",
+  "whenToReadThis": "Read when strategic decisions are being driven too heavily by beating a specific competitor or hitting a short-term metric at the expense of long-term health.",
+  "relatedBooks": ["start-with-why", "leaders-eat-last", "good-to-great"],
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-24",
+  "sourceNotes": "Original synthesis from general knowledge of Sinek's well-documented framework (drawing on James Carse's finite/infinite games distinction) and the book's Just Cause criteria. Three short, widely-cited quotes included with attribution; no passages reproduced."
+}

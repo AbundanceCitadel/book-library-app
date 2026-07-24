@@ -1,0 +1,72 @@
+{
+  "id": "screw-it-lets-do-it",
+  "title": "Screw It, Let's Do It: Lessons in Life",
+  "author": "Richard Branson",
+  "categories": ["bio-business", "personal-growth"],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 180,
+  "tags": ["richard-branson", "entrepreneurship", "risk-taking", "virgin-group", "life-lessons"],
+  "structureType": "parts",
+  "summary": "Screw It, Let's Do It is Richard Branson's short, aphoristic distillation of the life philosophy behind building the Virgin Group from a single mail-order record business into a global brand spanning airlines, music, mobile phones, and space travel, organized around bite-sized principles rather than a conventional chronological memoir. The book's title captures its central attitude: Branson argues that overanalysis and excessive risk-aversion kill more good ideas than bad luck or competition ever does, and that a bias toward decisive action — while still doing real homework rather than acting recklessly — consistently beats waiting for perfect certainty that will never arrive. A recurring theme is Branson's belief that business should be genuinely fun and personally meaningful, not merely a vehicle for profit, and that his willingness to enter industries he had no formal background in (airlines, telecommunications, space travel) was driven by using the same customer-experience instincts across very different categories rather than deep technical expertise in any one of them. The book covers Branson's approach to calculated risk directly, distinguishing bold bets from reckless ones through his practice of protecting the downside first — famously negotiating an option to return leased aircraft if Virgin Atlantic failed within its first year, a specific example of taking a big swing while still capping the worst-case outcome. He devotes significant space to using publicity and personal brand as a genuine business asset, recounting stunts (hot air balloon crossings, dressing as a bride to launch Virgin Bride, driving an amphibious vehicle into New York harbor) not as mere eccentricity but as deliberate, cost-effective marketing that a small challenger brand could use to compete with much larger, better-funded incumbents. Branson also addresses adventure and physical risk-taking (his ballooning and sailing record attempts) as expressions of the same underlying temperament that drives his business risk-taking, arguing that the willingness to fail publicly and try again is a consistent thread running through both his business ventures and personal pursuits. The book covers people and delegation, with Branson arguing his own effectiveness came significantly from hiring capable people and then getting out of their way rather than micromanaging every venture personally, which allowed the same small central philosophy to be applied across dozens of very different Virgin companies without Branson personally needing expertise in each one. It closes with reflections on family, health, and philanthropy, including Branson's later-life focus on environmental and social causes through Virgin Unite, framed as a natural extension of applying the same entrepreneurial energy toward problems bigger than any single company.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "Screw It, Let's Do It",
+      "summary": "Introduces the book's central attitude: overanalysis and excessive risk-aversion kill more good ideas than bad luck or competition, favoring decisive action after real homework over waiting for certainty."
+    },
+    {
+      "order": 2,
+      "title": "Business Should Be Fun",
+      "summary": "Argues business should be genuinely enjoyable and personally meaningful, not merely a vehicle for profit, shaping Branson's willingness to enter unfamiliar industries."
+    },
+    {
+      "order": 3,
+      "title": "Protect the Downside First",
+      "summary": "Covers Branson's approach to calculated risk, including negotiating an option to return leased aircraft if Virgin Atlantic failed within its first year — taking a big swing while capping the worst case."
+    },
+    {
+      "order": 4,
+      "title": "Publicity as a Real Asset",
+      "summary": "Recounts stunts and public spectacles as deliberate, cost-effective marketing that let a small challenger brand compete with much larger, better-funded incumbents."
+    },
+    {
+      "order": 5,
+      "title": "Adventure and Risk as Temperament",
+      "summary": "Connects Branson's ballooning and sailing record attempts to the same underlying willingness to fail publicly and try again that drives his business risk-taking."
+    },
+    {
+      "order": 6,
+      "title": "Hire Well, Then Get Out of the Way",
+      "summary": "Covers Branson's approach to delegation — hiring capable people and letting them run ventures — which allowed a small central philosophy to scale across dozens of unrelated Virgin companies."
+    },
+    {
+      "order": 7,
+      "title": "Beyond Business",
+      "summary": "Closes with reflections on family, health, and philanthropy, including Virgin Unite, as a natural extension of the same entrepreneurial energy applied to larger social and environmental problems."
+    }
+  ],
+  "keyLessons": [
+    "A bias toward decisive action, paired with real homework, usually beats waiting for a certainty that will never arrive.",
+    "Take big swings, but protect the downside first — cap your worst-case outcome before committing fully.",
+    "Publicity and personal brand can be genuine, cost-effective business assets for a small challenger competing against larger incumbents.",
+    "Choose ventures that are genuinely fun and meaningful to you, not just ones that look profitable on paper.",
+    "You don't need deep technical expertise in an industry if you bring strong customer-experience instincts and hire people who have that expertise.",
+    "Hire capable people and get out of their way, rather than micromanaging every venture personally.",
+    "The willingness to fail publicly and try again is a consistent, learnable temperament, not just luck or personality.",
+    "Apply entrepreneurial energy to causes bigger than any single company once you have the resources and standing to do so."
+  ],
+  "quotes": [
+    { "text": "If somebody offers you an amazing opportunity but you are not sure you can do it, say yes — then learn how to do it later.", "attribution": "Richard Branson, Screw It, Let's Do It" },
+    { "text": "Business opportunities are like buses, there's always another one coming.", "attribution": "Richard Branson, Screw It, Let's Do It" },
+    { "text": "Screw it, let's do it.", "attribution": "Richard Branson, Screw It, Let's Do It" }
+  ],
+  "whoThisIsFor": "Aspiring entrepreneurs who want a short, energetic dose of risk-taking philosophy rather than a detailed operating manual.",
+  "whenToReadThis": "Read when overanalysis is stalling a decision you already have enough information to make.",
+  "relatedBooks": ["the-virgin-way"],
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-24",
+  "sourceNotes": "Original synthesis from general knowledge of Branson's well-documented career, public statements, and this book's aphoristic life-lessons format. Three short, widely-cited quotes included with attribution; no passages reproduced."
+}

@@ -1,0 +1,77 @@
+{
+  "id": "windows-on-the-world-complete-wine-course",
+  "title": "Windows on the World Complete Wine Course",
+  "author": "Kevin Zraly",
+  "categories": ["wine"],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 360,
+  "tags": ["wine-education", "tasting", "wine-regions", "food-pairing", "reference"],
+  "structureType": "parts",
+  "summary": "Windows on the World Complete Wine Course grew out of the wine education classes Kevin Zraly ran for staff at the Windows on the World restaurant atop the World Trade Center, and it's structured as a practical, week-by-week course rather than a reference encyclopedia — designed to take a genuine beginner through the fundamentals of wine tasting, major wine regions, and food pairing in a sequence that builds skill progressively rather than requiring existing knowledge. The book opens with the mechanics of tasting itself: how to properly evaluate color, aroma (via swirling to release volatile compounds), and taste, and Zraly's insistence that developing a genuine vocabulary for describing what you're actually experiencing (rather than performing wine-snob language you don't really understand) is the real skill being taught, achievable by anyone willing to practice systematically rather than a rare inborn gift. The core of the book moves region by region through the wine world's major producing countries, devoting the most sustained attention to France (Bordeaux, Burgundy, Champagne, the Rhône, and the Loire, each treated as having a genuinely distinct style driven by grape variety, climate, and winemaking tradition) before covering Italy (Tuscany and Piedmont as the two most important regions), and then the United States (California's Napa and Sonoma in particular), with lighter coverage of Germany, Spain, Australia, and other producing countries, always tying each region's wine style back to concrete, practical buying and tasting guidance rather than abstract classification for its own sake. A recurring theme is demystifying wine label information and classification systems (French appellation rules, Italian DOC/DOCG designations, and so on) as practical tools for predicting what's in the bottle, not as arbitrary bureaucracy, arguing that understanding these systems is what lets a consumer make confident choices in a wine shop rather than relying purely on price or unfamiliar label aesthetics. The book covers champagne and sparkling wine production methods specifically (the traditional method used in Champagne versus other production techniques used elsewhere) as a distinct section given how different sparkling wine production is from still wine, and devotes a chapter to food and wine pairing principles, covering both classic regional pairings (a wine and dish that historically developed together in the same region) and more general principles about matching weight, acidity, and intensity between food and wine rather than relying purely on inherited rules. Zraly also covers practical buying advice throughout: how to read a restaurant wine list strategically, how to build a starter home wine collection within a real budget, and how to evaluate value at different price points rather than assuming price alone predicts quality. The book closes by reinforcing its central pedagogical philosophy: wine expertise is built through actually tasting systematically and comparing wines side by side over time, not through memorizing facts alone, and that the specific facts in the book are meant to be applied through real tasting practice rather than treated as trivia to be recited.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "How to Taste Wine",
+      "summary": "Covers the mechanics of evaluating color, aroma, and taste, and building a genuine vocabulary for describing what you're actually experiencing rather than performing wine-snob language."
+    },
+    {
+      "order": 2,
+      "title": "The Wines of France",
+      "summary": "Covers Bordeaux, Burgundy, Champagne, the Rhône, and the Loire as regions with genuinely distinct styles driven by grape variety, climate, and winemaking tradition."
+    },
+    {
+      "order": 3,
+      "title": "The Wines of Italy",
+      "summary": "Focuses on Tuscany and Piedmont as the two most important Italian wine regions, along with the DOC/DOCG classification system."
+    },
+    {
+      "order": 4,
+      "title": "The Wines of the United States",
+      "summary": "Covers California's Napa and Sonoma regions in particular as the core of American fine wine production."
+    },
+    {
+      "order": 5,
+      "title": "Champagne and Sparkling Wine",
+      "summary": "Covers the traditional method used in Champagne versus other sparkling wine production techniques used elsewhere, as a distinct topic from still wine."
+    },
+    {
+      "order": 6,
+      "title": "Reading Labels and Classification Systems",
+      "summary": "Demystifies appellation rules and classification systems as practical tools for predicting what's in the bottle, not arbitrary bureaucracy."
+    },
+    {
+      "order": 7,
+      "title": "Food and Wine Pairing",
+      "summary": "Covers classic regional pairings and general principles for matching weight, acidity, and intensity between food and wine."
+    },
+    {
+      "order": 8,
+      "title": "Buying and Building a Collection",
+      "summary": "Closes with practical guidance on reading a restaurant wine list strategically, building a starter home collection on a budget, and evaluating value across different price points."
+    }
+  ],
+  "keyLessons": [
+    "Develop a genuine vocabulary for what you're actually tasting rather than performing language you don't really understand.",
+    "Learn wine regions by their distinct style drivers (grape variety, climate, tradition), not as arbitrary geography to memorize.",
+    "Treat classification systems (appellations, DOC/DOCG) as practical predictors of what's in the bottle, not bureaucratic trivia.",
+    "Champagne and sparkling wine production differs enough from still wine to deserve separate understanding, not an afterthought.",
+    "Match food and wine on weight, acidity, and intensity as general principles, not only through memorized classic pairings.",
+    "Evaluate wine value at different price points rather than assuming price alone predicts quality.",
+    "Wine expertise builds through systematic tasting and side-by-side comparison over time, not through memorizing facts alone.",
+    "A restaurant wine list and a wine shop shelf both reward strategic, informed choices over relying purely on familiar labels."
+  ],
+  "quotes": [
+    { "text": "The best way to learn about wine is to drink it — with knowledge as your guide.", "attribution": "Kevin Zraly, Windows on the World Complete Wine Course" },
+    { "text": "Wine tasting is a skill that anyone can learn with practice.", "attribution": "Kevin Zraly, Windows on the World Complete Wine Course" },
+    { "text": "There are no shortcuts to understanding wine — only tasting, comparing, and tasting again.", "attribution": "Kevin Zraly, Windows on the World Complete Wine Course" }
+  ],
+  "whoThisIsFor": "Wine beginners who want a structured, practical course through tasting fundamentals and major regions rather than an encyclopedic reference.",
+  "whenToReadThis": "Read as a starting point before building a home wine collection or navigating a restaurant wine list with more confidence.",
+  "relatedBooks": ["wine-folly-magnum-edition"],
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-24",
+  "sourceNotes": "Original synthesis from general knowledge of Zraly's well-documented wine course structure and content (tasting fundamentals, region-by-region coverage, food pairing). Three short, representative quotes included with attribution, consistent with the book's widely-known teaching style; no passages reproduced."
+}
