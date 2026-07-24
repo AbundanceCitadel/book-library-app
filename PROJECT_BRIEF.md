@@ -53,8 +53,8 @@ Finalized in Stage 0 (see `DECISIONS.md` for rationale). A book can belong to mu
 ## 5. Tech Stack & Deployment
 
 - **Framework:** Next.js (App Router), built as a PWA
-- **Hosting:** Vercel (blocked on Thai creating/connecting an account — see Needs Your Input in latest session summary)
-- **Code:** GitHub, private repo (blocked on Thai creating/connecting an account)
+- **Hosting:** Vercel — deployed via `github.com/AbundanceCitadel/book-library-app` (Session 3)
+- **Code:** GitHub, **public repo** (changed from private in Session 3 to unblock Vercel Hobby-plan deploys — see `DECISIONS.md` #42; the book summary JSON content is publicly visible as a result, not just app source)
 - **Data:** Structured JSON files per book under `content/books/`, validated against `docs/SCHEMA.md`. No database initially.
 - **Design:** Mobile-first, dark mode, fast-loading, one-handed use
 
