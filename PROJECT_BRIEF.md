@@ -59,6 +59,7 @@ Session 6 changes: split the original "Business" into Business / Marketing / Sal
 ## 5. Tech Stack & Deployment
 
 - **Framework:** Next.js (App Router), built as a PWA
+- **Live URL:** `https://library.abundancecitadel.app` (custom domain, added Session 9/confirmed live Session 10 — HTTPS cert was still provisioning as of Session 10, fall back to `https://book-library-app-abundance-citadel.vercel.app` if the custom domain isn't resolving yet)
 - **Hosting:** Vercel — deployed via `github.com/AbundanceCitadel/book-library-app` (Session 3)
 - **Code:** GitHub, **public repo** (changed from private in Session 3 to unblock Vercel Hobby-plan deploys — see `DECISIONS.md` #42; the book summary JSON content is publicly visible as a result, not just app source)
 - **Data:** Structured JSON files per book under `content/books/`, validated against `docs/SCHEMA.md`. No database initially.

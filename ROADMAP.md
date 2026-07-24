@@ -86,8 +86,8 @@ Scale to full catalogue, category by category.
 Favorites/bookmarks, read status, personal notes field (schema already supports this — Stage 0 decision #4).
 
 ### Stage 12 — Polish & QA
-**Status:** Not Started
-Cross-device testing, performance pass, accessibility check.
+**Status:** In Progress — pulled forward ahead of Stage 15 completion, 2026-07-25 (Session 10 pivot)
+Cross-device testing, performance pass, accessibility check. Thai asked to do this now, thoroughly, across every page/tab/template, so the app reaches a fully finished state before the remaining 58-book retrofit continues — see `docs/SESSION_11_CONTINUATION_PROMPT.md` and the Stage 15 pivot note below.
 
 ### Stage 13 — Launch
 **Status:** Not Started
@@ -98,7 +98,7 @@ Final deploy, custom domain (if desired), backup/export strategy.
 Document process for Thai to request new books going forward.
 
 ### Stage 15 — Design System & Content Model Overhaul (v2)
-**Status:** Design/schema/UI done, one example migrated. Thai answered the backfill question: **retrofit all 66 existing books to v2 depth**, pausing new content batches until that's done — 2026-07-24 (Session 8)
+**Status:** 8 of 66 books retrofitted. **Paused as of Session 10** — Thai asked to finish Stage 12 (full app/template/design polish pass) first, so the template is fully settled before retrofitting the remaining 58. See `docs/SESSION_11_CONTINUATION_PROMPT.md`.
 After reviewing the deployed app for the first time (Session 7 end-of-session pause), Thai gave detailed, specific feedback that the visual design is too plain and the content isn't deep enough, and asked for a full redesign pass before any more content batches. Full restructured spec was written to `docs/SESSION_8_CONTINUATION_PROMPT.md` for this session; summary of what he asked for:
 - **Design:** dark-mode-first (white text on dark background) as the primary look, not just a toggle state; a real contrasting accent palette (he floated orange+blue, blue+orange, or gold-on-dark, open to a better proposal); new typography; real paragraph spacing instead of dense text blocks; research real-world reading/book-app patterns (Kindle, Apple Books, Goodreads, Blinkist, etc.) first.
 - **Home page:** category list becomes collapsible/expandable sections (collapsed = name + book count, expanded = book list).
@@ -127,6 +127,8 @@ Picked up the Stage 15 retrofit next (alphabetical order, per `DECISIONS.md` #10
 **New sandbox limitation discovered this session, unrelated to the content work:** `npm run build` now crashes in this sandbox with `Next.js build worker exited with code: null and signal: SIGBUS` — confirmed via a minimal-repro test (a bare one-page Next app with no project code at all still crashes identically) that this is a sandbox-environment issue (most likely the SWC native compiler binary vs. this sandbox's nested-sandbox process/memory setup), not something introduced by this session's changes or the book content. Tried disabling `workerThreads`, pinning `cpus: 1`, and disabling the SWC minifier — none fixed it. Fell back to `npx tsc --noEmit`, which passed with zero errors (confirms the `Book` type shape and all new v2 fields type-check correctly across every file), combined with a Python JSON-parse pass confirming all 66 book files (including the 5 retrofitted this session) parse cleanly. This is a real gap versus the usual "clean `npm run build`" bar — flagged clearly rather than claiming full build verification — the actual build confirmation will need to come from Vercel's own build log once pushed, same pattern already established for the font-fetch gap (`DECISIONS.md` #89). Worth a future session checking whether this SIGBUS issue is still present before assuming the old `/tmp`-mirror build-verification workflow still works as documented.
 
 **Stage 15 running total: 8 of 66 books retrofitted to v2 depth** (Atomic Habits, Essentialism, The Lean Startup, Advanced Selling Strategies, All Marketers Are Liars, Being Peace, Buffett: The Making of an American Capitalist, Building a StoryBrand) — 58 remain. Also flagged: `essentialism.json`'s section 2 ("Explore") is still only 1 paragraph, not the full 3-paragraph v2 structure the other 3 sections in that file have — it was apparently missed in whatever earlier unfinished pass produced that file. Worth a quick fix next session rather than assuming Essentialism is fully done just because it's marked as one of the 8.
+
+**Stage 15 paused here, same session — pivot decided by Thai:** rather than continuing to retrofit books one batch at a time against a template that might still need changes, Thai asked to park the retrofit and instead do a full review/fix pass across the whole app — every page type, every tab, all templates and design — so that the app itself reaches a finished, "nothing left to tweak" state first. The explicit goal: once this pass is done, all future sessions should need to do is add/retrofit book content, with no more template or design changes required. This pulls Stage 12 (Polish & QA) forward, ahead of finishing Stage 15, and folds in Thai's own list of specific things he wants looked at (not yet captured in this doc — the next session should ask him directly rather than guess). Wrote `docs/SESSION_11_CONTINUATION_PROMPT.md` for the fresh chat that will execute this. Domain link recorded in `PROJECT_BRIEF.md` §5 this session too (`https://library.abundancecitadel.app`, HTTPS still pending as of this writing).
 
 ---
 
