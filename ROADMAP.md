@@ -17,8 +17,8 @@ Defined full JSON structure for a book entry in `docs/SCHEMA.md`. Built one full
 ### Stage 2 — Project Scaffold
 **Status:** Done (local) / Deploy in progress — 2026-07-24
 Next.js 14 App Router project scaffolded (TypeScript, Tailwind). Verified working end-to-end: `npm run build` produces 17 static pages with no errors, `npm start` correctly serves the homepage, category pages, and the Atomic Habits book detail page. ESLint deferred (see `DECISIONS.md` #8) — easy add-back later.
-Git repo re-initialized in Session 3 with one clean commit (35 files, Stages 0–5) after the previous `.git` became permanently corrupted (see `DECISIONS.md` #28, #31). Vercel connector confirmed live, `book-library-app` project confirmed created (see `DECISIONS.md` #33).
-**Still open:** push to GitHub (needs a fine-grained PAT from Thai — see session summary), then link the Vercel project to the GitHub repo (one manual step on vercel.com).
+Git repo re-initialized in Session 3 after the previous `.git` became permanently corrupted (see `DECISIONS.md` #28, #31, #39). Three clean commits pushed to `github.com/AbundanceCitadel/book-library-app` (`main` branch). Vercel connector confirmed live, `book-library-app` project confirmed created (see `DECISIONS.md` #33).
+**Still open:** link the Vercel project to the GitHub repo (one manual step on vercel.com — Vercel's connector is monitoring-only and can't do this itself), then verify the deploy.
 
 ### Stage 3 — Design System
 **Status:** Done — 2026-07-24
