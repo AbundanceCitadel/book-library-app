@@ -1,0 +1,66 @@
+{
+  "id": "never-eat-alone",
+  "title": "Never Eat Alone",
+  "author": "Keith Ferrazzi with Tahl Raz",
+  "categories": ["business", "personal-growth"],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 360,
+  "tags": ["networking", "relationships", "career", "generosity", "connection"],
+  "structureType": "parts",
+  "summary": "Never Eat Alone argues that career and business success is overwhelmingly a function of the depth and generosity of a person's relationships, not raw talent or credentials alone, and that most people fail at networking because they treat it as a transactional, occasional activity instead of a continuous practice of building genuine connection. Ferrazzi, drawing on his own path from a working-class background to becoming a well-connected executive, reframes networking away from its image as schmoozing or self-interested collecting of contacts, and toward what he calls 'relationship farming' — consistently helping people, sharing knowledge, and making introductions with no immediate ask, so that trust and reciprocity build up over years. His central operating principle is generosity first: give before you ask, connect people to each other without expecting direct credit, and think in terms of what value you can add to someone else's world rather than what you can extract from theirs. The book lays out concrete practices for turning this philosophy into a system: maintaining and actually using a real list of relationships (not just a stagnant contact database), following up promptly and specifically after meeting someone, finding ways to be genuinely useful (sharing an article, making an introduction, offering a skill) rather than defaulting to generic 'let's catch up' requests, and treating every interaction — from conferences to casual meals — as an opportunity to deepen a real connection rather than collect a business card. Ferrazzi is explicit that this requires vulnerability: asking for help is not weakness but an efficient way to build trust and let others feel useful, and pretending to be self-sufficient actually isolates people rather than making them look more competent. He also covers audience-building and personal branding as an extension of relationship-building at scale (through writing, speaking, and content), the discipline of following up systematically so relationships don't quietly decay, and the importance of finding and cultivating mentors as well as being one. A recurring theme is that the title itself is literal practical advice: treat meals, especially, as relationship-building opportunities rather than solitary breaks, since food is one of the oldest and most reliable contexts for real conversation. The book closes by tying all of this back to its central thesis — that a life and career built on genuinely helping a wide network of people, sustained over years, compounds into opportunities that no amount of individual talent or hustle can replicate alone.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "The Mindset",
+      "summary": "Introduces the reframe of networking as generous relationship-building rather than transactional self-promotion, and Ferrazzi's own background story as the origin of his belief in relationships as the primary career lever."
+    },
+    {
+      "order": 2,
+      "title": "The Skill Set",
+      "summary": "Covers concrete tactics: doing real research before meeting someone, following up promptly and specifically, becoming a 'connector' who introduces people to each other, and turning small talk into real conversation."
+    },
+    {
+      "order": 3,
+      "title": "Turning Connections Into Compounding Relationships",
+      "summary": "Discusses maintaining relationships over time (not just after an initial meeting), the importance of vulnerability and asking for help, finding mentors, and using shared meals and social settings deliberately as relationship-building contexts."
+    },
+    {
+      "order": 4,
+      "title": "Expanding Your Reach",
+      "summary": "Covers scaling relationship-building through conferences, public speaking, writing, and personal branding, plus the ethics of generosity at scale — helping many people without diluting authenticity."
+    }
+  ],
+  "keyLessons": [
+    "Give before you ask — offer value, introductions, or help with no immediate expectation of return.",
+    "Treat networking as a continuous practice, not an occasional activity you do only when job-hunting or fundraising.",
+    "Follow up after every meaningful interaction, promptly and with something specific, not a generic 'let's catch up.'",
+    "Become a connector — actively introduce people in your network to each other, not just to yourself.",
+    "Asking for help is a trust-building act, not a weakness; it lets others feel useful and deepens the relationship.",
+    "Turn meals and casual social settings into deliberate relationship-building opportunities instead of solitary breaks.",
+    "Maintain a real, living list of relationships and revisit it regularly so connections don't quietly decay.",
+    "Seek out mentors actively, and be willing to mentor others in turn — relationship-building runs in both directions."
+  ],
+  "quotes": [
+    {
+      "text": "Success in life is directly proportional to the number of uncomfortable conversations you're willing to have.",
+      "attribution": "Keith Ferrazzi, Never Eat Alone"
+    },
+    {
+      "text": "Your network is your net worth.",
+      "attribution": "Keith Ferrazzi, Never Eat Alone"
+    },
+    {
+      "text": "The currency of real networking is not greed but generosity.",
+      "attribution": "Keith Ferrazzi, Never Eat Alone"
+    }
+  ],
+  "whoThisIsFor": "Anyone whose career depends on relationships they haven't invested in yet — especially people who find networking events transactional or draining and want a more generosity-based approach.",
+  "whenToReadThis": "Read early in a career or business, or whenever a network feels thin and transactional, before a job search or business launch makes the gap urgent.",
+  "relatedBooks": [],
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-24",
+  "sourceNotes": "Original synthesis by Claude from general knowledge of the book's well-documented relationship-building framework. Three short verbatim quotes included with attribution per copyright policy; no chapter text reproduced."
+}

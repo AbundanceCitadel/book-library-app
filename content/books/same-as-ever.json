@@ -1,0 +1,76 @@
+{
+  "id": "same-as-ever",
+  "title": "Same As Ever: A Guide to What Never Changes",
+  "author": "Morgan Housel",
+  "categories": ["finance-investing", "philosophy-psychology"],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 250,
+  "tags": ["behavioral-finance", "risk", "human-nature", "history", "decision-making"],
+  "structureType": "chapters",
+  "summary": "Same As Ever argues that most forecasting and planning effort is misdirected — people spend enormous energy trying to predict what will change (interest rates, technology, markets, politics) when the far more useful and reliable exercise is studying what never changes: the stable, recurring patterns of human behavior that show up across every era regardless of the specific circumstances. Housel's central claim, building on his earlier work in The Psychology of Money, is that history doesn't repeat exactly but human nature does, and that greed, fear, overconfidence, the desire for a good story, and the tendency to extrapolate recent trends into the indefinite future have driven booms, busts, and bad decisions in remarkably similar ways across centuries — meaning the study of long-run patterns in human behavior is a more durable guide to the future than any specific prediction. Structured as a series of short, story-driven essays rather than a single continuous argument, the book repeatedly returns to a handful of core ideas: that risk is what you don't see coming (the biggest risks in any era are, almost by definition, the ones nobody was worried about, since the ones everyone is worried about get priced in or defended against), that small, unglamorous, compounding behaviors matter more over long periods than any single dramatic decision, and that people's expectations adapt to their circumstances faster than their circumstances actually change — meaning satisfaction is driven less by absolute conditions and more by the gap between expectations and reality, which is why more money or success doesn't reliably produce more contentment. Housel devotes significant attention to the role of luck and risk as two sides of the same coin in outcomes that get attributed entirely to skill or entirely to bad decisions, and argues for humility in judging both your own past decisions and other people's, since the line between a smart risk that paid off and a reckless one that didn't is often invisible in the moment and only obvious in hindsight. He also explores how every generation tends to believe its own era's problems are uniquely severe or its own innovations uniquely transformative, when in fact the pattern of technological anxiety, generational conflict, and cycles of optimism and pessimism has repeated with each new generation for as long as records exist. A recurring practical implication is that because human nature is the stable variable, strategies built around avoiding greed, managing fear, staying humble about prediction, and letting patience and consistency compound over time will keep working across very different specific circumstances — whereas strategies dependent on correctly predicting a specific future event are fragile by design. The book closes by tying these threads together into a broader case for calibrating expectations and behavior around durable truths about people rather than trying to out-forecast an inherently unpredictable world.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "The Little Things Compound",
+      "summary": "Argues that unglamorous, consistent behaviors accumulate into outsized results over long time horizons, while dramatic one-time decisions are overrated relative to their reputation."
+    },
+    {
+      "order": 2,
+      "title": "Risk Is What You Don't See",
+      "summary": "Explains why the risks that actually cause damage are usually the ones nobody was watching for, since widely anticipated risks tend to get priced in, hedged, or defended against in advance."
+    },
+    {
+      "order": 3,
+      "title": "Expectations and Reality",
+      "summary": "Explores how satisfaction depends more on the gap between expectations and circumstances than on absolute conditions, explaining why rising wealth or success doesn't reliably produce more contentment."
+    },
+    {
+      "order": 4,
+      "title": "Luck, Risk, and Hindsight",
+      "summary": "Argues luck and risk are inseparable in most outcomes, and that judging past decisions (your own or others') purely by their result, rather than by the quality of reasoning at the time, produces distorted lessons."
+    },
+    {
+      "order": 5,
+      "title": "Human Nature Doesn't Change",
+      "summary": "Surveys recurring patterns of greed, fear, storytelling, and generational anxiety across very different historical periods, arguing these stable behavioral patterns are more predictive than any specific forecast."
+    },
+    {
+      "order": 6,
+      "title": "Building Around What's Durable",
+      "summary": "Closes by arguing that strategies built on humility, patience, and managing behavior (rather than predicting specific future events) hold up across changing circumstances precisely because they target the stable variable — human nature — rather than the unpredictable one."
+    }
+  ],
+  "keyLessons": [
+    "Study what never changes about human behavior (greed, fear, storytelling, overconfidence) instead of trying to predict what will change next.",
+    "The most damaging risks are usually the ones nobody was watching for — widely-feared risks tend to already be priced in or defended against.",
+    "Small, consistent, unglamorous behaviors compound into larger results over time than any single dramatic decision.",
+    "Satisfaction depends on the gap between expectations and reality more than on absolute circumstances — manage expectations deliberately.",
+    "Judge past decisions by the quality of reasoning at the time, not purely by the outcome — luck and risk are inseparable, and hindsight distorts both.",
+    "Expect every era, including your own, to feel uniquely urgent or unprecedented — that feeling itself is a stable historical pattern, not a reliable signal.",
+    "Build financial and life strategies around durable truths about people, not around correctly forecasting a specific future event.",
+    "Stay humble about prediction; the more specific and confident a forecast, the more fragile it usually is."
+  ],
+  "quotes": [
+    {
+      "text": "Risk is what's left over after you think you've thought of everything else.",
+      "attribution": "Morgan Housel, Same As Ever"
+    },
+    {
+      "text": "Behavior is hard to teach, even to really smart people.",
+      "attribution": "Morgan Housel, Same As Ever"
+    },
+    {
+      "text": "Expectations and reality rarely line up, and when they don't, it's how you respond that matters.",
+      "attribution": "Morgan Housel, Same As Ever"
+    }
+  ],
+  "whoThisIsFor": "Investors and long-term planners who want a behavioral, humility-first complement to purely technical financial advice.",
+  "whenToReadThis": "Read when tempted to make a big decision based on a confident short-term prediction, or after a market swing (up or down) that's stirring strong emotional reactions.",
+  "relatedBooks": ["the-intelligent-investor", "thinking-fast-and-slow"],
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-24",
+  "sourceNotes": "Original synthesis by Claude from general knowledge of Housel's well-documented behavioral-finance essay collection. Three short verbatim quotes included with attribution per copyright policy; no chapter text reproduced."
+}

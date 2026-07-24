@@ -1,0 +1,86 @@
+{
+  "id": "mindset",
+  "title": "Mindset: The New Psychology of Success",
+  "author": "Dr. Carol S. Dweck",
+  "categories": ["personal-growth", "philosophy-psychology"],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 280,
+  "tags": ["psychology", "growth-mindset", "motivation", "parenting", "learning"],
+  "structureType": "chapters",
+  "summary": "Mindset presents decades of Carol Dweck's psychological research showing that people's beliefs about the nature of ability — whether talent and intelligence are fixed traits or qualities that can be developed — shape nearly every aspect of how they pursue goals, handle setbacks, and relate to failure. Dweck's central distinction is between a fixed mindset (the belief that intelligence, talent, and character are basically static, so every situation becomes a test of whether you 'have it' or not) and a growth mindset (the belief that abilities can be developed through effort, strategy, and help from others, so situations become opportunities to improve rather than to be judged). She argues these two mindsets produce systematically different behavior: people with a fixed mindset tend to avoid challenges (because failure would prove they lack ability), give up easily when facing obstacles, see effort as evidence of low talent rather than a path to mastery, ignore useful negative feedback, and feel threatened by the success of others. People with a growth mindset tend to embrace challenges, persist through setbacks, see effort as the very mechanism that builds mastery, learn actively from criticism, and find lessons and inspiration in others' success. Crucially, Dweck stresses that mindset is not a fixed personality trait either — everyone has some mixture of both, the balance can shift by domain (a person might have a growth mindset about their career but a fixed mindset about relationships), and it can be deliberately changed with the right kind of self-awareness and practice. The book applies this framework across several domains: business and leadership (contrasting fixed-mindset CEOs who need to be the smartest person in the room with growth-mindset leaders who build teams that outgrow them), sports (using examples like Michael Jordan's development through failure rather than pure natural talent), education (showing how praising a child's intelligence, 'you're so smart,' backfires by reinforcing a fixed mindset, while praising process and effort, 'you worked really hard on that,' builds a growth mindset), and relationships (arguing that a fixed mindset in relationships treats conflict as proof of incompatibility, while a growth mindset treats it as something to work through together). A significant portion of the book addresses parents, teachers, and coaches specifically, since Dweck's research shows mindset is heavily shaped — and can be reshaped — by the language and feedback adults give children, particularly around praise. The book closes with a practical section on changing your own mindset: recognizing your fixed-mindset triggers (situations that provoke defensiveness or a need to prove yourself), naming the internal 'fixed-mindset voice' when it appears, and consciously choosing growth-oriented responses until they become more automatic.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "The Mindsets",
+      "summary": "Introduces the fixed versus growth mindset distinction and the foundational research (including studies on children's responses to failure) that revealed how differently the two groups interpret challenge and setback."
+    },
+    {
+      "order": 2,
+      "title": "Inside the Mindsets",
+      "summary": "Explores how each mindset shapes what people consider 'success' and 'failure' in the first place — fixed mindset as validation-seeking, growth mindset as learning-seeking — and how effort is interpreted oppositely by each."
+    },
+    {
+      "order": 3,
+      "title": "The Truth About Ability and Accomplishment",
+      "summary": "Uses case studies from sports and other high-achievement domains to argue that sustained development, not raw initial talent, explains most exceptional accomplishment, and that a growth mindset is what sustains the necessary effort over time."
+    },
+    {
+      "order": 4,
+      "title": "Sports: The Mindset of a Champion",
+      "summary": "Examines athletes and coaches through the mindset lens, contrasting figures who treated setbacks as identity threats with those who treated them as information for improvement."
+    },
+    {
+      "order": 5,
+      "title": "Business: Mindset and Leadership",
+      "summary": "Applies the framework to CEOs and organizations, contrasting fixed-mindset leaders who need to appear infallible with growth-mindset leaders who build cultures of honest feedback and continuous improvement."
+    },
+    {
+      "order": 6,
+      "title": "Relationships: Mindsets in Love (or Not)",
+      "summary": "Explores how mindset shapes romantic relationships and friendships — whether conflict and a partner's flaws are read as proof of fundamental incompatibility or as normal, workable parts of a relationship that can grow."
+    },
+    {
+      "order": 7,
+      "title": "Parents, Teachers, and Coaches: Where Do Mindsets Come From?",
+      "summary": "Covers how adult praise and feedback shape children's mindsets, particularly the difference between praising innate ability ('you're so smart') and praising process ('you worked hard and found a good strategy')."
+    },
+    {
+      "order": 8,
+      "title": "Changing Mindsets",
+      "summary": "Offers a practical framework for shifting one's own mindset: identifying fixed-mindset triggers, recognizing the internal 'fixed-mindset voice,' and consciously practicing growth-oriented responses until they become habitual."
+    }
+  ],
+  "keyLessons": [
+    "Notice whether you're treating a challenge as a test of your worth (fixed mindset) or as an opportunity to develop (growth mindset).",
+    "Reframe effort as the mechanism of mastery, not evidence of low natural talent.",
+    "Seek out negative feedback deliberately — a growth mindset treats criticism as useful data, not a personal attack.",
+    "When praising others (especially children), praise process, strategy, and effort — not fixed traits like 'smart' or 'talented.'",
+    "Recognize that mindset varies by domain — you can have a growth mindset at work and a fixed one in relationships, so audit each area separately.",
+    "Treat setbacks and failure as information about what to try next, not as proof of a fixed identity or ceiling.",
+    "Notice your own 'fixed-mindset voice' in the moment (defensiveness, need to prove yourself) and consciously choose a growth-oriented response instead.",
+    "Build teams and relationships around growth — for leaders, that means creating a culture where mistakes are treated as learning, not liability."
+  ],
+  "quotes": [
+    {
+      "text": "In a fixed mindset, people believe their basic qualities, like their intelligence or talent, are simply fixed traits. In a growth mindset, people believe that their most basic abilities can be developed through dedication and hard work.",
+      "attribution": "Carol S. Dweck, Mindset"
+    },
+    {
+      "text": "Becoming is better than being.",
+      "attribution": "Carol S. Dweck, Mindset"
+    },
+    {
+      "text": "The passion for stretching yourself and sticking to it, even (or especially) when it's not going well, is the hallmark of the growth mindset.",
+      "attribution": "Carol S. Dweck, Mindset"
+    }
+  ],
+  "whoThisIsFor": "Anyone stuck avoiding challenges out of fear of failure, and parents, teachers, or managers who want to understand how their feedback shapes other people's relationship to effort and ability.",
+  "whenToReadThis": "Read when starting something difficult and unfamiliar, after a significant setback, or when giving regular feedback to children, students, or a team.",
+  "relatedBooks": ["essentialism"],
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-24",
+  "sourceNotes": "Original synthesis by Claude from general knowledge of Dweck's well-documented fixed/growth mindset research. Three short verbatim quotes included with attribution per copyright policy; no chapter text reproduced."
+}

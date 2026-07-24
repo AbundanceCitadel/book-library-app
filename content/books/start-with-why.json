@@ -1,0 +1,71 @@
+{
+  "id": "start-with-why",
+  "title": "Start With Why",
+  "author": "Simon Sinek",
+  "categories": ["business-strategy", "business"],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 260,
+  "tags": ["leadership", "purpose", "marketing", "the-golden-circle", "inspiration"],
+  "structureType": "parts",
+  "summary": "Start With Why argues that the most influential leaders and organizations — from Apple to Martin Luther King Jr. to the Wright Brothers — communicate and operate in a consistent but counterintuitive order: they start with why (their underlying purpose or belief), move to how (the process or values that bring that purpose to life), and only then explain what (the products, services, or actions that are the tangible proof of the why). Sinek calls this pattern the Golden Circle and argues most organizations do the opposite, leading with what they do because it's the easiest thing to describe, which produces communication that informs but rarely inspires. His core claim, grounded in an appeal to neuroscience, is that the 'why' and 'how' correspond to the limbic brain (responsible for feelings, trust, and decision-making) while the 'what' corresponds to the neocortex (responsible for rational, analytical thought and language) — meaning that when a message starts with why, it engages the part of the brain that drives loyalty and behavior, even though people can't always articulate why they feel loyal to it. Sinek uses this to explain why some organizations inspire deep customer and employee loyalty that outlasts price competition or product cycles, while others compete purely on features and price and are perpetually vulnerable to being undercut. A major throughline is the distinction between manipulation and inspiration as two different ways to influence behavior: manipulative tactics (price drops, promotions, fear, peer pressure, novelty) can drive a transaction but don't build loyalty and often cost more over time, while inspiration built on a clear why creates customers and employees who feel like true believers, not just buyers. The book applies the Golden Circle to leadership and hiring as much as marketing — arguing that the best organizations hire and promote people who already believe what the company believes, so the why becomes self-reinforcing rather than something imposed top-down. Sinek introduces the concept of the 'tipping point' in the diffusion of ideas, arguing that early adopters (the 'innovators' and 'early adopters' in adoption-curve terms) are drawn in by why, and their enthusiasm is what eventually pulls in the pragmatic majority — meaning organizations that try to appeal directly to the mainstream majority with rational feature-and-price arguments often struggle to ever cross that tipping point. Toward the end, the book addresses what happens when organizations lose touch with their why as they scale or as founders leave, and argues that clarity, discipline, and consistency in living out the why — not just stating it once in a mission statement — is what keeps an organization's original purpose alive through growth and leadership change.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "A World That Doesn't Start With Why",
+      "summary": "Establishes the problem: most companies and leaders default to explaining what they do, occasionally how, and rarely why — producing communication that fails to inspire even when the product is good."
+    },
+    {
+      "order": 2,
+      "title": "An Alternative Perspective",
+      "summary": "Introduces the Golden Circle (why, how, what) and the neuroscience argument connecting why/how to the limbic brain and what to the neocortex, explaining why why-driven communication builds trust and loyalty that fact-driven communication doesn't."
+    },
+    {
+      "order": 3,
+      "title": "Leaders Who Start With Why",
+      "summary": "Uses case studies (Apple, the Wright Brothers, Martin Luther King Jr., Southwest Airlines) to show how clarity of why, discipline in how, and consistency in what combine to build organizations and movements that inspire genuine loyalty."
+    },
+    {
+      "order": 4,
+      "title": "How a Why Becomes Reality",
+      "summary": "Covers hiring and building teams around people who already believe the organization's why, and how that internal alignment becomes the mechanism that keeps a why alive and consistent as an organization grows."
+    },
+    {
+      "order": 5,
+      "title": "The Biggest Challenge Is Success",
+      "summary": "Addresses how organizations drift from their founding why as they scale, and what it takes — mostly discipline and leadership clarity, not a new mission statement — to keep a why intact through growth, success, or a change in leadership."
+    }
+  ],
+  "keyLessons": [
+    "Lead with why (purpose) before how (process) and what (product) — in communication, hiring, and strategy alike.",
+    "People rarely buy what you do; they buy why you do it, and that loyalty is felt more than it's rationally articulated.",
+    "Distinguish manipulation (price, fear, promotions) from inspiration (a clear why) — manipulation can close a sale but rarely builds lasting loyalty.",
+    "Hire and promote people who already believe what your organization believes, not just people with the right skills.",
+    "Early adopters are won over by why; the pragmatic majority follows their lead, not the reverse — don't market to the middle first.",
+    "State your why clearly, but the real proof is consistency between why, how, and what over time.",
+    "As an organization scales, actively protect its original why — growth and success are the most common ways it quietly erodes.",
+    "Use the Golden Circle as a diagnostic: if your communication only ever describes what you do, that's a sign the why has gone missing."
+  ],
+  "quotes": [
+    {
+      "text": "People don't buy what you do; they buy why you do it.",
+      "attribution": "Simon Sinek, Start With Why"
+    },
+    {
+      "text": "Very few people or companies can clearly articulate WHY they do WHAT they do.",
+      "attribution": "Simon Sinek, Start With Why"
+    },
+    {
+      "text": "The goal is not to do business with everybody who needs what you have. The goal is to do business with people who believe what you believe.",
+      "attribution": "Simon Sinek, Start With Why"
+    }
+  ],
+  "whoThisIsFor": "Leaders, marketers, and founders who feel like they're competing purely on price or features and want a framework for building genuine loyalty instead.",
+  "whenToReadThis": "Read when defining or re-clarifying an organization's mission, or when growth has started to feel disconnected from the original reason the company or project existed.",
+  "relatedBooks": ["good-to-great"],
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-24",
+  "sourceNotes": "Original synthesis by Claude from general knowledge of the book's well-documented Golden Circle framework. Three short verbatim quotes included with attribution per copyright policy; no chapter text reproduced."
+}

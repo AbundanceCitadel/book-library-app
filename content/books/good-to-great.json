@@ -1,0 +1,86 @@
+{
+  "id": "good-to-great",
+  "title": "Good to Great",
+  "author": "Jim Collins",
+  "categories": ["business-strategy"],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 320,
+  "tags": ["strategy", "leadership", "research", "companies", "discipline"],
+  "structureType": "chapters",
+  "summary": "Good to Great is the result of a multi-year research project by Jim Collins and his team, screening thousands of public companies to find a small set that made a sustained leap from average performance to returns dramatically outpacing the market for at least fifteen years, and holding that performance afterward — then comparing each of those companies to a similar competitor that never made the leap, to isolate what actually caused the difference. Collins's central claim is that the leap from good to great is not driven by charismatic visionary leadership, a brilliant strategic bet, revolutionary technology, or dramatic change programs — the comparison companies often had these too — but by a specific, disciplined combination of leadership, people, and process applied with unusual consistency over a long period. The book's first major finding is Level 5 Leadership: the leaders of great companies combined deep personal humility (rarely seeking the spotlight, deflecting credit to others and to luck) with fierce professional will (an unrelenting resolve to do whatever it takes for the company's long-term success), a combination Collins argues is rare and counter to the celebrity-CEO model most people associate with great leadership. The second finding, 'First Who, Then What,' argues that great companies get the right people on the bus (and the wrong people off) before they figure out where the bus is going — because with the right people, the problem of motivation and direction mostly solves itself. The book introduces the Stockdale Paradox, named for prisoner-of-war Admiral Jim Stockdale, as the discipline of confronting the brutal facts of a company's current reality while retaining unwavering faith that it will prevail in the end — a balance Collins found consistently in great-company leaders and consistently missing in the comparison companies, who tended toward either false optimism or paralysis. The Hedgehog Concept describes finding the single overlapping intersection of what a company can be the best in the world at, what drives its economic engine, and what its people are deeply passionate about — and then relentlessly simplifying strategy around that intersection rather than diversifying into everything the company could plausibly do. Collins also covers a 'culture of discipline' (disciplined people, disciplined thought, disciplined action, which reduces the need for hierarchy and bureaucratic control), the use of technology as an accelerator only after these foundations are in place (not as a primary cause of transformation), and the 'flywheel' metaphor — great transformations don't happen through one dramatic push but through consistent effort in a single direction, each turn building on the last until momentum becomes unstoppable, in contrast to the 'doom loop' where companies lurch between unrelated initiatives without ever building sustained momentum.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "Good Is the Enemy of Great",
+      "summary": "Frames the research question (why do some companies make a sustained leap to greatness while similar peers don't) and the methodology of comparing 'good-to-great' companies against matched comparison companies over a fifteen-year performance window."
+    },
+    {
+      "order": 2,
+      "title": "Level 5 Leadership",
+      "summary": "Introduces the combination of personal humility and fierce professional will found in the leaders of every good-to-great company, contrasted with the celebrity-CEO model common in the comparison companies."
+    },
+    {
+      "order": 3,
+      "title": "First Who ... Then What",
+      "summary": "Argues great companies assemble the right team before deciding on strategy — getting the right people on the bus, the wrong people off, and the right people in the right seats — rather than motivating an existing team around a new vision."
+    },
+    {
+      "order": 4,
+      "title": "Confront the Brutal Facts (Yet Never Lose Faith)",
+      "summary": "Introduces the Stockdale Paradox: maintaining unwavering faith in eventual success while honestly confronting the worst facts of current reality, and building a culture where truth can surface (through red-flag mechanisms and genuine dialogue) rather than being filtered by hierarchy."
+    },
+    {
+      "order": 5,
+      "title": "The Hedgehog Concept",
+      "summary": "Defines the intersection of what you can be best in the world at, what drives your economic engine, and what you're deeply passionate about — and argues great companies relentlessly simplify strategy around this single intersection."
+    },
+    {
+      "order": 6,
+      "title": "A Culture of Discipline",
+      "summary": "Explains how disciplined people, disciplined thought, and disciplined action reduce the need for bureaucracy and hierarchy — freedom and responsibility within a clear framework, not command-and-control."
+    },
+    {
+      "order": 7,
+      "title": "Technology Accelerators",
+      "summary": "Argues technology alone never causes a good-to-great transformation; great companies use carefully selected technologies as accelerators of momentum already created by leadership, people, and strategy."
+    },
+    {
+      "order": 8,
+      "title": "The Flywheel and the Doom Loop",
+      "summary": "Describes sustained transformation as the cumulative effect of many consistent pushes in one direction (the flywheel), contrasted with the 'doom loop' of companies that lurch between disconnected programs and never build momentum."
+    }
+  ],
+  "keyLessons": [
+    "Get the right people on the team before deciding on strategy — the right people make direction-setting easier, not harder.",
+    "Combine personal humility with fierce professional resolve rather than chasing a charismatic, spotlight-seeking leadership style.",
+    "Confront the brutal facts of your current situation honestly while keeping unwavering faith you'll ultimately prevail (the Stockdale Paradox).",
+    "Build mechanisms that let bad news surface early rather than get filtered or softened by hierarchy.",
+    "Find the intersection of what you can be best at, what drives your economics, and what you're genuinely passionate about — then simplify around it.",
+    "Sustained greatness comes from consistent effort in one direction over time, not a single dramatic initiative.",
+    "Use technology as an accelerator of existing momentum, not as a substitute for the harder work of getting people and strategy right.",
+    "Discipline in people, thought, and action reduces the need for bureaucracy — it doesn't require more rules, it requires the right people holding themselves to a clear standard."
+  ],
+  "quotes": [
+    {
+      "text": "Good is the enemy of great.",
+      "attribution": "Jim Collins, Good to Great"
+    },
+    {
+      "text": "Those who build great companies understand that the ultimate throttle on growth for any great company is not markets, or technology, or competition, or products. It is one thing above all others: the ability to get and keep enough of the right people.",
+      "attribution": "Jim Collins, Good to Great"
+    },
+    {
+      "text": "Retain absolute faith that you can and will prevail in the end, regardless of the difficulties, and at the same time confront the most brutal facts of your current reality, whatever they might be.",
+      "attribution": "Jim Collins, Good to Great, describing the Stockdale Paradox"
+    }
+  ],
+  "whoThisIsFor": "Leaders and strategists trying to move an organization from stable-but-average performance to genuinely exceptional, sustained results.",
+  "whenToReadThis": "Read when setting long-term strategy, building a leadership team, or diagnosing why past change initiatives fizzled out instead of compounding.",
+  "relatedBooks": ["start-with-why", "zero-to-one"],
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-24",
+  "sourceNotes": "Original synthesis by Claude from general knowledge of the book's well-documented research findings (Level 5 Leadership, Hedgehog Concept, Stockdale Paradox, flywheel). Three short verbatim quotes included with attribution per copyright policy; no chapter text reproduced."
+}

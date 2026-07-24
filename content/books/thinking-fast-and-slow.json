@@ -1,0 +1,71 @@
+{
+  "id": "thinking-fast-and-slow",
+  "title": "Thinking, Fast and Slow",
+  "author": "Daniel Kahneman",
+  "categories": ["philosophy-psychology"],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 500,
+  "tags": ["psychology", "behavioral-economics", "cognitive-bias", "decision-making", "heuristics"],
+  "structureType": "parts",
+  "summary": "Thinking, Fast and Slow synthesizes decades of Nobel Prize-winning research by Daniel Kahneman (much of it with Amos Tversky) into a single organizing model of the mind: two systems that drive how people think and decide. System 1 is fast, automatic, intuitive, and effortless — it recognizes faces, completes the phrase 'bread and...', and reacts to a sudden loud noise without any deliberate thought. System 2 is slow, deliberate, effortful, and rule-based — it's what activates when solving 22 × 17 or filling out a tax form, and it's also lazier than most people assume, frequently endorsing System 1's fast intuitive answer without real scrutiny. Kahneman's central argument is that most of the systematic errors in human judgment come not from stupidity or lack of information but from System 1 generating fast, confident, intuitive answers to hard questions by unconsciously substituting an easier related question — and System 2 too often accepting that substitute answer without checking it. The book catalogs the specific heuristics and biases this produces: the availability heuristic (judging likelihood by how easily examples come to mind, which distorts risk perception toward vivid, memorable events over statistically common ones), anchoring (being pulled toward an initial number even when it's arbitrary or irrelevant), the representativeness heuristic (judging probability by resemblance to a stereotype rather than by actual base rates, famously illustrated by the 'Linda problem'), and overconfidence born from WYSIATI — 'what you see is all there is' — the mind's tendency to construct a coherent, confident story from whatever limited information is available rather than accounting for what it doesn't know. A major section covers prospect theory, the framework Kahneman and Tversky developed to replace the classical economic assumption that people are rational utility-maximizers: people evaluate outcomes as gains or losses relative to a reference point rather than in absolute terms, losses loom roughly twice as large psychologically as equivalent gains (loss aversion), and people's risk preferences flip depending on whether a choice is framed as a gain or a loss — leading to systematically different decisions depending on how mathematically identical options are presented. The book also introduces the distinction between the 'experiencing self' (who lives each moment) and the 'remembering self' (who evaluates an experience afterward based heavily on its peak intensity and how it ended, largely ignoring duration — the 'peak-end rule'), which explains why people's memories of an experience and their real-time experience of it can diverge sharply, and why people sometimes choose based on the remembering self's distorted account rather than what would actually maximize their well-being. Kahneman closes by acknowledging the limits of debiasing — System 1 cannot simply be turned off, and awareness of a bias doesn't reliably prevent it in the moment — but argues that organizations and individuals can still improve decisions by building in deliberate checks, like premortems and structured decision processes, that give System 2 a real chance to catch System 1's errors before they become costly.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "Two Systems",
+      "summary": "Introduces System 1 (fast, automatic, intuitive) and System 2 (slow, effortful, deliberate) as the book's organizing model, and the key finding that System 2 is often too lazy to check System 1's fast intuitive answers."
+    },
+    {
+      "order": 2,
+      "title": "Heuristics and Biases",
+      "summary": "Catalogs the specific mental shortcuts System 1 uses and where they systematically fail: the availability heuristic, anchoring, the representativeness heuristic, and WYSIATI ('what you see is all there is') as the root of overconfidence."
+    },
+    {
+      "order": 3,
+      "title": "Overconfidence",
+      "summary": "Explores how the mind constructs confident, coherent narratives from incomplete information, why experts are frequently overconfident in their predictions, and the illusion of skill in fields like stock-picking where outcomes are mostly noise."
+    },
+    {
+      "order": 4,
+      "title": "Choices",
+      "summary": "Introduces prospect theory as an alternative to classical rational-choice economics: people evaluate gains and losses relative to a reference point, losses loom larger than equivalent gains (loss aversion), and framing changes decisions even when the underlying options are mathematically identical."
+    },
+    {
+      "order": 5,
+      "title": "Two Selves",
+      "summary": "Distinguishes the experiencing self from the remembering self, introduces the peak-end rule (memories of an experience are dominated by its peak and its ending, not its duration), and explores the gap between real-time well-being and remembered well-being."
+    }
+  ],
+  "keyLessons": [
+    "Recognize that a fast, confident answer to a hard question is often System 1 substituting an easier question — pause before trusting it on anything consequential.",
+    "Be wary of the availability heuristic — vivid or recent examples feel more probable than they statistically are.",
+    "Watch for anchoring: an irrelevant first number can measurably shift your later judgment, even when you know it's arbitrary.",
+    "Remember that losses feel roughly twice as painful as equivalent gains feel good — this loss aversion distorts risk decisions in predictable ways.",
+    "Notice how framing changes decisions — the same choice described as a gain versus a loss can produce opposite preferences.",
+    "Be skeptical of confident expert predictions in low-validity environments (like picking stocks) where outcomes are mostly noise.",
+    "Distinguish what you'll actually experience from what you'll remember — the 'remembering self' overweights an experience's peak and ending, not its duration.",
+    "Build in deliberate structure (like a premortem, or asking 'what would have to be true') to give deliberate thinking a real chance to catch fast, intuitive errors."
+  ],
+  "quotes": [
+    {
+      "text": "Nothing in life is as important as you think it is, while you are thinking about it.",
+      "attribution": "Daniel Kahneman, Thinking, Fast and Slow"
+    },
+    {
+      "text": "A reliable way to make people believe in falsehoods is frequent repetition, because familiarity is not easily distinguished from truth.",
+      "attribution": "Daniel Kahneman, Thinking, Fast and Slow"
+    },
+    {
+      "text": "We can be blind to the obvious, and we are also blind to our blindness.",
+      "attribution": "Daniel Kahneman, Thinking, Fast and Slow"
+    }
+  ],
+  "whoThisIsFor": "Anyone who makes consequential judgment calls under uncertainty — investors, managers, doctors, or just people who want to understand why their own confident snap judgments are sometimes wrong.",
+  "whenToReadThis": "Read slowly, in parts, whenever making a high-stakes decision — especially useful to revisit before a major financial, hiring, or strategic call.",
+  "relatedBooks": ["the-intelligent-investor"],
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-24",
+  "sourceNotes": "Original synthesis by Claude from general knowledge of Kahneman's well-documented research (System 1/2, heuristics and biases, prospect theory, peak-end rule). Three short verbatim quotes included with attribution per copyright policy; no chapter text reproduced."
+}

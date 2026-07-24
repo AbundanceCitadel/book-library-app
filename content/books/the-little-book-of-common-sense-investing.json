@@ -1,0 +1,81 @@
+{
+  "id": "the-little-book-of-common-sense-investing",
+  "title": "The Little Book of Common Sense Investing",
+  "author": "John C. Bogle",
+  "categories": ["finance-investing"],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 280,
+  "tags": ["index-funds", "passive-investing", "fees", "vanguard", "long-term-investing"],
+  "structureType": "chapters",
+  "summary": "The Little Book of Common Sense Investing lays out John Bogle's core argument, developed over his career founding Vanguard and creating the first index mutual fund available to individual investors: that the simplest, lowest-cost investment strategy — buying and holding a broad, low-fee index fund that tracks the entire market — reliably outperforms the vast majority of actively managed funds over long time horizons, despite seeming too simple to be a serious strategy. Bogle's central mathematical argument is what he calls the 'relentless rules of humble arithmetic': before costs, the return of all investors as a group must equal the market's return, since collectively investors are the market — so after costs (management fees, trading costs, taxes from frequent turnover), the average actively managed dollar must underperform the market by roughly the amount of those costs, meaning the aggregate of all active investors as a group is mathematically destined to lose to a low-cost index fund over time, not by bad luck but by definition. He walks through decades of data showing that a large majority of actively managed funds fail to beat their benchmark index over long periods, and that the funds that do outperform in any given period are rarely the same ones that outperform in the next, making it extremely difficult to identify market-beating fund managers in advance rather than just after the fact through hindsight. A major theme is the corrosive, compounding effect of costs: a seemingly small annual expense ratio difference (1% versus 0.1%, for example) compounds over decades into a dramatically different final portfolio value, since fees are deducted regardless of market performance and compound against the investor exactly the way returns compound for them. Bogle is skeptical of the entire narrative that skilled stock-picking or market-timing is a reliable, repeatable source of outperformance for either professional fund managers or individual investors, arguing instead that the odds overwhelmingly favor simply owning the whole market cheaply and staying invested through its inevitable ups and downs rather than trying to outguess it. The book also addresses behavioral pitfalls that undermine even well-intentioned investors — performance-chasing (buying a fund after a strong run, right when it's most likely to revert), excessive trading driven by short-term news or emotion, and the temptation to abandon a sound long-term strategy during a downturn — arguing that the discipline to simply stay the course in a low-cost index fund is itself a significant source of the strategy's advantage. Bogle closes by extending the argument to funds beyond stocks (a similar logic applies to actively managed bond funds) and by making an ethical case alongside the mathematical one: that the investment industry's fee structures often benefit fund managers and intermediaries more than the end investor, and that indexing, by minimizing those costs, aligns an investor's interests with their own outcomes rather than the industry's revenue.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "A Parable / The Relentless Rules of Humble Arithmetic",
+      "summary": "Introduces the core mathematical argument: before costs, investors as a group earn the market return by definition, so after costs the average actively managed dollar must underperform a low-cost index fund tracking the same market."
+    },
+    {
+      "order": 2,
+      "title": "Cast Your Lot with Business",
+      "summary": "Argues the case for owning a broad stake in the productive output of businesses generally (via a total market index) rather than trying to pick individual winners."
+    },
+    {
+      "order": 3,
+      "title": "How Most Investors Turn a Winner's Game Into a Loser's Game",
+      "summary": "Covers how costs, taxes from frequent trading, and behavioral mistakes (performance-chasing, panic-selling) erode what would otherwise be a favorable long-run return from simply owning the market."
+    },
+    {
+      "order": 4,
+      "title": "The Grand Illusion — Fund Performance and Manager Selection",
+      "summary": "Presents long-run data showing most actively managed funds fail to beat their benchmark, and that past outperformance is a poor predictor of future outperformance, undermining the case for picking funds based on recent track record."
+    },
+    {
+      "order": 5,
+      "title": "The Tyranny of Compounding Costs",
+      "summary": "Demonstrates how small differences in annual fees compound dramatically over decades, since costs compound against an investor's balance the same way returns compound in their favor."
+    },
+    {
+      "order": 6,
+      "title": "Selecting Long-Term Winners / Bond Funds",
+      "summary": "Extends the indexing argument to fixed-income funds and revisits the broader case for a simple, diversified, low-cost strategy across asset classes rather than active selection anywhere in a portfolio."
+    },
+    {
+      "order": 7,
+      "title": "Simplicity and the Wisdom of Common Sense",
+      "summary": "Closes by arguing the simplest strategy — buy the whole market cheaply, hold for decades, don't chase performance — beats the far more complex strategies the investment industry has an incentive to sell."
+    }
+  ],
+  "keyLessons": [
+    "Before costs, all investors collectively earn the market's return — after costs, the average actively managed dollar must underperform a low-cost index by roughly the amount of fees paid.",
+    "A seemingly small difference in annual fees compounds into a dramatically different outcome over decades — costs compound against you the same way returns compound for you.",
+    "Past fund outperformance is a poor predictor of future outperformance; today's winning fund manager is rarely tomorrow's.",
+    "Owning a broad, low-cost index fund and holding it for the long term has historically beaten the majority of actively managed alternatives.",
+    "Avoid performance-chasing — buying a fund right after a strong run is often buying right before it reverts toward average.",
+    "Resist the urge to trade frequently based on short-term news; turnover creates costs and taxes that erode returns.",
+    "Staying invested through market downturns, rather than panic-selling, is itself a significant source of a simple strategy's long-run advantage.",
+    "Simplicity is a genuine investment edge — a strategy doesn't need to be complex to be effective, and complexity often just adds cost."
+  ],
+  "quotes": [
+    {
+      "text": "Don't look for the needle in the haystack. Just buy the haystack!",
+      "attribution": "John C. Bogle, The Little Book of Common Sense Investing"
+    },
+    {
+      "text": "In investing, you get what you don't pay for.",
+      "attribution": "John C. Bogle, The Little Book of Common Sense Investing"
+    },
+    {
+      "text": "Time is your friend; impulse is your enemy.",
+      "attribution": "John C. Bogle, The Little Book of Common Sense Investing"
+    }
+  ],
+  "whoThisIsFor": "Individual investors evaluating whether to pick stocks or actively managed funds versus a simpler low-cost indexing strategy.",
+  "whenToReadThis": "Read before choosing an investment strategy or fund lineup, or whenever tempted to chase a recently outperforming fund or manager.",
+  "relatedBooks": ["the-intelligent-investor", "same-as-ever"],
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-24",
+  "sourceNotes": "Original synthesis by Claude from general knowledge of Bogle's well-documented indexing argument and Vanguard-era data on fund performance. Three short verbatim quotes included with attribution per copyright policy; no chapter text reproduced."
+}

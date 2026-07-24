@@ -1,0 +1,61 @@
+{
+  "id": "mans-search-for-meaning",
+  "title": "Man's Search for Meaning",
+  "author": "Viktor E. Frankl",
+  "categories": ["philosophy-psychology"],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 200,
+  "tags": ["meaning", "psychology", "resilience", "holocaust", "logotherapy"],
+  "structureType": "parts",
+  "summary": "Man's Search for Meaning is Viktor Frankl's account of surviving three years in Nazi concentration camps, including Auschwitz, combined with the psychological and philosophical framework he developed from that experience — logotherapy. The book's first part is a spare, unsentimental memoir of daily life in the camps, tracing the psychological stages Frankl observed in himself and fellow prisoners: the initial shock of arrival, a period of relative emotional numbness that allowed prisoners to endure horrors that would otherwise be unbearable, and, for those who survived to liberation, a difficult and sometimes disorienting process of psychological re-entry into ordinary life. Frankl's central observation, drawn directly from this experience, is that even in conditions of total physical deprivation and constant threat of death, prisoners retained one freedom that could not be taken from them: the freedom to choose their attitude toward their circumstances and to find meaning even in suffering. He observed that prisoners who maintained a sense of purpose — a person waiting for them, unfinished work, or simply a reason to keep going — were measurably more likely to survive than those who lost all sense of future meaning, and that hope and meaning functioned almost as psychologically protective as physical resources like food. This observation forms the foundation of logotherapy, the therapeutic approach Frankl developed and describes in the book's second part, which holds that the primary human drive is not pleasure (as in Freudian psychology) or power (as in Adlerian psychology) but meaning — the 'will to meaning.' Frankl argues that meaning cannot be invented or willed into existence abstractly; it must be discovered, and it is always specific to a particular person's concrete situation, changing from moment to moment and person to person, so the real question is never 'what is the meaning of life' in the abstract but what meaning life is asking of you, right now, in your specific circumstances. He identifies three primary paths to meaning: through creative work or accomplishment, through experiencing something or someone fully (love being the most powerful example), and — crucially, since it's the only path available in extreme suffering — through the attitude one chooses to take toward unavoidable suffering itself. This last point is the book's most radical claim: suffering, when it cannot be avoided, can itself become meaningful if faced with the right attitude, which is why Frankl insists that meaning is available even to someone who has lost everything else. The book closes by extending this framework beyond the camps to an 'existential vacuum' Frankl observed increasingly in modern, comfortable societies — people with every material need met but no sense of purpose, which he saw as a widespread source of depression, apathy, and addiction, treatable not by removing more discomfort but by helping a person discover what their specific life is asking of them.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "Experiences in a Concentration Camp",
+      "summary": "Frankl's firsthand account of the three psychological phases of camp life — shock on arrival, emotional numbness during imprisonment, and the disorienting process of psychological re-entry after liberation — and his observations on what distinguished prisoners who retained hope from those who didn't."
+    },
+    {
+      "order": 2,
+      "title": "Logotherapy in a Nutshell",
+      "summary": "Lays out logotherapy as a psychological framework centered on the 'will to meaning' rather than pleasure or power, and the three paths to meaning: creative work, deeply experiencing something or someone, and the attitude taken toward unavoidable suffering."
+    },
+    {
+      "order": 3,
+      "title": "The Case for a Tragic Optimism",
+      "summary": "Added in later editions, this section addresses how meaning and a form of optimism remain possible even in the face of pain, guilt, and death — the 'tragic triad' — without minimizing or romanticizing suffering itself."
+    }
+  ],
+  "keyLessons": [
+    "The one freedom that can never be taken away is the freedom to choose your attitude toward whatever circumstances you face.",
+    "A sense of purpose or unfinished meaning — a person, a task, a reason to continue — is strongly protective, even under extreme conditions.",
+    "Don't ask 'what is the meaning of life' in the abstract; ask what meaning your specific life, right now, is asking of you.",
+    "Meaning can be found through creative work, through fully experiencing love or connection, or through the attitude taken toward unavoidable suffering.",
+    "Suffering that cannot be avoided can still become meaningful, depending on the stance you take toward it — this doesn't require suffering to be sought out or welcomed.",
+    "A life with every comfort but no sense of purpose can still produce a deep 'existential vacuum' — comfort alone doesn't resolve the need for meaning.",
+    "Meaning is discovered in concrete, specific circumstances, not invented abstractly or borrowed wholesale from someone else's answer.",
+    "Psychological resilience under hardship is less about denying the difficulty and more about locating something worth enduring it for."
+  ],
+  "quotes": [
+    {
+      "text": "Everything can be taken from a man but one thing: the last of the human freedoms — to choose one's attitude in any given set of circumstances, to choose one's own way.",
+      "attribution": "Viktor E. Frankl, Man's Search for Meaning"
+    },
+    {
+      "text": "Those who have a 'why' to live, can bear with almost any 'how'.",
+      "attribution": "Viktor E. Frankl, Man's Search for Meaning"
+    },
+    {
+      "text": "When we are no longer able to change a situation, we are challenged to change ourselves.",
+      "attribution": "Viktor E. Frankl, Man's Search for Meaning"
+    }
+  ],
+  "whoThisIsFor": "Anyone going through a period of genuine hardship, loss, or purposelessness who wants a framework grounded in lived extremity rather than abstract self-help.",
+  "whenToReadThis": "Read during or after a difficult period — grief, illness, major setback — or any time life feels comfortable but purposeless.",
+  "relatedBooks": [],
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-24",
+  "sourceNotes": "Original synthesis by Claude from general knowledge of Frankl's memoir and logotherapy framework. Three short verbatim quotes included with attribution per copyright policy; no chapter text reproduced."
+}

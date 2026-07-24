@@ -1,0 +1,111 @@
+{
+  "id": "the-art-of-war",
+  "title": "The Art of War",
+  "author": "Sun Tzu",
+  "categories": ["philosophy-psychology", "business-strategy"],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 90,
+  "tags": ["strategy", "military-philosophy", "classical-philosophy", "leadership", "competition"],
+  "structureType": "chapters",
+  "summary": "The Art of War is an ancient Chinese military treatise, traditionally attributed to the general and strategist Sun Tzu, that presents warfare not primarily as a contest of brute force but as a discipline of positioning, information, timing, and psychology, where the highest form of victory is winning without fighting at all. Its central premise is that war is a matter of vital importance to the state and must never be entered lightly, and that success is determined less by the battle itself than by the preparation, calculation, and positioning that happen before it — Sun Tzu's famous claim that victorious warriors win first and then go to war, while defeated warriors go to war first and then seek to win. A recurring theme across the text is the primacy of knowledge: knowing yourself and your opponent (the source of the widely paraphrased principle that a commander who knows both will never be in danger in a hundred battles), understanding terrain and its five kinds of ground, and using deception, misdirection, and speed to attack where the enemy is unprepared and avoid where they are strong. Sun Tzu treats conflict as fundamentally about exploiting imbalance — striking weakness with strength, forcing an opponent to divide or exhaust their resources, and shaping the conditions of a confrontation so favorably in advance that the actual engagement becomes almost a formality. The text also addresses leadership and the qualities a commander needs (wisdom, sincerity, benevolence, courage, and discipline), the danger of prolonged campaigns (arguing that even a mediocre quick resolution is preferable to a brilliant but drawn-out one, since long wars exhaust a state's resources and morale regardless of eventual outcome), and the use of espionage and information-gathering as one of the most cost-effective tools available to a commander. Several chapters address the psychology of troops and opponents directly: maintaining morale, exploiting an enemy's fear or overconfidence, and the strategic value of appearing weak when strong and strong when weak. Though written as military doctrine roughly 2,500 years ago, the text's enduring appeal — and its adoption far outside military contexts, into business strategy, sports, negotiation, and law — comes from its treatment of any competitive situation as fundamentally about information asymmetry, positioning, timing, and the discipline to avoid unnecessary, costly confrontations whenever a more favorable path is available.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "Laying Plans",
+      "summary": "Establishes war as a matter of vital state importance requiring careful calculation beforehand across five constant factors (the moral law, heaven, earth, the commander, and method/discipline), and introduces the use of deception to shape an opponent's expectations."
+    },
+    {
+      "order": 2,
+      "title": "Waging War",
+      "summary": "Warns against prolonged campaigns, arguing the costs of a long war — financial, material, and in morale — usually outweigh even a strong eventual victory, and that speed matters more than brilliance."
+    },
+    {
+      "order": 3,
+      "title": "Attack by Stratagem",
+      "summary": "Introduces the principle that the best victory is winning without fighting, ranks strategies from best to worst (frustrating the enemy's plans, disrupting alliances, attacking the army, besieging cities as a last resort), and states the famous know-yourself-and-know-your-enemy principle."
+    },
+    {
+      "order": 4,
+      "title": "Tactical Dispositions",
+      "summary": "Covers securing your own position against defeat first, before seeking opportunities for victory, and distinguishes defensive and offensive posture as functions of relative strength."
+    },
+    {
+      "order": 5,
+      "title": "Energy",
+      "summary": "Discusses using timing, momentum, and the coordinated combination of direct and indirect approaches to create decisive force at the right moment rather than relying on raw numbers."
+    },
+    {
+      "order": 6,
+      "title": "Weak Points and Strong",
+      "summary": "Explains exploiting an opponent's weaknesses while avoiding their strengths, forcing them to divide their forces or react on your terms, and maintaining flexibility rather than committing to a rigid plan."
+    },
+    {
+      "order": 7,
+      "title": "Maneuvering",
+      "summary": "Covers the risks and advantages of direct versus indirect routes to an objective, and the challenge of turning disadvantageous starting positions into advantageous ones through disciplined movement."
+    },
+    {
+      "order": 8,
+      "title": "Variation in Tactics",
+      "summary": "Argues a good commander must adapt standard principles to specific, changing circumstances rather than applying rules mechanically, and lists dangerous character flaws (recklessness, cowardice, a quick temper, delicacy of honor, over-solicitude) that an opponent can exploit."
+    },
+    {
+      "order": 9,
+      "title": "The Army on the March",
+      "summary": "Gives practical guidance on reading terrain, enemy behavior, and battlefield signs to anticipate an opponent's intentions and avoid unfavorable positions."
+    },
+    {
+      "order": 10,
+      "title": "Terrain",
+      "summary": "Classifies types of ground and the tactics suited to each, reinforcing that a commander's understanding of physical terrain is inseparable from sound strategic decision-making."
+    },
+    {
+      "order": 11,
+      "title": "The Nine Situations",
+      "summary": "Expands the terrain analysis into nine strategic situations an army may find itself in, with guidance for maintaining cohesion and morale specific to each, including desperate ground where troops fight hardest because retreat isn't an option."
+    },
+    {
+      "order": 12,
+      "title": "The Attack by Fire",
+      "summary": "Covers the specific use of fire as a weapon and the broader principle that a ruler or commander should never act out of anger or wounded pride — decisions should always serve calculated advantage, not emotion."
+    },
+    {
+      "order": 13,
+      "title": "The Use of Spies",
+      "summary": "Argues foreknowledge gained through espionage is the most valuable and cost-effective resource available to a commander, and categorizes five types of spies and how to use them."
+    }
+  ],
+  "keyLessons": [
+    "Prepare and position so thoroughly beforehand that the actual confrontation becomes close to a formality — the goal is to win before fighting.",
+    "Know yourself and your opponent equally well; most strategic failure comes from an information gap on one side or the other.",
+    "Avoid prolonged conflicts — even an imperfect quick resolution usually beats a drawn-out, resource-draining victory.",
+    "Attack where an opponent is weak or unprepared, and avoid direct confrontation with their strength.",
+    "Stay adaptable; rigid adherence to a fixed plan is a liability once circumstances change.",
+    "Secure your own position against failure first, then look for genuine opportunities to win — don't gamble your foundation for a chance at victory.",
+    "Never let anger or wounded pride drive a decision; act only on calculated advantage.",
+    "Invest in good information (in Sun Tzu's terms, espionage) — it's consistently one of the highest-leverage resources available."
+  ],
+  "quotes": [
+    {
+      "text": "The supreme art of war is to subdue the enemy without fighting.",
+      "attribution": "Sun Tzu, The Art of War"
+    },
+    {
+      "text": "If you know the enemy and know yourself, you need not fear the result of a hundred battles.",
+      "attribution": "Sun Tzu, The Art of War"
+    },
+    {
+      "text": "In the midst of chaos, there is also opportunity.",
+      "attribution": "Sun Tzu, The Art of War"
+    }
+  ],
+  "whoThisIsFor": "Anyone navigating sustained competition — in business, negotiation, or any high-stakes rivalry — who wants a framework built on positioning and information rather than direct confrontation.",
+  "whenToReadThis": "Read before entering a competitive or adversarial situation where preparation and timing will matter more than raw effort in the moment.",
+  "relatedBooks": ["good-to-great"],
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-24",
+  "sourceNotes": "Original synthesis by Claude from general knowledge of the classical text's well-documented structure and widely-known principles. Three short verbatim quotes (commonly rendered this way across standard English translations) included with attribution per copyright policy; no extended passage reproduced."
+}

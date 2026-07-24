@@ -1,0 +1,81 @@
+{
+  "id": "the-intelligent-investor",
+  "title": "The Intelligent Investor",
+  "author": "Benjamin Graham",
+  "categories": ["finance-investing"],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 600,
+  "tags": ["value-investing", "stocks", "risk-management", "margin-of-safety", "graham"],
+  "structureType": "chapters",
+  "summary": "The Intelligent Investor lays out Benjamin Graham's foundational philosophy of value investing, built on the core premise that intelligent investing is not about predicting the market or outsmarting other investors on information, but about disciplined analysis, patience, and — above all — protecting yourself from your own psychology. Graham's central metaphor, Mr. Market, personifies the stock market as an emotionally erratic business partner who shows up daily offering to buy or sell shares at wildly different prices depending on his mood — sometimes euphoric, sometimes despondent — and Graham's argument is that the intelligent investor's job is never to be swayed by Mr. Market's moods, but to take advantage of them: buying when he's irrationally pessimistic and offering low prices, ignoring or selling when he's irrationally euphoric. From this comes Graham's most famous principle, the margin of safety — always buying a security for meaningfully less than a conservative estimate of its intrinsic value, so that even if your analysis is somewhat wrong or conditions turn unfavorable, there's enough of a buffer to avoid serious loss. The book draws a sharp distinction between investment and speculation, arguing an operation is only truly an investment if, upon thorough analysis, it promises safety of principal and an adequate return — anything else, regardless of how it's marketed, is speculation, and Graham insists there's nothing wrong with speculating as long as an investor is honest with themselves about which one they're doing and never speculates with money they can't afford to lose. A major structural theme is Graham's distinction between the 'defensive' investor (who wants a simple, low-maintenance portfolio requiring minimal effort and decision-making, for whom Graham recommends a fixed stock/bond allocation, broad diversification, and a mechanical approach to avoid emotional decisions) and the 'enterprising' investor (who is willing to put in substantially more time and effort in exchange for potentially better returns through more active security selection, but only if that added effort is genuinely matched by genuine analytical skill and discipline). Graham is skeptical of most investors' ability to reliably outperform the market through active stock-picking or market-timing, and much of the book's guidance is really about avoiding costly mistakes — overpaying for growth stories, following market trends or hot tips, trying to time market cycles — rather than finding brilliant opportunities. The book, particularly through Warren Buffett's added commentary in later editions, repeatedly returns to two core rules that Graham considered the whole foundation of sound investing: the idea that a stock represents fractional ownership of a real business, so its analysis should start with the business's fundamentals rather than its price chart, and the idea that temperament — patience, discipline, and the ability to think independently of the crowd — matters more to long-term investment success than intellect or technical sophistication.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "Investment versus Speculation",
+      "summary": "Establishes Graham's core definitional distinction: a true investment requires analysis promising safety of principal and adequate return; anything else is speculation, which isn't wrong but must be recognized honestly for what it is."
+    },
+    {
+      "order": 2,
+      "title": "The Investor and Inflation",
+      "summary": "Covers how inflation affects real investment returns and Graham's early treatment of how stocks and bonds each respond differently to inflationary periods."
+    },
+    {
+      "order": 3,
+      "title": "A Century of Stock Market History",
+      "summary": "Reviews long-run historical stock market behavior to caution against both excessive pessimism and excessive optimism about future returns based on any single recent period."
+    },
+    {
+      "order": 4,
+      "title": "General Portfolio Policy — The Defensive Investor",
+      "summary": "Lays out Graham's recommendations for the defensive investor: simple fixed stock/bond allocations, broad diversification, and avoiding active decision-making that invites emotional error."
+    },
+    {
+      "order": 5,
+      "title": "Portfolio Policy for the Enterprising Investor",
+      "summary": "Covers the more active approach available to investors willing to do significant extra work, with Graham's repeated caution that added effort only pays off if matched by genuine skill and discipline — otherwise it's better to default to the defensive approach."
+    },
+    {
+      "order": 6,
+      "title": "The Investor and Market Fluctuations",
+      "summary": "Introduces the Mr. Market allegory — the market as an emotionally erratic business partner offering daily prices — and argues the intelligent investor exploits Mr. Market's moods rather than being ruled by them."
+    },
+    {
+      "order": 7,
+      "title": "Margin of Safety as the Central Concept of Investment",
+      "summary": "Presents Graham's central principle: always buy with a meaningful gap between price and conservatively estimated intrinsic value, so analytical errors or bad luck don't translate directly into serious loss."
+    }
+  ],
+  "keyLessons": [
+    "Distinguish investment from speculation honestly — an investment requires analysis promising safety of principal and adequate return; anything else is speculation, which is fine only if you know that's what it is.",
+    "Always buy with a margin of safety — a meaningful gap between price paid and a conservative estimate of intrinsic value.",
+    "Treat the market's daily price swings (Mr. Market) as an opportunity to exploit, not a signal to follow emotionally.",
+    "A stock is fractional ownership in a real business — analyze the business's fundamentals, not just its price chart.",
+    "If you're a defensive investor, keep your approach simple and mechanical: fixed allocation, broad diversification, minimal active decision-making.",
+    "If you're an enterprising investor doing more active analysis, make sure your extra effort is matched by genuine skill — otherwise the defensive approach will likely serve you better.",
+    "Investment success depends more on temperament (patience, discipline, independence from crowd sentiment) than on intellect or technical sophistication.",
+    "Be skeptical of your own ability to reliably time the market or pick winners; most costly mistakes come from overconfidence, not lack of information."
+  ],
+  "quotes": [
+    {
+      "text": "The intelligent investor is a realist who sells to optimists and buys from pessimists.",
+      "attribution": "Benjamin Graham, The Intelligent Investor"
+    },
+    {
+      "text": "In the short run, the market is a voting machine but in the long run, it is a weighing machine.",
+      "attribution": "Benjamin Graham, The Intelligent Investor"
+    },
+    {
+      "text": "The investor's chief problem — and even his worst enemy — is likely to be himself.",
+      "attribution": "Benjamin Graham, The Intelligent Investor"
+    }
+  ],
+  "whoThisIsFor": "Anyone investing their own money who wants a rigorous, temperament-first framework rather than market-timing or trend-following strategies.",
+  "whenToReadThis": "Read before building an investment strategy, and reread during periods of market euphoria or panic when emotional discipline matters most.",
+  "relatedBooks": ["thinking-fast-and-slow", "the-little-book-of-common-sense-investing", "same-as-ever"],
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-24",
+  "sourceNotes": "Original synthesis by Claude from general knowledge of Graham's well-documented value investing framework (Mr. Market, margin of safety, defensive vs. enterprising investor). Three short verbatim quotes included with attribution per copyright policy; no chapter text reproduced."
+}

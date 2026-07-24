@@ -1,0 +1,66 @@
+{
+  "id": "essentialism",
+  "title": "Essentialism: The Disciplined Pursuit of Less",
+  "author": "Greg McKeown",
+  "categories": ["personal-growth"],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 260,
+  "tags": ["focus", "productivity", "prioritization", "boundaries", "decision-making"],
+  "structureType": "parts",
+  "summary": "Essentialism argues that the default state of modern professional life — saying yes to almost everything, chasing every opportunity, trying to do it all — is not a sign of ambition but a trap that guarantees mediocre results across many things instead of excellent results on the few that actually matter. McKeown's core claim is that 'if you don't prioritize your life, someone else will,' and that the antidote is essentialism: the disciplined, systematic pursuit of less but better, built on the premise that almost everything is noise and only a vital few things are truly essential. He contrasts this with what he calls the 'nonessentialist' pattern of thinking — believing you can do it all, that everything is important, that every opportunity must be evaluated on its own merits — which leads to a reactive life spent responding to other people's priorities. The essentialist mindset instead insists on three core beliefs: that you always have a choice (even when it doesn't feel that way), that almost everything is noise while only a few things are truly essential, and that you genuinely cannot do it all, so the real skill is choosing well. Practically, the book lays out a process: Explore (deliberately creating space to think, question, and play so you can distinguish the vital few from the trivial many, rather than reacting to whatever is loudest), Eliminate (ruthlessly cutting the nonessential — including good opportunities, not just bad ones — using tools like a 90% rule, where if something isn't at least a 90-out-of-100 'yes,' it's a no), and Execute (building systems, buffers, and routines that make doing the essential things nearly effortless, rather than relying on willpower in the moment). A recurring theme is the discomfort of essentialism: saying no to good opportunities feels wrong in the moment, especially to people-pleasers or high achievers used to being the person who can handle anything, and McKeown spends significant time on scripts and reframes for declining requests gracefully without guilt. He also introduces the idea of protecting 'slack' — deliberate buffer and margin in schedules and plans — as essential rather than wasteful, since unplanned problems are inevitable and a life run at 100% capacity has no room to absorb them. The book closes by connecting essentialism to identity: consistently choosing the vital few over the trivial many isn't just a productivity tactic, it's how a person's life comes to reflect their actual values and contribution rather than an accumulation of other people's requests.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "Essence — What Is the Core Mind-set of an Essentialist?",
+      "summary": "Introduces the essentialist versus nonessentialist framing and the three core beliefs (you have a choice, almost everything is noise, you can't do it all) that separate the two ways of operating."
+    },
+    {
+      "order": 2,
+      "title": "Explore — How Can We Distinguish the Vital Few From the Trivial Many?",
+      "summary": "Covers creating deliberate space for thinking, observing, and even play before deciding what's essential, since reactive busyness crowds out the reflection needed to identify what actually matters."
+    },
+    {
+      "order": 3,
+      "title": "Eliminate — How Can We Cut Out the Trivial Many?",
+      "summary": "Introduces tools for saying no, including the 90% rule for evaluating opportunities and specific scripts for declining requests, and argues eliminating good options (not just bad ones) is essential's hardest and most necessary skill."
+    },
+    {
+      "order": 4,
+      "title": "Execute — How Can We Make Doing the Vital Few Almost Effortless?",
+      "summary": "Covers building buffers, routines, and systems (including protecting deliberate 'slack' in schedules) so that essential priorities get done reliably rather than depending on willpower or last-minute effort."
+    }
+  ],
+  "keyLessons": [
+    "If you don't deliberately prioritize your own life, other people's requests will do it for you by default.",
+    "Treat most opportunities as noise; reserve full effort for the vital few that pass a high bar (McKeown's 90% rule: if it's not a clear yes, it's a no).",
+    "Eliminating good options, not just bad ones, is the hard and necessary part of essentialism.",
+    "Build in deliberate slack and buffer time — a fully packed schedule has no room to absorb the inevitable unplanned problem.",
+    "Create space to explore and think before committing to what's essential; busyness itself crowds out the judgment needed to prioritize well.",
+    "Say no to requests using clear, prepared language rather than improvising in the moment under social pressure.",
+    "Build routines and systems around your essential priorities so they happen automatically, not through willpower alone.",
+    "Recognize that doing less, but better, produces more meaningful contribution than doing more things adequately."
+  ],
+  "quotes": [
+    {
+      "text": "If you don't prioritize your life, someone else will.",
+      "attribution": "Greg McKeown, Essentialism"
+    },
+    {
+      "text": "The way of the Essentialist means living by design, not by default.",
+      "attribution": "Greg McKeown, Essentialism"
+    },
+    {
+      "text": "Only once you give yourself permission to stop trying to do it all, to stop saying yes to everyone, can you make your highest contribution towards the things that really matter.",
+      "attribution": "Greg McKeown, Essentialism"
+    }
+  ],
+  "whoThisIsFor": "Overcommitted professionals or people-pleasers who say yes to too much and end up spread thin across many mediocre efforts instead of a few excellent ones.",
+  "whenToReadThis": "Read when feeling overwhelmed by competing demands, or before a new season (a new job, quarter, or year) where priorities need to be reset deliberately.",
+  "relatedBooks": ["mindset"],
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-24",
+  "sourceNotes": "Original synthesis by Claude from general knowledge of the book's well-documented Explore/Eliminate/Execute framework. Three short verbatim quotes included with attribution per copyright policy; no chapter text reproduced."
+}
