@@ -1,6 +1,11 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getAllBooks, getBookById, CATEGORY_LABELS } from "@/lib/books";
+import {
+  getAllBooks,
+  getBookById,
+  getRelatedBooksInfo,
+  CATEGORY_LABELS,
+} from "@/lib/books";
 import Badge from "@/app/components/Badge";
 import BookTabs from "@/app/components/BookTabs";
 
@@ -17,6 +22,7 @@ const LANGUAGE_LABELS: Record<string, string> = {
 export default function BookPage({ params }: { params: { id: string } }) {
   const book = getBookById(params.id);
   if (!book) notFound();
+  const relatedBooksInfo = getRelatedBooksInfo(book.relatedBooks);
 
   return (
     <main className="mx-auto max-w-2xl px-4 py-8 sm:px-6">
@@ -43,7 +49,7 @@ export default function BookPage({ params }: { params: { id: string } }) {
       </div>
 
       <div className="mt-6">
-        <BookTabs book={book} />
+        <BookTabs book={book} relatedBooksInfo={relatedBooksInfo} />
       </div>
     </main>
   );

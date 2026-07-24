@@ -108,7 +108,7 @@ teal (secondary):
 Category icons stay emoji-based (Stage 3 decision, unchanged) — the accent pair is
 for UI chrome (buttons, active states, links, tags), not a per-category color code.
 
-## Typography — new in v2
+## Typography — v2, updated Session 9
 
 Two font roles, both **self-hosted via `next/font/google`** (build-time download,
 zero runtime CDN request, zero layout-shift since `next/font` inlines `font-display`
@@ -118,34 +118,37 @@ and size-adjust metrics automatically):
   excellent legibility at small sizes (nav, badges, metadata, tab labels) and
   because it's purpose-built for screens, not print — a meaningfully different feel
   from the default OS font stack Thai found "very normal."
-- **Reading content — Newsreader.** Replaces the Stage 3 system-serif (Georgia)
-  stack. Newsreader is a Google Font explicitly designed for on-screen long-form
-  reading (originally commissioned for Google News' reading surfaces) — literary
-  and warm without being a generic "web Georgia," and it's built to hold up at the
-  smaller sizes a phone screen forces on body text. Applied via `.prose-reading` in
-  `globals.css`, unchanged in concept from Stage 3, new font underneath.
+- **Reading content — Literata.** Session 8 originally shipped Newsreader here;
+  Session 9 swapped it for **Literata** after Thai found Newsreader harder to read
+  on his phone. Literata is the font Google built specifically for Play Books'
+  on-screen reading surfaces — higher x-height, optimized for small/medium sizes,
+  and holds up better on lower-DPI phone screens than a typical thin/high-contrast
+  serif. Weights pinned to 400/500/600 (never lighter) so body text never renders
+  in a thin, hard-to-read weight. Applied via `.prose-reading` in `globals.css`.
 
 ```
-Scale (unchanged structure from Stage 3, still Tailwind defaults):
+Scale (Session 9 readability pass bumped body text off Tailwind's default scale):
   Page title (h1)      text-2xl sm:text-3xl font-semibold   (Inter)
   Section heading      text-lg font-semibold                (Inter)
   Tab label            text-sm font-medium                  (Inter)
-  Body / reading text  text-base leading-relaxed             (Newsreader, via .prose-reading)
+  Body / reading text  17px / line-height 1.8 (.prose-reading, Literata)
   UI label / metadata  text-xs sm:text-sm                    (Inter)
 ```
 
-### Paragraph spacing (new)
+### Paragraph spacing (new in v2, bumped again in Session 9)
 
 The single biggest content-formatting complaint: dense unbroken text blocks (e.g.
 the whole-book summary rendered as one `whitespace-pre-line` paragraph). Fixed at
 the rendering layer, not just the content layer: any long-form field that contains
 multiple logical paragraphs (`summary`, each `sections[].summary`, `authorBio.bio`)
 is now split on blank lines and rendered as separate `<p>` tags inside
-`.prose-reading`, with `.prose-reading p + p { margin-top: 1.25em }` in
-`globals.css` — real visual breathing room between paragraphs instead of relying on
-a single pre-wrapped whitespace blob. This also means content going forward should
-be *written* with real paragraph breaks (blank line between paragraphs in the JSON
-string), not as one long sentence run — see `docs/CONTENT_PIPELINE.md`.
+`.prose-reading` (see `lib/paragraphs.ts`). `.prose-reading p + p { margin-top: 1.6em }`
+in `globals.css` — Session 8 shipped this at `1.25em`; Session 9 bumped it to `1.6em`
+after Thai flagged that paragraphs still read as visually stuck together on a small
+phone screen, especially now that several books have 3-paragraph sections. This also
+means content going forward should be *written* with real paragraph breaks (blank
+line between paragraphs in the JSON string), not as one long sentence run — see
+`docs/CONTENT_PIPELINE.md`.
 
 ## Dark / Light Mode — v2 behavior change
 

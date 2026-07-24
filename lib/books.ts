@@ -109,6 +109,22 @@ export function getBookById(id: string): Book | undefined {
   return getAllBooks().find((b) => b.id === id);
 }
 
+// v2 polish pass (Stage 12): BookTabs' Related Books list used to render the
+// raw relatedBooks id/slug (e.g. "atomic-habits") as the link text instead of
+// the actual title. Resolves each id to {id, title} here so the UI can show
+// real titles, and silently drops any id that doesn't match a written book
+// (e.g. a relatedBooks reference added before its target was retrofitted/
+// written yet) rather than rendering a dead link with a raw slug for text.
+export function getRelatedBooksInfo(
+  relatedIds: string[]
+): { id: string; title: string }[] {
+  const all = getAllBooks();
+  return relatedIds
+    .map((id) => all.find((b) => b.id === id))
+    .filter((b): b is Book => Boolean(b))
+    .map((b) => ({ id: b.id, title: b.title }));
+}
+
 export const CATEGORY_LABELS: Record<string, string> = {
   business: "Business",
   marketing: "Marketing",

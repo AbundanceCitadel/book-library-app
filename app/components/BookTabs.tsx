@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
 import type { Book, Quote } from "@/lib/books";
 import { splitParagraphs } from "@/lib/paragraphs";
 import Badge from "./Badge";
@@ -27,7 +28,13 @@ function groupQuotesByCategory(quotes: Quote[]): Record<string, Quote[]> {
   }, {});
 }
 
-export default function BookTabs({ book }: { book: Book }) {
+export default function BookTabs({
+  book,
+  relatedBooksInfo,
+}: {
+  book: Book;
+  relatedBooksInfo: { id: string; title: string }[];
+}) {
   const [active, setActive] = useState<TabKey>("summary");
 
   useEffect(() => {
@@ -86,18 +93,18 @@ export default function BookTabs({ book }: { book: Book }) {
                 <p className="prose-reading mt-2 text-sm">{book.whenToReadThis}</p>
               </div>
             </div>
-            {book.relatedBooks.length > 0 && (
+            {relatedBooksInfo.length > 0 && (
               <div className="mt-8 border-t border-border pt-6">
                 <h2 className="text-lg font-semibold">Related Books</h2>
                 <ul className="mt-3 space-y-1">
-                  {book.relatedBooks.map((relId) => (
-                    <li key={relId}>
-                      <a
-                        href={`/book/${relId}`}
+                  {relatedBooksInfo.map((rel) => (
+                    <li key={rel.id}>
+                      <Link
+                        href={`/book/${rel.id}`}
                         className="tap-target text-sm text-teal-400 hover:underline"
                       >
-                        {relId}
-                      </a>
+                        {rel.title}
+                      </Link>
                     </li>
                   ))}
                 </ul>

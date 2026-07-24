@@ -11,7 +11,11 @@
 // CACHE_VERSION must be bumped whenever precached content should be
 // refreshed — there's no build-time asset hashing wired into this file
 // (no bundler plugin), so it's a manual bump. See DECISIONS.md.
-const CACHE_VERSION = "v1";
+// Bumped to v2 in the Stage 12 polish pass: app icons and manifest.json's
+// theme_color/background_color were updated from the old v1 amber/white
+// scheme to the v2 dark palette. Cache-first means anyone with the old SW
+// already active would otherwise keep serving the stale icon bytes forever.
+const CACHE_VERSION = "v2";
 const CACHE_NAME = `book-library-${CACHE_VERSION}`;
 
 const PRECACHE_URLS = [
