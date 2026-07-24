@@ -15,9 +15,10 @@ Finalized category taxonomy (12 categories, language as filter), confirmed JSON-
 Defined full JSON structure for a book entry in `docs/SCHEMA.md`. Built one fully worked example book (`content/books/atomic-habits.json`) as the reference template, using original synthesis per the copyright policy.
 
 ### Stage 2 — Project Scaffold
-**Status:** Done (local) / Blocked (deploy) — 2026-07-24
-Next.js 14 App Router project scaffolded (TypeScript, Tailwind). Verified working end-to-end: `npm run build` produces 17 static pages with no errors, `npm start` correctly serves the homepage, category pages, and the Atomic Habits book detail page. Git repo initialized locally with one clean commit (18 files). ESLint deferred (see `DECISIONS.md` #8) — easy add-back later.
-**Blocked on:** GitHub account connection (to push/host the private repo) and Vercel account connection (to deploy). See session summary "Needs Your Input."
+**Status:** Done (local) / Deploy in progress — 2026-07-24
+Next.js 14 App Router project scaffolded (TypeScript, Tailwind). Verified working end-to-end: `npm run build` produces 17 static pages with no errors, `npm start` correctly serves the homepage, category pages, and the Atomic Habits book detail page. ESLint deferred (see `DECISIONS.md` #8) — easy add-back later.
+Git repo re-initialized in Session 3 with one clean commit (35 files, Stages 0–5) after the previous `.git` became permanently corrupted (see `DECISIONS.md` #28, #31). Vercel connector confirmed live, `book-library-app` project confirmed created (see `DECISIONS.md` #33).
+**Still open:** push to GitHub (needs a fine-grained PAT from Thai — see session summary), then link the Vercel project to the GitHub repo (one manual step on vercel.com).
 
 ### Stage 3 — Design System
 **Status:** Done — 2026-07-24
