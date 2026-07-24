@@ -1,0 +1,76 @@
+{
+  "id": "the-millionaire-next-door",
+  "title": "The Millionaire Next Door: The Surprising Secrets of America's Wealthy",
+  "author": "Thomas J. Stanley & William D. Danko",
+  "categories": ["finance-investing"],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 330,
+  "tags": ["personal-finance", "wealth-building", "frugality", "research"],
+  "structureType": "chapters",
+  "summary": "Based on decades of survey research and interviews with actual American millionaires, Stanley and Danko's central finding directly contradicts the popular image of wealth: most millionaires don't look rich, don't live in the most expensive houses on the block, don't drive luxury cars, and often work in unglamorous, ordinary businesses like scrap metal dealing, welding contracting, or running a pest control company. The authors distinguish sharply between two profiles they call UAWs (Under Accumulators of Wealth) and PAWs (Prodigious Accumulators of Wealth) — people with the same income can end up with wildly different net worth depending on whether they consistently spend a large share of what they earn to maintain a high-status lifestyle (UAWs) or consistently live well below their means and direct the difference into savings and investments (PAWs). They introduce a simple net-worth benchmark: multiply your age by your pretax annual income, divide by 10 — that's roughly what your net worth should be if you're accumulating wealth at an expected rate for your income and age; anything meaningfully below that is a warning sign of under-accumulation regardless of how impressive the lifestyle looks from outside. The book's recurring finding is that visible, high-status consumption (expensive cars, large mortgaged houses, private schools, designer goods) and actual wealth accumulation are often inversely related, since money spent maintaining appearances is money that can't compound. Real millionaires in their research overwhelmingly share habits: they live in homes well below what they could technically afford, they budget carefully and know precisely what they spend in major categories, they were disciplined about saving a substantial share of income for decades (not because of a single lucky break), and they avoid what the authors call \"economic outpatient care\" — parents who financially support adult children's lifestyle in ways that suppress the children's own drive to build wealth and financial discipline. Occupationally, the research found business owners (especially in unglamorous fields with less competition and lower overhead pressure to keep up appearances) were dramatically overrepresented among the wealthy compared to high-income professionals in glamorous fields, since the latter often face intense social pressure to spend in ways that match their visible income level. The book closes by walking through the practical implications for readers at different life stages: choosing a spouse who shares frugal, wealth-building values (a recurring predictor of household wealth), teaching children financial discipline rather than simply funding their lifestyle, and treating wealth accumulation as a long, boring, disciplined process rather than a windfall event.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "Meet the Millionaire Next Door",
+      "summary": "Introduces the research and its central surprise: most actual millionaires live unglamorous, frugal lives well below what their net worth could support, contradicting the popular image of visible wealth."
+    },
+    {
+      "order": 2,
+      "title": "Frugal Frugal Frugal — UAWs vs. PAWs",
+      "summary": "Distinguishes Under Accumulators of Wealth (high spenders relative to income) from Prodigious Accumulators of Wealth (consistent savers/investors regardless of income level) and introduces the age-times-income net worth benchmark."
+    },
+    {
+      "order": 3,
+      "title": "Time, Energy, and Money",
+      "summary": "How PAWs allocate time and energy toward budgeting, planning, and building wealth rather than toward maintaining visible status, and why those two priorities usually trade off against each other."
+    },
+    {
+      "order": 4,
+      "title": "You Aren't What You Drive",
+      "summary": "Data showing most millionaires drive ordinary, often used cars, directly undercutting the assumption that visible consumption tracks actual wealth."
+    },
+    {
+      "order": 5,
+      "title": "Economic Outpatient Care",
+      "summary": "How financial gifts from parents to adult children, meant to help, often suppress the children's own financial discipline and wealth-building habits over the long run."
+    },
+    {
+      "order": 6,
+      "title": "Affirmative Action, Family Style",
+      "summary": "Patterns in how wealthy families raise financially independent versus financially dependent children, and the long-term wealth consequences of each approach."
+    },
+    {
+      "order": 7,
+      "title": "Find Your Niche",
+      "summary": "Business ownership, especially in unglamorous fields with less competition, was strongly overrepresented among the wealthy compared to high-income professionals in visible, high-status occupations."
+    },
+    {
+      "order": 8,
+      "title": "Jobs — Millionaires versus Heirs",
+      "summary": "Compares self-made millionaires against wealth inheritors, generally finding self-made accumulators had stronger, more durable financial habits than those who received wealth without building the underlying discipline."
+    }
+  ],
+  "keyLessons": [
+    "Actual net worth and visible lifestyle are often inversely related — high spending on status goods is money that can't compound into wealth.",
+    "Use the age-times-income-divided-by-10 benchmark to sanity check whether your net worth is on track for your income and age.",
+    "Consistently living below your means and investing the difference matters far more to long-term wealth than income level alone.",
+    "Business ownership, especially in unglamorous, low-competition fields, is strongly overrepresented among the genuinely wealthy.",
+    "Financially supporting adult children's lifestyle can suppress their own financial discipline — help with opportunity, not ongoing subsidy.",
+    "Choose a spouse who shares frugal, wealth-building values — shared financial discipline is a strong predictor of household wealth.",
+    "Know precisely what you spend in major categories; disciplined budgeting, not a single windfall, is how most real millionaires got there."
+  ],
+  "quotes": [
+    { "text": "Whatever your income, always live below your means.", "attribution": "Thomas J. Stanley & William D. Danko, The Millionaire Next Door" },
+    { "text": "Much of the deficient offense/no defense score can be attributed to a lack of a proper household budget.", "attribution": "Thomas J. Stanley & William D. Danko, The Millionaire Next Door" },
+    { "text": "Being wealthy has more to do with the discipline you display in wealth accumulation than the level of income you produce.", "attribution": "Thomas J. Stanley & William D. Danko, The Millionaire Next Door" }
+  ],
+  "whoThisIsFor": "Anyone building personal wealth who wants a research-backed, unglamorous view of what actually correlates with becoming financially secure.",
+  "whenToReadThis": "Read it early in your earning years, before lifestyle spending habits become hard to unwind.",
+  "relatedBooks": ["the-intelligent-investor", "think-and-grow-rich"],
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-24",
+  "sourceNotes": "Original synthesis from general knowledge of Stanley and Danko's well-documented survey research and named concepts (UAW/PAW, economic outpatient care, the net-worth benchmark). No source text reproduced; 3 short verbatim quotes used, all widely cited lines from the book."
+}

@@ -1,0 +1,60 @@
+{
+  "id": "all-marketers-are-liars",
+  "title": "All Marketers Are Liars (Tell Stories)",
+  "author": "Seth Godin",
+  "categories": ["marketing"],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 240,
+  "tags": ["storytelling", "branding", "marketing", "consumer-psychology"],
+  "structureType": "chapters",
+  "summary": "Seth Godin's provocative title makes a specific, narrower claim than it sounds: marketers don't succeed by lying about facts, they succeed by telling stories that consumers *choose to believe* because the story matches a worldview they already hold. People don't buy products based on objective truth; they buy based on the story that best fits their existing frame — organic food, luxury watches, and vitamin supplements are Godin's recurring examples of products whose actual measurable difference from cheaper alternatives is often small or unproven, yet whose stories (purity, status, health) are believed passionately by the people who want to believe them. Godin distinguishes this from fraud: a marketer isn't inventing false claims, they're framing true, verifiable facts inside a story compelling enough that the consumer's own confirmation bias does the rest of the work. He introduces the idea of the \"worldview\" versus the \"lie\": the worldview is the pre-existing set of beliefs, experiences, and frames a specific audience already carries around (their default assumptions about status, health, safety, or belonging), and the \"lie\" (his deliberately provocative word for it) is the story the marketer offers that fits neatly into that worldview and lets the consumer complete it themselves. The most effective stories, Godin argues, are aimed at a narrow, specific audience whose worldview the story matches perfectly, rather than diluted to appeal broadly — a story that's true for everyone is usually powerful for no one. He walks through what makes a story \"authentic\" in his sense: not factually exhaustive, but internally consistent and delivered with enough conviction and consistency across every touchpoint (packaging, price, service, environment) that it doesn't contradict itself. Godin is explicit that this power comes with responsibility: because consumers are choosing to believe a frame rather than independently verifying facts, marketers who exploit that trust for actual harm (not just aesthetic or status stories, but stories that mislead people into decisions that hurt them) are abusing a real form of power. The book closes by arguing that in a media-saturated world where consumers increasingly tune out generic claims, the marketers who win are the ones who understand which worldview their specific niche audience already holds and tell the most consistent, resonant story that lets that audience believe what it already wants to believe.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "Marketers Are Liars",
+      "summary": "Godin's opening reframe: the successful stories brands tell aren't objective truths, they're frames the audience wants to believe — organic, luxury, and wellness products are used as running examples where the story, not the measurable difference, drives the purchase."
+    },
+    {
+      "order": 2,
+      "title": "The Worldview and the Lie",
+      "summary": "Draws the distinction between a consumer's pre-existing worldview (their frames, biases, and assumptions) and the marketer's story (the 'lie'), and argues a story only works when it slots cleanly into a worldview the audience already holds rather than trying to change it."
+    },
+    {
+      "order": 3,
+      "title": "Authenticity and Consistency",
+      "summary": "Defines authenticity not as exhaustive factual disclosure but as internal consistency — every touchpoint of the product or brand reinforcing the same story without contradiction, since a single inconsistency breaks the frame the consumer is trying to believe."
+    },
+    {
+      "order": 4,
+      "title": "Aim Narrow, Not Broad",
+      "summary": "Argues the most resonant stories are told to a specific, narrow audience whose worldview matches perfectly, rather than watered down to appeal to everyone — broad appeal usually means weak resonance with anyone in particular."
+    },
+    {
+      "order": 5,
+      "title": "The Ethics of the Story",
+      "summary": "Addresses where storytelling crosses into real harm: exploiting a worldview to lead people toward decisions that genuinely damage them (health, finances, safety) is a different, unethical use of the same mechanism, distinct from telling a flattering-but-true story about a product's status or aesthetic appeal."
+    }
+  ],
+  "keyLessons": [
+    "Consumers buy the story that fits their existing worldview, not the objectively 'best' product by every measurable spec.",
+    "Aim your story at the narrowest audience whose worldview it perfectly matches — a story that tries to please everyone resonates with no one.",
+    "Keep every touchpoint of your brand consistent with the same story; a single inconsistency breaks the frame you're asking people to believe.",
+    "You cannot successfully invent a story that contradicts an audience's existing worldview — you can only find the true story that already fits it.",
+    "Facts alone rarely persuade; facts wrapped in a story the audience wants to believe do the actual persuading.",
+    "There's a real ethical line between telling a flattering true story and using the same techniques to lead people toward decisions that harm them."
+  ],
+  "quotes": [
+    { "text": "Marketing is a contest for people's attention.", "attribution": "Seth Godin, All Marketers Are Liars" },
+    { "text": "People don't believe what you tell them. They rarely believe what you show them. They often believe what their friends tell them. They always believe what they tell themselves.", "attribution": "Seth Godin, All Marketers Are Liars" },
+    { "text": "A story is a set of internal, unstated rules that lead to a narrative. If I can get you to believe the rules of the story, I've got you.", "attribution": "Seth Godin, All Marketers Are Liars" }
+  ],
+  "whoThisIsFor": "Marketers, founders, and brand builders who want to understand why some products win on story rather than specs.",
+  "whenToReadThis": "Read it before writing brand messaging or positioning, so you frame the story around a specific audience's real worldview instead of generic claims.",
+  "relatedBooks": ["building-a-story-brand"],
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-24",
+  "sourceNotes": "Original synthesis from general knowledge of Godin's well-documented storytelling/worldview framework. No source text reproduced; 3 short verbatim quotes used, all widely cited lines from the book."
+}

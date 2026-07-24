@@ -31,20 +31,26 @@ See `docs/SCHEMA.md` for the full field-level spec. Summary of sections every bo
 
 ## 4. Category Taxonomy
 
-Finalized in Stage 0 (see `DECISIONS.md` for rationale). A book can belong to multiple categories.
+Finalized in Stage 0, expanded in Session 6 (see `DECISIONS.md` for rationale). A book can belong to multiple categories.
 
 1. Business
-2. Business Strategy
-3. Personal Growth / Motivational
-4. Philosophy & Psychology
-5. Finance & Investing
-6. History
-7. Biographies — Business Figures
-8. Biographies — Religious / Spiritual Figures
-9. Biographies — Other
-10. Health & Wellness
-11. Fiction & Literature
-12. Science & Technology
+2. Marketing
+3. Sales
+4. Business Strategy
+5. Personal Growth / Motivational
+6. Philosophy & Psychology
+7. Thich Nhat Hanh
+8. Finance & Investing
+9. History
+10. Biographies — Business Figures
+11. Biographies — Religious / Spiritual Figures
+12. Biographies — Other
+13. Health & Wellness
+14. Fiction & Literature
+15. Science & Technology
+16. Wine
+
+Session 6 changes: split the original "Business" into Business / Marketing / Sales so Thai can go straight to the right shelf; added dedicated "Thich Nhat Hanh" (pulled out of Philosophy & Psychology, ~20 titles) and "Wine" (pulled out of Biographies — Other, 4 titles) categories. Mortgage books stay in Finance & Investing with a `mortgage` tag rather than their own category.
 
 **Language** (English / Vietnamese / Other) is a separate filter field, not a category — a book can be tagged Vietnamese-language and still belong to any of the above categories.
 

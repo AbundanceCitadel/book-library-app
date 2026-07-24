@@ -45,7 +45,9 @@ One JSON file per book at `content/books/{slug}.json`. `{slug}` is a URL-safe ke
 
 ## Fixed Category List
 
-`business`, `business-strategy`, `personal-growth`, `philosophy-psychology`, `finance-investing`, `history`, `bio-business`, `bio-religious-spiritual`, `bio-other`, `health-wellness`, `fiction-literature`, `science-technology`
+`business`, `marketing`, `sales`, `business-strategy`, `personal-growth`, `philosophy-psychology`, `thich-nhat-hanh`, `finance-investing`, `history`, `bio-business`, `bio-religious-spiritual`, `bio-other`, `health-wellness`, `fiction-literature`, `science-technology`, `wine`
+
+Expanded from the original 12 to 16 in Session 6: `business` split into `business` / `marketing` / `sales` (re-sorted by actual subject — brand/positioning/advertising books to `marketing`, selling-technique/sales-career books to `sales`), plus two new dedicated categories: `thich-nhat-hanh` (pulled out of `philosophy-psychology`) and `wine` (pulled out of `bio-other`). Mortgage books stay in `finance-investing`, distinguished with a `mortgage` tag rather than a new category — see `DECISIONS.md`.
 
 ## Copyright Compliance Reminder
 

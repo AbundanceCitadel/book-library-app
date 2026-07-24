@@ -1,0 +1,77 @@
+{
+  "id": "think-and-grow-rich",
+  "title": "Think and Grow Rich",
+  "author": "Napoleon Hill",
+  "categories": ["finance-investing", "personal-growth"],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 390,
+  "tags": ["wealth-mindset", "goal-setting", "classic", "success-philosophy"],
+  "structureType": "chapters",
+  "summary": "First published in 1937 after Napoleon Hill spent roughly two decades studying successful figures of his era (Andrew Carnegie, who reportedly commissioned the study, along with Henry Ford, Thomas Edison, and others), Think and Grow Rich distills what Hill claimed was a repeatable formula, or \"Philosophy of Achievement,\" behind their success, organized into thirteen steps. The foundational step is Desire: Hill argues vague wishing produces nothing, and real achievement starts from a definite, burning desire for a specific amount of money or a specific goal, backed by a definite plan and a deadline, written down and read aloud twice daily — a process he calls transmuting desire into its financial equivalent. Closely related is Faith, which Hill treats less as religious belief and more as a self-induced, sustained state of confident expectation, cultivated deliberately through repetition (autosuggestion) of the definite purpose until the subconscious mind accepts it as already true. Autosuggestion itself is treated as a distinct tool: the deliberate, repeated feeding of your own subconscious mind with the emotionalized statement of your goal, since Hill's model holds that thoughts mixed with strong emotion and repetition eventually translate into action and circumstance. Hill devotes substantial space to Specialized Knowledge (general knowledge is not power; knowledge organized and directed toward a specific goal is), Imagination (both \"synthetic\" imagination, recombining existing ideas, and \"creative\" imagination, sensed as tapping into new ideas), and Organized Planning, including the idea of the \"Master Mind\" — a group of people, in harmony, working toward a definite goal, whose combined thinking Hill claims produces a kind of intelligence greater than any individual's alone. Persistence gets a full chapter as the quality Hill claims separates those who eventually succeed from the much larger group who quit after early failure, alongside a chapter on turning setbacks into fuel via what Hill calls the \"seed of an equivalent benefit\" supposedly present in every failure or adversity. Later chapters cover the constructive redirection of sexual energy (\"transmutation\") into creative and entrepreneurial drive, the workings of the subconscious mind as the connecting link between conscious desire and outcome, the brain as a \"broadcasting and receiving station\" for thought (Hill's more mystical, less empirically grounded chapter), and the \"sixth sense,\" which he frames as a kind of accumulated wisdom or intuition available after mastering the other principles. The book closes with a chapter on the \"six ghosts of fear\" (poverty, criticism, ill health, loss of love, old age, and death) that Hill argues block most people from ever applying the rest of the philosophy, and a final call to convert the entire book's principles into disciplined daily habit rather than one-time inspiration.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "Desire — The Starting Point of All Achievement",
+      "summary": "Vague wishing produces nothing; achievement starts with a definite, burning desire for a specific goal, backed by a written plan and deadline, reviewed twice daily."
+    },
+    {
+      "order": 2,
+      "title": "Faith and Autosuggestion",
+      "summary": "Faith as a self-induced state of confident expectation, cultivated deliberately through repeated, emotionalized autosuggestion until the subconscious accepts the goal as already true."
+    },
+    {
+      "order": 3,
+      "title": "Specialized Knowledge and Imagination",
+      "summary": "General knowledge alone isn't power; knowledge organized toward a specific goal is. Imagination (synthetic and creative) is what recombines or generates the ideas that plans are built from."
+    },
+    {
+      "order": 4,
+      "title": "Organized Planning and the Master Mind",
+      "summary": "Turning desire into a concrete plan of action, and the concept of the Master Mind — a small group working in harmony toward a shared definite goal, whose combined thinking Hill claims exceeds any individual's alone."
+    },
+    {
+      "order": 5,
+      "title": "Decision, Persistence, and Power",
+      "summary": "Quick, firm decision-making and persistence through setbacks as the qualities Hill claims separate the minority who succeed from the majority who quit after early failure."
+    },
+    {
+      "order": 6,
+      "title": "The Mystery of Sex Transmutation and the Subconscious Mind",
+      "summary": "Redirecting strong emotional and creative energy toward a definite purpose, and the subconscious mind as the connecting link translating an emotionalized desire into real-world action and circumstance."
+    },
+    {
+      "order": 7,
+      "title": "The Brain and the Sixth Sense",
+      "summary": "Hill's more speculative chapters framing the brain as a broadcasting/receiving station for thought and the 'sixth sense' as an intuitive wisdom accessible after mastering the other principles."
+    },
+    {
+      "order": 8,
+      "title": "The Six Ghosts of Fear",
+      "summary": "Fear of poverty, criticism, ill health, loss of love, old age, and death — named as the internal obstacles that keep most people from ever applying the rest of the philosophy, closing with a call to convert the whole system into disciplined daily habit."
+    }
+  ],
+  "keyLessons": [
+    "Turn a vague wish into a definite, specific goal — write it down with an exact target and a deadline, and review it daily.",
+    "Cultivate faith as a deliberately trained state of confident expectation, not a passive feeling you either have or don't.",
+    "Organize knowledge around your specific goal rather than accumulating general knowledge with no direction.",
+    "Form or join a 'Master Mind' — a small group working in real harmony toward a shared definite goal — since combined, aligned thinking outperforms solo effort.",
+    "Make decisions quickly and firmly once you have enough information, and change them slowly, if at all — indecision is a common trait of the persistently unsuccessful.",
+    "Persistence through early failure is what separates most people who eventually succeed from the much larger group who quit too soon.",
+    "Look for the 'seed of an equivalent benefit' in every setback or failure rather than treating adversity as purely a stopping point.",
+    "Identify and directly confront your own version of the six basic fears (poverty, criticism, ill health, lost love, old age, death) since unexamined fear quietly blocks disciplined action."
+  ],
+  "quotes": [
+    { "text": "Whatever the mind of man can conceive and believe, it can achieve.", "attribution": "Napoleon Hill, Think and Grow Rich" },
+    { "text": "Desire is the starting point of all achievement, not a hope, not a wish, but a keen pulsating desire which transcends everything.", "attribution": "Napoleon Hill, Think and Grow Rich" },
+    { "text": "Before success comes in any man's life, he is sure to meet with much temporary defeat and, perhaps, some failure.", "attribution": "Napoleon Hill, Think and Grow Rich" }
+  ],
+  "whoThisIsFor": "Readers who want the classic, foundational text behind most modern goal-setting and success-mindset writing, understood as a product of its era (some chapters are more mystical than evidence-based).",
+  "whenToReadThis": "Read it when setting a major long-term financial or career goal and building the daily habits and written plan to back it.",
+  "relatedBooks": ["the-millionaire-next-door", "the-one-thing"],
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-24",
+  "sourceNotes": "Original synthesis from general knowledge of Hill's well-documented thirteen-step framework and named concepts (Master Mind, autosuggestion, six ghosts of fear). No source text reproduced; 3 short verbatim quotes used, all widely cited lines from the book. Noted in the synthesis that some later chapters (broadcasting-station brain, sixth sense) are presented as Hill's own speculative claims rather than established fact."
+}

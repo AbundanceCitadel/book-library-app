@@ -1,0 +1,61 @@
+{
+  "id": "peace-is-every-step",
+  "title": "Peace Is Every Step: The Path of Mindfulness in Everyday Life",
+  "author": "Thich Nhat Hanh",
+  "categories": ["thich-nhat-hanh"],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 210,
+  "tags": ["mindfulness", "meditation", "buddhism", "presence", "inner-peace"],
+  "structureType": "parts",
+  "summary": "Peace Is Every Step is one of Thich Nhat Hanh's most accessible introductions to applying Buddhist mindfulness practice to completely ordinary daily life, built from short, plain-language essays rather than a single continuous argument. The organizing idea is that peace is not a distant goal to be achieved after solving all of life's problems — it is available right now, in this very breath and this very step, if we're actually present for it rather than living lost in memories of the past or anxieties about the future. Central to the book is the practice of mindful breathing as an anchor: consciously following an in-breath and out-breath is enough, on its own, to interrupt the momentum of scattered or anxious thinking and return awareness to the present moment, and Thich Nhat Hanh offers this as something practicable anywhere — washing dishes, driving, waiting in a line, answering the phone — not only on a meditation cushion. He extends the same principle to walking meditation: walking slowly enough to feel each step fully, treating the earth beneath your feet as a point of contact with the present, so that even a short walk to a car or across a room becomes an opportunity for peace rather than a wasted, unconscious transition between more \"important\" activities. A recurring teaching throughout the book is that our habitual way of living treats the present moment as merely instrumental — a means to get to some better future moment — and this constant deferral is itself the source of much suffering, since the promised better moment never actually arrives as \"now\" when we get there; it just becomes another present moment we're rushing past. Thich Nhat Hanh also addresses difficult emotions directly rather than suggesting they be avoided or suppressed: anger, fear, and sorrow are to be recognized, named gently, and held with the same tenderness a mother holds a crying baby, using the breath to stay present with the feeling until it naturally settles, rather than either exploding outward or repressing it. He extends mindfulness into relationships and social engagement — the book includes reflections connected to his years of humanitarian work during and after the Vietnam War, coining the term \"Engaged Buddhism\" for the idea that inner peace and active compassionate service to a suffering world are not separate paths but one path. Short guided exercises (breathing verses, a walking meditation \"gatha,\" tangerine meditation) are woven throughout as concrete, immediately usable practices rather than abstract philosophy alone.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "Breathe! You Are Alive",
+      "summary": "Mindful breathing as the simplest, always-available anchor back to the present moment — usable during any ordinary activity, not only during seated meditation."
+    },
+    {
+      "order": 2,
+      "title": "Transformation and Healing",
+      "summary": "How to meet difficult emotions (anger, fear, sorrow) with gentle awareness rather than suppression or explosive release, using the breath to stay present with a feeling until it naturally softens."
+    },
+    {
+      "order": 3,
+      "title": "Mindfulness in Everyday Life",
+      "summary": "Extends the practice into ordinary daily tasks — washing dishes, walking, eating a tangerine — arguing that treating the present moment as merely instrumental to some future goal is itself a source of suffering."
+    },
+    {
+      "order": 4,
+      "title": "Peace Is Every Step and Every Breath",
+      "summary": "Walking meditation and the idea that peace doesn't have to be earned or arrived at later — it's available in this step, this breath, right now, if we're actually present for it."
+    },
+    {
+      "order": 5,
+      "title": "Interbeing and Engaged Buddhism",
+      "summary": "Connects personal mindfulness to compassionate action in the world, drawing on Thich Nhat Hanh's own humanitarian work, and argues inner peace and social engagement are one path, not two separate pursuits."
+    }
+  ],
+  "keyLessons": [
+    "Use conscious in-breaths and out-breaths as an anchor to interrupt anxious or scattered thinking, anytime, not only during formal meditation.",
+    "Treat ordinary tasks — washing dishes, walking, waiting — as opportunities for presence rather than obstacles to rush past on the way to something more important.",
+    "Meet difficult emotions like anger or fear with gentle, breathing awareness rather than suppression or explosive reaction.",
+    "Walking meditation — slowing down enough to feel each step — turns even a short walk into a genuine practice of peace.",
+    "Constantly deferring peace to some future moment guarantees you never actually arrive at it, since the future moment just becomes another present you're rushing past.",
+    "Hold suffering the way a mother holds a crying baby — with tenderness and presence, not rejection.",
+    "Inner peace and compassionate action in the world are the same path, not separate pursuits."
+  ],
+  "quotes": [
+    { "text": "Peace is present right here and now, in ourselves and in everything we do and see.", "attribution": "Thich Nhat Hanh, Peace Is Every Step" },
+    { "text": "Smile, breathe, and go slowly.", "attribution": "Thich Nhat Hanh, Peace Is Every Step" },
+    { "text": "The next Buddha may take the form of a community; a community practicing understanding and loving kindness, a community practicing mindful living.", "attribution": "Thich Nhat Hanh, Peace Is Every Step" }
+  ],
+  "whoThisIsFor": "Anyone new to mindfulness who wants short, practical entry points into presence rather than a dense philosophical text.",
+  "whenToReadThis": "Good to keep nearby and reread a few pages at a time during a stressful stretch, rather than reading once cover to cover.",
+  "relatedBooks": ["the-miracle-of-mindfulness", "how-to-love"],
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-24",
+  "sourceNotes": "Original synthesis from general knowledge of Thich Nhat Hanh's well-documented teachings on mindful breathing, walking meditation, and Engaged Buddhism as presented in this collection. No source text reproduced; 3 short verbatim quotes used, all widely cited lines from the book."
+}

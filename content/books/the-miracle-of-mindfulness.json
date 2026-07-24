@@ -1,0 +1,60 @@
+{
+  "id": "the-miracle-of-mindfulness",
+  "title": "The Miracle of Mindfulness: An Introduction to the Practice of Meditation",
+  "author": "Thich Nhat Hanh",
+  "categories": ["thich-nhat-hanh"],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 180,
+  "tags": ["mindfulness", "meditation", "buddhism", "presence"],
+  "structureType": "parts",
+  "summary": "Originally written as a long letter to a fellow Vietnamese monk running an orphanage and social-work operation during the Vietnam War, The Miracle of Mindfulness is Thich Nhat Hanh's answer to a very practical question: how do you keep your own inner calm and clarity while doing exhausting, urgent, often overwhelming work for others? His answer is that mindfulness isn't a separate activity to be squeezed in around your real work — it is the practice of being fully present for whatever you are already doing, whether that's washing dishes, tending a garden, holding a sick child, or answering an urgent letter. He tells the famous story of washing dishes \"to wash the dishes,\" contrasted with washing dishes only to get to dessert faster — the second way of doing it means you're not actually present for either the dishes or, eventually, the dessert either, since your mind will already be racing ahead to the next thing. The book teaches breath awareness as the foundational technique: following the in-breath and out-breath, silently noting \"breathing in, I know I am breathing in,\" as a way to bring the wandering mind back into the body and the present moment, and extends this into a formal but simple sitting meditation practice, along with guidance on posture and half-smiling as an aid to relaxing facial tension and softening the mind. A central conceptual tool introduced here is the difference between \"conscious breathing\" as a stepping stone and \"mindfulness\" as a fuller practice — deliberately maintaining awareness of the body, feelings, mind, and objects of mind throughout ordinary activity, not only during formal sitting. Thich Nhat Hanh directly addresses the objection that this kind of internal, contemplative practice is a retreat from real-world responsibility, arguing the opposite: without a mind that is calm, clear, and undivided, sustained compassionate action in a crisis (his own context of humanitarian work in wartime) burns people out and becomes reactive rather than genuinely helpful. He also introduces short guided exercises meant to be usable by absolute beginners — counting the breath, a body scan, and a simple walking practice — and stresses starting with very short, achievable periods of practice (even a single conscious breath) rather than aiming immediately for long formal sitting sessions.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "The Miracle Is to Walk on Earth",
+      "summary": "Frames the entire book's premise: miracles aren't supernatural events, they're the simple, available act of being fully present for ordinary life — walking, breathing, doing dishes — rather than living lost in thought."
+    },
+    {
+      "order": 2,
+      "title": "Breathing — the Bridge to Mindfulness",
+      "summary": "Introduces conscious breathing ('breathing in, I know I am breathing in') as the foundational, always-available technique for bringing the mind back into the present moment and the body."
+    },
+    {
+      "order": 3,
+      "title": "Doing One Thing at a Time",
+      "summary": "The famous 'washing the dishes to wash the dishes' teaching: doing any task purely as a means to the next task means you're not truly present for either, and this constant means-to-an-end living is itself a source of restlessness."
+    },
+    {
+      "order": 4,
+      "title": "Sitting Meditation and the Half-Smile",
+      "summary": "Basic guidance on posture, sitting practice, and the deliberate use of a slight half-smile to relax facial and bodily tension as an aid to a calmer mind."
+    },
+    {
+      "order": 5,
+      "title": "Mindfulness in Service and Crisis",
+      "summary": "Written originally for humanitarian workers under wartime pressure, this section argues that sustained compassionate action requires a mind kept calm and undivided through practice, or it burns out and becomes reactive rather than genuinely helpful."
+    }
+  ],
+  "keyLessons": [
+    "Do one thing at a time, fully — 'washing the dishes to wash the dishes' — rather than rushing through the present task to reach the next one.",
+    "Use conscious breathing ('breathing in, I know I am breathing in') as an always-available bridge back to the present moment.",
+    "A slight, deliberate half-smile can relax facial and bodily tension and soften an agitated mind.",
+    "Start mindfulness practice with very short, achievable moments — even a single conscious breath — rather than demanding long formal sessions from day one.",
+    "Mindfulness isn't a retreat from responsibility; a calm, undivided mind is what makes sustained compassionate action possible without burning out.",
+    "Mindfulness extends beyond formal sitting into ordinary tasks — eating, walking, working — as continuous practice, not a separate activity."
+  ],
+  "quotes": [
+    { "text": "While washing the dishes one should only be washing the dishes, which means that while washing the dishes one should be completely aware of the fact that one is washing the dishes.", "attribution": "Thich Nhat Hanh, The Miracle of Mindfulness" },
+    { "text": "Feelings, whether of compassion or irritation, should be welcomed, recognized, and treated on an absolutely equal basis; because both are ourselves.", "attribution": "Thich Nhat Hanh, The Miracle of Mindfulness" },
+    { "text": "Breath is the bridge which connects life to consciousness, which unites your body to your thoughts.", "attribution": "Thich Nhat Hanh, The Miracle of Mindfulness" }
+  ],
+  "whoThisIsFor": "Complete beginners to meditation who want a short, practical introduction grounded in ordinary daily activity rather than retreat-style practice.",
+  "whenToReadThis": "A good first Thich Nhat Hanh book to read before his later, more topic-specific titles.",
+  "relatedBooks": ["peace-is-every-step", "how-to-love"],
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-24",
+  "sourceNotes": "Original synthesis from general knowledge of this well-documented early Thich Nhat Hanh text, including its origin as a letter and its core teachings on conscious breathing and single-tasking. No source text reproduced; 3 short verbatim quotes used, all widely cited lines from the book."
+}

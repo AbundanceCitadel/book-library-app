@@ -1,0 +1,57 @@
+{
+  "id": "how-to-win-friends-and-influence-people",
+  "title": "How to Win Friends and Influence People",
+  "author": "Dale Carnegie",
+  "categories": ["personal-growth"],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 330,
+  "tags": ["communication", "relationships", "influence", "leadership", "classic"],
+  "structureType": "parts",
+  "summary": "First published in 1936 and still one of the best-selling self-help books ever written, Dale Carnegie's book distills decades of his public-speaking and interpersonal-skills courses into a set of concrete, repeatable techniques for getting along with and influencing other people — built on one foundational premise: people are driven above all by a deep need to feel important, appreciated, and understood, and almost every technique in the book is a different application of genuinely honoring that need rather than manipulating around it. Carnegie opens with what he calls the fundamental techniques in handling people: don't criticize, condemn, or complain (criticism puts people on the defensive and rarely produces the change you want, while making them resent you), give honest and sincere appreciation (distinguished sharply from flattery, which people see through), and arouse in the other person an eager want (frame requests in terms of the other person's interest, not just your own). The next major section covers six ways to make people like you: become genuinely interested in other people, smile, remember and use a person's name (which Carnegie calls the sweetest sound in any language to that person), be a good listener and encourage others to talk about themselves, talk in terms of the other person's interests, and make the other person feel important — sincerely. He then turns to winning people to your way of thinking: avoid arguments (you can't really win one — even if you're technically right, you lose the relationship), show respect for the other person's opinions, admit quickly and emphatically when you're wrong, begin in a friendly way, get the other person saying \"yes, yes\" early with points they easily agree with, let the other person feel the idea is theirs, try honestly to see things from the other person's point of view, and appeal to nobler motives. The final section, on being a leader without giving offense, covers how to change people's behavior without arousing resentment: begin with praise, call attention to mistakes indirectly, talk about your own mistakes before criticizing others, ask questions instead of giving direct orders, let the other person save face, praise every improvement (however small), give the other person a fine reputation to live up to, and make the fault seem easy to correct. Throughout, Carnegie leans on real anecdotes — Theodore Roosevelt, Abraham Lincoln, Charles Schwab, and ordinary readers of his courses — to show these aren't abstract platitudes but specific, learnable habits with observable results in business and personal life alike.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "Fundamental Techniques in Handling People",
+      "summary": "Don't criticize, condemn, or complain; give honest and sincere appreciation; arouse in the other person an eager want — the foundation every other technique in the book builds on."
+    },
+    {
+      "order": 2,
+      "title": "Six Ways to Make People Like You",
+      "summary": "Become genuinely interested in others, smile, remember names, be a good listener, talk in terms of the other person's interests, and make people feel sincerely important."
+    },
+    {
+      "order": 3,
+      "title": "How to Win People to Your Way of Thinking",
+      "summary": "Avoid arguments, show respect for others' opinions, admit your own mistakes quickly, start friendly, get early agreement, let the other person feel ownership of the idea, see things from their perspective, and appeal to nobler motives."
+    },
+    {
+      "order": 4,
+      "title": "Be a Leader — How to Change People Without Giving Offense or Arousing Resentment",
+      "summary": "Lead with praise, point out mistakes indirectly, own your own errors first, ask questions rather than command, let people save face, praise every improvement, and give people a reputation worth living up to."
+    }
+  ],
+  "keyLessons": [
+    "Never criticize, condemn, or complain about people directly — it puts them on the defensive and rarely produces real change.",
+    "Give honest, specific appreciation rather than vague flattery, which people can usually tell apart from sincerity.",
+    "Become genuinely interested in the other person before expecting them to be interested in you.",
+    "You can't win an argument in any way that matters — even a technical win usually loses the relationship.",
+    "Let the other person feel an idea is theirs; people commit far more to ideas they believe they originated.",
+    "When you need to correct someone, begin with genuine praise and talk about your own mistakes first before pointing out theirs.",
+    "Ask questions instead of giving direct orders when you want someone to change their behavior — it preserves their sense of autonomy.",
+    "Always let the other person save face, and praise every improvement, however small, to keep them moving in the right direction."
+  ],
+  "quotes": [
+    { "text": "You can make more friends in two months by becoming interested in other people than you can in two years by trying to get other people interested in you.", "attribution": "Dale Carnegie, How to Win Friends and Influence People" },
+    { "text": "A person's name is to that person the sweetest and most important sound in any language.", "attribution": "Dale Carnegie, How to Win Friends and Influence People" },
+    { "text": "Any fool can criticize, condemn, and complain — and most fools do.", "attribution": "Dale Carnegie, How to Win Friends and Influence People" }
+  ],
+  "whoThisIsFor": "Anyone who deals with other people regularly — in business, leadership, sales, or personal relationships — and wants concrete, old-fashioned but well-tested habits for it.",
+  "whenToReadThis": "A good re-read whenever a working relationship feels stuck or before a period of heavy negotiation, hiring, or team leadership.",
+  "relatedBooks": ["never-eat-alone", "never-split-the-difference"],
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-24",
+  "sourceNotes": "Original synthesis from general knowledge of Carnegie's well-documented four-part structure and named principles. No source text reproduced; 3 short verbatim quotes used, all widely cited lines from the book."
+}

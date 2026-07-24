@@ -1,0 +1,66 @@
+{
+  "id": "how-to-love",
+  "title": "How to Love",
+  "author": "Thich Nhat Hanh",
+  "categories": ["thich-nhat-hanh"],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 100,
+  "tags": ["mindfulness", "relationships", "buddhism", "compassion"],
+  "structureType": "chapters",
+  "summary": "How to Love is one of Thich Nhat Hanh's short pocket-sized guides (part of a series that includes How to Eat, How to Sit, and How to Walk) applying mindfulness practice specifically to romantic and family relationships. His central claim is that most people confuse the feeling of romantic infatuation with real love, and real love is better understood through four qualities drawn from traditional Buddhist teaching: maitri (loving-kindness, the intention and capacity to offer joy and happiness), karuna (compassion, the intention and capacity to relieve suffering), mudita (joy, taking genuine delight in another's happiness rather than comparing or competing with it), and upeksha (equanimity, freedom from discrimination and attachment so that love isn't conditional or possessive). He argues that to genuinely love another person, you first have to be capable of understanding them — not assuming you already know what they feel or need, but really listening and observing, since love without understanding is really just a projection of your own needs onto someone else. A recurring practical teaching is \"true presence\": the deepest gift you can give someone you love is your full, undivided attention while you're with them, and a relationship where partners are physically together but mentally elsewhere (worrying about work, scrolling a phone, replaying an old argument) slowly starves the relationship of the one thing it actually needs. He addresses conflict directly: when angry or hurt, the instinct is to say something to hurt the other person back, but Thich Nhat Hanh recommends a kind of pause — recognizing the anger, breathing with it, and communicating it later using calm, specific language about your own feelings rather than accusations, so the other person can actually hear you instead of just defending themselves. He also teaches \"deep listening\" and \"loving speech\" as a paired practice: listening with the sole intention of understanding the other person's suffering, without interrupting or immediately defending yourself, and only afterward speaking honestly but gently, in a way meant to relieve suffering rather than win the argument. The book closes on the idea that loving another person well begins with the same mindfulness practiced toward yourself — being able to recognize, accept, and care for your own suffering — since it's very difficult to genuinely offer someone else what you haven't first learned to offer yourself.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "The Four Elements of True Love",
+      "summary": "Introduces maitri (loving-kindness), karuna (compassion), mudita (joy), and upeksha (equanimity/non-attachment) as the traditional components of real love, distinct from the fleeting feeling of romantic infatuation."
+    },
+    {
+      "order": 2,
+      "title": "Understanding Before Love",
+      "summary": "You can't genuinely love someone you don't understand — real love requires patient observation and listening rather than assuming you already know what another person needs or feels."
+    },
+    {
+      "order": 3,
+      "title": "True Presence",
+      "summary": "The deepest gift to someone you love is full, undivided attention while you're together — being physically present but mentally elsewhere slowly starves a relationship."
+    },
+    {
+      "order": 4,
+      "title": "Deep Listening and Loving Speech",
+      "summary": "A paired practice: listen solely to understand another's suffering without interrupting or defending yourself, then speak honestly but gently, aiming to relieve suffering rather than to win an argument."
+    },
+    {
+      "order": 5,
+      "title": "Handling Anger",
+      "summary": "Recognize anger and breathe with it before reacting; communicate hurt using calm, specific language about your own feelings rather than accusations, so the other person can actually hear you."
+    },
+    {
+      "order": 6,
+      "title": "Loving Yourself First",
+      "summary": "Genuinely caring for someone else begins with being able to recognize, accept, and tend to your own suffering — it's difficult to offer another person what you haven't learned to offer yourself."
+    }
+  ],
+  "keyLessons": [
+    "Real love has four components — loving-kindness, compassion, shared joy, and equanimity — not just the feeling of infatuation.",
+    "You cannot truly love someone you don't first understand; patient listening comes before love, not after.",
+    "Give the people you love your full, undivided presence when you're with them — physical presence without mental presence slowly starves a relationship.",
+    "Practice deep listening: listen only to understand the other person's suffering, without interrupting or defending yourself.",
+    "When angry, pause and breathe with the feeling before speaking; describe your own feelings calmly instead of accusing the other person.",
+    "Speak with the intention of relieving suffering, not winning the argument.",
+    "Learn to recognize and care for your own suffering first — it's hard to offer someone else what you haven't learned to offer yourself."
+  ],
+  "quotes": [
+    { "text": "Understanding is the very foundation of love.", "attribution": "Thich Nhat Hanh, How to Love" },
+    { "text": "The most precious gift we can offer others is our presence.", "attribution": "Thich Nhat Hanh, How to Love" },
+    { "text": "To love without knowing how to love wounds the person we love.", "attribution": "Thich Nhat Hanh, How to Love" }
+  ],
+  "whoThisIsFor": "Anyone in or seeking a close relationship who wants a short, practical set of mindfulness-based tools for understanding, presence, and handling conflict.",
+  "whenToReadThis": "A quick, useful read during or before a difficult stretch in a relationship, or simply as a periodic check-in on how present you're actually being with people you love.",
+  "relatedBooks": ["peace-is-every-step", "the-miracle-of-mindfulness"],
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-24",
+  "sourceNotes": "Original synthesis from general knowledge of Thich Nhat Hanh's well-documented teachings on the four elements of true love, deep listening, and loving speech as presented in this short guide. No source text reproduced; 3 short verbatim quotes used, all widely cited lines from the book."
+}

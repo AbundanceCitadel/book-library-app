@@ -1,0 +1,56 @@
+{
+  "id": "the-one-thing",
+  "title": "The One Thing: The Surprisingly Simple Truth Behind Extraordinary Results",
+  "author": "Gary Keller with Jay Papasan",
+  "categories": ["personal-growth"],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 270,
+  "tags": ["focus", "productivity", "goal-setting", "time-management"],
+  "structureType": "parts",
+  "summary": "Gary Keller's central argument is that success is not the result of doing many things adequately, but of identifying the single most important thing at any given time and giving it disproportionate focus — everything else is either in service of that one thing or a distraction from it. The book's organizing question, meant to be asked constantly, is the Focusing Question: \"What's the ONE Thing I can do such that by doing it everything else will be easier or unnecessary?\" Keller frames this as a domino effect — success is built by lining up the right first dominoes so that solving one problem or achieving one goal naturally topples the next, rather than trying to push many separate efforts forward simultaneously. He spends a large portion of the book dismantling popular productivity myths: that everything matters equally (it doesn't — a small number of actions produce most of the results, per the Pareto principle applied ruthlessly), that multitasking is possible (the brain switches serially between tasks, at a real cost, rather than truly doing two things at once), that willpower is always available on demand (it's a depletable resource best spent on your most important task early, when it's freshest), that a balanced life is the goal (Keller argues for counterbalancing instead — accepting that focused periods on one priority will necessarily under-serve others temporarily, and that's fine as long as it's deliberate and time-bound), and that big thinking and big goals are somehow risky or arrogant (he argues the opposite — most people aim too small, not too big). The practical core of the book is time blocking: protecting a daily block of time, ideally the first hours of the working day, exclusively for your One Thing, treating that block as inviolable as a client meeting, and building the rest of the schedule around it rather than fitting it in around everything else. He introduces the idea of asking the Focusing Question at multiple time horizons at once — a One Thing for your life, for five years, for the year, the month, the week, the day, and right now — so that the daily One Thing is explicitly a domino contributing to the larger ones, not just an arbitrary priority. The book closes by addressing the emotional and relational cost of this kind of extreme focus honestly, and by arguing that living with purpose (a clearly identified One Thing) and living by priority (protecting the time for it, ruthlessly) are the only two habits that reliably separate extraordinary results from average ones.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "The Domino Effect",
+      "summary": "Extraordinary results come from correctly identifying and toppling the right first domino, not from spreading effort evenly across many priorities."
+    },
+    {
+      "order": 2,
+      "title": "Six Lies Between You and Success",
+      "summary": "Debunks the myths that everything matters equally, multitasking works, willpower is always available, a balanced life is the right goal, big is somehow bad, and discipline is a permanent lifestyle rather than a temporary habit-forming tool."
+    },
+    {
+      "order": 3,
+      "title": "The Focusing Question",
+      "summary": "Introduces the core question — 'What's the ONE Thing I can do such that by doing it everything else will be easier or unnecessary?' — as a tool to apply at every time horizon from lifetime goals down to right now."
+    },
+    {
+      "order": 4,
+      "title": "Living the Focused Life — Time Blocking and Counterbalancing",
+      "summary": "The practical mechanics: block off protected time (ideally first in the day) exclusively for your One Thing, defend it like an unmissable appointment, and accept temporary imbalance in other areas of life as the deliberate cost of real focus."
+    }
+  ],
+  "keyLessons": [
+    "Ask the Focusing Question constantly: what's the one thing I can do such that everything else becomes easier or unnecessary?",
+    "Success is a domino effect — identify and topple the right first priority rather than spreading effort evenly across many goals.",
+    "Multitasking doesn't exist in any meaningful sense; the brain switches serially between tasks at a real cost to quality and speed.",
+    "Willpower is a depletable resource — schedule your most important task for when your willpower and energy are freshest.",
+    "Time-block a protected period, ideally early in the day, for your One Thing, and defend it as strictly as a client meeting.",
+    "Aim bigger rather than smaller — most people underestimate what's possible rather than overreach.",
+    "Accept short-term imbalance across other life areas as the deliberate, time-bound cost of real focus, rather than chasing a permanently 'balanced' life."
+  ],
+  "quotes": [
+    { "text": "What's the ONE Thing I can do such that by doing it everything else will be easier or unnecessary?", "attribution": "Gary Keller with Jay Papasan, The One Thing" },
+    { "text": "Success is sequential, not simultaneous.", "attribution": "Gary Keller with Jay Papasan, The One Thing" },
+    { "text": "Extraordinary results are directly determined by how narrow you can make your focus.", "attribution": "Gary Keller with Jay Papasan, The One Thing" }
+  ],
+  "whoThisIsFor": "Anyone juggling too many priorities at once who needs a concrete method for choosing where to actually spend their best hours.",
+  "whenToReadThis": "Read it at the start of a new quarter or year, when you're setting goals and building a schedule around them.",
+  "relatedBooks": ["essentialism"],
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-24",
+  "sourceNotes": "Original synthesis from general knowledge of Keller and Papasan's well-documented Focusing Question, domino effect, and 'six lies' framework. No source text reproduced; 3 short verbatim quotes used, all widely cited lines from the book."
+}

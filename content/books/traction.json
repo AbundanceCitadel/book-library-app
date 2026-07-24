@@ -1,0 +1,77 @@
+{
+  "id": "traction",
+  "title": "Traction: Get a Grip on Your Business",
+  "author": "Gino Wickman",
+  "categories": ["business"],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 330,
+  "tags": ["eos", "operating-system", "small-business", "leadership", "accountability"],
+  "structureType": "chapters",
+  "summary": "Traction is Gino Wickman's manual for the Entrepreneurial Operating System (EOS), a complete set of simple tools meant to solve the same five recurring frustrations he saw in hundreds of small and mid-sized businesses: lack of control, people problems, profit problems, nothing seems to work, and the business has hit a ceiling. Wickman's argument is that these are all symptoms of the same root cause — the founders never installed a real operating system, so the business runs on ad hoc decisions and individual heroics instead of a shared, disciplined structure. EOS organizes a business around Six Key Components that must all be strong simultaneously: Vision (does everyone genuinely understand and agree on where the company is going), People (are the right people in the right seats), Data (does leadership manage by a handful of objective numbers instead of gut feel and anecdote), Issues (does the organization solve problems permanently instead of the same issue resurfacing every quarter), Process (are the core processes documented and followed consistently), and Traction (does the organization actually execute and hold itself accountable, or does it just talk). The book introduces a specific toolkit for each component: the Vision/Traction Organizer (a two-page document capturing the company's core values, core focus, 10-year target, marketing strategy, 3-year picture, 1-year plan, and quarterly Rocks — the 3-5 priorities that must be done in the next 90 days); the People Analyzer for evaluating whether someone is Right Person/Right Seat using core values fit and a GWC test (do they Get it, Want it, have the Capacity to do it); a Scorecard of 5-15 weekly numbers that give leadership an early warning system; an Issues List and the IDS process (Identify, Discuss, Solve) for closing issues permanently rather than re-discussing them; and the Level 10 Meeting, a strict 90-minute weekly leadership meeting agenda designed to keep the team aligned, solve issues, and hold people accountable to their Rocks. Running through all of this is Wickman's insistence on simplicity and discipline over cleverness — EOS isn't a new strategy, it's a operating rhythm that makes whatever strategy you already have actually get executed, by giving everyone in the company the same vocabulary, the same meeting structure, and the same accountability chart (roles, not people, mirroring Gerber's E-Myth). The book closes by walking through how to actually install EOS: get the leadership team aligned first, then cascade the same tools down through the organization.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "The Six Key Components",
+      "summary": "Introduces Vision, People, Data, Issues, Process, and Traction as the six components every business must strengthen simultaneously — weakness in any one undermines the others, and most owners have unconsciously over-invested in one (usually Process or Vision) while neglecting the rest."
+    },
+    {
+      "order": 2,
+      "title": "Vision",
+      "summary": "The Vision/Traction Organizer: getting total leadership alignment on core values, core focus (niche and purpose), a 10-year target, a marketing strategy, a 3-year picture, and a 1-year plan — then communicating it to the whole company relentlessly, since most staff-level disengagement comes from never really being told or sold on where the business is going."
+    },
+    {
+      "order": 3,
+      "title": "People",
+      "summary": "Right People (core values fit) sitting in Right Seats (GWC — Get it, Want it, Capacity to do it), evaluated with the People Analyzer. A weak seat can't be fixed by managing harder; it usually means a values mismatch or a genuine skills/capacity mismatch that has to be addressed directly."
+    },
+    {
+      "order": 4,
+      "title": "Data",
+      "summary": "Replacing gut-feel management with a Scorecard of 5-15 weekly numbers per leader, so problems surface as a number trending wrong weeks before they become a crisis, plus quarterly and annual measurables tied to the 1-year plan."
+    },
+    {
+      "order": 5,
+      "title": "Issues",
+      "summary": "The Issues List and the IDS (Identify, Discuss, Solve) process — get the real issue on the table, discuss it once with full candor, and solve it permanently rather than letting it resurface meeting after meeting."
+    },
+    {
+      "order": 6,
+      "title": "Process",
+      "summary": "Documenting the 20% of core processes that run 80% of the business (the 'Way' the company operates) simply enough that anyone can follow them and consistently enough that customers get the same experience regardless of who serves them."
+    },
+    {
+      "order": 7,
+      "title": "Traction",
+      "summary": "Quarterly Rocks (3-5 priorities per person per quarter) and the weekly Level 10 Meeting — a fixed 90-minute agenda (segue, scorecard, rock review, customer/employee headlines, to-do list, IDS, conclude) that turns strategy into weekly execution and accountability."
+    },
+    {
+      "order": 8,
+      "title": "Putting It All Together",
+      "summary": "How to actually install EOS in an organization: start with total leadership team commitment and alignment before cascading any tool downward, and expect the first 90-day cycle to feel uncomfortable as real accountability replaces informal habits."
+    }
+  ],
+  "keyLessons": [
+    "Get 100% of your leadership team genuinely aligned on vision, people, and priorities before rolling any tool out further into the organization.",
+    "Manage the business by a Scorecard of 5-15 leading-indicator numbers reviewed weekly, not by monthly financials or gut feel alone.",
+    "Every recurring problem should go on an Issues List and get solved permanently via Identify-Discuss-Solve, instead of being re-litigated every meeting.",
+    "Evaluate every seat in the org chart for Right Person (core values) and Right Seat (Get it, Want it, Capacity) separately — they fail for different reasons and need different fixes.",
+    "Set no more than 3-5 Rocks (priorities) per person per quarter — more than that means nothing real gets finished.",
+    "Run a strict weekly Level 10 Meeting with the same agenda every time so execution becomes a habit, not a special event.",
+    "Document your core processes as simply as possible so any properly trained person can deliver a consistent result — complexity is the enemy of consistency.",
+    "A business that's stuck is almost always weak in one of the Six Key Components, not missing a clever new strategy."
+  ],
+  "quotes": [
+    { "text": "Traction is the second of the Six Key Components. It means discipline and accountability throughout the organization... bringing the vision down to the ground and making it real.", "attribution": "Gino Wickman, Traction" },
+    { "text": "Great vision without great people is irrelevant.", "attribution": "Gino Wickman, Traction" },
+    { "text": "Less is more. Simple is better.", "attribution": "Gino Wickman, Traction" }
+  ],
+  "whoThisIsFor": "Founders and leadership teams of small-to-mid-sized businesses (roughly 10-250 employees) who have a real business but feel out of control of it.",
+  "whenToReadThis": "Read it when the business has grown past what one founder can run from memory and meetings feel unproductive or repetitive.",
+  "relatedBooks": ["the-e-myth-revisited", "the-lean-startup"],
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-24",
+  "sourceNotes": "Original synthesis from general knowledge of the widely-documented EOS framework (Six Key Components, VTO, GWC, Scorecard, IDS, Level 10 Meeting). No source text reproduced; 3 short verbatim quotes used, all commonly cited lines from the book."
+}

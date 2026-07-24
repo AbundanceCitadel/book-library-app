@@ -47,7 +47,7 @@ accent: {
 }
 ```
 
-Usage rule: accent is for *emphasis*, not decoration — one accent element per view max (e.g. the active nav state or a single CTA), so it doesn't compete with the calm reading experience. Category cards do **not** get a rainbow of colors; they're distinguished by emoji icon + label, not color-coding, to keep the grid visually calm at 12 categories.
+Usage rule: accent is for *emphasis*, not decoration — one accent element per view max (e.g. the active nav state or a single CTA), so it doesn't compete with the calm reading experience. Category cards do **not** get a rainbow of colors; they're distinguished by emoji icon + label, not color-coding, to keep the grid visually calm even at 16 categories (expanded from 12 in Session 6 — see `DECISIONS.md`).
 
 ## Dark / Light Mode
 
@@ -66,7 +66,7 @@ Usage rule: accent is for *emphasis*, not decoration — one accent element per 
 - **Touch targets:** every tappable element (nav links, category cards, book list rows) has a minimum effective height of 44px (`min-h-11` / adequate `py-*`), per iOS/Android accessibility guidance.
 - **Spacing scale:** Tailwind default spacing tokens only (4px base unit) — no custom spacing scale.
 - **Safe areas:** `globals.css` adds `env(safe-area-inset-*)` padding on the root layout wrapper, ahead of Stage 5 PWA/notch support.
-- **Grids:** category grid is `grid-cols-2` on mobile, `sm:grid-cols-3` tablet, `lg:grid-cols-4` desktop — never single-column on phones (wastes vertical scroll for 12 short items), never more than 4 columns (cards get too small to read comfortably).
+- **Grids:** category grid is `grid-cols-2` on mobile, `sm:grid-cols-3` tablet, `lg:grid-cols-4` desktop — never single-column on phones (wastes vertical scroll for 16 short items), never more than 4 columns (cards get too small to read comfortably).
 
 ## Components (Stage 4)
 
@@ -85,9 +85,12 @@ Emoji chosen per category (no icon-library dependency), defined in `lib/books.ts
 | Category | Icon |
 |---|---|
 | Business | 💼 |
+| Marketing | 📣 |
+| Sales | 🤝 |
 | Business Strategy | ♟️ |
 | Personal Growth / Motivational | 🌱 |
 | Philosophy & Psychology | 🧠 |
+| Thich Nhat Hanh | 🪷 |
 | Finance & Investing | 💰 |
 | History | 🏛️ |
 | Biographies — Business Figures | 👔 |
@@ -96,3 +99,6 @@ Emoji chosen per category (no icon-library dependency), defined in `lib/books.ts
 | Health & Wellness | 🌿 |
 | Fiction & Literature | 📖 |
 | Science & Technology | 🔬 |
+| Wine | 🍷 |
+
+Marketing, Sales, Thich Nhat Hanh, and Wine added in Session 6 (see `DECISIONS.md`) — Business split into Business/Marketing/Sales, and Thich Nhat Hanh/Wine pulled out of Philosophy & Psychology and Biographies — Other respectively.

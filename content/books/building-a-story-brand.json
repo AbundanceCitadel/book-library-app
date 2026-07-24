@@ -1,0 +1,76 @@
+{
+  "id": "building-a-story-brand",
+  "title": "Building a StoryBrand: Clarify Your Message So Customers Will Listen",
+  "author": "Donald Miller",
+  "categories": ["marketing"],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 300,
+  "tags": ["storytelling", "branding", "messaging", "marketing", "copywriting"],
+  "structureType": "chapters",
+  "summary": "Donald Miller's core diagnosis is that most companies' marketing fails not because the product is bad but because the message is confusing — and a confused mind always says no. His fix borrows the structure of classic story (heavily influenced by the screenwriting concept of the hero's journey) and turns it into a practical framework he calls the StoryBrand 7-Part Framework (the SB7). The single most important reframe is this: in your marketing, the customer is the hero, not your brand — your brand is the Guide (think Yoda or Obi-Wan), not the hero (Luke). Companies instinctively want to be the hero of their own story, talking about their history, their awards, their features, but customers don't care about your story, they care about their own problem being solved. The SB7 framework runs: (1) A Character (the customer) who (2) has a Problem — Miller insists every problem has three layers: external (the tangible issue), internal (the frustration it causes), and philosophical (why it's just wrong that this problem exists at all) — and (3) meets a Guide (your brand) who demonstrates empathy and authority, then (4) gives the character a Plan (usually a simple 3-step process that reduces the risk of doing business with you), and (5) calls the character to Action with both a direct call to action (buy now) and a transitional one (get a free resource) that helps them succeed and (7) helps them avoid Failure. Miller stresses that most companies talk endlessly about features and their own story when what customers are actually scanning for, in about five seconds, is: what do you offer, how will it make my life better, and what do I need to do to get it. He gives a battery of practical exercises: writing a one-liner (problem, solution, result) that should work as your elevator pitch, auditing your own website against the \"grunt test\" (could a caveman tell in 5 seconds what you offer, how it'll make their life better, and what to do next), and building customer-facing messaging that keeps the customer as the hero throughout — in emails, sales pages, and even internal culture messaging. The book closes by extending the framework beyond marketing copy into overall brand strategy and internal alignment, arguing that a clear StoryBrand message doesn't just sell better, it gives every person in the company (and every customer) a simple story to understand and repeat.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "Why Most Marketing Doesn't Work",
+      "summary": "A confused mind says no — most brand messaging fails because it's about the company, not the customer's problem, and customers filter out anything that isn't immediately, effortlessly clear."
+    },
+    {
+      "order": 2,
+      "title": "The SB7 Framework — Overview",
+      "summary": "Introduces the seven-part story structure (Character, Problem, Guide, Plan, Call to Action, Success, Failure) and the central reframe: your customer is the hero, your brand is the Guide."
+    },
+    {
+      "order": 3,
+      "title": "A Character Who Wants Something",
+      "summary": "Start every message by identifying what your customer actually wants — a single, concrete desire, not a vague list of benefits."
+    },
+    {
+      "order": 4,
+      "title": "Has a Problem",
+      "summary": "Every problem has an external layer (the practical issue), an internal layer (the frustration it causes), and a philosophical layer (why it matters that this problem exists) — great messaging addresses all three, not just the external one."
+    },
+    {
+      "order": 5,
+      "title": "Meets a Guide",
+      "summary": "Your brand earns trust by showing empathy (we understand your problem) and authority (we have the competence to solve it) — not by making itself the hero of the story."
+    },
+    {
+      "order": 6,
+      "title": "Who Gives Them a Plan",
+      "summary": "A simple, usually 3-step plan reduces the perceived risk of engaging with your brand and gives the customer confidence about what happens next."
+    },
+    {
+      "order": 7,
+      "title": "And Calls Them to Action",
+      "summary": "Direct calls to action (buy, schedule, sign up) paired with transitional calls to action (free resources, samples) that build trust before the direct ask."
+    },
+    {
+      "order": 8,
+      "title": "That Helps Them Avoid Failure and Ends in Success",
+      "summary": "Effective messaging stakes out clearly what's at risk if the customer does nothing, and paints a vivid, specific picture of the successful outcome they get by acting."
+    }
+  ],
+  "keyLessons": [
+    "Position the customer as the hero of your marketing and your brand as the Guide — never make your company the hero of its own story.",
+    "A confused customer will always say no; ruthlessly simplify your message down to what you offer, how it helps, and what to do next.",
+    "Address all three layers of a customer's problem — external, internal, and philosophical — not just the surface-level issue.",
+    "Give customers a simple, numbered plan (ideally 3 steps) to reduce the perceived risk of doing business with you.",
+    "Pair a direct call to action with a lower-commitment transitional one so undecided customers have a next step too.",
+    "Run your own website or pitch through the 'grunt test' — could someone tell in five seconds what you offer, how it helps them, and what to do next?",
+    "Show both what's at stake if the customer's problem goes unsolved and a vivid picture of their life after success."
+  ],
+  "quotes": [
+    { "text": "If you confuse, you'll lose.", "attribution": "Donald Miller, Building a StoryBrand" },
+    { "text": "Customers don't generally care about your story; they care about their own.", "attribution": "Donald Miller, Building a StoryBrand" },
+    { "text": "In the same way a good story positions a character and helps them overcome conflict, a good brand can position their customers and help them avoid or overcome conflict.", "attribution": "Donald Miller, Building a StoryBrand" }
+  ],
+  "whoThisIsFor": "Founders, marketers, and copywriters who need to sharpen a confusing brand message into something customers immediately understand.",
+  "whenToReadThis": "Read it before rewriting a website, sales page, or elevator pitch — it works best applied directly to a piece of real messaging as you go.",
+  "relatedBooks": ["all-marketers-are-liars"],
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-24",
+  "sourceNotes": "Original synthesis from general knowledge of Miller's well-documented SB7 framework. No source text reproduced; 3 short verbatim quotes used, all widely cited lines from the book."
+}

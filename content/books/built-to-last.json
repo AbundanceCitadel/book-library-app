@@ -1,0 +1,82 @@
+{
+  "id": "built-to-last",
+  "title": "Built to Last: Successful Habits of Visionary Companies",
+  "author": "James C. Collins & Jerry I. Porras",
+  "categories": ["business-strategy"],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 420,
+  "tags": ["strategy", "corporate-culture", "long-term-thinking", "leadership", "research"],
+  "structureType": "chapters",
+  "summary": "Built to Last grew out of a six-year research project at Stanford in which Jim Collins and Jerry Porras compared 18 \"visionary companies\" (like 3M, American Express, Boeing, Disney, GE, Hewlett-Packard, IBM, Johnson & Johnson, Merck, Nordstrom, Procter & Gamble, Sony, and Walmart) against a carefully matched set of solid but less exceptional comparison companies in the same industries, tracking stock performance and organizational practices over decades. Their central finding runs against a lot of conventional business wisdom: what actually separates enduringly great companies isn't a single visionary product, a charismatic founder, or a brilliant one-time strategic insight — it's the discipline of building an organization, a \"clock,\" that can generate great products, adapt to changing markets, and outlast any individual leader, rather than relying on \"time-telling\" (one great idea or one great leader at a time). The book's most quoted concept is the \"Genius of the AND\" versus the \"Tyranny of the OR\": visionary companies refuse to choose between purpose and profit, between stability and change, between core ideology and progress — they pursue both simultaneously rather than treating them as an unavoidable trade-off. This is closely tied to their core framework of Core Ideology (Core Values plus Core Purpose) combined with a drive for Progress. Core Ideology is essentially fixed and rarely compromised for short-term financial pressure — it's the identity of the company, the things that wouldn't change even if they became a competitive disadvantage. Progress, in contrast, is expressed through what Collins and Porras call BHAGs (Big Hairy Audacious Goals) — huge, clear, and daunting long-term goals that galvanize an organization the way the moon landing galvanized NASA — combined with a relentless mechanism of trying lots of things and keeping what works, which they liken to evolutionary variation and selection rather than top-down master planning. Visionary companies, they found, are also unusually intolerant of managers who don't genuinely fit the core ideology, regardless of their individual competence, and unusually good at developing leadership from within rather than depending on outside saviors (\"home-grown management\" was a strong pattern across the visionary set). They also found visionary companies are willing to make big, bold investments and risks in service of long-term progress in a way the comparison companies weren't, while simultaneously protecting the core ideology with what they call \"cult-like\" internal cultures around values and indoctrination of new hires. The book closes arguing that the practices are learnable and applicable at any company at any stage — the goal isn't to copy 3M's specific products, but to install the same discipline of preserving a core while stimulating progress.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "The Best of the Best — Research Method",
+      "summary": "Explains the comparative research method: 18 visionary companies matched against solid but less exceptional peers in the same industry, studied over decades of history rather than a snapshot in time."
+    },
+    {
+      "order": 2,
+      "title": "Clock Building, Not Time Telling",
+      "summary": "The core distinction between building an organization that can generate great outcomes indefinitely (clock building) versus depending on one great idea, product, or charismatic leader at a time (time telling)."
+    },
+    {
+      "order": 3,
+      "title": "More Than Profits — Core Ideology",
+      "summary": "Visionary companies pursue purpose alongside profit rather than treating profit as the sole reason for existing; Core Ideology (Core Values + Core Purpose) is largely fixed and rarely sacrificed for short-term gain."
+    },
+    {
+      "order": 4,
+      "title": "Preserve the Core / Stimulate Progress",
+      "summary": "The book's master framework: hold Core Ideology nearly constant while aggressively pursuing Progress through BHAGs, bold experimentation, and continuous improvement — the 'Genius of the AND' rather than the 'Tyranny of the OR.'"
+    },
+    {
+      "order": 5,
+      "title": "Big Hairy Audacious Goals (BHAGs)",
+      "summary": "Clear, compelling, high-risk long-term goals that focus and unify an entire organization's effort the way a mission (like the moon landing) galvanizes a whole institution."
+    },
+    {
+      "order": 6,
+      "title": "Cult-Like Cultures",
+      "summary": "Visionary companies indoctrinate new employees intensely into their core values, are unusually intolerant of poor value-fit even among high performers, and create a strong sense of belonging to something larger than a paycheck."
+    },
+    {
+      "order": 7,
+      "title": "Try a Lot of Stuff and Keep What Works",
+      "summary": "An evolutionary approach to innovation and strategy — variation and selection through experimentation — rather than relying entirely on top-down master planning."
+    },
+    {
+      "order": 8,
+      "title": "Home-Grown Management",
+      "summary": "Visionary companies overwhelmingly develop leadership from within rather than importing outside saviors, building deep management benches over generations."
+    },
+    {
+      "order": 9,
+      "title": "Good Enough Never Is",
+      "summary": "A relentless, self-imposed drive for continuous improvement that doesn't depend on any external competitive threat — visionary companies push themselves even when comfortably ahead."
+    }
+  ],
+  "keyLessons": [
+    "Separate what's genuinely core (values and purpose) from what should change (strategies, tactics, products) — hold the core nearly fixed while aggressively pursuing progress everywhere else.",
+    "Set Big Hairy Audacious Goals that are clear and daunting enough to galvanize an entire organization's effort for a decade or more.",
+    "Build an organization ('clock building') that can generate great outcomes indefinitely rather than depending on one great leader or one great idea at a time.",
+    "Treat purpose and profit as an 'AND,' not an 'OR' — enduring companies refuse to sacrifice core identity for short-term financial pressure.",
+    "Develop leadership from within rather than depending on outside saviors — deep management benches outlast any single hire.",
+    "Encourage broad experimentation and keep what works, rather than relying entirely on top-down master strategy.",
+    "Hire and promote for genuine fit with your core values, even over raw competence, and be willing to part ways with high performers who don't fit.",
+    "Push for continuous improvement even without an external competitive threat forcing it."
+  ],
+  "quotes": [
+    { "text": "The critical question is not 'How good are we?' or even 'How good will we need to be in order to succeed in the marketplace?' but 'How good can we become?'", "attribution": "James C. Collins & Jerry I. Porras, Built to Last" },
+    { "text": "A visionary company almost religiously preserves its core ideology... [and] stimulates progress and change in everything that is not part of its core ideology.", "attribution": "James C. Collins & Jerry I. Porras, Built to Last" },
+    { "text": "Clock building, not time telling.", "attribution": "James C. Collins & Jerry I. Porras, Built to Last" }
+  ],
+  "whoThisIsFor": "Founders and executives thinking about long-term company design — culture, succession, and strategy — rather than a single quarter's results.",
+  "whenToReadThis": "Read it when defining or revisiting a company's core values and long-range goals, especially at a founding or leadership-transition moment.",
+  "relatedBooks": ["good-to-great", "the-e-myth-revisited"],
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-24",
+  "sourceNotes": "Original synthesis from general knowledge of Collins and Porras's well-documented Stanford research project and its named frameworks (Core Ideology, BHAGs, Genius of the AND). No source text reproduced; 3 short verbatim quotes used, all widely cited lines from the book."
+}
