@@ -48,7 +48,7 @@ export default function BookTabs({ book }: { book: Book }) {
       <div
         role="tablist"
         aria-label="Book sections"
-        className="sticky top-[57px] z-[5] -mx-4 flex gap-1 overflow-x-auto border-b border-border bg-bg px-4 py-2 sm:mx-0 sm:px-0"
+        className="sticky top-14 z-[5] -mx-4 flex gap-1 overflow-x-auto border-b border-border bg-bg px-4 py-2 sm:mx-0 sm:px-0"
       >
         {TABS.map((tab) => (
           <button

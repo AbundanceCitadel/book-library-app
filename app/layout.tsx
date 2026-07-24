@@ -1,21 +1,31 @@
 import type { Metadata, Viewport } from "next";
-import { Inter, Newsreader } from "next/font/google";
+import { Inter, Literata } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
 import ServiceWorkerRegister from "./components/ServiceWorkerRegister";
 
-// v2 (Stage 15) typography — self-hosted via next/font/google (downloaded once
-// at build time, zero runtime request to Google's CDN, no layout shift). See
-// docs/DESIGN_SYSTEM.md "Typography." Inter for UI chrome, Newsreader (a Google
-// Font purpose-built for on-screen long-form reading) for book content.
+// v2.1 (Session 9 readability pass) typography — self-hosted via
+// next/font/google (downloaded once at build time, zero runtime request to
+// Google's CDN, no layout shift). See docs/DESIGN_SYSTEM.md "Typography."
+// Inter for UI chrome (small labels, nav, badges — one of the most
+// road-tested fonts for on-screen legibility at small sizes).
+// Literata for reading content: it's the font Google built specifically for
+// Play Books' on-screen reading surfaces (higher x-height, optimized at
+// small/medium text sizes, holds up on lower-DPI phone screens far better
+// than a typical thin/high-contrast serif) — swapped in from Newsreader after
+// Thai found the previous choice harder to read on his phone. Weights pinned
+// to 400/500 (never lighter) so body text never renders in a thin, hard-to-
+// read weight.
 const inter = Inter({
   subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
   variable: "--font-inter",
   display: "swap",
 });
-const newsreader = Newsreader({
+const literata = Literata({
   subsets: ["latin"],
-  variable: "--font-newsreader",
+  weight: ["400", "500", "600"],
+  variable: "--font-literata",
   display: "swap",
   style: ["normal", "italic"],
 });
@@ -71,7 +81,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} ${newsreader.variable}`}>
+    <html lang="en" className={`${inter.variable} ${literata.variable}`}>
       <head>
         <script dangerouslySetInnerHTML={{ __html: NO_FLASH_SCRIPT }} />
       </head>

@@ -8,27 +8,51 @@
   "estimatedOriginalReadingTimeMinutes": 340,
   "tags": ["startups", "entrepreneurship", "product-development", "validated-learning", "mvp"],
   "structureType": "parts",
-  "summary": "The Lean Startup argues that a startup is not a smaller version of a large company but a distinct kind of institution built to search for a repeatable, scalable business model under conditions of extreme uncertainty. Ries's central claim is that most startups fail not from a lack of execution discipline but from applying the wrong discipline: building a detailed business plan and a fully-featured product before anyone has confirmed customers actually want it. His alternative is the Build-Measure-Learn feedback loop, run as fast as possible, with the goal of maximizing validated learning about what customers will actually pay for rather than maximizing output of features or code. The book introduces the minimum viable product (MVP) as the smallest thing a team can build to start that loop — not a low-quality first version of the final product, but a deliberate experiment designed to test a specific hypothesis about customer behavior. Ries distinguishes vanity metrics (numbers that go up and to the right but don't inform decisions, like total registered users) from actionable metrics (cohort-based, comparative numbers that tell a team whether a specific change caused a specific result), and argues that startups should adopt innovation accounting — a rigorous way of measuring progress when there's no revenue or traditional business metrics yet. A recurring theme is the pivot: a structured course correction where a team keeps what it has learned but changes strategic direction, as distinct from either stubbornly persevering on a failing plan or panicking and changing everything at once. Ries catalogs several types of pivots (zoom-in, zoom-out, customer segment, platform, and others) as a vocabulary for teams to diagnose what kind of change they actually need. The book also addresses how lean methods apply inside larger, established companies, not just garage startups, through structures Ries calls the innovation sandbox — a way to let internal teams run true experiments without risking the core business. Throughout, Ries pushes back on the idea that startup success is about a visionary founder's unwavering conviction; instead, he frames it as a scientific, iterative discipline of forming a hypothesis, running the smallest possible test, measuring the real result, and having the humility to let the data override the plan. The book closes by arguing that this discipline — rapid, honest experimentation — is what allows a team to build something people actually want before running out of resources trying to build something nobody asked for.",
+  "summary": "The Lean Startup opens with a provocation: most startups fail not because their teams lack discipline, but because they apply rigorous discipline to the wrong thing. Eric Ries argues that a startup is not a smaller version of a large company chasing a known business model — it is 'a human institution designed to create a new product or service under conditions of extreme uncertainty.' Traditional management tools, built for organizations executing a known plan against a knowable market, actively mislead teams operating under that uncertainty, because they reward the appearance of progress — a finished feature, a shipped release, a plan executed on schedule — rather than evidence that anyone actually wants what's being built.\n\nHis alternative is the Build-Measure-Learn feedback loop, run as fast and as often as possible, with the explicit goal of maximizing validated learning about what customers will pay for rather than maximizing output. The minimum viable product (MVP) is introduced not as a stripped-down or buggy first release, but as a deliberate experiment: the smallest thing a team can build to test a specific hypothesis about customer behavior and start the loop turning. Ries draws heavily on his own early failures — first at a startup that collapsed outright, then at IMVU, where his team spent months building features nobody asked for — to argue that speed of learning, not speed of building, is the real competitive advantage a startup has over incumbents.\n\nBecause startups by definition lack the revenue and traditional business metrics that let established companies judge progress, Ries proposes innovation accounting: a disciplined way of measuring movement toward a sustainable business using cohort-based, comparative numbers. He draws a sharp line between vanity metrics — totals that climb regardless of what a team does, like cumulative registered users — and actionable metrics, which isolate whether a specific change caused a specific, repeatable result. Small batch sizes appear as a related discipline borrowed from lean manufacturing: shipping and testing in tiny increments surfaces problems immediately, rather than burying them inside a large release where the cause of any given outcome becomes impossible to isolate.\n\nWhen the data contradicts the founding hypothesis, Ries's answer is neither blind perseverance nor panic — it's the pivot, a structured course correction that keeps what the team has learned while changing strategic direction. He catalogs a taxonomy of pivots (zoom-in, zoom-out, customer segment, platform, and others) precisely so teams have a shared vocabulary for diagnosing what kind of change a failed hypothesis actually calls for, rather than either grinding forward on a dying plan or discarding everything at the first sign of trouble.\n\nThe book's final movement extends these ideas beyond the garage-startup image, arguing that any organization — including large, established companies — can build 'innovation sandboxes': protected structures that let internal teams run genuine experiments without putting the core business at risk. Ries closes by reframing entrepreneurship itself as a discipline that can be taught and engineered rather than a matter of instinct or luck: a scientific process of hypothesis, minimal test, honest measurement, and the humility to let real data override the plan.",
   "sections": [
     {
       "order": 1,
       "title": "Vision — Start With Why Lean Matters",
-      "summary": "Defines what a startup actually is (an institution designed to create something new under uncertainty, regardless of company size or industry) and introduces the core failure mode Ries is writing against: executing a flawed plan with great discipline."
+      "summary": "This opening section sets up the book's foundational reframe: what actually counts as a 'startup,' and why the management discipline that works for executing a known plan fails once the plan itself is unproven.\n\nRies defines a startup by its condition — extreme uncertainty — rather than by its size, industry, or funding status, and draws on his own early career, including a failed venture and later IMVU, to show how skilled, hardworking teams following conventional management wisdom (write a plan, build the full product, then launch) can execute flawlessly and still fail, because nothing along the way tested whether customers wanted the product at all. He names this trap 'achieving failure': successfully executing a plan that leads nowhere. The chapter introduces validated learning as the true unit of progress for a startup, distinct from revenue, features shipped, or even customer satisfaction taken in the abstract.\n\nHaving established that traditional metrics of progress are misleading inside genuine uncertainty, the section hands off to the practical machinery Ries proposes to replace them, setting up the Build-Measure-Learn loop developed in the following section.",
+      "keyLessons": [
+        "A startup is defined by extreme uncertainty, not by size, industry, or funding stage — the label applies to teams inside big companies too.",
+        "Executing a plan flawlessly is not success if the plan itself was never validated against real customers.",
+        "Watch for 'achieving failure' — hitting every internal milestone on a product nobody wanted.",
+        "Validated learning, not output, is the real currency of progress in a startup."
+      ]
     },
     {
       "order": 2,
       "title": "Steer — The Build-Measure-Learn Loop",
-      "summary": "Introduces the Build-Measure-Learn feedback loop, the minimum viable product as a tool for starting that loop fast, and the idea that a startup's job is to run this loop as many times as possible before resources run out."
+      "summary": "This section lays out the operating mechanism Ries offers as the alternative to plan-and-execute management: the Build-Measure-Learn feedback loop, and the minimum viable product as the tool that gets a team into that loop as fast as possible.\n\nRies works the loop in reverse from how most teams intuitively approach it — start by identifying what you need to learn, then determine what to measure in order to learn it, and only then figure out the minimum product required to run that measurement. He points to examples like an explainer video used to test demand before a product existed, and a founder manually fulfilling orders by hand to validate an idea before building any real infrastructure, to show an MVP can be far smaller and scrappier than a finished product as long as it tests a genuine hypothesis. The chapter stresses that speed through the entire loop matters more than polish at any single stage, since every pass through Build-Measure-Learn either validates or invalidates part of the founding hypothesis.\n\nThe chapter closes by framing the remaining machinery of the book — metrics, batch size, pivoting — as refinements of how to run this one loop faster and more honestly, setting up the next section's focus on making the 'measure' stage rigorous enough to actually be trusted.",
+      "keyLessons": [
+        "Work the Build-Measure-Learn loop in reverse: decide what you need to learn first, then what to measure, then the minimum product needed to measure it.",
+        "An MVP can be a video, a concierge service, or a manual process — it doesn't need to be real shippable software, only a genuine test of a hypothesis.",
+        "Speed through the full loop matters more than polish at any single stage.",
+        "Every hypothesis in a startup plan is testable at some minimal scale before committing full resources."
+      ]
     },
     {
       "order": 3,
       "title": "Accelerate — Batch Size, Metrics, and Pivoting",
-      "summary": "Covers small batch sizes as a way to catch problems early, the difference between vanity metrics and actionable metrics, innovation accounting for pre-revenue progress, and the taxonomy of pivots teams use when a hypothesis is invalidated."
+      "summary": "This section addresses how a team keeps the Build-Measure-Learn loop honest and fast once it's actually running, tackling three linked problems: batch size, the trustworthiness of metrics, and what to do once a hypothesis is invalidated.\n\nRies borrows the small-batch principle from lean manufacturing, showing that shipping in tiny increments surfaces defects and bad assumptions immediately, whereas large batches hide which specific change caused which specific outcome. He then draws the line between vanity metrics — cumulative totals that trend upward regardless of what a team does, flattering it without informing any decision — and actionable metrics, made trustworthy through cohort analysis: tracking a defined group of customers who joined at the same time or had the same experience so a team can see whether a change actually moved behavior. Innovation accounting is introduced as the discipline of setting a real baseline, tuning the engine of growth through a series of experiments, and only then deciding whether to pivot or persevere. The pivot itself gets a taxonomy — zoom-in, zoom-out, customer segment, platform, and others — giving teams a shared vocabulary for exactly what kind of strategic change a failed experiment calls for.\n\nTogether, small batches, honest metrics, and a structured vocabulary for pivoting let a team change direction quickly and cheaply, where a large-batch, vanity-metric-driven approach would have buried the same signal for months — setting up the final section's question of whether these habits can survive as a company grows past its earliest stage.",
+      "keyLessons": [
+        "Ship and test in small batches so a specific change can be tied to a specific result.",
+        "Distrust any metric that only goes up regardless of what the team does — pair it with cohort analysis instead.",
+        "Use innovation accounting to set a real baseline before claiming a change 'worked.'",
+        "Learn the pivot taxonomy so a failed hypothesis leads to a specific, diagnosed change in direction, not panic or denial."
+      ]
     },
     {
       "order": 4,
       "title": "Grow — Sustaining Lean Practices at Scale",
-      "summary": "Applies lean principles to company growth engines (paid, viral, and sticky growth), adaptive organization design, and how larger companies can build internal 'innovation sandboxes' to run genuine experiments without threatening the core business."
+      "summary": "The closing section asks whether lean principles are only useful for tiny, resource-starved teams or whether they can survive contact with growth, revenue, and organizational size, extending the book's argument into large, established companies.\n\nRies breaks growth itself into three engines — paid, viral, and sticky — arguing a company should identify which engine is actually driving its growth and concentrate experimentation there rather than treating 'growth' as one undifferentiated goal. He then turns to organizational design, describing an 'adaptive organization' that adjusts its own process to current conditions instead of hardening into permanent bureaucracy, and introduces the innovation sandbox: a bounded space where an internal team can run a genuine, unmodified experiment — including a true MVP and honest metrics — without threatening the core business or requiring executive sign-off on every change.\n\nThe book resolves on the claim that none of this is really about startups specifically; it is a general management discipline for any team building something new under uncertainty, and any organization, however large, can adopt the sandbox structure to keep innovating instead of ossifying around its first success.",
+      "keyLessons": [
+        "Identify which growth engine (paid, viral, or sticky) is actually driving results and concentrate experiments there.",
+        "Design organizations to adapt their own process to current conditions rather than fixing one process permanently.",
+        "Large companies can protect internal innovation with a sandbox that limits blast radius without limiting the rigor of the experiment.",
+        "Lean Startup principles are a general management discipline for uncertainty, not a stage a company graduates out of after its first success."
+      ]
     }
   ],
   "keyLessons": [
@@ -44,17 +68,145 @@
   "quotes": [
     {
       "text": "A startup is a human institution designed to create a new product or service under conditions of extreme uncertainty.",
-      "attribution": "Eric Ries, The Lean Startup"
+      "attribution": "Eric Ries, The Lean Startup",
+      "category": "What a Startup Is"
+    },
+    {
+      "text": "Startup success is not a consequence of good genes or being in the right place at the right time. Startup success can be engineered by following the right process, which means it can be learned, which means it can be taught.",
+      "attribution": "Eric Ries, The Lean Startup",
+      "category": "What a Startup Is"
+    },
+    {
+      "text": "What if we found ourselves building something that nobody wanted? In that case what did it matter if we did it on time and on budget?",
+      "attribution": "Eric Ries, The Lean Startup",
+      "category": "What a Startup Is"
+    },
+    {
+      "text": "Startups exist not just to make stuff, make money, or even serve customers. They exist to learn how to build a sustainable business.",
+      "attribution": "Eric Ries, The Lean Startup",
+      "category": "What a Startup Is"
     },
     {
       "text": "The only way to win is to learn faster than anyone else.",
-      "attribution": "Eric Ries, The Lean Startup"
+      "attribution": "Eric Ries, The Lean Startup",
+      "category": "Learning and Customers"
     },
     {
-      "text": "If we are building something that nobody wants, it matters little if we are doing it on time and on budget.",
-      "attribution": "Eric Ries, The Lean Startup"
+      "text": "We must learn what customers really want, not what they say they want or what we think they should want.",
+      "attribution": "Eric Ries, The Lean Startup",
+      "category": "Learning and Customers"
+    },
+    {
+      "text": "The ability to learn faster from customers is the essential competitive advantage that startups must possess.",
+      "attribution": "Eric Ries, The Lean Startup",
+      "category": "Learning and Customers"
+    },
+    {
+      "text": "If we do not know who the customer is, we do not know what quality is.",
+      "attribution": "Eric Ries, The Lean Startup",
+      "category": "Learning and Customers"
+    },
+    {
+      "text": "Customers don't care how much time something takes to build. They care only if it serves their needs.",
+      "attribution": "Eric Ries, The Lean Startup",
+      "category": "Learning and Customers"
+    },
+    {
+      "text": "Success is not delivering a feature; success is learning how to solve the customer's problem.",
+      "attribution": "Eric Ries, The Lean Startup",
+      "category": "Learning and Customers"
+    },
+    {
+      "text": "As you consider building your own minimum viable product, let this simple rule suffice: remove any feature, process, or effort that does not contribute directly to the learning you seek.",
+      "attribution": "Eric Ries, The Lean Startup",
+      "category": "MVP and Experimentation"
+    },
+    {
+      "text": "The lesson of the MVP is that any additional work beyond what was required to start learning is waste, no matter how important it might have seemed at the time.",
+      "attribution": "Eric Ries, The Lean Startup",
+      "category": "MVP and Experimentation"
+    },
+    {
+      "text": "In the Lean Startup model, an experiment is more than just a theoretical inquiry; it is also a first product.",
+      "attribution": "Eric Ries, The Lean Startup",
+      "category": "MVP and Experimentation"
+    },
+    {
+      "text": "The point is not to find the average customer but to find early adopters: the customers who feel the need for the product most acutely. Those customers tend to be more forgiving of mistakes and are especially eager to give feedback.",
+      "attribution": "Eric Ries, The Lean Startup",
+      "category": "MVP and Experimentation"
+    },
+    {
+      "text": "Build-Measure-Learn feedback loop is at the core of the Lean Startup model.",
+      "attribution": "Eric Ries, The Lean Startup",
+      "category": "MVP and Experimentation"
+    },
+    {
+      "text": "if you cannot fail, you cannot learn.",
+      "attribution": "Eric Ries, The Lean Startup",
+      "category": "Failure and Pivoting"
+    },
+    {
+      "text": "there is no bigger destroyer of creative potential than the misguided decision to persevere.",
+      "attribution": "Eric Ries, The Lean Startup",
+      "category": "Failure and Pivoting"
+    },
+    {
+      "text": "Ask most entrepreneurs who have decided to pivot and they will tell you that they wish they had made the decision sooner.",
+      "attribution": "Eric Ries, The Lean Startup",
+      "category": "Failure and Pivoting"
+    },
+    {
+      "text": "achieving failure: successfully executing a plan that leads nowhere.",
+      "attribution": "Eric Ries, The Lean Startup",
+      "category": "Failure and Pivoting"
+    },
+    {
+      "text": "Failure is a prerequisite to learning.",
+      "attribution": "Eric Ries, The Lean Startup",
+      "category": "Failure and Pivoting"
+    },
+    {
+      "text": "When blame inevitably arises, the most senior people in the room should repeat this mantra: if a mistake happens, shame on us for making it so easy to make that mistake.",
+      "attribution": "Eric Ries, The Lean Startup",
+      "category": "Leadership and Culture"
+    },
+    {
+      "text": "Leadership requires creating conditions that enable employees to do the kinds of experimentation that entrepreneurship requires.",
+      "attribution": "Eric Ries, The Lean Startup",
+      "category": "Leadership and Culture"
+    },
+    {
+      "text": "I call this building an adaptive organization, one that automatically adjusts its process and performance to current conditions.",
+      "attribution": "Eric Ries, The Lean Startup",
+      "category": "Leadership and Culture"
+    },
+    {
+      "text": "All innovation begins with vision. It's what happens next that is critical.",
+      "attribution": "Eric Ries, The Lean Startup",
+      "category": "Vision and Simplicity"
+    },
+    {
+      "text": "When in doubt, simplify.",
+      "attribution": "Eric Ries, The Lean Startup",
+      "category": "Vision and Simplicity"
+    },
+    {
+      "text": "The big question of our time is not Can it be built? but Should it be built? This places us in an unusual historical moment: our future prosperity depends on the quality of our collective imaginations.",
+      "attribution": "Eric Ries, The Lean Startup",
+      "category": "Vision and Simplicity"
+    },
+    {
+      "text": "Reading is good, action is better.",
+      "attribution": "Eric Ries, The Lean Startup",
+      "category": "Vision and Simplicity"
     }
   ],
+  "authorBio": {
+    "name": "Eric Ries",
+    "bio": "Eric Ries (born 1978) is an American entrepreneur and writer who studied computer science at Yale University before moving to Silicon Valley in the early 2000s. He worked as an engineer at the online virtual-world company There, Inc., then co-founded several startups of his own, most notably IMVU, a 3D avatar-based social platform, where he served as chief technology officer for years of rapid, iterative product development.\n\nIt was the gap between IMVU's early failures and its eventual traction that led Ries to develop the ideas behind The Lean Startup. He combined Steve Blank's 'customer development' methodology — Blank was an early mentor and investor — with concepts borrowed from Toyota's lean manufacturing system, and began writing about the resulting framework on his blog, 'Startup Lessons Learned,' before publishing The Lean Startup in 2011. The book became an international bestseller, popularized terms like 'minimum viable product' and 'pivot' well beyond the startup world, and has been credited with reshaping how both startups and large corporations approach new-product development.\n\nBeyond the book, Ries has worked as an advisor to startups, corporations, and venture capital firms, served as an entrepreneur-in-residence at Harvard Business School, and founded the Long-Term Stock Exchange, a U.S. stock exchange designed to encourage long-term thinking among public companies. He has continued to extend lean startup principles into large-organization management through later writing and speaking.",
+    "notableWorks": ["The Startup Way", "The Leader's Guide"]
+  },
   "whoThisIsFor": "Founders, product managers, or anyone inside a company launching something genuinely new who wants a disciplined alternative to 'build it all, then find out if anyone wants it.'",
   "whenToReadThis": "Read before committing significant time or money to a new product idea, or when a project has stalled because no one can agree on what to build next.",
   "relatedBooks": ["zero-to-one"],
@@ -62,5 +214,5 @@
   "personalRating": null,
   "personalNotes": "",
   "dateAdded": "2026-07-24",
-  "sourceNotes": "Original synthesis by Claude from general knowledge of the book's well-documented framework (Build-Measure-Learn, MVP, innovation accounting, pivot taxonomy). Three short verbatim quotes included with attribution per copyright policy; no chapter text reproduced."
+  "sourceNotes": "V2 retrofit. Whole-book and section-level synthesis is original writing based on the well-documented, publicly discussed elements of Ries's framework (Build-Measure-Learn, MVP, innovation accounting, vanity vs. actionable metrics, pivot taxonomy, growth engines, innovation sandbox) — no text copied from the book, Wikipedia, or summary sites. All 27 quotes were cross-checked against Goodreads' dedicated quote page for The Lean Startup (goodreads.com/work/quotes/15024842) for exact wording before inclusion. Author bio facts (Yale, IMVU, Steve Blank connection, Long-Term Stock Exchange, other titles) verified via web search against Wikipedia and publisher/author bio sources."
 }

@@ -56,17 +56,25 @@ body {
 }
 
 /* Reading-content typography: applied to long-form summary/lesson/quote text
-   so it reads like a book rather than app UI. See docs/DESIGN_SYSTEM.md. */
+   so it reads like a book rather than app UI. See docs/DESIGN_SYSTEM.md.
+   Session 9 readability pass: bumped from text-base (16px) to 17px/1.8 —
+   still comfortably above the never-shrink-below-14px floor, just a touch
+   larger and looser for one-handed phone reading. */
 .prose-reading {
-  @apply font-serif text-base leading-relaxed text-fg;
+  @apply font-serif text-fg;
+  font-size: 17px;
+  line-height: 1.8;
 }
 
 /* v2: real visual separation between paragraphs of long-form content, instead
    of one whitespace-pre-line block. Content fields are split on blank lines
    and rendered as sibling <p> tags inside .prose-reading — see
-   lib/paragraphs.ts and docs/DESIGN_SYSTEM.md "Paragraph spacing." */
+   lib/paragraphs.ts and docs/DESIGN_SYSTEM.md "Paragraph spacing."
+   Session 9: bumped from 1.25em to 1.6em after Thai flagged paragraphs
+   reading as stuck together — this needs to look unmistakably like a gap,
+   not just a slightly taller line, especially on a small phone screen. */
 .prose-reading p + p {
-  margin-top: 1.25em;
+  margin-top: 1.6em;
 }
 
 /* Minimum comfortable touch target per docs/DESIGN_SYSTEM.md. */

@@ -51,7 +51,10 @@ const config: Config = {
       },
       fontFamily: {
         sans: ["var(--font-inter)", "ui-sans-serif", "system-ui", "sans-serif"],
-        serif: ["var(--font-newsreader)", "ui-serif", "Georgia", "serif"],
+        // Literata — Google's e-reading font (built for Play Books), swapped
+        // in from Newsreader for better legibility on phone screens. See
+        // app/layout.tsx and docs/DESIGN_SYSTEM.md "Typography."
+        serif: ["var(--font-literata)", "ui-serif", "Georgia", "serif"],
       },
     },
   },
