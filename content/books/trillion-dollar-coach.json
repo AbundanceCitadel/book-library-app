@@ -1,0 +1,77 @@
+{
+  "id": "trillion-dollar-coach",
+  "title": "Trillion Dollar Coach: The Leadership Playbook of Silicon Valley's Bill Campbell",
+  "author": "Eric Schmidt, Jonathan Rosenberg, and Alan Eagle",
+  "categories": ["bio-business", "business"],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 330,
+  "tags": ["leadership", "coaching", "management", "silicon-valley", "teams"],
+  "structureType": "chapters",
+  "summary": "Trillion Dollar Coach is a collective portrait of Bill Campbell, the former college football coach turned Silicon Valley executive who became the confidential coach and mentor to Steve Jobs, Larry Page, Sergey Brin, Eric Schmidt, and dozens of other top technology leaders, written by three people (including former Google CEO Eric Schmidt) who worked with him directly and organized the book around the recurring lessons Campbell taught rather than a chronological life story. The book's central argument is that Campbell's greatest contribution to Silicon Valley wasn't any single company he ran or invested in, but a management philosophy built on the premise that people, not strategy or product, are the ultimate multiplier of a company's success — and that a manager's core job is to help people be more effective and grow, not simply to direct their work. Campbell insisted that management and leadership are fundamentally about care: he was famous for showing up to people's personal milestones, remembering details of employees' families, and treating a company as a genuine community rather than a transactional workplace, on the theory that people who feel truly cared for as individuals give far more discretionary effort than people who feel merely managed. A major recurring theme is his emphasis on psychological safety and direct, sometimes blunt, communication in the same breath — Campbell would tell people hard truths quickly and personally, but always coupled with visible loyalty and public support, distinguishing tough feedback delivered in service of someone's growth from criticism that undermines their standing. The book covers Campbell's insistence on team-first decision-making, including his practice of running meetings that always ended with clear next steps and his conviction that the best executives surround themselves with people willing to openly disagree with them, since silent compliance is a symptom of a broken team dynamic, not a healthy one. Several chapters focus on Campbell's specific coaching techniques: the \"trip report\" habit of debriefing immediately after important meetings, his push for leaders to build genuine one-on-one relationships with every direct report rather than delegating that entirely to HR processes, and his belief that a company's culture is built through thousands of small, consistent behaviors from leadership, not through mission statements or values posters. The authors are candid that Campbell operated almost entirely outside the public eye by choice — he never wrote a book himself, rarely gave interviews, and built his outsized influence purely through one-on-one relationships and word of mouth among the executives he coached. The book closes by arguing that Campbell's approach, often dismissed as merely being \"a nice guy,\" was in fact a rigorous, repeatable leadership discipline that measurably improved decision-making and retention at the companies he touched, and that this style of people-first coaching is a learnable skill rather than an innate personality trait limited to a few naturally warm leaders.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "From the Football Field to Silicon Valley",
+      "summary": "Introduces Bill Campbell's background as a college football coach before his transition into technology executive roles, and how that coaching identity shaped his later management philosophy."
+    },
+    {
+      "order": 2,
+      "title": "People Are the Multiplier",
+      "summary": "Establishes Campbell's core thesis: a manager's job is to make people more effective and help them grow, since people — not strategy alone — ultimately determine a company's success."
+    },
+    {
+      "order": 3,
+      "title": "Care as a Management Discipline",
+      "summary": "Covers Campbell's practice of treating companies as genuine communities, remembering personal details about employees, and showing up for people's milestones as a deliberate leadership behavior, not incidental warmth."
+    },
+    {
+      "order": 4,
+      "title": "Tough Love — Direct Feedback With Visible Loyalty",
+      "summary": "Explains Campbell's combination of blunt, immediate feedback with unmistakable public support, distinguishing growth-oriented criticism from feedback that undermines someone's standing."
+    },
+    {
+      "order": 5,
+      "title": "Building Teams That Disagree Openly",
+      "summary": "Covers Campbell's insistence that strong teams need people willing to openly challenge leadership, treating silent compliance as a warning sign rather than a sign of a healthy team."
+    },
+    {
+      "order": 6,
+      "title": "The Coaching Toolkit",
+      "summary": "Details specific practices Campbell used repeatedly: post-meeting 'trip report' debriefs, genuine one-on-one relationships with every direct report, and building culture through consistent daily behavior rather than mission statements."
+    },
+    {
+      "order": 7,
+      "title": "Influence Without a Public Profile",
+      "summary": "Notes that Campbell never wrote a book or sought public visibility himself, building his outsized influence entirely through private one-on-one relationships and reputation among the executives he coached."
+    },
+    {
+      "order": 8,
+      "title": "Coaching as a Learnable Discipline",
+      "summary": "Closes by arguing Campbell's people-first approach was a rigorous, repeatable leadership discipline with measurable results — not just a personality trait limited to naturally warm leaders."
+    }
+  ],
+  "keyLessons": [
+    "Treat management as fundamentally about making people more effective and helping them grow, not just directing their work.",
+    "Show genuine care for people as individuals — remembering personal details and showing up for their milestones — since it drives far more discretionary effort than transactional management.",
+    "Pair direct, sometimes blunt feedback with visible loyalty and public support so tough truths land as growth-oriented, not undermining.",
+    "Build teams where people feel safe openly disagreeing with leadership; silent compliance is a warning sign, not a healthy dynamic.",
+    "End every important meeting with clear next steps rather than open-ended discussion.",
+    "Build genuine one-on-one relationships with every direct report yourself — don't delegate that entirely to HR processes.",
+    "Culture is built through thousands of small, consistent leadership behaviors, not mission statements or values posters.",
+    "A people-first coaching style is a learnable, repeatable discipline, not an innate trait reserved for naturally warm personalities."
+  ],
+  "quotes": [
+    { "text": "Titles don't matter. What matters is that people trust and respect you.", "attribution": "Bill Campbell, as recounted in Trillion Dollar Coach" },
+    { "text": "Managers need to create an environment where employees feel free to express their opinions and challenge each other and the leader.", "attribution": "Trillion Dollar Coach" },
+    { "text": "Just because you weren't the smartest guy in the room didn't mean you couldn't be its leader.", "attribution": "Trillion Dollar Coach" }
+  ],
+  "whoThisIsFor": "Managers and executives who want a people-first leadership model grounded in real Silicon Valley practice rather than abstract theory.",
+  "whenToReadThis": "Read when stepping into a management role for the first time, or any time team trust and candor need a deliberate reset.",
+  "relatedBooks": ["the-hard-thing-about-hard-things", "never-eat-alone", "the-art-of-the-deal"],
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-24",
+  "sourceNotes": "Original synthesis from general knowledge of the book's well-documented leadership principles and widely-reported anecdotes about Bill Campbell. Three short, widely-cited quotes included with attribution; no passages reproduced."
+}

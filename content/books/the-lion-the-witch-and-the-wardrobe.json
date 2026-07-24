@@ -1,0 +1,77 @@
+{
+  "id": "the-lion-the-witch-and-the-wardrobe",
+  "title": "The Lion, the Witch and the Wardrobe",
+  "author": "C.S. Lewis",
+  "categories": ["fiction-literature"],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 210,
+  "tags": ["fantasy", "childrens-literature", "allegory", "narnia", "classic"],
+  "structureType": "chapters",
+  "summary": "The Lion, the Witch and the Wardrobe follows four English siblings — Peter, Susan, Edmund, and Lucy Pevensie — evacuated to a large country house during World War II, where Lucy discovers a wardrobe that serves as a portal into Narnia, a magical land currently frozen in permanent winter under the rule of the White Witch, Jasadis, who has declared that in Narnia it is \"always winter and never Christmas.\" The novel's early chapters center on trust and belief within the family: Lucy's siblings initially dismiss her account of Narnia as childish fantasy, and Edmund, after secretly following her and meeting the White Witch himself, lies to protect his own budding, self-interested alliance with her rather than corroborate his sister's story — a betrayal driven by the Witch's manipulative gift of enchanted Turkish Delight and the promise of being made a prince, which the novel uses to explore how flattery and appetite can corrupt judgment even in someone who isn't fundamentally cruel. Once all four children eventually pass through the wardrobe together, they learn of an old Narnian prophecy that the White Witch's reign will end when four human \"Sons of Adam and Daughters of Eve\" sit on the four thrones at Cair Paravel, setting up the central conflict, and they encounter Mr. and Mrs. Beaver, who reveal that the true King of Narnia, the lion Aslan, is finally returning after a long absence — news that provokes an instinctive, almost religious awe in the children even before they've met him. Edmund's betrayal deepens as he slips away to the White Witch's castle seeking the promised rewards, only to discover her hospitality was a manipulation entirely contingent on his usefulness, and he becomes her prisoner as the other three children reach Aslan's camp and prepare for war. The novel's central turning point is Aslan's decision to offer himself in Edmund's place under the ancient magic governing Narnia — the Deep Magic from the Dawn of Time, which decrees that every traitor belongs to the White Witch as her lawful prey unless a substitute willingly takes their place — and Aslan is killed on the Stone Table by the Witch and her followers in a scene the book renders with real emotional weight through Susan and Lucy's witness and grief. Aslan's resurrection the next morning, explained through a \"deeper magic from before the dawn of time\" that the Witch didn't know about — the principle that a willing, innocent victim's death in a traitor's place would cause death itself to work backward — resolves the novel's central conflict and leads directly into the final battle, where Aslan and the reassembled army defeat the White Witch's forces and the four Pevensie children are crowned Kings and Queens of Narnia, ruling for years inside the story before an accidental return through the wardrobe brings them back to their own world at the exact moment they left, no time having passed at all.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "Into the Wardrobe",
+      "summary": "Lucy discovers Narnia through the wardrobe during a game of hide-and-seek, and her siblings initially dismiss her account as make-believe."
+    },
+    {
+      "order": 2,
+      "title": "Edmund's Betrayal",
+      "summary": "Edmund secretly follows Lucy into Narnia, meets the manipulative White Witch, and lies to his siblings about it after being tempted with enchanted Turkish Delight and a false promise of being made a prince."
+    },
+    {
+      "order": 3,
+      "title": "All Four Children in Narnia",
+      "summary": "The Pevensie children finally enter Narnia together and meet Mr. and Mrs. Beaver, who reveal the prophecy of four human thrones and the long-awaited return of the lion Aslan."
+    },
+    {
+      "order": 4,
+      "title": "The White Witch's True Nature",
+      "summary": "Edmund slips away seeking his promised reward and discovers the Witch's hospitality was entirely conditional on his usefulness, becoming her prisoner as the other children reach Aslan's camp."
+    },
+    {
+      "order": 5,
+      "title": "The Deep Magic from the Dawn of Time",
+      "summary": "Aslan negotiates with the White Witch under Narnia's ancient law that every traitor is her lawful prey unless a willing substitute takes their place, and offers himself for Edmund."
+    },
+    {
+      "order": 6,
+      "title": "The Stone Table",
+      "summary": "Aslan is killed by the White Witch and her followers on the Stone Table, witnessed with real grief by Susan and Lucy."
+    },
+    {
+      "order": 7,
+      "title": "The Deeper Magic",
+      "summary": "Aslan is resurrected through a deeper magic the Witch didn't know existed — a willing, innocent death in a traitor's place causes death itself to work backward."
+    },
+    {
+      "order": 8,
+      "title": "War and the Crowning at Cair Paravel",
+      "summary": "Aslan and the reassembled Narnian army defeat the White Witch's forces, and the four Pevensie children are crowned Kings and Queens of Narnia before eventually returning to their own world with no time having passed."
+    }
+  ],
+  "keyLessons": [
+    "Flattery and appetite can corrupt judgment even in someone who isn't fundamentally cruel — notice when a tempting offer is really a manipulation.",
+    "A betrayal driven by self-interest often looks, in hindsight, like it traded something real for a promise that was never going to be honored.",
+    "Ancient or established rules (the novel's 'Deep Magic') can still be honored while also being transcended by something deeper and more generous.",
+    "Willingness to sacrifice yourself for someone else's mistake is presented as the story's most powerful force — more powerful than the rule that seemed to demand punishment.",
+    "Trust between siblings or close allies can be damaged by dismissing someone's account too quickly, even when it seems implausible.",
+    "A long-awaited, legitimate authority returning after an oppressive reign can restore both order and hope, not just political control.",
+    "Time spent in a transformative experience doesn't have to cost you time in your ordinary life — but the internal change still counts as real.",
+    "Even a manipulative captor's hospitality is worth scrutinizing for what it's actually conditional on."
+  ],
+  "quotes": [
+    { "text": "Wrong will be right, when Aslan comes in sight, at the sound of his roar, sorrows will be no more.", "attribution": "C.S. Lewis, The Lion, the Witch and the Wardrobe" },
+    { "text": "Safe? Who said anything about safe? 'Course he isn't safe. But he's good. He's the King, I tell you.", "attribution": "C.S. Lewis, The Lion, the Witch and the Wardrobe" },
+    { "text": "Once a king or queen in Narnia, always a king or queen.", "attribution": "C.S. Lewis, The Lion, the Witch and the Wardrobe" }
+  ],
+  "whoThisIsFor": "Readers who want a classic allegorical fantasy novel exploring betrayal, sacrifice, and redemption, suitable for both younger readers and adults revisiting it.",
+  "whenToReadThis": "A good quick read any time you want a classic, emotionally resonant fantasy story, or to revisit before reading further Narnia books.",
+  "relatedBooks": [],
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-24",
+  "sourceNotes": "Original synthesis from general knowledge of the novel's well-documented plot and characters. Three short, widely-cited quotes included with attribution; no passages reproduced."
+}

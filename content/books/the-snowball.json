@@ -1,0 +1,77 @@
+{
+  "id": "the-snowball",
+  "title": "The Snowball: Warren Buffett and the Business of Life",
+  "author": "Alice Schroeder",
+  "categories": ["bio-business", "finance-investing"],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 720,
+  "tags": ["warren-buffett", "value-investing", "berkshire-hathaway", "biography", "compounding"],
+  "structureType": "chapters",
+  "summary": "Alice Schroeder spent years with direct access to Warren Buffett and his personal archives to write what is widely considered the most intimate and comprehensive Buffett biography, organized around the metaphor in its title: life, like money, works by compounding, and a small snowball rolled early and consistently down a long enough hill becomes an enormous one — the central fact of Buffett's life being not any single brilliant decision but an unusually early start (buying his first stock at eleven, filing his first tax return at thirteen) combined with an extraordinarily long runway of compounding time. Schroeder traces Buffett's insecure, awkward childhood under a demanding, unstable mother, Leila Buffett, arguing this shaped a lifelong hunger for approval and a corresponding retreat into the safety of numbers, business, and later, his identity as \"the world's greatest investor\" — a persona Schroeder suggests partly substituted for emotional connection he struggled to build directly. The book gives unusually candid treatment to Buffett's relationships with the two most important women in his life: his first wife Susan, who effectively curated his emotional and social life for decades before eventually living separately from him while remaining married, and Astrid Menks, who moved in as his companion afterward with Susan's own blessing — an arrangement Schroeder presents matter-of-factly as central to understanding Buffett's personal life rather than a scandal to sensationalize. On the investing side, Schroeder covers the same career arc as other Buffett biographies (Graham's influence, the Buffett Partnership, the Berkshire Hathaway textile-mill acquisition that Buffett later called one of his worst investments, the Munger-driven pivot to quality businesses, and major holdings like GEICO, Coca-Cola, and American Express) but adds far more texture on Buffett's decision-making process in real time, including his direct recollections of nearly missed opportunities and moments of genuine doubt. Schroeder also documents Buffett's evolving relationship to money itself — his early, near-obsessive frugality and hoarding instinct gradually giving way, later in life, to the 2006 pledge to give away the overwhelming majority of his fortune to the Bill & Melinda Gates Foundation and other charities, a decision the book frames as the culmination of decades of quiet reflection on what accumulated wealth is actually for. The book closes by returning to its snowball metaphor explicitly: Buffett's fortune, reputation, and relationships all compounded the same way, for better and for worse, and the person who spent seventy years rolling that snowball was shaped as much by the habits and insecurities of a lonely, number-obsessed child as by any deliberate long-term strategy.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "An Early, Anxious Childhood",
+      "summary": "Covers Buffett's childhood under his volatile mother Leila and his early retreat into numbers, money, and business as a source of control and safety."
+    },
+    {
+      "order": 2,
+      "title": "The Snowball Starts Rolling",
+      "summary": "Details Buffett's earliest ventures — buying his first stock at eleven, delivering papers, pinball machines — establishing the extraordinarily long compounding runway that Schroeder argues mattered more than any single genius decision."
+    },
+    {
+      "order": 3,
+      "title": "Graham, Columbia, and the Partnership",
+      "summary": "Follows Buffett's education under Benjamin Graham and the early Buffett Partnership years, including real-time doubts and near-misses often smoothed over in shorter accounts."
+    },
+    {
+      "order": 4,
+      "title": "Susan Buffett's Curated World",
+      "summary": "Examines Susan Buffett's role in managing Warren's emotional and social life for decades, and the unconventional arrangement that eventually saw her living separately while Astrid Menks became his companion."
+    },
+    {
+      "order": 5,
+      "title": "Building Berkshire",
+      "summary": "Covers the Berkshire Hathaway textile-mill acquisition Buffett later called a mistake, Charlie Munger's influence toward quality businesses, and major holdings including GEICO, Coca-Cola, and American Express."
+    },
+    {
+      "order": 6,
+      "title": "Money, Frugality, and What Wealth Is For",
+      "summary": "Traces Buffett's evolving relationship with his own wealth, from near-obsessive early frugality to his eventual reflection on the purpose of an accumulated fortune."
+    },
+    {
+      "order": 7,
+      "title": "The Giving Pledge",
+      "summary": "Covers Buffett's 2006 decision to give away the overwhelming majority of his fortune to the Bill & Melinda Gates Foundation and other charities, framed as decades in the making."
+    },
+    {
+      "order": 8,
+      "title": "The Snowball, in Full",
+      "summary": "Closes by returning to the compounding metaphor across Buffett's whole life — fortune, reputation, and relationships all shaped by the same long, cumulative process, including its personal costs."
+    }
+  ],
+  "keyLessons": [
+    "Starting early matters more than most people assume — an extraordinarily long compounding runway can outweigh any single brilliant decision.",
+    "The habits and insecurities formed in childhood often shape adult decision-making far more than people recognize or admit.",
+    "A public persona built around competence can substitute for, rather than express, emotional connection — worth noticing in yourself, not just admiring in others.",
+    "Not every early decision is a good one; Buffett himself called the original Berkshire Hathaway textile-mill purchase one of his worst investments.",
+    "Reflect deliberately on what accumulated wealth or success is actually for — the answer often changes substantially over a lifetime.",
+    "Real decision-making includes doubt and near-misses; polished success stories usually smooth those over.",
+    "Frugality and abundance aren't contradictory — how you relate to money can stay conservative even as its scale changes dramatically.",
+    "The people who manage your emotional and social world quietly shape your life as much as your explicit decisions do."
+  ],
+  "quotes": [
+    { "text": "Someone's sitting in the shade today because someone planted a tree a long time ago.", "attribution": "Warren Buffett, as recounted in The Snowball" },
+    { "text": "It's not necessary to do extraordinary things to get extraordinary results.", "attribution": "Warren Buffett, as recounted in The Snowball" },
+    { "text": "Life is like a snowball. The important thing is finding wet snow and a really long hill.", "attribution": "Warren Buffett, as recounted in The Snowball" }
+  ],
+  "whoThisIsFor": "Readers who want the full, unvarnished human story behind Buffett's career — including its personal costs — not just an investing framework.",
+  "whenToReadThis": "Read as a longer, more personal companion to a shorter Buffett biography or to The Intelligent Investor, once the investing framework is already familiar.",
+  "relatedBooks": ["buffett-the-making-of-an-american-capitalist", "charlie-munger-the-complete-investor", "the-intelligent-investor"],
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-24",
+  "sourceNotes": "Original synthesis from general knowledge of Schroeder's well-documented, authorized biography and Buffett's widely-reported life and public statements. Three short, widely-cited quotes included with attribution; no passages reproduced."
+}

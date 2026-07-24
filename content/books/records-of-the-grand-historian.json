@@ -1,0 +1,77 @@
+{
+  "id": "records-of-the-grand-historian",
+  "title": "Records of the Grand Historian (Shiji)",
+  "author": "Sima Qian",
+  "categories": ["history", "philosophy-psychology"],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 900,
+  "tags": ["chinese-history", "classical-literature", "biography", "historiography", "han-dynasty"],
+  "structureType": "parts",
+  "summary": "Records of the Grand Historian, compiled by the Han dynasty court historian Sima Qian around the late second and early first centuries BCE, is the founding work of Chinese historiography — a monumental attempt to record the entire span of Chinese civilization from the legendary Yellow Emperor down to Sima Qian's own era under Emperor Wu of Han, organized not as a single continuous narrative but as five distinct, deliberately structured sections that together became the template nearly every subsequent Chinese dynastic history would follow. The Basic Annals record the reigns of rulers chronologically, establishing the political spine of the work; the Chronological Tables lay out genealogies, successions, and major events in tabular form for quick reference across overlapping states and periods; the Treatises depart from narrative entirely to analyze specific domains of statecraft and culture — rites, music, the calendar, rivers and waterworks, economics — treating these as subjects worthy of systematic historical analysis in their own right; the Hereditary Houses cover the ruling families of the various regional states and vassal lords during the Zhou dynasty's long decline and the Warring States period; and the Biographies, the work's largest and most read section, present individual and paired life accounts of statesmen, generals, philosophers, assassins, merchants, and other notable figures, written with a moral and psychological attentiveness that set the template for character-driven historical writing in East Asia for two thousand years afterward. Sima Qian composed much of the work under devastating personal circumstances: after defending a disgraced general to Emperor Wu, he was sentenced to castration, a punishment considered so shameful that suicide was the expected response, but he chose to endure it specifically so he could finish the Records, a decision he described in his own writing as driven by the conviction that a historian's duty to preserve truth outweighed personal humiliation. This personal ordeal shaped the work's recurring themes: the tension between loyalty and self-preservation, the frequent gap between virtuous conduct and worldly reward (Sima Qian openly wrestles with cases where good people suffer and corrupt people prosper), and a deep interest in how individual character and circumstance interact to produce very different fates for people facing similar tests. The Biographies section includes some of the most enduringly influential character studies in Chinese literature — accounts of statesmen like Guan Zhong, generals like Bai Qi, itinerant persuaders and strategists of the Warring States period, and, notably, the biographies of assassins and knights-errant who acted from personal loyalty and honor rather than official duty, a category of figure Sima Qian treated with unusual sympathy given his own experience of being punished for standing by conviction. As a work of historiography, the Records established methodological standards still recognized as foundational — cross-referencing sources, distinguishing verified fact from folklore while still preserving the folklore as culturally significant, and inserting the historian's own explicit judgment in concluding remarks rather than pretending to pure neutrality — making it both a primary historical source and a deliberate, self-aware act of moral and literary composition.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "The Basic Annals",
+      "summary": "Records the chronological reigns of rulers from the legendary Yellow Emperor through the Han dynasty, establishing the political spine around which the rest of the work is organized."
+    },
+    {
+      "order": 2,
+      "title": "The Chronological Tables",
+      "summary": "Presents genealogies, successions, and major events in tabular form, allowing readers to track overlapping states and periods that the narrative sections treat separately."
+    },
+    {
+      "order": 3,
+      "title": "The Treatises",
+      "summary": "Steps outside narrative history to analyze specific domains — rites, music, the calendar, waterworks, economics — as subjects of systematic historical study in their own right."
+    },
+    {
+      "order": 4,
+      "title": "The Hereditary Houses",
+      "summary": "Covers the ruling families of regional states and vassal lords through the Zhou dynasty's decline and the Warring States period."
+    },
+    {
+      "order": 5,
+      "title": "The Biographies",
+      "summary": "The work's largest section: character-driven life accounts of statesmen, generals, philosophers, merchants, assassins, and knights-errant, written with moral and psychological attentiveness that shaped Chinese historical writing for two millennia."
+    },
+    {
+      "order": 6,
+      "title": "Sima Qian's Personal Ordeal",
+      "summary": "Covers the historian's own punishment for defending a disgraced general and his deliberate choice to endure humiliation rather than die, so he could finish the Records — a decision that shaped the work's recurring moral themes."
+    },
+    {
+      "order": 7,
+      "title": "Virtue, Fate, and the Gap Between Them",
+      "summary": "Explores Sima Qian's open wrestling with cases where virtuous people suffer and corrupt people prosper, a tension running through many of the Biographies."
+    },
+    {
+      "order": 8,
+      "title": "A Historiographical Method",
+      "summary": "Covers the methodological standards the work established — cross-referencing sources, distinguishing verified fact from preserved folklore, and inserting explicit historian's judgment rather than claiming pure neutrality."
+    }
+  ],
+  "keyLessons": [
+    "A commitment to preserving truth can be worth enduring severe personal cost — Sima Qian chose humiliation over suicide specifically to finish this work.",
+    "Organizing complex information into distinct structural sections (chronology, analysis, biography) can serve understanding better than one continuous narrative.",
+    "Character and circumstance interact unpredictably — similar virtues or flaws can produce very different fates depending on timing and context.",
+    "A historian or analyst's job includes being honest that virtue and worldly reward often don't align, rather than papering over that gap.",
+    "Treating institutional domains (economics, ritual, infrastructure) as worthy of dedicated systematic study, not just narrative color, produces more useful analysis.",
+    "Preserving culturally significant folklore alongside verified fact, while being clear about the distinction, respects both accuracy and meaning.",
+    "Explicit, stated judgment from an author can be more honest than a false claim of pure neutrality.",
+    "People who act from personal loyalty and honor outside official duty deserve serious consideration, not automatic dismissal as outlaws."
+  ],
+  "quotes": [
+    { "text": "A man has only one death. That death may be as weighty as Mount Tai, or it may be as light as a goose feather.", "attribution": "Sima Qian, Records of the Grand Historian" },
+    { "text": "I wanted to examine all that concerns Heaven and man, to penetrate the changes of the past and present, and to complete a work of one family.", "attribution": "Sima Qian, Records of the Grand Historian" },
+    { "text": "Even Bo Yi and Shu Qi, for all their virtue... in the end starved to death. Is this the so-called Way of Heaven? Is it right, or is it wrong?", "attribution": "Sima Qian, Records of the Grand Historian" }
+  ],
+  "whoThisIsFor": "Readers interested in classical Chinese history, historiography, or character-driven biographical writing at the foundation of an entire historical tradition.",
+  "whenToReadThis": "Read alongside classical Chinese philosophy or strategy texts (Confucius, Sun Tzu) to see the historical figures and eras those ideas actually emerged from.",
+  "relatedBooks": ["the-art-of-war"],
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-24",
+  "sourceNotes": "Original synthesis from general knowledge of the Shiji's well-documented structure, historical content, and Sima Qian's biography, drawing on standard English-language scholarship and translation (e.g., Burton Watson's widely-cited renderings). No source text reproduced beyond three short, commonly-translated quoted lines with attribution."
+}

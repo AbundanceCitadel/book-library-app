@@ -1,0 +1,77 @@
+{
+  "id": "the-art-of-the-deal",
+  "title": "Trump: The Art of the Deal",
+  "author": "Donald J. Trump with Tony Schwartz",
+  "categories": ["bio-business", "business"],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 420,
+  "tags": ["negotiation", "real-estate", "business-biography", "dealmaking", "new-york"],
+  "structureType": "chapters",
+  "summary": "The Art of the Deal is part memoir and part negotiating philosophy, structured around a single working week in Trump's life interspersed with chapters recounting the real estate deals that built his early reputation, from renovating the Commodore Hotel into the Grand Hyatt to developing Trump Tower on Fifth Avenue and acquiring the Trump Plaza and Trump Castle casinos in Atlantic City. The book opens with Trump's list of eleven personal rules for making deals — including \"think big,\" \"maximize your options,\" \"know your market,\" \"use your leverage,\" \"enhance your location,\" \"get the word out,\" \"fight back,\" and \"deliver the goods\" — and structures its argument around the idea that dealmaking is a distinct skill combining salesmanship, timing, and a willingness to take on risk that more cautious operators avoid. A recurring theme is Trump's account of learning the New York real estate business as a young developer working for his father Fred Trump's outer-borough housing business before pushing into more prestigious and much riskier Manhattan projects, arguing that ambition and reputation-building required visibly bigger, more prominent deals than the steady, lower-profile business his father had built. The book gives detailed, deal-by-deal accounts of Trump's early breakthrough projects: the politically complex negotiation to redevelop the derelict Commodore Hotel next to Grand Central Terminal using a novel property-tax abatement structure, the assembly of the site and air rights needed for Trump Tower, and the acquisition and branding of the Atlantic City casino properties during the early legalized-gambling boom in New Jersey. Throughout these accounts, Trump emphasizes negotiating leverage as the single most important factor in any deal — arguing that a good negotiator creates leverage by developing alternatives, understanding what the other side actually needs (which is often different from what they say they want), and maintaining a credible willingness to walk away. The book also devotes substantial attention to publicity and self-promotion as a business tool in their own right, with Trump arguing that media attention, even controversial attention, has direct commercial value for a real estate brand by creating demand and negotiating leverage independent of a project's underlying merits. Later chapters turn from specific deals to broader philosophy: managing risk by always having a fallback position, protecting personal reputation as a long-term asset even in adversarial negotiations, and staying personally involved in the details of a deal rather than delegating entirely to lawyers, bankers, or executives. The book closes with reflections on ambition and the relentless pursuit of bigger projects as both a business strategy and, by Trump's own account, a defining personal drive that shaped his approach to nearly every deal described in the book.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "Trump's Eleven Rules for Dealmaking",
+      "summary": "Lays out the book's core framework of personal rules — think big, maximize your options, know your market, use your leverage, get the word out, fight back, deliver the goods — that structure the deals described later."
+    },
+    {
+      "order": 2,
+      "title": "Learning the Business from Fred Trump",
+      "summary": "Covers Trump's early career working in his father's outer-borough housing business before deliberately pushing into higher-profile, higher-risk Manhattan development."
+    },
+    {
+      "order": 3,
+      "title": "The Commodore Hotel / Grand Hyatt Deal",
+      "summary": "Details the politically complex negotiation to redevelop the derelict Commodore Hotel next to Grand Central Terminal, including the novel property-tax abatement structure that made the deal financially viable."
+    },
+    {
+      "order": 4,
+      "title": "Building Trump Tower",
+      "summary": "Covers the site assembly and air-rights negotiations required to develop Trump Tower on Fifth Avenue, presented as a case study in patient, multi-party deal assembly."
+    },
+    {
+      "order": 5,
+      "title": "Atlantic City and the Casino Business",
+      "summary": "Recounts the acquisition and branding of the Trump Plaza and Trump Castle casino properties during New Jersey's early legalized-gambling boom."
+    },
+    {
+      "order": 6,
+      "title": "Leverage and Knowing What the Other Side Wants",
+      "summary": "Presents Trump's core negotiating principle: leverage comes from developing real alternatives and understanding what a counterparty actually needs, which often differs from their stated position."
+    },
+    {
+      "order": 7,
+      "title": "Publicity as a Business Asset",
+      "summary": "Argues media attention, including controversial attention, has direct commercial value for a real estate brand by creating demand and negotiating leverage independent of a project's underlying merits."
+    },
+    {
+      "order": 8,
+      "title": "Risk, Reputation, and Staying Personally Involved",
+      "summary": "Closes on broader philosophy: always maintaining a fallback position, protecting personal reputation as a long-term asset, and staying personally engaged in deal details rather than delegating entirely to advisors."
+    }
+  ],
+  "keyLessons": [
+    "Treat leverage as the single most important factor in a negotiation — build it by developing real alternatives before you need them.",
+    "Understand what the other side actually needs, which is often different from what they say they want, and negotiate toward that.",
+    "Maintain a credible willingness to walk away; leverage without that credibility is mostly theoretical.",
+    "Publicity and attention have direct commercial value independent of a project's underlying merits — treat visibility as a deliberate business tool.",
+    "Always keep a fallback position in any major deal or commitment rather than betting everything on a single outcome.",
+    "Stay personally involved in the details of major deals rather than delegating entirely to lawyers, bankers, or executives.",
+    "Reputation is a long-term asset worth protecting even in the middle of an adversarial, short-term negotiation.",
+    "Bigger, more visible projects can build reputation and momentum faster than steady, lower-profile ones — but they also carry proportionally higher risk."
+  ],
+  "quotes": [
+    { "text": "I like thinking big. I always have. To me it's very simple: if you're going to be thinking anyway, you might as well think big.", "attribution": "Donald J. Trump, Trump: The Art of the Deal" },
+    { "text": "My style of deal-making is quite simple and straightforward. I aim very high, and then I just keep pushing and pushing to get what I'm after.", "attribution": "Donald J. Trump, Trump: The Art of the Deal" },
+    { "text": "Sometimes it pays to be a little wild.", "attribution": "Donald J. Trump, Trump: The Art of the Deal" }
+  ],
+  "whoThisIsFor": "Readers interested in negotiation tactics and real estate dealmaking told through detailed first-person deal accounts rather than abstract theory.",
+  "whenToReadThis": "Read before a high-stakes negotiation where leverage, alternatives, and public perception all matter to the outcome.",
+  "relatedBooks": ["trillion-dollar-coach", "never-split-the-difference"],
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-24",
+  "sourceNotes": "Original synthesis from general knowledge of the book's well-documented deal accounts and negotiating framework. Three short, widely-cited quotes included with attribution; no passages reproduced."
+}

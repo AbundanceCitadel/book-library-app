@@ -1,0 +1,77 @@
+{
+  "id": "charlie-munger-the-complete-investor",
+  "title": "Charlie Munger: The Complete Investor",
+  "author": "Tren Griffin",
+  "categories": ["bio-business", "finance-investing"],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 360,
+  "tags": ["charlie-munger", "value-investing", "mental-models", "berkshire-hathaway", "worldly-wisdom"],
+  "structureType": "chapters",
+  "summary": "Tren Griffin's book presents Charlie Munger less as a biography in the conventional narrative sense and more as an organized synthesis of Munger's investment philosophy, built around the idea that Munger's real contribution to Berkshire Hathaway's success was intellectual: pushing Warren Buffett away from Benjamin Graham's narrow, statistically-cheap \"cigar butt\" investing toward paying fair prices for outstanding businesses with durable competitive advantages. The book's organizing concept is Munger's \"latticework of mental models\" — the argument that sound judgment doesn't come from mastering one discipline (like accounting or finance) but from holding a broad, cross-disciplinary toolkit of models from psychology, economics, physics, biology, and history, and knowing which tools apply to which problem, since a person who only has a hammer tends to treat every problem as a nail. Griffin devotes substantial attention to Munger's concept of \"invert, always invert\" — the idea that many hard problems are easier solved backward, by identifying what guarantees failure or unhappiness and then avoiding those things, rather than trying to directly engineer success. A recurring theme is circle of competence: Munger's insistence that knowing the boundaries of what you genuinely understand, and staying firmly inside them, is more valuable than trying to expand into unfamiliar territory in search of returns. The book covers Munger's own biography in enough detail to ground the philosophy — his early career as a lawyer, his shift into investing, his partnership first with Buffett informally and then formally at Berkshire, and his parallel work running Wesco Financial — but treats these biographical facts mainly as evidence for how the philosophy played out in real decisions. Munger's well-known bluntness and his willingness to say \"I have nothing to add\" or flatly disagree with Buffett in public are presented as expressions of the same underlying values: intellectual honesty, a low tolerance for self-deception, and a belief that admitting the limits of your own knowledge is a competitive advantage, not a weakness. Griffin also covers Munger's psychological framework for understanding human misjudgment — a catalogue of predictable biases (incentive-caused bias, social proof, denial, envy, and others) that Munger argued explain most bad decisions better than stupidity does — and his related insistence that avoiding stupidity is more attainable and more valuable than seeking brilliance. The book closes by tying Munger's investment philosophy back to a broader life philosophy: rigorous honesty with yourself, patience, a wide base of general knowledge, and the discipline to say no to anything outside your circle of competence, whether the subject is a stock or a decision in ordinary life.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "Who Charlie Munger Is",
+      "summary": "Covers Munger's early career as a lawyer, his transition into investing, and his eventual formal partnership with Warren Buffett at Berkshire Hathaway alongside his separate leadership of Wesco Financial."
+    },
+    {
+      "order": 2,
+      "title": "The Latticework of Mental Models",
+      "summary": "Introduces Munger's core idea that sound judgment requires a broad, cross-disciplinary toolkit of models rather than mastery of a single field — the antidote to treating every problem as a nail because you only own a hammer."
+    },
+    {
+      "order": 3,
+      "title": "Invert, Always Invert",
+      "summary": "Explains Munger's habit of solving problems backward — identifying what guarantees failure and avoiding it — as often more tractable than directly engineering success."
+    },
+    {
+      "order": 4,
+      "title": "Circle of Competence",
+      "summary": "Covers Munger's insistence on knowing the boundaries of genuine understanding and staying inside them, treating this discipline as more valuable than chasing returns in unfamiliar territory."
+    },
+    {
+      "order": 5,
+      "title": "From Cigar Butts to Wonderful Businesses",
+      "summary": "Details how Munger pushed Buffett away from Graham's narrow statistically-cheap investing toward paying fair prices for high-quality businesses with durable moats."
+    },
+    {
+      "order": 6,
+      "title": "The Psychology of Human Misjudgment",
+      "summary": "Presents Munger's catalogue of predictable psychological biases — incentive-caused bias, social proof, denial, envy, and others — that he argued explain most bad decisions better than simple stupidity does."
+    },
+    {
+      "order": 7,
+      "title": "Intellectual Honesty as an Edge",
+      "summary": "Covers Munger's blunt public style and willingness to say 'I have nothing to add' or openly disagree, framed as expressions of a low tolerance for self-deception rather than mere bluntness for its own sake."
+    },
+    {
+      "order": 8,
+      "title": "Avoiding Stupidity Over Seeking Brilliance",
+      "summary": "Closes on Munger's central practical takeaway: consistently avoiding foolish decisions is more attainable and valuable over a lifetime than occasionally achieving brilliance."
+    }
+  ],
+  "keyLessons": [
+    "Build a broad latticework of mental models across disciplines rather than relying on one framework for every problem.",
+    "Try inverting hard problems — identify what guarantees failure or unhappiness, and avoid those things, instead of only aiming directly at success.",
+    "Know your circle of competence precisely, and treat staying inside it as a discipline worth defending, not a limitation to overcome.",
+    "Paying a fair price for an excellent business usually beats paying a bargain price for a mediocre one.",
+    "Avoiding stupidity is more reliably valuable over a lifetime than chasing brilliance.",
+    "Predictable psychological biases (incentive-caused bias, social proof, denial, envy) explain more bad decisions than simple ignorance does — learn to recognize them in yourself.",
+    "Intellectual honesty, including admitting 'I don't know' or 'I have nothing to add,' is a competitive advantage, not a weakness.",
+    "Patience and a wide base of general knowledge compound the same way capital does — invest in both deliberately."
+  ],
+  "quotes": [
+    { "text": "It is remarkable how much long-term advantage people like us have gotten by trying to be consistently not stupid, instead of trying to be very intelligent.", "attribution": "Charlie Munger, as recounted in Charlie Munger: The Complete Investor" },
+    { "text": "Invert, always invert.", "attribution": "Charlie Munger, as recounted in Charlie Munger: The Complete Investor" },
+    { "text": "I have nothing to add.", "attribution": "Charlie Munger, as recounted in Charlie Munger: The Complete Investor" }
+  ],
+  "whoThisIsFor": "Investors and generalist thinkers who want a structured, cross-disciplinary decision-making framework rather than a narrow investing formula.",
+  "whenToReadThis": "Read alongside a Buffett biography to see the intellectual counterweight that shaped Berkshire's strategy, or whenever you want to sharpen general decision-making, not just investing.",
+  "relatedBooks": ["buffett-the-making-of-an-american-capitalist", "the-snowball", "the-intelligent-investor", "thinking-fast-and-slow"],
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-24",
+  "sourceNotes": "Original synthesis from general knowledge of Griffin's well-documented compilation of Munger's widely-quoted investment philosophy and public talks. Three short, widely-cited quotes included with attribution; no passages reproduced."
+}

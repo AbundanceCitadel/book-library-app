@@ -1,0 +1,77 @@
+{
+  "id": "buffett-the-making-of-an-american-capitalist",
+  "title": "Buffett: The Making of an American Capitalist",
+  "author": "Roger Lowenstein",
+  "categories": ["bio-business", "finance-investing"],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 480,
+  "tags": ["warren-buffett", "value-investing", "berkshire-hathaway", "biography", "business-history"],
+  "structureType": "chapters",
+  "summary": "Roger Lowenstein's biography traces Warren Buffett from a childhood in Omaha marked by an obsession with numbers and money-making schemes (a paper route, pinball machines, a used-golf-ball business) through to his emergence as the most successful investor of the twentieth century, arguing throughout that Buffett's success was never about a secret formula but about an almost monastic consistency of temperament applied over an extremely long time horizon. The book follows Buffett's formative apprenticeship under Benjamin Graham at Columbia, where he absorbed the discipline of buying businesses for meaningfully less than their intrinsic worth, and his early Buffett Partnership years in Omaha, where he quietly compounded investor capital at extraordinary rates while avoiding the Wall Street social and physical geography almost entirely — a deliberate choice Lowenstein frames as central to Buffett's ability to think independently of crowd sentiment. A major throughline is Buffett's evolution beyond pure Graham-style \"cigar butt\" investing (buying statistically cheap, mediocre businesses for one last puff of value) toward Charlie Munger's influence, which pushed him to pay fair prices for wonderful businesses with durable competitive advantages — moats — rather than fair businesses at wonderful prices. Lowenstein documents the acquisitions that built Berkshire Hathaway from a failing textile mill into a diversified holding company, including See's Candies, GEICO, The Washington Post, Coca-Cola, and Buffett's insurance-float strategy, where insurance premiums collected before claims are paid provide a permanent, low-cost pool of investable capital. The biography doesn't shy from Buffett's personal contradictions: his frugality alongside enormous wealth, his intensely private and work-consumed nature, and the strained personal cost to his family, especially his first wife Susan Buffett, whose own life and eventual separate path the book treats with real weight rather than as a footnote to Buffett's career. The Salomon Brothers scandal of 1991, where Buffett stepped in as interim chairman to save the firm from a trading scandal and possible collapse, is presented as the clearest real-world test of Buffett's stated commitment to reputation over short-term profit — his instruction to employees that he'd be \"ruthless\" about losing money but not about losing \"a shred of reputation\" defined the crisis response. Throughout, Lowenstein positions Buffett's investment philosophy and his personal character as inseparable: the same patience, independence from social pressure, and long time horizon that made him wealthy also shaped how he lived, and the book's lasting argument is that Buffett's advantage was never really informational or analytical but psychological — an unusual capacity to sit still, think independently, and wait for the right pitch while everyone else feels compelled to swing.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "Omaha Roots",
+      "summary": "Covers Buffett's Omaha childhood, his father Howard's career as a stockbroker and congressman, and Warren's early, almost compulsive fascination with counting, saving, and small money-making ventures."
+    },
+    {
+      "order": 2,
+      "title": "Learning from Graham",
+      "summary": "Follows Buffett to Columbia Business School under Benjamin Graham, where he absorbed value investing's core discipline — buying securities for meaningfully less than conservatively estimated intrinsic worth — and briefly worked at Graham's investment firm."
+    },
+    {
+      "order": 3,
+      "title": "The Buffett Partnership Years",
+      "summary": "Details Buffett's return to Omaha to run an investment partnership, compounding capital for a small group of investors at extraordinary rates while deliberately staying outside Wall Street's social orbit."
+    },
+    {
+      "order": 4,
+      "title": "From Cigar Butts to Wonderful Businesses",
+      "summary": "Traces Charlie Munger's growing influence, pushing Buffett from Graham's statistically-cheap 'cigar butt' investing toward paying fair prices for high-quality businesses with durable competitive moats."
+    },
+    {
+      "order": 5,
+      "title": "Building Berkshire Hathaway",
+      "summary": "Covers the transformation of a failing New England textile mill into a diversified holding company through acquisitions like See's Candies, GEICO, and The Washington Post, and the insurance-float strategy that funded Berkshire's growth."
+    },
+    {
+      "order": 6,
+      "title": "Personal Life and Contradictions",
+      "summary": "Examines Buffett's frugal habits despite immense wealth, his consuming work focus, and the personal cost to his family, particularly his wife Susan Buffett's own separate path."
+    },
+    {
+      "order": 7,
+      "title": "The Salomon Brothers Crisis",
+      "summary": "Recounts Buffett stepping in as interim chairman during the 1991 Salomon Brothers trading scandal, framing his handling of the crisis as a real-world test of his stated priority on reputation over short-term profit."
+    },
+    {
+      "order": 8,
+      "title": "The Buffett Method",
+      "summary": "Closes by arguing Buffett's real edge was psychological and temperamental — independence from crowd sentiment and patience over decades — rather than superior information or analytical technique."
+    }
+  ],
+  "keyLessons": [
+    "A durable investing edge is more often psychological (patience, independence from crowd sentiment) than informational or analytical.",
+    "Physical and social distance from a market's emotional center can protect independent judgment — Buffett ran his partnership from Omaha, not Wall Street.",
+    "Evolving your framework matters: moving from 'cheap but mediocre' to 'wonderful business at a fair price' was a deliberate upgrade, not a betrayal of value investing's core logic.",
+    "A reputational cost should always outweigh a financial one — set that priority explicitly before a crisis forces the choice under pressure.",
+    "Insurance float (money held before it must be paid out) can function as a permanent, low-cost source of investable capital if managed conservatively.",
+    "Long time horizons change what's rational — decisions that look overly patient or overly cautious on a one-year view can be exactly correct on a thirty-year view.",
+    "Success built on an unusual temperament comes with real personal costs; it's worth being honest about those trade-offs rather than only celebrating the financial outcome.",
+    "Waiting for the right opportunity ('the right pitch') and doing nothing in the meantime is itself a disciplined, active choice, not passivity."
+  ],
+  "quotes": [
+    { "text": "I'm going to be very tough on this point... Lose money for the firm, and I will be understanding. Lose a shred of reputation for the firm, and I will be ruthless.", "attribution": "Warren Buffett, as recounted in Buffett: The Making of an American Capitalist" },
+    { "text": "Price is what you pay. Value is what you get.", "attribution": "Warren Buffett, as recounted in Buffett: The Making of an American Capitalist" },
+    { "text": "Wall Street is the only place that people ride to work in a Rolls-Royce to get advice from those who take the subway.", "attribution": "Warren Buffett, as recounted in Buffett: The Making of an American Capitalist" }
+  ],
+  "whoThisIsFor": "Investors and business readers who want the human, psychological story behind value investing's most famous practitioner, not just his stock picks.",
+  "whenToReadThis": "Read alongside or after The Intelligent Investor to see Graham's framework actually applied and evolved over a real career.",
+  "relatedBooks": ["the-intelligent-investor", "one-up-on-wall-street", "the-snowball", "charlie-munger-the-complete-investor"],
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-24",
+  "sourceNotes": "Original synthesis from general knowledge of Lowenstein's well-documented biography and Buffett's widely-reported career and public statements. Three short, widely-cited quotes included with attribution; no passages reproduced."
+}
