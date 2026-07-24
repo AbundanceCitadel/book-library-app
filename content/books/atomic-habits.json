@@ -1,0 +1,78 @@
+{
+  "id": "atomic-habits",
+  "title": "Atomic Habits",
+  "author": "James Clear",
+  "categories": ["personal-growth", "business"],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 330,
+  "tags": ["habits", "productivity", "behavior-change", "self-improvement", "identity"],
+  "structureType": "parts",
+  "summary": "Atomic Habits argues that meaningful life change rarely comes from one dramatic overhaul — it comes from small, consistent adjustments that compound over time, the same way money grows through compound interest. Clear's central claim is that habits are the atomic units of self-improvement: tiny, seemingly insignificant on any single day, but decisive over months and years because their effects stack. The book reframes habit change around identity rather than outcomes. Instead of asking 'what do I want to achieve,' Clear argues the more powerful question is 'who do I wish to become,' because every repeated action is a small vote cast for a particular kind of person, and habits that stick are the ones that align with a self-image the person already holds or is deliberately building. Practically, the book is built around what Clear calls the Four Laws of Behavior Change, a loop of cue, craving, response, and reward borrowed from behavioral psychology. To build a good habit, make the cue obvious (e.g. through implementation intentions and habit stacking, where a new habit is anchored to an existing one), make the craving attractive (pairing a habit with something you enjoy, or joining a culture where the desired behavior is normal), make the response easy (reducing friction, using the two-minute rule to shrink a habit down to a trivially small starting action), and make the reward satisfying (immediate, visible reinforcement, since humans are wired to repeat what feels rewarding right away rather than what pays off later). To break a bad habit, Clear argues for inverting each law: make the cue invisible, the craving unattractive, the response difficult, and the reward unsatisfying. A recurring theme is that environment, not willpower, is the real lever people underuse — habits are shaped far more by what is convenient or visible in a person's surroundings than by motivation or discipline, so redesigning physical and digital spaces is often more effective than trying harder. The book also addresses why progress feels slow or invisible for long stretches — what Clear calls the 'plateau of latent potential' — and why habit tracking, accountability, and small identity-confirming wins matter for pushing through that phase. Toward the end, Clear discusses the role of genetics and personality in choosing habits and goals that fit a person's natural strengths rather than fighting them, and closes by returning to the book's core idea: real change is the product of many small habits repeated for a long time, not a single transformative decision.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "The Fundamentals — Why Tiny Changes Make a Big Difference",
+      "summary": "Introduces the compounding nature of habits, the idea of 1% improvements adding up over time, and the shift from outcome-based to identity-based habits as the real driver of lasting change."
+    },
+    {
+      "order": 2,
+      "title": "The 1st Law — Make It Obvious",
+      "summary": "Covers habit awareness (the habits scorecard), implementation intentions ('I will [behavior] at [time] in [location]'), habit stacking, and designing an environment where good-habit cues are visible and bad-habit cues are removed."
+    },
+    {
+      "order": 3,
+      "title": "The 2nd Law — Make It Attractive",
+      "summary": "Explains temptation bundling (pairing a habit you need to do with one you want to do), the influence of social groups and culture on which behaviors feel normal and desirable, and how craving — not the habit itself — is what drives repetition."
+    },
+    {
+      "order": 4,
+      "title": "The 3rd Law — Make It Easy",
+      "summary": "Focuses on reducing friction: the law of least effort, the two-minute rule for starting new habits at a trivially small scale, and 'habit environment design' choices like prepping surroundings in advance so the easy path is the desired one."
+    },
+    {
+      "order": 5,
+      "title": "The 4th Law — Make It Satisfying",
+      "summary": "Explains why immediate reward beats delayed reward for habit formation, the use of habit tracking and small visible wins as instant reinforcement, and accountability partnerships/contracts for adding an immediate cost to skipping a habit."
+    },
+    {
+      "order": 6,
+      "title": "Advanced Tactics — From Good Habits to Great Performance",
+      "summary": "Covers the role of genetics and personality fit in choosing which habits and goals to pursue, the Goldilocks Rule of staying in a zone of manageable challenge, and why even good habits can become stale without deliberate reflection and review."
+    }
+  ],
+  "keyLessons": [
+    "Judge habits by their trajectory, not a single day's result — a 1% daily improvement compounds dramatically over a year.",
+    "Decide who you want to become first; let the identity drive the habit, not the other way around.",
+    "Make good habits obvious by redesigning your visible environment rather than relying on willpower or motivation.",
+    "Use habit stacking to anchor a new habit to an existing, already-automatic one.",
+    "Shrink any new habit down to a two-minute version before trying to scale it up.",
+    "Reduce the number of steps between you and a good habit; increase the steps between you and a bad one.",
+    "Pair habits you need to do with something you enjoy (temptation bundling) to make them more attractive.",
+    "Track habits visibly — the act of seeing progress is itself a reward that reinforces repetition.",
+    "Expect a 'plateau of latent potential' where effort doesn't show visible results for a while — most people quit right before compounding kicks in.",
+    "Choose habits and goals that fit your natural strengths and personality rather than habits that require constant self-battling."
+  ],
+  "quotes": [
+    {
+      "text": "You do not rise to the level of your goals. You fall to the level of your systems.",
+      "attribution": "James Clear, Atomic Habits"
+    },
+    {
+      "text": "Every action you take is a vote for the type of person you wish to become.",
+      "attribution": "James Clear, Atomic Habits"
+    },
+    {
+      "text": "Habits are the compound interest of self-improvement.",
+      "attribution": "James Clear, Atomic Habits"
+    }
+  ],
+  "whoThisIsFor": "Anyone trying to build a consistent habit (exercise, reading, deep work) or break one (procrastination, junk food, doomscrolling) who has tried and failed with willpower-based approaches.",
+  "whenToReadThis": "Good to read at the start of a new goal or routine, or any time motivation has fizzled and you need a systems-based restart rather than a fresh burst of willpower.",
+  "relatedBooks": [],
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-24",
+  "sourceNotes": "Original synthesis by Claude from general knowledge of the book's well-documented framework (Four Laws of Behavior Change, identity-based habits, habit stacking, two-minute rule). Three short verbatim quotes included with attribution per copyright policy; no chapter text reproduced."
+}

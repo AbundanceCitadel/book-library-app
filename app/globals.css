@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  color-scheme: light dark;
+}
+
+body {
+  @apply bg-white text-neutral-900 dark:bg-neutral-950 dark:text-neutral-100;
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+}
+
+/* Reading-content typography: applied to long-form summary/lesson/quote text
+   so it reads like a book rather than app UI. See docs/DESIGN_SYSTEM.md. */
+.prose-reading {
+  @apply font-serif text-base leading-relaxed text-neutral-800 dark:text-neutral-200;
+}
+
+/* Minimum comfortable touch target per docs/DESIGN_SYSTEM.md. */
+.tap-target {
+  @apply min-h-11 flex items-center;
+}
+
+:focus-visible {
+  @apply outline-none ring-2 ring-accent-500 ring-offset-2 ring-offset-white dark:ring-offset-neutral-950;
+}
