@@ -2,41 +2,45 @@
 
 import { useEffect, useState } from "react";
 
-type ThemePref = "light" | "dark" | "system";
+type ThemePref = "dark" | "light" | "system";
 
+// v2 (Stage 15): dark is the default look — toggling applies a `.light` class,
+// the inverse of the old `.dark`-opt-in strategy. See docs/DESIGN_SYSTEM.md.
 function applyTheme(pref: ThemePref) {
-  const isDark =
-    pref === "dark" ||
+  const isLight =
+    pref === "light" ||
     (pref === "system" &&
-      window.matchMedia("(prefers-color-scheme: dark)").matches);
-  document.documentElement.classList.toggle("dark", isDark);
+      window.matchMedia("(prefers-color-scheme: dark)").matches === false);
+  document.documentElement.classList.toggle("light", isLight);
 }
 
 const NEXT: Record<ThemePref, ThemePref> = {
-  system: "light",
-  light: "dark",
-  dark: "system",
+  dark: "light",
+  light: "system",
+  system: "dark",
 };
 
 const ICON: Record<ThemePref, string> = {
-  system: "\u{1F5A5}️", // 🖥️
-  light: "☀️", // ☀️
   dark: "\u{1F319}", // 🌙
+  light: "☀️",
+  system: "\u{1F5A5}️", // 🖥️
 };
 
 const LABEL: Record<ThemePref, string> = {
-  system: "System",
-  light: "Light",
   dark: "Dark",
+  light: "Light",
+  system: "System",
 };
 
 export default function ThemeToggle() {
-  const [pref, setPref] = useState<ThemePref>("system");
+  // Default pref is "dark" — matches the no-flash script in app/layout.tsx,
+  // which only ever adds `.light`, never assumes system on first visit.
+  const [pref, setPref] = useState<ThemePref>("dark");
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
     const stored = window.localStorage.getItem("theme") as ThemePref | null;
-    setPref(stored ?? "system");
+    setPref(stored ?? "dark");
     setMounted(true);
   }, []);
 
@@ -52,11 +56,11 @@ export default function ThemeToggle() {
       type="button"
       onClick={cycle}
       aria-label={`Theme: ${LABEL[pref]}. Tap to change.`}
-      className="tap-target rounded-lg border border-neutral-200 px-3 text-sm hover:bg-neutral-50 dark:border-neutral-800 dark:hover:bg-neutral-900"
+      className="tap-target rounded-lg border border-border px-3 text-sm hover:bg-surface2"
     >
-      <span aria-hidden="true">{mounted ? ICON[pref] : ICON.system}</span>
+      <span aria-hidden="true">{mounted ? ICON[pref] : ICON.dark}</span>
       <span className="ml-1.5 hidden sm:inline">
-        {mounted ? LABEL[pref] : LABEL.system}
+        {mounted ? LABEL[pref] : LABEL.dark}
       </span>
     </button>
   );

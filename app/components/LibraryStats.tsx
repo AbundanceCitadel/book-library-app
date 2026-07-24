@@ -2,11 +2,11 @@ import { Book, getLibraryCatalog } from "@/lib/books";
 
 function StatTile({ value, label }: { value: string; label: string }) {
   return (
-    <div className="rounded-xl border border-neutral-200 p-4 text-center dark:border-neutral-800">
-      <div className="text-2xl font-semibold text-accent-700 dark:text-accent-400 sm:text-3xl">
+    <div className="rounded-xl border border-border bg-surface p-4 text-center">
+      <div className="text-2xl font-semibold text-gold-400 sm:text-3xl">
         {value}
       </div>
-      <div className="mt-1 text-xs text-neutral-500">{label}</div>
+      <div className="mt-1 text-xs text-muted">{label}</div>
     </div>
   );
 }

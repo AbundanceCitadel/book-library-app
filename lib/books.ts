@@ -5,11 +5,25 @@ export type Section = {
   order: number;
   title: string;
   summary: string;
+  // v2 (Stage 15): per-chapter key lessons, distinct from the book-level
+  // keyLessons array. Optional so pre-v2 entries (written before this field
+  // existed) still validate — the UI just renders nothing for those.
+  keyLessons?: string[];
 };
 
 export type Quote = {
   text: string;
   attribution: string;
+  // v2: theme label used to group the Quotes tab. Optional for the same
+  // backward-compatibility reason as Section.keyLessons.
+  category?: string;
+};
+
+// v2 (Stage 15): brief author-bio tab content. See docs/SCHEMA.md.
+export type AuthorBio = {
+  name: string;
+  bio: string;
+  notableWorks: string[];
 };
 
 export type ReadStatus = "unread" | "reading" | "read";
@@ -36,6 +50,10 @@ export type Book = {
   personalNotes: string;
   dateAdded: string;
   sourceNotes?: string;
+  // v2: optional so the 66 pre-v2 entries still type-check and render (Author
+  // tab just shows a "not written yet" state for them) until the backfill
+  // question is resolved — see ROADMAP.md Stage 15.
+  authorBio?: AuthorBio;
 };
 
 const BOOKS_DIR = path.join(process.cwd(), "content", "books");

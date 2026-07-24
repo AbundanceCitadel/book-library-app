@@ -3,11 +3,54 @@
 @tailwind utilities;
 
 html {
-  color-scheme: light dark;
+  color-scheme: dark;
+}
+
+html.light {
+  color-scheme: light;
+}
+
+/* Semantic color tokens — dark is the default, unclassed theme (Stage 15 / v2).
+   .light overrides these for anyone who opts into light mode via ThemeToggle.
+   See docs/DESIGN_SYSTEM.md v2 "Color Palette." */
+:root {
+  --color-bg: #0b0c0e;
+  --color-surface: #16171b;
+  --color-surface-2: #1e2024;
+  --color-border: #2a2c31;
+  --color-fg: #f2ede4;
+  --color-muted: #9a978d;
+}
+
+html.light {
+  --color-bg: #faf8f4;
+  --color-surface: #ffffff;
+  --color-surface-2: #f1ede6;
+  --color-border: #e5e0d6;
+  --color-fg: #201f1c;
+  --color-muted: #6b6860;
+}
+
+/* Badge/chip tone tokens — the one place two-tone (bg+fg) accent chips need
+   different values per theme rather than a single flipped variable, since a
+   translucent dark-gold chip that reads well on a near-black page would lose
+   contrast on a warm-white one. See app/components/Badge.tsx. */
+:root {
+  --badge-gold-bg: rgba(198, 138, 46, 0.18);
+  --badge-gold-fg: #eccf85;
+  --badge-teal-bg: rgba(53, 126, 140, 0.22);
+  --badge-teal-fg: #9ccfd6;
+}
+
+html.light {
+  --badge-gold-bg: #f6e6bd;
+  --badge-gold-fg: #7d571c;
+  --badge-teal-bg: #c9e6e9;
+  --badge-teal-fg: #234f59;
 }
 
 body {
-  @apply bg-white text-neutral-900 dark:bg-neutral-950 dark:text-neutral-100;
+  @apply bg-bg text-fg font-sans;
   padding-left: env(safe-area-inset-left);
   padding-right: env(safe-area-inset-right);
 }
@@ -15,7 +58,15 @@ body {
 /* Reading-content typography: applied to long-form summary/lesson/quote text
    so it reads like a book rather than app UI. See docs/DESIGN_SYSTEM.md. */
 .prose-reading {
-  @apply font-serif text-base leading-relaxed text-neutral-800 dark:text-neutral-200;
+  @apply font-serif text-base leading-relaxed text-fg;
+}
+
+/* v2: real visual separation between paragraphs of long-form content, instead
+   of one whitespace-pre-line block. Content fields are split on blank lines
+   and rendered as sibling <p> tags inside .prose-reading — see
+   lib/paragraphs.ts and docs/DESIGN_SYSTEM.md "Paragraph spacing." */
+.prose-reading p + p {
+  margin-top: 1.25em;
 }
 
 /* Minimum comfortable touch target per docs/DESIGN_SYSTEM.md. */
@@ -24,5 +75,17 @@ body {
 }
 
 :focus-visible {
-  @apply outline-none ring-2 ring-accent-500 ring-offset-2 ring-offset-white dark:ring-offset-neutral-950;
+  @apply outline-none ring-2 ring-gold-500 ring-offset-2;
+  ring-offset-color: var(--color-bg);
+}
+
+/* Accordion chevron rotation for CategoryAccordion's native <details>. */
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+details[open] .accordion-chevron {
+  transform: rotate(180deg);
 }

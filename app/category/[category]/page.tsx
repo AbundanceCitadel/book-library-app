@@ -31,7 +31,7 @@ export default function CategoryPage({
     <main className="mx-auto max-w-5xl px-4 py-8 sm:px-6">
       <Link
         href="/"
-        className="tap-target -ml-1 text-sm text-neutral-500 hover:text-accent-600 hover:underline dark:hover:text-accent-400"
+        className="tap-target -ml-1 text-sm text-muted hover:text-gold-400 hover:underline"
       >
         ← All categories
       </Link>
@@ -39,13 +39,13 @@ export default function CategoryPage({
         <span aria-hidden="true">{CATEGORY_ICONS[params.category] ?? "📚"}</span>
         {label}
       </h1>
-      <p className="mt-1 text-sm text-neutral-500">
+      <p className="mt-1 text-sm text-muted">
         {totalInLibrary} book{totalInLibrary === 1 ? "" : "s"} in this section
         {unwritten.length > 0 && ` — ${books.length} with a full summary so far`}
       </p>
 
       {books.length === 0 ? (
-        <p className="mt-8 text-sm text-neutral-500">
+        <p className="mt-8 text-sm text-muted">
           No full summaries in this section yet.
         </p>
       ) : (
@@ -58,17 +58,17 @@ export default function CategoryPage({
 
       {unwritten.length > 0 && (
         <>
-          <h2 className="mt-10 text-sm font-semibold text-neutral-500">
+          <h2 className="mt-10 text-sm font-semibold text-muted">
             On the shelf, not yet summarized ({unwritten.length})
           </h2>
-          <ul className="mt-3 divide-y divide-neutral-200 text-sm dark:divide-neutral-800">
+          <ul className="mt-3 divide-y divide-border text-sm">
             {unwritten.map((entry) => (
               <li
                 key={entry.title}
                 className="flex items-baseline justify-between gap-3 py-2"
               >
                 <span>{entry.title}</span>
-                <span className="shrink-0 text-xs text-neutral-500">
+                <span className="shrink-0 text-xs text-muted">
                   {entry.author}
                 </span>
               </li>
