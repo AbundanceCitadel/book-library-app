@@ -232,8 +232,9 @@ Verified: `npx tsc --noEmit` clean, `npm run build` clean (87 static pages, `/tm
 
 ### Stage 17 — Density, Navigation & Color Overhaul + Search + Wishlist Scaffold
 
-**Status:** Done (build-verified) — 2026-07-31. Executed directly from Thai's own
-numbered feedback in chat (no continuation-prompt handoff this time). Full
+**Status:** **Done, committed, and live in production — 2026-07-31.** Executed
+directly from Thai's own numbered feedback in chat (no continuation-prompt
+handoff this time), then Thai asked to push and deploy immediately. Full
 rationale for every point in `docs/DESIGN_SYSTEM.md` "Design System v4" (new
 top section) and `DECISIONS.md`.
 
@@ -266,18 +267,47 @@ top section) and `DECISIONS.md`.
   an isolated `/wishlist` route reserved for future non-owned entries — empty
   today, real empty-state copy, not a stub page.
 
-**Verified:** fresh `/tmp`-mirror `npm install` + `npm run build` (Google Fonts
-stubbed in the scratch copy only, per the established sandbox workaround — real
-committed source untouched) — clean compile, zero TypeScript errors, **88 static
-pages** (up from 87: the new `/wishlist` route). `npm run start` + `curl` spot
-checks confirmed: zero `<img>` tags on category pages, search/Wishlist controls
-present in the header/home markup, orange borders present on book-detail cards,
-wishlist empty-state renders correctly. Not yet committed/pushed to git or
-deployed — this session didn't touch git; see the chat response for what's next.
+**Verified pre-push:** fresh `/tmp`-mirror `npm install` + `npm run build` (Google
+Fonts stubbed in the scratch copy only, per the established sandbox workaround —
+real committed source untouched) — clean compile, zero TypeScript errors, **88
+static pages** (up from 87: the new `/wishlist` route). `npm run start` + `curl`
+spot checks confirmed: zero `<img>` tags on category pages, search/Wishlist
+controls present in the header/home markup, orange borders present on
+book-detail cards, wishlist empty-state renders correctly.
+
+**Pushed and deployed, same session, once Thai asked to make it live:** the
+synced folder's local git index had silently lost track of several already-
+correct files (`lib/categories.ts`, a few `docs/*.md` files) — same class of
+FUSE-mount corruption as the historic `.git` lock-file bug (`DECISIONS.md`
+#28/#31/#43) — so rather than trust `git status` in the synced folder, cloned
+`origin/main` fresh into `/tmp`, rsynced the real working-tree content on top
+(explicitly excluding the 4 `content/books/*.json` files with genuine
+uncommitted parallel-retrofit-track work — `built-to-last`,
+`charlie-munger-the-complete-investor`, `delivering-happiness`,
+`dotcom-secrets` — per the established precedent of leaving those untouched,
+`DECISIONS.md` #161/#173/#177/#183), rebuilt clean in that exact clone, then
+committed (`be422bf`) and pushed with a classic PAT Thai supplied for this push
+only (used inline on the push command, never written to disk/config). Full
+mechanics in `DECISIONS.md` #196.
+
+Vercel auto-deployed from the push (`dpl_Gz9P8653p4nkHNwDjPbpsJmRdvV1`, READY in
+~40s, target production), aliased to `library.abundancecitadel.app` /
+`book-library-app-fawn.vercel.app` / `book-library-app-abundance-citadel.vercel.app`.
+**Verified live, not just deployment-status-READY:** fetched both the `.vercel.app`
+alias and the custom domain directly — both render the new UI. A subagent
+grepped the live home page and confirmed `CategoryAccordion` and `<img` both
+return 0 matches (old accordion and cover images genuinely gone in production,
+not just locally), `Search`/`book-row`/`border-orange-600` all present; the live
+`/category/business` page confirmed 0 `<img>` tags and `book-row`/`line-clamp`
+present; the live `/wishlist` page confirmed the empty-state copy renders.
+`library.abundancecitadel.app` resolved cleanly this time (no repeat of the
+intermittent DNS/cert timeout noted in Sessions 10/16/21).
 
 ---
 
 ## Session Log
+
+**2026-07-31 — same session, continued (push + deploy Stage 17 live):** Thai reviewed the Stage 17 summary and asked directly to push and deploy everything. Reconciled the synced folder's unreliable git index by cloning `origin/main` fresh into `/tmp` and rsyncing the real working tree on top (excluding the 4 in-progress parallel-retrofit content files, per established precedent) rather than trusting `git status` in place — see `DECISIONS.md` #196 for the full diagnosis and process, and the Stage 17 entry above for the outcome. Got a classic GitHub PAT from Thai (used inline on the push only), committed as `be422bf`, pushed clean. Vercel auto-deployed (`dpl_Gz9P8653p4nkHNwDjPbpsJmRdvV1`, READY ~40s). Verified live against both the `.vercel.app` alias and the `library.abundancecitadel.app` custom domain (which resolved cleanly this time) — confirmed via direct fetch + grep (not just deployment status) that the old accordion and cover images are genuinely gone in production and the new search/wishlist/color/density changes are all present.
 
 **2026-07-31 — new session (Stage 17, UX overhaul from Thai's direct chat feedback, no continuation-prompt handoff):** Thai gave four numbered pieces of feedback directly in chat rather than via a written prompt file — read the live source (`app/page.tsx`, `CategoryAccordion.tsx`, `BookCard.tsx`, `Header.tsx`, `BookTabs.tsx`, `globals.css`, `tailwind.config.ts`, `lib/books.ts`) plus `PROJECT_BRIEF.md`/`ROADMAP.md`/`DECISIONS.md`/`docs/DESIGN_SYSTEM.md`/`docs/SCHEMA.md` first, per the standing rule. See Stage 17 above for the itemized feature list; full point-by-point design rationale in `docs/DESIGN_SYSTEM.md`'s new "Design System v4" section and `DECISIONS.md` #185+.
 
