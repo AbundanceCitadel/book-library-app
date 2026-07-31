@@ -70,9 +70,12 @@ export default function CategoryPage({
             {unwritten.map((entry) => (
               <li
                 key={entry.title}
-                className="flex items-baseline justify-between gap-3 py-2"
+                className="flex items-baseline gap-3 py-2"
               >
-                <span>{entry.title}</span>
+                <span className="shrink-0 font-mono text-xs text-orange-400">
+                  {entry.code}
+                </span>
+                <span className="flex-1">{entry.title}</span>
                 <span className="shrink-0 text-xs text-muted">
                   {entry.author}
                 </span>

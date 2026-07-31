@@ -37,7 +37,7 @@ export default function HomePage() {
       <p className="mt-1 text-sm text-muted">
         Sixteen sections, each one a shelf — tap to open it.
       </p>
-      <div className="mt-4 divide-y divide-border overflow-hidden rounded-xl border-2 border-orange-600 bg-surface">
+      <div className="mt-4 grid grid-cols-2 gap-3">
         {categories.map((cat) => {
           const count = catalog.length
             ? catalog.filter((c) => c.categories.includes(cat)).length
@@ -46,19 +46,16 @@ export default function HomePage() {
             <Link
               key={cat}
               href={`/category/${cat}`}
-              className="book-row motion-premium tap-target flex items-center gap-3 px-4 py-3"
+              className="book-row motion-premium tap-target flex flex-col gap-1 rounded-xl border-2 border-orange-600/70 bg-surface p-3 sm:p-4"
             >
-              <span className="text-lg" aria-hidden="true">
+              <span className="text-xl" aria-hidden="true">
                 {CATEGORY_ICONS[cat] ?? "📚"}
               </span>
-              <span className="flex-1 text-sm font-medium">
+              <span className="text-sm font-medium leading-snug">
                 {CATEGORY_LABELS[cat]}
               </span>
               <span className="whitespace-nowrap text-xs text-muted">
                 {count} book{count === 1 ? "" : "s"}
-              </span>
-              <span aria-hidden="true" className="text-muted">
-                →
               </span>
             </Link>
           );

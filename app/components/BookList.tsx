@@ -1,16 +1,13 @@
 import type { Book } from "@/lib/books";
 import BookCard from "./BookCard";
 
-// v4 (Stage 17, density redesign): one shared, orange-bordered container for
-// every list of BookCard rows (category pages, search results) — a single
-// column, divided only by a 1px border between rows, no per-row gap. This is
-// the literal "box with an orange border" Thai asked for, drawn once around
-// the whole list rather than once per card, so the list reads as one
-// continuous shelf, not a stack of separate boxes with visual air between
-// them. See docs/DESIGN_SYSTEM.md v4.
+// v5 (Stage 18): reversed from v4's single shared-border divided list —
+// Thai's explicit ask this round was "box in box," each book in its own
+// separate box, not one continuous list. Now just a plain vertical stack
+// with a gap between cards; each `BookCard` draws its own orange border.
 export default function BookList({ books }: { books: Book[] }) {
   return (
-    <div className="divide-y divide-border overflow-hidden rounded-xl border-2 border-orange-600 bg-surface">
+    <div className="flex flex-col gap-3">
       {books.map((book) => (
         <BookCard key={book.id} book={book} />
       ))}

@@ -1,5 +1,6 @@
 [
   {
+    "code": "001",
     "title": "#AskGaryVee",
     "author": "Gary Vaynerchuk",
     "categories": [
@@ -8,6 +9,7 @@
     "language": "en"
   },
   {
+    "code": "002",
     "title": "1% Moi Ngay",
     "author": "unknown",
     "categories": [
@@ -16,6 +18,7 @@
     "language": "vi"
   },
   {
+    "code": "003",
     "title": "100 Great Business Ideas",
     "author": "Jeremy Kourdi",
     "categories": [
@@ -24,6 +27,7 @@
     "language": "en"
   },
   {
+    "code": "004",
     "title": "100 Secrets of Ad-Agency Psychology",
     "author": "Whitman",
     "categories": [
@@ -32,6 +36,7 @@
     "language": "en"
   },
   {
+    "code": "005",
     "title": "101 Loi Khuyen Khoi Nghiep",
     "author": "unknown",
     "categories": [
@@ -40,6 +45,7 @@
     "language": "vi"
   },
   {
+    "code": "006",
     "title": "201 Great Ideas for Your Small Business (3rd ed.)",
     "author": "Bloomberg Press",
     "categories": [
@@ -48,6 +54,7 @@
     "language": "en"
   },
   {
+    "code": "007",
     "title": "21 Bi Mat Cua Nhung Nha Dien Thuyet Tai Ba Nhat Lich Su",
     "author": "James C. Humes",
     "categories": [
@@ -56,6 +63,7 @@
     "language": "vi"
   },
   {
+    "code": "008",
     "title": "24 Essential Lessons for Investment Success",
     "author": "William J. O'Neil",
     "categories": [
@@ -64,6 +72,7 @@
     "language": "en"
   },
   {
+    "code": "009",
     "title": "36 Ke & 36 Doi Ke",
     "author": "Ngo Nhu Tung & Hoang Phac Dan",
     "categories": [
@@ -72,6 +81,7 @@
     "language": "vi"
   },
   {
+    "code": "010",
     "title": "36 Ke Trong Kinh Doanh Hien Dai",
     "author": "Lan Bercu",
     "categories": [
@@ -80,6 +90,7 @@
     "language": "vi"
   },
   {
+    "code": "011",
     "title": "47 Chieu",
     "author": "Tran Sang (bien dich)",
     "categories": [
@@ -88,6 +99,7 @@
     "language": "vi"
   },
   {
+    "code": "012",
     "title": "5 Nguyen Tac Thep - 15 Thuat Ban Hang Thanh Cong",
     "author": "Ly Tuan Kiet",
     "categories": [
@@ -96,6 +108,7 @@
     "language": "vi"
   },
   {
+    "code": "013",
     "title": "7 Strategies for Wealth & Happiness",
     "author": "Jim Rohn",
     "categories": [
@@ -104,6 +117,7 @@
     "language": "en"
   },
   {
+    "code": "014",
     "title": "8 To Chat Tri Tue",
     "author": "Nguyen Bao Trung (verify)",
     "categories": [
@@ -112,6 +126,7 @@
     "language": "vi"
   },
   {
+    "code": "015",
     "title": "A Man for All Markets",
     "author": "Edward O. Thorp",
     "categories": [
@@ -120,6 +135,7 @@
     "language": "en"
   },
   {
+    "code": "016",
     "title": "A. Scott Berg biography (title unclear)",
     "author": "A. Scott Berg",
     "categories": [
@@ -128,6 +144,7 @@
     "language": "en"
   },
   {
+    "code": "017",
     "title": "Advanced Selling Strategies",
     "author": "Brian Tracy",
     "categories": [
@@ -136,6 +153,7 @@
     "language": "en"
   },
   {
+    "code": "018",
     "title": "Ai Lay Mieng Pho Mat Cua Toi? (Who Moved My Cheese?, VN ed.)",
     "author": "Spencer Johnson",
     "categories": [
@@ -144,6 +162,7 @@
     "language": "vi"
   },
   {
+    "code": "019",
     "title": "All for One",
     "author": "Andrew Sobel",
     "categories": [
@@ -152,6 +171,7 @@
     "language": "en"
   },
   {
+    "code": "020",
     "title": "All Marketers Are Liars",
     "author": "Seth Godin",
     "categories": [
@@ -160,6 +180,7 @@
     "language": "en"
   },
   {
+    "code": "021",
     "title": "Anything You Want",
     "author": "Derek Sivers",
     "categories": [
@@ -168,6 +189,7 @@
     "language": "en"
   },
   {
+    "code": "022",
     "title": "Ask for More / The Leader's Greatest Return",
     "author": "Tony Robbins",
     "categories": [
@@ -176,6 +198,7 @@
     "language": "en"
   },
   {
+    "code": "023",
     "title": "At Home in the World",
     "author": "Thich Nhat Hanh",
     "categories": [
@@ -184,6 +207,7 @@
     "language": "en"
   },
   {
+    "code": "024",
     "title": "Awaken the Giant Within",
     "author": "Tony Robbins",
     "categories": [
@@ -192,6 +216,7 @@
     "language": "en"
   },
   {
+    "code": "025",
     "title": "Bach Gia Chu Tu Trong Doi Nhan Xu The",
     "author": "unknown",
     "categories": [
@@ -200,6 +225,7 @@
     "language": "vi"
   },
   {
+    "code": "026",
     "title": "Ban Chat Cua Doi Tra",
     "author": "Alan Phan",
     "categories": [
@@ -208,6 +234,7 @@
     "language": "vi"
   },
   {
+    "code": "027",
     "title": "Basic Economics",
     "author": "Thomas Sowell",
     "categories": [
@@ -216,6 +243,7 @@
     "language": "en"
   },
   {
+    "code": "028",
     "title": "Bat Thay Doc Vi",
     "author": "unknown",
     "categories": [
@@ -224,6 +252,7 @@
     "language": "vi"
   },
   {
+    "code": "029",
     "title": "Be a Sales Superstar",
     "author": "Brian Tracy",
     "categories": [
@@ -232,6 +261,7 @@
     "language": "en"
   },
   {
+    "code": "030",
     "title": "Be the Better Broker",
     "author": "Dustan Woodhouse",
     "categories": [
@@ -240,6 +270,7 @@
     "language": "en"
   },
   {
+    "code": "031",
     "title": "Bear Market Investing Strategies",
     "author": "Nadir S. Zulqernain, PhD",
     "categories": [
@@ -248,6 +279,7 @@
     "language": "en"
   },
   {
+    "code": "032",
     "title": "Become a Trusted Financial Advisor Everyone Raves About",
     "author": "Mark W. Purnell",
     "categories": [
@@ -256,6 +288,7 @@
     "language": "en"
   },
   {
+    "code": "033",
     "title": "Before You Quit Your Job",
     "author": "Robert T. Kiyosaki with Sharon L. Lechter",
     "categories": [
@@ -264,6 +297,7 @@
     "language": "en"
   },
   {
+    "code": "034",
     "title": "Being Peace",
     "author": "Thich Nhat Hanh",
     "categories": [
@@ -272,6 +306,7 @@
     "language": "en"
   },
   {
+    "code": "035",
     "title": "Bi Quyet Cua Nghe Thuat Giao Tiep",
     "author": "Dale Carnegie, trans. Truong Tu Anh & Phuong Chan Duc",
     "categories": [
@@ -280,6 +315,7 @@
     "language": "vi"
   },
   {
+    "code": "036",
     "title": "Bi Quyet Cua Thanh Cong (100 Simple Secrets)",
     "author": "David Niven",
     "categories": [
@@ -288,6 +324,7 @@
     "language": "vi"
   },
   {
+    "code": "037",
     "title": "Bi Quyet Gay Dung Co Nghiep Bac Ty",
     "author": "Adam Khoo & Lam Chu",
     "categories": [
@@ -296,6 +333,7 @@
     "language": "vi"
   },
   {
+    "code": "038",
     "title": "Body Language: The Definitive Book",
     "author": "Allan & Barbara Pease",
     "categories": [
@@ -304,6 +342,7 @@
     "language": "en"
   },
   {
+    "code": "039",
     "title": "Brainscripts for Sales Success",
     "author": "Drew Eric Whitman",
     "categories": [
@@ -312,6 +351,7 @@
     "language": "en"
   },
   {
+    "code": "040",
     "title": "Buffett: The Making of an American Capitalist",
     "author": "Roger Lowenstein",
     "categories": [
@@ -320,6 +360,7 @@
     "language": "en"
   },
   {
+    "code": "041",
     "title": "Building a Story Brand",
     "author": "Donald Miller",
     "categories": [
@@ -328,6 +369,7 @@
     "language": "en"
   },
   {
+    "code": "042",
     "title": "Built to Last",
     "author": "James C. Collins & Jerry I. Porras",
     "categories": [
@@ -336,6 +378,7 @@
     "language": "en"
   },
   {
+    "code": "043",
     "title": "Buy Your Next Home With Confidence",
     "author": "unknown",
     "categories": [
@@ -344,6 +387,7 @@
     "language": "en"
   },
   {
+    "code": "044",
     "title": "Cach Thuc Kinh Doanh va Dau Co Co Phieu",
     "author": "Jesse Livermore",
     "categories": [
@@ -352,6 +396,7 @@
     "language": "en"
   },
   {
+    "code": "045",
     "title": "Cam Ki: Khi Giao Tiep Voi Khach Hang",
     "author": "unknown",
     "categories": [
@@ -360,6 +405,7 @@
     "language": "vi"
   },
   {
+    "code": "046",
     "title": "Cam Xuc La Ke Thu So Mot Cua Thanh Cong",
     "author": "unknown",
     "categories": [
@@ -368,6 +414,7 @@
     "language": "vi"
   },
   {
+    "code": "047",
     "title": "Charlie Munger: The Complete Investor",
     "author": "Tren Griffin",
     "categories": [
@@ -376,6 +423,7 @@
     "language": "en"
   },
   {
+    "code": "048",
     "title": "Chien Thang Con Quy Trong Ban (Outwitting the Devil, VN ed.)",
     "author": "Napoleon Hill",
     "categories": [
@@ -384,6 +432,7 @@
     "language": "vi"
   },
   {
+    "code": "049",
     "title": "Chien Thang Trong Tranh Luan Ban Hang Tuyen Dung Canh Tranh",
     "author": "unknown",
     "categories": [
@@ -392,6 +441,7 @@
     "language": "vi"
   },
   {
+    "code": "050",
     "title": "Con Lam Giau (Rich Dad Poor Dad, VN ed.)",
     "author": "Robert T. Kiyosaki",
     "categories": [
@@ -400,6 +450,7 @@
     "language": "vi"
   },
   {
+    "code": "051",
     "title": "Conquering Shifts",
     "author": "Cindy Douglas & Kathleen Heck",
     "categories": [
@@ -408,6 +459,7 @@
     "language": "en"
   },
   {
+    "code": "052",
     "title": "Crushing It!",
     "author": "Gary Vaynerchuk",
     "categories": [
@@ -416,6 +468,7 @@
     "language": "en"
   },
   {
+    "code": "053",
     "title": "Cuoc Doi Thinh Vuong",
     "author": "Thai Pham",
     "categories": [
@@ -424,6 +477,7 @@
     "language": "vi"
   },
   {
+    "code": "054",
     "title": "Cuon Sach Nho Cho Nha Lanh Dao Lon",
     "author": "John C. Maxwell",
     "categories": [
@@ -432,6 +486,7 @@
     "language": "vi"
   },
   {
+    "code": "055",
     "title": "Dac Nhan Tam",
     "author": "Dale Carnegie",
     "categories": [
@@ -440,6 +495,7 @@
     "language": "vi"
   },
   {
+    "code": "056",
     "title": "Dai Cuong Lich Su Triet Hoc Phuong Dong",
     "author": "unknown",
     "categories": [
@@ -448,6 +504,7 @@
     "language": "vi"
   },
   {
+    "code": "057",
     "title": "Dam Nghi Lai (Think Again, VN ed.)",
     "author": "Adam Grant",
     "categories": [
@@ -456,6 +513,7 @@
     "language": "vi"
   },
   {
+    "code": "058",
     "title": "Damn Right!",
     "author": "Janet Lowe",
     "categories": [
@@ -464,6 +522,7 @@
     "language": "en"
   },
   {
+    "code": "059",
     "title": "Danh Ngon Dong Phuong",
     "author": "unknown",
     "categories": [
@@ -472,6 +531,7 @@
     "language": "vi"
   },
   {
+    "code": "060",
     "title": "Dao Duc Kinh",
     "author": "Lao Tzu, trans. Nguyen Hien Le",
     "categories": [
@@ -480,6 +540,7 @@
     "language": "vi"
   },
   {
+    "code": "061",
     "title": "Dao Tri Gia",
     "author": "unknown",
     "categories": [
@@ -488,6 +549,7 @@
     "language": "vi"
   },
   {
+    "code": "062",
     "title": "Debt Free For Life",
     "author": "David Bach",
     "categories": [
@@ -496,6 +558,7 @@
     "language": "en"
   },
   {
+    "code": "063",
     "title": "Delivering Happiness",
     "author": "Tony Hsieh",
     "categories": [
@@ -504,6 +567,7 @@
     "language": "en"
   },
   {
+    "code": "064",
     "title": "Digitally Transforming the Mortgage Banking Industry",
     "author": "James M. Deitch, CPA, CMB",
     "categories": [
@@ -512,6 +576,7 @@
     "language": "en"
   },
   {
+    "code": "065",
     "title": "Discover Your Destiny (with the Monk Who Sold His Ferrari)",
     "author": "Robin Sharma",
     "categories": [
@@ -520,6 +585,7 @@
     "language": "en"
   },
   {
+    "code": "066",
     "title": "Dollars and Sense",
     "author": "Dan Ariely & Jeff Kreisler",
     "categories": [
@@ -528,6 +594,7 @@
     "language": "en"
   },
   {
+    "code": "067",
     "title": "DotCom Secrets",
     "author": "Russell Brunson",
     "categories": [
@@ -536,6 +603,7 @@
     "language": "en"
   },
   {
+    "code": "068",
     "title": "Drive",
     "author": "Daniel Pink",
     "categories": [
@@ -544,6 +612,7 @@
     "language": "en"
   },
   {
+    "code": "069",
     "title": "Dung Viec",
     "author": "Thich Chan Phap Nguyen",
     "categories": [
@@ -552,6 +621,7 @@
     "language": "vi"
   },
   {
+    "code": "070",
     "title": "Eat That Frog!",
     "author": "Brian Tracy",
     "categories": [
@@ -560,6 +630,7 @@
     "language": "en"
   },
   {
+    "code": "071",
     "title": "Eating the Big Fish",
     "author": "Adam Morgan",
     "categories": [
@@ -568,6 +639,7 @@
     "language": "en"
   },
   {
+    "code": "072",
     "title": "Elliott Wave Trading (Bloomberg Visual Guide)",
     "author": "unknown",
     "categories": [
@@ -576,6 +648,7 @@
     "language": "en"
   },
   {
+    "code": "073",
     "title": "Encyclopedia of Chart Patterns (3rd ed.)",
     "author": "Thomas N. Bulkowski",
     "categories": [
@@ -584,6 +657,7 @@
     "language": "en"
   },
   {
+    "code": "074",
     "title": "Essentialism",
     "author": "Greg McKeown",
     "categories": [
@@ -592,6 +666,7 @@
     "language": "en"
   },
   {
+    "code": "075",
     "title": "Expert Secrets",
     "author": "Russell Brunson",
     "categories": [
@@ -600,6 +675,7 @@
     "language": "en"
   },
   {
+    "code": "076",
     "title": "FAKE",
     "author": "Robert T. Kiyosaki",
     "categories": [
@@ -608,6 +684,7 @@
     "language": "en"
   },
   {
+    "code": "077",
     "title": "Fast This Way",
     "author": "Dave Asprey",
     "categories": [
@@ -616,6 +693,7 @@
     "language": "en"
   },
   {
+    "code": "078",
     "title": "Fear",
     "author": "Thich Nhat Hanh",
     "categories": [
@@ -624,6 +702,7 @@
     "language": "en"
   },
   {
+    "code": "079",
     "title": "Find Your Why",
     "author": "Simon Sinek, David Mead & Peter Docker",
     "categories": [
@@ -632,6 +711,7 @@
     "language": "en"
   },
   {
+    "code": "080",
     "title": "Finite and Infinite Games",
     "author": "James P. Carse",
     "categories": [
@@ -640,6 +720,7 @@
     "language": "en"
   },
   {
+    "code": "081",
     "title": "Flawless Consulting",
     "author": "Peter Block",
     "categories": [
@@ -648,6 +729,7 @@
     "language": "en"
   },
   {
+    "code": "082",
     "title": "Flow: The Psychology of Optimal Experience",
     "author": "Mihaly Csikszentmihalyi",
     "categories": [
@@ -656,6 +738,7 @@
     "language": "en"
   },
   {
+    "code": "083",
     "title": "Fooling Some of the People All of the Time",
     "author": "David Einhorn",
     "categories": [
@@ -664,6 +747,7 @@
     "language": "en"
   },
   {
+    "code": "084",
     "title": "Free Where You Are",
     "author": "Thich Nhat Hanh",
     "categories": [
@@ -672,6 +756,7 @@
     "language": "en"
   },
   {
+    "code": "085",
     "title": "Full Engagement!",
     "author": "Brian Tracy",
     "categories": [
@@ -680,6 +765,7 @@
     "language": "en"
   },
   {
+    "code": "086",
     "title": "Get a Grip (verify title)",
     "author": "Gino Wickman & Mike Paton",
     "categories": [
@@ -688,6 +774,7 @@
     "language": "en"
   },
   {
+    "code": "087",
     "title": "Get Smart!",
     "author": "Brian Tracy",
     "categories": [
@@ -696,6 +783,7 @@
     "language": "en"
   },
   {
+    "code": "088",
     "title": "Getting Past No",
     "author": "William Ury",
     "categories": [
@@ -704,6 +792,7 @@
     "language": "en"
   },
   {
+    "code": "089",
     "title": "Getting Started in Consulting",
     "author": "Alan Weiss",
     "categories": [
@@ -712,6 +801,7 @@
     "language": "en"
   },
   {
+    "code": "090",
     "title": "Giai Ma Mo Hinh Quan Ca Phe Doc Lap",
     "author": "unknown",
     "categories": [
@@ -720,6 +810,7 @@
     "language": "vi"
   },
   {
+    "code": "091",
     "title": "Giao Tiep Thong Minh",
     "author": "unknown",
     "categories": [
@@ -728,6 +819,7 @@
     "language": "vi"
   },
   {
+    "code": "092",
     "title": "Giao Trinh Tay Du - Tay Chan Quang",
     "author": "unknown",
     "categories": [
@@ -736,6 +828,7 @@
     "language": "vi"
   },
   {
+    "code": "093",
     "title": "Giau Co (Nhung Quy Tac De...)",
     "author": "unknown",
     "categories": [
@@ -744,6 +837,7 @@
     "language": "vi"
   },
   {
+    "code": "094",
     "title": "Gieo Trong Hanh Phuc (Cultivating Happiness)",
     "author": "Thich Nhat Hanh",
     "categories": [
@@ -752,6 +846,7 @@
     "language": "vi"
   },
   {
+    "code": "095",
     "title": "Goals!",
     "author": "Brian Tracy",
     "categories": [
@@ -760,6 +855,7 @@
     "language": "en"
   },
   {
+    "code": "096",
     "title": "Golf Anatomy",
     "author": "unknown",
     "categories": [
@@ -768,6 +864,7 @@
     "language": "en"
   },
   {
+    "code": "097",
     "title": "Golf: Nhung Bi Mat Ve Mon The Thao Quy Toc",
     "author": "unknown",
     "categories": [
@@ -776,6 +873,7 @@
     "language": "vi"
   },
   {
+    "code": "098",
     "title": "Good to Great",
     "author": "Jim Collins",
     "categories": [
@@ -784,6 +882,7 @@
     "language": "en"
   },
   {
+    "code": "099",
     "title": "Grit",
     "author": "Angela Duckworth",
     "categories": [
@@ -792,6 +891,7 @@
     "language": "en"
   },
   {
+    "code": "100",
     "title": "Han Phi Tu Tu Tuong Sach Luoc",
     "author": "Han Fei (commentary)",
     "categories": [
@@ -800,6 +900,7 @@
     "language": "vi"
   },
   {
+    "code": "101",
     "title": "Han So Tranh Hung",
     "author": "Mong Binh Son",
     "categories": [
@@ -808,6 +909,7 @@
     "language": "vi"
   },
   {
+    "code": "102",
     "title": "Hanh Phuc Moi Ngay (Happiness Every Day)",
     "author": "Ajahn Brahm",
     "categories": [
@@ -816,6 +918,7 @@
     "language": "vi"
   },
   {
+    "code": "103",
     "title": "Happiness",
     "author": "Thich Nhat Hanh",
     "categories": [
@@ -824,6 +927,7 @@
     "language": "en"
   },
   {
+    "code": "104",
     "title": "Help Them Grow or Watch Them Go",
     "author": "Beverly Kaye & Julie Winkle Giulioni",
     "categories": [
@@ -832,6 +936,7 @@
     "language": "en"
   },
   {
+    "code": "105",
     "title": "Hieu Ve Trai Tim",
     "author": "Minh Niem",
     "categories": [
@@ -840,6 +945,7 @@
     "language": "vi"
   },
   {
+    "code": "106",
     "title": "Hoa Lan: Nuoi Trong va Kinh Doanh",
     "author": "unknown",
     "categories": [
@@ -848,6 +954,7 @@
     "language": "vi"
   },
   {
+    "code": "107",
     "title": "How I Made $2,000,000 in the Stock Market (Updated for the 21st Century)",
     "author": "Nicolas Darvas, with commentary by Steve Burns",
     "categories": [
@@ -856,6 +963,7 @@
     "language": "en"
   },
   {
+    "code": "108",
     "title": "How to Be a Power Connector",
     "author": "Judy Robinett",
     "categories": [
@@ -864,6 +972,7 @@
     "language": "en"
   },
   {
+    "code": "109",
     "title": "How to Be Rich",
     "author": "J. Paul Getty",
     "categories": [
@@ -872,6 +981,7 @@
     "language": "en"
   },
   {
+    "code": "110",
     "title": "How to Buy a House For...",
     "author": "Rick Otton",
     "categories": [
@@ -880,6 +990,7 @@
     "language": "en"
   },
   {
+    "code": "111",
     "title": "How to Eat",
     "author": "Thich Nhat Hanh",
     "categories": [
@@ -888,6 +999,7 @@
     "language": "en"
   },
   {
+    "code": "112",
     "title": "How to Give Your Kids $1 Million Each!",
     "author": "Ashley Ormond",
     "categories": [
@@ -896,6 +1008,7 @@
     "language": "en"
   },
   {
+    "code": "113",
     "title": "How to Love",
     "author": "Thich Nhat Hanh",
     "categories": [
@@ -904,6 +1017,7 @@
     "language": "en"
   },
   {
+    "code": "114",
     "title": "How to Pay Off Your Mortgage in 5 Years",
     "author": "Clayton Morris",
     "categories": [
@@ -912,6 +1026,7 @@
     "language": "en"
   },
   {
+    "code": "115",
     "title": "How to Relax",
     "author": "Thich Nhat Hanh",
     "categories": [
@@ -920,6 +1035,7 @@
     "language": "en"
   },
   {
+    "code": "116",
     "title": "How to Sit",
     "author": "Thich Nhat Hanh",
     "categories": [
@@ -928,6 +1044,7 @@
     "language": "en"
   },
   {
+    "code": "117",
     "title": "How to Stop Worrying and Start Living",
     "author": "Dale Carnegie",
     "categories": [
@@ -936,6 +1053,7 @@
     "language": "en"
   },
   {
+    "code": "118",
     "title": "How to Walk",
     "author": "Thich Nhat Hanh",
     "categories": [
@@ -944,6 +1062,7 @@
     "language": "en"
   },
   {
+    "code": "119",
     "title": "How to Win Friends and Influence People",
     "author": "Dale Carnegie",
     "categories": [
@@ -952,6 +1071,7 @@
     "language": "en"
   },
   {
+    "code": "120",
     "title": "How to Win Friends and Influence People in the Digital Age",
     "author": "Dale Carnegie & Associates",
     "categories": [
@@ -960,6 +1080,7 @@
     "language": "en"
   },
   {
+    "code": "121",
     "title": "Human Life and...",
     "author": "unknown",
     "categories": [
@@ -968,6 +1089,7 @@
     "language": "en"
   },
   {
+    "code": "122",
     "title": "Huong Dan Thuc Hanh CANSLIM",
     "author": "Matthew Galgani",
     "categories": [
@@ -976,6 +1098,7 @@
     "language": "vi"
   },
   {
+    "code": "123",
     "title": "Ikigai",
     "author": "Hector Garcia & Francesc Miralles",
     "categories": [
@@ -984,6 +1107,7 @@
     "language": "en"
   },
   {
+    "code": "124",
     "title": "It Starts With Clients",
     "author": "Andrew Sobel",
     "categories": [
@@ -992,6 +1116,7 @@
     "language": "en"
   },
   {
+    "code": "125",
     "title": "Japanese Candlestick Charting Techniques",
     "author": "Steve Nison",
     "categories": [
@@ -1000,6 +1125,7 @@
     "language": "en"
   },
   {
+    "code": "126",
     "title": "Just Listen",
     "author": "Mark Goulston",
     "categories": [
@@ -1008,6 +1134,7 @@
     "language": "en"
   },
   {
+    "code": "127",
     "title": "Ke Toan Via He / Doc Vi Bat Ky Ai",
     "author": "T.S. David J. Lieberman",
     "categories": [
@@ -1016,6 +1143,7 @@
     "language": "vi"
   },
   {
+    "code": "128",
     "title": "Khach Hang Nguoi Ay Ban Duoc Hang",
     "author": "unknown",
     "categories": [
@@ -1024,6 +1152,7 @@
     "language": "vi"
   },
   {
+    "code": "129",
     "title": "Kheo An Noi Se Co Duoc Thien Ha",
     "author": "unknown",
     "categories": [
@@ -1032,6 +1161,7 @@
     "language": "vi"
   },
   {
+    "code": "130",
     "title": "Khong Tu Tu Tuong Sach Luoc",
     "author": "Confucius (commentary)",
     "categories": [
@@ -1040,6 +1170,7 @@
     "language": "vi"
   },
   {
+    "code": "131",
     "title": "Kinh Dich: Cau Hinh Tu Tuong Trung Quoc",
     "author": "Duong Ngoc Dung & Le Anh Minh",
     "categories": [
@@ -1048,6 +1179,7 @@
     "language": "vi"
   },
   {
+    "code": "132",
     "title": "Kinh Nghiem Thanh Cong Cua Ong Chu Nho",
     "author": "Lao Mac, trans. Tue Van",
     "categories": [
@@ -1056,6 +1188,7 @@
     "language": "vi"
   },
   {
+    "code": "133",
     "title": "Kinh Te Hoc Ca Map",
     "author": "Stefan Engeseth",
     "categories": [
@@ -1064,6 +1197,7 @@
     "language": "vi"
   },
   {
+    "code": "134",
     "title": "Ky Nang Giao Tiep Thuyet Kiem Tien",
     "author": "unknown",
     "categories": [
@@ -1072,6 +1206,7 @@
     "language": "vi"
   },
   {
+    "code": "135",
     "title": "Ky Thuat De Kiem Tien Hang Ngay: Giao Dich Tren Thi Truong Chung Khoan",
     "author": "Andrew Aziz",
     "categories": [
@@ -1080,6 +1215,7 @@
     "language": "vi"
   },
   {
+    "code": "136",
     "title": "Ky Thuat Giao Dich De Kiem Tien Hang Ngay Nang Cao Tren Thi Truong Chung Khoan",
     "author": "unknown",
     "categories": [
@@ -1088,6 +1224,7 @@
     "language": "vi"
   },
   {
+    "code": "137",
     "title": "Ky Thuat Nuoi Trong Cay Lan (Orchid Growing Technique)",
     "author": "Tran Van Huan & Van Tich Luom",
     "categories": [
@@ -1096,6 +1233,7 @@
     "language": "vi"
   },
   {
+    "code": "138",
     "title": "Lac Quan Teu (Irrational Exuberance, VN ed.)",
     "author": "Robert J. Shiller",
     "categories": [
@@ -1104,6 +1242,7 @@
     "language": "vi"
   },
   {
+    "code": "139",
     "title": "Lam Giau Qua Chung Khoan (How to Make Money in Stocks)",
     "author": "William J. O'Neil",
     "categories": [
@@ -1112,6 +1251,7 @@
     "language": "vi"
   },
   {
+    "code": "140",
     "title": "Lam Nhu Choi",
     "author": "Minh Niem",
     "categories": [
@@ -1120,6 +1260,7 @@
     "language": "vi"
   },
   {
+    "code": "141",
     "title": "Leaders Eat Last",
     "author": "Simon Sinek",
     "categories": [
@@ -1128,6 +1269,7 @@
     "language": "en"
   },
   {
+    "code": "142",
     "title": "Leading With Questions",
     "author": "Michael Marquardt",
     "categories": [
@@ -1136,6 +1278,7 @@
     "language": "en"
   },
   {
+    "code": "143",
     "title": "Leading Without Authority",
     "author": "Keith Ferrazzi",
     "categories": [
@@ -1144,6 +1287,7 @@
     "language": "en"
   },
   {
+    "code": "144",
     "title": "Learn to Earn",
     "author": "Peter Lynch (verify)",
     "categories": [
@@ -1152,6 +1296,7 @@
     "language": "en"
   },
   {
+    "code": "145",
     "title": "Like a Virgin",
     "author": "Richard Branson",
     "categories": [
@@ -1160,6 +1305,7 @@
     "language": "en"
   },
   {
+    "code": "146",
     "title": "Limitless",
     "author": "Jim Kwik",
     "categories": [
@@ -1168,6 +1314,7 @@
     "language": "en"
   },
   {
+    "code": "147",
     "title": "Lot Xac De Tro Thanh Nha Dau Tu Gioi",
     "author": "unknown",
     "categories": [
@@ -1176,6 +1323,7 @@
     "language": "vi"
   },
   {
+    "code": "148",
     "title": "Madiba A to Z: The Many Faces of Nelson Mandela",
     "author": "unknown compiler",
     "categories": [
@@ -1184,6 +1332,7 @@
     "language": "en"
   },
   {
+    "code": "149",
     "title": "Making Space",
     "author": "Thich Nhat Hanh",
     "categories": [
@@ -1192,6 +1341,7 @@
     "language": "en"
   },
   {
+    "code": "150",
     "title": "Man's Search for Meaning",
     "author": "Viktor Frankl",
     "categories": [
@@ -1200,6 +1350,7 @@
     "language": "en"
   },
   {
+    "code": "151",
     "title": "Managing a Small Business in Australia: The Complete Handbook",
     "author": "John W. English & Babette Moate",
     "categories": [
@@ -1208,6 +1359,7 @@
     "language": "en"
   },
   {
+    "code": "152",
     "title": "Mandela: The Authorised Biography",
     "author": "Anthony Sampson",
     "categories": [
@@ -1216,6 +1368,7 @@
     "language": "en"
   },
   {
+    "code": "153",
     "title": "Manh Tu Tu Tuong & Sach Luoc",
     "author": "Mencius (commentary)",
     "categories": [
@@ -1224,6 +1377,7 @@
     "language": "vi"
   },
   {
+    "code": "154",
     "title": "Manipulation and Dark Psychology",
     "author": "unknown",
     "categories": [
@@ -1232,6 +1386,7 @@
     "language": "en"
   },
   {
+    "code": "155",
     "title": "Master Your Time",
     "author": "Brian Tracy",
     "categories": [
@@ -1240,6 +1395,7 @@
     "language": "vi"
   },
   {
+    "code": "156",
     "title": "Mastering the Lightning Network",
     "author": "Antonopoulos, Osuntokun & Pickhardt",
     "categories": [
@@ -1248,6 +1404,7 @@
     "language": "en"
   },
   {
+    "code": "157",
     "title": "Maximum Achievement",
     "author": "Brian Tracy",
     "categories": [
@@ -1256,6 +1413,7 @@
     "language": "en"
   },
   {
+    "code": "158",
     "title": "Midas Touch",
     "author": "Donald J. Trump & Robert T. Kiyosaki",
     "categories": [
@@ -1264,6 +1422,7 @@
     "language": "en"
   },
   {
+    "code": "159",
     "title": "Million Dollar Consulting: The Professional's Guide to Growing a Practice",
     "author": "Alan Weiss",
     "categories": [
@@ -1272,6 +1431,7 @@
     "language": "en"
   },
   {
+    "code": "160",
     "title": "Mindset",
     "author": "Dr. Carol S. Dweck",
     "categories": [
@@ -1280,6 +1440,7 @@
     "language": "en"
   },
   {
+    "code": "161",
     "title": "Minh Tam Bao Giam",
     "author": "unknown (classical text)",
     "categories": [
@@ -1288,6 +1449,7 @@
     "language": "vi"
   },
   {
+    "code": "162",
     "title": "More Than Enough",
     "author": "Dave Ramsey (best web match; not confirmed against physical spine)",
     "categories": [
@@ -1296,6 +1458,7 @@
     "language": "en"
   },
   {
+    "code": "163",
     "title": "Mortgage-Free Like Me",
     "author": "Nicole Pedersen-McKinnon",
     "categories": [
@@ -1304,6 +1467,7 @@
     "language": "en"
   },
   {
+    "code": "164",
     "title": "Multiply Your Business",
     "author": "Gerry Robert",
     "categories": [
@@ -1312,6 +1476,7 @@
     "language": "en"
   },
   {
+    "code": "165",
     "title": "Muon Lam Ong Chu Gioi",
     "author": "unknown",
     "categories": [
@@ -1320,6 +1485,7 @@
     "language": "vi"
   },
   {
+    "code": "166",
     "title": "Muu Tri Thoi Chien Quoc That Hung",
     "author": "unknown",
     "categories": [
@@ -1328,6 +1494,7 @@
     "language": "vi"
   },
   {
+    "code": "167",
     "title": "Nam Hoa Kinh (Trang Tu)",
     "author": "Zhuangzi, trans. Nguyen Hien Le",
     "categories": [
@@ -1336,6 +1503,7 @@
     "language": "vi"
   },
   {
+    "code": "168",
     "title": "Nang Tam Tu Duy Voi Phuong Phap Ghi Nho 1 Phut",
     "author": "Takashi Ishii",
     "categories": [
@@ -1344,6 +1512,7 @@
     "language": "vi"
   },
   {
+    "code": "169",
     "title": "Never Eat Alone",
     "author": "Keith Ferrazzi & Tahl Raz",
     "categories": [
@@ -1352,6 +1521,7 @@
     "language": "en"
   },
   {
+    "code": "170",
     "title": "Never Split the Difference",
     "author": "Chris Voss with Tahl Raz",
     "categories": [
@@ -1360,6 +1530,7 @@
     "language": "en"
   },
   {
+    "code": "171",
     "title": "Ngay Doi No (Payback Time, VN ed.)",
     "author": "Phil Town",
     "categories": [
@@ -1368,6 +1539,7 @@
     "language": "vi"
   },
   {
+    "code": "172",
     "title": "Nghe Thuat Ghi Chep",
     "author": "Nguyen Hien Le",
     "categories": [
@@ -1376,6 +1548,7 @@
     "language": "vi"
   },
   {
+    "code": "173",
     "title": "Nghe Thuat Hieu Nguoi Dung Doanh Nghiep",
     "author": "unknown",
     "categories": [
@@ -1384,6 +1557,7 @@
     "language": "vi"
   },
   {
+    "code": "174",
     "title": "Nghe Thuat Loi Cuon Doi Phuong Tro Chuyen",
     "author": "Takashi Ishii",
     "categories": [
@@ -1392,6 +1566,7 @@
     "language": "vi"
   },
   {
+    "code": "175",
     "title": "Nghe Thuat Xay Dung Khach Hang (7L: The Seven Levels of Communication, VN ed.)",
     "author": "Michael J. Maher",
     "categories": [
@@ -1400,6 +1575,7 @@
     "language": "vi"
   },
   {
+    "code": "176",
     "title": "Nghe Thuat Xu The",
     "author": "Tram Linh",
     "categories": [
@@ -1408,6 +1584,7 @@
     "language": "vi"
   },
   {
+    "code": "177",
     "title": "Nghe Thuat Xu The & Hoa Giai",
     "author": "unknown",
     "categories": [
@@ -1416,6 +1593,7 @@
     "language": "vi"
   },
   {
+    "code": "178",
     "title": "Nghi Giau & Lam Giau (Think and Grow Rich, VN ed. - Yuan Phong translation)",
     "author": "Napoleon Hill",
     "categories": [
@@ -1424,6 +1602,7 @@
     "language": "vi"
   },
   {
+    "code": "179",
     "title": "Ngon Ngu Cua Nha Lanh Dao (The Language of Leaders, VN ed.)",
     "author": "Kevin Murray",
     "categories": [
@@ -1432,6 +1611,7 @@
     "language": "vi"
   },
   {
+    "code": "180",
     "title": "Nguoi Thanh Cong Co 1% Cach Nghi Khac Biet",
     "author": "unknown",
     "categories": [
@@ -1440,6 +1620,7 @@
     "language": "vi"
   },
   {
+    "code": "181",
     "title": "Nguyen Hien Le: Nghe Thuat Ghi Chep",
     "author": "Nguyen Hien Le",
     "categories": [
@@ -1448,6 +1629,7 @@
     "language": "vi"
   },
   {
+    "code": "182",
     "title": "Nha Lanh Dao Khong Chuc Danh (The Leader Who Had No Title, VN ed.)",
     "author": "Robin Sharma",
     "categories": [
@@ -1456,6 +1638,7 @@
     "language": "vi"
   },
   {
+    "code": "183",
     "title": "Nhung Dieu Gian Di Nhu Toi Biet Khi Bat Dau Di Lam",
     "author": "Fergus O'Connell",
     "categories": [
@@ -1464,6 +1647,7 @@
     "language": "vi"
   },
   {
+    "code": "184",
     "title": "Nhung Phap Khich Le Nhan Vien Tien Khong Lam Duoc",
     "author": "unknown",
     "categories": [
@@ -1472,6 +1656,7 @@
     "language": "vi"
   },
   {
+    "code": "185",
     "title": "Nhung Sai Lam De Mac Phai Trong Cuoc Song",
     "author": "Nam Viet - Ma Anh (bien soan)",
     "categories": [
@@ -1480,6 +1665,7 @@
     "language": "vi"
   },
   {
+    "code": "186",
     "title": "Nhung Tu Tuong Gia Vi Dai Phuong Dong",
     "author": "Ian P. McGreal",
     "categories": [
@@ -1488,6 +1674,7 @@
     "language": "en"
   },
   {
+    "code": "187",
     "title": "No Mud No Lotus",
     "author": "Thich Nhat Hanh",
     "categories": [
@@ -1496,6 +1683,7 @@
     "language": "en"
   },
   {
+    "code": "188",
     "title": "On Strategy",
     "author": "The Boston Consulting Group",
     "categories": [
@@ -1504,6 +1692,7 @@
     "language": "en"
   },
   {
+    "code": "189",
     "title": "One Up on Wall Street",
     "author": "Peter Lynch",
     "categories": [
@@ -1512,6 +1701,7 @@
     "language": "en"
   },
   {
+    "code": "190",
     "title": "Overdeliver",
     "author": "Brian Kurtz",
     "categories": [
@@ -1520,6 +1710,7 @@
     "language": "en"
   },
   {
+    "code": "191",
     "title": "Pathways to Success & Happiness",
     "author": "unknown",
     "categories": [
@@ -1528,6 +1719,7 @@
     "language": "en"
   },
   {
+    "code": "192",
     "title": "Payback Time",
     "author": "Phil Town",
     "categories": [
@@ -1536,6 +1728,7 @@
     "language": "en"
   },
   {
+    "code": "193",
     "title": "Payoff",
     "author": "Dan Ariely",
     "categories": [
@@ -1544,6 +1737,7 @@
     "language": "en"
   },
   {
+    "code": "194",
     "title": "Peace Is Every Step",
     "author": "Thich Nhat Hanh",
     "categories": [
@@ -1552,6 +1746,7 @@
     "language": "en"
   },
   {
+    "code": "195",
     "title": "Penfolds: The Rewards of Patience",
     "author": "unknown",
     "categories": [
@@ -1560,6 +1755,7 @@
     "language": "en"
   },
   {
+    "code": "196",
     "title": "Phi Ly Tri (Predictably Irrational, VN ed.)",
     "author": "Dan Ariely",
     "categories": [
@@ -1568,6 +1764,7 @@
     "language": "vi"
   },
   {
+    "code": "197",
     "title": "Phong Cach Ban Hang Zig Ziglar",
     "author": "Zig Ziglar",
     "categories": [
@@ -1576,6 +1773,7 @@
     "language": "vi"
   },
   {
+    "code": "198",
     "title": "Phong Thuy (Feng Shui)",
     "author": "unknown",
     "categories": [
@@ -1584,6 +1782,7 @@
     "language": "vi"
   },
   {
+    "code": "199",
     "title": "Phuong Hoang Tai Sinh",
     "author": "unknown",
     "categories": [
@@ -1592,6 +1791,7 @@
     "language": "vi"
   },
   {
+    "code": "200",
     "title": "Power Questions",
     "author": "Andrew Sobel & Jerold Panas",
     "categories": [
@@ -1600,6 +1800,7 @@
     "language": "en"
   },
   {
+    "code": "201",
     "title": "Pre-Suasion",
     "author": "Robert Cialdini",
     "categories": [
@@ -1608,6 +1809,7 @@
     "language": "en"
   },
   {
+    "code": "202",
     "title": "Predictably Irrational (Phi Ly Tri, VN ed.)",
     "author": "Dan Ariely",
     "categories": [
@@ -1616,6 +1818,7 @@
     "language": "vi"
   },
   {
+    "code": "203",
     "title": "Public Speaking for Success",
     "author": "Dale Carnegie",
     "categories": [
@@ -1624,6 +1827,7 @@
     "language": "en"
   },
   {
+    "code": "204",
     "title": "Publish a Book & Grow Rich",
     "author": "Gerry Robert",
     "categories": [
@@ -1632,6 +1836,7 @@
     "language": "en"
   },
   {
+    "code": "205",
     "title": "QBQ! The Question Behind the Question",
     "author": "John G. Miller",
     "categories": [
@@ -1640,6 +1845,7 @@
     "language": "en"
   },
   {
+    "code": "206",
     "title": "Quan He Quyet Dinh Thanh Bai",
     "author": "Le Duyen Hai",
     "categories": [
@@ -1648,6 +1854,7 @@
     "language": "vi"
   },
   {
+    "code": "207",
     "title": "Quan Ly Nghiep",
     "author": "unknown",
     "categories": [
@@ -1656,6 +1863,7 @@
     "language": "vi"
   },
   {
+    "code": "208",
     "title": "Quiet",
     "author": "Susan Cain",
     "categories": [
@@ -1664,6 +1872,7 @@
     "language": "en"
   },
   {
+    "code": "209",
     "title": "Quyen Luc Dich Thuc (True Power)",
     "author": "Thich Nhat Hanh",
     "categories": [
@@ -1672,6 +1881,7 @@
     "language": "vi"
   },
   {
+    "code": "210",
     "title": "Quyen Nang Lam Giau",
     "author": "Napoleon Hill",
     "categories": [
@@ -1680,6 +1890,7 @@
     "language": "vi"
   },
   {
+    "code": "211",
     "title": "Quyet Doan Trong Tu Duy Logic - 1 Phut",
     "author": "unknown",
     "categories": [
@@ -1688,6 +1899,7 @@
     "language": "vi"
   },
   {
+    "code": "212",
     "title": "Reframing Organizations (5th ed.)",
     "author": "Lee G. Bolman & Terrence E. Deal",
     "categories": [
@@ -1696,6 +1908,7 @@
     "language": "en"
   },
   {
+    "code": "213",
     "title": "Renovate Before You Innovate / Cau Tien Truoc Phat Kien Sau",
     "author": "Sergio Zyman",
     "categories": [
@@ -1704,6 +1917,7 @@
     "language": "vi"
   },
   {
+    "code": "214",
     "title": "Renton's Understanding the Stock Exchange",
     "author": "N.E. Renton AM",
     "categories": [
@@ -1712,6 +1926,7 @@
     "language": "en"
   },
   {
+    "code": "215",
     "title": "Rich Dad's Conspiracy of the Rich",
     "author": "Robert Kiyosaki",
     "categories": [
@@ -1720,6 +1935,7 @@
     "language": "en"
   },
   {
+    "code": "216",
     "title": "Rich Dad's Guide to Becoming Rich Without Cutting Up Your Credit Cards",
     "author": "Robert T. Kiyosaki",
     "categories": [
@@ -1728,6 +1944,7 @@
     "language": "en"
   },
   {
+    "code": "217",
     "title": "Rich Habits Poor Habits (Su Khac Biet Giua Nguoi Giau Va Nguoi Ngheo, VN ed.)",
     "author": "Tom Corley & Michael Yardney",
     "categories": [
@@ -1736,6 +1953,7 @@
     "language": "vi"
   },
   {
+    "code": "218",
     "title": "RISE",
     "author": "Mark Bouris",
     "categories": [
@@ -1744,6 +1962,7 @@
     "language": "en"
   },
   {
+    "code": "219",
     "title": "Rockefeller Gui Con Trai (38 La Thu)",
     "author": "John D. Rockefeller (letters)",
     "categories": [
@@ -1752,6 +1971,7 @@
     "language": "vi"
   },
   {
+    "code": "220",
     "title": "Same As Ever",
     "author": "Morgan Housel",
     "categories": [
@@ -1760,6 +1980,7 @@
     "language": "en"
   },
   {
+    "code": "221",
     "title": "Screw It, Let's Do It",
     "author": "Richard Branson",
     "categories": [
@@ -1768,6 +1989,7 @@
     "language": "en"
   },
   {
+    "code": "222",
     "title": "Secrets of the Millionaire Mind",
     "author": "T. Harv Eker",
     "categories": [
@@ -1776,6 +1998,7 @@
     "language": "en"
   },
   {
+    "code": "223",
     "title": "Security Analysis (6th ed.)",
     "author": "Benjamin Graham & David Dodd",
     "categories": [
@@ -1784,6 +2007,7 @@
     "language": "en"
   },
   {
+    "code": "224",
     "title": "Show Your Work!",
     "author": "Austin Kleon",
     "categories": [
@@ -1792,6 +2016,7 @@
     "language": "en"
   },
   {
+    "code": "225",
     "title": "Sieu Co (How to Be a Power Connector, VN ed.)",
     "author": "Judy Robinett",
     "categories": [
@@ -1800,6 +2025,7 @@
     "language": "vi"
   },
   {
+    "code": "226",
     "title": "Silence",
     "author": "Thich Nhat Hanh",
     "categories": [
@@ -1808,6 +2034,7 @@
     "language": "en"
   },
   {
+    "code": "227",
     "title": "Small Business Planning",
     "author": "unknown",
     "categories": [
@@ -1816,6 +2043,7 @@
     "language": "en"
   },
   {
+    "code": "228",
     "title": "Small Giants",
     "author": "Bo Burlingham",
     "categories": [
@@ -1824,6 +2052,7 @@
     "language": "en"
   },
   {
+    "code": "229",
     "title": "So Good They Can't Ignore You",
     "author": "Cal Newport",
     "categories": [
@@ -1832,6 +2061,7 @@
     "language": "en"
   },
   {
+    "code": "230",
     "title": "Song Doi Hanh Phuc",
     "author": "Dale Carnegie",
     "categories": [
@@ -1840,6 +2070,7 @@
     "language": "vi"
   },
   {
+    "code": "231",
     "title": "Start With Why",
     "author": "Simon Sinek",
     "categories": [
@@ -1848,6 +2079,7 @@
     "language": "en"
   },
   {
+    "code": "232",
     "title": "Start Your Own Corporation",
     "author": "Garrett Sutton, Esq.",
     "categories": [
@@ -1856,6 +2088,7 @@
     "language": "en"
   },
   {
+    "code": "233",
     "title": "Steal the Show",
     "author": "Michael Port",
     "categories": [
@@ -1864,6 +2097,7 @@
     "language": "en"
   },
   {
+    "code": "234",
     "title": "Stillness Speaks",
     "author": "Eckhart Tolle",
     "categories": [
@@ -1872,6 +2106,7 @@
     "language": "en"
   },
   {
+    "code": "235",
     "title": "Straight from the CEO",
     "author": "unknown (compilation)",
     "categories": [
@@ -1880,6 +2115,7 @@
     "language": "en"
   },
   {
+    "code": "236",
     "title": "Strategy Rules (Quy Luat Cua Chien Luoc, VN ed.)",
     "author": "David B. Yoffie & Michael A. Cusumano",
     "categories": [
@@ -1888,6 +2124,7 @@
     "language": "vi"
   },
   {
+    "code": "237",
     "title": "Su Ky Tu Ma Thien (Records of the Grand Historian)",
     "author": "Sima Qian",
     "categories": [
@@ -1896,6 +2133,7 @@
     "language": "vi"
   },
   {
+    "code": "238",
     "title": "Su Pham Khai Phong",
     "author": "unknown",
     "categories": [
@@ -1904,6 +2142,7 @@
     "language": "vi"
   },
   {
+    "code": "239",
     "title": "Suc Manh Cua Tu Duy Phan Bien",
     "author": "Patrick King",
     "categories": [
@@ -1912,6 +2151,7 @@
     "language": "vi"
   },
   {
+    "code": "240",
     "title": "Tai Chinh Ca Nhan (101 Loi Khuyen)",
     "author": "Thai Pham",
     "categories": [
@@ -1920,6 +2160,7 @@
     "language": "vi"
   },
   {
+    "code": "241",
     "title": "Tam",
     "author": "Inamori Kazuo",
     "categories": [
@@ -1928,6 +2169,7 @@
     "language": "vi"
   },
   {
+    "code": "242",
     "title": "Tam Ly Hoc Dam Phan",
     "author": "Doan Huc Thang",
     "categories": [
@@ -1936,6 +2178,7 @@
     "language": "vi"
   },
   {
+    "code": "243",
     "title": "Thai Do 101: Nhung Dieu Nha Lanh Dao Can Biet",
     "author": "John C. Maxwell",
     "categories": [
@@ -1944,6 +2187,7 @@
     "language": "vi"
   },
   {
+    "code": "244",
     "title": "Thanh Cong 101: Nhung Dieu Nha Lanh Dao Can Biet",
     "author": "John C. Maxwell",
     "categories": [
@@ -1952,6 +2196,7 @@
     "language": "vi"
   },
   {
+    "code": "245",
     "title": "The (Honest) Truth About Dishonesty",
     "author": "Dan Ariely",
     "categories": [
@@ -1960,6 +2205,7 @@
     "language": "en"
   },
   {
+    "code": "246",
     "title": "The 16% Solution",
     "author": "Joel Moskowitz",
     "categories": [
@@ -1968,6 +2214,7 @@
     "language": "en"
   },
   {
+    "code": "247",
     "title": "The 4-Hour Body",
     "author": "Timothy Ferriss",
     "categories": [
@@ -1976,6 +2223,7 @@
     "language": "en"
   },
   {
+    "code": "248",
     "title": "The 4-Hour Chef",
     "author": "Timothy Ferriss",
     "categories": [
@@ -1984,6 +2232,7 @@
     "language": "en"
   },
   {
+    "code": "249",
     "title": "The 7 Habits of Highly Effective People",
     "author": "Stephen R. Covey",
     "categories": [
@@ -1992,6 +2241,7 @@
     "language": "en"
   },
   {
+    "code": "250",
     "title": "The 80/20 Principle (Nguyen Ly 80/20, VN ed.)",
     "author": "Richard Koch",
     "categories": [
@@ -2000,6 +2250,7 @@
     "language": "vi"
   },
   {
+    "code": "251",
     "title": "The Alchemist",
     "author": "Paulo Coelho",
     "categories": [
@@ -2008,6 +2259,7 @@
     "language": "en"
   },
   {
+    "code": "252",
     "title": "The Analects",
     "author": "Confucius",
     "categories": [
@@ -2016,6 +2268,7 @@
     "language": "en"
   },
   {
+    "code": "253",
     "title": "The Art of Living",
     "author": "Thich Nhat Hanh",
     "categories": [
@@ -2024,6 +2277,7 @@
     "language": "en"
   },
   {
+    "code": "254",
     "title": "The Art of Public Speaking",
     "author": "Dale Carnegie",
     "categories": [
@@ -2032,6 +2286,7 @@
     "language": "en"
   },
   {
+    "code": "255",
     "title": "The Art of the Deal",
     "author": "Donald J. Trump with Tony Schwartz",
     "categories": [
@@ -2040,6 +2295,7 @@
     "language": "en"
   },
   {
+    "code": "256",
     "title": "The Art of War",
     "author": "Sun Tzu",
     "categories": [
@@ -2048,6 +2304,7 @@
     "language": "en"
   },
   {
+    "code": "257",
     "title": "The Australian Wine Companion (2011 ed.)",
     "author": "James Halliday",
     "categories": [
@@ -2056,6 +2313,7 @@
     "language": "en"
   },
   {
+    "code": "258",
     "title": "The Barefoot Investor",
     "author": "Scott Pape",
     "categories": [
@@ -2064,6 +2322,7 @@
     "language": "en"
   },
   {
+    "code": "259",
     "title": "The Biggest Bluff",
     "author": "Maria Konnikova",
     "categories": [
@@ -2072,6 +2331,7 @@
     "language": "en"
   },
   {
+    "code": "260",
     "title": "The Bitcoin Standard",
     "author": "Saifedean Ammous",
     "categories": [
@@ -2080,6 +2340,7 @@
     "language": "en"
   },
   {
+    "code": "261",
     "title": "The Blooming of a Lotus",
     "author": "Thich Nhat Hanh",
     "categories": [
@@ -2088,6 +2349,7 @@
     "language": "en"
   },
   {
+    "code": "262",
     "title": "The Book of Beautiful Questions",
     "author": "Warren Berger",
     "categories": [
@@ -2096,6 +2358,7 @@
     "language": "en"
   },
   {
+    "code": "263",
     "title": "The Business School for People Who Like Helping People",
     "author": "Robert T. Kiyosaki with Sharon L. Lechter, CPA",
     "categories": [
@@ -2104,6 +2367,7 @@
     "language": "en"
   },
   {
+    "code": "264",
     "title": "The Changing World Order",
     "author": "Ray Dalio",
     "categories": [
@@ -2112,6 +2376,7 @@
     "language": "en"
   },
   {
+    "code": "265",
     "title": "The Charisma Effect (Giai Ma Suc Hut Ca Nhan)",
     "author": "unknown",
     "categories": [
@@ -2120,6 +2385,7 @@
     "language": "vi"
   },
   {
+    "code": "266",
     "title": "The Choice Factory",
     "author": "Richard Shotton",
     "categories": [
@@ -2128,6 +2394,7 @@
     "language": "en"
   },
   {
+    "code": "267",
     "title": "The Circle of Profit",
     "author": "Heidi Farrelly",
     "categories": [
@@ -2136,6 +2403,7 @@
     "language": "en"
   },
   {
+    "code": "268",
     "title": "The Companion (verify title)",
     "author": "unknown",
     "categories": [
@@ -2144,6 +2412,7 @@
     "language": "en"
   },
   {
+    "code": "269",
     "title": "The Complete TurtleTrader",
     "author": "Michael W. Covel",
     "categories": [
@@ -2152,6 +2421,7 @@
     "language": "en"
   },
   {
+    "code": "270",
     "title": "The Compound Effect",
     "author": "Darren Hardy",
     "categories": [
@@ -2160,6 +2430,7 @@
     "language": "en"
   },
   {
+    "code": "271",
     "title": "The Cryptopians",
     "author": "Laura Shin",
     "categories": [
@@ -2168,6 +2439,7 @@
     "language": "en"
   },
   {
+    "code": "272",
     "title": "The Dhandho Investor",
     "author": "Mohnish Pabrai",
     "categories": [
@@ -2176,6 +2448,7 @@
     "language": "en"
   },
   {
+    "code": "273",
     "title": "The E-Myth Enterprise",
     "author": "Michael E. Gerber",
     "categories": [
@@ -2184,6 +2457,7 @@
     "language": "en"
   },
   {
+    "code": "274",
     "title": "The E-Myth Manager",
     "author": "Michael E. Gerber",
     "categories": [
@@ -2192,6 +2466,7 @@
     "language": "en"
   },
   {
+    "code": "275",
     "title": "The E-Myth Mastery",
     "author": "Michael E. Gerber",
     "categories": [
@@ -2200,6 +2475,7 @@
     "language": "en"
   },
   {
+    "code": "276",
     "title": "The E-Myth Revisited",
     "author": "Michael E. Gerber",
     "categories": [
@@ -2208,6 +2484,7 @@
     "language": "en"
   },
   {
+    "code": "277",
     "title": "The Education of a Value Investor",
     "author": "Guy Spier",
     "categories": [
@@ -2216,6 +2493,7 @@
     "language": "en"
   },
   {
+    "code": "278",
     "title": "The Greatness Guide",
     "author": "Robin Sharma",
     "categories": [
@@ -2224,6 +2502,7 @@
     "language": "en"
   },
   {
+    "code": "279",
     "title": "The Hard Thing About Hard Things",
     "author": "Ben Horowitz",
     "categories": [
@@ -2232,6 +2511,7 @@
     "language": "en"
   },
   {
+    "code": "280",
     "title": "The Infinite Game",
     "author": "Simon Sinek",
     "categories": [
@@ -2240,6 +2520,7 @@
     "language": "en"
   },
   {
+    "code": "281",
     "title": "The Intelligent Investor",
     "author": "Benjamin Graham",
     "categories": [
@@ -2248,6 +2529,7 @@
     "language": "en"
   },
   {
+    "code": "282",
     "title": "The Journey Within (verify title)",
     "author": "unknown",
     "categories": [
@@ -2256,6 +2538,7 @@
     "language": "en"
   },
   {
+    "code": "283",
     "title": "The Latte Factor",
     "author": "David Bach & John David Mann",
     "categories": [
@@ -2264,6 +2547,7 @@
     "language": "en"
   },
   {
+    "code": "284",
     "title": "The Leader Who Had No Title",
     "author": "Robin Sharma",
     "categories": [
@@ -2272,6 +2556,7 @@
     "language": "en"
   },
   {
+    "code": "285",
     "title": "The Lean Startup",
     "author": "Eric Ries",
     "categories": [
@@ -2280,6 +2565,7 @@
     "language": "en"
   },
   {
+    "code": "286",
     "title": "The Lion, the Witch and the Wardrobe (Full-Color Collector's ed.)",
     "author": "C.S. Lewis",
     "categories": [
@@ -2288,6 +2574,7 @@
     "language": "en"
   },
   {
+    "code": "287",
     "title": "The Little Book of Christian Louboutin",
     "author": "Karen Homer",
     "categories": [
@@ -2296,6 +2583,7 @@
     "language": "en"
   },
   {
+    "code": "288",
     "title": "The Little Book of Common Sense Investing",
     "author": "John C. Bogle",
     "categories": [
@@ -2304,6 +2592,7 @@
     "language": "en"
   },
   {
+    "code": "289",
     "title": "The Little Book of Hermes",
     "author": "Karen Homer",
     "categories": [
@@ -2312,6 +2601,7 @@
     "language": "en"
   },
   {
+    "code": "290",
     "title": "The Little Book of Schiaparelli",
     "author": "Emma Baxter-Wright",
     "categories": [
@@ -2320,6 +2610,7 @@
     "language": "en"
   },
   {
+    "code": "291",
     "title": "The Little Book of Yves Saint Laurent",
     "author": "Emma Baxter-Wright",
     "categories": [
@@ -2328,6 +2619,7 @@
     "language": "en"
   },
   {
+    "code": "292",
     "title": "The McKinsey Engagement",
     "author": "Paul N. Friga",
     "categories": [
@@ -2336,6 +2628,7 @@
     "language": "en"
   },
   {
+    "code": "293",
     "title": "The McKinsey Mind",
     "author": "Ethan Rasiel & Paul N. Friga",
     "categories": [
@@ -2344,6 +2637,7 @@
     "language": "en"
   },
   {
+    "code": "294",
     "title": "The McKinsey Way",
     "author": "Ethan M. Rasiel",
     "categories": [
@@ -2352,6 +2646,7 @@
     "language": "en"
   },
   {
+    "code": "295",
     "title": "The Millionaire Loan Officer",
     "author": "Scott Hudspeth",
     "categories": [
@@ -2360,6 +2655,7 @@
     "language": "en"
   },
   {
+    "code": "296",
     "title": "The Millionaire Next Door",
     "author": "Thomas J. Stanley (Mastering the Rockefeller Habits ed. shelved together)",
     "categories": [
@@ -2368,6 +2664,7 @@
     "language": "en"
   },
   {
+    "code": "297",
     "title": "The Miracle of Mindfulness",
     "author": "Thich Nhat Hanh",
     "categories": [
@@ -2376,6 +2673,7 @@
     "language": "en"
   },
   {
+    "code": "298",
     "title": "The Money Advisor's Solution (verify title)",
     "author": "unknown",
     "categories": [
@@ -2384,6 +2682,7 @@
     "language": "en"
   },
   {
+    "code": "299",
     "title": "The Mortgage Broker: Insider Tips, Tactics, and Ten-X Success",
     "author": "Adam J. Petriella",
     "categories": [
@@ -2392,6 +2691,7 @@
     "language": "en"
   },
   {
+    "code": "300",
     "title": "The Most Important Thing",
     "author": "Howard Marks",
     "categories": [
@@ -2400,6 +2700,7 @@
     "language": "vi"
   },
   {
+    "code": "301",
     "title": "The Nao De Duoc Khach Hang Ghi Nhan",
     "author": "unknown",
     "categories": [
@@ -2408,6 +2709,7 @@
     "language": "vi"
   },
   {
+    "code": "302",
     "title": "The New Economics",
     "author": "Steve Keen",
     "categories": [
@@ -2416,6 +2718,7 @@
     "language": "en"
   },
   {
+    "code": "303",
     "title": "The New One Minute Manager",
     "author": "Ken Blanchard & Spencer Johnson",
     "categories": [
@@ -2424,6 +2727,7 @@
     "language": "en"
   },
   {
+    "code": "304",
     "title": "The Obstacle Is the Way",
     "author": "Ryan Holiday",
     "categories": [
@@ -2432,6 +2736,7 @@
     "language": "en"
   },
   {
+    "code": "305",
     "title": "The One Minute Manager Builds High Performing Teams",
     "author": "Ken Blanchard, Eunice Parisi-Carew & Donald Carew",
     "categories": [
@@ -2440,6 +2745,7 @@
     "language": "en"
   },
   {
+    "code": "306",
     "title": "The One Thing",
     "author": "Gary Keller with Jay Papasan",
     "categories": [
@@ -2448,6 +2754,7 @@
     "language": "en"
   },
   {
+    "code": "307",
     "title": "The Only Cryptocurrency Investing Book You'll Ever Need",
     "author": "unknown",
     "categories": [
@@ -2456,6 +2763,7 @@
     "language": "en"
   },
   {
+    "code": "308",
     "title": "The Only Investment Guide You'll Ever Need",
     "author": "Andrew Tobias",
     "categories": [
@@ -2464,6 +2772,7 @@
     "language": "en"
   },
   {
+    "code": "309",
     "title": "The Power of Your Subconscious Mind",
     "author": "Dr. Joseph Murphy",
     "categories": [
@@ -2472,6 +2781,7 @@
     "language": "en"
   },
   {
+    "code": "310",
     "title": "The Practice Acceleration Method",
     "author": "Tristan Bond",
     "categories": [
@@ -2480,6 +2790,7 @@
     "language": "en"
   },
   {
+    "code": "311",
     "title": "The QBQ! Workbook",
     "author": "John G. Miller",
     "categories": [
@@ -2488,6 +2799,7 @@
     "language": "en"
   },
   {
+    "code": "312",
     "title": "The Science of Money",
     "author": "Brian Tracy",
     "categories": [
@@ -2496,6 +2808,7 @@
     "language": "en"
   },
   {
+    "code": "313",
     "title": "The Snowball: Warren Buffett and the Business of Life",
     "author": "Alice Schroeder",
     "categories": [
@@ -2504,6 +2817,7 @@
     "language": "en"
   },
   {
+    "code": "314",
     "title": "The Total Money Makeover Workbook",
     "author": "Dave Ramsey",
     "categories": [
@@ -2512,6 +2826,7 @@
     "language": "en"
   },
   {
+    "code": "315",
     "title": "The Trusted Advisor",
     "author": "David H. Maister, Charles H. Green & Robert M. Galford",
     "categories": [
@@ -2520,6 +2835,7 @@
     "language": "en"
   },
   {
+    "code": "316",
     "title": "The Upside of Irrationality",
     "author": "Dan Ariely",
     "categories": [
@@ -2528,6 +2844,7 @@
     "language": "en"
   },
   {
+    "code": "317",
     "title": "The Virgin Way",
     "author": "Richard Branson",
     "categories": [
@@ -2536,6 +2853,7 @@
     "language": "en"
   },
   {
+    "code": "318",
     "title": "The Warren Buffett Way",
     "author": "Robert G. Hagstrom",
     "categories": [
@@ -2544,6 +2862,7 @@
     "language": "en"
   },
   {
+    "code": "319",
     "title": "The Way Out Is In",
     "author": "Thich Nhat Hanh",
     "categories": [
@@ -2552,6 +2871,7 @@
     "language": "en"
   },
   {
+    "code": "320",
     "title": "The Way to the Top: The Best Business Advice I Ever Received",
     "author": "Donald J. Trump (compiler)",
     "categories": [
@@ -2560,6 +2880,7 @@
     "language": "en"
   },
   {
+    "code": "321",
     "title": "The Wyckoff Methodology in Depth",
     "author": "Rubén Villahermosa Chaves",
     "categories": [
@@ -2568,6 +2889,7 @@
     "language": "en"
   },
   {
+    "code": "322",
     "title": "Thiet Ke Cuoc Doi Thinh Vuong",
     "author": "Thai Pham",
     "categories": [
@@ -2576,6 +2898,7 @@
     "language": "vi"
   },
   {
+    "code": "323",
     "title": "Think & Trade Like a Champion",
     "author": "Mark Minervini",
     "categories": [
@@ -2584,6 +2907,7 @@
     "language": "en"
   },
   {
+    "code": "324",
     "title": "Think Again",
     "author": "Adam Grant",
     "categories": [
@@ -2592,6 +2916,7 @@
     "language": "en"
   },
   {
+    "code": "325",
     "title": "Think and Grow Rich",
     "author": "Napoleon Hill",
     "categories": [
@@ -2600,6 +2925,7 @@
     "language": "en"
   },
   {
+    "code": "326",
     "title": "Thinking, Fast and Slow",
     "author": "Daniel Kahneman",
     "categories": [
@@ -2608,6 +2934,7 @@
     "language": "en"
   },
   {
+    "code": "327",
     "title": "Thuat Hung Bien",
     "author": "Dale Carnegie",
     "categories": [
@@ -2616,6 +2943,7 @@
     "language": "vi"
   },
   {
+    "code": "328",
     "title": "Thuat Lanh Dao Tu Vi Tu Si Ban Chiec Ferrari (Leadership Lessons from the Monk Who Sold His Ferrari)",
     "author": "Robin Sharma",
     "categories": [
@@ -2624,6 +2952,7 @@
     "language": "vi"
   },
   {
+    "code": "329",
     "title": "Tim Hieu Tu Ngu Truyen Kieu",
     "author": "unknown (Truyen Kieu companion)",
     "categories": [
@@ -2632,6 +2961,7 @@
     "language": "vi"
   },
   {
+    "code": "330",
     "title": "Tiny Habits",
     "author": "BJ Fogg, PhD",
     "categories": [
@@ -2640,6 +2970,7 @@
     "language": "en"
   },
   {
+    "code": "331",
     "title": "Tools of Titans",
     "author": "Timothy Ferriss",
     "categories": [
@@ -2648,6 +2979,7 @@
     "language": "en"
   },
   {
+    "code": "332",
     "title": "Traction",
     "author": "Gino Wickman",
     "categories": [
@@ -2656,6 +2988,7 @@
     "language": "en"
   },
   {
+    "code": "333",
     "title": "Traffic Secrets",
     "author": "Russell Brunson",
     "categories": [
@@ -2664,6 +2997,7 @@
     "language": "en"
   },
   {
+    "code": "334",
     "title": "Trang Tu - Nam Hoa Kinh",
     "author": "Zhuangzi, trans. Nguyen Hien Le",
     "categories": [
@@ -2672,6 +3006,7 @@
     "language": "vi"
   },
   {
+    "code": "335",
     "title": "Trang Tu Tam Dac",
     "author": "Yu Dan",
     "categories": [
@@ -2680,6 +3015,7 @@
     "language": "vi"
   },
   {
+    "code": "336",
     "title": "Trend Following (Happy Live ed.)",
     "author": "Michael W. Covel",
     "categories": [
@@ -2688,6 +3024,7 @@
     "language": "en"
   },
   {
+    "code": "337",
     "title": "Trend Following Mindset",
     "author": "Michael W. Covel",
     "categories": [
@@ -2696,6 +3033,7 @@
     "language": "en"
   },
   {
+    "code": "338",
     "title": "Tribe of Mentors",
     "author": "Timothy Ferriss",
     "categories": [
@@ -2704,6 +3042,7 @@
     "language": "en"
   },
   {
+    "code": "339",
     "title": "Trillion Dollar Coach",
     "author": "Eric Schmidt, Jonathan Rosenberg & Alan Eagle",
     "categories": [
@@ -2712,6 +3051,7 @@
     "language": "en"
   },
   {
+    "code": "340",
     "title": "Trump 101",
     "author": "Donald J. Trump with John David Mann",
     "categories": [
@@ -2720,6 +3060,7 @@
     "language": "en"
   },
   {
+    "code": "341",
     "title": "Trump: Think Big",
     "author": "Donald J. Trump & Bill Zanker",
     "categories": [
@@ -2728,6 +3069,7 @@
     "language": "en"
   },
   {
+    "code": "342",
     "title": "Trump: Think Like a Billionaire",
     "author": "Donald J. Trump with Meredith McIver",
     "categories": [
@@ -2736,6 +3078,7 @@
     "language": "en"
   },
   {
+    "code": "343",
     "title": "Tu Dien Tu Han-Viet (Han-Viet Dictionary)",
     "author": "Le Huu Thao & Tran Van Nam",
     "categories": [
@@ -2744,6 +3087,7 @@
     "language": "vi"
   },
   {
+    "code": "344",
     "title": "Tu Hoan (?)",
     "author": "Truong Quoc Hao",
     "categories": [
@@ -2752,6 +3096,7 @@
     "language": "vi"
   },
   {
+    "code": "345",
     "title": "Tu Thu Lanh Dao: Thuat Dung Ngon",
     "author": "Hoa Nhan",
     "categories": [
@@ -2760,6 +3105,7 @@
     "language": "vi"
   },
   {
+    "code": "346",
     "title": "Tu Thu Lanh Dao: Thuat Lanh Dao",
     "author": "Hoa Nhan",
     "categories": [
@@ -2768,6 +3114,7 @@
     "language": "vi"
   },
   {
+    "code": "347",
     "title": "Tu Thu Lanh Dao: Thuat Quan Tri",
     "author": "Hoa Nhan",
     "categories": [
@@ -2776,6 +3123,7 @@
     "language": "vi"
   },
   {
+    "code": "348",
     "title": "Tu Thu Lanh Dao: Thuat Xu The",
     "author": "Hoa Nhan",
     "categories": [
@@ -2784,6 +3132,7 @@
     "language": "vi"
   },
   {
+    "code": "349",
     "title": "Tu Thu: Dai Hoc, Trung Dung, Luan Ngu, Manh Tu",
     "author": "Confucian classics",
     "categories": [
@@ -2792,6 +3141,7 @@
     "language": "vi"
   },
   {
+    "code": "350",
     "title": "Twelve and a Half",
     "author": "Gary Vaynerchuk",
     "categories": [
@@ -2800,6 +3150,7 @@
     "language": "en"
   },
   {
+    "code": "351",
     "title": "Understanding Estate Planning",
     "author": "N.E. Renton AM",
     "categories": [
@@ -2808,6 +3159,7 @@
     "language": "en"
   },
   {
+    "code": "352",
     "title": "Unlimited Sales Success",
     "author": "Brian Tracy & Michael Tracy",
     "categories": [
@@ -2816,6 +3168,7 @@
     "language": "en"
   },
   {
+    "code": "353",
     "title": "Unlock the Secrets",
     "author": "Russell Brunson",
     "categories": [
@@ -2824,6 +3177,7 @@
     "language": "en"
   },
   {
+    "code": "354",
     "title": "Unshakeable",
     "author": "Tony Robbins",
     "categories": [
@@ -2832,6 +3186,7 @@
     "language": "en"
   },
   {
+    "code": "355",
     "title": "Virtual Society",
     "author": "Herman Narula",
     "categories": [
@@ -2840,6 +3195,7 @@
     "language": "en"
   },
   {
+    "code": "356",
     "title": "Warren Buffett on Business",
     "author": "Warren Buffett / ed. compilation",
     "categories": [
@@ -2848,6 +3204,7 @@
     "language": "en"
   },
   {
+    "code": "357",
     "title": "Way of the Trader",
     "author": "Ian Murphy",
     "categories": [
@@ -2856,6 +3213,7 @@
     "language": "en"
   },
   {
+    "code": "358",
     "title": "Way of the Wolf",
     "author": "Jordan Belfort",
     "categories": [
@@ -2864,6 +3222,7 @@
     "language": "en"
   },
   {
+    "code": "359",
     "title": "What Every BODY Is Saying",
     "author": "Joe Navarro",
     "categories": [
@@ -2872,6 +3231,7 @@
     "language": "en"
   },
   {
+    "code": "360",
     "title": "What It Takes",
     "author": "Mark Bouris",
     "categories": [
@@ -2880,6 +3240,7 @@
     "language": "en"
   },
   {
+    "code": "361",
     "title": "What You Do Is Who You Are",
     "author": "Ben Horowitz",
     "categories": [
@@ -2888,6 +3249,7 @@
     "language": "en"
   },
   {
+    "code": "362",
     "title": "Who Moved My Cheese?",
     "author": "Spencer Johnson",
     "categories": [
@@ -2896,6 +3258,7 @@
     "language": "en"
   },
   {
+    "code": "363",
     "title": "Who Will Cry When You Die",
     "author": "Robin Sharma",
     "categories": [
@@ -2904,6 +3267,7 @@
     "language": "en"
   },
   {
+    "code": "364",
     "title": "Who's Got Your Back",
     "author": "Keith Ferrazzi",
     "categories": [
@@ -2912,6 +3276,7 @@
     "language": "en"
   },
   {
+    "code": "365",
     "title": "Windows on the World Complete Wine Course",
     "author": "Kevin Zraly",
     "categories": [
@@ -2920,6 +3285,7 @@
     "language": "en"
   },
   {
+    "code": "366",
     "title": "Wine Folly: Magnum Edition",
     "author": "Madeline Puckette & Justin Hammack",
     "categories": [
@@ -2928,6 +3294,7 @@
     "language": "en"
   },
   {
+    "code": "367",
     "title": "Wyckoff 2.0",
     "author": "Rubén Villahermosa Chaves",
     "categories": [
@@ -2936,6 +3303,7 @@
     "language": "en"
   },
   {
+    "code": "368",
     "title": "You Are Here",
     "author": "Thich Nhat Hanh",
     "categories": [
@@ -2944,6 +3312,7 @@
     "language": "en"
   },
   {
+    "code": "369",
     "title": "You Can Be a Stock Market Genius",
     "author": "Joel Greenblatt",
     "categories": [
@@ -2952,6 +3321,7 @@
     "language": "en"
   },
   {
+    "code": "370",
     "title": "You Can Negotiate Anything",
     "author": "Herb Cohen",
     "categories": [
@@ -2960,6 +3330,7 @@
     "language": "en"
   },
   {
+    "code": "371",
     "title": "You're About to Make a Terrible Mistake!",
     "author": "Olivier Sibony",
     "categories": [
@@ -2968,6 +3339,7 @@
     "language": "en"
   },
   {
+    "code": "372",
     "title": "You're Not Listening",
     "author": "Kate Murphy",
     "categories": [
@@ -2976,6 +3348,7 @@
     "language": "en"
   },
   {
+    "code": "373",
     "title": "YouTube Secrets",
     "author": "Sean Cannell & Benji Travis",
     "categories": [
@@ -2984,6 +3357,7 @@
     "language": "en"
   },
   {
+    "code": "374",
     "title": "Zen Golf",
     "author": "Dr. Joseph Parent",
     "categories": [
@@ -2992,6 +3366,7 @@
     "language": "en"
   },
   {
+    "code": "375",
     "title": "Zen Mind, Beginner's Mind",
     "author": "Shunryu Suzuki",
     "categories": [
@@ -3000,10 +3375,22 @@
     "language": "en"
   },
   {
+    "code": "376",
     "title": "Zero to One",
     "author": "Peter Thiel",
     "categories": [
       "business-strategy"
+    ],
+    "language": "en"
+  }
+,
+  {
+    "code": "377",
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "categories": [
+      "personal-growth",
+      "business"
     ],
     "language": "en"
   }

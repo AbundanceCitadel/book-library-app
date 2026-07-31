@@ -52,6 +52,17 @@ export type ReadStatus = "unread" | "reading" | "read";
 
 export type Book = {
   id: string;
+  // v4 (Stage 17): permanent, unique 3-digit identifier (e.g. "001", "377") —
+  // see docs/SCHEMA.md "Book code" and DECISIONS.md for the full system.
+  // Required, not optional: every one of the 377 catalog/book entries as of
+  // this addition already has one (a one-time migration script assigned
+  // 001-376 from `content/catalog.json`'s existing stable row order, plus
+  // 377 for `atomic-habits`, the one written book that predated the catalog
+  // and had no matching row), so making this required going forward is a
+  // deliberate enforcement choice, not an oversight — a future book entry
+  // missing this field should fail type-checking, not render with a blank
+  // number.
+  code: string;
   title: string;
   author: string;
   categories: string[];
@@ -122,6 +133,10 @@ export function getAllBooks(): Book[] {
 // so far. Cross-referenced against getAllBooks() by title match at read
 // time (not a stored flag) so it never goes stale as new entries are added.
 export type CatalogEntry = {
+  // v4 (Stage 17): same permanent code system as `Book.code` above — every
+  // catalog row (001-377) already has one after the migration, so this is
+  // required rather than optional. See docs/SCHEMA.md "Book code."
+  code: string;
   title: string;
   author: string;
   categories: string[];

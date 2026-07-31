@@ -1,31 +1,40 @@
 import Link from "next/link";
 import type { Book } from "@/lib/books";
 
-// v4 (Stage 17, density redesign): replaces the v3 cover-forward tile
-// entirely. Thai's brief: no cover image/icon, no per-card gap — a plain
-// rectangular row with exactly three lines (title, author, a short
-// description) so a shelf of dozens of books reads as one dense, scannable
-// list instead of a grid of boxes with air between them ("sell more space").
-// See docs/DESIGN_SYSTEM.md v4 "Density over imagery." Rendered as a single
-// row here; the bordered/divided list container that gives rows their
-// orange-outlined "box" look lives one level up in `BookList` so many rows
-// share one border instead of each row drawing its own.
-function firstLine(text: string, maxLen = 140): string {
+// v5 (Stage 18): each book is now its own separate box (own border, gap to
+// its neighbor) rather than one row inside a shared-border list — Thai's
+// explicit ask: "each one is a separate box," "box in box." Two rows inside
+// the box: row 1 is the code + title + author together, row 2 is a short
+// (2-3 sentence) description — replaces v4's three-stacked-lines layout.
+// See docs/DESIGN_SYSTEM.md v5 and app/components/BookList.tsx (the grid
+// wrapper that gives each card its gap).
+function firstSentences(text: string, maxSentences = 3, maxLen = 280): string {
   const clean = text.replace(/\s+/g, " ").trim();
-  if (clean.length <= maxLen) return clean;
-  return `${clean.slice(0, maxLen).replace(/\s+\S*$/, "")}…`;
+  const sentences = clean.match(/[^.!?]+[.!?]+(\s|$)/g) ?? [clean];
+  let out = sentences.slice(0, maxSentences).join("").trim();
+  if (out.length > maxLen) {
+    out = `${out.slice(0, maxLen).replace(/\s+\S*$/, "")}…`;
+  } else if (sentences.length > maxSentences) {
+    out = `${out}…`.replace(/\.…$/, "…");
+  }
+  return out;
 }
 
 export default function BookCard({ book }: { book: Book }) {
   return (
     <Link
       href={`/book/${book.id}`}
-      className="book-row motion-premium tap-target block px-4 py-3"
+      className="book-row motion-premium tap-target block rounded-xl border-2 border-orange-600/70 bg-surface p-4"
     >
-      <div className="font-medium leading-snug">{book.title}</div>
-      <div className="mt-0.5 text-sm text-muted">{book.author}</div>
-      <div className="mt-1 line-clamp-1 text-sm text-muted">
-        {firstLine(book.summary)}
+      <div className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
+        <span className="shrink-0 font-mono text-xs text-orange-400">
+          {book.code}
+        </span>
+        <span className="font-medium leading-snug">{book.title}</span>
+        <span className="text-sm text-muted">— {book.author}</span>
+      </div>
+      <div className="mt-1.5 text-sm text-muted">
+        {firstSentences(book.summary)}
       </div>
     </Link>
   );

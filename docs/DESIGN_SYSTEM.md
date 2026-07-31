@@ -1,3 +1,72 @@
+# Design System v5 — Box-in-Box Layout & Book Codes (Stage 18)
+
+Supersedes v4's density layout on two specific points below — everything else in
+v4 (color palette, navigation fix, search, wishlist scaffold) is unchanged. Thai's
+follow-up feedback after seeing v4 live: he liked it, but wanted the category
+shelf and book listings to each read as a set of separate, self-contained boxes
+("box in box") rather than one continuous shared-border list — a partial reversal
+of v4's "no gaps, sell more space" framing, now that he'd actually seen it
+rendered. Also introduces a permanent per-book numbering system.
+
+## 1. Category shelf: 2-column grid of separate boxes
+
+v4 rendered the 16 category shelves as one continuous list sharing a single
+border (`divide-y` rows inside one `border-2 border-orange-600` container).
+Thai's follow-up: each section needs its own separate box ("I don't want just a
+box... each of the sections to have its own box type"), and the single-column
+layout was too wide/thin for how little content each row actually has (icon +
+label + count) — split into two columns so each box is shorter and more compact.
+Implemented as a plain `grid grid-cols-2 gap-3` of individual `rounded-xl
+border-2 border-orange-600/70` boxes in `app/page.tsx` (no shared container
+border anymore) — two columns at every breakpoint, not just above a `sm:`
+breakpoint, since the content per box is short enough that two columns work even
+on a narrow phone width.
+
+## 2. BookCard: separate boxes again, two-row content
+
+Also reversed from v4: `BookList` no longer draws one shared border around a
+`divide-y` list of rows — each `BookCard` is its own box (own `border-2
+border-orange-600/70`, own `rounded-xl`), stacked with a `gap-3` between them
+(`app/components/BookList.tsx` is now just a plain flex column). Content inside
+each box is two rows, not three: row 1 is the book's code + title + author
+together (wrapped, so it reads as one line on wide screens and wraps gracefully
+on narrow ones); row 2 is a short description — now the first 2-3 sentences of
+`book.summary` (`firstSentences()` in `BookCard.tsx`, replacing v4's single-line,
+140-character `firstLine()` truncation) since Thai asked for "two sentences or
+three sentences of description," not one truncated line.
+
+## 3. Book code — a permanent, unique 001-999 identifier
+
+Thai's ask: every book gets its own number, "treated like a number, but also
+treated like a code... a unique number, and it is a code as well," 3 digits,
+001-999, with the first 376 (the existing bookcase catalog) getting the first
+block of codes and anything added later continuing the sequence. Full field spec,
+migration method, and the going-forward rule for future sessions are in
+`docs/SCHEMA.md` "Book code" (not duplicated here) — summary: `code` is now a
+required field on both `Book` and `CatalogEntry` (`lib/books.ts`), a one-time
+script assigned `001`-`376` to `content/catalog.json`'s existing row order and
+`377` to `atomic-habits` (the one written book with no matching catalog row,
+appended as a new 377th entry), and every one of the other 65 written books had
+its `code` copied from its real catalog match — resolved by hand-verified title
+matching, not blind fuzzy matching, since several titles needed disambiguation
+(e.g. `"Mindset"` vs. the unrelated catalog title `"Trend Following Mindset"`).
+Displayed as a small `font-mono text-orange-400` prefix everywhere a book
+appears: `BookCard`, the unwritten-catalog lists (category and wishlist pages),
+search results, and the book detail page header (`"No. 377"`).
+
+**Migration diff hygiene:** the codes were inserted via targeted regex text
+surgery (one line inserted per file/entry), not a full JSON parse-and-re-serialize
+— an earlier attempt using `json.dump()` correctly added the codes but also
+silently reformatted every touched file's existing compact arrays/objects into
+Python's multi-line style, producing 50-200+ line diffs per file for what should
+have been a 1-line change. Caught before committing (`git diff --stat` showed
+implausibly large diffs for a "just add one field" change) and redone surgically
+— every one of the 66 book files now shows exactly `+1` line, `content/catalog.json`
+shows only additions (one line per existing entry, plus the appended new entry),
+zero reformatting noise. See `DECISIONS.md` for the full story.
+
+---
+
 # Design System v4 — Density, Navigation & Color Overhaul (Stage 17)
 
 Supersedes v3 below on every point this session touched — v3's cover-forward,

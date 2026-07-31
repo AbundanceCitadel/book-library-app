@@ -303,9 +303,57 @@ present; the live `/wishlist` page confirmed the empty-state copy renders.
 `library.abundancecitadel.app` resolved cleanly this time (no repeat of the
 intermittent DNS/cert timeout noted in Sessions 10/16/21).
 
+### Stage 18 — Box-in-Box Layout + Permanent Book Codes
+
+**Status:** Done (build-verified) — 2026-07-31, same day as Stage 17. Thai's
+follow-up after seeing Stage 17 live: he liked it, wanted the category shelf and
+book listings to each read as separate boxes rather than one continuous list
+("box in box"), the category shelf split into 2 columns since 16 short rows in
+one column left too much empty width, and — a new ask — a permanent 001-999
+numbering system for every book. Full rationale in `docs/DESIGN_SYSTEM.md`
+"Design System v5" and `DECISIONS.md` #200+.
+
+- **Category shelf** (`app/page.tsx`): from one shared-border `divide-y` list to
+  a `grid grid-cols-2` of individually-boxed, compact category tiles.
+- **BookCard/BookList**: from one shared-border list back to individually-boxed
+  cards with a gap between them. Content reduced from 3 stacked lines to 2:
+  row 1 is code + title + author together, row 2 is a 2-3 sentence description
+  (up from a single 140-character truncated line).
+- **Book code system**: every book (`content/books/*.json`) and catalog row
+  (`content/catalog.json`) now has a permanent, unique 3-digit `code`
+  (`"001"`-`"377"` today, ceiling `"999"`). Migration: `content/catalog.json`'s
+  376 existing rows got `001`-`376` in their existing stable order; `atomic-habits`
+  (the one written book with no catalog match — it predates the catalog) was
+  appended as row 377 and got code `377`; the other 65 written books had their
+  `code` copied from their real catalog match, resolved via hand-verified title
+  matching (not blind fuzzy matching) to correctly handle ambiguous cases like
+  `"Mindset"` vs. the unrelated catalog title `"Trend Following Mindset"`. `code`
+  is now a required field on both `Book` and `CatalogEntry` (`lib/books.ts`) —
+  enforced by the type system, not just convention. Displayed everywhere a book
+  appears: `BookCard`, unwritten-catalog lists, search results, and the book
+  detail page (`"No. 377"`).
+- **Migration hygiene:** the first attempt at adding `code` used a full JSON
+  parse-and-`json.dump()` re-serialize, which correctly added the field but also
+  silently reformatted every touched file's compact arrays/objects into a
+  different multi-line style — a 50-200+ line diff per file for what should've
+  been a 1-line change. Caught via an implausibly large `git diff --stat` before
+  committing anything, redone as targeted regex text-surgery instead (insert one
+  line, touch nothing else). Final diff: every book file `+1` line,
+  `content/catalog.json` additions-only.
+
+**Verified:** fresh `/tmp`-clone + rsync (same reconciliation method as Stage 17,
+excluding the same 4 in-progress parallel-retrofit files), `npm install` clean,
+`npm run build` clean (88 static pages, zero TypeScript errors — confirming the
+new required `code` field is satisfied on every one of the 377 entries), `npm run
+start` + `curl` spot checks confirmed `grid-cols-2` and per-box orange borders on
+the home page, per-book orange borders and 3-digit codes rendering on a category
+page, and `"No. 377"` rendering correctly on the Atomic Habits detail page.
+
 ---
 
 ## Session Log
+
+**2026-07-31 — same session, continued (Stage 18, box-in-box + book codes):** Thai reviewed the live Stage 17 changes ("This is good. I like it.") and asked for two more visual changes plus a new numbering system: separate boxes for each category (2-column grid, since 16 short rows in one wide column left empty space) and for each book (2 rows: code+title+author, then a 2-3 sentence description), and a permanent 001-999 code per book. Implemented all three — see Stage 18 above for the itemized list and `docs/DESIGN_SYSTEM.md` "Design System v5" for full rationale. The book-code migration required real care: 42 of 66 written books' titles didn't exact-match their `content/catalog.json` row (subtitles, punctuation, a Vietnamese-titled duplicate, one book — Atomic Habits — with no catalog row at all since it predates the catalog) — resolved via hand-verified matching, not blind fuzzy matching, with every ambiguous case checked individually before writing anything (`DECISIONS.md` #200-201). Also caught and fixed a self-inflicted diff-hygiene issue: the first migration attempt reformatted every touched JSON file's structure while adding the field, caught via an implausibly large `git diff --stat` before committing, redone as minimal single-line text insertions (`DECISIONS.md` #202). Verified via the same fresh-clone-plus-rsync build workflow as Stage 17 (`npm run build` clean, 88 pages, zero TypeScript errors). See the chat response for push/deploy status.
 
 **2026-07-31 — same session, continued (push + deploy Stage 17 live):** Thai reviewed the Stage 17 summary and asked directly to push and deploy everything. Reconciled the synced folder's unreliable git index by cloning `origin/main` fresh into `/tmp` and rsyncing the real working tree on top (excluding the 4 in-progress parallel-retrofit content files, per established precedent) rather than trusting `git status` in place — see `DECISIONS.md` #196 for the full diagnosis and process, and the Stage 17 entry above for the outcome. Got a classic GitHub PAT from Thai (used inline on the push only), committed as `be422bf`, pushed clean. Vercel auto-deployed (`dpl_Gz9P8653p4nkHNwDjPbpsJmRdvV1`, READY ~40s). Verified live against both the `.vercel.app` alias and the `library.abundancecitadel.app` custom domain (which resolved cleanly this time) — confirmed via direct fetch + grep (not just deployment status) that the old accordion and cover images are genuinely gone in production and the new search/wishlist/color/density changes are all present.
 

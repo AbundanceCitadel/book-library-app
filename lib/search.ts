@@ -11,6 +11,7 @@ import { getAllBooks, getLibraryCatalog, isOwned, CATEGORY_LABELS } from "./book
 // clear it's not a full summary yet. See docs/DESIGN_SYSTEM.md v4 "Search."
 export type SearchEntry = {
   key: string;
+  code: string;
   title: string;
   author: string;
   href: string;
@@ -35,6 +36,7 @@ export function getSearchIndex(): SearchEntry[] {
 
   const fromBooks: SearchEntry[] = books.map((b) => ({
     key: `book:${b.id}`,
+    code: b.code,
     title: b.title,
     author: b.author,
     href: `/book/${b.id}`,
@@ -47,6 +49,7 @@ export function getSearchIndex(): SearchEntry[] {
     .filter((c) => !writtenTitles.has(normalize(c.title)))
     .map((c) => ({
       key: `catalog:${c.title}`,
+      code: c.code,
       title: c.title,
       author: c.author,
       href: categoryHref(c.categories),

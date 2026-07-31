@@ -43,6 +43,14 @@ Thai actually owns.
 Fill in the fields that don't require synthesis first — they're fast and catch
 categorization questions early:
 
+- `code` — **New in v4/v5 (Stage 17/18), see `docs/SCHEMA.md` "Book code" for the
+  full system.** If the book already has a `content/catalog.json` row, copy that
+  row's `code` value exactly — never invent a new one for a book already in the
+  catalog. If it's genuinely not in the catalog yet (a new acquisition, not one of
+  the original 376/377), add a new row to the end of `content/catalog.json` first
+  and assign it `code = (current highest code across the whole catalog) + 1`,
+  zero-padded to 3 digits — then use that same code here. Codes are permanent once
+  assigned; never reuse or reassign one.
 - `title`, `author` (comma-separated if multiple)
 - `categories` — 1 or more from the fixed 12-category list in `docs/SCHEMA.md`.
   Multi-category is normal and encouraged (e.g. a business biography is both

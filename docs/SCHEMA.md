@@ -26,6 +26,7 @@ new-book batch prompts is tracked in `ROADMAP.md` Stage 15.
 | Field | Type | Required | Notes |
 |---|---|---|---|
 | `id` | string | yes | kebab-case slug, matches filename |
+| `code` | string | yes | **New in v4 (Stage 17/18).** Permanent, unique 3-digit zero-padded identifier ("001"–"999"). See "Book code" below. |
 | `title` | string | yes | |
 | `author` | string | yes | Single string; multiple authors comma-separated |
 | `categories` | string[] | yes | 1+ values from the fixed category list below |
@@ -51,6 +52,47 @@ new-book batch prompts is tracked in `ROADMAP.md` Stage 15.
 | `dateAdded` | string (ISO date) | yes | When the entry was created |
 | `sourceNotes` | string | no | Internal note on synthesis process / sources consulted (not shown in UI) — copyright compliance trail |
 | `owned` | boolean | no, default `true` | **New in v4 (Stage 17).** `true`/absent = a book on Thai's actual shelves, part of the 376-title owned library and its 16 category shelves. `false` = a wishlist entry — a book Thai wants but doesn't own — excluded from every category-shelf count/listing and surfaced only on the dedicated `/wishlist` page. See "Wishlist / owned" below. |
+
+### Book code — new in v4/v5 (Stage 17/18)
+
+Every book — both a written `content/books/*.json` entry and a `content/catalog.json`
+row — has a permanent, unique 3-digit code (`"001"` through `"999"`, zero-padded).
+Thai's own framing: "a unique number, and it is a code as well" — it's shown in the
+UI as the book's number (BookCard, search results, the book detail page, unwritten-
+catalog lists), and it's also a stable internal identifier that never changes once
+assigned, separate from `id` (which is a URL slug, not a number).
+
+**How the first 377 got assigned:** a one-time migration script (this session) gave
+codes `001`–`376` to `content/catalog.json`'s 376 rows in their existing order (the
+same stable order established by the Session 6 cataloging/dedup pass — never
+resorted since). One written book, `atomic-habits`, had no matching catalog row at
+all (it was the Stage 1 reference/pilot book, written before the 376-title bookcase
+catalog existed) — appended as a new 377th catalog row and given code `377` rather
+than left uncoded. The other 65 written books' titles include subtitles the shorter
+catalog titles don't (e.g. written `"Traction: Get a Grip on Your Business"` vs.
+catalog `"Traction"`) — each was matched to its real catalog row by hand-verified
+title matching (not blind fuzzy matching — every match was checked to rule out
+false positives like `"Mindset"` vs. the unrelated catalog title `"Trend Following
+Mindset"`), then that row's code was copied into the book file. Full list of the
+matching logic and manual overrides in `DECISIONS.md`.
+
+**Going forward — the rule every future session must follow:**
+- **Never resort or reorder `content/catalog.json`'s existing rows.** Codes are
+  derived from row identity at the time they were assigned, not recomputed from
+  position — but since codes are now a stored field (not implicitly derived from
+  array position), reordering the file is safe in principle; the real rule is
+  simply **never change an already-assigned `code` value** once it exists, for any
+  entry, ever. It is that book's permanent number.
+- **Adding a new catalog entry** (a book Thai acquires that isn't already in the
+  376/377): append it to the end of `content/catalog.json` and assign it
+  `code = (current highest code) + 1`, zero-padded to 3 digits.
+- **Writing a full `content/books/*.json` entry for a book already in the
+  catalog:** copy that book's existing catalog `code` into the new file's `code`
+  field — do not invent a new one.
+- **Soft ceiling: 999.** Thai's own stated scope — "up to 999... we will end
+  there." Not enforced by validation today (376/377 of 999 used, no near-term
+  risk), but flagged here as the intended boundary if the library ever
+  approaches it.
 
 ### Wishlist / owned — new in v4 (Stage 17)
 
