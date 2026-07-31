@@ -130,6 +130,61 @@
     { "text": "I don't look to jump over 7-foot bars: I look around for 1-foot bars that I can step over.", "attribution": "Warren Buffett, as recounted in Buffett: The Making of an American Capitalist", "category": "Wall Street & the Market Crowd" },
     { "text": "It's better to hang out with people better than you. Pick out associates whose behavior is better than yours and you'll drift in that direction.", "attribution": "Warren Buffett, as recounted in Buffett: The Making of an American Capitalist", "category": "Wall Street & the Market Crowd" }
   ],
+  "conceptsFrameworks": [
+    {
+      "name": "Margin of Safety",
+      "definition": "Graham's principle, absorbed by Buffett at Columbia, of buying a security only when its price sits meaningfully below a conservative estimate of its underlying worth. The gap between price and estimated value acts as a buffer against being wrong about the estimate itself, bad luck, or unforeseen business trouble — protection built into the purchase decision rather than added afterward.",
+      "sourceSection": "Learning from Graham"
+    },
+    {
+      "name": "Mr. Market",
+      "definition": "Graham's allegory, carried through Buffett's whole career, of the stock market as a moody business partner who shows up daily offering to buy or sell at wildly different prices depending on his emotional state. The discipline it teaches is to use Mr. Market's quoted price as an opportunity when it's absurd, and to ignore it entirely otherwise, rather than treating his mood swings as information about what a business is actually worth.",
+      "sourceSection": "Learning from Graham"
+    },
+    {
+      "name": "Cigar Butt Investing",
+      "definition": "Graham's original method of buying statistically cheap, often mediocre businesses — frequently trading below their net liquid assets — purely for the one remaining 'puff' of value in the bargain, regardless of the business's underlying quality. The book presents this as Buffett's starting discipline and later as the very approach he outgrew once operating at larger scale."
+    },
+    {
+      "name": "Economic Moat",
+      "definition": "The structural advantage — a strong brand, a durable cost position, network effects, or similar — that lets a business defend its profits and pricing power from competitors over long stretches of time. Popularized in the book through Charlie Munger's influence and the See's Candies acquisition, it became Buffett's replacement criterion for Graham's cheapness-above-all standard: a moat is what makes a business worth paying a fair, rather than a bargain-basement, price for.",
+      "sourceSection": "From Cigar Butts to Wonderful Businesses"
+    },
+    {
+      "name": "Circle of Competence",
+      "definition": "Buffett's discipline of investing only in businesses simple and familiar enough that he can genuinely assess their economics, and explicitly avoiding everything outside that boundary regardless of how promising it looks. The book frames the size of the circle as far less important than knowing, honestly, where its edges are."
+    },
+    {
+      "name": "Insurance Float",
+      "definition": "The pool of cash an insurer holds between collecting premiums and eventually paying out claims, which — if the underlying insurance business is run conservatively — functions as a large, low-cost, and effectively permanent source of investable capital. The book documents float, generated primarily through GEICO and other insurance holdings, as the quiet financial engine that funded Berkshire's expansion into See's Candies, The Washington Post, and Coca-Cola.",
+      "sourceSection": "Building Berkshire Hathaway"
+    }
+  ],
+  "applyThis": {
+    "actionSteps": [
+      "Before your next individual stock purchase, write down your own conservative estimate of the business's intrinsic worth in one sentence with a number attached, and only buy if the current price sits at least 25-30% below it — a literal margin-of-safety calculation, not a gut-feel 'it seems cheap.'",
+      "Write out your own circle of competence as a short, honest list of industries or business models you actually understand well enough to judge the numbers behind them, and treat anything outside that list as off-limits for stock-picking for the next 12 months, no exceptions for hot tips.",
+      "Pick one company you already own or admire and do a one-paragraph moat audit: name the specific mechanism (brand loyalty, cost structure, switching costs, network effects) that would stop a well-funded competitor from taking its customers, and be honest if you can't identify one.",
+      "For two weeks, keep a short log every time a price swing in something you own changes how you feel about the underlying business versus just your mood — separating a genuine change in facts from a Mr. Market-style emotional reaction.",
+      "Write a one-sentence rule, before you're ever in a pressured situation, for how you'll choose between a financial cost and a reputational one in your own work or business — the exercise Buffett had already done, out loud, before the Salomon crisis forced the question."
+    ],
+    "reflectionQuestions": [
+      "Where in your financial life are you closer to Wall Street's trading floor than to Buffett's Omaha — surrounded by other people's opinions and short-term noise? What would it actually take to create more genuine distance from that?",
+      "Have you ever sold an investment, or abandoned a plan, out of impatience the way young Buffett sold his Cities Service stock too soon — not because you were wrong, but because you couldn't sit still? What did that cost you?",
+      "Is there an investment or opportunity you've dismissed as boring or unglamorous that might actually have a real moat you're underweighting because it doesn't look exciting?",
+      "If a reputational cost and a financial one collided in your own work this year, which would genuinely win — and have you ever said that priority out loud to the people who depend on you, or only assumed it about yourself?"
+    ]
+  },
+  "criticalTake": {
+    "points": [
+      "This is an unauthorized biography — Buffett did not sit for interviews with Lowenstein or formally cooperate, though he also didn't discourage family, friends, and colleagues from speaking with him. That means the book's central psychological claims about Buffett's inner discipline and motivations are Lowenstein's interpretation, built from secondhand and around-the-subject sources, rather than Buffett's own first-person account of his own reasoning.",
+      "The book's 'temperament, not information, was the edge' thesis is built from one extraordinarily successful case. It doesn't examine the unknown number of similarly disciplined, patient, independent-minded investors who applied comparable principles without comparable results — a survivorship-bias pattern common to any single-subject success narrative.",
+      "A meaningful share of the book's most striking opportunities (statistically cheap net-net stocks, an underpriced Sanborn Map, a Buffett Partnership free to buy small obscure companies) reflect a mid-20th-century American market that was far less efficient, less computerized, and less arbitraged than markets today. The circle-of-competence and moat principles still generalize, but the specific Graham-style bargains the book documents are much harder to find in currently-priced, algorithm-saturated markets.",
+      "Published in 1995, the book necessarily stops decades before events that would have tested its own thesis further — Berkshire's own scale eventually becoming a limiting factor on returns (a problem Buffett himself has since written about), the 2008 financial crisis, and Buffett's own later, more visible bets and reputational tests are all outside its scope.",
+      "Because key sources were people close to Buffett who agreed to talk, the account may lean toward perspectives sympathetic to him on genuinely contested episodes, including the specifics of the Salomon Brothers crisis response — a limitation of access rather than of research effort, but a real one."
+    ],
+    "contextNote": "Alice Schroeder's 2008 biography The Snowball was written with Buffett's direct, extensive cooperation over several years and offers a meaningfully different-access counterpoint on the same life; reading the two together, rather than treating Lowenstein's account as the final word, surfaces where an unauthorized outside account and an authorized inside one diverge."
+  },
   "whoThisIsFor": "Investors and business readers who want the human, psychological story behind value investing's most famous practitioner, not just his stock picks.",
   "whenToReadThis": "Read alongside or after The Intelligent Investor to see Graham's framework actually applied and evolved over a real career.",
   "relatedBooks": ["the-intelligent-investor", "one-up-on-wall-street", "the-snowball", "charlie-munger-the-complete-investor"],
@@ -149,5 +204,5 @@
       "Ways and Means: Lincoln and His Cabinet and the Financing of the Civil War"
     ]
   },
-  "sourceNotes": "v2 retrofit. Whole-book and section summaries are original synthesis based on general knowledge of Lowenstein's well-documented biography and Buffett's widely-reported career, investment record, and public statements; no book text was copied or paraphrased into the summary, section, keyLessons, or authorBio fields. Quotes expanded from 3 to 27, all verified real Buffett quotes, grouped into 5 categories (Investing Philosophy: Price, Value & Quality; Risk, Money Discipline & Reputation; Temperament, Patience & Independent Thinking; Wealth, Simplicity & Character; Wall Street & the Market Crowd). Quotes were cross-checked against Goodreads' Warren Buffett quotes page (goodreads.com/author/quotes/756.Warren_Buffett) and BrainyQuote's Warren Buffett page (brainyquote.com/authors/warren-buffett-quotes); the cigar-butt and circle-of-competence quotes were additionally verified against Buffett's own Berkshire Hathaway shareholder letters (1989 and 1996, berkshirehathaway.com/letters). Author bio for Roger Lowenstein drawn from Wikipedia, Goodreads' author page, Publishers Weekly's author page, and Penguin Random House's book pages, cross-checked for his Wall Street Journal background and full bibliography including his 2022 book Ways and Means."
+  "sourceNotes": "v2 retrofit. Whole-book and section summaries are original synthesis based on general knowledge of Lowenstein's well-documented biography and Buffett's widely-reported career, investment record, and public statements; no book text was copied or paraphrased into the summary, section, keyLessons, or authorBio fields. Quotes expanded from 3 to 27, all verified real Buffett quotes, grouped into 5 categories (Investing Philosophy: Price, Value & Quality; Risk, Money Discipline & Reputation; Temperament, Patience & Independent Thinking; Wealth, Simplicity & Character; Wall Street & the Market Crowd). Quotes were cross-checked against Goodreads' Warren Buffett quotes page (goodreads.com/author/quotes/756.Warren_Buffett) and BrainyQuote's Warren Buffett page (brainyquote.com/authors/warren-buffett-quotes); the cigar-butt and circle-of-competence quotes were additionally verified against Buffett's own Berkshire Hathaway shareholder letters (1989 and 1996, berkshirehathaway.com/letters). Author bio for Roger Lowenstein drawn from Wikipedia, Goodreads' author page, Publishers Weekly's author page, and Penguin Random House's book pages, cross-checked for his Wall Street Journal background and full bibliography including his 2022 book Ways and Means. v2.1 retrofit (8-Tab Content Structure Rollout): conceptsFrameworks, applyThis, and criticalTake added as original synthesis from general knowledge of the book's documented investing concepts and Buffett's own career, matching the DECISIONS.md precedent of keeping authorBio about Lowenstein while these three fields cover Buffett's investing content as the book documents it; no book text reproduced. The unauthorized-biography/lack-of-Buffett-cooperation claim and the contrast with Alice Schroeder's authorized The Snowball (2008) were verified via web search (Amazon/Barnes & Noble/publisher listing summaries for the book) rather than assumed from memory; all other criticalTake points (survivorship bias, era-specific market conditions, post-1995 scope limitations, sourcing skew toward sympathetic contacts) are this session's own analysis of well-documented, uncontested facts about the book's publication date and method, not independently fact-checked against a single additional citation."
 }

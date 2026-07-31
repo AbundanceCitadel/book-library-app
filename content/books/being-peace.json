@@ -136,6 +136,56 @@
       "Call Me By My True Names: The Collected Poems of Thich Nhat Hanh"
     ]
   },
+  "conceptsFrameworks": [
+    {
+      "name": "Interbeing",
+      "definition": "Nhat Hanh's term for the idea that nothing exists as a separate, independent self — everything is made up of, and inseparable from, everything else that made it possible. He introduces it through the sheet-of-paper meditation: look closely enough at a piece of paper and you find the cloud, the rain, the sunshine, and the logger who felled the tree already present inside it. The concept underlies nearly every other practice in the book, since seeing your own well-being as bound up with everyone else's is what makes sustained compassion possible rather than compassion that burns out.",
+      "sourceSection": "The Sun My Heart"
+    },
+    {
+      "name": "Engaged Buddhism",
+      "definition": "Nhat Hanh's term, coined and popularized partly through this book, for a practice that refuses to separate meditation from direct action on real-world suffering — poverty, war, injustice. Rather than treating contemplative practice as a retreat from the world, engaged Buddhism holds that sitting with your own breath and working for social change are two expressions of the same practice, and that action taken without inner mindfulness just adds more reactivity to the world.",
+      "sourceSection": "Working for Peace"
+    },
+    {
+      "name": "Mindful Breathing Gathas",
+      "definition": "Short phrases meant to be silently repeated in rhythm with an in-breath and out-breath — most famously 'Breathing in, I calm body and mind. Breathing out, I smile. Dwelling in the present moment, I know this is the only moment.' These gathas function as portable anchors for attention, usable in any ordinary minute, and are the book's most concrete answer to what someone should actually do moment-to-moment once they've absorbed the idea of interbeing.",
+      "sourceSection": "Every Breath, Every Step"
+    },
+    {
+      "name": "The Half-Smile",
+      "definition": "A deliberate, physical half-smile held even during a genuinely difficult moment, treated by Nhat Hanh as a real intervention rather than a request to fake positivity. He argues the small physical act can interrupt a spiral of anger or despair before it fully takes hold, paired with steadying phrases ('fresh like a flower,' 'solid like a mountain') that work the same way as the breathing gathas.",
+      "sourceSection": "Flower Fresh, Mountain Solid"
+    },
+    {
+      "name": "Walking Meditation",
+      "definition": "The practice of walking slowly enough to feel each footstep as a distinct, complete event, rather than as an unnoticed means of getting from one place to the next. Nhat Hanh treats it as the physical companion to conscious breathing — evidence that ordinary movement, not just formal sitting meditation, can be a full expression of present-moment awareness.",
+      "sourceSection": "Every Breath, Every Step"
+    }
+  ],
+  "applyThis": {
+    "actionSteps": [
+      "Pick one repeated daily transition — starting the car, sitting down at your desk, boiling water for tea — and attach Nhat Hanh's breathing gatha to it: 'Breathing in, I calm body and mind. Breathing out, I smile.' Say it silently for three full breaths before doing anything else.",
+      "Practice walking meditation for a short, deliberately chosen stretch (front door to the mailbox, one hallway at work) at half your normal pace, feeling the sole of each foot make contact with the ground rather than thinking ahead to your destination.",
+      "The next time you feel anger rising in a low-stakes situation, try Nhat Hanh's approach directly: instead of suppressing it or venting it, silently name it ('I am angry, and I am aware that I am angry') and sit with that awareness for at least one minute before responding.",
+      "Try the half-smile experiment: at a moment you already know will be mildly stressful this week (a difficult email, a meeting you're dreading), deliberately hold a slight physical smile through it and notice afterward whether it changed anything about how the moment felt from the inside.",
+      "Do the sheet-of-paper exercise on a single ordinary object you own — trace out loud or in writing everything and everyone that had to exist for that object to be in your hands right now, and notice how far the chain extends before you run out of patience to keep tracing it."
+    ],
+    "reflectionQuestions": [
+      "Nhat Hanh distinguishes reacting to a difficult situation from responding to it. Think of a recent conflict — was your reaction closer to reacting or responding, and what would it have taken to shift it?",
+      "The book argues personal peace and social or political action aren't separable — that burned-out activism just adds more reactivity to a cause. Is there a commitment in your own life (work, activism, caregiving) where your inner state might be undermining the very thing you're trying to accomplish?",
+      "Nhat Hanh asks readers to imagine the conditions that produced someone capable of real harm, without excusing the harm itself. Is there a person or group you find it hard to extend that kind of understanding to, and what specifically makes it hard?"
+    ]
+  },
+  "criticalTake": {
+    "points": [
+      "The book states physiological and psychological effects of its practices as settled fact rather than as claims requiring evidence (e.g., 'a smile can relax hundreds of muscles in your face, and relax your nervous system'). Contemporary mindfulness research does show real, moderate benefits for stress and anxiety across many studies, but the field has also faced a documented replication crisis since the mid-2010s — some widely-cited findings, including claims about structural brain changes from mindfulness training, have failed to replicate in more rigorous follow-up studies. None of this means the practices don't help many people, but the book's confident, mechanistic framing outruns what the clinical evidence actually establishes.",
+      "Being Peace isn't a manuscript Nhat Hanh sat down and wrote start to finish — it's a compilation, edited by Arnold Kotler, of talks Nhat Hanh gave during a fall-1985 U.S. tour. That's not a flaw, but it means the book's structure and exact phrasing reflect an editor's choices about what to include and how to sequence it, not necessarily how Nhat Hanh himself would have organized a purpose-written book — worth knowing before treating any specific passage as a precisely deliberate authorial choice.",
+      "The book's central practices — a few conscious breaths, a half-smile, a slow walk — are presented as available to essentially anyone in any moment, but they're modeled by someone with decades of monastic training who was demonstrating them from a position of real structural stability (community support, a defined practice, eventually a stable monastery). For someone in acute crisis, unsafe conditions, or without any support structure, these tools may be a genuine starting point but are a much thinner intervention than the book's confident tone can suggest; it's not positioned as a replacement for therapy, medical care, or material safety, even though it doesn't say so explicitly.",
+      "The book's approach to conflict — describing each side's suffering to the other, understanding the conditions that produce a perpetrator like the pirate in 'Please Call Me by My True Names' — asks readers to treat moral clarity and compassionate understanding as compatible, but doesn't fully grapple with cases where real asymmetries of power or culpability make a 'both sides' framing feel evasive rather than reconciling. Nhat Hanh's own wartime refusal to take a side drew real suspicion and hostility from both the communist and anti-communist camps in Vietnam for exactly this reason — a useful reminder that this stance, while sincere, isn't automatically received as peacemaking by people living through the conflict itself."
+    ],
+    "contextNote": "Since the book's 1987 publication, mindfulness has moved from a niche contemplative practice into mainstream medicine, corporate wellness programs, and app-based products — a level of secular, clinical adoption the book didn't anticipate, and one that has also subjected its core practices to the kind of empirical scrutiny (and mixed replication results) that a spiritual teaching text was never originally trying to satisfy."
+  },
   "whoThisIsFor": "Readers new to mindfulness or engaged Buddhism who want a short, foundational introduction to peace practice grounded in real social action.",
   "whenToReadThis": "Read when anger, activism fatigue, or disconnection between your inner state and your work for a cause feels unsustainable.",
   "relatedBooks": ["peace-is-every-step", "the-miracle-of-mindfulness", "how-to-love"],
@@ -143,5 +193,5 @@
   "personalRating": null,
   "personalNotes": "",
   "dateAdded": "2026-07-24",
-  "sourceNotes": "v2 retrofit. Whole-book and section summaries are original synthesis based on general knowledge of Nhat Hanh's well-documented teachings in Being Peace (interbeing, the sheet-of-paper meditation, engaged Buddhism, mindful breathing/walking/smiling practices, the \"Please Call Me by My True Names\" poem); no book text was copied or paraphrased into the summary or lesson fields. The 28 quotes were cross-checked against bookquoters.com's 25+-quote page for this specific book, corroborated against a Medium excerpt post citing page numbers, a direct Parallax Press-authorized reprint of the \"Working for Peace\" chapter and the full \"Please Call Me By My True Names\" poem hosted at ecomall.com, and a Spirituality & Practice book excerpt of the breathing/smiling passage; quotes that sources attributed to other Nhat Hanh books instead (e.g. the dishwashing passage from The Miracle of Mindfulness, the anger-as-garden-compost story from Peace Is Every Step) were excluded even though they use similar language and imagery. Author bio drawn from Plum Village's official biography page (plumvillage.org) and general knowledge, cross-checked against Goodreads' author page for birth year and place."
+  "sourceNotes": "v2 retrofit. Whole-book and section summaries are original synthesis based on general knowledge of Nhat Hanh's well-documented teachings in Being Peace (interbeing, the sheet-of-paper meditation, engaged Buddhism, mindful breathing/walking/smiling practices, the \"Please Call Me by My True Names\" poem); no book text was copied or paraphrased into the summary or lesson fields. The 28 quotes were cross-checked against bookquoters.com's 25+-quote page for this specific book, corroborated against a Medium excerpt post citing page numbers, a direct Parallax Press-authorized reprint of the \"Working for Peace\" chapter and the full \"Please Call Me By My True Names\" poem hosted at ecomall.com, and a Spirituality & Practice book excerpt of the breathing/smiling passage; quotes that sources attributed to other Nhat Hanh books instead (e.g. the dishwashing passage from The Miracle of Mindfulness, the anger-as-garden-compost story from Peace Is Every Step) were excluded even though they use similar language and imagery. Author bio drawn from Plum Village's official biography page (plumvillage.org) and general knowledge, cross-checked against Goodreads' author page for birth year and place. v2.1 retrofit (8-Tab Content Structure Rollout): conceptsFrameworks, applyThis, and criticalTake added as original synthesis from general knowledge of the book's own terminology and structure — no book text reproduced. Factual claims in criticalTake were web-search-verified rather than asserted from memory: the mindfulness replication-crisis and MBSR neuroplasticity non-replication point against multiple 2020s meta-analyses/reviews; the claim that Being Peace is a Kotler-edited compilation of Nhat Hanh's fall-1985 U.S. tour talks (not a purpose-written manuscript) against Parallax Press's own product page and bookseller catalog listings; and the wartime both-sides-suspicion point against independent biographical sources, corroborating and extending what this file's existing authorBio already states."
 }

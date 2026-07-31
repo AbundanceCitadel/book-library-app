@@ -98,6 +98,53 @@
     { "text": "Nuclear weapons have killed a tiny fraction of the number of people that unethical marketing has. It's time we realized that there may be no more powerful weapon on Earth.", "attribution": "Seth Godin, All Marketers Are Liars", "category": "The Power & Responsibility of Marketing" },
     { "text": "It's the story, not the good or the service you actually sell, that pleases the consumer.", "attribution": "Seth Godin, All Marketers Are Liars", "category": "The Power & Responsibility of Marketing" }
   ],
+  "conceptsFrameworks": [
+    {
+      "name": "Worldview",
+      "definition": "The full set of rules, values, biases, and assumptions a consumer already carries into any purchase decision, formed long before a marketer's message ever reaches them. Godin argues worldview operates on three fronts at once: it decides whether a message gets attention at all, it colors every fact that does get through with pre-existing bias, and it determines which tone and words feel credible versus off-putting. Because people don't want their worldview changed, only confirmed, Godin treats finding an audience's existing worldview as the marketer's real starting point.",
+      "sourceSection": "The Worldview and the Lie"
+    },
+    {
+      "name": "The Lie",
+      "definition": "Godin's deliberately provocative term for the story a consumer chooses to believe because it fits a worldview they already hold, built from true, defensible facts rather than invented ones. He draws a hard line between this and fraud: a lie in his sense is a frame the consumer completes themselves using real raw material, while fraud is a claim that's factually false. The whole book's title trades on this narrower, specific meaning rather than the everyday sense of the word.",
+      "sourceSection": "Marketers Are Liars"
+    },
+    {
+      "name": "Frame / Framing",
+      "definition": "The act of presenting true, verifiable facts in a way that leverages a worldview the audience already has, so the story lands as an extension of what the consumer already believes rather than as a new claim to be evaluated from scratch. Godin treats framing as the actual mechanical skill of marketing — not inventing belief, but shaping existing facts so a specific audience's existing mental furniture accepts them without a fight.",
+      "sourceSection": "The Worldview and the Lie"
+    },
+    {
+      "name": "Authenticity (in Godin's narrow sense)",
+      "definition": "Not factual completeness or full disclosure, but internal consistency: every touchpoint of a product or brand — packaging, price, service, physical environment — telling the same story without contradiction. Godin argues a marketer has to actually live the story, not just tell it, because a single inconsistent detail is enough to break the frame an audience was otherwise willing to believe, and because trust (the resource authenticity is spent to earn) is the scarcest thing a marketer has left.",
+      "sourceSection": "Authenticity and Consistency"
+    }
+  ],
+  "applyThis": {
+    "actionSteps": [
+      "Before writing any new marketing copy this week, write down the specific worldview your target buyer already holds about this category (their existing beliefs about status, health, safety, or value) — then check whether your draft copy is trying to argue them out of that worldview or fit inside it.",
+      "Audit every customer-facing touchpoint of one product or offer — packaging, pricing page, onboarding email, support script — for a single week, and flag any place where the tone or claim contradicts the story you're telling everywhere else.",
+      "Take a piece of marketing you currently aim at a broad audience and rewrite it for the narrowest, most specific 'edge' clump of people whose worldview it already matches perfectly, even if that means deliberately alienating everyone else.",
+      "For one current marketing claim, run Godin's fraud-vs-lie test explicitly: is this a defensible, true fact wrapped in a favorable frame, or is it something that would be false if stated plainly? Rewrite or drop anything that fails the test.",
+      "Find one small group of existing customers who already share a worldview around your product, and create a specific reason for them to talk about it with each other (a shared space, a referral prompt, a shared ritual) rather than only receiving your message individually."
+    ],
+    "reflectionQuestions": [
+      "Think of a recent purchase you made that wasn't strictly rational — what worldview did the marketing story confirm for you, and would you have bought it if the story had contradicted that worldview instead?",
+      "Where in your own marketing are you tempted to broaden a message so it offends no one — and what specific narrow audience is that dilution actually costing you?",
+      "Honestly, where's the line in what you currently sell or promote between a flattering true story and a story that could talk someone into a decision that hurts them?",
+      "Which touchpoint of your own brand or product is least consistent with the story you tell everywhere else — and why has it been the easiest one to overlook?"
+    ]
+  },
+  "criticalTake": {
+    "points": [
+      "The book leans on a small set of recurring examples — organic food, luxury watches, vitamin supplements — to repeatedly make the case that premium products' measurable differences are 'small or unproven.' This flattens categories that are genuinely contested case-by-case (some organic agricultural claims and some vitamin/supplement claims do have real evidence behind them in specific instances) into a single, simpler 'it's all story' framing.",
+      "Godin's redefinition of 'lie' to mean any believed frame — rather than a falsehood — is deliberately provocative, but the semantic move also does real work to soften the line between benign storytelling and manipulation; a marketer could use the book's own vocabulary to describe genuinely deceptive framing as 'just telling an authentic story.'",
+      "Published in 2005, the book's frame of reference is channel-based marketing (print, broadcast, direct mail, early web) and doesn't anticipate algorithmically-targeted digital advertising, influencer marketing, or large-scale behavioral data profiling — all of which let marketers identify and target 'worldview' niches with a precision and scale the book's examples never had to reckon with.",
+      "The ethical line Godin draws — a flattering true story versus a story that leads someone toward real harm — is asserted more than it's rigorously argued. The book doesn't offer a working test for the genuinely ambiguous middle cases (wellness claims, financial products marketed on status and fear) beyond urging marketers to 'know the difference.'",
+      "The book's closing comparison — that unethical marketing has caused more harm than nuclear weapons — is presented as a rhetorical flourish rather than a claim Godin attempts to substantiate, and it sits oddly against the book's otherwise careful three-way distinction between fraud, harmful manipulation, and benign story-framing."
+    ],
+    "contextNote": "Published May 2005, several years before social media advertising, influencer marketing, and algorithmic ad targeting became dominant — the book's 'find a worldview and frame a story for it' advice reads as more manual and less precise than what today's targeting tools actually allow, which raises the stakes of the ethics chapter's warning in ways the original text couldn't have anticipated."
+  },
   "whoThisIsFor": "Marketers, founders, and brand builders who want to understand why some products win on story rather than specs.",
   "whenToReadThis": "Read it before writing brand messaging or positioning, so you frame the story around a specific audience's real worldview instead of generic claims.",
   "relatedBooks": ["building-a-story-brand", "dotcom-secrets", "expert-secrets", "traffic-secrets"],
@@ -110,5 +157,5 @@
   "personalRating": null,
   "personalNotes": "",
   "dateAdded": "2026-07-24",
-  "sourceNotes": "v2 retrofit. Whole-book and section summaries are original synthesis based on general knowledge of Godin's worldview/authenticity/narrow-audience framework as presented in All Marketers Are Liars; no book text was copied or paraphrased into the summary or lesson fields — the pre-existing whole-book summary was only reformatted into paragraphs, its wording and claims were not changed. 27 quotes were used, all cross-checked against two independent sources that reproduce verbatim excerpts with page citations from this specific book: backagainwords.com's '25 Quotes from All Marketers Are Liars' (page-cited throughout) and Steve Sohcot's Medium post 'My Favorite 5 Quotes from All Marketers Are Liars' (also page-cited); Goodreads' work-quotes page for the book (goodreads.com/work/quotes/155231) was checked as a corroborating third source. Two quotes from the original v1 entry were dropped after verification failed: 'People don't believe what you tell them...' turned out (via Goodreads' Tribes quotes page) to be from Godin's Tribes, not this book, and 'Marketing is a contest for people's attention' / 'A story is a set of internal, unstated rules...' could not be confirmed against a page-cited source specific to this book, so were excluded rather than risk misattribution. Author bio drawn from Wikipedia, Thinkers50, and Leaders.com; the notable-works list was cross-checked against Godin's Amazon author page and publisher pages for each title."
+  "sourceNotes": "v2 retrofit. Whole-book and section summaries are original synthesis based on general knowledge of Godin's worldview/authenticity/narrow-audience framework as presented in All Marketers Are Liars; no book text was copied or paraphrased into the summary or lesson fields — the pre-existing whole-book summary was only reformatted into paragraphs, its wording and claims were not changed. 27 quotes were used, all cross-checked against two independent sources that reproduce verbatim excerpts with page citations from this specific book: backagainwords.com's '25 Quotes from All Marketers Are Liars' (page-cited throughout) and Steve Sohcot's Medium post 'My Favorite 5 Quotes from All Marketers Are Liars' (also page-cited); Goodreads' work-quotes page for the book (goodreads.com/work/quotes/155231) was checked as a corroborating third source. Two quotes from the original v1 entry were dropped after verification failed: 'People don't believe what you tell them...' turned out (via Goodreads' Tribes quotes page) to be from Godin's Tribes, not this book, and 'Marketing is a contest for people's attention' / 'A story is a set of internal, unstated rules...' could not be confirmed against a page-cited source specific to this book, so were excluded rather than risk misattribution. Author bio drawn from Wikipedia, Thinkers50, and Leaders.com; the notable-works list was cross-checked against Godin's Amazon author page and publisher pages for each title. v2.1 retrofit (8-Tab Content Structure Rollout): conceptsFrameworks, applyThis, and criticalTake are original synthesis from general knowledge of this specific book's worldview/lie/frame/authenticity vocabulary — deliberately excluding any concept (e.g. 'tribes,' 'permission') that belongs to a different Godin book, consistent with the cross-contamination discipline already applied to this file's quotes. The publication date used in criticalTake.contextNote (May 2005) was verified via web search against Amazon, Internet Archive, and Open Library listings for the book; the other criticalTake points are this session's own analysis of the book's argument and examples, not independently fact-checked against a specific external source beyond that publication-date check — flagged honestly rather than overclaiming a citation-level verification pass."
 }

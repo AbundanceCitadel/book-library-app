@@ -14,6 +14,15 @@ writing volume for sections alone. Say this plainly in any session-planning
 conversation rather than quietly absorbing the new scope into the old "10–20 books
 per batch" pace from `PROJECT_BRIEF.md` §7 — that pace was calibrated to v1 depth.
 
+**v2.1 (8-Tab Content Structure Rollout):** three more synthesis passes added on top
+of v2 depth — `conceptsFrameworks` (3–6 named models per book), `applyThis`
+(3–5 distinct action steps + 2–4 reflection questions), and `criticalTake`
+(3–5 specific limitations/counterarguments, researched, not invented). Per
+`docs/CONTENT_STRUCTURE_PROPOSAL.md` §5, this is a further real per-book effort
+increase on top of what v2 already flagged — say the actual per-book pace plainly
+in any session-planning conversation rather than reusing the v2 batch-size number.
+See `ROADMAP.md` Stage 15 for the calibrated v2.1 pace once measured.
+
 ## 1. Pick the Book
 
 Thai supplies the title (and author, if there's ambiguity — e.g. multiple books with
@@ -77,7 +86,8 @@ This is the copyright policy from `PROJECT_BRIEF.md` §6 and it is not optional.
 3. **`keyLessons`** — 5–10 action-oriented bullets, whole-book level. Each one should
    be usable on its own without the rest of the entry — a takeaway Thai could apply,
    not just a restated fact.
-4. **`quotes`** — **v2: 20–30 quotes** (was 3–5), exact original wording, each with
+4. **`quotes`** (powers the **Highlights & Quotes** tab, renamed from "Quotes" in
+   v2.1) — **v2: 20–30 quotes** (was 3–5), exact original wording, each with
    `attribution` and a `category` label (see `docs/SCHEMA.md`). This is the *only*
    field allowed to use verbatim text from the book. At this volume, don't rely on
    memory alone — verify quotes against a real source (the author's own site/quote
@@ -87,6 +97,16 @@ This is the copyright policy from `PROJECT_BRIEF.md` §6 and it is not optional.
    "Identity & Self-Image," "Goals vs. Systems") — don't invent a category per quote,
    and don't pad the count with forgettable filler lines just to hit 20; a strong
    18 beats a padded 30.
+   **v2.1 curation guidance (broadened selection, no schema change):** select
+   passages worth remembering, not only famous, shareable one-liners — a dense,
+   idea-carrying passage that's genuinely useful as a reminder belongs here just as
+   much as an aphoristic pull-quote, even though it wouldn't look right on a
+   quote-of-the-day graphic. When curating, ask "is this an idea worth remembering
+   and applying" rather than only "would this look good shared out of context" —
+   both kinds of passage are welcome side by side; don't discard a real, verified,
+   idea-dense passage just because it's a paragraph rather than a line. See
+   `docs/CONTENT_STRUCTURE_PROPOSAL.md` §3.3 for the worked example (Atomic Habits)
+   distinguishing "quotable," "idea-highlight," and "both."
 5. **`whoThisIsFor`** / **`whenToReadThis`** — 1–2 lines each, practical and specific
    enough to help Thai decide whether to open the book right now.
 6. **`relatedBooks`** — array of other `id`s already in `content/books/`. Only link
@@ -100,12 +120,52 @@ This is the copyright policy from `PROJECT_BRIEF.md` §6 and it is not optional.
    (`notableWorks: []` if the author is genuinely a one-book figure — don't invent
    a bibliography to avoid an empty array). 2–4 short paragraphs, original synthesis
    like everything else except `quotes`.
-8. **`sourceNotes`** — one or two sentences, internal only (never shown in the UI):
+8. **`conceptsFrameworks`** — new in v2.1. A distinct pass from the section
+   summaries above, not a copy-paste of a sentence already in `sections[]`: pull out
+   3–6 of the book's actual named models — frameworks, laws, rules, cycles, or
+   coined terms the author gives a specific name to (e.g. "The Four Laws of Behavior
+   Change," "The Two-Minute Rule") — and give each a 2–4 sentence standalone
+   `definition` that someone could understand with zero other context. Don't invent
+   a name the author didn't use, and don't pad to 6 by promoting a minor aside to
+   "named model" status — a book with only 3 genuine standalone concepts should have
+   3, not a stretched 6. `sourceSection` is optional; include it when it's an easy,
+   accurate cross-reference to a specific `sections[]` entry.
+9. **`applyThis`** — new in v2.1, the single most effort-intensive of the three new
+   fields since it requires genuinely distinct ideas, not a rephrasing exercise.
+   Write 3–5 `actionSteps`, each tied to a **different** mechanism or lesson from
+   the book (if two action steps could be merged without losing anything, they're
+   not distinct enough — cut one) and specific enough to actually attempt this week,
+   not a restated `keyLessons` bullet in imperative voice. Then write 2–4
+   `reflectionQuestions` aimed at the reader's own life/situation — genuinely
+   open-ended prompts meant to be sat with and answered, not a rhetorical question
+   with an obvious one-word answer. Both fields draw on the same synthesis
+   discipline as everything else: your own construction from general knowledge of
+   the book's ideas, never copied from a discussion guide or study-questions page
+   found online.
+10. **`criticalTake`** — new in v2.1, and the field most likely to be under-baked if
+    rushed: write 3–5 `points` that are genuine, specific limitations, contested
+    claims, methodological weaknesses, or credible counterarguments **for this
+    particular book** — not generic hedging that could paste into any book's entry
+    unchanged ("no book has all the answers" is not a critical-take point). Where a
+    point rests on a factual claim (a study didn't replicate, a case study company
+    later failed, a research area is genuinely contested), that claim should be
+    checkable, not invented to sound sophisticated — use web search when the claim
+    isn't already solid general knowledge, the same verification discipline as
+    quotes and author bios. `contextNote` is optional — use it for a book where
+    real time has passed and something concrete is known to have changed or aged
+    (a cited statistic, a profiled company's later trajectory, updated research);
+    skip it rather than force a vague "ideas may evolve" placeholder when there's
+    nothing specific to say.
+11. **`sourceNotes`** — one or two sentences, internal only (never shown in the UI):
    what the synthesis was based on (e.g. "general knowledge of the book's
    well-documented framework"), confirmation no source text was reproduced, how many
    quotes were used, and **v2: the verification basis for the expanded quote set**
    (e.g. "quotes cross-checked against the author's own published quote archive").
-   This is the copyright compliance trail — always fill it in.
+   **v2.1:** also note the verification basis for any factual claims made in
+   `criticalTake` (e.g. "the Circuit City/Fannie Mae case-study claim verified
+   against [source]"), or say plainly if a `criticalTake` point is a well-known,
+   uncontested characterization that didn't need separate verification. This is the
+   copyright compliance trail — always fill it in.
 
 ## 5. Validate Before Committing
 
@@ -131,9 +191,24 @@ Before a book entry counts as done:
       memory alone.
 - [ ] `authorBio` present: `bio` (2–4 paragraphs) and `notableWorks` (empty array
       is fine if genuinely a one-book author — not left out entirely).
+- [ ] **v2.1:** `conceptsFrameworks` present, 3–6 entries, each with a `name` that
+      matches the author's actual coined term (not a paraphrase) and a standalone
+      2–4 sentence `definition` — spot-check that at least one entry doesn't just
+      restate a `sections[].summary` sentence verbatim.
+- [ ] **v2.1:** `applyThis` present — 3–5 `actionSteps`, each tied to a genuinely
+      different mechanism/lesson (no two steps should be interchangeable), and 2–4
+      `reflectionQuestions` that are real open-ended prompts, not disguised
+      keyLessons restatements.
+- [ ] **v2.1:** `criticalTake` present — 3–5 `points`, specific to this book (fails
+      the check if a point could be pasted unchanged into any other book's entry),
+      any factual claim within them verified and the verification basis noted in
+      `sourceNotes`. `contextNote` present only where there's something concrete to
+      say, not a placeholder.
 - [ ] No copied/lightly-reworded text anywhere outside `quotes[].text` — spot-check
       against memory of the book's actual phrasing if anything reads suspiciously
-      close to a known passage.
+      close to a known passage. **v2.1:** this check now also covers
+      `conceptsFrameworks[].definition`, `applyThis.actionSteps`,
+      `applyThis.reflectionQuestions`, and `criticalTake.points`/`contextNote`.
 - [ ] `npm run build` still produces a clean static build with the new book included
       (catches JSON syntax errors, broken category links, etc. immediately).
 
@@ -145,6 +220,12 @@ calibrated to v1 depth. At v2 depth (3-paragraph sections, 20–30 verified quot
 author bio research per book), expect meaningfully smaller batches per session for
 the same quality bar — flag the realistic batch size at the start of a v2 content
 session rather than forcing the old number.
+
+**v2.1 note:** `conceptsFrameworks`, `applyThis`, and `criticalTake` add three more
+synthesis/research passes on top of v2 depth — expect a further reduction from
+whatever the v2 batch size settled at, not a return to the v2 number. See
+`ROADMAP.md` Stage 15 for the calibrated per-book/per-batch figure once measured
+against real retrofit work, rather than estimating from the field specs alone.
 
 1. Thai (or a standing list) supplies the batch of titles.
 2. Process books one at a time through steps 2–5 above — don't parallelize synthesis

@@ -1,3 +1,220 @@
+# Design System v3 — Premium Redesign (Stage 16)
+
+Supersedes v2 below (v2's palette/typography/tokens are **kept, not replaced** —
+see "What's kept from v2, deliberately" below). Built on a new branch
+(`redesign/premium-v3`), review-only, not merged to `main` — see
+`docs/PREMIUM_REDESIGN_SESSION_PROMPT.md` for the brief this responds to. This pass
+covers visual/interaction/layout only: no schema changes, no new required data
+fields, `content/books/*.json` untouched.
+
+## Why this pass exists
+
+After Session 11's Stage 12 polish pass and the ongoing Stage 15 content retrofit,
+Thai reviewed the deployed v2 app and judged it "very basic" — functional and
+readable, but not "professional, premium, luxurious." v2 solved real problems (dense
+text blocks, light-mode-first, thin content) but didn't yet solve for *visual
+richness* or *tactility*: every surface is the same flat `--color-surface` slab, no
+shadows/elevation exist anywhere in the CSS, every book renders as a plain bordered
+rectangle with no visual distinction (no cover art, so nothing breaks up a wall of
+near-identical cards), and interactions are binary (hover = border color change,
+nothing else) rather than layered. This pass targets that gap specifically, without
+re-litigating the color/typography decisions Thai already signed off on.
+
+## Research basis — v3 additions
+
+v2's research (Kindle, Apple Books, Readwise Reader, Blinkist — see below) was about
+**reading comfort and information architecture**. It never addressed **browsing
+tactility** — how a grid of titles with no real cover art can still feel rich rather
+than like a settings list — because none of those four are cover-forward browsing
+apps in the way Audible, Spotify, or Libro.fm are. This pass adds:
+
+- **Audible / Spotify / Libro.fm — cover-forward grids as the reference for
+  "browsing," not "reading."** All three make a grid of titles feel like a shelf by
+  giving every tile a strong, consistent visual anchor (the cover) plus a small
+  vocabulary of hover/press micro-interactions (lift, scale, glow) that make static
+  tiles feel touchable. This app has no real cover art yet (`coverImage` is null on
+  every entry — see "Open question: real cover art" below) — the concrete borrow
+  is: **give every `BookCard` a deterministic, generative "cover" panel** (a
+  gradient seeded from the book's `id`, with its category emoji rendered large as a
+  central emblem) instead of a plain text row, so the grid reads as a shelf of
+  distinct spines even with zero image assets. This needed no schema change — the
+  gradient is computed client-side from the existing `id` string.
+- **Linear, Stripe, Vercel's own marketing site — general "expensive-feeling"
+  product craft**, picked as the outside-category benchmark the brief asked for.
+  The common thread across all three isn't more decoration, it's more
+  **restraint applied consistently**: one accent color used sparingly, a small
+  fixed set of type sizes, one motion curve and a short list of durations reused
+  everywhere rather than ad hoc transitions, and real elevation (shadow, not just a
+  border) used deliberately to create hierarchy between "the page" and "a thing on
+  the page." Concretely borrowed: a **shared easing curve and duration scale**
+  (`--ease-premium`, 150/250/400ms — see Motion below) applied to every hover/press/
+  expand/tab-switch interaction in the app instead of one-off `transition-colors`
+  calls, and a **real shadow/elevation system** (see Elevation below) so cards,
+  the sticky tab bar, and the header read as physically layered rather than flat
+  rectangles with borders.
+- **Kindle / Apple Books, revisited** — v2 borrowed "restrained line length, serif
+  body text, minimal chrome" from these already. This pass adds one more: Apple
+  Books' book-detail screens use a confident type-size jump between chrome (nav,
+  labels) and the actual reading surface, plus a subtle "page" elevation
+  (background shifts, faint shadow) around the reading well itself — borrowed here
+  as a slightly more pronounced heading hierarchy and a soft card elevation around
+  the Summary tab's opening paragraph, rather than every heading in the app reading
+  at nearly the same visual weight (a real, honest gap in the v2 pass — see
+  "Reading comfort: honest reassessment" below).
+
+## What's kept from v2, deliberately
+
+Per the brief's explicit instruction: the gold + slate-teal accent pair and
+Inter/Literata typefaces came out of a real feedback cycle with Thai (Sessions 8–9),
+not a first draft, and this pass's research didn't turn up a case for replacing
+either — Audible/Spotify/Libro.fm's cover-forward pattern is a **layout and
+elevation** lesson, not a color-palette one, and Linear/Stripe's lesson is about
+**restraint and consistency**, which argues for using the existing two accents more
+deliberately, not adding a third. Kept unchanged: both color scales in
+`tailwind.config.ts`, both font choices and their roles, dark-as-default behavior,
+the `.light` opt-in strategy, and the CSS-custom-property theming approach. What
+changed is what sits on top of that foundation: shadows/elevation, motion, cover
+treatment, and a few component-level interaction and layout decisions detailed
+below — evolution, not a re-skin.
+
+## Reading comfort: honest reassessment
+
+The brief asked this to be a real judgment call, not an assumed pass. Verdict: v2's
+dark palette itself (`#0b0c0e` background, warm `#f2ede4` foreground) is genuinely
+comfortable — the warm-neutral choice over pure black/white was correct and this
+pass doesn't touch it. What was landing as "just dark" rather than "comfortable" is
+**flatness and thin hierarchy**, not the color values: every heading level uses
+similar weight/size jumps, there's no visual "arrival" moment at the start of a
+book's summary (Apple Books and Kindle both give the opening of a chapter a bit more
+visual ceremony — a drop cap, extra top space, something that says "you've started
+reading" rather than the text just beginning at the same rhythm as everything
+else), and quotes — this app's actual differentiator, 20–30 curated ones per book —
+were rendered as a visually flat bulleted-blockquote list with no more ceremony than
+a plain paragraph. Fixes for these are in the component sections below (drop-cap
+lede treatment, quote cards, heading-scale rework) — kept as CSS/layout changes
+only, no content or schema impact.
+
+## Translating "premium / luxurious" into decisions
+
+- **Visual richness without real cover art:** generative gradient "cover" panel on
+  every `BookCard`, seeded from `book.id` (deterministic — same book always renders
+  the same gradient, so it's recognizable on repeat visits, not random noise on
+  every load). See `lib/covers.ts`.
+- **Interactivity:** hover lift + shadow bloom + subtle cover-gradient shift on
+  `BookCard`; a sliding gold pill under the active tab in `BookTabs` (measured via
+  ref, animated with the shared easing curve) instead of a static underline; a
+  smooth height/opacity expand-collapse on `CategoryAccordion` (see the accordion
+  judgment call below); press states (`active:scale-[0.98]`) on every tappable
+  surface so touch feels acknowledged, not just clicked.
+- **Reading comfort:** heading-scale rework (see Typography below), a drop-cap lede
+  on the whole-book summary's opening paragraph, more breathing room between major
+  page sections (`space-y` bumped at the page-layout level, not just paragraph
+  level).
+- **Quotes get special treatment:** redesigned as a two-column (desktop) / single-
+  column (mobile) card grid, each quote in its own elevated card with a large
+  decorative serif quotation glyph, category filter chips above the grid (client-
+  side filter, no new data) instead of one long scroll through every category in
+  sequence.
+- **Category browsing as discovery:** `CategoryAccordion` header redesigned with the
+  category emoji inside a soft gradient badge (echoes the new book-cover treatment,
+  ties browsing-by-category to browsing-by-book visually), animated expand instead
+  of the instant native snap, and a staggered fade-in of the revealed book cards
+  rather than everything appearing at once.
+
+## Elevation (new)
+
+No shadow existed anywhere in v2 — every surface was a flat fill plus a 1px border.
+Added a 3-step shadow scale as CSS custom properties (tuned separately per theme,
+since a shadow that reads correctly on `#0b0c0e` is far too subtle on `#faf8f4` and
+vice versa):
+
+```
+--shadow-sm   card resting state
+--shadow-md   card hover / raised state, sticky tab bar
+--shadow-lg   quote cards, the book-cover gradient panel
+```
+
+Usage rule: resting cards use `--shadow-sm` (barely-there, just enough to lift a
+card off the page); hover/press/active states step up to `--shadow-md`; the
+generative cover panels and quote cards (the two places this pass wants the most
+visual "weight") use `--shadow-lg`. Never more than one step of elevation change per
+interaction, so the effect reads as physical rather than flashy.
+
+## Motion (new)
+
+One easing curve, three durations, used everywhere instead of ad hoc
+`transition-colors`:
+
+```
+--ease-premium: cubic-bezier(0.16, 1, 0.3, 1);   /* borrowed from the
+  Linear/Stripe research above — a fast-out, gentle-settle curve that reads as
+  "quality" rather than linear/mechanical */
+--duration-fast:   150ms   hover/press micro-states
+--duration-base:   250ms   tab switches, accordion chevron
+--duration-slow:   400ms   accordion expand/collapse height animation
+```
+
+## Typography — heading-scale rework
+
+Kept Inter/Literata (see "What's kept from v2" above). Changed: the scale between
+heading levels, which read too close together in v2 (page title and section heading
+were both "text-lg/text-2xl semibold," easy to mistake for the same level at a
+glance). New scale adds one more visible step and a small letter-spacing pull on the
+largest size for a more editorial, less "default Tailwind" feel:
+
+```
+Page title (h1)      text-3xl sm:text-4xl font-semibold tracking-tight  (Inter)
+Section heading (h2) text-xl sm:text-2xl font-semibold                  (Inter)
+Sub-heading (h3)      text-base font-semibold                           (Inter)
+Tab label             text-sm font-medium                               (Inter)
+Body / reading text   17px / line-height 1.8 (.prose-reading, Literata) — unchanged
+UI label / metadata   text-xs sm:text-sm                                (Inter)
+```
+
+Drop-cap: the first paragraph of `book.summary` on the Summary tab gets a large
+(`text-5xl` line-height-none), gold, serif first letter floated left — a single,
+restrained "you've arrived" cue at the top of every book page, not applied anywhere
+else (not to every section, not to every paragraph — one moment of ceremony, not a
+running motif that would fight the reading-comfort goal).
+
+## Judgment call: `CategoryAccordion` moves from native `<details>` to a small
+## client component
+
+Stage 15 deliberately chose native `<details>`/`<summary>` for **zero client JS and
+free keyboard/ARIA support**. That trade-off is worth revisiting now that animated
+expand/collapse is part of the "premium interactivity" ask: `<details>` cannot
+animate its open/close height with CSS alone in a way that works reliably across
+Safari/Chrome today (the `interpolate-size`/`@starting-style` approach that would
+keep it CSS-only is not yet reliable enough cross-browser for something Thai will
+open on his phone). This pass converts `CategoryAccordion` to a small `"use client"`
+component using `useState` + a measured-height CSS transition, **but keeps the
+accessibility Stage 15 valued on purpose** rather than trading it away for
+animation: real `<button aria-expanded>` trigger, `role="region"` on the revealed
+panel with `aria-labelledby`, and full keyboard operability (Enter/Space toggles,
+focus-visible ring retained). Net effect: a few hundred bytes of client JS in
+exchange for animated, premium-feeling expand/collapse — flagged explicitly as the
+trade-off it is, not decided silently.
+
+## Open question flagged for Thai: real cover art
+
+This pass leans hard on generative gradients *because* `coverImage` is null on
+every entry (see `docs/SCHEMA.md` — the field already exists, schema is unchanged).
+If Thai wants to pursue real cover art later (scanned spines from his own physical
+copies, or a licensed cover-art API), that's a genuinely separate decision with its
+own scope (sourcing, rights, storage, a `coverImage` population pass across 66+
+entries) — flagged here as a future option, not started, and not required for this
+pass to look "premium" now. The generative-cover system is built so a real
+`coverImage`, when/if populated, would simply take visual priority over the
+gradient (component-level fallback), no rework needed later.
+
+## Mobile + desktop
+
+Both checked per the project's standing rule (not mobile-only) — see the Session
+log entry in `ROADMAP.md` for this stage for the actual viewport sizes verified and
+whether Chrome browser tools were available this session.
+
+---
+
 # Design System v2 — Stage 15
 
 Supersedes the Stage 3 version below the divider. Rewritten in Session 8 per Thai's

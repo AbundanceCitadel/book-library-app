@@ -114,6 +114,55 @@
     { "text": "Some people spend their entire lives waiting for the time to be right to make an improvement.", "attribution": "James Clear, Atomic Habits", "category": "Consistency, Setbacks & Staying the Course" },
     { "text": "The greatest threat to success is not failure but boredom. We get bored with habits because they stop delighting us. The outcome becomes expected. And as our habits become ordinary, we start derailing our progress to seek novelty.", "attribution": "James Clear, Atomic Habits", "category": "Consistency, Setbacks & Staying the Course" }
   ],
+  "conceptsFrameworks": [
+    {
+      "name": "The Habit Loop",
+      "definition": "The four-part cycle — cue, craving, response, reward — that Clear argues underlies every habit, good or bad. A cue triggers the brain to notice an opportunity for reward; craving is the motivational pull toward it; response is the actual behavior; reward is what satisfies the craving and reinforces the loop for next time.",
+      "sourceSection": "The 1st Law — Make It Obvious"
+    },
+    {
+      "name": "The Four Laws of Behavior Change",
+      "definition": "Clear's operating framework, one law per stage of the habit loop: make it obvious (cue), make it attractive (craving), make it easy (response), make it satisfying (reward). Building a good habit means applying all four; breaking a bad one means inverting all four.",
+      "sourceSection": "The Fundamentals — Why Tiny Changes Make a Big Difference"
+    },
+    {
+      "name": "The Two-Minute Rule",
+      "definition": "Any new habit should be scaled down to a version that takes two minutes or less to start (e.g. 'read before bed' becomes 'read one page'), on the logic that consistently showing up at a trivial scale matters more early on than performing well.",
+      "sourceSection": "The 3rd Law — Make It Easy"
+    },
+    {
+      "name": "The Plateau of Latent Potential",
+      "definition": "The idea that a habit's visible payoff is often delayed well past the point most people give up, because early effort accumulates invisibly before crossing a threshold — Clear's explanation for why consistent effort can look like it's 'not working' right up until it visibly does.",
+      "sourceSection": "The Fundamentals — Why Tiny Changes Make a Big Difference"
+    },
+    {
+      "name": "The Goldilocks Rule",
+      "definition": "Motivation and engagement peak when a task sits right at the edge of current ability: not so easy it's boring, not so hard it's discouraging. Clear uses it to explain why mastered habits go stale and need periodic variation to stay engaging.",
+      "sourceSection": "Advanced Tactics — From Good Habits to Great Performance"
+    }
+  ],
+  "applyThis": {
+    "actionSteps": [
+      "Run your own Habits Scorecard: for one full day, write down every routine action you take — waking, eating, phone checks, commute, work breaks — and mark each one +, -, or = for whether it moves you toward or away from a goal you actually care about right now. Don't change anything yet, just notice.",
+      "Pick one habit you want to build and shrink it to a two-minute version (e.g. 'go to the gym' becomes 'put on my gym shoes'), then anchor it with habit stacking to something you already do without fail — 'after I plug in my phone charger, I will put on my gym shoes.'",
+      "Pick one habit you're trying to do but keep avoiding, and pair it with something you already enjoy using temptation bundling — for example, only allow yourself a favorite podcast or show while doing it.",
+      "Start a visible habit tracker (a calendar X, a checkbox app, anything you'll actually see daily) for one habit already in progress, and adopt the 'never miss twice' rule as your only failure condition."
+    ],
+    "reflectionQuestions": [
+      "Look at the last 6 months honestly: which one habit has been shaped more by your environment — what's easy or visible around you — than by willpower or motivation? What would it take to redesign that environment instead of trying harder?",
+      "Clear argues identity-level change ('who I'm becoming') sticks better than outcome-level change ('what I want to achieve'). Pick a goal you have right now — what identity would make that goal's habits feel automatic instead of effortful?",
+      "Where are you currently in a 'plateau of latent potential' — putting in consistent effort with no visible payoff yet? What's the actual evidence you're on a trajectory, versus just stuck?"
+    ]
+  },
+  "criticalTake": {
+    "points": [
+      "Clear's habit-loop and craving/dopamine claims draw on real behavioral psychology, but the book compresses genuinely contested, still-evolving research (including the popular '21/66 days to form a habit' idea, which Clear himself pushes back on) into confident, simple rules. Treat the Four Laws as a useful heuristic framework, not settled neuroscience.",
+      "The book's flagship case study — Dave Brailsford and British Cycling's 'marginal gains' — is a single, celebrated anecdote. Organizations that tried aggregating small optimizations without similar results don't get airtime, which is the same survivorship-bias pattern common to books built around one hero example.",
+      "Atomic Habits is strongest for habits that are simple, repeatable, and low-stakes (exercise, reading, tidiness). It has much less to offer for behavior entangled with trauma, addiction, complex relationships, or systemic constraints like poverty or health conditions — it's a toolkit for the habit layer of change, not a general theory of it.",
+      "Most of the book's supporting examples are drawn from elite athletes, successful entrepreneurs, and relatively motivated volunteers. Worth asking whether a specific tactic (temptation bundling, habit stacking) has evidence behind it for people without those starting advantages before assuming it transfers identically."
+    ],
+    "contextNote": "Published in 2018, the book predates most of the direct academic pushback on habit-formation timelines it references secondhand; the 'marginal gains' framing has also since drawn its own scrutiny in cycling/sports-science circles over how much of British Cycling's success is attributable to the philosophy itself versus other funding and personnel changes in the same period."
+  },
   "whoThisIsFor": "Anyone trying to build a consistent habit (exercise, reading, deep work) or break one (procrastination, junk food, doomscrolling) who has tried and failed with willpower-based approaches.",
   "whenToReadThis": "Good to read at the start of a new goal or routine, or any time motivation has fizzled and you need a systems-based restart rather than a fresh burst of willpower.",
   "relatedBooks": [],
@@ -126,5 +175,5 @@
     "bio": "James Clear was born January 22, 1986, in Hamilton, Ohio. A standout high school baseball player, he was struck in the face by a swung bat during a game, suffering a severe injury that briefly stopped his breathing and left him with a long, difficult recovery — relearning basic physical and cognitive skills before he could return to any kind of normal life, let alone sports. That slow, incremental road back is the personal story Clear opens Atomic Habits with, and the direct source of his lifelong interest in how small, consistent actions compound into large outcomes.\n\nHe went on to captain the baseball team at Denison University in Ohio, graduating in 2008 with a degree in biomechanics, and was later named to the ESPN Academic All-America team — a result he has credited to the same incremental, one-percent-at-a-time approach he later wrote about, rather than any single dramatic turnaround.\n\nClear is known almost entirely for one body of work built around a single idea. Starting in the early 2010s he built a large following through his '3-2-1' newsletter and long-form articles on habit formation, decision-making, and continuous improvement at jamesclear.com, which established the audience Atomic Habits (2018) was written for. The book became a #1 New York Times bestseller and one of the best-selling nonfiction books of its decade, translated into dozens of languages. As of this writing he has not published a second full-length book, focusing instead on his newsletter, speaking engagements, and an app built around the Four Laws framework — making Atomic Habits, by his own design, a single, thoroughly developed idea rather than one entry in a wider bibliography.",
     "notableWorks": []
   },
-  "sourceNotes": "v2 migration (Session 8, Stage 15 — pilot for the new depth standard). Section summaries expanded to three paragraphs each (intro/substance/conclusion) from general knowledge of the book's well-documented structure and case studies (e.g. the Dave Brailsford/British Cycling opening story, the Habits Scorecard, implementation intentions, habit stacking, temptation bundling, the Two-Minute Rule, the Goldilocks Rule) — original synthesis throughout, no book text reproduced. Quotes expanded from 3 to 28 and cross-checked directly against James Clear's own published quote archive (jamesclear.com/quote/atomic-habits, which itself attributes each quote to the book) rather than recalled from memory alone, then grouped into 5 themes for the Quotes tab. authorBio added from Clear's publicly documented biography (birth date/place, the baseball injury, Denison University baseball captaincy and ESPN Academic All-America honor, and his post-injury focus on the newsletter/Atomic Habits as his one major book) via web search rather than assumed."
+  "sourceNotes": "v2 migration (Session 8, Stage 15 — pilot for the new depth standard). Section summaries expanded to three paragraphs each (intro/substance/conclusion) from general knowledge of the book's well-documented structure and case studies (e.g. the Dave Brailsford/British Cycling opening story, the Habits Scorecard, implementation intentions, habit stacking, temptation bundling, the Two-Minute Rule, the Goldilocks Rule) — original synthesis throughout, no book text reproduced. Quotes expanded from 3 to 28 and cross-checked directly against James Clear's own published quote archive (jamesclear.com/quote/atomic-habits, which itself attributes each quote to the book) rather than recalled from memory alone, then grouped into 5 themes for the Highlights & Quotes tab. authorBio added from Clear's publicly documented biography (birth date/place, the baseball injury, Denison University baseball captaincy and ESPN Academic All-America honor, and his post-injury focus on the newsletter/Atomic Habits as his one major book) via web search rather than assumed. v2.1 retrofit (8-Tab Content Structure Rollout, pilot book for the new fields): conceptsFrameworks, applyThis, and criticalTake added as original synthesis from general knowledge of the book's own framework and terminology — no book text reproduced. The Dave Brailsford 'marginal gains' critical-take point and the habit-formation-timeline pushback are both general-knowledge claims well-documented outside the book itself (widely reported in sports-science and behavioral-science commentary), not verified against a single specific source this pass — flagging honestly rather than overclaiming a citation-level check."
 }

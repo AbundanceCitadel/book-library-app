@@ -128,6 +128,63 @@
     { "text": "Never assume people understand how your brand can change their lives. Tell them.", "attribution": "Donald Miller, Building a StoryBrand", "category": "Plan, Calls to Action & the Stakes of Inaction" },
     { "text": "As a brand, it's our job to pursue our customers. We want to get to know them and for them to get to know us, but we are the ones who need to take the initiative.", "attribution": "Donald Miller, Building a StoryBrand", "category": "Plan, Calls to Action & the Stakes of Inaction" }
   ],
+  "conceptsFrameworks": [
+    {
+      "name": "The StoryBrand SB7 Framework",
+      "definition": "Miller's central model: seven story beats — a Character who has a Problem, meets a Guide, who gives them a Plan, calls them to Action, that helps them avoid Failure and ends in Success — mapped directly onto a brand's marketing. The customer occupies the Character role and the brand occupies the Guide role, never the reverse, and Miller argues most marketing fails because a business unconsciously casts itself as the hero instead.",
+      "sourceSection": "The SB7 Framework — Overview"
+    },
+    {
+      "name": "The BrandScript",
+      "definition": "A worksheet tool Miller introduces for forcing a business to fill in all seven SB7 elements, in order, for its own messaging before any copy gets written. Its purpose is to catch missing or muddled elements (a business that can't state its customer's problem or its own plan in one line isn't ready to write a website or pitch) rather than letting a business skip straight to whichever element is easiest to describe.",
+      "sourceSection": "The SB7 Framework — Overview"
+    },
+    {
+      "name": "The Three Layers of a Problem",
+      "definition": "Miller's model of customer problems as always operating on three simultaneous levels: an external layer (the concrete, visible issue), an internal layer (the frustration that issue causes), and a philosophical layer (the sense that the problem simply shouldn't exist at all). He argues most marketing only ever speaks to the external layer, and that the internal layer is usually the stronger reason customers actually decide to buy.",
+      "sourceSection": "Has a Problem"
+    },
+    {
+      "name": "Empathy and Authority (the Guide's Two Qualities)",
+      "definition": "Miller's two-part formula for how a brand earns trust in the Guide role: empathy, demonstrated through language that shows genuine understanding of the customer's problem, and authority, demonstrated through competence signals like testimonials, results, or credentials. A brand needs both — authority without empathy reads as bragging, and empathy without authority doesn't convince anyone the brand can actually help.",
+      "sourceSection": "Meets a Guide"
+    },
+    {
+      "name": "The Grunt Test",
+      "definition": "Miller's informal audit for message clarity: could a caveman glance at your website or marketing material for about five seconds and immediately grunt out what you offer, how it will improve their life, and what they need to do to get it. If the answer isn't instantly obvious, the message is too complicated and will lose customers regardless of how good the underlying product is.",
+      "sourceSection": "Why Most Marketing Doesn't Work"
+    },
+    {
+      "name": "Direct and Transitional Calls to Action",
+      "definition": "Miller's pairing of two distinct kinds of invitation a brand should always offer: a direct call to action (buy now, book a call, sign up) for customers ready to commit, and a transitional call to action (a free guide, sample, or webinar) for customers who are interested but not yet ready, so a business doesn't lose everyone who isn't immediately sold.",
+      "sourceSection": "And Calls Them to Action"
+    }
+  ],
+  "applyThis": {
+    "actionSteps": [
+      "Write a one-liner for your business in Miller's problem/solution/result format — one or two sentences you could say out loud to a stranger that names the customer's problem, what you do about it, and the result they get — and test it on someone unfamiliar with your business to see if they can repeat it back.",
+      "Run the grunt test on your own homepage or elevator pitch: give it a five-second glance as if you were a first-time visitor and check whether you can immediately identify what's offered, how it helps, and what to do next. Fix whichever of the three is missing or buried first.",
+      "Pick your single most important product or service and write out its problem at all three layers — external, internal, philosophical — even if your current marketing only ever mentions the external one, then rewrite one piece of copy to speak to the internal layer directly.",
+      "Audit your current calls to action across your website, emails, or sales materials and check whether you offer both a direct ask (buy, book, sign up) and a lower-commitment transitional one (a guide, sample, or free resource) — add whichever is missing.",
+      "Reread your own homepage or 'About' page and count how many sentences are about your company (history, mission, awards) versus about the customer's problem and desired outcome — rewrite it so the customer, not your brand, is the grammatical subject of most sentences."
+    ],
+    "reflectionQuestions": [
+      "Look at your own marketing honestly: are you positioning your brand as the Guide, or have you quietly cast your company as the hero of its own story? What would change if you rewrote it from the customer's point of view first?",
+      "What is the internal or philosophical layer of the problem your customers actually hire you to solve — not the surface-level task, but the private frustration or larger sense of unfairness underneath it? Have you ever actually said that out loud to a customer?",
+      "If a stranger looked at your website, pitch deck, or elevator pitch for five seconds, could they tell you what you offer, how it helps them, and what to do next? If not, what's actually in the way — too many ideas, too little clarity, or fear of oversimplifying?",
+      "Where in your business do you currently leave customers to figure out the next step on their own? What would a simple, numbered plan look like there instead?"
+    ]
+  },
+  "criticalTake": {
+    "points": [
+      "The SB7 formula was developed and illustrated mainly through direct-response and small-to-midsize business marketing (websites, email, sales pages), and it compresses more naturally onto those contexts than onto complex B2B or enterprise sales, where multiple stakeholders, long evaluation cycles, and technical procurement criteria don't reduce cleanly to a single customer-hero with one villain and one problem.",
+      "Miller's case examples are drawn almost entirely from his own StoryBrand consulting clients and workshop participants, presented as before-and-after success stories rather than backed by independent, controlled data on conversion or revenue lift — a self-selected sample of a framework's own creator vouching for its results, common in the business-book genre but worth noting as a limitation rather than proof.",
+      "The book states its claims — the five-second scanning brain, 'a confused mind always says no,' the specific effectiveness of the grunt test — with the confident, universal-formula certainty typical of prescriptive business books, without much engagement with when or why the framework might not fit a given business, industry, or audience.",
+      "Reducing a value proposition to one customer, one problem, and one guide risks flattening genuinely complex or multi-benefit offerings — a product with several equally important use cases or a company whose real differentiator is customization and complexity may lose more than it gains by forcing its message into a single, simplified story arc.",
+      "The hero/guide reframing works well for consumer-facing and sales-driven marketing but offers less direct guidance for mission-driven, nonprofit, internal, or employer-branding communication, where treating the audience strictly as a 'customer' pursuing a 'want' can feel like an awkward fit for the actual relationship being communicated."
+    ],
+    "contextNote": "Published in 2017, the book's framework has since been widely commercialized through Miller's StoryBrand Certified Guide consultant-licensing program and the Marketing Made Simple follow-on system, which has made SB7 one of the more mainstream messaging frameworks in small-business marketing consulting in the years since — a sign of the framework's practical staying power, though also a reminder that a now-ubiquitous template may feel less differentiating for a business than it did when the book was new."
+  },
   "whoThisIsFor": "Founders, marketers, and copywriters who need to sharpen a confusing brand message into something customers immediately understand.",
   "whenToReadThis": "Read it before rewriting a website, sales page, or elevator pitch — it works best applied directly to a piece of real messaging as you go.",
   "relatedBooks": ["all-marketers-are-liars", "dotcom-secrets", "expert-secrets", "traffic-secrets"],
@@ -140,5 +197,5 @@
   "personalRating": null,
   "personalNotes": "",
   "dateAdded": "2026-07-24",
-  "sourceNotes": "v2 retrofit. Whole-book and section summaries are original synthesis based on general knowledge of Miller's well-documented SB7 (Character, Problem, Guide, Plan, Call to Action, Failure, Success) framework; no book text was copied or paraphrased into the summary or lesson fields. Expanded to 26 verbatim quotes, cross-checked against Goodreads' Building a StoryBrand quotes page (goodreads.com/work/quotes/55576937) and corroborated against an independent aggregator reproducing verbatim book excerpts (bestbookquotes.blogspot.com, '77 Quotes from Building a StoryBrand'), plus targeted web searches confirming the hitchhiker passage and the grunt-test/caveman passage are consistently reproduced across multiple secondary sources. Quotes attributed on Goodreads to the 'Building a StoryBrand 2.0' edition, to a third-party 'Summary of Building a StoryBrand' companion work, or to the Spanish-language edition were excluded to avoid uncertain/edition-mismatched wording. Author bio drawn from Wikipedia's 'Donald Miller (author)' page and general web biography/publisher sources; bibliography (notableWorks) cross-checked against Wikipedia's listed works."
+  "sourceNotes": "v2 retrofit. Whole-book and section summaries are original synthesis based on general knowledge of Miller's well-documented SB7 (Character, Problem, Guide, Plan, Call to Action, Failure, Success) framework; no book text was copied or paraphrased into the summary or lesson fields. Expanded to 26 verbatim quotes, cross-checked against Goodreads' Building a StoryBrand quotes page (goodreads.com/work/quotes/55576937) and corroborated against an independent aggregator reproducing verbatim book excerpts (bestbookquotes.blogspot.com, '77 Quotes from Building a StoryBrand'), plus targeted web searches confirming the hitchhiker passage and the grunt-test/caveman passage are consistently reproduced across multiple secondary sources. Quotes attributed on Goodreads to the 'Building a StoryBrand 2.0' edition, to a third-party 'Summary of Building a StoryBrand' companion work, or to the Spanish-language edition were excluded to avoid uncertain/edition-mismatched wording. Author bio drawn from Wikipedia's 'Donald Miller (author)' page and general web biography/publisher sources; bibliography (notableWorks) cross-checked against Wikipedia's listed works. v2.1 retrofit (8-Tab Content Structure Rollout): conceptsFrameworks, applyThis, and criticalTake added as original synthesis from general knowledge of the book's SB7 terminology and structure, no book text reproduced; the 2017 publication date was confirmed via web search (multiple retailer/publisher listings), and the StoryBrand Certified Guide licensing program referenced in contextNote is a well-documented, uncontested fact about Miller's business rather than a claim requiring separate citation-level verification."
 }

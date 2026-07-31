@@ -10,6 +10,17 @@ in effort per book, not a documentation-only change — see `docs/CONTENT_PIPELI
 or only new entries use v2 depth is Thai's call, asked directly this session (not
 decided here) — see `ROADMAP.md` Stage 15.
 
+**v2.1 (8-Tab Content Structure Rollout):** approved from `docs/CONTENT_STRUCTURE_PROPOSAL.md`
+(Revision 2) — three new fields (`conceptsFrameworks`, `applyThis`, `criticalTake`)
+and a renaming/broadening of the Quotes tab guidance to "Highlights & Quotes" (no
+schema change for that one — same `Quote` object, different curation criteria, see
+`docs/CONTENT_PIPELINE.md`). New/changed fields are marked **v2.1** below. Per the
+proposal's §5 rollout-cost accounting, this is a further real increase in
+content-writing effort per book on top of what v2 already added — three more
+synthesis passes, not a documentation-only change. Retrofit sequencing for the
+already-written 66 books, the 18 still-open v2 retrofit titles, and the 310 queued
+new-book batch prompts is tracked in `ROADMAP.md` Stage 15.
+
 ## Field Reference
 
 | Field | Type | Required | Notes |
@@ -26,11 +37,14 @@ decided here) — see `ROADMAP.md` Stage 15.
 | `summary` | string | yes | 300–600 words, whole-book synthesis, Claude's own words. **v2:** written with real blank-line paragraph breaks (3–5 paragraphs), not one block — see `docs/DESIGN_SYSTEM.md` paragraph-spacing rule |
 | `sections` | Section[] | yes | Chapter- or part-by-part breakdown, see below — **v2:** each `summary` is now ~3 paragraphs, not 2–4 sentences |
 | `keyLessons` | string[] | yes | 5–10 action-oriented bullets, whole-book level |
-| `quotes` | Quote[] | yes | **v2:** 20–30 curated quotes (was 3–5), exact wording, attributed, grouped by `category` — see `Quote` object below |
+| `quotes` | Quote[] | yes | **v2:** 20–30 curated quotes (was 3–5), exact wording, attributed, grouped by `category` — see `Quote` object below. **v2.1:** this field powers the renamed **Highlights & Quotes** tab — selection criteria broadened, no schema change, see `docs/CONTENT_PIPELINE.md` |
 | `whoThisIsFor` | string | yes | 1–2 lines |
 | `whenToReadThis` | string | yes | 1–2 lines |
 | `relatedBooks` | string[] | no | Array of other book `id`s already in the library |
 | `authorBio` | AuthorBio | yes **(v2)** | New in Session 8 — see `AuthorBio` object below. Powers the new Author tab |
+| `conceptsFrameworks` | ConceptFramework[] | yes **(v2.1)** | New — the book's named models, isolated and defined standalone. Powers the new Concepts & Frameworks tab. See object spec below |
+| `applyThis` | ApplyThis | yes **(v2.1)** | New — several concrete actions plus reflection prompts. Powers the new Apply This tab. See object spec below |
+| `criticalTake` | CriticalTake | yes **(v2.1)** | New — the book's real limitations, contested claims, or how its ideas have aged. Powers the new Critical Take tab. See object spec below |
 | `readStatus` | `"unread"` \| `"reading"` \| `"read"` | yes (default `"unread"`) | UI ships Stage 11; field reserved now |
 | `personalRating` | number \| null | no | 1–5, null until Thai rates it; UI ships Stage 11 |
 | `personalNotes` | string | no | Free text; empty string until Thai writes something; UI ships Stage 11 |
@@ -48,11 +62,20 @@ decided here) — see `ROADMAP.md` Stage 15.
 
 ### `Quote` object
 
+**v2.1: powers the "Highlights & Quotes" tab (renamed from "Quotes").** No field
+change — same object, same `quotes` array — this is a curation-guidance change only.
+Selection criteria broadened from "famous, quotable lines" to "passages worth
+remembering, whether they're famous one-liners or just useful ideas stated well."
+See `docs/CONTENT_PIPELINE.md` §4.4 and `docs/CONTENT_STRUCTURE_PROPOSAL.md` §3.3.
+An optional `note` field (one sentence on why a specific line matters) was considered
+and deliberately deferred — starting without it per the proposal's recommendation;
+revisit later if it turns out to matter in practice.
+
 | Field | Type | Notes |
 |---|---|---|
 | `text` | string | Exact wording from the book |
 | `attribution` | string | Author name, and chapter/context if useful |
-| `category` | string | **New in v2.** Freeform short theme label used to group the Quotes tab (e.g. `"Identity & Self-Image"`, `"Goals vs. Systems"`) — pick 4–6 categories per book, don't invent one category per quote. Optional on pre-v2 entries |
+| `category` | string | **New in v2.** Freeform short theme label used to group the **Highlights & Quotes** tab (renamed from "Quotes" in v2.1, see below) (e.g. `"Identity & Self-Image"`, `"Goals vs. Systems"`) — pick 4–6 categories per book, don't invent one category per quote. Optional on pre-v2 entries |
 
 ### `AuthorBio` object — new in v2
 
@@ -61,6 +84,38 @@ decided here) — see `ROADMAP.md` Stage 15.
 | `name` | string | Usually matches `author`, but spelled out in full if `author` was abbreviated or multi-author |
 | `bio` | string | 2–4 short paragraphs (blank-line separated): birth year/place or era if not precisely known, background, and what they're known for. Brief, not exhaustive — this is a tab someone reads in under a minute |
 | `notableWorks` | string[] | Other books by this author — titles only. Empty array if the author is genuinely known for only this one book (don't pad) |
+
+### `ConceptFramework` object — new in v2.1
+
+Powers the **Concepts & Frameworks** tab. 3–6 entries per book — named, standalone
+models only, not every idea in the book. See `docs/CONTENT_STRUCTURE_PROPOSAL.md` §3.1
+for the full rationale and a worked example (Atomic Habits).
+
+| Field | Type | Notes |
+|---|---|---|
+| `name` | string | The model's name, as the author coined it (e.g. "The Four Laws of Behavior Change") — not a paraphrase Thai has to guess later |
+| `definition` | string | 2–4 sentences, standalone — understandable with zero other context, unlike the same idea embedded in a `sections[].summary` paragraph |
+| `sourceSection` | string | Optional. Which chapter/part introduces it, for a jump-back reference to the Chapters tab |
+
+### `ApplyThis` object — new in v2.1
+
+Powers the **Apply This** tab. See `docs/CONTENT_STRUCTURE_PROPOSAL.md` §3.2 for the
+full rationale and a worked example.
+
+| Field | Type | Notes |
+|---|---|---|
+| `actionSteps` | string[] | 3–5 concrete, **distinct** actions to try, each tied to a different mechanism/lesson from the book so they don't overlap — each one specific enough to actually do this week, not a restated lesson |
+| `reflectionQuestions` | string[] | 2–4 generation-effect prompts aimed at the reader's own life, meant to be answered (e.g. in the existing `personalNotes` field once its Stage 11 UI ships) |
+
+### `CriticalTake` object — new in v2.1
+
+Powers the **Critical Take** tab. See `docs/CONTENT_STRUCTURE_PROPOSAL.md` §3.4 for
+the full rationale and a worked example.
+
+| Field | Type | Notes |
+|---|---|---|
+| `points` | string[] | 3–5 bullets: known limitations, contested claims, methodological weaknesses, or credible counterarguments **specific to this book** — not generic "no book is perfect" hedging |
+| `contextNote` | string | Optional. 1–2 sentences on how the book's claims have aged or what's changed since publication, when relevant (more relevant for older or heavily-cited books than brand-new ones) |
 
 ## Fixed Category List
 
@@ -79,3 +134,13 @@ well-known/notable and verifiable (cross-check against a real source — e.g. th
 author's own site, a publisher excerpt, or a quote-aggregator page — rather than
 recalled from memory alone when in doubt), not padded to hit the count with filler
 lines invented to sound plausible.
+
+**v2.1:** the same original-synthesis rule applies without exception to
+`conceptsFrameworks[].definition`, `applyThis.actionSteps`, `applyThis.reflectionQuestions`,
+and `criticalTake.points`/`criticalTake.contextNote` — a concept definition, an
+action step, or a critique is exactly as capable of being lightly-reworded
+plagiarism as a summary paragraph is, even though none of them "feel like" prose
+lifted from the book. `criticalTake` deserves particular care in the opposite
+direction too: points must be genuine, specific, and (where they rely on a factual
+claim about the book, its reception, or its research basis) checkable — not invented
+just to fill 3–5 bullets.

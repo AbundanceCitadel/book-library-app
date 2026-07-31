@@ -26,6 +26,28 @@ export type AuthorBio = {
   notableWorks: string[];
 };
 
+// v2.1 (8-Tab Content Structure Rollout): a named, standalone model/framework from
+// the book. See docs/SCHEMA.md and docs/CONTENT_STRUCTURE_PROPOSAL.md §3.1.
+export type ConceptFramework = {
+  name: string;
+  definition: string;
+  sourceSection?: string;
+};
+
+// v2.1: several concrete actions plus reflection prompts. See docs/SCHEMA.md and
+// docs/CONTENT_STRUCTURE_PROPOSAL.md §3.2.
+export type ApplyThis = {
+  actionSteps: string[];
+  reflectionQuestions: string[];
+};
+
+// v2.1: the book's real limitations, contested claims, or how its ideas have aged.
+// See docs/SCHEMA.md and docs/CONTENT_STRUCTURE_PROPOSAL.md §3.4.
+export type CriticalTake = {
+  points: string[];
+  contextNote?: string;
+};
+
 export type ReadStatus = "unread" | "reading" | "read";
 
 export type Book = {
@@ -54,6 +76,13 @@ export type Book = {
   // tab just shows a "not written yet" state for them) until the backfill
   // question is resolved — see ROADMAP.md Stage 15.
   authorBio?: AuthorBio;
+  // v2.1: optional so entries without the 8-tab retrofit yet still type-check.
+  // UI rendering for these three (Concepts & Frameworks / Apply This / Critical
+  // Take tabs) is a separate follow-up, not yet built as of this addition — see
+  // ROADMAP.md Stage 15 and DECISIONS.md.
+  conceptsFrameworks?: ConceptFramework[];
+  applyThis?: ApplyThis;
+  criticalTake?: CriticalTake;
 };
 
 const BOOKS_DIR = path.join(process.cwd(), "content", "books");
@@ -125,46 +154,9 @@ export function getRelatedBooksInfo(
     .map((b) => ({ id: b.id, title: b.title }));
 }
 
-export const CATEGORY_LABELS: Record<string, string> = {
-  business: "Business",
-  marketing: "Marketing",
-  sales: "Sales",
-  "business-strategy": "Business Strategy",
-  "personal-growth": "Personal Growth / Motivational",
-  "philosophy-psychology": "Philosophy & Psychology",
-  "thich-nhat-hanh": "Thich Nhat Hanh",
-  "finance-investing": "Finance & Investing",
-  history: "History",
-  "bio-business": "Biographies — Business Figures",
-  "bio-religious-spiritual": "Biographies — Religious / Spiritual Figures",
-  "bio-other": "Biographies — Other",
-  "health-wellness": "Health & Wellness",
-  "fiction-literature": "Fiction & Literature",
-  "science-technology": "Science & Technology",
-  wine: "Wine",
-};
-
-export function getAllCategories(): string[] {
-  return Object.keys(CATEGORY_LABELS);
-}
-
-// Emoji icon per category — see docs/DESIGN_SYSTEM.md. No icon-library
-// dependency; keeps builds free of extra network/install weight.
-export const CATEGORY_ICONS: Record<string, string> = {
-  business: "💼",
-  marketing: "📣",
-  sales: "🤝",
-  "business-strategy": "♟️",
-  "personal-growth": "🌱",
-  "philosophy-psychology": "🧠",
-  "thich-nhat-hanh": "🪷",
-  "finance-investing": "💰",
-  history: "🏛️",
-  "bio-business": "👔",
-  "bio-religious-spiritual": "🕊️",
-  "bio-other": "📇",
-  "health-wellness": "🌿",
-  "fiction-literature": "📖",
-  "science-technology": "🔬",
-  wine: "🍷",
-};
+// v3 (Stage 16): CATEGORY_LABELS/CATEGORY_ICONS/getAllCategories moved to
+// lib/categories.ts (a plain-data module with no `fs`/`path` import) so
+// client components can use them without pulling this file's Node-only file
+// reads into the browser bundle. Re-exported here so every existing import
+// of `@/lib/books` keeps working unchanged.
+export { CATEGORY_LABELS, CATEGORY_ICONS, getAllCategories } from "./categories";

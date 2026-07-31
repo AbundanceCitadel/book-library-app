@@ -119,6 +119,55 @@
     "bio": "Simon Sinek was born in 1973 in Wimbledon, England, and spent much of his childhood moving between London, Johannesburg, and Hong Kong before his family eventually settled in New Jersey. He studied law at City University London before dropping out to pursue a different direction, going on to earn a degree in cultural anthropology from Brandeis University — a background in observing how groups form belief and behavior that would later shape his writing on organizations and culture.\n\nHe began his career in advertising, working at agencies including Euro RSCG (now part of Havas) and Ogilvy & Mather, before founding his own consulting practice. By his own account, an early loss of enthusiasm for his own business sent him looking for what separated organizations and leaders who inspired real loyalty from those that didn't — research that became the Golden Circle framework at the center of Start With Why.\n\nSinek became widely known after his 2009 talk 'How Great Leaders Inspire Action,' delivered at a TEDx event in Puget Sound, which went on to become one of the most-viewed TED talks of all time and introduced the Golden Circle to a mass audience well beyond the book's readers. He has since built a career as a speaker and consultant, held visiting or adjunct teaching positions at institutions including Columbia University and RAND, and more recently launched a podcast built around the same themes.\n\nBeyond Start With Why, Sinek is best known for extending the same why-driven lens to organizational culture, leadership, and long-term strategy across a series of follow-up books, and for founding The Optimism Company, through which he continues to teach, speak, and consult on those ideas.",
     "notableWorks": ["Leaders Eat Last", "Together Is Better", "Find Your Why", "The Infinite Game"]
   },
+  "conceptsFrameworks": [
+    {
+      "name": "The Golden Circle",
+      "definition": "Sinek's core model: three concentric rings — why (purpose or belief) at the center, how (values and process) in the middle, what (products or actions) on the outside. Inspiring communicators speak from the inside out (why → how → what); most people and organizations communicate from the outside in.",
+      "sourceSection": "An Alternative Perspective"
+    },
+    {
+      "name": "Manipulation vs. Inspiration",
+      "definition": "Sinek's framing of the only two levers for influencing behavior. Manipulative tactics — price cuts, promotions, fear, peer pressure, novelty — can close a single transaction but build no durable loyalty and leave an organization more dependent on the next manipulation. Inspiration, rooted in a clear why, is the only lever that builds loyalty that survives a competitor's better offer.",
+      "sourceSection": "A World That Doesn't Start With Why"
+    },
+    {
+      "name": "The Diffusion-of-Innovation Curve Applied to Why",
+      "definition": "Borrowed from Everett Rogers' adoption curve (innovators, early adopters, early/late majority, laggards), reframed around belief rather than product features: early adopters are won by why and will tolerate inconvenience or pay a premium for it, and it's their visible enthusiasm — not the company's own claims — that eventually pulls the risk-averse majority along.",
+      "sourceSection": "Leaders Need a Following"
+    },
+    {
+      "name": "Why-Types and How-Types",
+      "definition": "Sinek's distinction between visionaries with clarity of purpose (why-types, often perceived as charismatic) and operationally minded people who know how to execute (how-types). Transformative organizations need both in a working partnership — a why without an infrastructure to realize it produces a frustrated visionary, and an infrastructure without a why produces an efficient but uninspiring operation.",
+      "sourceSection": "How to Rally Those Who Believe"
+    },
+    {
+      "name": "Achievement vs. Success",
+      "definition": "A distinction Sinek draws late in the book: achievement is a tangible, measurable goal, tied to what; success is a felt state, tied to why. Organizations increasingly mistake the first for the second as they grow, which is Sinek's explanation for why scaling so often erodes the very purpose that made an organization inspiring in the first place.",
+      "sourceSection": "The Biggest Challenge Is Success"
+    }
+  ],
+  "applyThis": {
+    "actionSteps": [
+      "Write your own why in one sentence, using Sinek's 'discovery, not invention' method: look backward at a specific formative experience or decision, not forward at market opportunity, and ask what belief was actually driving you in that moment.",
+      "Audit your last 5 pieces of external communication (a pitch, a job posting, a product page, an email) and mark whether each one leads with what/how or with why — most will lead with what, which is the exact pattern Sinek argues undermines inspiration.",
+      "List the last 3 people you hired or brought onto a team, and separately score each on skill fit versus belief fit. If belief fit was never actually evaluated, that's the gap Sinek's hiring argument is pointing at.",
+      "Identify one manipulative lever your work currently leans on (a discount, a deadline/scarcity push, a fear-based pitch) and draft what an inspiration-based alternative to that same message would say instead."
+    ],
+    "reflectionQuestions": [
+      "Sinek argues achievement (a measurable goal) and success (a felt state) get mistaken for each other as things scale. Where in your own work or life have you hit a measurable goal but not the feeling of success you expected — and what does that gap tell you about your actual why?",
+      "Think of a leader, brand, or cause you're genuinely loyal to. Can you articulate their why in a sentence, or only what they do? What does that tell you about how clearly they communicate it?",
+      "Where have you personally been won over by manipulation (a good deal, urgency, peer pressure) rather than genuine belief — and how long did that loyalty actually last compared to something you believed in?"
+    ]
+  },
+  "criticalTake": {
+    "points": [
+      "The book's central neuroscience claim — that why/how map cleanly onto the limbic brain and what maps onto the neocortex — is a popularized simplification. Real neuroscience treats decision-making, trust, and language as far more distributed and interconnected across brain regions than a clean three-part mapping suggests; treat the Golden Circle as a useful communication heuristic, not a literal account of brain anatomy.",
+      "Sinek's case-study method leans heavily on retrospective storytelling around a small set of famous examples (Apple, Martin Luther King Jr., the Wright Brothers, Southwest Airlines) chosen because they succeeded — a textbook setup for survivorship bias. Plenty of organizations articulate a clear why and still fail for unrelated reasons (funding, timing, competition), and that population isn't examined.",
+      "The Martin Luther King Jr. and Wright Brothers examples compress complex historical, political, and technological stories into single-cause 'why' narratives. Both movements had major material, institutional, and timing factors behind their success that the book's framing understates in favor of a clean purpose-driven story.",
+      "The book offers little guidance for organizations whose why is genuinely unclear, contested internally, or actively evolving — the discovery process is presented as a matter of introspection more than of the harder organizational work of reconciling competing internal visions of purpose."
+    ],
+    "contextNote": "Published in 2009 (expanded from Sinek's TEDx talk of the same year), several of the book's flagship examples have aged in ways it couldn't have anticipated — Apple's continued dominance is now attributed by many critics as much to ecosystem lock-in and scale as to purpose-driven loyalty, and the framework itself has since been widely absorbed into mainstream corporate messaging, which has somewhat dulled the original contrast between why-led and what-led communication that made the book's argument feel fresh in 2009."
+  },
   "whoThisIsFor": "Leaders, marketers, and founders who feel like they're competing purely on price or features and want a framework for building genuine loyalty instead.",
   "whenToReadThis": "Read when defining or re-clarifying an organization's mission, or when growth has started to feel disconnected from the original reason the company or project existed.",
   "relatedBooks": ["good-to-great", "leaders-eat-last", "the-infinite-game"],
@@ -126,5 +175,5 @@
   "personalRating": null,
   "personalNotes": "",
   "dateAdded": "2026-07-24",
-  "sourceNotes": "v2 retrofit. Whole-book and section summaries are original synthesis based on general knowledge of Sinek's well-documented Golden Circle framework; no book text was copied or paraphrased into the summary or lesson fields. Section structure corrected against the book's actual table of contents (Internet Archive catalog record for the 2011 Portfolio/Penguin paperback, archive.org/details/startwithwhyhowg0000sine, cross-checked against Runn.io's part-by-part summary): the v1 file's 5 section titles have been replaced with the book's real 6 parts (A World That Doesn't Start With Why; An Alternative Perspective; Leaders Need a Following; How to Rally Those Who Believe; The Biggest Challenge Is Success; Discover Why), restoring Part 6 ('Discover Why'), which the v1 entry omitted entirely. All 28 quotes were verified verbatim against Goodreads' Start with Why work-quotes page (goodreads.com/work/quotes/7367737), specific to this book — not Leaders Eat Last or The Infinite Game, both also present in this library — and cross-checked against independent chapter-note sources (kimhartman.se, runn.io) to confirm none were misattributed or drawn from Sinek's other books. Author bio drawn from Wikipedia and multiple independent biographical summaries; birth year/location, education, advertising career, and TED talk details corroborated across sources."
+  "sourceNotes": "v2 retrofit. Whole-book and section summaries are original synthesis based on general knowledge of Sinek's well-documented Golden Circle framework; no book text was copied or paraphrased into the summary or lesson fields. Section structure corrected against the book's actual table of contents (Internet Archive catalog record for the 2011 Portfolio/Penguin paperback, archive.org/details/startwithwhyhowg0000sine, cross-checked against Runn.io's part-by-part summary): the v1 file's 5 section titles have been replaced with the book's real 6 parts (A World That Doesn't Start With Why; An Alternative Perspective; Leaders Need a Following; How to Rally Those Who Believe; The Biggest Challenge Is Success; Discover Why), restoring Part 6 ('Discover Why'), which the v1 entry omitted entirely. All 28 quotes were verified verbatim against Goodreads' Start with Why work-quotes page (goodreads.com/work/quotes/7367737), specific to this book — not Leaders Eat Last or The Infinite Game, both also present in this library — and cross-checked against independent chapter-note sources (kimhartman.se, runn.io) to confirm none were misattributed or drawn from Sinek's other books. Author bio drawn from Wikipedia and multiple independent biographical summaries; birth year/location, education, advertising career, and TED talk details corroborated across sources. v2.1 retrofit (8-Tab Content Structure Rollout): conceptsFrameworks, applyThis, and criticalTake are original synthesis from general knowledge of the book's framework and terminology — no book text reproduced. The limbic-brain/neocortex critical-take point was already flagged as a popularized-neuroscience simplification in `docs/CONTENT_STRUCTURE_PROPOSAL.md` §3.4 as the original motivating example for this tab; that characterization (that decision-making and trust are more distributed across brain regions than a clean three-part mapping) reflects general, well-established neuroscience consensus rather than a single cited study. The survivorship-bias and historical-compression points are this session's own analysis, not independently fact-checked against a specific academic source — flagged honestly rather than overclaiming a citation-level verification pass."
 }

@@ -35,8 +35,17 @@ export default function CategoryPage({
       >
         ← All categories
       </Link>
-      <h1 className="mt-2 flex items-center gap-2 text-2xl font-semibold sm:text-3xl">
-        <span aria-hidden="true">{CATEGORY_ICONS[params.category] ?? "📚"}</span>
+      <h1 className="mt-2 flex items-center gap-3 text-3xl font-semibold tracking-tight sm:text-4xl">
+        <span
+          className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full text-2xl"
+          style={{
+            background:
+              "radial-gradient(circle at 30% 30%, var(--badge-gold-bg), transparent 70%)",
+          }}
+          aria-hidden="true"
+        >
+          {CATEGORY_ICONS[params.category] ?? "📚"}
+        </span>
         {label}
       </h1>
       <p className="mt-1 text-sm text-muted">
