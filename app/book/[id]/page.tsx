@@ -33,7 +33,7 @@ export default function BookPage({ params }: { params: { id: string } }) {
         ← Library
       </Link>
 
-      <h1 className="mt-3 text-2xl font-semibold leading-tight sm:text-3xl">
+      <h1 className="mt-3 text-3xl font-semibold leading-tight tracking-tight sm:text-4xl">
         {book.title}
       </h1>
       <p className="mt-1 text-muted">{book.author}</p>
