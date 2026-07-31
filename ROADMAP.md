@@ -230,9 +230,60 @@ Built, in the actual shared components (not a mockup): a `--shadow-sm/md/lg` ele
 
 Verified: `npx tsc --noEmit` clean, `npm run build` clean (87 static pages, `/tmp`-mirror build with the two `next/font/google` calls stubbed in the scratch copy only, per the established sandbox workaround — real source untouched). Spot-checked generated static HTML for the home page, a category page, and the Atomic Habits book detail page to confirm the redesigned markup actually renders (generative cover divs, drop-cap class, accordion panel structure all present in the output). See the session's chat response for the Preview URL, whether Vercel deploy access was available this session, and whether mobile/desktop were checked visually (Chrome browser tools) versus via generated HTML only — that gap, if any, is named plainly there rather than implied to be covered.
 
+### Stage 17 — Density, Navigation & Color Overhaul + Search + Wishlist Scaffold
+
+**Status:** Done (build-verified) — 2026-07-31. Executed directly from Thai's own
+numbered feedback in chat (no continuation-prompt handoff this time). Full
+rationale for every point in `docs/DESIGN_SYSTEM.md` "Design System v4" (new
+top section) and `DECISIONS.md`.
+
+- **Navigation fixed.** Home page's category list (`CategoryAccordion`, a
+  client-side expand-in-place accordion that never actually navigated) replaced
+  with real `<Link href="/category/[slug]">` rows. A hardcoded `<Link href="/">`
+  on both the book-detail and category pages (always jumped to home regardless of
+  where the visitor came from) replaced with a new `BackLink` component that calls
+  `router.back()` — both together are the "act like a browser" fix: every forward
+  tap is a real navigation, every back tap walks real history.
+- **BookCard redesigned: no images, three lines, no gaps.** The v3 cover-forward
+  tile (generative gradient panel + category emoji + badges + reading-time chip)
+  is removed entirely. New `BookCard` is title/author/short-description only,
+  three lines, no image. A new `BookList` wrapper draws one shared orange border
+  around a `divide-y` single-column list per shelf instead of each card drawing
+  its own bordered box with a gap next to it. `lib/covers.ts` is now dead code
+  (left in place, not deleted — see the file's own header comment for why).
+- **Color: orange primary, pine (forest green) secondary.** `gold`/`teal` renamed
+  to `orange`/`pine` throughout (~45 call sites) with genuinely new values, not
+  just a relabel — true saturated orange (`#ed6c11`) instead of the old
+  desaturated gold, and a green (not blue/teal-leaning-blue) secondary at `#2c8a5e`.
+  Every card/box across the app now carries a visible 2px orange border.
+- **Header search shipped — Stage 8 ("Search & Filtering") no longer "Not
+  Started."** `lib/search.ts` + `app/components/SearchOverlay.tsx`: search by
+  title or author across the full 376-title catalog (not just the ~70 written
+  entries), tap a result to jump straight to it.
+- **Wishlist / `owned` scaffold added**, ahead of any actual non-owned book
+  existing. `Book.owned`/`CatalogEntry.owned` (optional, default `true` via
+  `isOwned()`), every read site powering the 16 shelves filtered through it, and
+  an isolated `/wishlist` route reserved for future non-owned entries — empty
+  today, real empty-state copy, not a stub page.
+
+**Verified:** fresh `/tmp`-mirror `npm install` + `npm run build` (Google Fonts
+stubbed in the scratch copy only, per the established sandbox workaround — real
+committed source untouched) — clean compile, zero TypeScript errors, **88 static
+pages** (up from 87: the new `/wishlist` route). `npm run start` + `curl` spot
+checks confirmed: zero `<img>` tags on category pages, search/Wishlist controls
+present in the header/home markup, orange borders present on book-detail cards,
+wishlist empty-state renders correctly. Not yet committed/pushed to git or
+deployed — this session didn't touch git; see the chat response for what's next.
+
 ---
 
 ## Session Log
+
+**2026-07-31 — new session (Stage 17, UX overhaul from Thai's direct chat feedback, no continuation-prompt handoff):** Thai gave four numbered pieces of feedback directly in chat rather than via a written prompt file — read the live source (`app/page.tsx`, `CategoryAccordion.tsx`, `BookCard.tsx`, `Header.tsx`, `BookTabs.tsx`, `globals.css`, `tailwind.config.ts`, `lib/books.ts`) plus `PROJECT_BRIEF.md`/`ROADMAP.md`/`DECISIONS.md`/`docs/DESIGN_SYSTEM.md`/`docs/SCHEMA.md` first, per the standing rule. See Stage 17 above for the itemized feature list; full point-by-point design rationale in `docs/DESIGN_SYSTEM.md`'s new "Design System v4" section and `DECISIONS.md` #185+.
+
+Mechanically: renamed the `gold`/`teal` accent tokens to `orange`/`pine` across ~45 call sites via a scoped `sed` pass (verified with a before/after grep, zero stray matches left), then hand-edited `tailwind.config.ts`/`globals.css` for the actual new color values (true orange primary, forest-green secondary) and every structural change (BookCard/BookList rewrite, CategoryAccordion removal, BackLink component, lib/search.ts + SearchOverlay, owned/wishlist scaffold in lib/books.ts + new /wishlist route). Two files (`lib/covers.ts`, `app/components/CategoryAccordion.tsx`) are now dead code but couldn't be deleted — this sandbox's cloud-synced mount can create/rename files but not delete them (same `Operation not permitted` limitation as the historic `.git` lock-file bug, `DECISIONS.md` #28/#31/#43) — both were overwritten with a `export {}` stub plus a comment explaining why, safe for Thai to delete manually via File Explorer whenever convenient.
+
+Verified via the established `/tmp`-mirror workflow: fresh `npm install` (clean, 107 packages), `npm run build` with the two `next/font/google` calls stubbed in the scratch copy only per the standard sandbox workaround (real committed `app/layout.tsx` untouched) — clean compile, zero TypeScript errors, 88 static pages (87 before + the new `/wishlist` route). Ran `npm run start` and `curl`'d the home page, a category page, the wishlist page, and a book detail page to confirm the actual rendered HTML matches intent: zero `<img>` tags on the business category page, `book-row`/`line-clamp` classes present (dense text-only rows), `border-orange-600` present on cards, the header markup contains both "Search" and a "Wishlist" link, and the wishlist page's empty state renders. Did not touch git this session (no commit/push) — see the chat response for what Thai should do next (review the live look, then decide on committing/deploying).
 
 **2026-07-31 — Session 21:** Read `PROJECT_BRIEF.md`/`ROADMAP.md`/`DECISIONS.md` plus `docs/SESSION_20_CONTINUATION_PROMPT.md` in full first, running in a different account/sandbox than Session 20 per that prompt's own warning — verified project identity via `PROJECT_BRIEF.md`'s owner line and re-verified git state (local `HEAD` 2 commits behind `origin/main`, working tree otherwise matched except Session 20's own doc updates and 4 books' worth of genuine parallel-retrofit-track content, both left/handled correctly — see `DECISIONS.md` #177). Built the 3 tabs the rollout's UI build had explicitly deferred: Concepts & Frameworks, Apply This, Critical Take, completing the 8-tab structure from `docs/CONTENT_STRUCTURE_PROPOSAL.md` §1 end to end. Full design/copy rationale in `DECISIONS.md` #178-182. Validated via `tsc --noEmit` (clean) and a `/tmp`-mirror `npm run build` (87 pages, clean) — the synced folder's own `node_modules` turned out to be a broken partial cloud-sync copy, unrelated to the code (`DECISIONS.md` #183) — plus a live `npm run start` + `curl` check confirming the 8-tab bar renders correctly on both a v2.1-retrofitted book and a pre-v2.1 book. Committed and pushed via the `/tmp`-clone-and-rsync pattern using a fresh classic PAT from Thai, excluding the 4 in-progress content files per the established pattern. See the chat response for push/deploy verification and the mobile/desktop visual-check result (Chrome tools were connected to Thai's local browser only, not the sandbox's local build server, so that check ran against the live URL post-deploy). Wrote `docs/SESSION_21_CONTINUATION_PROMPT.md` per Thai's standing instruction. See `DECISIONS.md` #177-184 (+ any post-deploy entries).
 

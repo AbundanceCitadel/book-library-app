@@ -33,20 +33,20 @@ html.light {
 
 /* Badge/chip tone tokens — the one place two-tone (bg+fg) accent chips need
    different values per theme rather than a single flipped variable, since a
-   translucent dark-gold chip that reads well on a near-black page would lose
+   translucent dark-orange chip that reads well on a near-black page would lose
    contrast on a warm-white one. See app/components/Badge.tsx. */
 :root {
-  --badge-gold-bg: rgba(198, 138, 46, 0.18);
-  --badge-gold-fg: #eccf85;
-  --badge-teal-bg: rgba(53, 126, 140, 0.22);
-  --badge-teal-fg: #9ccfd6;
+  --badge-orange-bg: rgba(237, 108, 17, 0.2);
+  --badge-orange-fg: #ffbc70;
+  --badge-pine-bg: rgba(44, 138, 94, 0.22);
+  --badge-pine-fg: #99d9b8;
 }
 
 html.light {
-  --badge-gold-bg: #f6e6bd;
-  --badge-gold-fg: #7d571c;
-  --badge-teal-bg: #c9e6e9;
-  --badge-teal-fg: #234f59;
+  --badge-orange-bg: #ffdcb3;
+  --badge-orange-fg: #96420c;
+  --badge-pine-bg: #c8ecd9;
+  --badge-pine-fg: #1b5739;
 }
 
 /* v3 (Stage 16, premium redesign): elevation + motion tokens. See
@@ -104,7 +104,7 @@ body {
 }
 
 :focus-visible {
-  @apply outline-none ring-2 ring-gold-500 ring-offset-2;
+  @apply outline-none ring-2 ring-orange-500 ring-offset-2;
   ring-offset-color: var(--color-bg);
 }
 
@@ -127,81 +127,23 @@ body {
   transition-duration: var(--duration-fast);
 }
 
-/* v3: BookCard cover-forward hover/press micro-interactions. See
-   lib/covers.ts + app/components/BookCard.tsx. Shadow + lift are both plain
-   CSS here (not a Tailwind `hover:` + custom-class pairing, which Tailwind's
-   JIT can't generate CSS for since these aren't Tailwind-recognized
-   utilities) so the elevation step-up is guaranteed to actually apply. */
-.book-card {
-  box-shadow: var(--shadow-sm);
-  transition:
-    transform var(--duration-fast) var(--ease-premium),
-    box-shadow var(--duration-fast) var(--ease-premium),
-    border-color var(--duration-fast) var(--ease-premium);
+/* v4 (Stage 17, density redesign): BookCard/CategoryRow are now plain dense
+   list rows, not cover-forward tiles — see docs/DESIGN_SYSTEM.md v4 "Density
+   over imagery." No image, no generative gradient, no per-card gap: rows sit
+   inside one shared bordered container (`.book-list`) separated only by a
+   1px divider, so a shelf of 20 books reads as one compact list rather than
+   20 separate boxes with air between them ("sell more space" — Thai's own
+   framing). `lib/covers.ts` and the old `.book-card`/`.book-cover` gradient
+   treatment from v3 are removed entirely, not just unused. */
+.book-row {
+  transition: background-color var(--duration-fast) var(--ease-premium);
 }
-.book-card:hover,
-.book-card:focus-visible {
-  transform: translateY(-3px);
-  box-shadow: var(--shadow-md);
+.book-row:hover,
+.book-row:focus-visible {
+  background-color: var(--color-surface-2);
 }
-.book-card:active {
-  transform: translateY(-1px) scale(0.98);
-}
-.book-cover {
-  position: relative;
-  overflow: hidden;
-  transition: transform var(--duration-base) var(--ease-premium);
-}
-.book-card:hover .book-cover {
-  transform: scale(1.04);
-}
-/* Subtle grain overlay on generative covers so a flat CSS gradient reads as a
-   textured surface rather than a flat color swatch — cheap, no image asset. */
-.book-cover::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  opacity: 0.05;
-  mix-blend-mode: overlay;
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='90' height='90'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
-}
-
-/* v3: CategoryAccordion animated expand/collapse (client component, replaces
-   native <details>) — see docs/DESIGN_SYSTEM.md judgment-call note. Height is
-   animated via grid-template-rows (0fr -> 1fr) rather than max-height, which
-   avoids guessing a max pixel value for arbitrarily long book lists. */
-.accordion-panel {
-  display: grid;
-  grid-template-rows: 0fr;
-  transition: grid-template-rows var(--duration-slow) var(--ease-premium);
-}
-.accordion-panel[data-open="true"] {
-  grid-template-rows: 1fr;
-}
-.accordion-panel > div {
-  overflow: hidden;
-}
-.accordion-chevron {
-  transition: transform var(--duration-base) var(--ease-premium);
-}
-[data-open="true"] .accordion-chevron {
-  transform: rotate(180deg);
-}
-
-/* v3: staggered fade-in for book cards revealed inside an expanded accordion
-   panel. Respects reduced-motion below. */
-@keyframes accordion-item-in {
-  from {
-    opacity: 0;
-    transform: translateY(4px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-.accordion-item-in {
-  animation: accordion-item-in var(--duration-base) var(--ease-premium) both;
+.book-row:active {
+  background-color: var(--color-surface-2);
 }
 
 /* v3: tab-panel switch transition in BookTabs. */
@@ -234,7 +176,7 @@ body {
   font-family: var(--font-literata), Georgia, serif;
   font-size: 4.5rem;
   line-height: 1;
-  color: var(--badge-gold-fg);
+  color: var(--badge-orange-fg);
   opacity: 0.22;
   z-index: -1;
 }
@@ -249,16 +191,12 @@ body {
   line-height: 0.85;
   padding-right: 0.08em;
   padding-top: 0.03em;
-  color: var(--badge-gold-fg);
+  color: var(--badge-orange-fg);
   font-weight: 600;
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .book-card,
-  .book-cover,
-  .accordion-panel,
-  .accordion-chevron,
-  .accordion-item-in,
+  .book-row,
   .tab-panel-in,
   * {
     animation-duration: 0.001ms !important;

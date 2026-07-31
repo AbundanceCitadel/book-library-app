@@ -1,13 +1,14 @@
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
   getAllBooks,
   getAllCategories,
   getUnwrittenCatalogEntries,
+  isOwned,
   CATEGORY_LABELS,
   CATEGORY_ICONS,
 } from "@/lib/books";
-import BookCard from "@/app/components/BookCard";
+import BookList from "@/app/components/BookList";
+import BackLink from "@/app/components/BackLink";
 
 export function generateStaticParams() {
   return getAllCategories().map((category) => ({ category }));
@@ -21,26 +22,23 @@ export default function CategoryPage({
   const label = CATEGORY_LABELS[params.category];
   if (!label) notFound();
 
-  const books = getAllBooks().filter((b) =>
-    b.categories.includes(params.category)
+  // v4 (Stage 17): category shelves only ever show owned books — see
+  // lib/books.ts isOwned() / getWishlistBooks() and docs/SCHEMA.md.
+  const books = getAllBooks().filter(
+    (b) => isOwned(b) && b.categories.includes(params.category)
   );
   const unwritten = getUnwrittenCatalogEntries(params.category);
   const totalInLibrary = books.length + unwritten.length;
 
   return (
     <main className="mx-auto max-w-5xl px-4 py-8 sm:px-6">
-      <Link
-        href="/"
-        className="tap-target -ml-1 text-sm text-muted hover:text-gold-400 hover:underline"
-      >
-        ← All categories
-      </Link>
+      <BackLink label="Back" fallbackHref="/" />
       <h1 className="mt-2 flex items-center gap-3 text-3xl font-semibold tracking-tight sm:text-4xl">
         <span
           className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full text-2xl"
           style={{
             background:
-              "radial-gradient(circle at 30% 30%, var(--badge-gold-bg), transparent 70%)",
+              "radial-gradient(circle at 30% 30%, var(--badge-orange-bg), transparent 70%)",
           }}
           aria-hidden="true"
         >
@@ -58,10 +56,8 @@ export default function CategoryPage({
           No full summaries in this section yet.
         </p>
       ) : (
-        <div className="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-2">
-          {books.map((book) => (
-            <BookCard key={book.id} book={book} />
-          ))}
+        <div className="mt-6">
+          <BookList books={books} />
         </div>
       )}
 

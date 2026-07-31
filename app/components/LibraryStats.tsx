@@ -1,11 +1,11 @@
 import { Book, getLibraryCatalog } from "@/lib/books";
 
 function StatTile({ value, label }: { value: string; label: string }) {
-  // v3 (Stage 16): elevated card + hover lift so the stats strip reads as a
-  // trio of tactile tiles rather than a flat inline row of numbers.
+  // v4 (Stage 17): orange-bordered tile, matching the new book-list/box
+  // treatment used everywhere else — see docs/DESIGN_SYSTEM.md v4.
   return (
-    <div className="book-card rounded-xl border border-border bg-surface p-4 text-center">
-      <div className="text-2xl font-semibold text-gold-400 sm:text-3xl">
+    <div className="elevate-sm rounded-xl border-2 border-orange-600/60 bg-surface p-4 text-center">
+      <div className="text-2xl font-semibold text-orange-400 sm:text-3xl">
         {value}
       </div>
       <div className="mt-1 text-xs text-muted">{label}</div>

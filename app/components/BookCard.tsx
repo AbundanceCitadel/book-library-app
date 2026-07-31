@@ -1,56 +1,31 @@
 import Link from "next/link";
 import type { Book } from "@/lib/books";
-import { CATEGORY_LABELS, CATEGORY_ICONS } from "@/lib/categories";
-import { coverGradientCss } from "@/lib/covers";
-import Badge from "./Badge";
 
-// v3 (Stage 16, premium redesign): cover-forward tile, replacing the plain
-// text-row card. See docs/DESIGN_SYSTEM.md "Visual richness without real
-// cover art" — the top panel is a deterministic generative gradient (falls
-// back-compatible with a real `coverImage` later, preferred over the
-// gradient if/when populated) with the book's primary category emoji
-// rendered large as a central emblem, echoing the category-browsing badge
-// treatment in CategoryAccordion so browsing-by-book and browsing-by-category
-// feel like the same visual system.
+// v4 (Stage 17, density redesign): replaces the v3 cover-forward tile
+// entirely. Thai's brief: no cover image/icon, no per-card gap — a plain
+// rectangular row with exactly three lines (title, author, a short
+// description) so a shelf of dozens of books reads as one dense, scannable
+// list instead of a grid of boxes with air between them ("sell more space").
+// See docs/DESIGN_SYSTEM.md v4 "Density over imagery." Rendered as a single
+// row here; the bordered/divided list container that gives rows their
+// orange-outlined "box" look lives one level up in `BookList` so many rows
+// share one border instead of each row drawing its own.
+function firstLine(text: string, maxLen = 140): string {
+  const clean = text.replace(/\s+/g, " ").trim();
+  if (clean.length <= maxLen) return clean;
+  return `${clean.slice(0, maxLen).replace(/\s+\S*$/, "")}…`;
+}
+
 export default function BookCard({ book }: { book: Book }) {
-  const primaryCategory = book.categories[0];
-  const emblem = CATEGORY_ICONS[primaryCategory] ?? "📚";
-
   return (
     <Link
       href={`/book/${book.id}`}
-      className="book-card group flex flex-col overflow-hidden rounded-xl border border-border bg-surface"
+      className="book-row motion-premium tap-target block px-4 py-3"
     >
-      <div
-        className="book-cover flex aspect-[5/3] items-center justify-center border-b border-border sm:aspect-[16/9]"
-        style={
-          book.coverImage
-            ? { backgroundImage: `url(${book.coverImage})`, backgroundSize: "cover", backgroundPosition: "center" }
-            : { backgroundImage: coverGradientCss(book.id) }
-        }
-        aria-hidden="true"
-      >
-        {!book.coverImage && (
-          <span className="text-4xl opacity-90 drop-shadow-sm sm:text-5xl">
-            {emblem}
-          </span>
-        )}
-      </div>
-      <div className="flex flex-1 flex-col gap-2 p-4">
-        <div>
-          <div className="font-medium leading-snug">{book.title}</div>
-          <div className="mt-0.5 text-sm text-muted">{book.author}</div>
-        </div>
-        <div className="mt-auto flex flex-wrap items-center gap-1.5">
-          {book.categories.slice(0, 2).map((cat) => (
-            <Badge key={cat} tone="gold">
-              {CATEGORY_LABELS[cat] ?? cat}
-            </Badge>
-          ))}
-          <span className="ml-auto whitespace-nowrap text-xs text-muted">
-            ~{book.estimatedOriginalReadingTimeMinutes} min
-          </span>
-        </div>
+      <div className="font-medium leading-snug">{book.title}</div>
+      <div className="mt-0.5 text-sm text-muted">{book.author}</div>
+      <div className="mt-1 line-clamp-1 text-sm text-muted">
+        {firstLine(book.summary)}
       </div>
     </Link>
   );

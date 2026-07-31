@@ -5,7 +5,7 @@ export default function OfflinePage() {
         className="mx-auto flex h-16 w-16 items-center justify-center rounded-full text-3xl"
         style={{
           background:
-            "radial-gradient(circle at 30% 30%, var(--badge-teal-bg), transparent 70%)",
+            "radial-gradient(circle at 30% 30%, var(--badge-pine-bg), transparent 70%)",
         }}
         aria-hidden="true"
       >

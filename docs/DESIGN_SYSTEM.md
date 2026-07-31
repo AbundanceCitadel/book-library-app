@@ -1,3 +1,184 @@
+# Design System v4 — Density, Navigation & Color Overhaul (Stage 17)
+
+Supersedes v3 below on every point this session touched — v3's cover-forward,
+image-heavy tile treatment is explicitly reversed, not kept. Everything v3 didn't
+touch (typography, dark-first strategy, elevation/motion tokens, tab structure)
+carries forward unchanged. Responds directly to Thai's own numbered feedback in one
+session; each subsection below is one of his points.
+
+## 1. Navigation: real pages, not in-place expansion
+
+Thai's exact complaint: selecting a category "doesn't go into business, it still
+stays in the library" — v3's `CategoryAccordion` expanded a category's books in
+place on the home page with client state (`useState`), never actually navigating.
+No URL change, no history entry, so the browser's back button had nothing real to
+undo. Fixed by removing `CategoryAccordion` entirely and rendering the category
+list as plain `<Link href="/category/[slug]">` rows directly in `app/page.tsx` —
+every tap is now a real navigation.
+
+The second half of the complaint — "when I click backward it goes backward rather
+than going to the home page" — was a separate bug even before this: `BookPage` and
+`CategoryPage` both had a hardcoded `<Link href="/">`, so "back" always jumped to
+the home page regardless of where the visitor actually came from (a search result,
+a related-book link, another category). Replaced with a new `BackLink` client
+component (`app/components/BackLink.tsx`) that calls `router.back()` — a real walk
+back through whatever history the browser actually built, falling back to `/` only
+when there's no prior entry (e.g. a bookmarked/direct link). This is the literal
+"act as a browser" fix: forward always adds a history entry now (real `<Link>`s
+everywhere), and every in-app "back" affordance uses that same history instead of
+a hardcoded destination.
+
+## 2. Density over imagery — BookCard redesign
+
+Thai's ask: remove every cover image/icon from book listings, keep exactly three
+lines per entry (title, author, a short description), and remove the gaps between
+cards so a shelf reads as one dense list rather than a grid of separate boxes —
+his own framing was that unused space is space that could otherwise show another
+title ("sell more space").
+
+v3's `BookCard` was a cover-forward tile: a generative CSS-gradient "cover" panel
+(deterministic per book id, see the now-removed `lib/covers.ts`) with a large
+category-emoji emblem, category badges, and a reading-time chip below. All of that
+is gone. The new `BookCard` renders three lines only — title, author, and the
+opening ~140 characters of `book.summary` (no new schema field; a short dedicated
+"blurb" field would be a real content-pipeline addition across 70+ books, and the
+existing `summary` already opens with a strong single-sentence hook in every
+written entry, so truncating it costs nothing and needed no data migration).
+Category badges and the reading-time chip are dropped from the list view entirely
+(they still show on the book detail page itself) per Thai's explicit "that's it."
+
+Rows no longer draw their own border/radius/shadow — a new `BookList` wrapper
+(`app/components/BookList.tsx`) draws one shared container per shelf (`rounded-xl
+border-2 border-orange-600`) around a `divide-y` list of rows, so many books share
+one border instead of each row being its own boxed card with a gap next to its
+neighbor. This is a **single column at every breakpoint**, not a 2-column grid —
+a grid still has visible gutters between columns; a single dense list was the more
+literal read of "remove the space between them."
+
+## 3. Color: orange primary, a non-blue complement
+
+Thai's explicit, non-negotiable direction this time (v2's "orange+blue,
+blue+orange, or gold" question in Stage 15 landed on desaturated gold+slate-teal
+instead — this session reopens that specifically): **orange is the primary color**,
+full stop, not a desaturated gold standing in for it. He asked for a second color
+to complement it, ruled out blue/navy explicitly, and asked for a visible orange
+border on "the boxes" as the signature look.
+
+- **Primary — true orange** (`tailwind.config.ts` `orange` scale, primary
+  `#ed6c11`). Meaningfully more saturated than v2/v3's gold (`#c68a2e`), which was
+  gold specifically *because* it was deliberately desaturated to avoid vibrating on
+  near-black — this session accepts that trade-off in the other direction since
+  Thai was explicit ("I just find our orange is attractive... orange will be the
+  primary color of this design," not "something orange-adjacent that's easier on a
+  dark screen"). Checked against both surface colors: readable at 400/500 weight on
+  `--color-surface` (`#16171b` dark / `#ffffff` light) for text and border use; not
+  used as a full-bleed background fill anywhere (see the callout below on why).
+- **Secondary — pine (forest) green** (`pine` scale, primary `#2c8a5e`). The literal
+  wheel-complement of orange sits in blue territory (~210°) — the one option Thai
+  explicitly excluded. Pine's hue sits at ~150-155° across its whole scale,
+  which reads unambiguously as **green**, not blue-green/cyan/teal (that range
+  starts around 185-200°, where v2/v3's old "slate-teal" secondary actually lived —
+  part of why it read close enough to "blue" to be worth replacing, not just a
+  naming change). Green is the nearest fully-committed *cool* counterpoint to a
+  warm orange that isn't blue: it sits on the opposite side of the color wheel from
+  red (orange's neighbor) without crossing into blue's territory at all, so it
+  still reads as a genuine temperature contrast against orange rather than a
+  same-family variation (compare to keeping something orange-adjacent like a
+  reds/yellows secondary, which wouldn't contrast at all).
+- **Borders on boxes:** every card-like container (the category-shelf list,
+  `BookList`, the stat tiles, the Who-This-Is-For/When-To-Read cards, key-lesson
+  and action-step rows, concept cards, quote cards) now draws a visible 2px orange
+  border (`border-orange-600/60` on content cards, solid `border-orange-600` on the
+  two full-width list containers) instead of the previous neutral
+  `border-border`. The Critical Take tab's context-note callout deliberately kept
+  its pine-colored left border rather than switching to orange — the one place in
+  the app that intentionally signals "this is the contrasting/critical content," a
+  natural home for the secondary color instead of the primary one.
+- **Not done:** literally painting the whole page background orange. Thai's message
+  reads as wanting orange to be *the* dominant color of the design, but a solid
+  orange fill behind 17px/1.8-line-height reading text would directly fight the
+  dark-mode reading-comfort work every prior session did (Stage 15's whole
+  rationale for the warm-near-black background). Interpreted "orange as the main
+  color" as "orange is the color that shows up everywhere as the deliberate accent
+  and every box gets an orange border," not a literal background-color swap —
+  flagging this interpretation explicitly rather than silently deciding it, since
+  it's the one place this session second-guessed a literal reading of the brief.
+  Easy to revisit if that's not what Thai meant.
+- **Rename, not just re-tint:** the old `gold`/`teal` Tailwind keys and
+  `--badge-gold-*`/`--badge-teal-*` CSS variables are renamed to `orange`/`pine`
+  throughout (mechanical, ~45 call sites across every component) rather than kept
+  under their old names with new values — a future session grepping for "why is
+  this called gold when it's rendering orange" was judged a worse outcome than a
+  same-session rename while every touched file was already open.
+
+## 4. Header search (Stage 8 finally implemented)
+
+Stage 8 ("Search & Filtering") had been "Not Started" since the roadmap was
+written. Thai's ask this session was concrete enough to just build it: a search
+icon in the header, search by title or author, results list, tap a result to go
+straight to that book instead of drilling into a category first.
+
+- `lib/search.ts` — `getSearchIndex()` builds one flat list from **both**
+  `getAllBooks()` (full written entries, linked straight to `/book/[id]`) and
+  `content/catalog.json` (the other ~300+ owned titles with no full entry yet,
+  linked to their category page and labeled "not yet summarized"). Deliberately
+  covers the whole 376-title catalog, not just the ~70 written so far — Thai's own
+  framing was that search is "another way to access the book" across "300 or 400
+  books already," not a shortcut only for finished entries.
+- `app/components/SearchOverlay.tsx` — a client modal (button in `Header`, opens a
+  full-text filter over the index, Escape/backdrop-click to close). Filters on a
+  plain case-insensitive substring match against title OR author — no fuzzy
+  matching added; the library is small enough (low hundreds) that substring match
+  on real titles/authors is sufficient, and it's simple enough to have zero
+  failure modes to debug later.
+- Selecting a result calls `router.push`, a real navigation (adds a history entry),
+  consistent with point 1 above rather than a special case.
+- The index is computed server-side in `Header.tsx` (a server component, free to
+  use `lib/search.ts`'s `fs`-backed reads) and passed to `SearchOverlay` as a plain
+  prop — the same client/server split `lib/categories.ts` established in Stage 16
+  for the same reason (keep `fs`/`path` out of the browser bundle).
+
+## 5. Wishlist / owned — scaffold for books Thai doesn't own yet
+
+Thai flagged this as something he's genuinely unsure how to solve, not a spec to
+implement literally: he wants to eventually add books he doesn't own, but doesn't
+want that to dilute the 16 existing category shelves (already substantial,
+376-title work), and doesn't want it to feel "rude" to mix owned/non-owned books
+together once it happens. He asked for the **data model** to be right now even
+though there's nothing to migrate yet, specifically so a later session doesn't have
+to rework the whole app to bolt this on.
+
+- `Book.owned` and `CatalogEntry.owned` — both optional `boolean`, default `true`
+  via a single `isOwned()` helper in `lib/books.ts`. No backfill needed: every one
+  of the ~70 written books and 376 catalog rows genuinely is a book Thai owns, so
+  leaving the field absent (rather than writing `"owned": true` into 400+ JSON
+  entries) is correct, not lazy — `isOwned()` is the one choke point every
+  category/home/search read goes through, so a future `owned: false` entry
+  automatically excludes itself everywhere it should without touching this code
+  again.
+- Every read site that powers the 16 shelves (`app/page.tsx`, `app/category/
+  [category]/page.tsx`, `getUnwrittenCatalogEntries`) now filters through
+  `isOwned()` explicitly, so a future non-owned entry can never quietly show up
+  mixed into "the library" even if some other part of the code forgets to filter.
+- A new, isolated `/wishlist` route (`app/wishlist/page.tsx`) is the "somewhere
+  else" Thai was looking for — `getWishlistBooks()`/`getWishlistCatalogEntries()`
+  surface only `owned: false` entries. Reachable via a single low-key text link
+  under the home page's shelf list ("Looking for a book you don't own yet? →
+  Wishlist"), not a header nav item competing for attention with the 16 real
+  shelves. Empty today (real empty state copy, not a broken page) since nothing is
+  marked non-owned yet.
+- **On "not rude":** the mechanism itself (a separate page, not a badge stamped on
+  every wishlist book everywhere it appears) is the answer to Thai's own concern —
+  a non-owned book never appears next to an owned one on a shared shelf where a
+  visible "you don't own this" tag would feel pointed. The one exception is inside
+  search results, which deliberately cut across every section — there, a plain
+  "· Wishlist" suffix (same visual weight as the "· not yet summarized" suffix
+  already used for unwritten catalog entries) marks a non-owned result, since
+  search is the one place owned and non-owned entries can legitimately appear side
+  by side and Thai should be able to tell which is which.
+
+---
+
 # Design System v3 — Premium Redesign (Stage 16)
 
 Supersedes v2 below (v2's palette/typography/tokens are **kept, not replaced** —

@@ -50,6 +50,26 @@ new-book batch prompts is tracked in `ROADMAP.md` Stage 15.
 | `personalNotes` | string | no | Free text; empty string until Thai writes something; UI ships Stage 11 |
 | `dateAdded` | string (ISO date) | yes | When the entry was created |
 | `sourceNotes` | string | no | Internal note on synthesis process / sources consulted (not shown in UI) — copyright compliance trail |
+| `owned` | boolean | no, default `true` | **New in v4 (Stage 17).** `true`/absent = a book on Thai's actual shelves, part of the 376-title owned library and its 16 category shelves. `false` = a wishlist entry — a book Thai wants but doesn't own — excluded from every category-shelf count/listing and surfaced only on the dedicated `/wishlist` page. See "Wishlist / owned" below. |
+
+### Wishlist / owned — new in v4 (Stage 17)
+
+Thai's stated plan: this app starts as a catalog of books he actually owns (376
+titles), but he eventually wants to extend it to books he doesn't own yet — while
+keeping that expansion **clearly isolated**, not diluting the 16 existing category
+shelves that already represent real, substantial work. `owned` is the field that
+draws that line: every book/catalog entry defaults to owned (`true`/absent) unless
+explicitly set to `false`. `content/catalog.json` entries get the same optional
+field for the same reason (see the `CatalogEntry` type in `lib/books.ts`).
+
+Nothing in either `content/books/*.json` or `content/catalog.json` is marked
+`owned: false` today — there's no backfill needed, since every entry so far
+genuinely is a book Thai owns. This field exists now, before any non-owned entry
+is ever added, specifically so the distinction doesn't require reworking the data
+model or every read site later (`isOwned()` in `lib/books.ts` is the single choke
+point every category/home/search read goes through). The isolated `/wishlist`
+route (`app/wishlist/page.tsx`) is where `owned: false` entries will actually
+surface once they exist — it's empty today, not broken.
 
 ### `Section` object (chapter or part)
 
