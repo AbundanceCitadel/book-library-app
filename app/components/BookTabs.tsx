@@ -15,17 +15,23 @@ import Badge from "./Badge";
 // of the Quotes tab — see docs/DESIGN_SYSTEM.md "Quotes get special
 // treatment."
 // v2.1 (8-Tab Content Structure Rollout): "Quotes" renamed to "Highlights &
-// Quotes" below (label-only change, same data/tab). The three other approved
-// new tabs (Concepts & Frameworks, Apply This, Critical Take) are NOT built
-// here yet — this rollout's scope was schema/pipeline/content, not the UI
-// build. `Book.conceptsFrameworks` / `applyThis` / `criticalTake` (lib/books.ts)
-// exist and are being populated by content retrofits, but nothing renders them
-// yet. Building the 3 new tabs is a separate follow-up session.
+// Quotes" below (label-only change, same data/tab).
+// Session 21: built the three remaining new tabs — Concepts & Frameworks,
+// Apply This, Critical Take — completing the 8-tab set from
+// docs/CONTENT_STRUCTURE_PROPOSAL.md §1. Tab order matches that proposal
+// exactly. Each new tab follows the Author tab's established fallback
+// pattern: always shown, plain "not written yet" message
+// (className="text-sm text-muted") when the book's corresponding
+// `Book.conceptsFrameworks` / `applyThis` / `criticalTake` field (lib/books.ts)
+// is absent — most books don't have this data yet, see ROADMAP.md Stage 15.
 const TABS = [
   { key: "summary", label: "Summary" },
   { key: "chapters", label: "Chapters" },
   { key: "lessons", label: "Key Lessons" },
+  { key: "concepts", label: "Concepts & Frameworks" },
+  { key: "apply", label: "Apply This" },
   { key: "quotes", label: "Highlights & Quotes" },
+  { key: "critical", label: "Critical Take" },
   { key: "author", label: "Author" },
 ] as const;
 
@@ -216,6 +222,86 @@ export default function BookTabs({
           </section>
         )}
 
+        {active === "concepts" && (
+          <section>
+            {book.conceptsFrameworks && book.conceptsFrameworks.length > 0 ? (
+              <div className="space-y-4">
+                {book.conceptsFrameworks.map((c, i) => (
+                  <div
+                    key={i}
+                    className="elevate-sm rounded-xl border border-border bg-surface p-4"
+                  >
+                    <h3 className="text-base font-semibold">{c.name}</h3>
+                    <p className="prose-reading mt-2 text-sm">{c.definition}</p>
+                    {c.sourceSection && (
+                      <button
+                        type="button"
+                        onClick={() => selectTab("chapters")}
+                        className="tap-target motion-premium mt-3 inline-flex items-center gap-1 rounded-full border border-border px-3 text-xs font-medium text-muted hover:border-gold-500 hover:text-gold-400"
+                      >
+                        <span aria-hidden="true">←</span>
+                        {c.sourceSection}
+                      </button>
+                    )}
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <p className="text-sm text-muted">
+                Concepts & Frameworks not written yet for this entry — part of
+                the ongoing v2.1 content rollout, see <code>ROADMAP.md</code>{" "}
+                for retrofit status.
+              </p>
+            )}
+          </section>
+        )}
+
+        {active === "apply" && (
+          <section>
+            {book.applyThis ? (
+              <>
+                <h2 className="text-xl font-semibold">Action Steps</h2>
+                <ol className="mt-3 space-y-3">
+                  {book.applyThis.actionSteps.map((step, i) => (
+                    <li
+                      key={i}
+                      className="elevate-sm flex gap-3 rounded-lg border border-border bg-surface p-3 text-sm"
+                    >
+                      <span
+                        aria-hidden="true"
+                        className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[var(--badge-gold-bg)] text-[11px] font-semibold text-[var(--badge-gold-fg)]"
+                      >
+                        {i + 1}
+                      </span>
+                      <span className="prose-reading text-sm">{step}</span>
+                    </li>
+                  ))}
+                </ol>
+
+                <h2 className="mt-8 text-xl font-semibold">
+                  Reflection Questions
+                </h2>
+                <ul className="mt-3 space-y-3">
+                  {book.applyThis.reflectionQuestions.map((q, i) => (
+                    <li
+                      key={i}
+                      className="rounded-lg border border-dashed border-border bg-transparent p-3 text-sm"
+                    >
+                      <span className="prose-reading text-sm italic">{q}</span>
+                    </li>
+                  ))}
+                </ul>
+              </>
+            ) : (
+              <p className="text-sm text-muted">
+                Apply This not written yet for this entry — part of the
+                ongoing v2.1 content rollout, see <code>ROADMAP.md</code> for
+                retrofit status.
+              </p>
+            )}
+          </section>
+        )}
+
         {active === "quotes" && (
           <section>
             {quoteCategories.length > 1 && (
@@ -269,6 +355,47 @@ export default function BookTabs({
                 </div>
               ))}
             </div>
+          </section>
+        )}
+
+        {active === "critical" && (
+          <section>
+            {book.criticalTake ? (
+              <>
+                <ul className="space-y-3">
+                  {book.criticalTake.points.map((point, i) => (
+                    <li
+                      key={i}
+                      className="flex gap-3 rounded-lg border border-[var(--badge-teal-bg)] bg-surface p-3 text-sm"
+                    >
+                      <span
+                        className="mt-0.5 text-teal-400"
+                        aria-hidden="true"
+                      >
+                        ◆
+                      </span>
+                      <span className="prose-reading text-sm">{point}</span>
+                    </li>
+                  ))}
+                </ul>
+                {book.criticalTake.contextNote && (
+                  <div className="elevate-sm mt-6 rounded-xl border-l-4 border-teal-400 bg-surface p-4">
+                    <h3 className="text-sm font-semibold text-teal-400">
+                      Since Publication
+                    </h3>
+                    <p className="prose-reading mt-2 text-sm">
+                      {book.criticalTake.contextNote}
+                    </p>
+                  </div>
+                )}
+              </>
+            ) : (
+              <p className="text-sm text-muted">
+                Critical Take not written yet for this entry — part of the
+                ongoing v2.1 content rollout, see <code>ROADMAP.md</code> for
+                retrofit status.
+              </p>
+            )}
           </section>
         )}
 
