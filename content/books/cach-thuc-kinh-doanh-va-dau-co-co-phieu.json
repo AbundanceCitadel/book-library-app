@@ -1,0 +1,165 @@
+{
+  "id": "cach-thuc-kinh-doanh-va-dau-co-co-phieu",
+  "code": "044",
+  "title": "Cách Thức Kinh Doanh Và Đầu Cơ Cổ Phiếu (How to Trade in Stocks)",
+  "author": "Jesse Livermore (annotated edition by Richard Smitten)",
+  "categories": [
+    "finance-investing"
+  ],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 240,
+  "tags": [
+    "stock trading",
+    "speculation",
+    "market psychology",
+    "trading rules",
+    "classic finance"
+  ],
+  "structureType": "chapters",
+  "summary": "How to Trade in Stocks is the only book Jesse Livermore wrote himself, published in 1940 shortly before his death, distilling four decades of speculative trading — across booms, crashes, and personal fortunes made and lost multiple times over — into a compact statement of his trading philosophy. The Vietnamese edition sold under this title is based on the widely circulated annotated version edited by Richard Smitten, which preserves Livermore's original seven core chapters while adding editorial commentary, biographical framing, and supplementary material (including Livermore's separate market-timing tool, the Livermore Market Key) aimed at helping modern readers apply a decades-old trading philosophy to contemporary markets and charting tools.\n\nLivermore's own text is built less around specific stock picks and more around a repeatable process: identifying a stock's \"pivotal point\" — the price level at which a move is confirmed to be beginning — and only committing capital once that point is reached, rather than trying to predict a move in advance. He extends this into a broader philosophy of following market leaders rather than trying to catch every stock's movement, using time and price together (rather than either alone) to judge market conditions, and building positions incrementally as a trade proves itself correct rather than committing fully at the outset.\n\nA second major thread, woven throughout the book's narrative sections, is money management and emotional discipline. Livermore is candid, in the sections retelling his own career, about the specific mistakes that cost him fortunes — chasing too many stocks at once, trading on tips rather than his own system, and allowing ego or impatience to override discipline — treating these personal failures as case studies as instructive as his successes. He describes discipline practices like locking away a portion of trading profits after every successful trade, treating market losses as a cost of doing business rather than a personal failure, and conducting a rigorous year-end review of every trade to understand exactly why each position won or lost.\n\nBecause the Smitten-edited edition this Vietnamese translation is based on adds substantial supplementary material beyond Livermore's original 1940 text — including guidance on applying his rules with modern computer-based charting, and a full reprint of Livermore's separate \"Market Key\" trading tool — readers encounter both the historical, first-person voice of Livermore's own writing and a layer of modern interpretive commentary explaining how his rules map onto contemporary trading practice.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "The Challenge of Speculation",
+      "summary": "This opening chapter frames speculation as a serious, disciplined profession rather than gambling, setting out Livermore's core claim that successful trading comes from following well-tested rules consistently rather than from any special gift for predicting markets. He opens by describing his own decades of experience across multiple market cycles as the basis for the rules that follow.\n\nThe chapter's substance introduces Livermore's foundational philosophy: that markets are driven by repeating patterns of human behavior — greed, fear, hope, and ignorance — which don't fundamentally change even as specific market conditions do, making disciplined, rule-based trading more reliable over time than trying to predict any single market event.\n\nThe chapter closes by setting up the practical question the rest of the book answers: specifically when and how to recognize that a stock is genuinely ready to move, which the following chapter addresses directly.",
+      "keyLessons": [
+        "Successful speculation, in Livermore's framing, comes from following tested rules consistently rather than predicting individual market events.",
+        "Market-moving human behaviors like greed and fear repeat across market cycles even as specific conditions change.",
+        "Treating trading as a serious, disciplined profession rather than gambling is a prerequisite for consistent success."
+      ]
+    },
+    {
+      "order": 2,
+      "title": "When Does a Stock Act Right?",
+      "summary": "This chapter addresses how to read a stock's price behavior to judge whether it is genuinely poised to move in a sustained way, as opposed to simply fluctuating randomly. It opens by cautioning against trading based on hope or attachment to a stock rather than what its actual price behavior indicates.\n\nThe chapter's middle section develops the idea of studying a stock's price record over recent weeks to identify what Livermore calls the \"pivotal point\" — the specific price level that, once reached, confirms a move is beginning rather than merely possible — introduced fully in a later chapter but foreshadowed here through the broader discussion of reading price action.\n\nThe chapter closes by moving from individual stock behavior to the importance of following market leaders specifically, setting up the following chapter's argument that a trader's attention is better spent on a small number of dominant stocks than spread across the whole market.",
+      "keyLessons": [
+        "A stock's actual price behavior, not a trader's hopes or attachment to it, should determine trading decisions.",
+        "Learning to read whether a stock is \"acting right\" is a specific, trainable skill based on studying its recent price record.",
+        "Confirmation of a genuine move should come from observed price behavior, not from anticipation of what a stock \"should\" do."
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Follow the Leaders",
+      "summary": "This chapter argues that a trader's limited attention is better concentrated on a small number of genuinely dominant, leading stocks in strong sectors than spread thinly across many stocks. It opens by describing the common novice mistake of trying to track and trade too many different stocks simultaneously.\n\nThe chapter's substance develops the reasoning behind concentrating on leaders: dominant stocks in strong sectors tend to move first and most decisively when a broader trend begins, making them both easier to read and more rewarding to trade than smaller or less prominent stocks that may lag or fail to follow the broader trend at all.\n\nThe chapter closes by shifting toward the practical mechanics of position-building once a leading stock has been identified and its pivotal point reached, setting up the following chapter's focus on money management.",
+      "keyLessons": [
+        "Concentrating attention on a small number of genuinely dominant stocks is more effective than spreading attention across many.",
+        "Leading stocks in strong sectors tend to move first and most clearly when a broader market trend begins.",
+        "Trying to track too many stocks simultaneously is identified as one of the most common mistakes new traders make."
+      ]
+    },
+    {
+      "order": 4,
+      "title": "Money in the Hand",
+      "summary": "This chapter shifts from stock selection to money management, specifically addressing how a trader should treat and protect profits once a trade succeeds. It opens with the practice, described from Livermore's own career, of setting aside a portion of every successful trade's profits into a safe reserve rather than reinvesting all gains back into further speculation.\n\nThe chapter's middle section develops the broader discipline of treating realized profits as genuinely secured rather than merely paper gains to be risked again, arguing that many traders who achieve significant early success lose it all specifically because they fail to distinguish between capital that's still at risk and capital that has been locked in.\n\nThe chapter closes by moving into the mechanics of exactly when and how to commit new capital to a position, setting up the following chapter's detailed treatment of the pivotal point concept.",
+      "keyLessons": [
+        "Setting aside a portion of realized profits into a protected reserve after every successful trade builds durable wealth rather than fragile paper gains.",
+        "Distinguishing between capital still at risk and capital that has been genuinely secured is a core money-management discipline.",
+        "Many traders lose significant early gains specifically because they fail to protect realized profits from further risk."
+      ]
+    },
+    {
+      "order": 5,
+      "title": "The Pivotal Point",
+      "summary": "This chapter develops Livermore's central trading concept in full: the specific price level at which a stock's move can be considered confirmed, and the point at which a trader should make their first real commitment of capital. It opens by distinguishing between anticipating a move and confirming one, arguing that the discipline to wait for confirmation, even at the cost of a slightly less favorable entry price, is what separates consistent traders from erratic ones.\n\nThe chapter's substance walks through how to identify the pivotal point through careful study of a stock's recent price record, and how to build a position incrementally as the stock continues to confirm the move rather than committing the full intended position all at once — a technique later commentators have described using the term \"pyramiding.\"\n\nThe chapter closes by using this disciplined, confirmation-based approach as a contrast to the impulsive, unconfirmed trading that leads to major losses, setting up the following chapter's account of Livermore's own million-dollar mistake made by violating exactly this principle.",
+      "keyLessons": [
+        "The pivotal point — the price level confirming a move has genuinely begun — is the trigger for committing real capital, not anticipation of a move.",
+        "Building a position incrementally as a trade confirms itself reduces risk compared to committing fully at the outset.",
+        "Waiting for confirmation, even at a less favorable entry price, is a core discipline distinguishing consistent traders from impulsive ones."
+      ]
+    },
+    {
+      "order": 6,
+      "title": "The Million Dollar Blunder",
+      "summary": "This chapter uses a specific, costly mistake from Livermore's own trading career as a case study in what happens when the disciplines established in earlier chapters are violated. It opens by setting up the circumstances of the trade, including the psychological pressures that led Livermore to abandon his own established rules.\n\nThe chapter's middle section walks through exactly which principles were violated — trading without waiting for a confirmed pivotal point, allowing external pressure or ego to override the system — and the financial consequences that followed, using Livermore's own candor about the mistake as the chapter's central teaching device.\n\nThe chapter closes by drawing the lesson that discipline is hardest to maintain precisely when a trader is most confident or under the most pressure, setting up the following chapter's contrasting account of one of Livermore's largest disciplined successes.",
+      "keyLessons": [
+        "Even highly experienced traders can suffer major losses by abandoning their own established rules under pressure or overconfidence.",
+        "Discipline is often hardest to maintain at exactly the moments it matters most — under pressure or amid strong conviction.",
+        "Analyzing one's own past mistakes candidly and specifically is treated as essential trading education, not simply an uncomfortable exercise."
+      ]
+    },
+    {
+      "order": 7,
+      "title": "The Three Million Dollar Profit",
+      "summary": "This closing narrative chapter contrasts the previous chapter's costly mistake with an account of one of Livermore's largest disciplined successes, showing the pivotal-point and incremental-position-building principles working as intended under real market conditions. It opens by setting up the market context for the trade being described.\n\nThe chapter's substance walks through how Livermore applied his own system with discipline in this instance — waiting for confirmation, building the position incrementally, and protecting profits along the way — to produce one of the more significant gains of his career, using it as a capstone demonstration of the book's cumulative teaching.\n\nThe chapter closes the original seven-chapter core of Livermore's 1940 text, after which the Smitten-edited edition (on which this Vietnamese translation is based) adds supplementary chapters covering the Livermore Market Key trading tool, guidance on applying the rules with modern charting technology, and additional biographical and editorial material.",
+      "keyLessons": [
+        "Disciplined application of the pivotal-point and incremental-position principles, sustained through a full trade, can produce outsized results.",
+        "Livermore's largest successes and largest failures stemmed from the same underlying system — the difference was whether the system was followed.",
+        "The book's core seven chapters function as a complete, self-contained case for rule-based trading, with the surrounding material in this edition serving as supplementary context."
+      ]
+    }
+  ],
+  "keyLessons": [
+    "Follow tested trading rules consistently rather than trying to predict individual market events through instinct alone.",
+    "Wait for a stock's pivotal point — genuine price confirmation — before committing capital, rather than anticipating a move.",
+    "Concentrate attention on a small number of dominant, leading stocks rather than spreading focus across the whole market.",
+    "Build positions incrementally as a trade confirms itself, rather than committing fully at the outset.",
+    "Set aside a portion of every realized profit into a protected reserve rather than risking all gains on further trades.",
+    "Recognize that discipline is hardest to maintain exactly when confidence or external pressure is highest.",
+    "Study your own losing trades as rigorously as your winning ones to understand exactly what went wrong.",
+    "Treat market losses as an ordinary cost of the trading profession rather than a personal failure.",
+    "Distinguish clearly between capital still at risk and capital that has been genuinely secured.",
+    "Review your trading decisions on a regular, disciplined basis — Livermore describes doing this annually — rather than only after major wins or losses."
+  ],
+  "quotes": [
+    {
+      "text": "Đầu cơ và kinh doanh cổ phiếu thành công là tìm kiếm các quy tắc hoạt động hiệu quả và sau đó tuân thủ những quy tắc đó.",
+      "attribution": "summary framing of Livermore's philosophy, from the Vietnamese edition's promotional description (Successful stock speculation and trading means finding rules that work and then following them.)",
+      "category": "On Discipline and Rules"
+    }
+  ],
+  "conceptsFrameworks": [
+    {
+      "name": "The Pivotal Point",
+      "definition": "Livermore's central trading concept: the specific price level at which a stock's price action confirms that a genuine directional move has begun, serving as the trigger for a trader's first real commitment of capital. The concept emphasizes confirmation over prediction — waiting for the market itself to validate a thesis rather than acting purely on anticipation.",
+      "sourceSection": "Chapter 5"
+    },
+    {
+      "name": "Time and Price",
+      "definition": "A framework, referenced in the book's full original subtitle (\"The Livermore Formula for Combining Time Element and Price\"), holding that price movement alone is insufficient for reliable trading decisions and must be combined with an understanding of how long a stock has been building toward a move, since the two together offer more reliable confirmation than either factor considered in isolation.",
+      "sourceSection": "introduced across Chapters 2 and 5"
+    },
+    {
+      "name": "Incremental Position-Building",
+      "definition": "A money-management approach, developed within the Pivotal Point chapter, of entering a position in stages as a trade continues to confirm itself, rather than committing the full intended capital at the initial entry point — reducing risk if the confirmation proves false while still allowing full participation if the move continues as expected.",
+      "sourceSection": "Chapter 5"
+    }
+  ],
+  "applyThis": {
+    "actionSteps": [
+      "Before entering your next trade or major financial commitment, write down the specific, observable condition that would confirm your thesis is correct — your own version of a \"pivotal point\" — and commit to waiting for it rather than acting on anticipation.",
+      "After your next successful trade or financial win, set aside a specific percentage into a protected reserve before considering any further risk with those gains.",
+      "Choose a small number of investments or opportunities to follow closely and deeply, rather than trying to track everything available to you; note how this changes the quality of your decisions.",
+      "At the end of this month, or after your next significant financial decision, write a short, honest review of exactly why it succeeded or failed — resisting the urge to either over-credit luck or over-blame external factors.",
+      "Identify one recent decision where pressure or overconfidence caused you to abandon a rule or plan you'd previously set for yourself, and write down what specifically you'd do differently next time under similar pressure."
+    ],
+    "reflectionQuestions": [
+      "Where in your financial or professional life are you currently acting on anticipation rather than waiting for genuine confirmation?",
+      "Think of your own version of the \"million dollar blunder\" — a time discipline slipped exactly when it mattered most. What was happening around you that made discipline harder to maintain?",
+      "Do you currently distinguish clearly between money or gains that are genuinely secured versus still at risk, in your own thinking?"
+    ]
+  },
+  "criticalTake": {
+    "points": [
+      "Livermore's own life stands in some tension with the book's disciplined message: despite writing extensively about risk management and emotional control, he suffered several major financial ruins over his career and died by suicide in 1940, shortly after the book's publication — a fact that complicates a purely aspirational reading of his advice.",
+      "The Smitten-edited edition this Vietnamese translation is based on adds substantial modern commentary and application guidance not present in Livermore's original 1940 text, so readers should be aware they are reading an interpreted, expanded version rather than the unaltered original.",
+      "Livermore's methods were developed for early-to-mid-20th-century markets with far less liquidity, regulation, and information availability than contemporary markets; some specific tactical advice (reading tape, timing based on relatively slow information flow) requires real adaptation, which the annotated edition attempts but which readers should evaluate critically rather than apply literally.",
+      "As with much classic trading literature, the book's principles are more reliably useful as general discipline and risk-management guidance than as a literal, mechanical system; market conditions, regulation, and available instruments have changed enough that a purely literal application of 1940s trading tactics carries real risk."
+    ],
+    "contextNote": "The book's core emphasis on discipline, money management, and emotional control has aged well as general trading wisdom, even as its specific technical tactics for reading 1940s-era ticker tape and price action require adaptation to modern markets and tools."
+  },
+  "whoThisIsFor": "Individual traders and investors interested in the psychological and disciplinary foundations of speculation, more than readers looking for specific modern stock-picking techniques.",
+  "whenToReadThis": "Useful both as an introduction to disciplined trading principles and as a periodic re-read after a significant trading loss, when Livermore's own account of his mistakes is most directly relevant.",
+  "relatedBooks": [],
+  "authorBio": {
+    "name": "Jesse Livermore (with editorial commentary by Richard Smitten in this edition)",
+    "bio": "Jesse Livermore (1877–1940) was an American stock trader widely regarded as one of the most successful and closely studied speculators in the history of Wall Street. Born in Massachusetts, he began his career as a teenager working in a stockbroker's office before trading in \"bucket shops,\" earning early notoriety and the nickname \"the Boy Plunger\" for his aggressive early trading style.\n\nOver roughly four decades of trading, Livermore made and lost several substantial fortunes, including a famous short position ahead of the 1929 stock market crash that reportedly earned him tens of millions of dollars. His personal life was marked by significant instability alongside his trading success, and he died by suicide in 1940, not long after the publication of How to Trade in Stocks, his only self-authored book. Richard Smitten, who compiled and annotated the widely circulated modern edition on which this Vietnamese translation is based, was a biographer of Livermore and author of a separate biography, Jesse Livermore: World's Greatest Stock Trader.",
+    "notableWorks": []
+  },
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-31",
+  "sourceNotes": "The original 1940 seven-chapter structure was verified against two independent full-text table-of-contents listings (DOKUMEN.PUB scans of the physical book), which agreed closely on chapter titles and ordering; supplementary material specific to the Smitten-edited edition (Livermore Market Key, modern application guidance) was verified against the same source and against a third independent table-of-contents listing. Section content synthesis draws on these confirmed chapter titles plus independent chapter-summary sources (Elearnmarkets, TraderLion, Shortform, Bookey) for substantive detail, cross-checked for general consistency. The Vietnamese edition's specific promotional framing was verified against Vietnamese retailer sources (Happy.live, ThaiPham.live). Note that this edition is Richard Smitten's annotated version of Livermore's original text rather than an unaltered reprint, which is reflected in the Critical Take above; biographical details about Livermore, including his death, are drawn from general, well-established biographical knowledge of this widely documented historical figure.\n\n---"
+}

@@ -1,0 +1,110 @@
+{
+  "id": "36-ke-36-doi-ke",
+  "code": "009",
+  "title": "36 Kế & 36 Đối Kế",
+  "author": "Listed in source catalog as Ngô Như Tùng & Hoàng Phác Dân — see Source Notes for an important discrepancy",
+  "categories": [
+    "philosophy-psychology"
+  ],
+  "language": "vi",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 360,
+  "tags": [
+    "chinese-stratagems",
+    "strategy",
+    "tam-thap-luc-ke",
+    "negotiation",
+    "defensive-tactics"
+  ],
+  "structureType": "parts",
+  "summary": "36 Kế & 36 Đối Kế is a Vietnamese-language strategy book built around the classical Chinese text Tam Thập Lục Kế (the Thirty-Six Stratagems), a centuries-old compilation of military and political maneuvers, several with roots traceable to Sun Tzu's Art of War and other classical Chinese strategic writing. The book's distinguishing structural feature, as described in publisher and bookseller material, is that it does not simply present the 36 stratagems in isolation, but pairs each one with a corresponding \"đối kế\" (counter-stratagem) — a defensive or neutralizing response — giving the book a total of 72 paired techniques addressed at difficulties in both business and everyday life.\n\nThe book opens by tracing the broader tradition of Chinese strategic writing that the 36 Stratagems belongs to, referencing earlier and adjacent traditions like Hàn Phi Tử (Legalist political philosophy), Tôn Tử Binh Pháp (Sun Tzu's Art of War), and Quỷ Cốc Tử (a tradition more focused on diplomatic and persuasive stratagem), positioning the 36 Stratagems as the most widely circulated and applied of these traditions in China and beyond.\n\nA notable claim made in the book's own framing, per available bookseller descriptions, is that this particular treatment updates the classical system: where the traditional 36 Stratagems developed primarily for military use includes techniques with ethically loaded framings (such as \"borrowing a knife to kill\" or \"looting a burning house\"), this book's authors present a reworked system whose stated values and definitions are explicitly adapted for contemporary ethical and social context, rather than a straight reproduction of the historical military framing.\n\nEach of the 36 primary stratagems and its paired counter-stratagem is illustrated with historical anecdotes (frequently drawn from Chinese dynastic history and court intrigue) and modern applications spanning negotiation, competitive business situations, workplace politics, and personal relationships — with the explicit stated aim of equipping readers to recognize when a stratagem is being used against them, not only to use one themselves. The book positions this dual defensive-and-offensive framing as its key differentiator from more traditional presentations of the 36 Stratagems, which typically present the techniques without a parallel structure for countering them.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "Foundations: The Tradition of Strategic Thought",
+      "summary": "This opening part situates the 36 Stratagems within the broader history of Chinese strategic writing, introducing readers to adjacent traditions in political, military, and diplomatic strategy before narrowing in on the 36 Stratagems specifically as the most widely circulated and applied system historically.\n\nThe section explains the book's central innovation: rather than presenting the 36 classical maneuvers alone, it structures the material around 36 paired stratagem-and-counter-stratagem sets (72 total techniques), explicitly reworked for contemporary business and personal-life application rather than presented purely in their original military framing.\n\nIt closes by setting up the offense/defense structure that organizes the rest of the book, positioning readers to expect not just techniques to use, but techniques to recognize and neutralize when used against them.",
+      "keyLessons": [
+        "Understand the broader tradition of Chinese strategic writing that the 36 Stratagems sits within, rather than treating it as an isolated list.",
+        "Expect this treatment to pair each stratagem with a defensive counter-stratagem, not present offense alone.",
+        "Approach the material as adapted for contemporary ethical context, not a literal reproduction of historical military tactics."
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Active Stratagems (36 Kế Chủ Động)",
+      "summary": "This part works through the 36 classical stratagems themselves, each illustrated with a historical anecdote — frequently drawn from Chinese court and dynastic history, such as the well-known \"steal the dragon and substitute the phoenix\" palace-intrigue story used to illustrate deceptive substitution tactics — followed by modern business and life applications.\n\nThe section frames these active stratagems as tools for proactively shaping a situation: gaining leverage in a negotiation, managing a competitive business threat, or navigating a difficult interpersonal conflict by anticipating how the other party is likely to react to a given move.\n\nIt transitions into the book's second half by noting that any reader who learns to apply these active stratagems should equally expect them to be used against them by others, setting up the necessity of the counter-stratagem section that follows.",
+      "keyLessons": [
+        "Learn to recognize the classical stratagems as named, repeatable patterns rather than one-off clever tricks.",
+        "Apply active stratagems deliberately in negotiation and competitive situations, grounded in anticipating the other party's likely response.",
+        "Treat the historical anecdotes as illustrations of a pattern's logic, not literal templates to copy."
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Counter-Stratagems (36 Đối Kế)",
+      "summary": "This part addresses the book's most distinctive material: a defensive counter-stratagem paired with each of the 36 active stratagems, designed to help readers recognize when a given stratagem is being used against them and respond effectively. Examples referenced in available bookseller material include counter-stratagems built around staying still to counter movement, deliberately buying time, and reframing an apparent setback into an advantage.\n\nThe section frames defensive awareness as equally important as offensive skill, arguing that a reader who can only apply stratagems but not recognize them being used against them remains vulnerable in any serious negotiation or competitive situation.\n\nIt closes the book's core technique sections by reinforcing the pairing structure throughout — treating offense and defense as a single integrated skill rather than two separate bodies of knowledge.",
+      "keyLessons": [
+        "Learn to recognize when a classical stratagem is being deployed against you before responding.",
+        "Build a defensive repertoire (patience, timing, reframing) alongside any offensive tactics you learn.",
+        "Treat the ability to counter a stratagem as equally important as the ability to use one."
+      ]
+    }
+  ],
+  "keyLessons": [
+    "Learn the classical 36 Stratagems as named, repeatable patterns of strategic behavior, not isolated anecdotes.",
+    "Pair every offensive tactic you learn with an understanding of how it could be countered or recognized.",
+    "Apply historical strategic patterns to modern negotiation and competitive business situations deliberately, not just intuitively.",
+    "Practice recognizing when a stratagem is being used against you as a distinct, trainable skill.",
+    "Use patience and calculated timing as a defensive counter to more aggressive or deceptive tactics.",
+    "Reframe apparent setbacks as potential advantages rather than reacting to them purely defensively.",
+    "Treat strategic thinking as an ethically adaptable tool, applying the book's contemporary reframing rather than the original text's more ethically loaded historical framings."
+  ],
+  "quotes": [],
+  "conceptsFrameworks": [
+    {
+      "name": "Tam Thập Lục Kế (The Thirty-Six Stratagems)",
+      "definition": "The classical Chinese compilation of thirty-six named strategic maneuvers, several tracing to older military and political traditions, that forms the historical foundation of this book. Each stratagem is a named, repeatable pattern of strategic behavior (such as deceptive substitution or strategic retreat) illustrated through historical anecdote.",
+      "sourceSection": "Foundations; Active Stratagems"
+    },
+    {
+      "name": "36 Đối Kế (The 36 Counter-Stratagems)",
+      "definition": "This book's distinguishing structural addition: a paired defensive or neutralizing response for each of the 36 classical stratagems, designed to help readers recognize and counter a stratagem being used against them, rather than only learning to deploy stratagems offensively.",
+      "sourceSection": "Counter-Stratagems"
+    }
+  ],
+  "applyThis": {
+    "actionSteps": [
+      "Identify one active stratagem from the book that maps onto a current negotiation or competitive situation you're facing, and plan how you would apply it deliberately.",
+      "Identify one counter-stratagem that would help you recognize and respond if that same tactic were used against you by a counterparty.",
+      "Review a recent negotiation or conflict where you felt outmaneuvered, and try to name which classical stratagem, if any, the other party may have been using.",
+      "Practice one defensive technique (deliberate patience, timing, or reframing a setback) in a low-stakes situation before applying it somewhere higher-stakes."
+    ],
+    "reflectionQuestions": [
+      "Where in your business or personal life do you tend to only think offensively, without considering how a tactic might be turned against you?",
+      "Which of the classical anecdotes in this book feels most relevant to a real situation you're currently navigating?",
+      "How do you distinguish between using a stratagem ethically and using it in a way that crosses into manipulation?"
+    ]
+  },
+  "criticalTake": {
+    "points": [
+      "Available bookseller sources for this exact title consistently attribute authorship to \"Hầu Gia,\" not to Ngô Như Tùng & Hoàng Phác Dân as listed in this project's source catalog; this is flagged explicitly rather than silently resolved, since it could reflect either a different edition/printing with different credited authors, a translator or adapter credited differently across editions, or a catalog error — the physical book's own title and copyright page would be the most reliable way to resolve this.",
+      "Historical anecdotes used to illustrate the stratagems (frequently drawn from Chinese court intrigue, such as palace succession stories) are presented as illustrative folklore rather than rigorously sourced history, and their factual accuracy as historical events is not the book's primary concern or claim.",
+      "The book's stated reworking of the classical system's more ethically loaded stratagems (like \"borrowing a knife to kill\") for contemporary ethical context is a claim made in promotional material rather than something independently verifiable without reading the specific reworded definitions in the text itself.",
+      "As a strategy book drawing on centuries-old military stratagem applied to modern business and personal contexts, readers should treat the parallels as illustrative and adaptable rather than as rigorously tested modern negotiation research."
+    ],
+    "contextNote": "Not applicable — insufficient independently verifiable detail on this specific edition's content to assess how its claims have aged."
+  },
+  "whoThisIsFor": "Readers interested in classical Chinese strategic thought applied to modern negotiation, business competition, and interpersonal conflict, particularly those who want both offensive and defensive technique in one place.",
+  "whenToReadThis": "Useful before entering a significant negotiation or competitive business situation, particularly for readers who want to think through both how to gain leverage and how to protect against being outmaneuvered.",
+  "relatedBooks": [],
+  "authorBio": {
+    "name": "Ngô Như Tùng & Hoàng Phác Dân (as listed in source catalog; see Critical Take and Source Notes for an important attribution discrepancy)",
+    "bio": "Reliable, independently verifiable biographical information for authors under these exact names could not be confirmed. Available bookseller listings for this title (under the name \"36 Kế Và 36 Đối Kế,\" published by NXB Khoa Học Xã Hội, 2019 edition) instead credit the book to an author named \"Hầu Gia.\" No independently confirmed biography could be located for either attribution.",
+    "notableWorks": []
+  },
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-31",
+  "sourceNotes": "Synthesis is based on web-search verification of the book's content, structure, and stated purpose (36 paired stratagem/counter-stratagem sets, contemporary reworking of the classical Tam Thập Lục Kế), drawn from Vietnamese bookseller descriptions (Khai Tâm, Oreka.vn, and others). These sources consistently attribute the book to an author named \"Hầu Gia\" rather than the \"Ngô Như Tùng & Hoàng Phác Dân\" attribution provided in the source catalog for this project; this discrepancy is flagged honestly rather than resolved by guesswork, since it could reflect a different edition, translator, or a catalog error. Given this uncertainty, author-specific biographical claims have been withheld rather than fabricated.\n\n---"
+}

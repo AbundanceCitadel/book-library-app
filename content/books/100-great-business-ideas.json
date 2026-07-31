@@ -1,0 +1,142 @@
+{
+  "id": "100-great-business-ideas",
+  "code": "003",
+  "title": "100 Great Business Ideas: From Leading Companies Around the World",
+  "author": "Jeremy Kourdi",
+  "categories": [
+    "business"
+  ],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 300,
+  "tags": [
+    "business-strategy",
+    "case-studies",
+    "management",
+    "innovation",
+    "reference"
+  ],
+  "structureType": "parts",
+  "summary": "100 Great Business Ideas is a reference-style compendium rather than a single argument developed across chapters. Business writer and consultant Jeremy Kourdi, formerly a senior vice-president at The Economist Group, collects one hundred discrete ideas drawn from real companies — ranging from simple, almost self-evident practices to ideas grounded in more rigorous management research — and presents each as a short, self-contained entry of two to four pages. In his introduction, Kourdi explicitly states that the ideas are presented in no particular order or grouping, intended for readers to browse and apply selectively rather than read as a progressive argument.\n\nEach entry follows a consistent internal structure: a numbered, descriptive title; an explanation of the underlying idea with references to relevant management thinking; a real-world example from a company that used it effectively; a practical \"In practice\" list of four to ten actionable steps; and often a closing quote or summarizing remark. This modular format is the book's defining feature — it is designed for quick reference on a specific problem (say, building customer loyalty or improving pricing) rather than sequential reading.\n\nDespite the lack of formal grouping, several themes recur across the hundred entries: the value of deliberate experimentation and tolerance for calculated risk; the discipline of building loyalty (with customers, employees, and partners alike) as a durable competitive advantage; the power of simplicity in both product design and communication; and the importance of aligning day-to-day operational habits with a company's stated values, rather than treating culture as a separate initiative from execution.\n\nKourdi draws his case studies from a wide range of company types and eras, pairing well-known examples (such as Harley-Davidson's turnaround through customer loyalty) with less famous illustrations, and frequently anchors an idea in a named management thinker or body of research before showing how a specific company put it into practice. The intent, as Kourdi states directly, is not to offer a single formula for success but to stimulate the reader's own thinking — providing raw material that can be adapted to the reader's specific situation rather than applied as a template.\n\nBecause the book explicitly avoids grouping its hundred ideas into named chapters or sections, this entry organizes them into broad thematic clusters for readability, based on the dominant subject matter of ideas that appear across the book, rather than any structure the book itself imposes.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "Customer Loyalty and Relationships",
+      "summary": "This cluster of ideas addresses how companies build durable relationships with customers rather than treating each transaction as isolated. The section draws on examples like Harley-Davidson's brand-community turnaround to argue that loyalty is built through consistent behavior and shared identity with customers, not through discounting or short-term promotions.\n\nThe ideas here consistently frame loyalty as an asset that compounds over time, arguing that companies underinvest in existing-customer relationships relative to new-customer acquisition, despite retention typically being cheaper and more profitable.\n\nThis cluster sets up later sections on culture and people by suggesting that external loyalty (with customers) and internal loyalty (with employees) tend to reinforce each other in well-run companies.",
+      "keyLessons": [
+        "Treat customer loyalty as a long-term asset built through consistent behavior, not short-term discounting.",
+        "Build genuine community or shared identity around a brand rather than relying purely on transactional appeal.",
+        "Prioritize retention economics alongside acquisition, since existing customers are typically cheaper to keep than new ones are to win."
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Innovation, Risk, and Experimentation",
+      "summary": "This cluster addresses how successful companies create space for experimentation and tolerate calculated failure as part of the innovation process. Ideas here draw on companies willing to test unconventional approaches, framing risk tolerance as a deliberate organizational choice rather than an accident of culture.\n\nThe section repeatedly contrasts companies that treat failed experiments as evidence to shut down risk-taking with companies that treat them as the expected cost of finding breakthrough ideas, arguing the latter approach produces more durable innovation over time.\n\nThis cluster transitions into the following section on simplicity by noting that many of the most successful experiments produced radically simpler solutions rather than more complex ones.",
+      "keyLessons": [
+        "Build organizational tolerance for calculated, well-reasoned risk rather than punishing every failed experiment.",
+        "Treat experimentation as an ongoing discipline, not a one-time initiative.",
+        "Expect some failed experiments as the normal cost of eventually finding a breakthrough idea."
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Simplicity and Communication",
+      "summary": "This cluster gathers ideas centered on simplicity — in product design, pricing, and internal communication — as a competitive advantage. The underlying argument is that complexity often accumulates by default inside growing organizations, and that deliberate simplification requires ongoing discipline rather than a single redesign effort.\n\nIdeas here address both external simplicity (making products and offers easy for customers to understand and choose) and internal simplicity (making strategy and priorities easy for employees to act on without extensive translation).\n\nThe cluster leads into the book's people-and-culture ideas by arguing that simple, clearly communicated priorities are what allow employees at every level to make good decisions without constant oversight.",
+      "keyLessons": [
+        "Treat simplicity as an ongoing discipline that must be actively maintained against the natural drift toward complexity.",
+        "Simplify both what you offer customers and how you communicate priorities internally.",
+        "Clear, simple priorities enable employees to make good decisions without constant management oversight."
+      ]
+    },
+    {
+      "order": 4,
+      "title": "People, Culture, and Leadership",
+      "summary": "This cluster addresses how companies build cultures where stated values are reflected in everyday operational habits rather than existing only in mission statements. Ideas here emphasize that culture is built through consistent, visible leadership behavior and specific operational choices, not through internal communications alone.\n\nThe section pairs examples of leaders who modeled the behavior they wanted from employees with cautionary contrasts of companies whose stated values diverged from daily practice, arguing the gap between the two is usually what employees and customers notice first.\n\nThis cluster closes the book's implicit arc by tying culture back to the earlier sections: companies with strong internal culture, the ideas suggest, are consistently the ones best able to sustain the customer loyalty, experimentation, and simplicity described earlier.",
+      "keyLessons": [
+        "Build culture through consistent, visible leadership behavior rather than internal messaging alone.",
+        "Close the gap between stated company values and actual daily operational practice.",
+        "Recognize that strong internal culture is usually a precondition for sustained customer loyalty and innovation, not a separate initiative."
+      ]
+    }
+  ],
+  "keyLessons": [
+    "Treat customer loyalty as a long-term asset built through consistent behavior, not short-term promotions.",
+    "Prioritize the economics of retaining existing customers alongside acquiring new ones.",
+    "Build organizational tolerance for calculated risk and expect some experiments to fail.",
+    "Treat simplification of products, pricing, and communication as an ongoing discipline, not a one-time project.",
+    "Use clear, simple priorities to let employees make good decisions without constant oversight.",
+    "Build culture through consistent, visible leadership behavior rather than mission statements alone.",
+    "Close the gap between a company's stated values and its actual daily operating practice.",
+    "Apply each idea selectively to your own situation rather than treating any single idea as a universal formula."
+  ],
+  "quotes": [
+    {
+      "text": "Please note that the ideas outlined in this book are listed randomly, for interest, rather than being grouped or ranked in a specific order.",
+      "attribution": "Jeremy Kourdi, 100 Great Business Ideas",
+      "category": "On the Book's Purpose"
+    },
+    {
+      "text": "Selling and influencing depends on getting behavior right, by moderating openness and assertiveness with warmth and competence.",
+      "attribution": "Jeremy Kourdi, 100 Great Business Ideas",
+      "category": "On Selling and Influence"
+    },
+    {
+      "text": "Use these ideas to stimulate your thinking and make the specific adjustments needed to ensure success in your situation.",
+      "attribution": "Jeremy Kourdi, 100 Great Business Ideas",
+      "category": "On Using the Ideas"
+    }
+  ],
+  "conceptsFrameworks": [
+    {
+      "name": "In Practice (Implementation Lists)",
+      "definition": "Each of the book's hundred entries closes with a bulleted \"In practice\" list of specific, actionable steps a reader could take to apply that entry's idea. It functions as the book's consistent bridge from concept to action, distinguishing it from purely theoretical business writing.",
+      "sourceSection": "Structural feature across all entries"
+    },
+    {
+      "name": "Idea Stimulation (vs. Idea Copying)",
+      "definition": "Kourdi's framing, stated in his introduction, for how the book should be used: ideas presented here are meant to stimulate the reader's own adapted thinking for their specific situation, rather than be copied directly as templates. He contrasts this with the alternative approach of directly imitating a specific company's exact tactics.",
+      "sourceSection": "Introduction"
+    }
+  ],
+  "applyThis": {
+    "actionSteps": [
+      "Pick three entries most relevant to a current problem in your business and implement one \"In practice\" step from each within the next two weeks.",
+      "Audit one customer-facing process for unnecessary complexity and remove at least one step.",
+      "Identify one place where your stated company values and actual daily practice diverge, and change one concrete operational habit to close that gap.",
+      "Set up a low-stakes experiment (a small pilot, a limited-time offer, a single new format) explicitly designed to be evaluated regardless of outcome, to build organizational comfort with calculated risk."
+    ],
+    "reflectionQuestions": [
+      "Which of the hundred ideas in this book directly contradicts something your business currently does, and why does that gap exist?",
+      "Where does your organization currently punish failed experiments in ways that discourage future risk-taking?",
+      "Is your company's stated culture something employees could describe accurately, or does it live mainly in official documents?"
+    ]
+  },
+  "criticalTake": {
+    "points": [
+      "The book's deliberately unordered, non-hierarchical structure — while good for browsing — makes it difficult to build a coherent overall strategy from, since ideas are not weighted by importance, evidence quality, or applicability to company size or stage.",
+      "Many of the case-study companies referenced are large, resource-rich organizations; small businesses or startups may find some \"In practice\" steps assume a scale of budget or headcount they don't have.",
+      "Because entries range from well-supported management research to more anecdotal single-company examples, the evidentiary strength behind individual ideas varies considerably, and the book does not consistently flag which category a given idea falls into.",
+      "As a 2008-era book (reissued in later editions), some examples reflect a pre-social-media, pre-mobile-first business environment, which may date certain marketing- and communication-related ideas more than the book's more timeless people- and culture-focused ideas."
+    ],
+    "contextNote": "Kourdi himself frames many of the ideas as \"perennial\" rather than trend-dependent, and the book's people- and culture-oriented ideas have generally aged better than its more channel-specific marketing examples."
+  },
+  "whoThisIsFor": "Managers and business owners looking for a browsable idea bank to solve a specific, immediate problem rather than a book to be read straight through for a unified strategic framework.",
+  "whenToReadThis": "Best kept as a reference to dip into when facing a specific challenge — customer retention, pricing, hiring — rather than read cover to cover in one sitting.",
+  "relatedBooks": [],
+  "authorBio": {
+    "name": "Jeremy Kourdi",
+    "bio": "Jeremy Kourdi is a business writer and consultant who has worked extensively across Europe, Africa, and the Middle East. He was previously a senior vice-president with The Economist Group and has continued consulting work with them alongside his writing career, in addition to clients including IMD in Lausanne and Strathclyde University's Graduate Business School.\n\nHe is the author of numerous business books covering strategy, leadership, and management practice, often written in accessible, example-driven formats aimed at working managers and business owners rather than academic audiences.",
+    "notableWorks": [
+      "The Economist Guide to Business Strategy",
+      "A Question of Trust (with Sally Bibb)",
+      "Think on Your Feet",
+      "201 Great Ideas for Your Small Business (unrelated Bloomberg Press title with a similar format)"
+    ]
+  },
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-31",
+  "sourceNotes": "Synthesis is based on general knowledge of the book combined with web-search verification of its structure (100 unranked, unranked entries with a consistent internal format), publication history, and author background. The three quotes are drawn from publicly available introduction and sample-chapter excerpts of the book.\n\n---"
+}

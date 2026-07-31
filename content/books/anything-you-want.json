@@ -1,0 +1,206 @@
+{
+  "id": "anything-you-want",
+  "code": "021",
+  "title": "Anything You Want: 40 Lessons for a New Kind of Entrepreneur",
+  "author": "Derek Sivers",
+  "categories": [
+    "business"
+  ],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 90,
+  "tags": [
+    "entrepreneurship",
+    "cd-baby",
+    "unconventional-business",
+    "purpose-driven-business",
+    "small-is-beautiful"
+  ],
+  "structureType": "parts",
+  "summary": "Anything You Want is Derek Sivers' short, first-person account of founding and running CD Baby, the online music store he built almost by accident after musician friends asked him to help them sell CDs online — and which grew into the largest seller of independent music before he sold it in 2008 and donated the proceeds to a charitable trust for music education. Rather than a conventional startup memoir focused on scaling tactics or fundraising strategy, the book is organized as a series of short, standalone lessons — 40 in total — each just a page or two, distilled from specific decisions and turning points in the company's decade-long life.\n\nThe book's throughline is a deliberately contrarian view of what business is for. Sivers repeatedly argues that business isn't fundamentally about money, growth, or competition, but about making something useful, keeping customers genuinely happy, and building a business that reflects the values and personality of its founder — what he calls making \"a little universe where you control all the laws.\" He's explicit that he never wrote a business plan, never took outside investment, and never particularly wanted CD Baby to become huge; its success, in his telling, came largely from starting small, listening obsessively to what real customers actually needed, and prioritizing customer delight (famously, through absurdly whimsical order-confirmation emails that became minor internet legends) over conventional scaling wisdom.\n\nA second major thread running through the book concerns delegation, ownership, and eventually letting go. Sivers describes his own discomfort with delegating control, his deliberate practice of making himself progressively unnecessary to daily operations, and ultimately his decision to sell the company once he realized his own continued involvement had become an obstacle to its growth rather than an asset — a decision reinforced by advice that a business isn't truly yours until you could leave for a year and return to find it doing better without you. The book closes with his account of donating the sale proceeds into a charitable trust, framed as a natural extension of his belief that money was never really the point of the exercise.\n\nBecause each of the 40 lessons was originally written as a standalone piece (some for a mailing list, later compiled into the book), the writing is unusually direct, aphoristic, and personal, closer in tone to a series of blog posts than a structured business textbook — deliberately readable in a single sitting, and built to be re-read a lesson at a time rather than consumed only once cover to cover.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "How It Started — Accidental Entrepreneurship",
+      "summary": "This opening section covers how CD Baby began almost incidentally: Sivers, a working musician, set up a simple website to sell his own CD, and when friends asked him to sell theirs too, the site organically grew into a real business without ever being planned as one. The chapter emphasizes how little conventional \"startup\" thinking was involved — no business plan, no funding round, no market analysis, just responding directly to a real, specific need.\n\nIt uses this origin story to introduce the book's central philosophical stance: that useful, values-driven businesses often start from solving a real problem for real people rather than from a deliberate strategy to build a company, and that this organic starting point shaped every later decision Sivers made about how to run it.\n\nThe chapter transitions into the operational lessons that follow by noting that once the business existed, Sivers had to invent his own approach to running it, since he had no formal business background to draw on.",
+      "keyLessons": [
+        "Useful businesses often start by directly solving a real, specific problem for real people, not from an abstract plan.",
+        "Lack of formal business training isn't necessarily a disadvantage if it's paired with genuine attentiveness to customer needs."
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Customers First — Whimsy, Delight, and the Real Point of Business",
+      "summary": "This section covers Sivers' approach to customer experience, most famously the absurdly elaborate, joke-filled order-confirmation email CD Baby sent every customer, which became an unexpected viral phenomenon precisely because it delighted people rather than simply informing them. The chapter uses this as the clearest illustration of Sivers' argument that the \"real point of doing anything is to be happy,\" extended into a business philosophy: build something that makes both you and your customers happy, not just something that's profitable.\n\nIt develops the idea that starting small forces founders to solve real problems directly rather than getting lost in abstraction, and that \"no business plan survives first contact with customers\" — meaning direct customer feedback should reshape strategy far more than any initial plan.\n\nThe section transitions into questions of company culture and hiring by noting that delighting customers at scale eventually requires more than one person doing it.",
+      "keyLessons": [
+        "Small, whimsical gestures of genuine care can build more loyalty and word-of-mouth than efficient-but-impersonal service.",
+        "Direct customer feedback should reshape your strategy more than any plan made in advance.",
+        "A business is a reflection of its creator's values and personality, not a neutral, impersonal machine."
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Building the Company — Culture, Delegation, and Growing Pains",
+      "summary": "This section addresses the harder operational realities of scaling a values-driven company: hiring, empowering employees to make decisions without founder approval, and Sivers' own discomfort with delegation despite knowing intellectually how important it was. He describes deliberately practicing delegation as a skill rather than assuming it would come naturally.\n\nThe chapter also touches on protecting company culture during growth, and the tension between staying small and intentional versus the pressure to grow simply because growth is available — Sivers repeatedly chooses the former, arguing that starting small keeps 100% of a founder's energy on solving real problems for real people rather than managing complexity for its own sake.\n\nIt transitions into the closing lessons about ownership and exit by noting that as the company matured, Sivers began questioning what his own ongoing role should be.",
+      "keyLessons": [
+        "Delegation is a skill that must be deliberately practiced, not a natural instinct most founders already have.",
+        "Growth for its own sake isn't automatically the right goal; staying intentionally small can preserve focus and quality.",
+        "Protecting company culture requires active attention during growth, not just good intentions at the start."
+      ]
+    },
+    {
+      "order": 4,
+      "title": "Letting Go — Ownership, Exit, and What Business Was Really For",
+      "summary": "The closing section covers Sivers' growing realization that his continued hands-on involvement had become a constraint on the company rather than an asset, crystallized by advice that you don't truly own a business until you could leave for a year and return to find it doing better without you. He describes the process of preparing CD Baby to run without him and eventually selling it in 2008.\n\nThe book closes with his account of placing the proceeds of the sale into a charitable trust for music education, framed not as an afterthought but as a natural extension of his stated belief throughout the book that business was never fundamentally about personal wealth accumulation but about making something useful and enjoying the process.\n\nThe book ends by returning to its title's central idea: that anyone can shape their business — and by extension, much of their working life — into \"anything you want,\" if they're willing to define success on their own terms rather than a conventional one.",
+      "keyLessons": [
+        "True ownership means the business functions well without your constant, hands-on involvement.",
+        "Deciding in advance what success and \"enough\" mean to you personally can guide major exit and ownership decisions more clearly than external benchmarks.",
+        "Aligning a business (and its ultimate outcome) with your actual values, rather than default wealth-maximization, is a legitimate and viable strategy."
+      ]
+    }
+  ],
+  "keyLessons": [
+    "You don't need a formal business plan to start — direct, close attention to a real problem is often a better starting point.",
+    "No business plan survives first contact with customers; let real feedback reshape your strategy continuously.",
+    "Small, genuine gestures of delight for customers build more loyalty than efficient but impersonal service.",
+    "Starting and staying small keeps 100% of your energy on solving real problems, not managing unnecessary complexity.",
+    "Delegation is a skill that must be deliberately practiced — it rarely comes naturally, even to founders who know it matters.",
+    "A business is a reflection of its creator; there's no single \"correct\" way to run one.",
+    "True ownership means the business could run well without you for an extended period.",
+    "Decide in advance what \"enough\" means to you personally, so you're not chasing a moving, externally defined finish line."
+  ],
+  "quotes": [
+    {
+      "text": "Business is not about money. It's about making dreams come true for others and for yourself.",
+      "attribution": "Derek Sivers",
+      "category": "What Business Is Really For"
+    },
+    {
+      "text": "The real point of doing anything is to be happy, so do only what makes you happy.",
+      "attribution": "Derek Sivers",
+      "category": "What Business Is Really For"
+    },
+    {
+      "text": "In the end, it's about what you want to be, not what you want to have.",
+      "attribution": "Derek Sivers",
+      "category": "What Business Is Really For"
+    },
+    {
+      "text": "Starting small puts 100 percent of your energy into actually solving real problems for real people.",
+      "attribution": "Derek Sivers",
+      "category": "Starting Small and Staying Focused"
+    },
+    {
+      "text": "No business plan survives first contact with customers.",
+      "attribution": "Derek Sivers",
+      "category": "Starting Small and Staying Focused"
+    },
+    {
+      "text": "Success comes from persistently improving and inventing, not from persistently promoting what's not working.",
+      "attribution": "Derek Sivers",
+      "category": "Starting Small and Staying Focused"
+    },
+    {
+      "text": "Never forget why you're really doing what you're doing. Are you helping people? Are they happy? Are you happy? Are you profitable? Isn't that enough?",
+      "attribution": "Derek Sivers",
+      "category": "Customers and Delight"
+    },
+    {
+      "text": "When you make a company, you make a utopia. It's where you design your perfect world.",
+      "attribution": "Derek Sivers",
+      "category": "Customers and Delight"
+    },
+    {
+      "text": "There's a big difference between being self-employed and being a business owner... To be a true business owner, make it so that you could leave for a year, and when you came back, your business would be doing better than when you left.",
+      "attribution": "Derek Sivers",
+      "category": "Ownership and Delegation"
+    },
+    {
+      "text": "I had to make myself unnecessary to the running of my company.",
+      "attribution": "Derek Sivers",
+      "category": "Ownership and Delegation"
+    },
+    {
+      "text": "Delegation doesn't come naturally to any of us. But I was trying really hard to be good at it.",
+      "attribution": "Derek Sivers",
+      "category": "Ownership and Delegation"
+    },
+    {
+      "text": "This guy has everything!\" Joseph said, \"Yes, but I have something he'll never have . . . Enough.",
+      "attribution": "Derek Sivers",
+      "category": "Enough"
+    },
+    {
+      "text": "Never forget that you can make your role anything you want it to be. Anything you hate to do, someone else loves. So find that person and let her do it.",
+      "attribution": "Derek Sivers",
+      "category": "Identity, Roles, and Culture"
+    },
+    {
+      "text": "Business is as creative as the fine arts. You can be as unconventional, unique, and quirky as you want. A business is a reflection of the creator.",
+      "attribution": "Derek Sivers",
+      "category": "Identity, Roles, and Culture"
+    },
+    {
+      "text": "But revolution is a term that people use only when you're successful. Before that, you're just a quirky person who does things differently.",
+      "attribution": "Derek Sivers",
+      "category": "Identity, Roles, and Culture"
+    }
+  ],
+  "conceptsFrameworks": [
+    {
+      "name": "\"Business Is Not About Money\" (The Little Universe)",
+      "definition": "Sivers' central reframing of what a business is for: not primarily a wealth-generating machine, but a \"little universe where you control all the laws\" — a vehicle for making something useful, keeping customers happy, and expressing the founder's own values, with financial success as a byproduct rather than the primary goal.",
+      "sourceSection": "Customers First — Whimsy, Delight, and the Real Point of Business."
+    },
+    {
+      "name": "True Ownership (\"Leave for a Year\" Test)",
+      "definition": "A practical test Sivers describes for whether you truly own a business versus are merely self-employed by it: could you leave for a year, and would the business be doing better, not worse, when you returned? If not, you don't yet have a real business — you have a job you created for yourself.",
+      "sourceSection": "Letting Go — Ownership, Exit, and What Business Was Really For."
+    },
+    {
+      "name": "Enough",
+      "definition": "A concept Sivers illustrates with a brief anecdote (a wealthy man boasting to a writer who replies that he has something the wealthy man will never have — \"enough\") — the idea that defining a clear, personal, and finite sense of \"enough\" is what allows a founder to make sane decisions about growth, exit, and what success actually means, rather than chasing an ever-receding external benchmark.",
+      "sourceSection": "Letting Go — Ownership, Exit, and What Business Was Really For."
+    }
+  ],
+  "applyThis": {
+    "actionSteps": [
+      "Identify one real, specific problem you or people close to you currently face, and prototype the smallest possible version of a solution this month — resist the urge to plan extensively before starting.",
+      "Design one small, genuinely delightful (not just efficient) touch point for your customers, clients, or team this week, and notice how people respond to it.",
+      "Pick one task you currently hold onto because \"it's faster if I just do it myself,\" and deliberately delegate it this week, treating the discomfort as a skill you're practicing rather than a sign you shouldn't delegate.",
+      "Write your own personal definition of \"enough\" — a specific, concrete description of what would make you feel your business or career had succeeded — and revisit it the next time you're tempted to chase growth for its own sake."
+    ],
+    "reflectionQuestions": [
+      "If you took a full year away from your current work, would it be doing better or worse when you returned — and what does that answer tell you about how you're currently operating?",
+      "Where in your work are you optimizing for efficiency at the cost of genuine delight or personal expression?",
+      "What would \"anything you want\" actually look like for your own work, if you fully believed you were allowed to define success on your own terms?"
+    ]
+  },
+  "criticalTake": {
+    "points": [
+      "Sivers' path — a musician who stumbled into a business almost by accident, with no need for outside capital, in a specific pre-streaming-era niche (independent musicians selling physical CDs online) — is not straightforwardly replicable advice for founders in capital-intensive industries or more competitive markets; the book's lessons work best as philosophy and mindset rather than a literal operating playbook for every kind of business.",
+      "The book's anti-growth, anti-fundraising stance, while refreshing, reflects a specific choice made possible by CD Baby's low overhead and bootstrapped niche; founders in industries requiring significant upfront capital (hardware, biotech, capital-intensive software) don't have the same optionality to simply \"stay small on principle.\"",
+      "Because the 40 lessons are short and aphoristic by design, the book offers limited discussion of CD Baby's actual failures, mistakes, or harder periods — it reads as a curated, largely positive account of decisions that worked out, rather than a warts-and-all operational history.",
+      "The book was written and became popular in the pre-social-media-scale, pre-gig-economy era of internet business (originally self-published in 2011, drawing on 1998–2008 company history); some of its assumptions about customer relationships and word-of-mouth marketing reflect a smaller, less saturated internet than exists today."
+    ],
+    "contextNote": "CD Baby's whimsical order-confirmation email genuinely went viral and is still referenced as an early, influential example of \"surprise and delight\" customer experience marketing, giving the book's central anecdote lasting relevance even as the specific business context has aged."
+  },
+  "whoThisIsFor": "Founders and small-business owners drawn to a values-driven, bootstrapped approach who want philosophical grounding more than a tactical scaling playbook.",
+  "whenToReadThis": "Early in building something of your own, or whenever you're questioning whether growth for its own sake is actually the goal you want.",
+  "relatedBooks": [],
+  "authorBio": {
+    "name": "Derek Sivers",
+    "bio": "Derek Sivers is an American entrepreneur, musician, and writer best known as the founder of CD Baby, which he built starting in 1998 as a simple way to sell his own independent music CDs online. The site grew into the largest online retailer of independent music before Sivers sold it in 2008, subsequently placing the proceeds into a charitable trust dedicated to music education.\n\nAfter selling CD Baby, Sivers became known for concise, philosophically minded writing and public speaking, including a widely viewed TED talk on the psychology of movements (\"first follower\" leadership) and a series of short, aphoristic books distilling personal and business philosophy, of which Anything You Want was the first. He has continued to write and program independently, maintaining a deliberately small-scale, low-overhead approach to his own work that mirrors the philosophy described in the book.",
+    "notableWorks": [
+      "Hell Yeah or No: What's Worth Doing",
+      "How to Live: 27 Conflicting Answers and One Weird Conclusion",
+      "Your Music and People",
+      "Useful Not True"
+    ]
+  },
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-31",
+  "sourceNotes": "Quotes verified against multiple independent Goodreads quote pages directly sourced from the book's text, cross-checked across several pages to confirm consistency and correct attribution to Anything You Want specifically (as distinct from Sivers' other, similarly aphoristic books, which share overlapping quote-page listings). Chapter/section structure is a thematic reconstruction based on the book's well-documented narrative arc (accidental founding, customer delight, delegation and culture, exit and \"enough\") since the original book presents its 40 lessons as standalone numbered pieces rather than grouped chapters — the four-part grouping used here is original synthesis for readability, not a reproduction of the book's own table of contents.\n\n---"
+}
