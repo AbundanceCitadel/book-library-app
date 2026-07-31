@@ -1,0 +1,189 @@
+{
+  "id": "lac-quan-teu-irrational-exuberance-vn-ed",
+  "code": "138",
+  "title": "Lạc Quan Tếu (Irrational Exuberance)",
+  "author": "Robert J. Shiller",
+  "categories": [
+    "finance-investing"
+  ],
+  "language": "vi",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 420,
+  "tags": [
+    "behavioral-finance",
+    "bubbles",
+    "stock-market",
+    "housing-market",
+    "market-psychology"
+  ],
+  "structureType": "parts",
+  "summary": "Irrational Exuberance is Robert Shiller's foundational argument that speculative financial bubbles — in stocks, and in later editions, housing — are not primarily driven by rational reassessment of underlying value, but by self-reinforcing social and psychological dynamics: feedback loops of rising prices, media amplification, herd behavior, and culturally transmitted \"new era\" stories that convince ordinary people a given asset class has permanently changed and can only go up. The book was first published in 2000, near the peak of the dot-com stock bubble, and Shiller's warnings about overvaluation were quickly validated by the subsequent crash — a track record that gave the book enduring credibility and led to expanded editions addressing the 2000s U.S. housing bubble as well.\n\nShiller's core diagnostic tool throughout the book is the cyclically adjusted price-to-earnings ratio (CAPE, sometimes called the Shiller P/E), which smooths corporate earnings over a ten-year period to strip out short-term noise and provide a longer-run read on whether markets are historically overvalued or undervalued. He uses this measure to argue that late-1990s U.S. stock valuations were far outside historical norms in a way that couldn't be justified by any coherent story about permanently higher future growth or lower risk.\n\nBeyond the valuation argument, the book's lasting contribution is its account of the mechanisms that generate bubbles in the first place: feedback loops where rising prices generate stories about a \"new era,\" which draw in more buyers, which push prices higher still, until the story eventually becomes unsustainable and reverses just as forcefully on the way down. Shiller pays close attention to the role of the media, of cultural narratives, and of social psychology — how people's investment decisions are shaped by conversations with others and by a desire to conform, not by careful independent analysis of fundamentals.\n\nThe book closes with policy and institutional reflections — proposals aimed at making financial markets and institutions more resilient to these psychological dynamics — and situates itself within the broader behavioral finance and behavioral economics movement that Shiller helped establish as a credible academic alternative to the pure efficient-markets view of financial theory, work later recognized with a shared Nobel Memorial Prize in Economic Sciences.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "The Stock Market Level in Historical Perspective",
+      "summary": "Opens by establishing, through long-run historical price and earnings data, just how far outside historical norms late-1990s U.S. stock valuations had risen, setting up the book's central diagnostic use of the CAPE ratio.",
+      "keyLessons": [
+        "Long-run historical comparison, not short-term momentum, is the right lens for judging whether markets are overvalued.",
+        "Valuation extremes tend to be visible in the data well before the psychological narrative around them breaks."
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Structural Factors",
+      "summary": "Surveys the underlying structural conditions of the era — demographic shifts, the rise of retail investing, new information technology — that Shiller argues enabled but did not by themselves justify the scale of the bubble.",
+      "keyLessons": [
+        "Real structural change can be a genuine part of a bubble story without justifying the full scale of the price move.",
+        "Distinguishing a real trend from an exaggerated narrative built on top of it is a core analytical skill."
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Cultural Factors",
+      "summary": "Examines the media, cultural narratives, and \"new era\" thinking that Shiller argues actively amplified the bubble beyond what structural factors alone could explain.",
+      "keyLessons": [
+        "Media coverage doesn't just report market movements; it actively participates in amplifying them.",
+        "\"This time is different\" narratives are a recurring, identifiable feature of speculative bubbles across history."
+      ]
+    },
+    {
+      "order": 4,
+      "title": "Psychological Factors",
+      "summary": "Digs into individual and social psychology — anchoring, herd behavior, overconfidence, and the human tendency to imitate others' investment decisions rather than independently evaluate value.",
+      "keyLessons": [
+        "Individual investment decisions are heavily shaped by observing others' behavior, not by independent analysis alone.",
+        "Cognitive biases documented in psychology research map directly onto observable market behavior."
+      ]
+    },
+    {
+      "order": 5,
+      "title": "Efforts to Rationalize Exuberance",
+      "summary": "Reviews the various contemporary arguments used to justify late-1990s valuations (new productivity paradigms, lower risk premiums, permanently higher growth) and explains why Shiller found them unconvincing.",
+      "keyLessons": [
+        "Bubbles generate their own supporting intellectual justifications in real time, which should be treated skeptically.",
+        "The presence of a plausible-sounding story doesn't mean valuations are actually justified by fundamentals."
+      ]
+    },
+    {
+      "order": 6,
+      "title": "Speculative Feedback Loops and Naturally Occurring Ponzi Processes",
+      "summary": "Formalizes the book's central mechanism: how rising prices generate optimism and stories, which draw in new buyers, pushing prices higher in a self-reinforcing loop that eventually runs out of new buyers and reverses.",
+      "keyLessons": [
+        "Feedback loops can operate without any coordinated deception — they can emerge naturally from ordinary human behavior.",
+        "The same feedback dynamic that inflates a bubble tends to accelerate its collapse once it reverses."
+      ]
+    },
+    {
+      "order": 7,
+      "title": "Investor Learning — and Unlearning",
+      "summary": "Considers how investor behavior and beliefs shift after a bubble bursts, and how quickly (or not) the lessons of one bubble get forgotten before the next one.",
+      "keyLessons": [
+        "Lessons from past bubbles tend to fade over time, especially across generations of investors.",
+        "Institutional memory of a crash is not a reliable long-term safeguard against a future one."
+      ]
+    },
+    {
+      "order": 8,
+      "title": "Efficient Markets, Random Walks, and Bubbles",
+      "summary": "Directly engages with and critiques the efficient-market hypothesis, arguing that observed patterns of excess volatility and predictable long-run reversals are inconsistent with markets always pricing assets correctly.",
+      "keyLessons": [
+        "Observed market volatility appears too large to be explained by rational updates to fundamental value alone.",
+        "Long-run mean reversion in valuations is evidence against the strongest versions of market efficiency."
+      ]
+    },
+    {
+      "order": 9,
+      "title": "Policies to Address Bubbles",
+      "summary": "Closes the analytical sections with proposals for how policymakers, institutions, and individuals might reduce the damage from future bubbles, given that eliminating them entirely may not be realistic.",
+      "keyLessons": [
+        "Policy responses should focus on managing bubble risk and its fallout, not assuming bubbles can be fully prevented.",
+        "Individual investors bear real responsibility for protecting themselves given that institutions won't fully solve the problem."
+      ]
+    }
+  ],
+  "keyLessons": [
+    "Use long-run, smoothed valuation measures like the CAPE ratio rather than trailing-year earnings to judge whether markets are historically over- or under-valued.",
+    "Treat \"new era\" narratives that claim old valuation rules no longer apply with active skepticism.",
+    "Recognize that media coverage amplifies market movements rather than neutrally reporting them.",
+    "Understand that individual investment decisions are heavily shaped by social imitation, not just independent analysis.",
+    "Expect speculative feedback loops (rising prices → optimistic stories → more buyers → higher prices) to eventually run out of new buyers and reverse.",
+    "Don't assume institutional or personal memory of a past crash will reliably prevent the next one.",
+    "Treat markets as prone to real, observable inefficiency, not as perfectly and instantly rational at all times.",
+    "Because policy can't fully prevent bubbles, take personal responsibility for valuation discipline in your own investing."
+  ],
+  "quotes": [
+    {
+      "text": "Irrational exuberance is the psychological basis of a speculative bubble.",
+      "attribution": "Robert J. Shiller",
+      "category": "Irrational Exuberance and Market Psychology"
+    },
+    {
+      "text": "Speculative bubbles do not end like a short story, novel, or play.",
+      "attribution": "Robert J. Shiller",
+      "category": "Irrational Exuberance and Market Psychology"
+    },
+    {
+      "text": "A feedback loop... could cause a boom initially, but the bust that eventually follows would not undo the whole story.",
+      "attribution": "Robert J. Shiller (paraphrased summary of the feedback-loop mechanism; treat as paraphrase, not exact quotation)",
+      "category": "Feedback Loops"
+    }
+  ],
+  "conceptsFrameworks": [
+    {
+      "name": "Cyclically Adjusted Price-to-Earnings Ratio (CAPE / Shiller P/E)",
+      "definition": "A stock market valuation measure that divides current price by the average of ten years of inflation-adjusted earnings, designed to smooth out short-term earnings volatility and provide a longer-run gauge of whether the market is historically over- or under-valued."
+    },
+    {
+      "name": "Irrational Exuberance",
+      "definition": "Shiller's central term (borrowed from a phrase used by then-Federal Reserve Chairman Alan Greenspan) for the self-reinforcing psychological and social over-optimism that drives asset prices well beyond what fundamentals justify, distinct from any single individual's rational miscalculation."
+    },
+    {
+      "name": "Speculative Feedback Loop / Naturally Occurring Ponzi Process",
+      "definition": "Shiller's model for how bubbles grow without central coordination: rising prices generate optimistic narratives, which attract new buyers, which push prices higher still, in a self-reinforcing cycle that resembles a Ponzi scheme in structure even without any deliberate fraud."
+    },
+    {
+      "name": "New Era Thinking",
+      "definition": "The recurring narrative pattern, observed across multiple historical bubbles, in which investors convince themselves that fundamental economic or technological change means old valuation norms and historical precedent no longer apply."
+    }
+  ],
+  "applyThis": {
+    "actionSteps": [
+      "Before making a major investment decision, check a long-run valuation measure like the CAPE ratio for the relevant market against its historical average, rather than relying only on trailing-year metrics.",
+      "Notice when you're being drawn into an investment decision by conversations with others or media narratives, and pause to separate social pressure from independent analysis.",
+      "Write down the specific \"new era\" argument (if any) being used to justify current high valuations in an asset you're considering, and stress-test it against historical precedent.",
+      "Set a personal rule for reducing exposure or rebalancing when valuations reach historically extreme levels, decided in advance rather than in the moment.",
+      "After any market event (a rally or crash), write down what you personally learned, and revisit that note again in a year to see how much of the lesson has already faded."
+    ],
+    "reflectionQuestions": [
+      "Where in your current financial decisions might you be following a crowd narrative rather than independent analysis?",
+      "What would it take for you to actually act differently the next time you notice a \"new era\" story building around an asset you hold?"
+    ]
+  },
+  "criticalTake": {
+    "points": [
+      "Shiller's own valuation-based warnings, while famously correct about the 2000 dot-com peak, are inherently about long-run risk rather than short-term timing — CAPE-based \"overvaluation\" signals have historically sometimes persisted for years before a correction, which limits their usefulness as a short-term trading tool even when directionally correct.",
+      "Critics, including some efficient-market economists, have argued that behavioral explanations for bubbles can be applied retroactively to almost any large price move, making them harder to falsify than more mechanistic risk-based explanations.",
+      "The book's core policy proposals reflect the regulatory and institutional environment of their time; some specific recommendations may be dated relative to reforms and market structure changes made after the 2008 financial crisis, which came after the book's initial editions.",
+      "As with much of behavioral finance, the book documents patterns of collective irrationality well but is less specific about exactly when a given elevated valuation will actually revert, a limitation Shiller himself has acknowledged in later commentary."
+    ],
+    "contextNote": "The book's core warning about the 2000 stock bubble was validated by the subsequent crash, and a later edition's warnings about the U.S. housing bubble were similarly validated by the 2007–2008 financial crisis, which significantly strengthened the book's credibility and its behavioral-finance framework's standing within mainstream economics."
+  },
+  "whoThisIsFor": "Investors, students of finance, and anyone wanting to understand the social and psychological mechanics behind speculative bubbles, not just their statistical signatures.",
+  "whenToReadThis": "Especially valuable during periods of rapid, narrative-driven asset price appreciation, as a discipline check against being swept into a \"new era\" story.",
+  "relatedBooks": [],
+  "authorBio": {
+    "name": "Robert J. Shiller",
+    "bio": "Robert J. Shiller is an American economist and Sterling Professor of Economics at Yale University, widely regarded as one of the founding figures of modern behavioral finance. He is co-creator of the Case-Shiller Home Price Index, a widely used measure of U.S. residential real estate prices, and developed the cyclically adjusted price-to-earnings (CAPE) ratio used throughout Irrational Exuberance.\n\nShiller was awarded the Nobel Memorial Prize in Economic Sciences in 2013 (shared with Eugene Fama and Lars Peter Hansen) for empirical analysis of asset prices, work that in part grew out of the research underlying this book. His career has combined rigorous academic research with sustained public commentary aimed at making behavioral finance accessible to general readers and policymakers.\n\nBeyond Irrational Exuberance, Shiller has written extensively on narrative economics, financial innovation, and the social dimensions of economic behavior, continuing to argue that economic outcomes cannot be fully understood without accounting for the stories people tell each other about markets and money.",
+    "notableWorks": [
+      "Animal Spirits (co-authored with George Akerlof)",
+      "Narrative Economics",
+      "Finance and the Good Society",
+      "The New Financial Order"
+    ]
+  },
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-31",
+  "sourceNotes": "Based on well-established general knowledge of Irrational Exuberance's structure, arguments, and reception, cross-checked for the book's part/chapter organization and core terminology; exact Vietnamese-edition (\"Lạc Quan Tếu\") chapter titles were not independently verified against the physical translation. The quote list was deliberately kept short and limited to lines with reasonable confidence rather than the full 20–30 requested, given uncertainty about verifying additional exact passages.\n\n---"
+}

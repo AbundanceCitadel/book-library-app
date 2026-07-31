@@ -1,0 +1,186 @@
+{
+  "id": "ky-thuat-de-kiem-tien-hang-ngay-giao-dich-tren-thi-truong-chung-khoan",
+  "code": "135",
+  "title": "Kỹ Thuật Để Kiếm Tiền Hàng Ngày: Giao Dịch Trên Thị Trường Chứng Khoán (Day Trade for a Living)",
+  "author": "Andrew Aziz",
+  "categories": [
+    "finance-investing"
+  ],
+  "language": "vi",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 360,
+  "tags": [
+    "day-trading",
+    "stock-market",
+    "risk-management",
+    "trading-psychology",
+    "technical-analysis"
+  ],
+  "structureType": "chapters",
+  "summary": "This is the Vietnamese edition of Andrew Aziz's Day Trade for a Living, a practical, business-minded introduction to intraday stock trading written for people considering day trading as an actual profession rather than a hobby. Aziz's central framing throughout is that day trading should be approached and run like a business — with a business plan, defined risk parameters, tracked performance metrics, and professional discipline — rather than as speculative gambling on price movements.\n\nThe book moves from foundational orientation (what day trading actually is, why most beginners lose money, and what mindset shift is required to treat it seriously) through the practical infrastructure needed to trade — choosing a direct-access broker, understanding order types and platforms, and reading a Level 2 quote screen and time-and-sales tape. It then builds up the core analytical toolkit: how to screen for and select tradeable stocks each day, how to identify support and resistance levels, how to read candlestick price action, and how key technical indicators are used in an intraday context.\n\nA major throughline of the book is risk and money management: Aziz repeatedly returns to position sizing, stop-losses, and the mathematics of risk-to-reward ratios, arguing that most day-trading failure is a failure of risk management and psychology rather than a failure to find good setups. The book also directly addresses the emotional and psychological side of trading — fear, greed, overconfidence after wins, and revenge trading after losses — treating emotional discipline as being just as important as technical skill.\n\nThe book closes by walking through several concrete day-trading strategies Aziz uses in his own trading, along with practical guidance on developing and following a personal trading plan, and is explicit that day trading is a demanding, high-attrition professional pursuit rather than a shortcut to quick, easy money.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "Introduction to Day Trading",
+      "summary": "Aziz opens by defining day trading precisely (opening and closing positions within the same session) and confronting the common myths and unrealistic expectations that draw people into it, setting up his central argument that it must be approached as a serious profession.",
+      "keyLessons": [
+        "Day trading should be treated as a business with a plan, not a speculative shortcut.",
+        "Most beginner failure stems from unrealistic expectations set by trading myths, not lack of intelligence."
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Tools and Platforms",
+      "summary": "Covers the practical infrastructure a day trader needs: choosing a direct-access broker, trading platforms, and the cost structure of active trading (commissions, data fees, buying power).",
+      "keyLessons": [
+        "Broker and platform choice materially affects execution speed and cost, which matters at day-trading volume.",
+        "Direct market access is treated as a baseline requirement, not a luxury, for serious day trading."
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Building a Watchlist",
+      "summary": "Explains Aziz's process for screening the market each day to find a small number of tradeable stocks with sufficient volatility and volume, rather than trying to trade the entire market.",
+      "keyLessons": [
+        "Focus on a narrow, well-screened daily watchlist rather than chasing every moving stock.",
+        "Liquidity and volatility, not just price movement, determine whether a stock is actually tradeable intraday."
+      ]
+    },
+    {
+      "order": 4,
+      "title": "Support and Resistance",
+      "summary": "Introduces the core technical concept of price levels where buying or selling pressure has historically clustered, as the backbone for entry and exit decisions throughout the rest of the book.",
+      "keyLessons": [
+        "Support and resistance levels are used as objective decision points, reducing reliance on gut feeling.",
+        "These levels are probabilistic tendencies, not guarantees of price behavior."
+      ]
+    },
+    {
+      "order": 5,
+      "title": "Candlesticks and Price Action",
+      "summary": "Walks through candlestick chart reading as a way to interpret short-term buyer/seller pressure and momentum shifts within a trading session.",
+      "keyLessons": [
+        "Candlestick patterns are treated as probability signals to combine with other tools, not standalone certainties.",
+        "Price action reading is presented as a learnable, practiced skill rather than intuition."
+      ]
+    },
+    {
+      "order": 6,
+      "title": "Technical Indicators",
+      "summary": "Surveys the specific indicators Aziz actually uses in live trading (such as moving averages and volume-based indicators), with an emphasis on simplicity over stacking many indicators at once.",
+      "keyLessons": [
+        "Fewer, well-understood indicators beat many overlapping ones.",
+        "Indicators are decision-support tools, not automatic trading systems."
+      ]
+    },
+    {
+      "order": 7,
+      "title": "Risk and Money Management",
+      "summary": "The book's central discipline chapter: position sizing, stop-loss placement, and risk-to-reward math as the mechanisms that keep a trader solvent through inevitable losing trades.",
+      "keyLessons": [
+        "Position size and stop-loss discipline determine long-run survival more than win rate alone.",
+        "A trader can be right less than half the time and still be profitable with the right risk-to-reward ratios."
+      ]
+    },
+    {
+      "order": 8,
+      "title": "Trading Psychology",
+      "summary": "Addresses the emotional patterns — fear, greed, overconfidence, revenge trading — that Aziz argues cause more losses than any technical mistake.",
+      "keyLessons": [
+        "Emotional discipline is treated as a trainable skill, equally as important as technical analysis.",
+        "Revenge trading after a loss is identified as one of the most common ways traders blow up their accounts."
+      ]
+    },
+    {
+      "order": 9,
+      "title": "Trading Strategies",
+      "summary": "Aziz presents several concrete intraday strategies he uses personally, showing how the earlier tools (support/resistance, candlesticks, indicators, risk rules) combine into repeatable setups.",
+      "keyLessons": [
+        "A good strategy is a repeatable combination of the book's earlier building blocks, not a single secret trick.",
+        "Strategies need clear, pre-defined entry, exit, and stop-loss rules before being traded live."
+      ]
+    },
+    {
+      "order": 10,
+      "title": "Building a Trading Plan",
+      "summary": "Closes by walking the reader through assembling their own written trading plan — rules, risk limits, and routines — and stresses that consistent execution of a plan matters more than finding a \"perfect\" strategy.",
+      "keyLessons": [
+        "A written trading plan is the mechanism that turns scattered knowledge into consistent execution.",
+        "Discipline in following a mediocre plan tends to outperform inconsistent execution of a great one."
+      ]
+    }
+  ],
+  "keyLessons": [
+    "Treat day trading as a business with a formal plan, budget, and risk limits, not as gambling.",
+    "Use direct-access brokers and real-time data; execution speed and cost matter at day-trading volume.",
+    "Build a narrow, well-screened daily watchlist rather than trying to trade everything that moves.",
+    "Use support and resistance levels as objective, repeatable decision points for entries and exits.",
+    "Keep your technical toolkit simple — a few well-understood indicators beat many overlapping ones.",
+    "Position sizing and stop-losses determine long-run survival more than being right on any single trade.",
+    "You can be profitable with a win rate under 50% if your risk-to-reward ratio is favorable.",
+    "Train emotional discipline explicitly; fear, greed, and revenge trading are the most common account-killers.",
+    "Write down and follow a specific trading plan rather than trading on impulse or gut feeling."
+  ],
+  "quotes": [
+    {
+      "text": "Day trading can be an extremely profitable career, but it is a serious profession that requires proper training, capital, and discipline — not a way to get rich quick.",
+      "attribution": "Andrew Aziz, paraphrased framing repeated throughout the book's introduction (paraphrase, not exact wording)",
+      "category": "Trading as a Profession"
+    }
+  ],
+  "conceptsFrameworks": [
+    {
+      "name": "Trading as a Business",
+      "definition": "Aziz's foundational framing: day trading should be run with the discipline of a small business — a plan, a budget, tracked performance, and defined risk limits — rather than approached as casual speculation or gambling."
+    },
+    {
+      "name": "Risk-to-Reward Ratio",
+      "definition": "The relationship between how much a trader stands to lose if a trade goes wrong (defined by the stop-loss) versus how much they stand to gain if it goes right; Aziz argues a trader can be profitable with a win rate under 50% as long as this ratio is consistently favorable."
+    },
+    {
+      "name": "Support and Resistance",
+      "definition": "Price levels where historical buying (support) or selling (resistance) pressure has clustered, used throughout the book as the primary objective reference points for planning trade entries, exits, and stop-losses."
+    },
+    {
+      "name": "The Daily Watchlist",
+      "definition": "Aziz's practice of screening the entire market down to a small, focused list of a few tradeable stocks each morning based on volatility, volume, and news catalysts, rather than attempting to monitor the whole market."
+    }
+  ],
+  "applyThis": {
+    "actionSteps": [
+      "Before considering any live trades, write a one-page trading business plan: capital allocated, maximum daily loss, and the specific hours you will trade.",
+      "Practice building a five-stock daily watchlist using volume and volatility screens (in a demo/paper account) for two weeks before evaluating any actual strategy.",
+      "For any trade idea, calculate the risk-to-reward ratio before entry and only take the trade if it meets a pre-set minimum (e.g., at least 2:1).",
+      "Keep a trading journal that separately logs the technical reason for each trade and your emotional state at the time, to identify your own recurring psychological patterns.",
+      "Set a hard daily loss limit in advance and practice actually stopping when you hit it, even in a simulated account, to build the discipline before real money is involved."
+    ],
+    "reflectionQuestions": [
+      "Are you approaching trading with the same seriousness and planning you would bring to starting a small business?",
+      "What emotional pattern (fear, greed, revenge trading) is most likely to be your personal failure mode, based on how you react to losses in other areas of life?"
+    ]
+  },
+  "criticalTake": {
+    "points": [
+      "Aziz's own trading track record, strategies, and results are self-reported; the book does not include independently audited performance data, so readers should treat its confidence about \"what works\" with appropriate skepticism.",
+      "Statistics widely cited around day trading (that a large majority of day traders lose money over time, sometimes cited from studies of retail traders in markets like Taiwan and Brazil) are a serious caveat the book itself acknowledges but that's worth independently verifying and weighing heavily before committing capital.",
+      "The book's specific technical setups and indicator preferences reflect Aziz's personal trading style and the market conditions of when it was written; markets, liquidity, and regulation (e.g., pattern day trader rules in the U.S.) can shift in ways that affect how directly applicable the specific tactics remain.",
+      "As with most day-trading education material, there's a structural conflict of interest worth noting: authors in this space often also sell trading courses, chat rooms, or platforms, which can shape how strongly a book's methods are promoted versus independently tested."
+    ]
+  },
+  "whoThisIsFor": "People seriously considering day trading as a full-time pursuit who want a structured, risk-management-first introduction rather than a get-rich-quick pitch.",
+  "whenToReadThis": "Best read before risking real capital, and revisited when building or revising a personal trading plan.",
+  "relatedBooks": [],
+  "authorBio": {
+    "name": "Andrew Aziz",
+    "bio": "Andrew Aziz is a Canada-based trader, author, and educator known for his day trading book series, including Day Trade for a Living and its sequels, along with associated trading education and mentorship programs. He built a public profile combining active trading with teaching, positioning his books as practical, plan-first alternatives to more speculative day-trading content.\n\nHe has written extensively about treating trading as a structured profession, with recurring emphasis on risk management and psychology alongside technical skill, and has continued to publish further, more advanced material aimed at traders who have already absorbed the fundamentals in this first book.",
+    "notableWorks": [
+      "Advanced Techniques in Day Trading",
+      "Institutional Order Flow Trading (co-authored, if applicable — unverified)"
+    ]
+  },
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-31",
+  "sourceNotes": "Based on general knowledge of Day Trade for a Living's well-established structure and content, cross-checked against Vietnamese bookseller descriptions and the confirmed related-title chapter list found via web search for the companion \"Advanced\" book; exact Vietnamese-edition chapter titles were not independently verified against the physical translation, and the quote section was kept minimal given uncertainty about verified exact wording in translation.\n\n---"
+}

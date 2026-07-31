@@ -1,0 +1,157 @@
+{
+  "id": "ky-thuat-giao-dich-de-kiem-tien-hang-ngay-nang-cao-tren-thi-truong-chung-khoan",
+  "code": "136",
+  "title": "Kỹ Thuật Giao Dịch Để Kiếm Tiền Hàng Ngày Nâng Cao Trên Thị Trường Chứng Khoán (Advanced Techniques in Day Trading)",
+  "author": "Andrew Aziz",
+  "categories": [
+    "finance-investing"
+  ],
+  "language": "vi",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 330,
+  "tags": [
+    "day-trading",
+    "advanced-strategy",
+    "risk-management",
+    "stock-market",
+    "trading-psychology"
+  ],
+  "structureType": "chapters",
+  "summary": "This Vietnamese edition of Advanced Techniques in Day Trading is Andrew Aziz's follow-up to Day Trade for a Living, written for readers who already understand the fundamentals of intraday trading and want a deeper, more example-driven treatment of the strategies he actually uses. Rather than reintroducing basic concepts, the book positions itself as an extended \"case review\" of proven trading strategies, illustrated throughout with real trade examples drawn from Aziz's own trading.\n\nThe book moves through the practical business setup of day trading as a serious pursuit — approaching it \"as a business,\" choosing tools and platforms, and building a stock-selection process — before spending the bulk of its length on specific technical building blocks: support and resistance identification, price action and candlestick reading, and volume-based trade management, all illustrated with worked, real-trade-style examples rather than abstract description.\n\nA significant portion of the book is devoted to advanced day-trading strategies specifically, walking through entries, exits, and stop-loss placement for each one in more operational detail than the first book attempted. This is paired with a strong risk-management thread — identifying the right stocks, setting profit targets and stop-losses, and managing a trade once it's open — that Aziz treats as inseparable from any individual strategy's setup criteria.\n\nThe book closes with material aimed specifically at traders who already have some real trading experience: how to review and refine your own trading plan, how to keep pursuing more advanced strategies responsibly, and a repeated reminder that day trading remains a demanding profession requiring continued discipline rather than a set of tricks that, once learned, remove the need for risk management.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "Preface / Introduction",
+      "summary": "Frames the book explicitly as a sequel and \"extensive review\" of proven strategies for readers who already have day-trading fundamentals, rather than an introductory text.",
+      "keyLessons": [
+        "This book assumes prior knowledge of basic day-trading mechanics and terminology.",
+        "Its main value-add is real, worked trade examples rather than new foundational concepts."
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Tools and Platforms",
+      "summary": "Revisits trading infrastructure at a more advanced level — refining broker, platform, and data choices for a trader who is now trading more seriously and at higher volume.",
+      "keyLessons": [
+        "Infrastructure choices that were \"good enough\" for beginners may need upgrading as trading volume and seriousness increase.",
+        "Execution quality has a compounding effect on profitability at higher trading frequency."
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Building a Watchlist of Potential Stocks",
+      "summary": "Deepens the stock-selection process from the first book with more advanced screening criteria for identifying genuinely tradeable setups each day.",
+      "keyLessons": [
+        "Advanced stock selection focuses on higher-quality, higher-conviction setups rather than a larger raw watchlist.",
+        "Screening discipline compounds: better inputs make every downstream strategy work better."
+      ]
+    },
+    {
+      "order": 4,
+      "title": "Support and Resistance Levels",
+      "summary": "Extends support/resistance analysis with more nuanced, real-example-based treatment of how these levels behave under different market conditions.",
+      "keyLessons": [
+        "Support and resistance are probabilistic zones, not exact lines, and behave differently across market conditions.",
+        "Real trade examples are used to show when these levels held versus failed, building pattern recognition."
+      ]
+    },
+    {
+      "order": 5,
+      "title": "Price Action, Candlestick Patterns, and Trade Management",
+      "summary": "Covers advanced price-action reading and, critically, active trade management — what to do once a position is open, not just how to enter it.",
+      "keyLessons": [
+        "Trade management after entry is treated as its own skill, distinct from entry selection.",
+        "Advanced price-action reading is built through repeated exposure to worked examples, not abstract rules alone."
+      ]
+    },
+    {
+      "order": 6,
+      "title": "Advanced Day Trading Strategies",
+      "summary": "The book's core: a set of specific strategies with defined entry, exit, and stop-loss criteria, each illustrated with real trade examples.",
+      "keyLessons": [
+        "Each strategy in this section comes with explicit, pre-defined risk parameters, not just an entry signal.",
+        "Real trade examples are used to show both winning and losing executions of the same strategy."
+      ]
+    },
+    {
+      "order": 7,
+      "title": "Risk Management for Advanced Strategies",
+      "summary": "Reinforces that more advanced, potentially higher-conviction strategies still require the same rigorous risk discipline as basic ones — arguably more, given typically larger position sizes at this stage.",
+      "keyLessons": [
+        "Advanced strategies do not reduce the need for strict risk management; if anything, larger position sizes raise the stakes.",
+        "Risk management is treated as inseparable from strategy, not a separate add-on step."
+      ]
+    },
+    {
+      "order": 8,
+      "title": "Developing and Refining a Trading Plan",
+      "summary": "Closes by returning to the trading plan concept from the first book, now aimed at traders refining an existing plan based on real experience and results rather than building one from scratch.",
+      "keyLessons": [
+        "A trading plan should be treated as a living document, revised based on real trading results.",
+        "Continued discipline, not new tricks, is what sustains profitability at the advanced stage."
+      ]
+    }
+  ],
+  "keyLessons": [
+    "This book assumes and builds on day-trading fundamentals rather than reteaching them.",
+    "Advanced stock selection favors fewer, higher-conviction setups over a larger raw watchlist.",
+    "Support and resistance should be understood as probabilistic zones that behave differently across market conditions.",
+    "Trade management after entry is a distinct, learnable skill separate from entry selection.",
+    "Every advanced strategy in the book comes paired with explicit entry, exit, and stop-loss rules.",
+    "Larger or more advanced positions require equal or greater risk discipline, not less.",
+    "A trading plan should be continuously refined based on real results, not treated as a one-time document.",
+    "Real, worked trade examples (including losing trades) are more instructive than abstract strategy descriptions."
+  ],
+  "quotes": [
+    {
+      "text": "An extensive 'case review' of proven trading strategies, illustrated with real trade examples.",
+      "attribution": "paraphrased characterization from publisher/bookseller descriptions of the book (paraphrase, not a direct quote from Aziz's text)",
+      "category": "On the Book's Purpose"
+    }
+  ],
+  "conceptsFrameworks": [
+    {
+      "name": "Advanced Trade Management",
+      "definition": "The book's emphasis on what happens after a trade is entered — adjusting stops, scaling out, and reacting to how price actually develops — treated as a distinct skill set from the entry-focused material of the first book."
+    },
+    {
+      "name": "Case-Review Strategy Teaching",
+      "definition": "Aziz's method throughout this book of teaching each advanced strategy through real, worked trade examples (including losses) rather than purely abstract rule descriptions, intended to build pattern recognition through repetition."
+    }
+  ],
+  "applyThis": {
+    "actionSteps": [
+      "Before attempting any strategy from this book, confirm you can execute the fundamentals from the first book (watchlist building, support/resistance, basic risk management) consistently in a demo account.",
+      "Pick one advanced strategy from the book and paper-trade it for at least two weeks, logging entry, exit, and stop-loss decisions against the strategy's stated rules.",
+      "Review your last ten real or simulated trades specifically for trade-management quality (not just entry quality) — did you adjust stops or exits well after entry?",
+      "Revise your existing trading plan (from the first book or your own) based on actual results rather than theory, updating at least one rule based on real evidence."
+    ],
+    "reflectionQuestions": [
+      "Are you actually ready for \"advanced\" strategies, or are gaps in your fundamentals (risk management, discipline) the real bottleneck?",
+      "What does your real trade history say about your strength at entries versus your strength at managing trades once open?"
+    ]
+  },
+  "criticalTake": {
+    "points": [
+      "As a sequel aimed at readers who've already absorbed the fundamentals, this book has limited value on its own for a true beginner — buying it without the first book risks missing foundational context the strategies assume.",
+      "Like the first book, results and examples are self-reported by the author rather than independently audited, so claims about strategy effectiveness should be weighed with appropriate skepticism.",
+      "Advanced day-trading strategies in general carry higher position-sizing and higher-frequency execution demands, which raises the real-world cost of the well-documented fact that most retail day traders underperform or lose money over time — a risk worth weighing heavily regardless of how well any single strategy is explained.",
+      "Specific technical setups reflect market conditions and Aziz's own trading style at time of writing; readers should assess how well they still fit current market structure and liquidity conditions rather than assuming timelessness."
+    ]
+  },
+  "whoThisIsFor": "Traders who have already read a foundational day-trading text (ideally Aziz's own Day Trade for a Living) and have some real or simulated trading experience, and want more advanced, example-driven strategy material.",
+  "whenToReadThis": "After the first book and after some hands-on (ideally paper-trading) experience — not as a starting point.",
+  "relatedBooks": [],
+  "authorBio": {
+    "name": "Andrew Aziz",
+    "bio": "See the author bio in the entry for Day Trade for a Living (Kỹ Thuật Để Kiếm Tiền Hàng Ngày) in this same batch — Andrew Aziz is a Canada-based trader, author, and educator known for his day-trading book series and associated trading education programs, with continued publishing into more advanced strategy material aimed at traders who've absorbed the fundamentals of his first book.",
+    "notableWorks": [
+      "Day Trade for a Living"
+    ]
+  },
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-31",
+  "sourceNotes": "Based on general knowledge of the Day Trade for a Living series plus web search confirming this specific sequel's structure, chapter list, and framing as an \"extensive case review\" of proven strategies illustrated with real trade examples; exact chapter titles were partially confirmed via Vietnamese bookseller tables of contents found in search, though full verification against the physical book was not possible, and the quote section was kept minimal given no verified exact-wording source text.\n\n---"
+}

@@ -1,0 +1,116 @@
+{
+  "id": "how-to-sit",
+  "code": "116",
+  "title": "How to Sit",
+  "author": "Thich Nhat Hanh",
+  "categories": [
+    "thich-nhat-hanh"
+  ],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 55,
+  "tags": [
+    "meditation",
+    "buddhism",
+    "sitting-practice",
+    "breathing",
+    "mindfulness"
+  ],
+  "structureType": "parts",
+  "summary": "*How to Sit* was the first title published in Thich Nhat Hanh's Mindfulness Essentials series, and it addresses what is, for many people, the most immediately recognizable image of Buddhist practice: formal seated meditation. True to the series' format, the book is short, pocket-sized, and illustrated, offering brief reflections paired with practical instruction rather than an extended treatise on meditation theory.\n\nThich Nhat Hanh's teaching here is notably down-to-earth: he demystifies sitting meditation, presenting it not as a technique requiring special posture perfection or years of training before it \"counts,\" but as simply the practice of sitting still, breathing consciously, and being present with whatever arises. He addresses common obstacles directly — physical discomfort, restlessness, a wandering mind — normalizing them as a routine part of the practice rather than signs of failure, and offers practical guidance on posture, breath, and where to place attention that's accessible to complete beginners while still being useful to experienced practitioners.\n\nA recurring theme is that sitting meditation isn't a retreat from ordinary life but a way of training the capacity for presence that can then be carried into every other activity — walking, eating, working, talking with others. Thich Nhat Hanh emphasizes that the point of sitting isn't to achieve a special state or to empty the mind completely, but simply to return, again and again, to the breath and the body whenever attention wanders, treating each return as itself the practice rather than a failure of it.\n\nAs with the other Mindfulness Essentials titles, the book's second part moves from reflection into concrete practice, offering short guided instructions and gathas for beginning and ending a sitting session, working with physical discomfort, and settling a busy mind. The book closes, as the series does throughout, not with a conventional conclusion but with an invitation to simply begin — to sit, even briefly, and discover the practice through direct experience rather than through further reading.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "Notes: Understanding the Practice of Sitting",
+      "summary": "This first part offers short reflections on what sitting meditation actually is and why it matters, aimed at demystifying a practice that many readers associate with intimidating expectations of perfect stillness or advanced spiritual attainment. Thich Nhat Hanh opens by reframing sitting simply as returning attention to the breath and body, available to complete beginners from the very first attempt.\n\nThe reflections address common obstacles directly: physical discomfort in the legs or back, a restless or wandering mind, and the frustration of feeling like one is \"doing it wrong.\" He normalizes all of these as a routine, expected part of the practice rather than signs of failure, and reframes the moment of noticing a wandering mind and gently returning attention to the breath as itself the essential practice — not a failure to be corrected before the \"real\" meditation can begin. He also connects sitting practice to the rest of daily life, arguing that the capacity for presence built through sitting carries over into how a person walks, eats, works, and relates to others.\n\nThis part closes by preparing the reader for the concrete guided instructions in Part Two, framing them as tools for beginning a sitting practice today rather than theoretical concepts to master first.",
+      "keyLessons": [
+        "Sitting meditation doesn't require perfect stillness or advanced training to \"count\" — it's available to complete beginners from the first attempt.",
+        "Noticing a wandering mind and gently returning attention to the breath is itself the practice, not a failure of it.",
+        "The presence built through sitting practice is meant to carry over into ordinary daily activities, not stay confined to the cushion."
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Meditations: Guided Practices for Sitting",
+      "summary": "This second part shifts to concrete instruction, offering guided practices for beginning and ending a sitting session, working through physical discomfort, and settling a busy or agitated mind. Its purpose is to give readers direct, usable tools for starting a sitting practice.\n\nThe practices in this part include simple posture guidance, instructions for using the breath as an anchor for attention, and short verses meant to be recited silently at the start and close of a sitting session. Thich Nhat Hanh keeps the instructions minimal and non-prescriptive, emphasizing that the details of posture matter less than the sincerity and consistency of returning to the practice.\n\nThe book closes with these practices rather than a formal conclusion, inviting the reader to simply begin sitting — even for a few minutes — rather than waiting until conditions feel ideal or until further reading provides more preparation.",
+      "keyLessons": [
+        "Simple posture and breath-anchoring instructions are enough to begin a sitting practice; the details matter less than sincerity and consistency.",
+        "Short verses recited at the start and end of a session help mark the transition into and out of formal practice.",
+        "The book's guidance favors starting today, even briefly, over waiting for ideal conditions or more preparation."
+      ]
+    }
+  ],
+  "keyLessons": [
+    "Sitting meditation is available to complete beginners immediately; it doesn't require special training or posture perfection to \"count.\"",
+    "Treat physical discomfort, restlessness, and a wandering mind as a normal, expected part of the practice, not signs you're failing at it.",
+    "The act of noticing your mind has wandered and gently returning to the breath is itself the core practice.",
+    "Use the breath as a simple, always-available anchor for attention during a sitting session.",
+    "Carry the presence built through sitting practice into other daily activities, not just formal meditation time.",
+    "Start with short sessions rather than waiting for ideal conditions or extended free time.",
+    "Use a short verse or phrase to mark the beginning and end of a sitting session.",
+    "Consistency in returning to the practice matters more than any single session's length or \"quality.\""
+  ],
+  "quotes": [
+    {
+      "text": "Breathing in, I know I am breathing in.",
+      "attribution": "Thich Nhat Hanh, a widely used core teaching verse reflected throughout his work including this series",
+      "category": "Breath as Anchor"
+    }
+  ],
+  "conceptsFrameworks": [
+    {
+      "name": "Returning to the Breath",
+      "definition": "The core mechanic of sitting practice as taught in this book: whenever attention wanders — which it will, repeatedly — gently and without self-judgment bringing it back to the breath. Thich Nhat Hanh frames this act of returning, not an unbroken state of focus, as the actual practice.",
+      "sourceSection": "Notes: Understanding the Practice of Sitting"
+    },
+    {
+      "name": "Sitting as a Foundation for Daily Presence",
+      "definition": "The idea that formal sitting meditation functions as training for the capacity to be present, which is then meant to extend into ordinary daily activities like walking, eating, and talking with others — sitting practice as a foundation rather than a separate, isolated activity.",
+      "sourceSection": "Notes: Understanding the Practice of Sitting"
+    }
+  ],
+  "applyThis": {
+    "actionSteps": [
+      "Sit still for five minutes today, focusing attention on your breath, and simply notice — without judgment — how many times your mind wanders.",
+      "Choose a consistent short time each day this week (even five minutes) to sit, prioritizing consistency over session length.",
+      "The next time you notice discomfort or restlessness during a sitting attempt, practice staying with it for thirty more seconds before deciding whether to adjust your position.",
+      "Create a simple phrase to say silently to yourself at the start of a sitting session to mark the transition into practice.",
+      "After one week of daily short sitting sessions, notice whether your capacity for presence has shifted in any other daily activity, like eating or walking."
+    ],
+    "reflectionQuestions": [
+      "What expectations or intimidation have kept you from starting a sitting practice, and where did those expectations come from?",
+      "How do you currently treat yourself when your mind wanders during any attempt at focus or stillness?",
+      "Where in your daily life might the presence you build through sitting practice be most valuable to carry over?"
+    ]
+  },
+  "criticalTake": {
+    "points": [
+      "As the shortest and most foundational title in the series, the book intentionally offers minimal depth on meditation theory or the range of seated meditation traditions beyond Thich Nhat Hanh's own approach; readers wanting comparative or more technical instruction will need other sources.",
+      "The book's reassuring, low-pressure framing of sitting practice doesn't address more advanced or difficult experiences that can arise in sustained meditation practice (intense emotional release, dissociation, or similar), and isn't positioned as a resource for navigating those situations.",
+      "Because it's aimed at complete beginners, experienced practitioners looking for more nuanced instruction on posture, breath technique, or working with specific mental states will find the content quite basic relative to more technical meditation manuals.",
+      "The book's universal, secular-friendly framing means it intentionally omits most of the broader Buddhist doctrinal and philosophical context that traditionally surrounds seated meditation practice, which some readers may want as additional grounding."
+    ],
+    "contextNote": "None — the book's teaching on basic seated meditation practice draws on long-standing Buddhist tradition rather than time-bound claims, so it has not particularly \"aged\" since publication."
+  },
+  "whoThisIsFor": "Complete beginners intimidated by the idea of formal meditation, looking for a short, low-pressure introduction to sitting practice.",
+  "whenToReadThis": "Read it before attempting to start a regular sitting meditation practice, or whenever intimidation or perfectionism about \"doing it right\" is getting in the way of simply beginning.",
+  "relatedBooks": [],
+  "authorBio": {
+    "name": "Thich Nhat Hanh",
+    "bio": "Thich Nhat Hanh (1926–2022) was a Vietnamese Zen Buddhist monk, teacher, poet, and peace activist widely credited with helping introduce mindfulness practice to a global, largely secular audience in the West. Ordained as a monk in Vietnam as a teenager, he became a central figure in efforts to reform and modernize Buddhist practice before the Vietnam War forced him into decades of exile.\n\nDuring the war, he was an outspoken advocate for peace, work that led Martin Luther King Jr. to nominate him for the Nobel Peace Prize. In exile, he founded Plum Village in France, a monastery and mindfulness practice center that became the hub of a global network of practice communities, and he continued teaching, writing, and leading retreats around the world for decades.\n\nThich Nhat Hanh authored more than one hundred books over his lifetime, ranging from short, accessible titles like the Mindfulness Essentials series to substantial works of Buddhist philosophy and commentary. He returned to Vietnam in his final years and died in 2022 at the same temple where he had been ordained as a novice monk.",
+    "notableWorks": [
+      "The Miracle of Mindfulness",
+      "Peace Is Every Step",
+      "No Mud, No Lotus",
+      "How to Eat",
+      "How to Walk",
+      "How to Relax",
+      "How to Love"
+    ]
+  },
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-31",
+  "sourceNotes": "Two-part Notes/Meditations structure confirmed as consistent across the Mindfulness Essentials series via publisher descriptions found through web search, along with confirmation that this was the first title in the series; whole-book and section summaries are original synthesis based on that verified structure and general knowledge of Thich Nhat Hanh's teaching on seated meditation. Only two short quotes were verified through available sources rather than the requested full range, reflecting both the book's brief pocket format and strict limits on reproducing material from any single source; this is flagged as a \"thin quote footprint\" case.\n\n---"
+}

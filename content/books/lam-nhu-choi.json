@@ -1,0 +1,139 @@
+{
+  "id": "lam-nhu-choi",
+  "code": "140",
+  "title": "Làm Như Chơi (Làm Chủ Công Việc Và Đời Sống Bằng Năng Lực Tỉnh Thức)",
+  "author": "Minh Niệm",
+  "categories": [
+    "philosophy-psychology | thich-nhat-hanh"
+  ],
+  "language": "vi",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 300,
+  "tags": [
+    "mindfulness",
+    "buddhism",
+    "vietnamese-spirituality",
+    "work-life-balance",
+    "meditation"
+  ],
+  "structureType": "parts",
+  "summary": "Làm Như Chơi (roughly, \"Working as if Playing\") is Vietnamese Buddhist teacher Minh Niệm's follow-up to his widely read Hiểu Về Trái Tim, extending similar mindfulness and Buddhist psychology themes specifically toward how people relate to work, productivity, and daily obligation. The book's central provocation, addressed directly in its own framing material, is that readers hoping for a literal trick to \"work without effort\" will be disappointed — the real teaching is that the qualities we associate with play (presence, ease, absorption, lack of dread) are available within work itself once approached through sustained mindfulness (tỉnh thức) rather than through avoidance or forced positivity.\n\nStructured as a collection of short teachings, reflections, and stories rather than a single linear argument, the book works through the specific ways modern working life tends to be experienced as burdensome — pressure, comparison, fear of failure, the habit of postponing genuine living until work is finished — and offers a Buddhist psychological reframing for each: recognizing that suffering often comes from resistance to what is happening rather than the activity itself, and that \"work\" and \"life\" are artificially separated categories that a mindful person can learn to experience as continuous.\n\nThe book draws on the author's monastic training and continues themes from Hiểu Về Trái Tim (understanding and working skillfully with difficult emotions), but applies them specifically to the demands of career, ambition, and daily labor — including material on self-mastery, the discipline behind genuine ease, and applying mindfulness through repeated small practices integrated into ordinary tasks rather than only during formal meditation sessions.\n\nReader response to the book has been notably split: some find its short, dense, aphoristic teaching style deeply rewarding on rereading, particularly returning to specific passages relevant to their current life situation, while others find the same style difficult to follow or repetitive of the author's earlier, better-known book — a real tension in how the book lands that this entry's Critical Take section addresses directly.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "Reframing Work and Play",
+      "summary": "Opens by challenging the reader's assumption that work and play are opposites, arguing the difference is less about the activity itself and more about the quality of presence brought to it.",
+      "keyLessons": [
+        "The felt difference between \"work\" and \"play\" is largely about the quality of attention brought to an activity, not the activity's inherent nature.",
+        "Readers seeking a literal productivity trick are redirected toward a mindset shift instead."
+      ]
+    },
+    {
+      "order": 2,
+      "title": "The Roots of Suffering in Daily Labor",
+      "summary": "Applies core Buddhist psychology — that much suffering comes from resistance to and resentment of present circumstances, not the circumstances themselves — specifically to the experience of unwanted or burdensome work.",
+      "keyLessons": [
+        "Much of the felt burden of work comes from mental resistance to it, distinct from the physical or practical difficulty of the task itself.",
+        "Recognizing this distinction is presented as the first step toward experiencing work differently, not a reason to avoid necessary effort."
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Tự Tu Thân (Self-Cultivation / Self-Mastery)",
+      "summary": "A section specifically on the discipline of self-cultivation — described in source material as accepting necessary discomfort and letting go of unnecessary comfort — as the foundation that makes real ease in work possible, rather than ease being achieved by avoiding discipline.",
+      "keyLessons": [
+        "Genuine ease in daily life is presented as something built through disciplined self-cultivation, not achieved by avoiding effort.",
+        "Self-mastery in this framing includes both tolerating necessary discomfort and consciously releasing unnecessary comfort-seeking."
+      ]
+    },
+    {
+      "order": 4,
+      "title": "Presence in Small Tasks",
+      "summary": "Works through practical mindfulness practice applied to ordinary daily tasks (not only formal meditation), extending \"tỉnh thức\" (wakeful presence) into the texture of everyday working life.",
+      "keyLessons": [
+        "Mindfulness practice is presented as portable into ordinary tasks, not confined to formal sitting meditation.",
+        "Small, repeated moments of presence are treated as more transformative over time than occasional intensive practice alone."
+      ]
+    },
+    {
+      "order": 5,
+      "title": "Living While Working, Not After",
+      "summary": "Addresses the habit of postponing \"real living\" until work is done, arguing that treating life and work as sequential rather than integrated is itself a source of chronic dissatisfaction.",
+      "keyLessons": [
+        "Deferring genuine living until after work is completed tends to produce chronic, low-grade dissatisfaction.",
+        "Integrating presence into work itself, rather than treating it as a barrier to real life, is the book's central proposed remedy."
+      ]
+    }
+  ],
+  "keyLessons": [
+    "The difference between work feeling like a burden and feeling like play often lies in the quality of presence, not the activity itself.",
+    "Much daily suffering around work comes from mental resistance to circumstances, not the circumstances alone.",
+    "Genuine ease is built through disciplined self-cultivation, not achieved by avoiding effort or responsibility.",
+    "Mindfulness (tỉnh thức) can and should be practiced within ordinary daily tasks, not only during formal meditation.",
+    "Treating \"work\" and \"life\" as sequential — with real living deferred until work is done — tends to produce chronic dissatisfaction.",
+    "Small, repeated moments of presence compound over time more reliably than occasional intensive effort.",
+    "Understanding one's own emotional reactions to work is a precondition for changing one's relationship to it.",
+    "The book's teachings are meant to be revisited over time, since their meaning shifts as the reader's own life circumstances change."
+  ],
+  "quotes": [
+    {
+      "text": "Tu thân là đào luyện cả thân lẫn tâm, cố gắng chấp nhận cảm giác khó chịu cần thiết, can đảm buông bỏ cảm giác dễ chịu không cần thiết.",
+      "attribution": "Minh Niệm, Làm Như Chơi",
+      "category": "Self-Cultivation"
+    },
+    {
+      "text": "Làm chủ công việc và đời sống bằng năng lực tỉnh thức.",
+      "attribution": "Minh Niệm, the book's own subtitle, describing its central aim",
+      "category": "On the Book's Purpose"
+    }
+  ],
+  "conceptsFrameworks": [
+    {
+      "name": "Tỉnh Thức (Mindful Wakefulness)",
+      "definition": "Minh Niệm's central organizing concept: a sustained quality of present-moment awareness, drawn from Buddhist meditative practice, that the book argues can be extended into ordinary work and daily tasks rather than confined to formal meditation sessions."
+    },
+    {
+      "name": "Làm Như Chơi (Working as if Playing)",
+      "definition": "The book's title concept and central reframe: not a literal technique for effortless work, but a description of the experiential quality — ease, absorption, lack of dread — that becomes available in work once approached through sustained mindful presence rather than resistance or avoidance."
+    },
+    {
+      "name": "Tự Tu Thân (Self-Cultivation)",
+      "definition": "The disciplined inner training — described in the book as tolerating necessary discomfort while releasing unnecessary comfort-seeking — that the book presents as the actual foundation making genuine ease in daily work possible, distinguishing it from mere positive thinking."
+    }
+  ],
+  "applyThis": {
+    "actionSteps": [
+      "Pick one recurring task you currently experience as burdensome, and for one week, practice bringing full attention to it rather than mentally rushing through it to get it over with.",
+      "Notice and write down, once a day, a moment where you caught yourself resisting a present circumstance rather than the circumstance itself being the source of difficulty.",
+      "Identify one form of \"unnecessary comfort-seeking\" you rely on to avoid discomfort at work, and practice consciously setting it aside for short periods.",
+      "At the end of each workday this week, notice whether you've been mentally deferring \"real living\" until after work, and try consciously integrating one moment of genuine presence into the workday itself."
+    ],
+    "reflectionQuestions": [
+      "Where in your life are you waiting for work to be \"over\" before you allow yourself to feel present or at ease?",
+      "What would change if you treated your current daily tasks as opportunities for practice rather than obstacles to get through?"
+    ]
+  },
+  "criticalTake": {
+    "points": [
+      "Reader response to this specific book is notably divided along lines of prior familiarity with the author's teaching style: some readers find the short, aphoristic, story-based format rewarding on rereading, while others (including some who loved his earlier Hiểu Về Trái Tim) find this book repetitive of that earlier work or difficult to follow — this is a real, documented split in how the book lands, not a hypothetical caveat.",
+      "Because the book teaches through short stories and reflections rather than sustained argument, it can be harder to evaluate or apply systematically compared to more structured self-help or productivity books — its value depends heavily on the reader's willingness to sit with and return to individual passages rather than extract a checklist.",
+      "As with much popular Buddhist-inspired self-help writing, the book's psychological claims (e.g., about the roots of dissatisfaction) draw on Buddhist doctrine and the author's own teaching and lived monastic experience rather than empirical psychological research, which is a different, though not necessarily lesser, kind of evidentiary basis worth being clear-eyed about.",
+      "I do not have detailed, verified knowledge of specific claims within the book precise enough to identify further book-specific factual weaknesses beyond these genre-level and reception-based points."
+    ]
+  },
+  "whoThisIsFor": "Readers already drawn to Buddhist-influenced mindfulness writing (especially fans of the author's earlier work) who are specifically struggling with how work and daily obligation feel, rather than readers wanting a structured productivity system.",
+  "whenToReadThis": "Best read slowly and revisited over time, particularly during periods of work-related stress, burnout, or a sense that life is being deferred until work is finished.",
+  "relatedBooks": [],
+  "authorBio": {
+    "name": "Minh Niệm",
+    "bio": "Minh Niệm is a Vietnamese Buddhist monk and mindfulness teacher, trained in the Plum Village tradition associated with Zen master Thích Nhất Hạnh, and known for translating Buddhist psychology into accessible, widely read Vietnamese-language books for general audiences.\n\nHe rose to broad popularity with Hiểu Về Trái Tim (\"Understanding the Heart\"), a bestselling book on Buddhist psychology and emotional healing that established his voice and teaching style, and which Làm Như Chơi both extends and is frequently compared against by readers.\n\nBeyond writing, Minh Niệm is known for teaching mindfulness and meditation retreats and public talks in Vietnam, continuing to focus on making Buddhist psychological insight practically applicable to modern, secular daily life rather than confined to religious practice alone.",
+    "notableWorks": [
+      "Hiểu Về Trái Tim"
+    ]
+  },
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-31",
+  "sourceNotes": "Based on general knowledge of Minh Niệm's teaching and writing style plus web search confirming the book's subtitle, its relationship to Hiểu Về Trái Tim, its short-teaching/story structure, mixed reader reception, and one verified exact passage on self-cultivation found in search results; the section breakdown above is organized by recurring theme rather than a verified formal table of contents, since the book's structure is a loose collection of short pieces rather than a small number of named parts.\n\n---\n\n*End of Batch 12 of 31.*"
+}

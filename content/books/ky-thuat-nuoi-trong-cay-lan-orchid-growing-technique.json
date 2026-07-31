@@ -1,0 +1,131 @@
+{
+  "id": "ky-thuat-nuoi-trong-cay-lan-orchid-growing-technique",
+  "code": "137",
+  "title": "Kỹ Thuật Nuôi Trồng Cây Lan (Orchid Growing Technique)",
+  "author": "Trần Văn Huấn & Văn Tích Lượm",
+  "categories": [
+    "health-wellness"
+  ],
+  "language": "vi",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 210,
+  "tags": [
+    "orchids",
+    "gardening",
+    "horticulture",
+    "plant-care",
+    "vietnam",
+    "hobby"
+  ],
+  "structureType": "chapters",
+  "summary": "This is a practical horticultural manual on growing orchids in a Vietnamese climate and context, aimed at hobbyist and small-scale growers rather than commercial operations. Unlike the other titles in this batch, it isn't an argument-driven book with a single thesis; its \"summary\" is really a description of scope: a working reference covering orchid biology basics, propagation, growing media and containers, watering and feeding, environmental control (light, humidity, temperature, ventilation), and pest and disease management for the orchid genera most commonly grown in Vietnam (such as Dendrobium, Cattleya, Phalaenopsis, and Vanda-type orchids, among others typically covered in Vietnamese orchid-growing guides).\n\nThe book's underlying premise is that orchids, despite their reputation as delicate or difficult, are highly growable once a hobbyist understands a small number of core environmental needs specific to epiphytic (and in some cases terrestrial) orchid biology — namely, that most popular orchids are not soil plants at all, and fail most often because growers apply general houseplant watering and potting habits that don't match how orchid roots actually function in the wild.\n\nMuch of the book works through practical, step-by-step technique: how to select healthy stock, how to mount or pot different orchid types appropriately for their natural growth habit, how to build a watering and feeding rhythm that matches seasonal growth cycles, and how to diagnose and treat the fungal, bacterial, and pest problems most common to orchids grown in Vietnam's humid climate.\n\nBecause this is a technical reference rather than an argumentative or narrative book, its greatest value is as something to consult repeatedly by topic (e.g., \"why are my orchid's leaves yellowing,\" \"how do I repot after flowering\") rather than as a single linear read, and the \"lessons\" below reflect the book's practical guidance rather than a persuasive thesis.\n\n**A note on this entry's confidence level:** I do not have verified, book-specific knowledge of this particular title's exact chapter list, and the content below reflects standard, well-established orchid-growing knowledge organized in the shape this kind of Vietnamese orchid manual typically takes, rather than a confirmed table of contents from this specific book. Please treat the section breakdown as a reasonable approximation, not a verified match to the physical book.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "Orchid Biology Basics",
+      "summary": "Introduces what makes orchids different from most houseplants — epiphytic growth habit, aerial roots, pseudobulbs in many genera — as the foundation for every later care decision.",
+      "keyLessons": [
+        "Most popular orchids grow naturally on trees or rocks, not in soil, which changes everything about how they should be potted and watered.",
+        "Understanding a specific orchid genus's natural growth habit is the starting point for correct care."
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Growing Media and Containers",
+      "summary": "Covers the specialized potting media (bark, sphagnum moss, charcoal, coconut husk) and container types (slotted pots, baskets, mounts) suited to orchid roots' need for airflow.",
+      "keyLessons": [
+        "Standard potting soil suffocates most orchid roots and is a leading cause of home-grower failure.",
+        "Media choice should match the specific orchid genus and the grower's watering habits, not be one-size-fits-all."
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Watering and Feeding",
+      "summary": "Details watering frequency, technique, and fertilizing schedules matched to orchids' growth cycles rather than a fixed calendar routine.",
+      "keyLessons": [
+        "Overwatering, not underwatering, is the most common cause of orchid death among beginners.",
+        "Feeding should be adjusted to active growth versus dormant periods, not applied at a constant rate year-round."
+      ]
+    },
+    {
+      "order": 4,
+      "title": "Light, Temperature, and Humidity",
+      "summary": "Explains how to match light exposure and environmental conditions to different orchid genera's native habitats, since orchid light and humidity needs vary significantly by type.",
+      "keyLessons": [
+        "Light requirements differ substantially between common orchid genera; a single \"orchid light rule\" doesn't exist.",
+        "Humidity and airflow need to be managed together, not humidity alone, to avoid fungal problems."
+      ]
+    },
+    {
+      "order": 5,
+      "title": "Propagation",
+      "summary": "Covers methods for propagating orchids at a hobbyist scale — division, keiki (offshoot) development, and basic techniques for increasing a collection from existing plants.",
+      "keyLessons": [
+        "Division and keiki propagation are realistic hobbyist-scale methods, unlike lab-based tissue culture.",
+        "Propagation timing generally follows the plant's own natural growth cycle rather than a fixed calendar date."
+      ]
+    },
+    {
+      "order": 6,
+      "title": "Pest and Disease Management",
+      "summary": "Walks through the most common pests (scale, mealybugs, spider mites) and diseases (fungal and bacterial rots) affecting orchids in humid climates, along with prevention and treatment approaches.",
+      "keyLessons": [
+        "Most serious orchid diseases are linked back to poor airflow or overwatering rather than being unavoidable.",
+        "Early identification and isolation of an affected plant prevents most outbreaks from spreading to a whole collection."
+      ]
+    }
+  ],
+  "keyLessons": [
+    "Match potting media and container choice to the specific orchid genus's natural growth habit, not a generic houseplant approach.",
+    "Overwatering is the most common cause of home orchid failure — most orchids prefer to dry out somewhat between waterings.",
+    "Light and humidity needs vary significantly across common orchid genera; research the specific type you're growing.",
+    "Feeding and watering rhythms should follow the plant's active growth versus dormant cycle, not a flat year-round schedule.",
+    "Airflow around roots and foliage is as important as humidity itself for preventing fungal and bacterial problems.",
+    "Division and keiki propagation are realistic ways for a hobbyist to expand a collection without specialized lab equipment.",
+    "Early isolation of a sick plant is the most effective way to prevent a pest or disease outbreak from spreading.",
+    "Healthy stock selection at purchase avoids most of the early problems new growers otherwise blame on their own care."
+  ],
+  "quotes": [],
+  "conceptsFrameworks": [
+    {
+      "name": "Epiphytic Growth Habit",
+      "definition": "The core biological fact underlying nearly all orchid care advice in the book: most commonly grown orchids evolved to grow on trees or rocks rather than in soil, with aerial roots adapted to rapid drying and high airflow — which is why standard potting-soil practices harm rather than help them."
+    },
+    {
+      "name": "Growth Cycle-Matched Care",
+      "definition": "The book's organizing care principle: watering, feeding, and even propagation timing should follow the orchid's own natural cycle of active growth versus dormancy or rest, rather than a fixed, uniform year-round schedule."
+    }
+  ],
+  "applyThis": {
+    "actionSteps": [
+      "Identify the specific genus of each orchid you own (or plan to grow) and confirm its natural growth habit (epiphytic vs. terrestrial) before choosing potting media.",
+      "Switch from a fixed watering schedule to a \"check before watering\" habit — testing media dryness at the roots rather than watering on a calendar.",
+      "Set up or adjust airflow around your orchids (spacing, a small fan, or ventilated mounting) specifically to reduce fungal disease risk.",
+      "Try one hobbyist-scale propagation method (keiki removal or division) on a mature, healthy plant during its appropriate growth phase."
+    ],
+    "reflectionQuestions": [
+      "Are you currently treating your orchids like generic houseplants in ways that might be working against their natural growth habit?",
+      "What signs would tell you early that a plant is struggling, before visible damage appears?"
+    ]
+  },
+  "criticalTake": {
+    "points": [
+      "As a technical manual, the book's guidance is likely tuned to Vietnam's specific climate and commonly available local growing media; readers in significantly different climates should adapt rather than apply guidance literally.",
+      "Orchid genera vary enormously in their care needs, so any general orchid guide risks readers over-generalizing advice meant for one genus (e.g., Phalaenopsis) to a very different one (e.g., Cattleya or Vanda) with different light and watering needs.",
+      "I don't have specific, verified knowledge of this particular book's claims to assess book-specific limitations beyond these general genre caveats about orchid-care manuals; I'm flagging that limitation rather than inventing specifics."
+    ]
+  },
+  "whoThisIsFor": "Hobbyist gardeners in Vietnam (or similar humid, warm climates) who are growing or considering growing orchids and want a practical, technique-focused reference.",
+  "whenToReadThis": "Best used as an ongoing reference to consult by topic as specific problems or growth stages come up, rather than read once cover to cover.",
+  "relatedBooks": [],
+  "authorBio": {
+    "name": "Trần Văn Huấn & Văn Tích Lượm",
+    "bio": "I do not have reliably verified biographical information about these two authors. Based on the subject matter and typical authorship patterns for Vietnamese horticultural manuals of this kind, they are most likely Vietnamese horticulturalists or agricultural specialists with hands-on orchid-growing experience, but I'm not confident enough in unverified assumptions to present specific claims about their careers, credentials, or other works as fact.",
+    "notableWorks": []
+  },
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-31",
+  "sourceNotes": "This entry combines general, well-established orchid-horticulture knowledge with a structure typical of Vietnamese orchid-growing manuals; I do not have verified, book-specific access to this particular title's exact chapter list, author biographies, or any quotable text, and have flagged that limitation throughout rather than inventing specifics.\n\n---"
+}

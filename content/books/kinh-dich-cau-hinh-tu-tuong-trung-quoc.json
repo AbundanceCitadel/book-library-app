@@ -1,0 +1,104 @@
+{
+  "id": "kinh-dich-cau-hinh-tu-tuong-trung-quoc",
+  "code": "131",
+  "title": "Kinh Dịch: Cấu Hình Tư Tưởng Trung Quốc",
+  "author": "Dương Ngọc Dũng & Lê Anh Minh",
+  "categories": [
+    "philosophy-psychology"
+  ],
+  "language": "vi",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 420,
+  "tags": [
+    "i-ching",
+    "chinese-philosophy",
+    "divination",
+    "confucianism",
+    "taoism",
+    "hexagrams"
+  ],
+  "structureType": "parts",
+  "summary": "This is a scholarly study of the *Kinh Dịch* (I Ching / Classic of Changes) written for a Vietnamese academic readership by two Vietnamese scholars of Chinese thought. Rather than functioning as a how-to divination manual, the book treats the Kinh Dịch as a philosophical and civilizational document: it asks how a text built from sixty-four hexagrams, broken and unbroken lines, and layered commentary came to shape the deep grammar of Chinese thought — its view of change, cosmology, ethics, and statecraft — across more than two thousand years.\n\nThe authors trace the book's layered authorship: the archaic divinatory core attributed to legendary or semi-legendary figures, the addition of the line and hexagram judgments, and the later \"Ten Wings\" commentarial layer associated with the Confucian tradition, which reframed a divination manual as a philosophical cosmology. A central concern of the book is showing how the core intuition of the Kinh Dịch — that reality is constituted by continuous change (dịch) organized around the interplay of yin and yang — became a template underlying not just Confucian and Taoist philosophy but also Chinese medicine, political theory, and aesthetics.\n\nThe book also situates the Kinh Dịch comparatively, discussing how Chinese cosmological thinking organized around correlative pairs and cyclical transformation differs from more linear or substance-based frameworks in Western philosophy, and what this means for reading Chinese intellectual history on its own terms rather than through borrowed Western categories.\n\n**A note on the depth of this entry:** this is a dense, specialist academic text, and I do not have reliable detailed knowledge of its exact chapter-by-chapter argument, its specific case studies, or its named analytical frameworks (if it has any beyond standard I Ching terminology like yin/yang, the trigrams, and the Ten Wings). I have kept the sections and other content below to what I can respectfully generalize about the book's known subject and approach, and have not invented a chapter list, named frameworks, or quotes I cannot verify. This entry is thinner than the ones for better-known titles in this batch — that is a deliberate choice over inventing plausible-sounding detail.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "The Text and Its Layers",
+      "summary": "An overview of how the Kinh Dịch accumulated over centuries — the divinatory hexagram core, then the judgment and line texts, then the Confucian-associated Ten Wings commentary — and why treating it as a single unified \"book\" by one author is historically misleading.",
+      "keyLessons": [
+        "The Kinh Dịch is a composite text built up over centuries, not a single author's work.",
+        "Its divinatory function and its philosophical function are historically separate layers that later merged."
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Yin-Yang, Change, and Chinese Cosmology",
+      "summary": "Discussion of how the alternating broken and unbroken lines of the hexagrams encode a worldview built on complementary opposition and constant transformation, and how this cosmology fed into later Chinese philosophy generally.",
+      "keyLessons": [
+        "Chinese classical cosmology treats change itself, not fixed substance, as the basic fact of reality.",
+        "Yin and yang are relational and complementary categories, not a good/evil dualism."
+      ]
+    },
+    {
+      "order": 3,
+      "title": "The Kinh Dịch's Influence on Confucian and Taoist Thought",
+      "summary": "Examines how Confucian ethical philosophy and Taoist natural philosophy each drew on and reinterpreted the Kinh Dịch's framework of change for different ends.",
+      "keyLessons": [
+        "The same source text was read very differently by Confucian and Taoist interpreters.",
+        "The Kinh Dịch functioned as shared philosophical vocabulary across otherwise competing schools."
+      ]
+    }
+  ],
+  "keyLessons": [
+    "The Kinh Dịch is best understood as a layered historical text, not a single-author treatise.",
+    "Its philosophical core is a cosmology of continuous, patterned change rather than fixed essence.",
+    "Yin and yang describe complementary relation, not moral opposites.",
+    "Chinese correlative cosmological thinking should be read on its own terms, not forced into Western categories.",
+    "The text's influence extends well beyond divination into ethics, medicine, and political theory."
+  ],
+  "quotes": [],
+  "conceptsFrameworks": [
+    {
+      "name": "Yin-Yang (âm dương)",
+      "definition": "The paired, complementary forces or qualities — commonly associated with receptive/active, dark/light, still/moving — whose interplay the Kinh Dịch uses to model all change and relation, rather than as a fixed moral dualism."
+    },
+    {
+      "name": "The Ten Wings (Thập Dực)",
+      "definition": "The set of later commentarial texts traditionally appended to the Kinh Dịch and associated with the Confucian tradition, which reinterpreted the divinatory hexagram system as a philosophical and ethical cosmology."
+    },
+    {
+      "name": "The Sixty-Four Hexagrams",
+      "definition": "The core symbolic system of the text: sixty-four six-line figures, each built from broken (yin) and unbroken (yang) lines, used both for divination and as compact symbolic statements about recurring life and cosmic situations."
+    }
+  ],
+  "applyThis": {
+    "actionSteps": [
+      "When facing a decision, try describing the situation in terms of what forces are rising and what forces are receding, rather than in fixed either/or terms — this is the basic interpretive move the book describes in classical Chinese cosmological thinking.",
+      "Read one classical Confucian and one classical Taoist source side by side to see how differently they can draw on a shared philosophical vocabulary.",
+      "Notice where your own thinking assumes fixed, static categories, and practice re-describing a current problem as a temporary configuration that is already changing."
+    ],
+    "reflectionQuestions": [
+      "Where in your life or work are you treating a temporary situation as if it were permanent?",
+      "What would it change about a current decision if you assumed the relevant conditions are already shifting?"
+    ]
+  },
+  "criticalTake": {
+    "points": [
+      "As an academic-leaning text, this book is likely denser and more demanding than the popular self-help framing under which the Kinh Dịch is often marketed in Vietnam (as a divination or fortune-telling manual); readers expecting a practical hexagram-casting guide may find it slow going.",
+      "Comparative claims about \"Chinese thought\" versus \"Western thought\" in works like this can flatten real internal diversity within each tradition — Chinese philosophy is not monolithic, and neither is Western philosophy.",
+      "I do not have enough specific knowledge of this book's own arguments to identify further book-specific weaknesses with confidence, rather than generic ones that could apply to almost any comparative philosophy text."
+    ]
+  },
+  "whoThisIsFor": "Readers with a genuine interest in Chinese philosophy or intellectual history who want a scholarly grounding in the Kinh Dịch, not a quick divination guide.",
+  "whenToReadThis": "Best approached slowly, alongside primary Kinh Dịch translations, rather than as a single fast read.",
+  "relatedBooks": [],
+  "authorBio": {
+    "name": "Dương Ngọc Dũng & Lê Anh Minh",
+    "bio": "Dương Ngọc Dũng is a Vietnamese scholar known for work in comparative religion, Chinese philosophy, and cross-cultural studies, with a background that includes graduate study in religious studies and regular public commentary in Vietnam on Confucianism, Taoism, and East Asian thought.\n\nLê Anh Minh is a Vietnamese researcher and translator associated with work on classical Chinese texts and Taoist studies, including translation and annotation of primary source material for Vietnamese readers.\n\nI do not have detailed, verified biographical specifics (institutional affiliations, exact publication histories) for either author beyond this general characterization, and I am flagging that limitation rather than inventing specifics.",
+    "notableWorks": []
+  },
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-31",
+  "sourceNotes": "This entry is based on general, verifiable knowledge of the Kinh Dịch (I Ching) as a text and of Chinese philosophical cosmology, not on direct familiarity with this specific book's chapter structure or arguments; quotes, a full section breakdown, and detailed author biography have been deliberately omitted or shortened rather than invented. Treat this as a lower-confidence entry pending the physical book being consulted directly.\n\n---"
+}

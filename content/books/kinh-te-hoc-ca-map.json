@@ -1,0 +1,180 @@
+{
+  "id": "kinh-te-hoc-ca-map",
+  "code": "133",
+  "title": "Kinh Tế Học Cá Mập (Sharkonomics: How to Attack Market Leaders)",
+  "author": "Stefan Engeseth",
+  "categories": [
+    "marketing | business-strategy"
+  ],
+  "language": "vi",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 300,
+  "tags": [
+    "competitive-strategy",
+    "disruption",
+    "marketing",
+    "business-metaphor",
+    "market-share"
+  ],
+  "structureType": "chapters",
+  "summary": "Kinh Tế Học Cá Mập is the Vietnamese edition of Stefan Engeseth's Sharkonomics, a competitive-strategy book that uses shark behavior as an extended metaphor for how smaller or challenger companies can take market share from established, larger competitors. Engeseth's premise is that sharks have survived roughly 420 million years not by being the biggest animal in the water but by being relentlessly efficient, adaptive, and strategically ruthless — and that the same traits, translated into business behavior, explain how disruptive challengers repeatedly beat slower incumbents who have every structural advantage on paper.\n\nThe book is organized around roughly ten named \"shark\" strategies, each built from a specific piece of shark biology or behavior and then mapped onto a business tactic: moving constantly rather than settling into comfortable routine, striking without warning rather than telegraphing plans, developing acute sensory awareness of the market, hunting in coordinated packs rather than always going it alone, and finding and exploiting a rival's blind spots rather than attacking head-on where they're strongest. Engeseth pairs each strategy with real corporate examples of companies that succeeded (or incumbents that got eaten) using that pattern.\n\nA second half of the book's argument, made more explicit in this expanded edition, is defensive: the same shark-behavior lens can be turned around to show incumbent market leaders how to avoid becoming \"shark food\" — by staying genuinely mobile, watching for smaller competitors' unconventional moves, and not assuming size and market position are themselves a durable moat in a digital, fast-moving competitive environment.\n\nThroughout, the book is intentionally light and metaphor-driven rather than data-heavy or academic; Engeseth's stated goal is a memorable, provocative framework that changes how a reader instinctively sees competitive situations, more than a rigorous empirical study of what does and doesn't work in disruption.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "Move or Die",
+      "summary": "The book opens with the shark's most basic survival trait — most shark species must keep swimming to keep water flowing over their gills — and uses it to argue that market leaders who settle into static routines are already vulnerable, however dominant they currently look.",
+      "keyLessons": [
+        "Constant, active movement is itself a competitive advantage, independent of any single tactic.",
+        "Comfortable market position is often the leading indicator of future vulnerability, not safety."
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Strike Unpredictably",
+      "summary": "Examines how sharks attack without telegraphing intent, and argues that predictable, telegraphed competitive moves (announced strategies, incremental product roadmaps) give incumbents time to defend, while unpredictable moves don't.",
+      "keyLessons": [
+        "Predictability in strategy gives competitors time to prepare a defense.",
+        "Surprise is a resource smaller challengers can use precisely because they have less to lose by being unconventional."
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Timing Is the Key",
+      "summary": "Discusses how sharks wait for the right moment rather than attacking constantly, mapped onto the business discipline of choosing when to launch, enter, or escalate rather than always moving at full speed.",
+      "keyLessons": [
+        "Strategic patience and well-timed action often beat constant aggressive activity.",
+        "The right move at the wrong time can fail as badly as the wrong move."
+      ]
+    },
+    {
+      "order": 4,
+      "title": "Develop a Sensory System",
+      "summary": "Uses sharks' extraordinarily acute sensory abilities (smell, electroreception) as a metaphor for building organizational systems that detect weak market signals early.",
+      "keyLessons": [
+        "Competitive advantage increasingly comes from noticing shifts before competitors do, not from reacting faster once everyone sees them.",
+        "Sensing systems (customer feedback loops, market monitoring) need deliberate investment, not just intuition."
+      ]
+    },
+    {
+      "order": 5,
+      "title": "Hunt in Packs",
+      "summary": "Covers coordinated, multi-party competitive behavior — partnerships, ecosystems, and coalitions — as a way for smaller players to take on a target too large for any one of them individually.",
+      "keyLessons": [
+        "Coordinated smaller players can outcompete a larger single incumbent.",
+        "Partnership and ecosystem strategy is treated as a legitimate competitive weapon, not just a growth tactic."
+      ]
+    },
+    {
+      "order": 6,
+      "title": "Locate the Blind Spots",
+      "summary": "Focuses on finding where a market leader is structurally unable or unwilling to respond — often exactly where their existing business model or customer base makes retaliation costly — and attacking there specifically.",
+      "keyLessons": [
+        "The best point of attack is often not where you are strongest but where the incumbent is structurally weakest.",
+        "Incumbents' own past success frequently creates their biggest blind spots."
+      ]
+    },
+    {
+      "order": 7,
+      "title": "Defensive Shark Strategy",
+      "summary": "This later section, expanded for the second edition, flips the metaphor to advise incumbents: stay mobile, monitor smaller competitors' unconventional moves, and don't treat market leadership as a permanent, self-sustaining asset.",
+      "keyLessons": [
+        "Incumbents can apply the same shark principles defensively, not just challengers offensively.",
+        "Market leadership is a temporary state that has to be actively defended, not a fixed status."
+      ]
+    }
+  ],
+  "keyLessons": [
+    "Constant movement and adaptation matter more for competitive survival than current market size.",
+    "Predictable strategy gives incumbents time to defend; unpredictability is a genuine competitive asset.",
+    "Timing a move well often matters more than moving fast or often.",
+    "Build deliberate systems for sensing weak market signals early, rather than relying on reaction speed alone.",
+    "Coordinated smaller players (\"packs\") can beat a larger single competitor.",
+    "Attack where an incumbent is structurally weak or unwilling to respond, not where they are strongest.",
+    "Market leaders should apply the same principles defensively — mobility and vigilance, not comfort in current position.",
+    "Size and resources are not, by themselves, a durable competitive moat."
+  ],
+  "quotes": [
+    {
+      "text": "Move or Die",
+      "attribution": "Stefan Engeseth, one of the book's core named strategies",
+      "category": "Core Metaphor"
+    },
+    {
+      "text": "Sharks are nature's most revered and feared killing machines.",
+      "attribution": "Stefan Engeseth, opening framing of the book's premise",
+      "category": "Core Metaphor"
+    },
+    {
+      "text": "In business, most market leaders remain static, because they are stuck in history — and eventually they become shark food.",
+      "attribution": "Stefan Engeseth",
+      "category": "On Market Leaders"
+    },
+    {
+      "text": "Strike Unpredictably",
+      "attribution": "Stefan Engeseth",
+      "category": "Named Strategies"
+    },
+    {
+      "text": "Timing is the Key",
+      "attribution": "Stefan Engeseth",
+      "category": "Named Strategies"
+    },
+    {
+      "text": "Spread Panic",
+      "attribution": "Stefan Engeseth",
+      "category": "Named Strategies"
+    }
+  ],
+  "conceptsFrameworks": [
+    {
+      "name": "The Ten Shark Strategies",
+      "definition": "The book's core organizing framework: roughly ten named competitive tactics (including \"Move or Die,\" \"Strike Unpredictably,\" \"Timing Is the Key,\" \"Develop a Sensory System,\" \"Hunt in Packs,\" and \"Locate the Blind Spots\"), each derived from a specific piece of shark biology and mapped onto a corresponding business behavior for challenger brands attacking market leaders."
+    },
+    {
+      "name": "Shark Food (as a competitive outcome)",
+      "definition": "Engeseth's shorthand for what happens to market leaders who become static and complacent: they eventually get consumed — in market-share terms — by more adaptive, faster-moving challengers, regardless of their historical size or dominance."
+    },
+    {
+      "name": "Blind Spot Attack",
+      "definition": "The strategic principle of identifying the specific area where an incumbent is structurally unable or reluctant to respond (often due to their own existing business model, customer commitments, or organizational habits) and concentrating challenger effort there rather than on a head-on comparison of strengths."
+    }
+  ],
+  "applyThis": {
+    "actionSteps": [
+      "Audit your own routines for signs of \"settling\" — recurring decisions or product cycles you haven't seriously reconsidered in over a year — and pick one to deliberately disrupt.",
+      "Identify one competitive move you're currently telegraphing well in advance (a public roadmap, predictable seasonal campaign) and consider what changes if you make it less predictable.",
+      "Build one small, low-cost \"sensory\" feedback loop this month — a customer signal you are not currently capturing systematically.",
+      "Map a specific competitor's blind spot: a segment, channel, or behavior their existing business model makes it structurally hard for them to match.",
+      "If you're in an incumbent position, list one thing a much smaller competitor has done recently that you dismissed — and reconsider it as a genuine early warning signal."
+    ],
+    "reflectionQuestions": [
+      "Where in your business has past success become a source of blind spots rather than strength?",
+      "If a smaller, faster competitor targeted you tomorrow, where would they attack first?"
+    ]
+  },
+  "criticalTake": {
+    "points": [
+      "The shark metaphor is vivid and memorable but is ultimately a rhetorical framing device, not an empirically derived strategy model; the mapping from shark biology to business tactic is asserted by analogy rather than tested.",
+      "The book leans heavily on selective corporate anecdotes (successful disruptors) without much discussion of challenger companies that used similar aggressive tactics and still failed, which makes the \"ten strategies\" harder to falsify or evaluate rigorously.",
+      "As with many popular business-strategy books built on a single extended metaphor (a genre this book shares with works like Blue Ocean Strategy), the framework's main value is as a memorable heuristic and communication tool rather than as a rigorous predictive model of competitive outcomes.",
+      "Some of the book's core examples (competitive dynamics in specific industries, named companies) will have dated as those industries and companies have moved on since publication; a reader should check whether cited examples still hold up rather than assume they do."
+    ]
+  },
+  "whoThisIsFor": "Marketers, brand strategists, and challenger-brand founders who want a memorable, communicable framework for competitive strategy rather than an academic study.",
+  "whenToReadThis": "Useful when planning how a smaller brand or challenger product should compete against an established market leader, or when trying to get a team to think more aggressively about competitive positioning.",
+  "relatedBooks": [],
+  "authorBio": {
+    "name": "Stefan Engeseth",
+    "bio": "Stefan Engeseth is a Swedish marketing and business author and speaker, known for building popular business books around single extended metaphors drawn from nature or unconventional sources, and for an energetic, provocation-driven speaking and consulting style aimed at corporate and marketing audiences.\n\nHe has built a career combining authorship with corporate lecturing and consulting, positioning himself as a marketing provocateur whose books are designed to be memorable communication tools for internal strategy conversations as much as standalone reading.",
+    "notableWorks": [
+      "Detective Marketing",
+      "The Fall of PR and the Rise of Advertising (co-authored)",
+      "One (co-authored)"
+    ]
+  },
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-31",
+  "sourceNotes": "Based on general knowledge of Sharkonomics plus web search confirming the book's ten-strategy structure, several of its named chapter/strategy titles, and short promotional quotes; the exact Vietnamese-edition chapter titles were not independently verified, so English strategy names are used and should be checked against the physical Vietnamese book. The quote list was deliberately kept short given a thin verifiable long-passage source base.\n\n---"
+}

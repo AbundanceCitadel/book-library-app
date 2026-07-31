@@ -1,0 +1,201 @@
+{
+  "id": "lam-giau-qua-chung-khoan-how-to-make-money-in-stocks",
+  "code": "139",
+  "title": "Làm Giàu Qua Chứng Khoán (How to Make Money in Stocks)",
+  "author": "William J. O'Neil",
+  "categories": [
+    "finance-investing"
+  ],
+  "language": "vi",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 480,
+  "tags": [
+    "stock-investing",
+    "CANSLIM",
+    "growth-investing",
+    "technical-analysis",
+    "stock-market-history"
+  ],
+  "structureType": "chapters",
+  "summary": "How to Make Money in Stocks is William J. O'Neil's system for identifying and timing investments in high-growth stocks before their biggest price moves, built around his CAN SLIM framework — an acronym distilling seven characteristics O'Neil's historical research found common to the market's biggest winning stocks before they broke out. The book's central claim is that the very best-performing stocks share an identifiable, repeatable pattern across decades of market history, and that ordinary investors can learn to systematically recognize that pattern rather than relying on stock tips, broad diversification, or pure buy-and-hold investing.\n\nO'Neil walks through each letter of CAN SLIM in turn: current quarterly earnings growth, annual earnings growth over several years, new factors (new products, management, or price highs), supply and demand (float size and trading volume), leadership versus laggard status within an industry, institutional sponsorship, and overall market direction. A recurring emphasis throughout is that even a great company can be a bad investment if bought at the wrong time relative to the overall market trend — O'Neil devotes substantial attention to reading general market direction through daily price and volume action in major indexes, arguing most major market tops and bottoms show detectable technical signs before they become obvious.\n\nThe book combines this fundamental screening approach with a detailed technical methodology for timing entries, centered on chart patterns — most famously the \"cup with handle\" pattern — that O'Neil's research found preceded many of history's biggest stock winners' major price advances. Alongside stock selection and timing, the book devotes significant space to risk management, most notably O'Neil's rule of selling any stock that falls a fixed percentage (commonly cited as around 7-8%) below its purchase price, without exception, as a mechanical discipline meant to cap losses regardless of the investor's conviction in the underlying story.\n\nThe book closes with material on portfolio management — position sizing, when and how to sell winners, and common psychological investing mistakes — and situates the whole system as being derived not from theory but from O'Neil's own historical study of what the market's actual biggest winners looked like before they became widely recognized as such.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "How I Learned About Winning and Losing Stocks",
+      "summary": "O'Neil opens with his own investing background and the historical research project — studying decades of the biggest stock market winners before their major moves — that led to the CAN SLIM system.",
+      "keyLessons": [
+        "The CAN SLIM system claims to be derived from empirical historical study, not abstract theory.",
+        "O'Neil frames his own early investing losses as the direct motivation for developing a more disciplined system."
+      ]
+    },
+    {
+      "order": 2,
+      "title": "How to Read Charts Like a Pro and Improve Your Selection and Timing",
+      "summary": "Introduces chart reading as a core skill, including base-building price patterns and the famous \"cup with handle\" formation O'Neil associates with strong future breakouts.",
+      "keyLessons": [
+        "Chart patterns are treated as visual evidence of underlying supply and demand dynamics, not arbitrary shapes.",
+        "The \"cup with handle\" pattern is presented as one of the most reliable base patterns preceding major price advances."
+      ]
+    },
+    {
+      "order": 3,
+      "title": "C = Current Quarterly Earnings",
+      "summary": "Covers the first CAN SLIM criterion: requiring strong, accelerating current-quarter earnings growth as a baseline filter for candidate stocks.",
+      "keyLessons": [
+        "Strong current earnings growth is treated as a necessary, not sufficient, condition for a potential big winner.",
+        "Earnings acceleration (not just positive growth) is emphasized over flat or decelerating growth."
+      ]
+    },
+    {
+      "order": 4,
+      "title": "A = Annual Earnings Increases",
+      "summary": "Extends the earnings criterion to multi-year annual growth, screening for sustained rather than one-off strong performance.",
+      "keyLessons": [
+        "Multi-year earnings consistency filters out one-time earnings spikes that current-quarter data alone might miss.",
+        "O'Neil sets specific historical benchmarks for what counts as sufficiently strong annual growth."
+      ]
+    },
+    {
+      "order": 5,
+      "title": "N = New Products, New Management, New Highs",
+      "summary": "Discusses the role of a genuine catalyst — new leadership, products, or industry conditions — often coinciding with a stock's move to new price highs.",
+      "keyLessons": [
+        "A concrete \"new\" catalyst is what O'Neil argues distinguishes many big winners from merely improving companies.",
+        "Buying stocks near new price highs, counterintuitive to many investors, is presented as historically associated with continued strength rather than overextension."
+      ]
+    },
+    {
+      "order": 6,
+      "title": "S = Supply and Demand",
+      "summary": "Covers float size and trading volume as factors affecting how strongly a stock can move on institutional buying, given basic supply and demand mechanics.",
+      "keyLessons": [
+        "Smaller floats can allow for more dramatic price moves given the same dollar amount of buying interest.",
+        "Volume patterns are treated as evidence of institutional accumulation or distribution."
+      ]
+    },
+    {
+      "order": 7,
+      "title": "L = Leader or Laggard",
+      "summary": "Advises focusing on the strongest one or two stocks within a leading industry group rather than diversifying across an entire sector, including weaker performers.",
+      "keyLessons": [
+        "Industry group leadership, not just an attractive sector overall, is treated as a key selection filter.",
+        "O'Neil argues weaker \"me too\" stocks within a hot sector rarely perform as well as the true leader."
+      ]
+    },
+    {
+      "order": 8,
+      "title": "I = Institutional Sponsorship",
+      "summary": "Discusses the role of institutional buying (mutual funds, pension funds) as both a demand driver and a quality signal, while cautioning against excessive institutional ownership late in a stock's run.",
+      "keyLessons": [
+        "Increasing institutional ownership is treated as validating and demand-generating, within limits.",
+        "Too much institutional ownership can leave a stock vulnerable to large-scale selling pressure later."
+      ]
+    },
+    {
+      "order": 9,
+      "title": "M = Market Direction",
+      "summary": "Argues that overall market direction determines whether even a textbook CAN SLIM stock is likely to succeed, and details O'Neil's method for reading market tops and bottoms from daily index price and volume action.",
+      "keyLessons": [
+        "Individual stock selection quality cannot overcome a strongly adverse overall market trend.",
+        "Distribution days (high-volume down days in major indexes) are treated as an early technical warning sign of market tops."
+      ]
+    },
+    {
+      "order": 10,
+      "title": "When to Sell and Take Your Worthwhile Profits",
+      "summary": "Covers rules for selling winning positions, including specific technical sell signals and the discipline of taking profits at targets rather than holding indefinitely on hope.",
+      "keyLessons": [
+        "Selling discipline for winners is treated as a distinct skill from buying discipline, requiring its own rules.",
+        "O'Neil provides specific technical sell signals rather than relying purely on subjective judgment."
+      ]
+    },
+    {
+      "order": 11,
+      "title": "The Golden Rules for Cutting Losses and Avoiding Fear and Panic",
+      "summary": "Details O'Neil's central risk-management rule: sell any stock that falls a set percentage below the purchase price, without exception, as a mechanical loss-cutting discipline.",
+      "keyLessons": [
+        "A fixed, pre-committed stop-loss rule is treated as the single most important risk-management discipline in the book.",
+        "O'Neil argues most large investing losses come from failing to follow a predetermined selling discipline, not from picking bad stocks per se."
+      ]
+    }
+  ],
+  "keyLessons": [
+    "Screen candidate stocks for accelerating current-quarter and sustained multi-year earnings growth before anything else.",
+    "Look for a genuine catalyst — new products, new management, or new industry conditions — behind a stock's strength.",
+    "Use chart patterns like the \"cup with handle\" as timing tools, not just fundamentals alone.",
+    "Focus on the leading stock within a strong industry group rather than diversifying across an entire sector.",
+    "Treat rising institutional ownership as a positive demand signal, while watching for excessive late-stage ownership.",
+    "Never fight the overall market trend; even great individual stocks tend to underperform in a declining market.",
+    "Follow a fixed, pre-committed stop-loss rule (commonly around 7-8% below purchase price) without exception.",
+    "Build selling discipline for winners as deliberately as buying discipline, rather than holding purely on hope.",
+    "Base stock selection on historical patterns actually observed in the market's biggest past winners, not theory alone."
+  ],
+  "quotes": [
+    {
+      "text": "Learn how to cut your losses short, and you'll survive to invest another day.",
+      "attribution": "William J. O'Neil, paraphrased summary of his core loss-cutting principle (paraphrase, not exact wording)",
+      "category": "On Cutting Losses"
+    },
+    {
+      "text": "Big money is made by riding a smaller number of stocks correctly, rather than trading in and out of a large number of stocks.",
+      "attribution": "William J. O'Neil, paraphrased summary of his concentration principle (paraphrase, not exact wording)",
+      "category": "On Market Winners"
+    }
+  ],
+  "conceptsFrameworks": [
+    {
+      "name": "CAN SLIM",
+      "definition": "O'Neil's seven-factor framework for identifying potential big-winning stocks: Current quarterly earnings, Annual earnings growth, New products/management/highs, Supply and demand, Leader or laggard status, Institutional sponsorship, and overall Market direction — derived from O'Neil's historical study of the market's biggest historical winners before their major price advances."
+    },
+    {
+      "name": "Cup with Handle",
+      "definition": "A specific chart base-building pattern — resembling a rounded cup shape followed by a smaller downward \"handle\" — that O'Neil's research associates with a high probability of a subsequent major price breakout, used as a core technical timing tool alongside the fundamental CAN SLIM screen."
+    },
+    {
+      "name": "The 7-8% Sell Rule",
+      "definition": "O'Neil's mechanical risk-management rule instructing investors to sell any stock that declines roughly 7-8% below their purchase price, applied without exception regardless of conviction in the story, intended to cap losses before they become severe."
+    },
+    {
+      "name": "Distribution Days",
+      "definition": "O'Neil's term for high-volume trading days in which a major market index closes lower, used as an early technical warning signal that institutional selling may be building and that overall market direction could be turning down."
+    }
+  ],
+  "applyThis": {
+    "actionSteps": [
+      "Build a screening checklist based on the first four CAN SLIM letters (C, A, N, S) and apply it to a current watchlist of stocks before considering any purchase.",
+      "Practice identifying a \"cup with handle\" or similar base pattern on historical charts of past big winners to train pattern recognition before applying it to live decisions.",
+      "Set a fixed personal stop-loss percentage (e.g., 7-8%) in advance for your next investment and commit to actually executing it if triggered, regardless of your conviction at the time.",
+      "Track overall market direction using major index price and volume action (watching specifically for distribution days) before making new buy decisions, rather than evaluating stocks in isolation from the broader market.",
+      "Review your current portfolio for \"diversification\" that's actually just holding several weaker stocks in a sector instead of concentrating in that sector's true leader."
+    ],
+    "reflectionQuestions": [
+      "Are you currently holding any stock purely on hope rather than because it still meets your original selection criteria?",
+      "What would change about your past investing losses if you had followed a fixed stop-loss rule without exception?"
+    ]
+  },
+  "criticalTake": {
+    "points": [
+      "CAN SLIM's historical back-testing is drawn primarily from O'Neil's own proprietary research (through his firm, Investor's Business Daily/William O'Neil + Co.), and independent academic replication of its specific predictive power has been more mixed than the book's confident presentation suggests.",
+      "The system requires active, ongoing chart monitoring and discipline that is demanding for casual investors; its real-world effectiveness depends heavily on the investor's own consistent execution, which the book itself acknowledges is where many practitioners fail.",
+      "Growth-momentum strategies like CAN SLIM have historically underperformed during extended value-favoring or highly volatile, low-momentum market regimes, so the system's strong long-run historical record doesn't guarantee it performs well in all market environments.",
+      "The book's specific historical examples are drawn from stocks and market conditions of earlier decades; readers should treat them as illustrative of principles rather than as literally repeatable blueprints in current market structure."
+    ]
+  },
+  "whoThisIsFor": "Active, hands-on individual investors willing to do ongoing chart and fundamental screening work, rather than passive buy-and-hold investors.",
+  "whenToReadThis": "Useful both as an initial system to learn and as a reference to revisit repeatedly, since O'Neil intends CAN SLIM to be applied continuously rather than learned once.",
+  "relatedBooks": [],
+  "authorBio": {
+    "name": "William J. O'Neil",
+    "bio": "William J. O'Neil was an American stockbroker, entrepreneur, and financial author who founded Investor's Business Daily, a financial newspaper built specifically to support the kind of fundamental-plus-technical stock screening described in this book, along with the associated investment research firm William O'Neil + Company.\n\nO'Neil developed the CAN SLIM system from his own historical study of the market's biggest winning stocks before their major advances, and spent much of his career promoting disciplined, rules-based investing as an alternative to both pure buy-and-hold strategies and undisciplined speculation.\n\nHow to Make Money in Stocks became one of the best-selling investment books of all time and has gone through multiple editions since its original publication, reflecting continued interest in the CAN SLIM system among individual investors.",
+    "notableWorks": [
+      "The Successful Investor",
+      "24 Essential Lessons for Investment Success",
+      "How to Make Money Selling Stocks Short (co-authored)"
+    ]
+  },
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-31",
+  "sourceNotes": "Based on well-established general knowledge of How to Make Money in Stocks and the CAN SLIM system's structure and terminology; exact Vietnamese-edition (\"Làm Giàu Qua Chứng Khoán\") chapter titles and page-level details were not independently verified against the physical translation. The quote list was deliberately kept short and explicitly marked as paraphrase rather than exact quotation, given uncertainty about verifying precise original wording.\n\n---"
+}

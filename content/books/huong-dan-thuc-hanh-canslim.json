@@ -1,0 +1,177 @@
+{
+  "id": "huong-dan-thuc-hanh-canslim",
+  "code": "122",
+  "title": "Hướng Dẫn Thực Hành CAN SLIM Cho Người Mới Bắt Đầu (Getting Started in CAN SLIM — companion workbook)",
+  "author": "Matthew Galgani (with William O'Neil), translated by Trương Minh Huy",
+  "categories": [
+    "finance-investing"
+  ],
+  "language": "vi",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 340,
+  "tags": [
+    "stock investing",
+    "canslim",
+    "technical analysis",
+    "growth stocks",
+    "checklists",
+    "ibd"
+  ],
+  "structureType": "chapters",
+  "summary": "This book is a practical, step-by-step companion to William O'Neil's classic \"How to Make Money in Stocks,\" written by Matthew Galgani, who worked alongside O'Neil at Investor's Business Daily for years hosting the \"How to Make Money in Stocks\" radio show and building IBD's investor education program. Where O'Neil's original book lays out the CAN SLIM philosophy and the historical case studies behind it, Galgani's guide is aimed squarely at someone who already understands the theory but doesn't yet have a repeatable weekly routine for actually using it. The book is built around checklists, habits, and short video-style walkthroughs (referenced in the print edition) rather than long narrative chapters.\n\nThe core of the book walks through each letter of CAN SLIM — Current quarterly earnings, Annual earnings growth, New products/management/highs, Supply and demand, Leader or laggard, Institutional sponsorship, and Market direction — and turns each one into a concrete, checkable habit: what to look for on a chart, what a stock screener should filter for, and what a \"pass\" or \"fail\" looks like for a real candidate. It then moves into the mechanics of actually buying and selling: the two simple money-protection rules that recur throughout the book, how to set a buy point off a proper base, and — just as important — the discipline of cutting a loss automatically rather than hoping.\n\nA recurring theme is that market direction is not optional homework — it's the first thing a CAN SLIM investor checks every single day, because most stocks, even the best-looking ones, will struggle in a corrective market. The book teaches a routine for reading the \"market in correction\" versus \"confirmed uptrend\" state, and for changing behavior (raising cash, trimming exposure) based on it rather than staying fully invested through every environment. It also spends real time on the emotional side of investing: the habit of pre-committing to a sell rule before buying, so that fear and hope don't get to make the decision in the moment.\n\nBecause this is explicitly a \"for beginners\" companion guide, it deliberately narrows O'Neil's much larger body of work down to a small number of routines a new investor can actually run every week: a market-check routine, a stock-screening routine, and a portfolio-review routine. The Vietnamese edition preserves this workbook structure, adding translator notes to localize some terminology (earnings reports, institutional ownership, base patterns) for readers unfamiliar with U.S. market mechanics, since the CAN SLIM system itself is built on U.S. equity market data and IBD's proprietary ratings.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "Getting Oriented — Why a Routine Matters More Than a Theory",
+      "summary": "This opening section makes the case that most investors who fail with CAN SLIM haven't misunderstood the theory — they've never turned it into a repeatable weekly habit. It introduces the idea that investing success comes from process discipline, not from being right about any single stock.\nIt contrasts investors who \"know\" the rules but skip steps under pressure with investors who follow a checklist regardless of how they feel about a stock that day. Galgani frames the rest of the book as a set of habits to install, not facts to memorize.\nThe section closes by previewing the three routines — market check, stock search, and portfolio review — that structure everything that follows.",
+      "keyLessons": [
+        "A system only works if it's run consistently, not just understood intellectually.",
+        "Emotional decision-making is the main threat to any mechanical investing system.",
+        "Build habits/checklists before you need them, not while already holding a losing position."
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Reading Market Direction First",
+      "summary": "This chapter teaches the habit of checking the general market's trend before evaluating any individual stock, since most stocks — even fundamentally strong ones — tend to move with the broader market.\nIt explains how to read distribution days (institutional selling) accumulating on the major indexes as an early warning sign, and how a market can flip from \"confirmed uptrend\" to \"under pressure\" to \"correction\" in a matter of weeks. The chapter gives a simple daily checklist for this assessment.\nIt ends by tying market direction to portfolio behavior: raising cash and tightening stop-losses in a weakening market rather than waiting for a \"sure sign\" that never arrives cleanly.",
+      "keyLessons": [
+        "Check the market's trend before looking at any individual stock, every single day.",
+        "Distribution days on major indexes are the earliest actionable warning sign.",
+        "Portfolio exposure should shrink automatically as market risk rises."
+      ]
+    },
+    {
+      "order": 3,
+      "title": "C and A — Earnings as the First Filter",
+      "summary": "This section walks through the \"C\" and \"A\" of CAN SLIM: current quarterly earnings growth and annual earnings growth, explaining why explosive, accelerating earnings are the single most common trait of past big winners.\nIt gives concrete screening thresholds (strong percentage earnings growth, accelerating not just positive) and shows how to sanity-check a headline earnings number against sales growth and margins so it isn't a one-off, low-quality beat.\nIt closes by warning against stocks with decelerating or lumpy earnings dressed up by one good quarter.",
+      "keyLessons": [
+        "Look for accelerating, not just positive, earnings growth.",
+        "Cross-check earnings growth against sales growth and margin trends for quality.",
+        "One strong quarter is not the same as an earnings trend."
+      ]
+    },
+    {
+      "order": 4,
+      "title": "N — What's New About This Company",
+      "summary": "This chapter covers the \"N\" in CAN SLIM: a new product, new management, a new industry condition, or a stock hitting new price highs. It argues that something genuinely new is usually what allows a stock to become a big winner rather than a mediocre performer.\nIt gives examples of the kinds of \"new\" that matter (a breakthrough product, a new CEO turning around a struggling company) versus superficial newness, and explains the counterintuitive idea of buying stocks near new highs rather than \"cheap\" stocks near lows.\nIt transitions into chart-reading, since new highs are identified visually on a price chart.",
+      "keyLessons": [
+        "A genuine catalyst — product, leadership, or industry shift — often precedes a big price move.",
+        "Buying near new highs, not lows, is a deliberate CAN SLIM strategy, not a mistake.",
+        "\"Cheap\" and \"good investment\" are not the same thing."
+      ]
+    },
+    {
+      "order": 5,
+      "title": "S, L, I — Supply, Leadership, and Institutional Sponsorship",
+      "summary": "This section covers three more letters together: Supply and demand (smaller share counts and volume patterns that show accumulation), Leader or laggard (buying the strongest stock in a strong industry group rather than a weaker \"value\" alternative), and Institutional sponsorship (evidence that mutual funds and other big investors are building positions).\nIt teaches how to read volume spikes on up days versus down days as a proxy for institutional buying, and how to compare a stock's relative strength against others in its industry group to identify true leaders.\nIt closes by warning that a stock with earnings but no institutional sponsorship or group leadership often lacks the buying power to sustain a large move.",
+      "keyLessons": [
+        "Volume on up days versus down days is a readable clue to institutional buying or selling.",
+        "Buy the leader in a strong industry group, not the cheapest laggard.",
+        "Institutional sponsorship provides the buying power that sustains large price moves."
+      ]
+    },
+    {
+      "order": 6,
+      "title": "Reading the Chart: Bases and Buy Points",
+      "summary": "This chapter is the technical core of the book, teaching how to identify proper chart \"bases\" (consolidation patterns like the cup-with-handle) and the precise buy point where a stock breaks out of that base on rising volume.\nIt walks through what a well-formed base looks like versus a sloppy one, and stresses buying at the breakout point specifically, not chasing a stock that has already run up or trying to guess a bottom.\nIt ends by connecting the buy point to the sell rule that follows: the moment you buy is also the moment you should already know your exit price if you're wrong.",
+      "keyLessons": [
+        "A proper base and a clean breakout on volume matter as much as the fundamentals.",
+        "Buy at the breakout point, not before it and not long after.",
+        "Decide your exit price before you buy, not after the stock starts falling."
+      ]
+    },
+    {
+      "order": 7,
+      "title": "The Two Simple Rules for Protecting Money",
+      "summary": "This section distills the book's risk-management philosophy into two rules referenced repeatedly throughout: cut every loss automatically at a small, predetermined percentage, and let winners run using trailing sell rules rather than selling too early out of fear.\nIt explains why the loss-cutting rule is non-negotiable — even a good stock-picking process will be wrong often enough that unchecked losses can wipe out gains from the winners.\nIt closes by connecting these rules back to the market-direction chapter: both rules matter more, and get triggered more often, in a weakening market.",
+      "keyLessons": [
+        "Cut every loss at a small, fixed percentage — no exceptions, no hoping.",
+        "Being right slightly more than half the time is enough if losses are capped and winners run.",
+        "Selling rules exist precisely for the moments when emotion is highest."
+      ]
+    },
+    {
+      "order": 8,
+      "title": "Building the Weekly Routine",
+      "summary": "The closing section pulls every prior chapter into a single repeatable weekly and daily routine: check the market, run the CAN SLIM screen, review current holdings against sell rules, and log lessons from any mistakes.\nIt emphasizes that consistency compounds — the investor who runs this routine every week for years develops pattern recognition that no single book chapter can teach directly.\nThe book ends by handing the reader a checklist format meant to be reused indefinitely, framing the entire guide as training wheels for a habit rather than a one-time read.",
+      "keyLessons": [
+        "A short daily/weekly routine beats sporadic deep dives.",
+        "Reviewing past mistakes in a written log builds pattern recognition over time.",
+        "The goal of the book is to build the habit, not just deliver the information once."
+      ]
+    }
+  ],
+  "keyLessons": [
+    "Check general market direction before evaluating any individual stock, every day.",
+    "Look for accelerating earnings and sales growth, not just a single good quarter.",
+    "Buy the strongest stock in a strong industry group rather than a \"cheap\" laggard.",
+    "Use volume patterns to infer institutional buying and selling pressure.",
+    "Buy at a clean breakout from a proper chart base, not before or long after.",
+    "Cut every loss automatically at a small, predetermined percentage.",
+    "Let winners run with a trailing sell rule instead of selling out of fear.",
+    "Decide your exit price before you buy, not after the position starts losing.",
+    "Build a repeatable weekly routine rather than relying on isolated research bursts.",
+    "Keep a written log of mistakes to build pattern recognition over time."
+  ],
+  "quotes": [],
+  "conceptsFrameworks": [
+    {
+      "name": "CAN SLIM",
+      "definition": "A seven-factor checklist (Current earnings, Annual earnings, New product/management/highs, Supply and demand, Leader or laggard, Institutional sponsorship, Market direction) developed by William O'Neil for identifying stocks with the traits historically shared by the market's biggest winners before their major price moves.",
+      "sourceSection": "Sections 3–5"
+    },
+    {
+      "name": "The Two Rules for Protecting Your Money",
+      "definition": "A pair of simple, non-negotiable risk rules repeated throughout the book: cut every loss automatically at a small, fixed percentage, and let winning positions run using trailing sell rules rather than exiting too early.",
+      "sourceSection": "Section 7"
+    },
+    {
+      "name": "Distribution Days",
+      "definition": "Days on which a major market index falls on higher volume than the prior session, used as a readable signal of institutional selling and an early warning that the broader market trend may be weakening.",
+      "sourceSection": "Section 2"
+    },
+    {
+      "name": "Cup-with-Handle (Base-and-Breakout Pattern)",
+      "definition": "A chart pattern in which a stock's price consolidates in a rounded \"cup\" shape, forms a smaller \"handle\" pullback, and then breaks out to new highs on rising volume — treated in the book as the ideal, lowest-risk point to buy.",
+      "sourceSection": "Section 6"
+    }
+  ],
+  "applyThis": {
+    "actionSteps": [
+      "Before looking at any stock this week, check whether the general market is in a confirmed uptrend, under pressure, or in a correction, and write that assessment down.",
+      "Pick three stocks you already own or are watching and check each one's most recent quarterly and annual earnings growth against its industry peers.",
+      "Write down, in advance, the exact percentage loss at which you will sell any new position — before you buy it, not after.",
+      "Look up the volume pattern on the last five up-days versus down-days for one stock you're tracking, and note whether volume is heavier on the up-days.",
+      "Set a recurring weekly 20-minute slot to run through the market-check, screen-review, and holdings-review routine described in the book."
+    ],
+    "reflectionQuestions": [
+      "Where in your own investing history has emotion overridden a rule you already knew you should follow?",
+      "Do you currently have a written, pre-decided sell rule for every position you hold, or are you deciding in the moment?",
+      "How would your current portfolio look different if you sized positions based on market direction rather than conviction alone?"
+    ]
+  },
+  "criticalTake": {
+    "points": [
+      "CAN SLIM is built almost entirely on U.S. equity market data and infrastructure (IBD ratings, institutional ownership data, U.S. earnings reporting norms), so its screening thresholds don't transfer cleanly to other markets, including Vietnam's, without real adaptation.",
+      "The system leans heavily on proprietary IBD data points (like the Composite Rating and Relative Strength Rating) that aren't fully replicable with free tools, which limits how completely a reader without an IBD/Investors.com subscription can actually run the routine as designed.",
+      "Growth-momentum systems like CAN SLIM tend to underperform badly in extended sideways or value-favoring markets, and the book's own \"cut losses fast\" rule means a choppy market can generate a high rate of small losses even when no single rule is broken.",
+      "Because the book is explicitly a beginner's companion rather than the full theoretical case, readers who skip the original \"How to Make Money in Stocks\" may apply the checklists mechanically without understanding why each rule exists, which is exactly the failure mode the book itself warns against."
+    ],
+    "contextNote": "The core CAN SLIM framework predates this companion guide by decades and has been through multiple market cycles since; its emphasis on cutting losses fast and respecting market direction has generally aged as sound risk-management advice, independent of any specific era's stock picks."
+  },
+  "whoThisIsFor": "New-to-intermediate investors who already understand the basic CAN SLIM idea and want a repeatable weekly system rather than more theory.",
+  "whenToReadThis": "Best read before opening a brokerage account or starting to screen stocks, and then kept as a running reference during weekly portfolio reviews.",
+  "relatedBooks": [],
+  "authorBio": {
+    "name": "Matthew Galgani",
+    "bio": "Matthew Galgani worked at Investor's Business Daily (IBD) for many years as a market strategist and educator, co-hosting the \"How to Make Money in Stocks\" radio program alongside CAN SLIM creator William O'Neil and contributing regularly to IBD's investor-education content and market commentary.\nHis work has focused specifically on translating O'Neil's CAN SLIM system into practical, repeatable routines for everyday investors, including workshop-style training used in IBD Meetup sessions across the United States.",
+    "notableWorks": [
+      "(Primarily known for this companion workbook and his IBD educational content rather than other standalone books.)"
+    ]
+  },
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-31",
+  "sourceNotes": "Synthesis is based on general knowledge of the CAN SLIM system as popularized by William O'Neil and IBD, cross-checked with web search results describing this specific Vietnamese edition's publisher framing, translator, and stated content (checklists, routines, \"two rules,\" market-direction focus). I could not locate a reliable, independently verifiable chapter-by-chapter table of contents or verbatim quotations from this specific companion volume, so the section breakdown above is a reasonable reconstruction based on the book's known CAN SLIM framework rather than a confirmed original TOC — please treat exact chapter titles/order as approximate. Quotes section is intentionally thin and flagged rather than padded.\n\n---"
+}
