@@ -1,0 +1,155 @@
+{
+  "id": "find-your-why",
+  "code": "079",
+  "title": "Find Your Why: A Practical Guide for Discovering Purpose for You and Your Team",
+  "author": "Simon Sinek, David Mead, and Peter Docker",
+  "categories": [
+    "business-strategy | personal-growth"
+  ],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 240,
+  "tags": [
+    "purpose",
+    "leadership",
+    "teams",
+    "golden-circle",
+    "organizational-culture"
+  ],
+  "structureType": "parts",
+  "summary": "*Find Your Why* is the workbook-style companion to Simon Sinek's earlier *Start with Why*, written specifically to give individuals and teams a step-by-step process for actually discovering their own \"Why\" statement rather than just understanding the theory behind why purpose matters. Where the original book made the case that great leaders and organizations start from a clear sense of purpose (the \"Why\") before moving to how they do things and what they do, this book is explicitly a practical field guide, built around structured exercises, worksheets, and facilitation guidance rather than narrative argument.\n\nThe book opens by reestablishing the Golden Circle framework — Why, How, What — as the conceptual foundation, then quickly moves into practical territory: before beginning the actual discovery exercises, the authors walk through logistical and mindset preparation, including who should be involved in the process, how to set up the right environment for honest reflection, and common misconceptions that derail the process, such as treating the Why statement as a marketing tagline rather than a genuine reflection of formative experiences.\n\nThe core individual discovery process asks participants to identify meaningful stories from their own past — moments of pride, contribution, or fulfillment — and, through a structured partner-interview process, extract the recurring theme connecting them into a simple, two-part Why statement: a contribution (\"To ___\") and an impact (\"so that ___\"). This individual process is deliberately not something people can do entirely alone, since the authors argue people are often too close to their own stories to see the pattern clearly; an outside partner asking guided questions is treated as essential to the method.\n\nThe book then extends the same underlying logic to teams and organizations, walking through a parallel but group-scale process for surfacing a shared organizational Why from the collective stories and formative moments of a founding or current team, and distinguishing this authentic discovery process from top-down mission-statement writing exercises that produce polished but disconnected language. The closing sections address sustaining a Why once discovered — building it into hiring, decision-making, and daily operations rather than treating it as a one-time exercise that gets stated once and then forgotten — and offer guidance for facilitators running the exercises with real teams, including common pitfalls and how to keep sessions from drifting into generic corporate-speak.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "Before You Begin",
+      "summary": "This opening part reestablishes the Golden Circle (Why, How, What) as the conceptual foundation carried over from *Start with Why*, then shifts into practical preparation: what mindset and environment are needed before starting the discovery exercises, and who should be in the room for both individual and team versions of the process.\nThe authors address common misconceptions upfront — most importantly, that a Why statement is not a mission statement, marketing tagline, or aspirational value, but a simple, honest articulation of an already-existing pattern found by looking backward at real, meaningful past experiences rather than looking forward at aspirations.\nThe part closes by setting expectations for the process ahead: it requires vulnerability and honest storytelling, works best with an outside facilitator or partner, and shouldn't be rushed or treated as a single-session task to check off.",
+      "keyLessons": [
+        "A Why statement is discovered by looking backward at real formative experiences, not invented by looking forward at aspirations.",
+        "The process is not a solo exercise — an outside partner or facilitator is treated as necessary.",
+        "Rushing the process tends to produce generic, disconnected language rather than an authentic Why."
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Discover Your Why (Individual)",
+      "summary": "This part walks through the core individual discovery exercise: identifying several specific stories from your own past involving pride, meaningful contribution, or fulfillment, then working with a partner who asks structured, non-leading questions to help you find the common thread running through those stories.\nThe authors explain why this partner-based approach matters — people are typically too close to their own experiences to spot the underlying pattern themselves, since the very things that feel most natural and obvious to you are often invisible to you precisely because they're so consistent across your life.\nThe part closes with guidance on distilling the identified pattern into the book's simple two-part Why statement format: \"To ___, so that ___,\" combining a personal contribution with its intended impact on others.",
+      "keyLessons": [
+        "Individual Why discovery starts from specific, real stories of pride and contribution, not abstract self-reflection.",
+        "A partner asking structured questions helps surface patterns that are invisible to the person living them.",
+        "The final Why statement takes a simple two-part form: a contribution and its intended impact."
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Discover Your Why (Team)",
+      "summary": "This part extends the same underlying method to organizations and teams, walking through a group-scale process for surfacing a shared Why from the collective formative stories of a founding or current team, rather than from a top-down executive mission-statement exercise.\nThe authors distinguish authentic organizational Why discovery from conventional mission-statement writing, arguing the latter often produces polished language that sounds good on a wall but doesn't connect to any lived experience of the people actually working there, while the discovery process grounds the resulting statement in real shared history.\nThe part closes by addressing how to facilitate this process at team scale — gathering stories from multiple contributors, finding the common thread across them, and testing whether the resulting Why statement genuinely resonates with the team rather than just sounding appealing.",
+      "keyLessons": [
+        "Organizational Why discovery draws from collective formative team stories, not top-down mission writing.",
+        "Polished mission statements disconnected from lived team experience tend to fail to resonate internally.",
+        "A team-level Why must be tested for genuine resonance with the people who will live by it, not just approved by leadership."
+      ]
+    },
+    {
+      "order": 4,
+      "title": "Bring Your Why to Life",
+      "summary": "This part addresses translating a discovered Why into practical daily operation — hiring decisions, product choices, and how work actually gets done — arguing that a Why statement that stays framed on a wall without shaping real decisions has little lasting value.\nThe authors discuss aligning the \"How\" (values and behaviors) beneath the Why, so that the Why isn't just an inspiring statement but is connected to specific, observable practices that reinforce it day to day across the organization.\nThe part closes by cautioning against treating the Why as finished once articulated — it requires ongoing translation into concrete decisions and communication to remain a living part of how a team actually operates.",
+      "keyLessons": [
+        "A Why statement only has lasting value if it shapes real hiring and operational decisions.",
+        "The \"How\" layer (values, behaviors) needs explicit alignment beneath the Why to make it actionable.",
+        "Articulating a Why is a starting point, not a finished, one-time deliverable."
+      ]
+    },
+    {
+      "order": 5,
+      "title": "Sustain Your Why",
+      "summary": "The book's closing part addresses keeping a discovered Why alive over time, particularly as teams grow, turnover happens, and new members join without having been part of the original discovery process.\nThe authors offer guidance on communicating the Why to new team members in a way that connects to real stories rather than abstract statements, and on periodically revisiting the Why to ensure it still resonates as the organization evolves.\nThe part closes, and the book ends, by reiterating the central practical message of the whole guide: a Why is discovered, not invented, and it has to be actively sustained through storytelling and consistent decision-making, or it will quietly fade into forgotten corporate language.",
+      "keyLessons": [
+        "New team members need to be connected to the organizational Why through real stories, not abstract statements alone.",
+        "Periodically revisiting the Why helps confirm it still resonates as an organization evolves.",
+        "A Why must be actively sustained through storytelling and decisions, or it fades into forgotten language."
+      ]
+    }
+  ],
+  "keyLessons": [
+    "Discover your Why by examining real past stories of pride and contribution, not by brainstorming aspirational language.",
+    "Work with an outside partner for Why discovery, since people are often too close to their own patterns to see them.",
+    "Use the simple \"To ___, so that ___\" format to keep a Why statement concrete and personal.",
+    "Build organizational Why discovery from collective team stories, not a top-down executive writing exercise.",
+    "Test any Why statement for genuine resonance with the people who will live by it, not just approval from leadership.",
+    "Align your \"How\" (values and behaviors) explicitly beneath your Why so it shapes real decisions.",
+    "Treat articulating a Why as a starting point, not a finished, one-time deliverable.",
+    "Actively sustain a Why over time through storytelling, onboarding, and consistent decisions."
+  ],
+  "quotes": [
+    {
+      "text": "People don't buy what you do; they buy why you do it.",
+      "attribution": "Simon Sinek",
+      "category": "On Purpose and the Golden Circle"
+    },
+    {
+      "text": "Your WHY is not something you invent. It's already inside you.",
+      "attribution": "Simon Sinek, David Mead, and Peter Docker",
+      "category": "On Discovery vs. Invention"
+    },
+    {
+      "text": "A group's culture is a reflection of the values and beliefs of the people within that group.",
+      "attribution": "Simon Sinek, David Mead, and Peter Docker",
+      "category": "On Teams"
+    }
+  ],
+  "conceptsFrameworks": [
+    {
+      "name": "The Golden Circle",
+      "definition": "A three-layer model — Why (purpose/belief), How (values and processes), What (products/actions) — carried over from *Start with Why*, used as the conceptual foundation for this book's practical discovery process, with the argument that most organizations communicate from the outside in (What first) when the most effective ones start from Why.",
+      "sourceSection": "Before You Begin"
+    },
+    {
+      "name": "The Why Statement Format",
+      "definition": "A simple, structured two-part sentence format — \"To ___, so that ___\" — combining a personal or organizational contribution with its intended impact on others, used as the concrete output of the individual and team discovery exercises in this book.",
+      "sourceSection": "Discover Your Why (Individual)"
+    },
+    {
+      "name": "Why Discovery (as distinct from mission-statement writing)",
+      "definition": "The book's core methodological claim: an authentic Why is uncovered by examining real past stories and formative experiences with the help of a partner or facilitator, rather than invented through forward-looking, aspirational brainstorming — a process the authors distinguish sharply from conventional mission or vision statement exercises.",
+      "sourceSection": "Discover Your Why (Team)"
+    }
+  ],
+  "applyThis": {
+    "actionSteps": [
+      "Write down three specific stories from your own life or career where you felt genuinely proud of a contribution you made, including concrete details of what happened.",
+      "Ask a trusted colleague or friend to interview you about those stories using open, non-leading questions, and have them help you identify the common thread across all three.",
+      "Draft your own Why statement using the \"To ___, so that ___\" format, and test it against a fourth story to see if it still holds.",
+      "If you lead a team, gather three formative stories from founding or long-tenured team members before drafting any organizational mission language, rather than starting with a leadership brainstorm."
+    ],
+    "reflectionQuestions": [
+      "What is a moment in your work or life when you felt most genuinely proud of a contribution you made — and what specifically made it feel meaningful?",
+      "Where in your current role or organization do stated values feel disconnected from how decisions actually get made day to day?"
+    ]
+  },
+  "criticalTake": {
+    "points": [
+      "The book's discovery methodology rests heavily on personal storytelling and pattern-finding through partner interviews, which is inherently subjective and not empirically validated the way the authors' presentation sometimes implies; two different facilitators working with the same stories could plausibly surface somewhat different Why statements.",
+      "Sinek's broader \"Start with Why\" framework, which this book operationalizes, has drawn academic and practitioner criticism for oversimplifying what actually drives consumer and employee behavior, and for citing selectively chosen company examples (Apple being the most frequent) without addressing companies with similarly unclear or unarticulated \"Whys\" that also succeeded.",
+      "The practical exercises assume access to willing, available partners or facilitators and a working culture open to vulnerability and honest storytelling — conditions not equally available in every workplace, particularly more hierarchical or guarded organizational cultures.",
+      "As a workbook-style guide, the book is thinner on rigorous evidence connecting a well-articulated Why statement to measurable business outcomes (retention, performance, profitability) than it is on the discovery process itself."
+    ]
+  },
+  "whoThisIsFor": "Individuals seeking personal clarity of purpose, and team leaders wanting a structured, story-based process for articulating shared organizational purpose, rather than a top-down mission statement.",
+  "whenToReadThis": "Best used actively, with a partner or team, as a working exercise guide — not read passively for information alone.",
+  "relatedBooks": [],
+  "authorBio": {
+    "name": "Simon Sinek, David Mead, and Peter Docker",
+    "bio": "Simon Sinek is a British-American author and speaker best known for his 2009 TED talk and subsequent book *Start with Why*, which introduced the Golden Circle framework and became one of the most widely referenced leadership communication frameworks in business writing.\n\nDavid Mead and Peter Docker are both longtime collaborators within Sinek's broader \"Start with Why\" organization, working directly with individuals and companies to facilitate Why-discovery workshops; their hands-on facilitation experience running the exercises with real teams is what shaped this book's practical, workbook-style format, distinct from Sinek's earlier, more theory-driven solo book.\n\nTogether the three authors positioned *Find Your Why* explicitly as the \"how-to\" companion to *Start with Why*, addressing repeated requests from readers and workshop participants for a concrete process rather than only the conceptual case for why purpose matters.",
+    "notableWorks": [
+      "Start with Why (Simon Sinek)",
+      "Leaders Eat Last (Simon Sinek)",
+      "The Infinite Game (Simon Sinek)",
+      "Together Is Better (Simon Sinek)"
+    ]
+  },
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-31",
+  "sourceNotes": "Synthesis is based on general familiarity with the book's well-documented workbook structure and its relationship to *Start with Why*; quotes were limited to a small number of widely circulated, verifiable lines from Sinek's broader body of work and this book specifically, per this project's copyright limits on quotation volume.\n\n---"
+}

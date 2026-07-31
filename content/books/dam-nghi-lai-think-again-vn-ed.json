@@ -1,0 +1,150 @@
+{
+  "id": "dam-nghi-lai-think-again-vn-ed",
+  "code": "057",
+  "title": "Dám Nghĩ Lại (Vietnamese edition of *Think Again: The Power of Knowing What You Don't Know*)",
+  "author": "Adam Grant",
+  "categories": [
+    "personal-growth"
+  ],
+  "language": "vi",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 360,
+  "tags": [
+    "critical thinking",
+    "intellectual humility",
+    "cognitive flexibility",
+    "organizational psychology",
+    "decision-making"
+  ],
+  "structureType": "parts",
+  "summary": "*Think Again*, published by organizational psychologist Adam Grant in 2021, argues that the ability to rethink and unlearn — to treat one's own opinions and identities as hypotheses to be tested rather than possessions to be defended — is an underrated cognitive skill, distinct from raw intelligence, and one that both individuals and organizations can deliberately strengthen. Grant's central metaphor, developed early in the book, is that people default to one of three unproductive mindsets when their beliefs are challenged: preacher (defending a sacred belief), prosecutor (attacking someone else's reasoning to win), or politician (seeking approval from a particular audience). Grant proposes a fourth mode — thinking like a scientist — treating one's own ideas as hypotheses to be tested against evidence, actively seeking disconfirming information, and updating one's views when the evidence warrants it, without treating that update as a personal defeat.\n\nThe book is organized into three parts, moving from individual cognition, through interpersonal dynamics, to collective and organizational rethinking. The first part focuses on the individual mind, addressing why confident people are often especially resistant to rethinking (a phenomenon Grant links to overconfidence and the discomfort of the \"I don't know\" state), and introducing the concept of confident humility — pairing genuine conviction in one's ability to figure things out with genuine uncertainty about one's current specific conclusions, which Grant argues is a more productive combination than either raw confidence or excessive self-doubt alone.\n\nThe second part shifts to interpersonal dynamics — specifically, how to encourage other people to rethink their own views without triggering the same preacher/prosecutor/politician defensiveness Grant described earlier, covering techniques drawn from research on effective debate, motivational interviewing (a technique originally developed in addiction counseling), and productive conflict, including the counterintuitive finding that genuine, respectful disagreement — rather than avoidance or artificial harmony — often builds trust and understanding more effectively than either forced agreement or conflict avoidance.\n\nThe third and final part scales the argument up to groups, organizations, and systems — covering how organizations can build cultures that reward changing one's mind rather than just being right, how polarized political and social debates might be productively reframed, and how education systems could better teach rethinking as an explicit skill rather than treating knowledge acquisition as the primary goal. Throughout the book, Grant draws on a wide range of research studies, historical case examples (including firefighting disasters, forecasting competitions, and vaccine hesitancy), and his own experience as an organizational psychologist, consistently returning to the argument that the capacity to say \"I was wrong\" and mean it — treated by many as a weakness — is in fact one of the more reliable predictors of good long-term judgment, in both individuals and the organizations they build.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "Part One: Individual Rethinking",
+      "summary": "This opening part establishes the book's core cognitive framework — the preacher, prosecutor, and politician mindsets that people default to when their beliefs are challenged, each of which prioritizes defending or winning over genuinely updating one's views — contrasted with a scientist mindset that treats one's own opinions as testable hypotheses.\n\nThe substance covers why overconfidence specifically makes rethinking harder (the more certain someone feels, the less motivated they are to seek disconfirming evidence), and introduces confident humility as an alternative combination — genuine confidence in one's ability to figure things out, paired with genuine openness about whether current specific conclusions are correct.\n\nThis part closes by connecting individual rethinking ability to the interpersonal dynamics that follow, arguing that a person's own relationship with being wrong shapes how they respond when others challenge them, setting up the shift to interpersonal techniques in part two.",
+      "keyLessons": [
+        "People default to preacher, prosecutor, or politician mindsets when their beliefs are challenged, none of which prioritize genuinely updating one's views.",
+        "Overconfidence specifically reduces motivation to seek out disconfirming evidence.",
+        "Confident humility — confidence in one's ability paired with openness about current conclusions — is a more productive combination than either raw confidence or excessive self-doubt."
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Part Two: Interpersonal Rethinking",
+      "summary": "This part shifts from individual cognition to how to encourage rethinking in other people without triggering their own defensive preacher, prosecutor, or politician response, drawing on research from fields including motivational interviewing and conflict resolution.\n\nThe substance covers specific techniques: asking genuine, curious questions rather than making declarative arguments, acknowledging the legitimate parts of an opposing view before offering a counterpoint, and the counterintuitive research finding that respectful, direct disagreement often builds more trust and mutual understanding than either forced harmony or outright avoidance of the topic.\n\nThe part closes by connecting interpersonal rethinking skills to the book's final section, arguing that these same dynamics — genuine curiosity, acknowledging legitimate points on the other side, tolerating productive disagreement — scale up to how entire groups and organizations either encourage or suppress collective rethinking.",
+      "keyLessons": [
+        "Genuine, curious questions are more effective at encouraging someone to rethink than declarative counterarguments.",
+        "Acknowledging legitimate parts of an opposing view before countering it reduces the other person's defensiveness.",
+        "Respectful, direct disagreement often builds more trust than either forced harmony or avoidance of the topic."
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Part Three: Collective Rethinking",
+      "summary": "The final part scales the book's argument to groups, organizations, and systems, covering how organizational cultures can be deliberately built to reward changing one's mind rather than simply rewarding confident, unwavering positions.\n\nThe substance includes case studies (including forecasting competitions and organizational decision-making failures) illustrating the practical costs of cultures that punish admitted uncertainty or reversed positions, alongside examples of teams and institutions that successfully built norms rewarding productive rethinking, along with discussion of how polarized public debates might be reframed to reduce preacher/prosecutor/politician dynamics at a societal scale.\n\nThe book closes by returning to education specifically, arguing that rethinking should be explicitly taught as a skill in its own right rather than treated as a byproduct of simply acquiring more knowledge, and reiterating the book's throughline: the capacity to say \"I was wrong\" and mean it is a reliable predictor of good long-term judgment, for individuals and the organizations and societies they build together.",
+      "keyLessons": [
+        "Organizational cultures can be deliberately built to reward changing one's mind rather than only rewarding confident, unwavering positions.",
+        "Punishing admitted uncertainty or reversed positions has documented practical costs in organizational decision-making.",
+        "Rethinking should be explicitly taught as a distinct skill, not assumed to follow automatically from acquiring more knowledge."
+      ]
+    }
+  ],
+  "keyLessons": [
+    "Treat your own opinions as hypotheses to test against evidence, not as possessions to defend — thinking like a scientist rather than a preacher, prosecutor, or politician.",
+    "Overconfidence specifically reduces motivation to seek out evidence that might disprove your current view.",
+    "Aim for \"confident humility\": genuine confidence in your ability to figure things out, paired with genuine openness about whether your current specific conclusions are correct.",
+    "Ask genuine, curious questions to encourage others to rethink, rather than making declarative counterarguments.",
+    "Acknowledge the legitimate parts of an opposing view before offering a counterpoint, to reduce the other person's defensiveness.",
+    "Respectful, direct disagreement often builds more trust than either forced harmony or avoiding the disagreement entirely.",
+    "Build organizational cultures that reward changing one's mind, not just cultures that reward confident, unwavering positions.",
+    "Recognize that punishing admitted uncertainty has real, documented costs in organizational and forecasting accuracy.",
+    "Treat rethinking as a skill to be explicitly practiced and taught, not a natural byproduct of simply learning more.",
+    "The willingness to say \"I was wrong\" and genuinely mean it is a strong predictor of good long-term judgment."
+  ],
+  "quotes": [
+    {
+      "text": "Intelligence is traditionally viewed as the ability to think and learn. Yet in a turbulent world, there's another set of cognitive skills that might matter more: the ability to rethink and unlearn.",
+      "attribution": "Adam Grant, *Think Again*",
+      "category": "Rethinking and Intellectual Humility"
+    },
+    {
+      "text": "The purpose of learning isn't to affirm our beliefs; it's to evolve our beliefs.",
+      "attribution": "Adam Grant, *Think Again*",
+      "category": "Rethinking and Intellectual Humility"
+    },
+    {
+      "text": "Confident humility gives us the courage to keep moving forward and the humility to keep revising along the way.",
+      "attribution": "Adam Grant, *Think Again*",
+      "category": "Confident Humility"
+    },
+    {
+      "text": "We go into preacher mode when our sacred beliefs are in jeopardy... We enter prosecutor mode when we recognize flaws in other people's reasoning... We shift into politician mode when we're seeking to win over an audience.",
+      "attribution": "Adam Grant, *Think Again*",
+      "category": "Preacher, Prosecutor, Politician"
+    },
+    {
+      "text": "If knowledge is power, knowing what we don't know is wisdom.",
+      "attribution": "Adam Grant, *Think Again*",
+      "category": "Being Wrong"
+    }
+  ],
+  "conceptsFrameworks": [
+    {
+      "name": "The Preacher, Prosecutor, and Politician Mindsets",
+      "definition": "Grant's model of the three default, unproductive modes people fall into when their beliefs are challenged: the preacher defends a sacred belief, the prosecutor attacks someone else's reasoning to win, and the politician seeks approval from a particular audience — all three prioritizing defense or victory over genuine reconsideration.",
+      "sourceSection": "Part One: Individual Rethinking"
+    },
+    {
+      "name": "The Scientist Mindset",
+      "definition": "Grant's proposed alternative to the preacher/prosecutor/politician defaults: treating one's own ideas as testable hypotheses, actively seeking disconfirming evidence, and updating one's views when warranted, without experiencing that update as a personal defeat.",
+      "sourceSection": "Part One: Individual Rethinking"
+    },
+    {
+      "name": "Confident Humility",
+      "definition": "The combination Grant argues is most productive for good judgment — genuine confidence in one's ability to figure things out over time, paired with genuine humility and uncertainty about whether one's current specific conclusions are actually correct.",
+      "sourceSection": "Part One: Individual Rethinking"
+    }
+  ],
+  "applyThis": {
+    "actionSteps": [
+      "Identify one belief you hold with high confidence and spend 15 minutes actively searching for the strongest evidence against it, rather than evidence that confirms it.",
+      "In your next disagreement, ask one genuine, curious question about the other person's reasoning before stating your own counterargument.",
+      "Notice which mindset (preacher, prosecutor, or politician) you default to most often, and name it explicitly to yourself the next time you catch yourself in it.",
+      "If you lead a team, explicitly praise one instance of someone changing their mind based on new evidence this week, to reinforce that behavior in your team's culture.",
+      "Practice saying \"I was wrong about that\" out loud about one small, low-stakes recent belief, to build comfort with the phrase before you need it in a higher-stakes situation."
+    ],
+    "reflectionQuestions": [
+      "What is one belief about yourself or your work that you haven't seriously reconsidered in years — and what would it take for you to actually update it?",
+      "Which of the three unproductive mindsets (preacher, prosecutor, politician) do you fall into most often, and in what kinds of situations does it show up?",
+      "Where in your organization or relationships is admitted uncertainty currently treated as a weakness rather than a sign of good judgment?"
+    ]
+  },
+  "criticalTake": {
+    "points": [
+      "The book draws heavily on social psychology research, a field that has faced a well-documented replication crisis over the past decade — some of the specific studies Grant cites for individual anecdotes may be more fragile than the confident narrative style suggests, a common critique of the popular social-science genre generally.",
+      "Grant's prescriptions (ask curious questions, acknowledge the other side, think like a scientist) are easier to apply in relatively low-stakes disagreements than in genuinely high-stakes, identity-linked conflicts, where the book's own preacher/prosecutor/politician dynamics are often most entrenched and hardest to interrupt with technique alone.",
+      "Some reviewers have noted the book's organizational and political case studies skew toward examples that fit its thesis neatly, without extensive engagement with cases where \"confident humility\" or explicit rethinking cultures failed to produce better outcomes.",
+      "As with much of the popular organizational-psychology genre, the book's advice is easier to state than to institutionalize — building a genuine organizational culture that rewards admitted uncertainty requires sustained structural incentive changes well beyond individual behavior, a gap the book acknowledges but doesn't fully solve."
+    ],
+    "contextNote": "The book remains widely cited in organizational psychology and management discussions since its 2021 publication, and its core preacher/prosecutor/politician/scientist framework has become a commonly referenced shorthand, suggesting the central model has held up well in ongoing professional discussion even as some underlying studies face the broader field's replication scrutiny."
+  },
+  "whoThisIsFor": "Anyone in a role requiring frequent judgment calls under uncertainty — managers, forecasters, anyone navigating disagreement — who wants a structured way to think about updating beliefs without treating it as a personal defeat.",
+  "whenToReadThis": "When facing a significant decision under genuine uncertainty, or when stuck in an unproductive recurring disagreement that logical argument alone hasn't resolved.",
+  "relatedBooks": [],
+  "authorBio": {
+    "name": "Adam Grant",
+    "bio": "Adam Grant is an American organizational psychologist and the Saul P. Steinberg Professor of Management at the University of Pennsylvania's Wharton School, where he has been recognized as one of the school's top-rated and youngest tenured professors. He is known for translating academic organizational psychology research into accessible popular nonfiction, with a particular focus on workplace behavior, motivation, and decision-making.\n\nGrant first reached a wide popular audience with *Give and Take* (2013), examining how reciprocity styles affect success, followed by several other bestselling titles addressing originality, teamwork, and — with *Think Again* (2021) — the psychology of changing one's mind.\n\nBeyond his books, Grant is a prominent public voice on workplace psychology through his podcast *WorkLife* and frequent media commentary, and has consulted for a range of major organizations applying his research on motivation, culture, and decision-making.",
+    "notableWorks": [
+      "Give and Take",
+      "Originals",
+      "Option B (with Sheryl Sandberg)",
+      "Hidden Potential"
+    ]
+  },
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-31",
+  "sourceNotes": "Synthesis is based on general knowledge of this well-known, widely reviewed book. Quotes are drawn from a small set of widely and consistently cited lines from the English original rather than the full requested count, to stay within safe excerpting limits."
+}

@@ -1,0 +1,340 @@
+{
+  "id": "eat-that-frog",
+  "code": "070",
+  "title": "Eat That Frog! 21 Great Ways to Stop Procrastinating and Get More Done in Less Time",
+  "author": "Brian Tracy",
+  "categories": [
+    "personal-growth"
+  ],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 150,
+  "tags": [
+    "productivity",
+    "procrastination",
+    "time-management",
+    "prioritization",
+    "focus"
+  ],
+  "structureType": "chapters",
+  "summary": "*Eat That Frog!* opens with a simple metaphor: if the first thing you do each morning is eat a live frog, nothing worse will happen to you the rest of the day. Brian Tracy uses \"the frog\" to mean your biggest, most important, most likely-to-be-procrastinated-on task, and the entire book is a set of 21 short, standalone tactics for making yourself do that task first, before anything else can distract or dilute your energy. Tracy's core claim is that time management is really life management, and that the ability to concentrate single-mindedly on your most important task is the single biggest determinant of career success.\n\nThe book moves through a logical sequence rather than a random list. It starts with clarity — setting clear goals, writing them down, and planning each day in advance — because Tracy argues you cannot prioritize what you haven't defined. It then moves into prioritization tools, most notably the 80/20 rule and the ABCDE method, which force a ruthless ranking of tasks by consequence rather than urgency. From there, Tracy shifts into psychological and practical levers: creative procrastination (deliberately postponing low-value work), the Law of Three (identifying the three tasks that account for 90% of your value), and techniques for overcoming inertia once the plan is in place, such as \"taking it one oil barrel at a time\" and single-handling tasks through to completion.\n\nA recurring thread is that procrastination itself is not a character flaw to be shamed away but a habit that can be replaced with a competing habit through repetition and self-discipline. Tracy repeatedly returns to the idea that successful people aren't necessarily smarter or luckier — they've simply trained themselves to identify their highest-value task and start on it immediately, tolerating the discomfort of starting rather than the much larger cost of delay. Later chapters address environmental and skill-based obstacles: upgrading key skills, identifying the one constraint that is slowing an entire goal, and removing \"technological time sinks\" like email and notifications that fragment attention.\n\nThe book closes by tying the daily tactics back to larger life outcomes — self-esteem, income, and the sense of momentum that comes from finishing important things rather than merely staying busy. Tracy's tone throughout is brisk, repetitive by design, and aimed at immediate application rather than theory; each chapter can be read in a few minutes and acted on the same day. The overall argument is less about any single technique and more about building an identity as someone who starts fast and finishes what matters, since Tracy considers the ability to overcome procrastination on key tasks the closest thing to a master skill for personal effectiveness.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "Set the Table",
+      "summary": "This opening chapter argues that clarity precedes action: before you can attack procrastination you need a written, specific definition of the goal you're procrastinating around. Tracy frames vague intentions as a primary cause of inaction, since an undefined goal gives the mind no clear \"frog\" to identify. He positions goal-setting not as a separate self-help exercise but as the literal first step of time management.\nThe chapter walks through a basic process — decide exactly what you want, write it down, set a deadline, list everything you'll need to do, organize the list into a plan, and act on it immediately, then do something every day that moves you toward it. Tracy uses the analogy of an airplane on autopilot, constantly correcting course, to argue that a written goal functions the same way for a person.\nIt ends by asserting that this single habit — written goals reviewed daily — separates high performers from everyone else, setting up the rest of the book's tactics as ways to execute against that plan.",
+      "keyLessons": [
+        "Vague goals produce vague, procrastination-prone action; specificity is a prerequisite for productivity.",
+        "Writing a goal down and setting a deadline converts an idea into a plan.",
+        "Daily forward motion, however small, compounds toward large goals."
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Plan Every Day in Advance",
+      "summary": "Tracy argues that every minute spent planning saves multiple minutes in execution, and recommends planning the next day the night before so you start each morning already knowing your first task. This chapter treats planning as a habit of professionals, not a luxury for people with spare time.\nHe introduces simple list-making as the core mechanic — a master list, monthly list, weekly list, and daily list — with the daily list built from the ones above it. The emphasis is on thinking on paper: the act of writing forces prioritization decisions that stay vague in your head.\nThe chapter closes by connecting planning directly to frog-eating: a plan is only useful if it identifies which task is most important, so that the next morning offers no ambiguity about where to start.",
+      "keyLessons": [
+        "Planning is a multiplier — minutes spent planning save far more minutes in execution.",
+        "Plan tomorrow the night before so mornings start with immediate clarity.",
+        "Use nested lists (master, monthly, weekly, daily) to keep priorities current."
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Apply the 80/20 Rule to Everything",
+      "summary": "This chapter applies the Pareto Principle directly to task lists: roughly 20% of your activities will account for 80% of your results, so the goal of prioritization is to find that 20% and protect it from the noise of the other 80%. Tracy calls the top items on that list \"frogs\" and the rest \"tadpoles.\"\nHe warns that busyness is often a disguise for avoidance — people fill their day with low-value tadpole tasks precisely because they're easier and give a false sense of accomplishment, while the one or two truly valuable tasks sit untouched. The chapter pushes the reader to audit their own task list honestly and identify which few items are doing the real work.\nIt ends by reframing productivity not as doing more, but as doing the right few things, setting up the ABCDE method in the next chapter as the tool for making that identification systematic.",
+      "keyLessons": [
+        "A small fraction of tasks generates the majority of meaningful results.",
+        "Busyness on low-value tasks is a common, socially acceptable form of procrastination.",
+        "Regularly audit your list to find and protect the vital few items."
+      ]
+    },
+    {
+      "order": 4,
+      "title": "Consider the Consequences",
+      "summary": "Tracy proposes consequence as the single best test of true priority: the most important tasks are the ones with the most serious potential consequences for not doing them, and the least important are the ones where nothing much happens either way. This reframes prioritization away from urgency (what feels pressing) and toward impact (what actually matters over time).\nHe discusses how long-term thinking — imagining the state of your career, health, or finances five or ten years out — clarifies which present-day tasks deserve protection. Short-term thinkers, by contrast, chase whatever feels urgent in the moment, which is often exactly the wrong guide to what to do first.\nThe chapter closes by tying this consequence-based lens back to daily task selection: before starting anything, ask what would happen if this task were never done at all.",
+      "keyLessons": [
+        "Judge task importance by long-term consequence, not by how urgent it feels.",
+        "People with a long time perspective tend to make better daily choices.",
+        "Ask \"what happens if I never do this?\" as a quick priority filter."
+      ]
+    },
+    {
+      "order": 5,
+      "title": "Practice Creative Procrastination",
+      "summary": "Here Tracy makes a distinction between procrastinating on important tasks (destructive) and deliberately, consciously procrastinating on low-value tasks (strategic). Since you cannot do everything, the goal is to choose what to delay on purpose rather than by accident or avoidance.\nHe encourages readers to build a \"not-to-do list\" alongside a to-do list, actively deciding which tasks to abandon, delegate, or postpone indefinitely, freeing capacity for the tasks that actually move the needle. This chapter treats time as a zero-sum resource where saying yes to one thing always means saying no to something else, whether that choice is made consciously or not.\nThe chapter ends by encouraging the reader to make that trade-off explicit and deliberate rather than letting it happen by default through inertia.",
+      "keyLessons": [
+        "Procrastination is inevitable given limited time; the goal is to choose what to delay.",
+        "Maintain a deliberate \"not-to-do\" list to protect time for high-value work.",
+        "Every yes is an implicit no to something else — make that trade-off conscious."
+      ]
+    },
+    {
+      "order": 6,
+      "title": "Use the ABCDE Method Continually",
+      "summary": "This chapter presents Tracy's signature prioritization tool: label every task A (serious consequences), B (mild consequences), C (no consequences), D (delegate), or E (eliminate), and within the A category, further rank A-1, A-2, A-3 by order of importance. The rule is strict — never do a B task while an A task remains undone.\nTracy explains this method as a corrective to the common failure mode of working down a list in the order items happen to appear, rather than in order of true importance. He emphasizes discipline in applying the rule consistently, since the method only works if followed rigorously rather than treated as optional guidance.\nThe chapter closes by noting that this single habit, applied daily, is one of the most reliable time-management practices Tracy has taught across decades of corporate training.",
+      "keyLessons": [
+        "Label tasks A through E by consequence, and never let a lower letter jump the queue.",
+        "Break ties within the A category by ranking A-1, A-2, A-3.",
+        "Discipline in applying the method matters more than the method's cleverness."
+      ]
+    },
+    {
+      "order": 7,
+      "title": "Focus on Key Result Areas",
+      "summary": "Tracy shifts from daily tasks to the handful of outcome areas that define whether a person is succeeding in their job or life role at all — the 5–7 things you absolutely must do well to be effective. Weakness in even one key result area can undermine strong performance everywhere else.\nHe recommends listing your own key result areas, rating yourself honestly on each from one to ten, and then identifying the single weakest area, since improving your weakest key result area often does more for overall performance than improving an already-strong one.\nThe chapter ends by connecting this self-audit back to frog selection: your daily frog should usually be the task that most directly strengthens your weakest key result area.",
+      "keyLessons": [
+        "Identify the 5–7 outcome areas your role truly depends on.",
+        "Your weakest key result area often caps your overall effectiveness.",
+        "Improving a weak area typically yields more gain than polishing a strong one."
+      ]
+    },
+    {
+      "order": 8,
+      "title": "Apply the Law of Three",
+      "summary": "Tracy argues that within any job, three tasks typically account for 90% of the value a person contributes, and everything else is comparatively minor. The exercise here is to identify those three tasks explicitly and organize the workday around protecting time for them.\nHe walks through examples of how easy it is to lose an entire day to email, meetings, and minor requests that individually feel necessary but collectively crowd out the three tasks that matter most. The chapter frames this as a recurring monthly exercise, since job responsibilities shift over time and the \"big three\" can change.\nIt closes by reinforcing that ruthless focus on three tasks, repeated daily, produces disproportionate results compared with a scattered effort across a dozen smaller ones.",
+      "keyLessons": [
+        "Roughly three tasks typically drive 90% of your value in a role.",
+        "Re-identify your \"big three\" periodically, since responsibilities shift.",
+        "Guard time for the big three against the pull of minor, easy requests."
+      ]
+    },
+    {
+      "order": 9,
+      "title": "Prepare Thoroughly Before You Begin",
+      "summary": "This chapter treats preparation as part of the task itself, not a delay before it. Tracy recommends assembling every tool, document, and piece of information you'll need before starting a frog task, since hunting for a missing item mid-task is a common way momentum gets lost.\nHe also discusses the value of a clean, organized workspace as a psychological cue for focused work, arguing that clutter creates low-grade friction that makes starting harder than it needs to be.\nThe chapter closes by linking good preparation to faster starts: the more friction removed in advance, the less willpower is needed in the moment you sit down to begin.",
+      "keyLessons": [
+        "Gather everything you need before starting to avoid mid-task interruptions.",
+        "A decluttered workspace reduces the friction of getting started.",
+        "Preparation is part of the task, not time taken away from it."
+      ]
+    },
+    {
+      "order": 10,
+      "title": "Take It One Oil Barrel at a Time",
+      "summary": "Using an anecdote about a round-the-world sailor navigating by lining up oil barrels rather than staring at the distant horizon, Tracy argues that large, intimidating goals should be broken into the next visible, achievable step rather than contemplated in full.\nHe connects this to why big projects trigger procrastination: the mind resists starting something that feels too large to complete, but readily starts something that feels like a single small step. The chapter encourages readers to define only the very next action needed, ignoring the full scope of the project in the moment of starting.\nIt ends by tying this technique to sustained motivation — visible progress on small steps builds the confidence needed to keep moving toward a distant goal.",
+      "keyLessons": [
+        "Break intimidating goals into the next single visible step.",
+        "The mind resists starting something that feels too large; small steps bypass that resistance.",
+        "Visible incremental progress sustains motivation better than contemplating the whole project."
+      ]
+    },
+    {
+      "order": 11,
+      "title": "Upgrade Your Key Skills",
+      "summary": "Tracy argues that skill gaps are a frequent, underappreciated cause of procrastination — people avoid tasks not from laziness but because they lack the competence to do them well, and avoidance feels safer than visible struggle. The fix is deliberate skill development in the areas most relevant to your key result areas.\nHe recommends continuous learning as a career-long habit: reading in your field, taking courses, and seeking feedback, framing skill-building itself as one of the highest-leverage investments of time available to a professional.\nThe chapter closes by arguing that the fastest way to eliminate procrastination on a recurring task is often not a productivity trick but simply becoming more competent at the task itself.",
+      "keyLessons": [
+        "Skill gaps, not laziness, often explain avoidance of specific tasks.",
+        "Continuous learning in your key result areas is high-leverage time investment.",
+        "Building competence can eliminate procrastination more effectively than willpower alone."
+      ]
+    },
+    {
+      "order": 12,
+      "title": "Identify Your Key Constraints",
+      "summary": "This chapter introduces the Theory of Constraints idea that every goal has one bottleneck limiting factor — internal or external — and improving anything other than that one constraint produces little overall gain. Tracy urges readers to explicitly identify the constraint holding back their most important goal.\nHe notes that people often focus effort on the parts of a problem that are easiest to work on rather than the part that's actually limiting progress, and that real breakthroughs come from correctly diagnosing which one.\nThe chapter closes with a process for identifying constraints: listing every factor that could be slowing a goal, then honestly ranking which one, if solved, would unlock the most progress.",
+      "keyLessons": [
+        "Every goal has one limiting constraint; find it before optimizing elsewhere.",
+        "Effort spent on non-constraining factors produces little overall gain.",
+        "Correctly diagnosing the bottleneck is often more valuable than working harder around it."
+      ]
+    },
+    {
+      "order": 13,
+      "title": "Put the Pressure on Yourself",
+      "summary": "Tracy argues that top performers act as their own harshest supervisor, setting higher standards and tighter deadlines for themselves than anyone external would impose. Waiting for outside pressure — a boss, a deadline, a crisis — is a common but unreliable substitute for self-discipline.\nThe chapter discusses techniques for manufacturing internal urgency, such as setting artificial deadlines earlier than necessary and holding yourself accountable to them as if they were real, external commitments.\nIt closes by framing self-imposed pressure as a trainable habit: the more often you push yourself rather than waiting to be pushed, the more natural it becomes.",
+      "keyLessons": [
+        "High performers generate their own urgency rather than waiting for external pressure.",
+        "Set artificial deadlines earlier than required and treat them as binding.",
+        "Self-imposed accountability is a skill that strengthens with repetition."
+      ]
+    },
+    {
+      "order": 14,
+      "title": "Maximize Your Personal Powers",
+      "summary": "This chapter addresses energy management alongside time management, arguing that mental sharpness fluctuates throughout the day and that frog tasks should be scheduled for personal peak-energy hours rather than whenever there happens to be a gap in the calendar.\nTracy discusses the role of rest, exercise, and nutrition in sustaining the energy needed for sustained focus, treating physical maintenance as a productivity input rather than a separate wellness topic.\nThe chapter closes by encouraging readers to track their own energy patterns and deliberately protect peak hours for the day's most important task rather than surrendering them to routine or reactive work.",
+      "keyLessons": [
+        "Schedule your most important task for your personal peak-energy hours.",
+        "Physical maintenance — sleep, exercise, nutrition — is a direct productivity input.",
+        "Track your own energy patterns rather than assuming a fixed schedule works for everyone."
+      ]
+    },
+    {
+      "order": 15,
+      "title": "Motivate Yourself into Action",
+      "summary": "Tracy argues that motivation more often follows action than precedes it — waiting to \"feel like\" starting is an unreliable strategy, and the more dependable path is to begin the task and let momentum generate motivation.\nHe discusses self-talk and mental rehearsal as tools for building confidence before a difficult task, encouraging readers to imagine themselves as calm, capable, and competent rather than dwelling on self-doubt.\nThe chapter closes by reinforcing that starting, not feeling ready, is the actual trigger for motivation — a theme that runs through much of the book's practical advice.",
+      "keyLessons": [
+        "Motivation typically follows action rather than preceding it.",
+        "Positive self-talk before a task can reduce the resistance to starting.",
+        "Don't wait to feel ready; starting generates its own momentum."
+      ]
+    },
+    {
+      "order": 16,
+      "title": "Get Out of the Technological Time Sinks",
+      "summary": "This chapter targets email, phone notifications, and social media as modern procrastination enablers that masquerade as productive work. Tracy argues that constant reactive checking fragments attention and prevents the sustained focus that frog tasks require.\nHe recommends batching low-value digital tasks into set windows rather than checking continuously, and protecting blocks of uninterrupted time specifically for the day's most important task, treating notifications as something to be turned off by default rather than tolerated.\nThe chapter closes by framing digital discipline as a modern extension of the same core skill the whole book teaches: choosing what deserves your attention rather than letting external interruptions choose for you.",
+      "keyLessons": [
+        "Batch email and notifications into set windows instead of checking continuously.",
+        "Protect uninterrupted blocks of time for your most important task.",
+        "Treat digital interruptions as a default-off setting, not something to tolerate passively."
+      ]
+    },
+    {
+      "order": 17,
+      "title": "Slice and Dice the Task",
+      "summary": "Tracy introduces the \"salami slice\" technique — breaking a large task into small, discrete slices and committing to completing just one slice at a time, which lowers the psychological barrier to starting.\nThe chapter also covers the \"Swiss cheese\" method, in which you punch small holes in a large task by doing brief bursts of work on it whenever a few spare minutes appear, rather than requiring one long uninterrupted session to begin.\nIt closes by noting that either technique works by making the entry point to a large task feel small and low-risk, which is often the actual obstacle rather than the total size of the task itself.",
+      "keyLessons": [
+        "Break large tasks into small \"slices\" and commit to just one at a time.",
+        "Use short bursts on a large task (\"Swiss cheese\" method) rather than waiting for a big block of time.",
+        "Lowering the barrier to starting matters more than shrinking the total task."
+      ]
+    },
+    {
+      "order": 18,
+      "title": "Create Large Chunks of Time",
+      "summary": "This chapter argues the opposite complement to the previous one: some tasks genuinely require sustained, uninterrupted blocks, and these must be deliberately scheduled and defended on the calendar, since they rarely happen by accident in a reactive day.\nTracy recommends scheduling these blocks in advance, treating them as unmovable appointments, and communicating boundaries to colleagues so interruptions during that window are minimized.\nThe chapter closes by tying this practice back to the book's central theme: important work needs protected time, and protected time has to be actively created rather than passively hoped for.",
+      "keyLessons": [
+        "Some tasks require large, uninterrupted blocks of time — schedule them deliberately.",
+        "Treat protected work blocks as fixed appointments, not flexible slots.",
+        "Communicate boundaries proactively to reduce interruptions during protected time."
+      ]
+    },
+    {
+      "order": 19,
+      "title": "Develop a Sense of Urgency",
+      "summary": "Tracy describes a \"fast tempo\" as a defining trait of top performers — moving quickly from decision to action rather than lingering in deliberation, since delay itself has a cost that's easy to underestimate.\nHe contrasts this with the comfort zone of slow, deliberate movement that feels safe but quietly erodes results over time, arguing that a bias toward speed, even with occasional mistakes, outperforms a bias toward caution and delay.\nThe chapter closes by connecting urgency directly to the book's core habit: eating the frog first, fast, before the day's momentum is lost to lesser tasks.",
+      "keyLessons": [
+        "Fast movement from decision to action is a trait shared by top performers.",
+        "Excessive caution and deliberation has a real, often invisible cost.",
+        "Speed, even with imperfect execution, tends to outperform slow perfectionism."
+      ]
+    },
+    {
+      "order": 20,
+      "title": "Single Handle Every Task",
+      "summary": "The book's closing technique instructs readers to start a task and stay with it, without switching away, until it is complete — treating task-switching as one of the most damaging habits to sustained productivity because of the time lost reorienting after every interruption.\nTracy ties this back to the frog metaphor directly: pick the frog, start eating, and don't stop until it's finished, resisting the temptation to check email or jump to an easier task partway through.\nThe chapter, and the book, close by reiterating that this single discipline — starting and finishing one important thing before moving to the next — is the practical core of everything the previous chapters built toward.",
+      "keyLessons": [
+        "Task-switching carries a hidden cost in lost reorientation time.",
+        "Commit to finishing a started task before beginning another.",
+        "This single habit is the practical distillation of the entire book's system."
+      ]
+    }
+  ],
+  "keyLessons": [
+    "Identify your single most important, most likely-to-be-delayed task and do it first each day.",
+    "Write goals down and plan each day the night before to remove morning ambiguity.",
+    "Use the ABCDE method to rank tasks by true consequence, not by how they happen to appear on a list.",
+    "Apply the 80/20 rule ruthlessly: protect the few tasks that generate most of your results.",
+    "Break large, intimidating tasks into small first steps to lower the barrier to starting.",
+    "Build in self-imposed deadlines and pressure rather than waiting for external urgency.",
+    "Protect your peak-energy hours for your most important task of the day.",
+    "Reduce digital interruptions that fragment attention and enable low-value busyness.",
+    "Single-handle tasks: start and finish before switching to something else.",
+    "Treat skill-building in your key result areas as a direct route to reducing avoidance."
+  ],
+  "quotes": [
+    {
+      "text": "Eat a live frog first thing in the morning and nothing worse will happen to you the rest of the day.",
+      "attribution": "Brian Tracy",
+      "category": "The Core Metaphor"
+    },
+    {
+      "text": "If you have to eat two frogs, eat the ugliest one first.",
+      "attribution": "Brian Tracy",
+      "category": "The Core Metaphor"
+    },
+    {
+      "text": "Successful, effective people are those who launch directly into major tasks.",
+      "attribution": "Brian Tracy",
+      "category": "On Procrastination"
+    },
+    {
+      "text": "The successful people I have interviewed all have one thing in common: they know how to overcome procrastination.",
+      "attribution": "Brian Tracy",
+      "category": "On Procrastination"
+    },
+    {
+      "text": "Before you begin work on any list of tasks, apply the 20/80 Rule.",
+      "attribution": "Brian Tracy",
+      "category": "On Prioritization"
+    },
+    {
+      "text": "Never work on a C task when a B task is left undone.",
+      "attribution": "Brian Tracy",
+      "category": "On Prioritization"
+    },
+    {
+      "text": "Motivation requires motive. The more motives or reasons you can conceive of and develop, the more motivated you will be.",
+      "attribution": "Brian Tracy",
+      "category": "On Action"
+    },
+    {
+      "text": "Slice and dice the task.",
+      "attribution": "Brian Tracy",
+      "category": "On Action"
+    }
+  ],
+  "conceptsFrameworks": [
+    {
+      "name": "The ABCDE Method",
+      "definition": "A prioritization system where every task is labeled A (serious consequences if not done), B (mild consequences), C (no consequences), D (delegate), or E (eliminate), with A-tasks further ranked A-1, A-2, A-3. The rule is never to work on a B task while any A task remains undone.",
+      "sourceSection": "Use the ABCDE Method Continually"
+    },
+    {
+      "name": "Eat That Frog",
+      "definition": "A metaphor for identifying your single biggest, most important, and most likely-to-be-procrastinated task and doing it first thing each day, before anything else can interfere or drain your willpower. The \"frog\" is whatever task would have the most positive impact on your life if you completed it and the most negative impact if you kept avoiding it.",
+      "sourceSection": "Introduction / throughout"
+    },
+    {
+      "name": "The Law of Three",
+      "definition": "The observation that roughly three tasks typically account for about 90% of the value a person contributes in their role, and that identifying and protecting time for those three tasks produces disproportionate results compared to spreading effort evenly across many smaller tasks.",
+      "sourceSection": "Apply the Law of Three"
+    },
+    {
+      "name": "Key Result Areas",
+      "definition": "The 5–7 outcome areas that determine overall effectiveness in a job or role; weakness in even one key result area can limit performance across the board, so self-rating and targeted improvement in the weakest area is a high-leverage activity.",
+      "sourceSection": "Focus on Key Result Areas"
+    }
+  ],
+  "applyThis": {
+    "actionSteps": [
+      "Tonight, write tomorrow's task list and mark your single \"frog\" — the task with the most serious consequence if left undone — and commit to starting it before checking email.",
+      "Run the ABCDE method on your current task list this week: label every item A through E, and physically cross out or delete every C-level task.",
+      "Pick one large task you've been avoiding and break it into its first five-minute \"slice,\" committing only to that slice today.",
+      "Identify the single constraint currently limiting your top goal, and spend one dedicated block this week working only on that constraint.",
+      "Turn off non-essential notifications for one full workday and observe how much of your day was previously lost to reactive checking."
+    ],
+    "reflectionQuestions": [
+      "What is the one task in your life right now that, if you completed it, would have the greatest positive impact — and why haven't you started it yet?",
+      "Which of your key result areas is currently your weakest, and what would improving it by even 20% change?",
+      "Where in your week are you substituting busyness on easy tasks for genuine progress on hard ones?"
+    ]
+  },
+  "criticalTake": {
+    "points": [
+      "The book is a distillation of principles from Tracy's decades of corporate seminars rather than original empirical research; most claims are presented as time-tested wisdom rather than backed by cited studies.",
+      "Some techniques overlap conceptually (the ABCDE method and the 80/20 rule both prioritize by consequence), which can make the \"21 ways\" framing feel padded relative to the underlying distinct ideas.",
+      "The advice assumes a degree of autonomy over one's schedule that not every reader has — for example, shift workers or people in highly reactive roles (customer support, emergency services) have less latitude to \"protect\" large blocks of time.",
+      "The book gives relatively little attention to the emotional or psychological roots of chronic procrastination (anxiety, perfectionism, ADHD), treating it primarily as a habit and willpower problem rather than sometimes a clinical one."
+    ],
+    "contextNote": "The book's advice on managing \"technological time sinks\" was expanded in later editions to address smartphones and social media more directly, since the original 2001 edition predated the modern always-on notification environment."
+  },
+  "whoThisIsFor": "Anyone who chronically delays their most important work in favor of easy, low-value tasks, especially professionals looking for immediately actionable tactics rather than a deep theoretical framework.",
+  "whenToReadThis": "Best read when you're actively stuck in a busy-but-unproductive rut and want a quick, practical reset rather than a long-term system to design from scratch.",
+  "relatedBooks": [],
+  "authorBio": {
+    "name": "Brian Tracy",
+    "bio": "Brian Tracy is a Canadian-American motivational speaker and self-development author who built a career in sales training and corporate seminars starting in the 1980s, after early jobs in manual labor and door-to-door sales gave him firsthand experience with the productivity gap between average and top performers.\n\nHe founded Brian Tracy International and has spoken to corporate and public audiences worldwide on themes of goal-setting, sales performance, leadership, and personal effectiveness, positioning himself within the broader American tradition of practical, seminar-style self-help writing rather than academic psychology.\n\n*Eat That Frog!*, first published in 2001, became his best-known book and is frequently used as a corporate training text because of its short, discrete, immediately actionable chapter structure.",
+    "notableWorks": [
+      "The Psychology of Achievement",
+      "Goals!",
+      "No Excuses! The Power of Self-Discipline",
+      "Million Dollar Habits"
+    ]
+  },
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-31",
+  "sourceNotes": "Synthesis is based on general familiarity with the book's well-documented 21-chapter structure and widely circulated content; quotes were selected from commonly cited, verifiable lines from the book and kept short and limited in number per this project's copyright guidelines rather than reproducing extended passages.\n\n---"
+}

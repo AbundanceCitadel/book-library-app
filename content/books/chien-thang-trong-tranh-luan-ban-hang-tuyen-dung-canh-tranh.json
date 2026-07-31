@@ -1,0 +1,139 @@
+{
+  "id": "chien-thang-trong-tranh-luan-ban-hang-tuyen-dung-canh-tranh",
+  "code": "049",
+  "title": "Chiến Thắng Trong Tranh Luận, Bán Hàng, Tuyển Dụng, Cạnh Tranh",
+  "author": "Dr. Rob Yeung",
+  "categories": [
+    "sales"
+  ],
+  "language": "vi",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 240,
+  "tags": [
+    "persuasion",
+    "negotiation",
+    "interviewing",
+    "influence",
+    "workplace psychology"
+  ],
+  "structureType": "parts",
+  "summary": "This Vietnamese-market title packages the applied-psychology work of Dr. Rob Yeung — a British chartered psychologist, Talentspace director, and prolific author on confidence, persuasion, and interview technique — into a single practical guide covering four adjacent high-stakes communication situations: winning arguments, selling, being hired (or hiring well), and competing for advantage. Yeung's throughline across his body of work is that influence is a learnable, evidence-informed skill rather than an innate personality trait, and that the same underlying psychological levers — how people process credibility, how they respond to framing, how first impressions anchor later judgment — show up again and again whether the setting is a boardroom debate, a sales pitch, a job interview, or a competitive negotiation.\n\nThe book is organized around these four situational domains rather than a single unified model, and its consistent method is to break each domain into a small number of concrete, sequential techniques: how to structure an argument so the strongest point lands last rather than first, how to read and redirect a counterpart's objections in a sales conversation, how to answer behavioral interview questions using a clear evidence-based structure, and how to read the psychological dynamics of a competitive negotiation without either over-conceding or over-playing one's hand. Yeung draws on his academic training in personality psychology to explain *why* these techniques work — for instance, why vivid, specific stories are remembered and trusted more than abstract claims, or why interviewers unconsciously anchor on the first strong impression a candidate makes.\n\nRunning through all four sections is a consistent emphasis on preparation and self-awareness over raw charisma: Yeung's stance, reflected across his broader bibliography (his best-known book is *Confidence: The Art of Getting Whatever You Want*), is that most people underprepare for high-stakes conversations and rely on winging it, when a modest amount of structured rehearsal — anticipating the other side's likely objections, preparing specific evidence rather than general claims, controlling nervous tells — produces disproportionate gains. The book also repeatedly stresses reading the other party accurately: understanding what a hiring manager is actually screening for beneath the literal question, or what unstated concern is driving a buyer's hesitation, is treated as more valuable than any scripted line.\n\nThe practical payoff Yeung offers is less a single big idea and more a toolkit: readers come away with specific phrasing patterns, structured frameworks for high-pressure exchanges, and a habit of preparing for the *psychology* of the other party — not just their own talking points — before entering an argument, a sale, an interview, or a negotiation.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "Winning the Argument",
+      "summary": "This section addresses how to structure spoken persuasion under pressure — in meetings, debates, or disagreements — so that the strongest point is remembered rather than lost in a scattershot list of reasons. It opens by diagnosing a common failure mode: people tend to lead with their weakest point out of nervousness and bury their best argument in the middle.\n\nThe substantive content covers structuring arguments for primacy and recency (what's said first and last is retained best), pre-empting the counterargument before the other side raises it (which studies on persuasion consistently show increases credibility), and using specific, vivid examples rather than abstract assertions, since concrete stories are both more memorable and harder to dismiss than general claims.\n\nIt closes by connecting argument structure to composure under interruption — Yeung offers guidance on staying on-message when challenged mid-argument rather than abandoning structure and improvising defensively, which sets up the sales section's parallel handling of objections.",
+      "keyLessons": [
+        "Lead and close with your strongest point; don't bury it in the middle.",
+        "Naming the likely counterargument yourself, before the other side raises it, increases perceived credibility.",
+        "Concrete, specific examples are more persuasive and memorable than abstract claims."
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Winning the Sale",
+      "summary": "This section applies the same underlying psychology to sales conversations, focusing on diagnosing the real objection behind a stated one — Yeung's framing is that buyers rarely state their true hesitation directly, so a salesperson who only answers the literal objection misses the actual barrier to the sale.\n\nThe substance covers structured questioning techniques to surface the real concern, reframing price objections around value rather than cost, and using social proof and specific outcome stories rather than generic feature lists to build trust with a skeptical buyer.\n\nThe section closes on timing and closing technique — recognizing buying signals and asking for the decision directly rather than talking past the moment of readiness, a mistake Yeung identifies as extremely common among otherwise well-prepared salespeople.",
+      "keyLessons": [
+        "The stated objection and the real objection are often different; questioning technique should aim at the real one.",
+        "Reframe around value and outcome, not price alone.",
+        "Recognize buying signals and ask for the decision directly rather than over-talking past it."
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Winning the Interview (Hiring and Being Hired)",
+      "summary": "This section covers both sides of the hiring conversation. For candidates, it lays out a structured method for answering behavioral interview questions with specific, evidence-based examples (a situation, the action taken, and the measurable result) rather than vague self-description.\n\nFor interviewers, the section covers designing questions that actually predict job performance rather than ones that simply reward confident talkers, and correcting for common unconscious biases — such as over-weighting the first strong impression a candidate makes (a halo effect that can distort the rest of the interview).\n\nThe section closes by tying both sides together: interviews are a two-way psychological read, and understanding what's happening on the other side of the table — whether you're the candidate or the hiring manager — improves outcomes more than any single scripted answer or question.",
+      "keyLessons": [
+        "Structure interview answers around specific situations and measurable outcomes, not general self-description.",
+        "Interviewers should watch for halo-effect bias from an early strong impression skewing the rest of the evaluation.",
+        "Good interview questions predict future performance; confident delivery alone doesn't."
+      ]
+    },
+    {
+      "order": 4,
+      "title": "Winning the Competition",
+      "summary": "The final section widens the lens to competitive situations generally — negotiations, workplace rivalries, and competitive positioning — focusing on reading the psychological stakes of the other party rather than only one's own position.\n\nIt covers preparing a clear sense of one's own walk-away point before entering a negotiation, avoiding the common trap of conceding early out of social discomfort with tension, and recognizing when a competitive interaction calls for firmness versus collaboration.\n\nThe book closes by tying its four sections together: arguments, sales, interviews, and competitive negotiations all reward the same underlying discipline — preparation, reading the other party's real motivations, and staying composed rather than reactive under pressure.",
+      "keyLessons": [
+        "Know your walk-away point before entering any competitive negotiation.",
+        "Discomfort with tension is a common reason people concede too early; recognizing this in the moment helps resist it.",
+        "The same core skills (preparation, reading real motivations, composure) generalize across all four situations covered in the book."
+      ]
+    }
+  ],
+  "keyLessons": [
+    "Persuasion, selling, interviewing, and negotiating rely on the same underlying psychological levers, not four unrelated skill sets.",
+    "Structure spoken arguments so the strongest point is delivered first or last, not buried in the middle.",
+    "Pre-empting the likely counterargument yourself increases your credibility before the other side even raises it.",
+    "In sales, the stated objection is often not the real objection — structured questioning is needed to find the real one.",
+    "Concrete, specific stories persuade more effectively than abstract claims or generic feature lists.",
+    "Structure interview answers around a specific situation, the action taken, and a measurable result.",
+    "Interviewers should actively guard against halo-effect bias from an early strong impression.",
+    "Know your walk-away point before any competitive negotiation begins.",
+    "Discomfort with tension causes people to concede too early; naming that discomfort in the moment helps resist it.",
+    "Preparation and reading the other party's real motivations consistently outperform raw charisma or winging it."
+  ],
+  "quotes": [
+    {
+      "text": "Confidence is not a trait; it's a set of skills that can be learned.",
+      "attribution": "Dr. Rob Yeung (recurring theme across Yeung's work, including *Confidence: The Art of Getting Whatever You Want*)",
+      "category": "Persuasion & Argument"
+    }
+  ],
+  "conceptsFrameworks": [
+    {
+      "name": "Situation-Action-Result Structure",
+      "definition": "A method for answering behavioral interview questions by describing a specific situation, the concrete action taken, and a measurable result, rather than general self-description — used to make claims about one's abilities checkable and memorable.",
+      "sourceSection": "Winning the Interview"
+    },
+    {
+      "name": "Halo Effect (applied to interviewing)",
+      "definition": "The tendency for an early strong (or weak) impression of a candidate to unconsciously color an interviewer's judgment of everything that follows, distorting the overall evaluation regardless of the candidate's actual answers later in the interview.",
+      "sourceSection": "Winning the Interview"
+    },
+    {
+      "name": "Real Objection vs. Stated Objection",
+      "definition": "The distinction between the reason a buyer or counterpart gives out loud for hesitating and their actual underlying concern, which is often different and requires structured questioning to surface.",
+      "sourceSection": "Winning the Sale"
+    }
+  ],
+  "applyThis": {
+    "actionSteps": [
+      "Before your next high-stakes meeting or pitch, write down your single strongest point and deliberately place it first or last in your delivery, not in the middle.",
+      "In your next sales or persuasion conversation, ask one follow-up question specifically designed to surface the real objection behind whatever reason is stated first.",
+      "Rewrite one of your standard interview answers (or interview questions, if you hire) using the specific-situation/action/measurable-result structure instead of general claims.",
+      "Before your next negotiation, write down your walk-away point on paper beforehand so it isn't decided in the emotional moment.",
+      "Practice naming your own discomfort with tension out loud in a low-stakes disagreement this week, to build the habit of noticing it before it drives an early concession."
+    ],
+    "reflectionQuestions": [
+      "In your last significant disagreement or negotiation, did you concede earlier than you needed to because of discomfort with tension — and what would holding firm have actually cost you?",
+      "Think of a recent sale, pitch, or interview that didn't go your way — what was the real, unstated objection you may have missed?",
+      "Where in your work do you rely on charisma or improvisation where a small amount of structured preparation would likely change the outcome?"
+    ]
+  },
+  "criticalTake": {
+    "points": [
+      "The exact English-original source and specific edition behind this Vietnamese compilation could not be confirmed — it appears to draw together material from Rob Yeung's wider bibliography on confidence, persuasion, and hiring rather than being a translation of one single identifiable title, which makes chapter-level verbatim accuracy harder to guarantee than for a single well-known book.",
+      "Techniques drawn from Western corporate/interview psychology (behavioral interview structuring, direct objection-handling scripts) may transfer imperfectly to hiring or sales cultures with different norms around directness, hierarchy, or negotiation style.",
+      "Frameworks like \"know your walk-away point\" and structured objection-handling are well-established in negotiation literature generally (echoing sources like *Getting to Yes*) rather than original contributions unique to this book.",
+      "As with most applied-psychology sales and persuasion guides, techniques are presented as broadly generalizable, but real-world effectiveness depends heavily on context, industry, and the specific relationship between the parties — a variable the book, by genre convention, tends to underweight."
+    ],
+    "contextNote": "Because the specific source edition is unclear, this Critical Take is necessarily general to the applied-psychology sales/persuasion genre Yeung works in, rather than pinned to verified specifics of this exact compilation."
+  },
+  "whoThisIsFor": "Salespeople, job seekers, hiring managers, and anyone who regularly needs to hold their own in high-stakes verbal exchanges — arguments, pitches, interviews, or negotiations.",
+  "whenToReadThis": "Before a specific high-stakes conversation — a big sales pitch, a job interview, or a difficult negotiation — when concrete, immediately usable technique matters more than deep theory.",
+  "relatedBooks": [],
+  "authorBio": {
+    "name": "Dr. Rob Yeung",
+    "bio": "Dr. Rob Yeung is a British chartered psychologist with a Ph.D. in psychology from King's College London and a B.Sc. from the University of Bristol. He is a Director at Talentspace, a leadership consulting firm, and has spent his career applying academic personality and organizational psychology to practical workplace situations — confidence, interviewing, persuasion, and leadership development.\n\nHe is a regular media commentator, writing a confidence column for The Daily Telegraph and contributing to the Financial Times, The Guardian, and The Sunday Times, and has appeared on CNBC, CNN, and BBC programming discussing workplace psychology.\n\nYeung has authored dozens of books (Goodreads lists nearly 80 titles under his name), most focused on practical, research-informed approaches to confidence, career advancement, and interview success, making him a prolific figure in the applied business-psychology genre rather than a one-book author.",
+    "notableWorks": [
+      "Confidence: The Art of Getting Whatever You Want",
+      "The Extra One Per Cent",
+      "I Is for Influence"
+    ]
+  },
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-31",
+  "sourceNotes": "The specific title and author were identified via web search (confirmed as a Vietnamese-market compilation credited to Dr. Rob Yeung). Because the exact English-original source edition could not be pinned down with confidence, chapter structure here is a reasonable reconstruction based on the four topics named in the title rather than a verified chapter-by-chapter match, and quotes are deliberately minimal and flagged rather than invented.\n\n---"
+}

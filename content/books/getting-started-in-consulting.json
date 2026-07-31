@@ -1,0 +1,173 @@
+{
+  "id": "getting-started-in-consulting",
+  "code": "089",
+  "title": "Getting Started in Consulting",
+  "author": "Alan Weiss",
+  "categories": [
+    "business"
+  ],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 330,
+  "tags": [
+    "consulting",
+    "solo business",
+    "entrepreneurship",
+    "marketing",
+    "pricing"
+  ],
+  "structureType": "chapters",
+  "summary": "Getting Started in Consulting is Alan Weiss's practical, step-by-step guide for anyone leaving employment to build an independent consulting practice, built around a central promise: that low overhead combined with genuine organizational discipline can produce a six- or even seven-figure income working from a home office. Weiss writes from decades of direct experience running his own successful solo consulting firm, Summit Consulting Group, and consulting for major organizations, positioning the book less as motivational encouragement and more as an operational manual for the concrete decisions a new consultant has to make.\n\nThe book opens by addressing mindset and readiness — Weiss is direct that consulting rewards confidence and value-focused thinking, and that undercharging out of fear is one of the most common and damaging mistakes new consultants make. From there it moves into the practical infrastructure of starting a solo practice: legal structure, insurance, setting up a home office, and building enough of a financial cushion to survive the inevitable slow early period before referrals and reputation take hold.\n\nA substantial part of the book is devoted to the two skills Weiss considers most decisive for a consulting practice's survival: marketing and proposal writing. He argues that most failed consultants fail not from lack of expertise but from failure to consistently market themselves and from writing proposals that describe activities rather than value and outcomes. This connects directly to his well-known advocacy for value-based pricing over hourly billing, which he presents as both more profitable and more aligned with what clients actually want to buy.\n\nThe book closes with the operational mechanics of running the business day to day — billing, bookkeeping, technology, and networking — and, in later editions, an added chapter specifically for readers who need to generate cash flow quickly rather than build gradually. Across editions (the book has been revised multiple times to stay current with technology and market conditions), Weiss's consistent throughline is that a successful consulting practice is not primarily a matter of subject-matter expertise but of running a well-organized small business with disciplined marketing, confident value-based pricing, and enough financial preparation to weather its inevitable slow start.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "Deciding to Go Solo",
+      "summary": "This opening chapter addresses the decision itself — whether and when to leave employment for independent consulting — and the mindset shifts required to succeed, distinct from the technical expertise a new consultant typically already has.\n\nWeiss is direct that most people underestimate how much of consulting success depends on confidence and value-based thinking rather than credentials, and lays out concrete financial readiness benchmarks, including his often-cited recommendation to have at minimum six months of normal living expenses saved before launching. He also stresses building a support system among family and close friends before starting, since the early period is often financially and emotionally harder than expected.\n\nThe chapter hands off to legal and financial setup by treating mindset and financial preparation as prerequisites that must be in place before the practical business-formation steps that follow.",
+      "keyLessons": [
+        "Consulting success depends heavily on confidence and value-based thinking, not just subject-matter expertise.",
+        "Having a minimum of six months of living expenses saved before launching is a critical readiness benchmark."
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Legal and Financial Foundations",
+      "summary": "This chapter covers the practical business-formation decisions a new consultant needs to make early: choosing a legal structure, securing appropriate insurance, and setting up basic financial systems before taking on client work.\n\nWeiss walks through the tradeoffs of different business structures and the kinds of insurance (liability, in particular) that protect a solo consultant from exposure that could otherwise threaten the business or personal assets. He treats this as unglamorous but essential groundwork that many eager new consultants are tempted to skip or delay.\n\nThe chapter transitions into financing the practice by noting that legal setup and initial financing decisions are closely linked, particularly around how the business is capitalized in its first months.",
+      "keyLessons": [
+        "Choosing the right legal structure and securing liability insurance early protects both the business and personal assets.",
+        "Foundational legal and financial setup is easy to delay but creates real risk exposure if skipped."
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Financing Your Practice",
+      "summary": "This chapter addresses how to fund a consulting practice through its early, typically slow-revenue period, covering options from personal savings to more formal financing, and the risks of under-capitalizing a launch.\n\nWeiss argues that under-financing is one of the most common reasons promising consultants fail — not because their consulting skills were inadequate, but because they ran out of runway before referrals and reputation had time to build. He offers guidance on realistic early revenue expectations versus the optimistic projections new consultants often make for themselves.\n\nThe chapter hands off to the operational setup chapter by connecting adequate financing to the ability to invest properly in the office and technology infrastructure discussed next.",
+      "keyLessons": [
+        "Under-capitalizing the launch period, not lack of consulting skill, is a leading cause of new consulting practice failure.",
+        "Realistic early revenue expectations should assume a slower ramp than most optimistic new consultants project for themselves."
+      ]
+    },
+    {
+      "order": 4,
+      "title": "Setting Up Operations",
+      "summary": "This chapter covers the practical infrastructure of running a low-overhead consulting practice from a home office: technology, workspace setup, and the organizational systems that let a solo consultant operate efficiently without significant staff.\n\nWeiss frames low overhead not as a limitation but as a genuine competitive advantage, arguing that a well-organized solo practice can be more profitable per hour than a larger firm burdened with overhead. He discusses the specific technology and organizational habits that make this level of independent operation actually functional day to day.\n\nThe chapter transitions into marketing by noting that operational efficiency only matters once there is client work to deliver, setting up the following chapters' focus on generating that work.",
+      "keyLessons": [
+        "Low overhead, properly organized, is a genuine competitive advantage for a solo consulting practice, not just a limitation to work around.",
+        "Efficient home-office infrastructure and organization directly affect how profitably a solo consultant can operate."
+      ]
+    },
+    {
+      "order": 5,
+      "title": "Marketing Yourself",
+      "summary": "This chapter argues that marketing, not expertise, is the most decisive skill for a new consultant's survival, since Weiss contends that many failed consultants had perfectly adequate expertise but failed to consistently and effectively market themselves.\n\nHe discusses building visibility and credibility through networking, thought leadership, and consistent outreach, framing marketing as a discipline the consultant must practice continuously rather than only when work is scarce. Weiss's core message is that a new consultant is, in effect, in the marketing business every day for a substantial stretch of time after launch, whether or not they think of themselves that way.\n\nThe chapter hands off to proposal writing by noting that effective marketing generates opportunities, but converting those opportunities into paid work depends on the next skill: writing a winning proposal.",
+      "keyLessons": [
+        "Consistent, ongoing marketing — not expertise alone — is the most decisive factor in a new consultant's survival.",
+        "New consultants should expect to be in \"the marketing business\" continuously, not just during slow periods."
+      ]
+    },
+    {
+      "order": 6,
+      "title": "Winning Business: Proposals and Value-Based Pricing",
+      "summary": "This chapter covers the two closely linked skills of proposal writing and pricing, which Weiss considers central to consulting profitability: writing proposals that describe client outcomes and value rather than a list of activities, and pricing based on that value rather than by the hour.\n\nWeiss makes his well-known case against hourly billing, arguing it penalizes efficiency, caps earning potential, and misaligns the consultant's incentives with the client's actual interest in outcomes. He walks through how a value-based proposal is structured differently from a conventional one — emphasizing the client's desired result and the value of achieving it, rather than a breakdown of hours and tasks.\n\nThe chapter transitions into billing and bookkeeping by noting that a good pricing structure only helps the business if it's followed by disciplined financial administration, covered next.",
+      "keyLessons": [
+        "Value-based pricing (pricing according to outcomes and value delivered) generally outperforms hourly billing for both profitability and client alignment.",
+        "A proposal should emphasize the client's desired outcome and its value, not a breakdown of consultant activities and hours."
+      ]
+    },
+    {
+      "order": 7,
+      "title": "Billing, Bookkeeping, and Technology",
+      "summary": "This chapter covers the ongoing financial administration of running a solo consulting practice: invoicing, record-keeping, and the technology tools that keep a one-person operation running smoothly without significant administrative overhead.\n\nWeiss treats disciplined bookkeeping as a basic professional obligation rather than an optional nicety, and connects it to the value-based pricing discussed in the previous chapter, since clear financial records make it easier to track which types of engagements are actually most profitable. He also discusses how to use technology to keep administrative overhead low, consistent with the book's broader emphasis on efficient solo operation.\n\nThe chapter hands off to the final chapter on growth by establishing that clean financial systems are a prerequisite for scaling a practice responsibly.",
+      "keyLessons": [
+        "Disciplined bookkeeping is a basic professional obligation, and it also reveals which types of engagements are actually most profitable.",
+        "Efficient use of technology keeps administrative overhead low enough to sustain solo operation."
+      ]
+    },
+    {
+      "order": 8,
+      "title": "Growing the Practice",
+      "summary": "The closing chapter looks past the initial launch phase toward sustaining and growing a consulting practice over time, addressing how a consultant transitions from surviving the early period to building a stable, referral-driven business.\n\nWeiss discusses the compounding value of reputation and referrals once a consultant has delivered strong, well-marketed, well-priced engagements consistently, and touches on when and whether to expand beyond solo operation. Later editions of the book add material here specifically for readers who need to generate cash flow especially quickly, reflecting Weiss's ongoing updates to the book for changing economic conditions.\n\nThe book closes by tying growth back to the disciplines established earlier — marketing, value-based pricing, and financial organization — as the foundation that determines whether growth is sustainable or simply adds strain to an already fragile practice.",
+      "keyLessons": [
+        "Sustainable growth in a consulting practice comes from compounding reputation and referrals built on consistently strong, well-marketed engagements.",
+        "The same early disciplines (marketing, pricing, financial organization) determine whether growth is sustainable or simply adds strain."
+      ]
+    }
+  ],
+  "keyLessons": [
+    "Consulting success depends heavily on confidence and value-based thinking, not primarily on subject-matter expertise.",
+    "Having a real financial cushion (Weiss recommends a minimum of six months of expenses) before launching reduces the risk of running out of runway too early.",
+    "Under-capitalizing the launch period is a more common cause of failure than inadequate consulting skill.",
+    "Low overhead, properly organized, is a genuine competitive advantage rather than just a constraint to manage around.",
+    "Consistent, ongoing marketing is the most decisive factor in a new consultant's survival, more than expertise alone.",
+    "Proposals should describe client outcomes and value, not a breakdown of the consultant's activities and hours.",
+    "Value-based pricing generally outperforms hourly billing for both profitability and alignment with client interests.",
+    "Disciplined bookkeeping reveals which types of engagements are actually most profitable, informing better future decisions."
+  ],
+  "quotes": [
+    {
+      "text": "When you launch a solo practice, have 6 months of normal living expenses tucked away, minimum.",
+      "attribution": "Alan Weiss, *Getting Started in Consulting* (author guidance)",
+      "category": "Financial Readiness"
+    },
+    {
+      "text": "You are in the marketing business every day of your life for the next six months.",
+      "attribution": "Alan Weiss, paraphrased guidance from *Getting Started in Consulting*",
+      "category": "Marketing Discipline"
+    },
+    {
+      "text": "Low overhead and a high degree of organization can translate into a six-figure income working from a home office.",
+      "attribution": "publisher description of *Getting Started in Consulting*",
+      "category": "Low Overhead"
+    }
+  ],
+  "conceptsFrameworks": [
+    {
+      "name": "Value-Based Pricing",
+      "definition": "A pricing approach that charges based on the value and outcomes a consulting engagement delivers to the client, rather than by the hour. Weiss argues hourly billing penalizes efficiency and caps earning potential, while value-based pricing aligns the consultant's incentives with the client's actual interest in results.",
+      "sourceSection": "Winning Business: Proposals and Value-Based Pricing"
+    },
+    {
+      "name": "The Six-Month Financial Cushion",
+      "definition": "Weiss's specific readiness benchmark recommending a new consultant have at minimum six months of normal living expenses saved before launching a solo practice, to survive the typically slow early revenue period without financial crisis forcing premature compromises.",
+      "sourceSection": "Deciding to Go Solo"
+    }
+  ],
+  "applyThis": {
+    "actionSteps": [
+      "Before launching or if already operating without one, calculate your actual monthly living expenses and confirm whether you have at least six months saved as a cushion; if not, set a specific savings target and date.",
+      "Rewrite your current consulting proposal template (or draft one) to lead with the client's desired outcome and its value, rather than opening with your process or hourly rate.",
+      "Choose one specific, repeatable marketing activity (a weekly outreach habit, a content piece, a networking touchpoint) and commit to it on a fixed schedule for the next eight weeks, rather than marketing only when work is scarce.",
+      "Review your current pricing structure and identify at least one upcoming engagement where you could propose value-based pricing instead of an hourly rate."
+    ],
+    "reflectionQuestions": [
+      "Are you currently pricing your work based on your own time and effort, or based on the value the client actually receives?",
+      "Where in your current practice are you relying on your expertise alone to generate work, rather than consistent, deliberate marketing?",
+      "If your consulting income stopped today, how many months could you sustain yourself before it became a financial crisis?"
+    ]
+  },
+  "criticalTake": {
+    "points": [
+      "The book has gone through multiple editions (at least four) to keep pace with changing technology, marketing channels, and legal/financial guidelines, which means older editions may contain specific technology or platform advice that is meaningfully outdated relative to a current edition.",
+      "Weiss's confident, prescriptive tone and strong advocacy for premium value-based pricing works well for consultants with recognizable expertise or credentials, but may be harder to apply directly for a first-time consultant with a thinner track record and less negotiating leverage with early clients.",
+      "The book's benchmarks (such as the six-month savings cushion) reflect Weiss's own experience and general small-business prudence rather than being derived from a broad empirical study of consulting-practice survival rates, so readers should treat them as reasonable guidelines rather than precisely validated figures.",
+      "As a solo-practice-focused guide, the book offers comparatively less detailed guidance for consultants intending to build a multi-person consulting firm from the outset rather than starting and staying solo."
+    ]
+  },
+  "whoThisIsFor": "Professionals considering leaving employment to start an independent consulting practice, particularly those planning to operate solo or with minimal staff.",
+  "whenToReadThis": "Before launching a consulting practice, or in its early, financially uncertain first year, when concrete guidance on pricing, marketing, and financial discipline is most actionable.",
+  "relatedBooks": [],
+  "authorBio": {
+    "name": "Alan Weiss",
+    "bio": "Alan Weiss is an American consultant, speaker, and author based in East Greenwich, Rhode Island, and the founder of Summit Consulting Group, Inc. Over several decades he has consulted for a long list of major organizations, including Mercedes-Benz, Hewlett-Packard, Merck, GE, and the Federal Reserve, building a reputation as one of the most prominent independent voices in the consulting profession.\n\nWeiss is particularly known for his strong, widely cited advocacy of value-based pricing over hourly billing in professional services, a position that has significantly influenced how many independent consultants structure their fees. He has authored dozens of books across consulting, marketing, and professional development, with *Getting Started in Consulting* — now in multiple editions — standing as one of his most enduring and widely used titles for people entering the field.\n\nBeyond writing and consulting, Weiss lectures widely on building and growing independent professional practices, and has served on nonprofit and arts organization boards in addition to his consulting work.",
+    "notableWorks": [
+      "Million Dollar Consulting",
+      "Value-Based Fees",
+      "The Consulting Bible",
+      "Thrive!"
+    ]
+  },
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-31",
+  "sourceNotes": "Synthesis is based on publisher descriptions across multiple editions of *Getting Started in Consulting*, reader reviews, and Weiss's own published advice on his professional site, gathered via web search; because the book has been revised across at least four editions with some variation in chapter organization, chapter titles here are constructed around the consistently documented core topics (mindset, legal/financial setup, financing, operations, marketing, proposals/pricing, bookkeeping, growth) rather than quoted from any single edition's exact table of contents. Quotes were verified across independent sources and kept to a small set given the copyright-safe limits noted at the top of this file.\n\n---"
+}

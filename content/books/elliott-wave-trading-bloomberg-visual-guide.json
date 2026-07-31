@@ -1,0 +1,131 @@
+{
+  "id": "elliott-wave-trading-bloomberg-visual-guide",
+  "code": "072",
+  "title": "Visual Guide to Elliott Wave Trading",
+  "author": "Wayne Gorman and Jeffrey Kennedy (foreword by Robert R. Prechter Jr.)",
+  "categories": [
+    "finance-investing"
+  ],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 300,
+  "tags": [
+    "elliott-wave",
+    "technical-analysis",
+    "trading",
+    "chart-patterns",
+    "wave-principle"
+  ],
+  "structureType": "parts",
+  "summary": "*Visual Guide to Elliott Wave Trading* is a practical, chart-heavy manual on applying the Elliott Wave Principle — the idea, originated by Ralph Nelson Elliott and popularized by Robert Prechter, that financial markets move in repeating, fractal wave patterns driven by collective investor psychology swinging between optimism and pessimism. Unlike a purely theoretical treatment of wave counting, this book, written by two career Elliott Wave International analysts, is explicitly oriented around how to actually trade using the Wave Principle: finding setups, entering positions, managing risk, and exiting, using real (and some hypothetical) trade examples drawn from the authors' own market experience.\n\nThe book is organized into three parts. The first lays out the anatomy of Elliott Wave analysis as it applies to trading decisions specifically — moving beyond wave-counting theory into how a trader uses that count to identify probable entry zones, set invalidation levels, and size risk. The authors are candid that Elliott Wave analysis does not produce certainty, only probability, and they spend real space on how to think in terms of alternate wave counts and conditional scenarios rather than a single \"right\" interpretation of the chart.\n\nThe second part is the practical core of the book: a series of real and hypothetical trade walk-throughs that show the authors' thinking in real time, including trades that worked as expected and trades that didn't, with commentary on where the wave count held up and where it needed to be revised. This section is deliberately unpolished by design — the authors state upfront that they are showing warts-and-all decision-making rather than curated, perfect-hindsight examples, since real trading with the Wave Principle requires tolerating being wrong about a specific count while still being disciplined about risk.\n\nThe third part extends Elliott Wave analysis into combination with other technical tools — indicators, and options strategies — arguing that wave analysis works best not as a standalone signal but as a structural framework layered with confirming or filtering tools. The book closes by reinforcing a philosophy that runs throughout: there is no single \"right\" way to trade the Wave Principle, but there are disciplined, risk-aware ways to apply it consistently, and the authors' goal is to help readers develop their own consistent process rather than hand them a mechanical formula.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "The Anatomy of Elliott Wave Trading",
+      "summary": "This opening part re-establishes the foundational Elliott Wave structure — five-wave impulsive moves in the direction of the larger trend, and three-wave corrective moves against it — but reframes that structure specifically around tradeable decisions rather than pure pattern recognition. The authors discuss wave degree, Fibonacci relationships between waves, and how to identify likely completion zones for a wave in progress.\nA significant portion of this part addresses probability and uncertainty directly: the authors explain how to maintain a primary wave count alongside credible alternate counts, and how to define in advance the price level at which a given count would be invalidated, turning wave analysis into a testable, risk-defined hypothesis rather than a fixed prediction.\nThe part closes by connecting wave structure to practical trade mechanics — how wave position informs where to place entries, protective stops, and profit targets, setting up the real trade examples that follow in Part Two.",
+      "keyLessons": [
+        "Elliott Wave counts should be treated as probabilistic hypotheses, with defined invalidation levels, not fixed predictions.",
+        "Maintaining primary and alternate wave counts is standard, disciplined practice, not a sign of uncertainty.",
+        "Wave position directly informs where to place entries, stops, and targets."
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Practical Trade Examples",
+      "summary": "This part walks through a series of real and hypothetical trades, showing the authors' live decision-making: how they identified a wave count, where they entered, how they managed the position as new price action either confirmed or challenged the original count, and how they exited. Both successful and unsuccessful trades are included deliberately.\nThe authors use these walk-throughs to illustrate common real-world complications — a wave count that seemed clear in advance but became ambiguous mid-trade, and the discipline required to adjust or exit a position when price action invalidates the original thesis rather than holding on hoping the market will \"come back\" to the original count.\nThe part closes by reinforcing that trading the Wave Principle successfully depends less on getting every count right and more on consistent risk management and a willingness to be wrong quickly and cheaply when the market says so.",
+      "keyLessons": [
+        "Real trade examples deliberately include both successes and failures, not curated hindsight wins.",
+        "A wave count becoming ambiguous mid-trade is common and must be planned for in advance.",
+        "Consistent risk management matters more to long-term results than being right on any single count."
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Combining Elliott Wave with Other Tools",
+      "summary": "The closing part addresses how to layer Elliott Wave analysis with other technical indicators and with options strategies, arguing that wave analysis works best as a structural framework combined with confirming tools rather than as an isolated signal used on its own.\nThe authors discuss how supplementary indicators can help filter or confirm a wave count at key decision points, and how options strategies can be structured around a wave-based view to manage risk differently than a simple long or short position in the underlying.\nThe book closes by returning to its central philosophy: there's no single correct way to trade with the Wave Principle, but disciplined, probability-aware, risk-defined practice — refined through the trader's own accumulated experience — is what separates consistent Elliotticians from those who abandon the method after one bad count.",
+      "keyLessons": [
+        "Elliott Wave analysis is most effective combined with confirming technical tools, not used in isolation.",
+        "Options strategies can be structured to express a wave-based view with different risk characteristics than the underlying position.",
+        "Long-term consistency with the Wave Principle depends on discipline and experience, not finding one perfect formula."
+      ]
+    }
+  ],
+  "keyLessons": [
+    "Treat every Elliott Wave count as a probabilistic hypothesis with a defined invalidation level, not a certainty.",
+    "Maintain a primary count alongside credible alternate counts rather than committing to a single interpretation.",
+    "Define your risk and exit point before entering a wave-based trade, not after.",
+    "Expect wave counts to become ambiguous mid-trade and have a plan for revising or exiting when that happens.",
+    "Learn from both winning and losing trades — the book's own examples include both by design.",
+    "Use Elliott Wave structure as a framework, layered with other technical tools, rather than a standalone signal.",
+    "Consider options strategies as a way to express a wave-based view with different risk exposure than a direct position.",
+    "Long-term success with the method depends on consistent discipline, not a single \"correct\" way of trading it."
+  ],
+  "quotes": [
+    {
+      "text": "There are various ways to trade successfully using the Wave Principle as your primary discipline.",
+      "attribution": "Wayne Gorman and Jeffrey Kennedy",
+      "category": "On Uncertainty and Method"
+    },
+    {
+      "text": "Prepare yourself to take advantage of opportunities even when your preferred count does not materialize.",
+      "attribution": "Wayne Gorman and Jeffrey Kennedy",
+      "category": "On Uncertainty and Method"
+    },
+    {
+      "text": "Let the market commit to you before you commit to the market.",
+      "attribution": "Wayne Gorman and Jeffrey Kennedy",
+      "category": "On Trading Discipline"
+    }
+  ],
+  "conceptsFrameworks": [
+    {
+      "name": "The Wave Principle",
+      "definition": "The foundational theory, originated by Ralph Nelson Elliott, that financial market prices move in repeating, fractal patterns of five waves in the direction of the larger trend followed by three corrective waves against it, reflecting recurring swings in mass investor psychology between optimism and pessimism.",
+      "sourceSection": "The Anatomy of Elliott Wave Trading"
+    },
+    {
+      "name": "Wave Degree",
+      "definition": "The classification of Elliott Wave patterns by relative size and time scale, ranging from very long-term (multi-decade) waves down to very short-term intraday waves, with each larger wave composed of smaller waves of the same recurring five-and-three structure.",
+      "sourceSection": "The Anatomy of Elliott Wave Trading"
+    },
+    {
+      "name": "Alternate Wave Count",
+      "definition": "A secondary, credible interpretation of current price structure maintained alongside a primary wave count, used to keep a trader open to being wrong about the primary interpretation and to define what price action would confirm the alternate scenario instead.",
+      "sourceSection": "The Anatomy of Elliott Wave Trading"
+    }
+  ],
+  "applyThis": {
+    "actionSteps": [
+      "On your next active trade idea, write down not just your primary wave count but one credible alternate count, and the specific price level that would confirm the alternate over the primary.",
+      "Before entering a position based on a wave count, define the exact price level that would invalidate the count and set your stop there rather than at an arbitrary distance.",
+      "Review your last five trades and note where a wave count became ambiguous mid-trade — write down what you did and what a more disciplined response would have looked like.",
+      "Pick one non-wave technical indicator (volume, RSI, or a moving average) and practice using it solely to confirm or filter wave-based entries for a set of practice trades before committing real capital."
+    ],
+    "reflectionQuestions": [
+      "Are you currently treating your wave counts as fixed predictions rather than probabilistic, invalidation-defined hypotheses?",
+      "How do you typically react when price action starts to contradict your primary wave count mid-trade — and is that reaction disciplined or hopeful?"
+    ]
+  },
+  "criticalTake": {
+    "points": [
+      "Elliott Wave analysis is widely criticized within finance for its interpretive flexibility — because wave counts can be revised after the fact, critics argue the method is difficult to falsify and prone to hindsight bias, a critique this book only partially addresses through its emphasis on predefined invalidation levels.",
+      "The book relies heavily on the authors' own trade selections as illustrative examples, which introduces potential selection bias; it does not include large-sample, independent statistical testing of Elliott Wave signal reliability the way some other technical analysis books attempt.",
+      "As a niche, specialist trading manual, its practical value depends heavily on the reader already having a working knowledge of basic technical analysis and chart reading; it's not designed as a first introduction to trading.",
+      "The book's real-market trade examples are tied to specific market conditions and instruments at the time of writing, and market regime changes (differing volatility, liquidity, or macro conditions) can limit how directly those specific examples transfer to current markets."
+    ],
+    "contextNote": "Elliott Wave analysis remains a live methodology used by some professional technical analysts (notably at Elliott Wave International, the authors' employer) but is not broadly accepted within mainstream academic finance, which generally favors efficient-market-based skepticism of pattern-based technical analysis."
+  },
+  "whoThisIsFor": "Traders who already have basic technical analysis experience and want a practical, example-driven guide to applying Elliott Wave counting to real trade decisions and risk management.",
+  "whenToReadThis": "Best read alongside active chart practice, ideally with a demo or small live account, rather than as passive theoretical reading, since the method's value comes from applied repetition.",
+  "relatedBooks": [],
+  "authorBio": {
+    "name": "Wayne Gorman and Jeffrey Kennedy",
+    "bio": "Wayne Gorman spent over 30 years as a risk manager and trader, beginning his career at Citibank in money market and derivatives portfolios before moving into foreign exchange trading and treasury management roles in London and New York; he has used the Wave Principle since 1986 and has worked with Elliott Wave International since 2002.\n\nJeffrey Kennedy is Chief Commodity Analyst at Elliott Wave International and editor of a monthly futures-focused publication, with more than 20 years of experience teaching Elliott Wave analysis and trading to a wide public audience through EWI's educational programs.\n\nThe book carries a foreword by Robert R. Prechter Jr., the analyst most responsible for popularizing Elliott Wave theory in modern financial markets and founder of Elliott Wave International, where both authors have worked; the book is explicitly positioned as a practical follow-on to Prechter and Frost's earlier foundational text on Elliott Wave theory.",
+    "notableWorks": []
+  },
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-31",
+  "sourceNotes": "Web search was used to confirm authorship (Wayne Gorman and Jeffrey Kennedy, foreword by Robert Prechter), publisher, and the book's three-part structure, since this is a specialist title with a thinner public discussion footprint than mainstream titles; quotes were limited to a small number of well-attested lines found in publisher and bookseller descriptions rather than reproducing longer passages, and readers should treat the section-level detail as a general synthesis of the book's documented structure rather than a page-by-page account.\n\n---"
+}

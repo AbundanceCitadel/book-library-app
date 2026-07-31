@@ -1,0 +1,125 @@
+{
+  "id": "cuon-sach-nho-cho-nha-lanh-dao-lon",
+  "code": "054",
+  "title": "Cuốn Sách Nhỏ Cho Nhà Lãnh Đạo Lớn",
+  "author": "John C. Maxwell",
+  "categories": [
+    "business-strategy"
+  ],
+  "language": "vi",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 240,
+  "tags": [
+    "leadership",
+    "daily devotional",
+    "influence",
+    "self-development",
+    "90-day plan"
+  ],
+  "structureType": "parts",
+  "summary": "*Cuốn Sách Nhỏ Cho Nhà Lãnh Đạo Lớn* is a Vietnamese-market leadership title by John C. Maxwell, structured — per its own framing and reader reviews — as a 90-day guided plan for developing leadership ability, delivered through short daily entries rather than conventional long-form chapters. Each entry combines a brief story or reflection, often drawn from Maxwell's decades of leadership coaching and speaking experience, with quotations gathered from a range of well-known figures, and a short practical takeaway meant to be applied that same day rather than simply read and set aside.\n\nThe book's central premise, consistent with Maxwell's broader body of work, is that leadership is fundamentally about influence rather than formal position or title — a person's leadership capacity is measured by how much positive influence they exercise over others, which means leadership development is available to anyone at any organizational level, not reserved for those with a management title. This reframing is aimed explicitly at three audiences the book names directly: experienced leaders looking to sharpen existing skills, people currently struggling with the specific challenges of a leadership role, and newcomers to an organization hoping to build influence and make a difference from a non-formal position.\n\nStructurally, the book eschews the traditional chapter-and-section format in favor of its daily format, with recurring themes returning across multiple entries rather than being confined to a single section — self-awareness and knowing one's own strengths and weaknesses, understanding one's own temperament and how it shapes leadership style, building daily and seasonal work rhythms that sustain leadership effectiveness over time, and cultivating influence through consistency and character rather than positional authority. Reader reviews of the Vietnamese edition note that its questions are frequently open-ended and its advice more reflective than prescriptive, which some readers have found less immediately actionable than Maxwell's more structured, model-driven books (such as his well-known \"5 Levels of Leadership\"), but which others have praised as material worth returning to repeatedly for deeper reflection rather than a single quick read.\n\nBecause of its daily-devotional structure, the book functions less as a single sustained argument and more as an accumulating set of short, standalone reflections meant to be absorbed gradually — its cumulative effect, per its own framing and its publisher's description, is a slow, compounding 90-day shift in how a reader thinks about and practices leadership, rather than a single big reveal delivered at the end.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "Days 1–30: Knowing Yourself as a Leader",
+      "summary": "This opening third of the daily entries focuses on self-awareness — helping the reader identify their own strengths, weaknesses, and natural temperament, and understand how these shape their particular leadership style before moving into more externally-focused material.\n\nThe substance across these entries includes short reflective exercises and Maxwell's own anecdotes about recognizing his strengths and weaknesses over a 50-year leadership career, alongside quotations from other well-known figures reinforcing the value of honest self-assessment.\n\nThis section closes by setting up the argument that follows in the middle third: that self-knowledge is a prerequisite for developing genuine influence, since leaders who don't understand their own tendencies tend to lead inconsistently.",
+      "keyLessons": [
+        "Self-awareness about one's own strengths, weaknesses, and temperament is treated as foundational, not optional, for leadership development.",
+        "Understanding one's natural temperament helps explain and shape one's particular leadership style.",
+        "Genuine influence is presented as dependent on prior self-knowledge, not separate from it."
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Days 31–60: Building Rhythms and Habits",
+      "summary": "The middle third shifts to practical daily and seasonal rhythms — habits and routines that sustain leadership effectiveness over the long term rather than relying on short bursts of motivation or crisis-driven effort.\n\nThe substance includes guidance on structuring daily work rhythms, recognizing seasonal patterns in one's own energy and effectiveness, and building sustainable habits rather than aspirational one-time resolutions, again illustrated through Maxwell's own career anecdotes and outside quotations.\n\nThis section closes by connecting sustainable habits to the influence-building focus of the final third, arguing that consistency over time is itself a major driver of the trust that underlies real influence.",
+      "keyLessons": [
+        "Sustainable daily and seasonal rhythms outperform short bursts of crisis-driven leadership effort.",
+        "Recognizing one's own seasonal patterns in energy and effectiveness supports better long-term planning.",
+        "Consistency over time is presented as a direct driver of the trust that underlies genuine influence."
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Days 61–90: Leading Through Influence, Not Position",
+      "summary": "The final third returns explicitly to the book's core thesis — that leadership is fundamentally about influence rather than title or position — with entries aimed at all three of the book's named audiences: seasoned leaders, those currently struggling in a leadership role, and newcomers building influence without formal authority.\n\nThe substance includes practical guidance on building influence from a non-formal position, maintaining leadership effectiveness through specific challenges, and character-based practices (consistency, integrity, service to others) that Maxwell frames as the actual foundation of durable influence, regardless of title.\n\nThe book closes by tying the full 90-day arc together: self-knowledge (first third), sustainable rhythms (middle third), and character-based influence (final third) as the compounding, sequential path to genuine leadership development, meant to be revisited rather than read only once.",
+      "keyLessons": [
+        "Leadership influence is available to anyone, including those without formal positional authority.",
+        "Character-based practices — consistency, integrity, service — are framed as the true foundation of durable influence.",
+        "The book's three-part structure (self-knowledge, rhythms, influence) is meant to be revisited over time, not read only once."
+      ]
+    }
+  ],
+  "keyLessons": [
+    "Leadership is fundamentally about influence, not formal position or title — available to anyone at any organizational level.",
+    "Honest self-awareness about your own strengths, weaknesses, and temperament is foundational to consistent leadership.",
+    "Understanding your natural temperament helps explain and shape your particular leadership style.",
+    "Sustainable daily and seasonal rhythms outperform short bursts of crisis-driven leadership effort.",
+    "Recognizing your own seasonal patterns in energy supports better long-term leadership planning.",
+    "Consistency over time directly builds the trust that underlies genuine influence.",
+    "Character-based practices — consistency, integrity, service to others — are the true foundation of durable influence, more than positional authority.",
+    "The book is designed to be applied gradually across 90 days rather than absorbed in a single reading.",
+    "Leadership development is relevant to newcomers building influence from a non-formal position, not only established managers.",
+    "The material is meant to be revisited repeatedly, since its value compounds with reflection rather than delivering its full impact on a single pass."
+  ],
+  "quotes": [
+    {
+      "text": "Leadership is influence — nothing more, nothing less.",
+      "attribution": "John C. Maxwell (recurring definition across Maxwell's body of work, including this book)",
+      "category": "Leadership and Influence"
+    }
+  ],
+  "conceptsFrameworks": [
+    {
+      "name": "Leadership as Influence",
+      "definition": "Maxwell's recurring core definition across his body of work: leadership capacity is measured by the degree of positive influence a person exercises over others, independent of formal title or position — meaning leadership can and should be developed by anyone, not reserved for those already in management roles.",
+      "sourceSection": "Days 61–90: Leading Through Influence, Not Position"
+    },
+    {
+      "name": "The 90-Day Leadership Plan",
+      "definition": "The book's overall structural device — a sequential, three-part daily plan moving from self-awareness (days 1–30), through sustainable rhythms and habits (days 31–60), to character-based influence-building (days 61–90) — designed as a gradual, compounding development process rather than a single-sitting read.",
+      "sourceSection": "Whole book structure"
+    }
+  ],
+  "applyThis": {
+    "actionSteps": [
+      "Write down two personal strengths and two weaknesses relevant to how you currently lead or influence others, and identify one situation this week where a weakness affected an outcome.",
+      "Identify your own seasonal or daily energy pattern (when you're sharpest, when you typically flag) and adjust one part of your schedule this week to work with it rather than against it.",
+      "Pick one small, consistent action (showing up on time, following through on a specific commitment) and repeat it deliberately for two weeks as a trust-building exercise with a specific colleague or team member.",
+      "If you don't hold a formal leadership title, identify one specific way you could build genuine influence in your current role this month through consistency and service rather than authority.",
+      "Set a recurring reminder to revisit one reflection or entry from this book each week for the next 90 days, rather than reading it once and setting it aside."
+    ],
+    "reflectionQuestions": [
+      "Where in your life are you currently relying on positional authority rather than genuine influence to get results?",
+      "What does your own natural temperament suggest about the leadership style that comes most easily to you — and where might that same tendency become a weakness if unchecked?",
+      "If you fully believed that leadership was about influence rather than title, what would you start doing differently in your current role, formal or not?"
+    ]
+  },
+  "criticalTake": {
+    "points": [
+      "The precise English-original source title and edition for this Vietnamese book could not be confirmed through available research — it may be a Vietnamese-market compilation or a translation of a lesser-known Maxwell title, which limits confidence in exact structural and content details here.",
+      "Reader reviews of the Vietnamese edition specifically describe the material as heavy on open-ended questions and light on concrete situational examples, which some readers found made it harder to apply directly compared to Maxwell's more model-driven, structured books.",
+      "As with much of Maxwell's extensive catalog (he has authored dozens of leadership books over several decades), there is meaningful thematic overlap with his other titles, and the specific \"90-day\" framing may be more of a repackaging device than a substantively distinct new model.",
+      "The book's anecdote-and-quotation format, common to devotional-style leadership books, relies heavily on the persuasive power of stories and borrowed quotations rather than empirical research on leadership effectiveness."
+    ],
+    "contextNote": "None available — insufficient independently verifiable detail on the book's original publication date or critical reception beyond Vietnamese-market reader reviews to assess how its claims have aged."
+  },
+  "whoThisIsFor": "Readers wanting a slow, daily leadership-development habit rather than a single-sitting read — useful for both first-time and experienced leaders willing to sit with open-ended reflection rather than seeking a rigid step-by-step model.",
+  "whenToReadThis": "As a daily or near-daily practice over an extended period (the book's own suggested 90-day arc), rather than read straight through in one or two sittings.",
+  "relatedBooks": [],
+  "authorBio": {
+    "name": "John C. Maxwell",
+    "bio": "John C. Maxwell is an American author, speaker, and leadership expert who has written dozens of books on leadership over a career spanning more than five decades, reportedly selling over 21 million copies worldwide. He is the founder of the John Maxwell Company and EQUIP, a non-profit organization focused on leadership training, which has reportedly trained several million leaders across dozens of countries.\n\nMaxwell's broader body of work is built around a consistent core idea — that leadership is fundamentally about influence rather than formal authority — expressed across many different formats and frameworks throughout his career, including his well-known \"5 Levels of Leadership\" model.\n\nHe remains one of the most widely translated and read leadership authors internationally, with strong reach in the Vietnamese business-book market specifically, where several of his titles, including this one, are frequently reprinted and recommended.",
+    "notableWorks": [
+      "The 21 Irrefutable Laws of Leadership",
+      "The 5 Levels of Leadership",
+      "Good Leaders Ask Great Questions",
+      "Developing the Leader Within You"
+    ]
+  },
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-31",
+  "sourceNotes": "The book's 90-day daily format and three-phase structure were reconstructed from Vietnamese-language publisher descriptions and reader reviews found via web search; the precise English-original source title could not be confirmed with certainty, so this entry is appropriately cautious about exact structural and quotation specifics.\n\n---"
+}

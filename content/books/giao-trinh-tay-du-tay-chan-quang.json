@@ -1,0 +1,111 @@
+{
+  "id": "giao-trinh-tay-du-tay-chan-quang",
+  "code": "092",
+  "title": "Giáo Trình Thiền Học (best-guess identification — see note below)",
+  "author": "Thích Chân Quang",
+  "categories": [
+    "philosophy-psychology"
+  ],
+  "language": "vi",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 240,
+  "tags": [
+    "buddhism",
+    "meditation",
+    "monastic-curriculum",
+    "vietnamese-buddhism",
+    "thien"
+  ],
+  "structureType": "chapters (lessons)",
+  "summary": "Giáo Trình Thiền Học is a curriculum text by the Vietnamese Buddhist monk Thích Chân Quang, written and taught as a formal 20-lesson course on meditation studies (Thiền học) for monastic students (Tăng Ni sinh) at the Long An Province Intermediate Buddhist School, where the author began teaching the subject in 2003. In his own introduction, the author explains that the course was originally intended to go into greater theoretical depth than an earlier, more practice-focused course he had taught, on the reasoning that theory provides direction for practice — but that the course had to be concluded at 20 lessons due to a scheduling change requiring him to move on to teaching a different subject.\n\nStructurally, the curriculum covers the conceptual and historical foundations of meditation (Thiền) within the Buddhist tradition: the meaning and etymology of the term Thiền itself, the development of meditation practice before and after the Buddha, the different schools or lineages (phái) of meditation that emerged over time, and material addressing the role and relevance of meditation in the modern world specifically. The book also addresses the situation and development of meditation practice within Vietnam, situating the broader historical material in a locally specific context relevant to the students it was written for.\n\nBecause this is explicitly framed by the author as a foundational, introductory course rather than an exhaustive treatment — he states directly that \"the teaching and the path of Thiền are vast and endless\" and that these 20 lessons are meant only as a basic orientation for students to carry into a lifetime of further practice and study — the book reads more like a structured academic syllabus than a popular meditation guide aimed at lay readers. It combines doctrinal and historical instruction with the practical framing that theory should serve as a foundation for actual meditation practice, consistent with the author's stated reasoning for the course's design.\n\nBecause full lesson-by-lesson content of this specific curriculum text was not independently available to verify beyond its introduction, scope, and general subject areas, the section breakdown below groups the material into broader thematic units based on the confirmed table-of-contents-level structure rather than claiming to reproduce all 20 individual lesson titles with certainty.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "The Meaning and Foundations of Thiền",
+      "summary": "This opening section addresses the meaning and etymology of the term \"Thiền\" (meditation/dhyana) itself, establishing the conceptual vocabulary the rest of the course builds on before moving into historical development.\n\nThe substance here is definitional and doctrinal — situating meditation within the broader framework of Buddhist practice and distinguishing it from more casual popular usage of the term. This grounding is presented as necessary before students can meaningfully engage with the historical material that follows.\n\nThis section hands off to the historical material by establishing that a precise shared understanding of the term is a prerequisite for tracing how the practice developed over time.",
+      "keyLessons": [
+        "A precise understanding of a core term's meaning is treated as a necessary foundation before historical or comparative study.",
+        "The course is structured to move from conceptual clarity toward historical and practical application."
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Meditation Before and After the Buddha",
+      "summary": "This section traces the historical development of meditation practice, addressing both pre-Buddhist meditative traditions and how the Buddha's teaching developed and transformed meditation practice within the broader Buddhist tradition.\n\nThis is presented as important context for understanding what is distinctively Buddhist about later meditation practice, rather than treating meditation as a practice that originated without any prior context.\n\nThe section transitions into the material on different schools of practice by establishing that meditation continued to develop and diversify after this foundational period, which the following section addresses.",
+      "keyLessons": [
+        "Understanding meditation's pre-Buddhist context clarifies what is distinctively different about Buddhist meditation practice.",
+        "Buddhist meditation practice is presented as a historical development, not a fixed, unchanging tradition."
+      ]
+    },
+    {
+      "order": 3,
+      "title": "The Different Schools (Phái) of Meditation",
+      "summary": "This section addresses the various schools or lineages of meditation practice that emerged over the course of Buddhist history, presumably covering distinctions in approach and emphasis among different traditions.\n\nThis material is presented as helping students understand meditation not as a single monolithic practice but as a family of related approaches with distinct historical lineages and emphases.\n\nThe section hands off to the material on meditation's role in the modern world by establishing the historical diversity that later informs how different approaches are being adapted or applied today.",
+      "keyLessons": [
+        "Meditation practice is presented as a family of distinct historical lineages rather than one uniform method.",
+        "Understanding the diversity among traditions is treated as necessary background for contemporary application."
+      ]
+    },
+    {
+      "order": 4,
+      "title": "Meditation's Role in the Modern World and in Vietnam",
+      "summary": "This closing section addresses the relevance and development of meditation practice specifically in the modern world, and the situation and development of meditation within Vietnam in particular, connecting the historical material to the students' own contemporary context.\n\nThis section situates the course's more abstract and historical material in a specifically local, applied frame relevant to the monastic students the course was written for, addressing how the tradition has continued or changed in a Vietnamese context specifically.\n\nThe course concludes here, with the author's own stated framing that the 20 lessons are a basic orientation rather than a complete treatment, intended to prepare students for a lifetime of further study and practice.",
+      "keyLessons": [
+        "Historical and doctrinal study is explicitly connected to contemporary, local relevance rather than treated as purely abstract.",
+        "The course is explicitly framed by its author as foundational rather than exhaustive."
+      ]
+    }
+  ],
+  "keyLessons": [
+    "A precise, shared understanding of core terminology is treated as a necessary foundation before deeper historical or doctrinal study.",
+    "Meditation practice is presented as having developed historically, both before and after the Buddha, rather than as a fixed, unchanging tradition.",
+    "Different schools or lineages of meditation represent genuinely distinct historical approaches, not variations on a single method.",
+    "Understanding a tradition's history is treated as a foundation for, not a substitute for, actual practice.",
+    "The course explicitly frames itself as a basic orientation, meant to prepare students for lifelong further study rather than as complete in itself.",
+    "Theoretical grounding is presented as providing necessary direction for meditation practice, consistent with the author's stated reasoning for the course's structure."
+  ],
+  "quotes": [],
+  "conceptsFrameworks": [
+    {
+      "name": "Thiền (Meditation) as Historical Tradition",
+      "definition": "The course's framing of meditation not as a single fixed technique but as a practice with a documented historical development — before the Buddha, transformed through the Buddha's teaching, and further diversified into distinct later schools — each with implications for how the practice is understood and taught.",
+      "sourceSection": "Meditation Before and After the Buddha; The Different Schools of Meditation"
+    }
+  ],
+  "applyThis": {
+    "actionSteps": [
+      "Before starting a new area of study or practice, spend time clarifying the core terms involved precisely, rather than assuming a shared casual understanding, mirroring the course's own opening approach.",
+      "When learning about a spiritual or contemplative practice, research its historical development and different schools of thought, rather than treating it as a single uniform method.",
+      "Treat any introductory course or curriculum, including this one, explicitly as a foundation for further, ongoing study rather than a complete treatment of the subject."
+    ],
+    "reflectionQuestions": [
+      "Where in your own understanding of meditation or contemplative practice have you assumed a single, uniform tradition where there may actually be significant historical diversity?",
+      "How does understanding the historical development of a practice change how you personally engage with it?"
+    ]
+  },
+  "criticalTake": {
+    "points": [
+      "This entry rests on a working identification of the book (matching an odd/corrupted catalog title to a specific confirmed work by this author) that, while reasonably well-supported, was not independently confirmed by directly examining the book itself; if the identification is wrong, the content above will not accurately reflect the actual book on the shelf.",
+      "The author, Thích Chân Quang, has been the subject of significant public controversy in Vietnam in recent years — including a 2024 Ministry of Education and Training finding regarding the legitimacy of his underlying high-school-equivalency credentials, which fed into broader scrutiny of his doctoral credentials — separate from the specific content or doctrinal merit of this particular meditation curriculum text; readers should be aware this context exists around the author, even though it doesn't necessarily bear on the accuracy of this specific book's content.",
+      "Because this is explicitly a foundational, introductory monastic curriculum text (the author's own framing) rather than a comprehensive scholarly treatment, it should not be read as a complete or academically exhaustive account of the history and diversity of Buddhist meditation traditions.",
+      "Full lesson-by-lesson content beyond the confirmed table-of-contents-level structure was not independently verified, so the section breakdown above groups broader themes rather than claiming certainty about all 20 individual original lesson titles."
+    ],
+    "contextNote": "Given the 2024 findings regarding the author's academic credentials reported by Vietnamese state media, readers interested in this book may want to independently verify any biographical or credentialing claims about the author found elsewhere, separate from evaluating this specific curriculum text on its own doctrinal content."
+  },
+  "whoThisIsFor": "Vietnamese-speaking readers with a serious interest in the doctrinal and historical foundations of Buddhist meditation, particularly those with a monastic or formal-study orientation rather than readers looking for a casual, practice-only meditation guide.",
+  "whenToReadThis": "As a structured, foundational orientation before or alongside beginning serious meditation study within a Vietnamese Buddhist context, rather than as a first introduction to meditation for a general lay audience.",
+  "relatedBooks": [],
+  "authorBio": {
+    "name": "Thích Chân Quang",
+    "bio": "Thích Chân Quang (born Vương Tấn Việt) is a Vietnamese Buddhist monk known for teaching and writing on Buddhist doctrine, meditation, and ethics, including formal curriculum materials used in monastic education, such as the meditation studies course this entry is based on, taught at the Long An Province Intermediate Buddhist School beginning in 2003.\n\nHe has authored a range of dharma talks and instructional texts covering meditation, ethics, and Buddhist psychology aimed primarily at monastic students (Tăng Ni sinh) and lay practitioners within Vietnam.\n\nIn recent years, Thích Chân Quang has also been the subject of significant public scrutiny and controversy in Vietnam, including a 2024 finding by Vietnam's Ministry of Education and Training regarding the legitimacy of academic credentials associated with him, which received substantial coverage in Vietnamese media; this is separate from, and does not by itself evaluate, the content of his earlier instructional writings such as this curriculum text.",
+    "notableWorks": [
+      "Tâm Lý Đạo Đức (Moral Psychology)",
+      "(Other instructional and dharma-talk texts by this author were referenced in search results but not independently confirmed in enough detail to list with confidence.)"
+    ]
+  },
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-31",
+  "sourceNotes": "The catalog title as given (\"Giáo Trình Tây Du - Tây Chân Quang\") does not match any identifiable work; this entry proceeds on a reasonably well-supported but not fully confirmed working identification of **Giáo Trình Thiền Học** by **Thích Chân Quang**, based on a strong author-name match and a confirmed, specific description of a 20-lesson meditation-studies curriculum taught by this author starting in 2003. Content above is built from the book's own introduction (translated/paraphrased) and general descriptions of its scope found via web search; full lesson-by-lesson content was not independently verified, so section-level detail is presented as thematic grouping rather than a confirmed lesson-by-lesson table of contents. The single quote included is drawn directly and accurately from the author's own introduction as reported in source material. Author biographical material includes a 2024 credentialing controversy reported in Vietnamese-language sources (including Vietnamese Wikipedia), included here for factual completeness and flagged as separate from an evaluation of this specific book's content.\n\n---"
+}

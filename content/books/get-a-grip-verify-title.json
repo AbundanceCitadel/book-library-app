@@ -1,0 +1,163 @@
+{
+  "id": "get-a-grip-verify-title",
+  "code": "086",
+  "title": "Get a Grip: An Entrepreneurial Fable",
+  "author": "Gino Wickman & Mike Paton",
+  "categories": [
+    "business"
+  ],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 330,
+  "tags": [
+    "eos",
+    "entrepreneurship",
+    "leadership team",
+    "business fable",
+    "operating system"
+  ],
+  "structureType": "chapters",
+  "summary": "Get a Grip is a business fable written to make Gino Wickman's Entrepreneurial Operating System (EOS) — first introduced in his earlier book Traction — concrete and emotionally real by walking through a single fictional company's year-long implementation of it. The story follows Swan Services, a $7 million company co-owned by Vic and Eileen, ten years into a business that has hit what EOS calls \"the ceiling\": revenue has stalled, the leadership team is fractured, meetings solve nothing, and Vic is working brutal hours while feeling like he's losing control rather than gaining it.\n\nAt a business networking event, Eileen meets an EOS Implementer named Alan Roth, and the leadership team reluctantly agrees to bring him in. The bulk of the book then follows Swan Services through four quarterly sessions with Alan and the ninety days of work following each one — a structure that mirrors the real pacing of an actual EOS rollout rather than compressing it into a single dramatic turnaround. Through this cycle, the leadership team is introduced to and forced to actually use the Six Key Components that make up the EOS model: Vision, People, Data, Issues, Process, and Traction.\n\nRather than explaining these components abstractly, the authors dramatize the team's resistance and breakthroughs with each one — the discomfort of finally writing down a real, shared vision instead of assuming everyone already agrees on it; the difficulty of having honest conversations about whether the right people are in the right seats; the relief of finally having a simple weekly scorecard instead of guessing at performance; and the friction of learning to solve issues directly in meetings rather than letting them fester unaddressed for months. The fictional format lets the authors show messy, realistic pushback from characters who don't want to change, rather than presenting an idealized rollout.\n\nBy the book's end, Swan Services has completed its first annual EOS cycle, scoring well on an internal \"organizational checkup\" and functioning as a measurably more aligned, less chaotic team — though the story is careful not to suggest the process was easy or linear. The closing chapters use the same characters, now established as more confident EOS users, mentoring another struggling business owner, reinforcing the book's underlying message: the tools exist, the path is proven through many real implementations the authors have led, and the main obstacle to using them is usually the decision to actually start and stick with the discipline required.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "Hitting the Ceiling",
+      "summary": "The opening chapter establishes Swan Services' crisis: after years of profitable, predictable growth, the company has stalled, the leadership team can't agree on anything, meetings are unproductive marathons, and Vic is exhausted and losing confidence despite working harder than ever.\n\nThe chapter builds this through specific, relatable scenes rather than abstract description — a hostile leadership meeting that ends with Eileen storming out, key employees privately considering leaving, and Vic quietly wondering if the business he built is actually sustainable. This grounds the fable in a situation many small-business leaders will recognize immediately, which is the book's intended function.\n\nThe chapter closes with Eileen, at a Business Roundtable event, meeting a fellow owner who recommends an EOS Implementer named Alan — setting up the team's reluctant first engagement with the system in the next chapter.",
+      "keyLessons": [
+        "Chaos and misalignment in a leadership team are common symptoms of having hit a growth ceiling without changing how the business operates.",
+        "Working harder is not a substitute for having a shared operating framework; it can mask the underlying problem while making the owner more exhausted."
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Vision — The First Quarterly Session",
+      "summary": "This chapter dramatizes the team's first EOS quarterly session with Alan, centered on the Vision component: getting the leadership team to actually articulate, argue about, and eventually agree on a written, specific vision for the company rather than assuming they're already aligned.\n\nThe substance here is the discomfort of the exercise — the team discovers that despite years working together, they hold meaningfully different assumptions about what the company is trying to become, who its ideal customer is, and what \"winning\" even looks like. The chapter shows real friction, including disagreement between Vic and Eileen themselves, rather than a smooth consensus-building session.\n\nThe chapter resolves with a first draft of a shared vision document and homework for the ninety days ahead, handing off to the next chapter's focus on People.",
+      "keyLessons": [
+        "Leadership teams frequently assume alignment on vision that does not actually exist until it is tested out loud.",
+        "Writing a vision down forces the kind of specificity that vague verbal agreement avoids."
+      ]
+    },
+    {
+      "order": 3,
+      "title": "People — The Right People in the Right Seats",
+      "summary": "This chapter covers the EOS People component, which asks leaders to evaluate whether they have the right people (who fit the company's values) in the right seats (roles that match their strengths) — a evaluation Swan Services' team has been avoiding for years with certain long-tenured employees.\n\nThe chapter dramatizes the emotional difficulty of this work through a specific character whose long service and personal relationship with the owners has shielded them from an honest conversation about fit, despite clear performance issues. The team is pushed by Alan to separate loyalty and history from an honest evaluation of role fit.\n\nThe chapter closes with the team committing to specific, uncomfortable conversations in the ninety days ahead, setting up later chapters where the consequences and outcomes of those conversations surface.",
+      "keyLessons": [
+        "\"Right person, right seat\" evaluations require separating personal loyalty and tenure from an honest assessment of role fit.",
+        "Avoiding hard people conversations for years does not make them easier — it usually makes the eventual conversation more damaging."
+      ]
+    },
+    {
+      "order": 4,
+      "title": "Data — Getting a Real Scorecard",
+      "summary": "This chapter introduces the Data component: replacing gut-feeling and anecdote-driven management with a simple weekly scorecard of a handful of key numbers that give the leadership team an honest, shared read on the business's health.\n\nThe team initially resists this as unnecessary overhead, given they \"already know\" how the business is doing, but the chapter shows how their individual read on performance turns out to be inconsistent and often simply wrong once actual numbers are tracked weekly. Alan pushes the team toward a small number of genuinely predictive metrics rather than an overwhelming dashboard.\n\nThe chapter closes with the team's first weeks of scorecard discipline exposing a real, previously unnoticed problem area, setting up the following chapter's focus on surfacing and resolving issues.",
+      "keyLessons": [
+        "Leadership teams often significantly overestimate how well they actually understand business performance without a shared scorecard.",
+        "A small number of well-chosen weekly metrics beats a large, overwhelming dashboard."
+      ]
+    },
+    {
+      "order": 5,
+      "title": "Issues — Solving Problems Instead of Discussing Them",
+      "summary": "This chapter dramatizes the Issues component, which trains the team to identify, prioritize, and actually resolve problems within meetings rather than raising them repeatedly without resolution — a pattern the team had fallen into for years.\n\nThe chapter shows the team's old meeting habits (long discussions that circle a topic without a decision) contrasted with the new discipline of an issues list, prioritized and worked through methodically, with clear ownership of each resolution. This is shown as uncomfortable at first, since it forces decisions the team had been avoiding.\n\nThe chapter transitions into the next by connecting resolved issues to the emerging need for consistent, documented processes, since several issues turn out to stem from the same underlying process gaps.",
+      "keyLessons": [
+        "Meetings that repeatedly \"discuss\" the same problems without resolving them are a symptom of missing structure, not just poor discipline.",
+        "Prioritizing and assigning clear ownership to issues is what actually moves them toward resolution."
+      ]
+    },
+    {
+      "order": 6,
+      "title": "Process — Documenting How the Business Really Runs",
+      "summary": "This chapter addresses the Process component: identifying and documenting the core processes that make the business run consistently, since Swan Services' growth had outpaced its actual documented procedures, leaving quality dependent on which individual happened to handle a task.\n\nThe chapter shows the team working through the exercise of naming their handful of core processes and beginning to document the \"20% that gets 80% of the result\" rather than exhaustively documenting everything at once. This section shows visible relief among team members once inconsistent execution starts becoming predictable.\n\nThe chapter hands off to the final EOS component by showing how documented process, combined with the earlier components, sets the stage for consistent execution — covered next under Traction.",
+      "keyLessons": [
+        "Undocumented, person-dependent processes create quality inconsistency that scales badly as a company grows.",
+        "Documenting the core 20% of a process that drives most of the result is more valuable than exhaustive documentation of everything."
+      ]
+    },
+    {
+      "order": 7,
+      "title": "Traction — The Annual Meeting and Full-Cycle Results",
+      "summary": "The closing chapter brings the team through their first annual meeting after a full year of EOS quarterly sessions, showing the cumulative effect of all six components working together: a shared vision, the right people in the right seats, a working scorecard, a functioning issues process, and documented core processes.\n\nThe team scores well on an internal organizational checkup, a marked contrast to their state at the book's opening, and the chapter is careful to show this as the product of consistent, unglamorous quarterly discipline rather than a single breakthrough moment. Some earlier tensions (personnel, in particular) are shown as resolved, though not without real cost and difficulty along the way.\n\nThe book closes with a coda showing Eileen, now confident in EOS, referring a struggling fellow business owner to Alan — closing the loop on the fable's framing device and reinforcing that the tools are transferable to other businesses facing the same \"ceiling.\"",
+      "keyLessons": [
+        "Sustainable improvement in a leadership team comes from consistent quarterly discipline across multiple components, not a single fix.",
+        "The same framework that resolved Swan Services' chaos is presented as transferable to other businesses facing similar stagnation."
+      ]
+    }
+  ],
+  "keyLessons": [
+    "Leadership teams often assume alignment on vision that doesn't actually exist until it's tested and written down explicitly.",
+    "\"Right person, right seat\" evaluations require separating personal loyalty and tenure from honest assessment of fit and performance.",
+    "A simple, consistent weekly scorecard reveals real performance gaps that gut-feeling management misses.",
+    "Meetings that repeatedly discuss the same problems without resolving them signal a missing structure for issue-solving, not just poor discipline.",
+    "Documenting the core 20% of a process that drives 80% of results reduces quality inconsistency as a company grows.",
+    "Avoiding difficult personnel conversations for years typically makes the eventual reckoning more damaging, not less.",
+    "Sustainable change comes from consistent quarterly cycles of discipline, not a single dramatic turnaround.",
+    "Bringing in outside structure (an implementer, a system) can be more effective than trying to fix chronic dysfunction from inside the same patterns that created it."
+  ],
+  "quotes": [
+    {
+      "text": "Get Real, Get Simple, and Get Results!",
+      "attribution": "Gino Wickman & Mike Paton, *Get a Grip*",
+      "category": "The Ceiling"
+    },
+    {
+      "text": "Filled with familiar situations, real-world characters and detailed, fully-applied tools.",
+      "attribution": "publisher description of *Get a Grip*",
+      "category": "The EOS Journey"
+    }
+  ],
+  "conceptsFrameworks": [
+    {
+      "name": "The Six Key Components (EOS)",
+      "definition": "The core framework of the Entrepreneurial Operating System: Vision, People, Data, Issues, Process, and Traction. The fable argues that strengthening a business requires working on all six systematically, since weakness in any one component undermines the others.",
+      "sourceSection": "Vision through Traction (spans multiple chapters)"
+    },
+    {
+      "name": "Right Person, Right Seat",
+      "definition": "A two-part evaluation used in EOS to assess team members: whether someone shares the company's core values (right person) and whether their role matches their actual skills and capacity (right seat). A person can be a \"right person\" but in the \"wrong seat,\" or vice versa, and both mismatches cause problems.",
+      "sourceSection": "People — The Right People in the Right Seats"
+    },
+    {
+      "name": "The Scorecard",
+      "definition": "A simple weekly tracking tool limited to a small number of key, predictive numbers that give a leadership team an honest, shared, up-to-date read on business performance, replacing reliance on gut feeling or anecdote.",
+      "sourceSection": "Data — Getting a Real Scorecard"
+    }
+  ],
+  "applyThis": {
+    "actionSteps": [
+      "Write down, individually and without discussing it first, your own one-paragraph version of your company's or team's vision — then compare it with a colleague's version to surface hidden misalignment.",
+      "Identify one long-tenured team member whose role fit you've been avoiding evaluating honestly, and separate that evaluation explicitly from your personal loyalty to them.",
+      "Build a five-to-seven-number weekly scorecard for your team or business and track it consistently for four weeks before deciding whether it needs adjustment.",
+      "In your next team meeting, list every recurring, unresolved issue and assign a single clear owner and decision date to each one rather than letting the discussion continue open-ended."
+    ],
+    "reflectionQuestions": [
+      "Where in your own team or business have you assumed alignment that has never actually been tested out loud?",
+      "Is there a personnel or role-fit conversation you've been avoiding because of loyalty or history rather than current performance?",
+      "Which of your core processes currently depends entirely on one specific person's knowledge rather than being documented anywhere?"
+    ]
+  },
+  "criticalTake": {
+    "points": [
+      "As a fable written by the creators and promoters of EOS, the book has an inherent commercial interest in portraying the system favorably; the smoothness of Swan Services' turnaround, while presented with some realistic friction, is still a curated narrative rather than an independent case study.",
+      "The book assumes a company already has the resources to hire an outside implementer and dedicate real leadership time to quarterly sessions, which may be a genuine barrier for very small or resource-constrained businesses.",
+      "Because it is a fictional narrative rather than a direct instructional text, readers who want a step-by-step operating manual rather than a story may find they still need to read Wickman's earlier book, *Traction*, or supplementary EOS materials for full implementation detail.",
+      "The fable format necessarily compresses a year of real organizational change into a readable narrative, which can understate how much sustained, sometimes tedious discipline actual EOS implementation requires compared to how it reads in dramatized form."
+    ]
+  },
+  "whoThisIsFor": "Small-business owners and leadership teams who are stuck at a growth plateau and want to see what implementing a structured operating system actually looks like in practice, told through story rather than pure instruction.",
+  "whenToReadThis": "After (or alongside) Wickman's *Traction*, when you want a concrete, narrative illustration of how the EOS framework plays out over a real implementation cycle.",
+  "relatedBooks": [],
+  "authorBio": {
+    "name": "Gino Wickman & Mike Paton",
+    "bio": "Gino Wickman is the creator of the Entrepreneurial Operating System (EOS) and the founder of EOS Worldwide, a company built around helping entrepreneurial leadership teams implement the system to gain better control, alignment, and results. He is also the author of *Traction: Get a Grip on Your Business*, the foundational book that first laid out the EOS framework in full.\n\nMike Paton is one of the earliest certified EOS Implementers, having personally worked with the leadership teams of more than 150 companies before co-authoring *Get a Grip* with Wickman. Paton later succeeded Wickman in the Visionary role at EOS Worldwide, and went on to host the podcast *The EOS Leader* and co-author additional books in the EOS library, including *Process!*.\n\nTogether, Wickman and Paton built *Get a Grip* specifically to make the EOS framework — already popular through *Traction* — more accessible and emotionally concrete by dramatizing a realistic implementation through fictional characters and situations drawn from their collective consulting experience.",
+    "notableWorks": [
+      "Traction: Get a Grip on Your Business (Gino Wickman)",
+      "Rocket Fuel (Gino Wickman & Mark C. Winters)",
+      "Process!: How Discipline and Consistency Will Set You and Your Business Free (Mike Paton & Lisa Gonzalez)"
+    ]
+  },
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-07-31",
+  "sourceNotes": "Synthesis is based on publisher descriptions, book summary sites, and reader reviews of *Get a Grip* gathered via web search, which consistently describe the Swan Services story, the Six Key Components structure, and the quarterly-session pacing; specific scene-level detail beyond what is publicly described in these sources was not independently verified against the original text. Quotes were kept to a small, verified set given a genuinely thin public quote footprint for this specific title, consistent with the copyright-safe limits noted at the top of this file.\n\n---"
+}
