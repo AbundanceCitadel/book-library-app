@@ -1,0 +1,210 @@
+{
+  "id": "ngay-doi-no-payback-time-vn-ed",
+  "code": "171",
+  "title": "Ngày Đòi Nợ (Payback Time, bản tiếng Việt)",
+  "author": "Phil Town",
+  "categories": [
+    "finance-investing"
+  ],
+  "language": "vi",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 420,
+  "tags": [
+    "value-investing",
+    "stockpiling",
+    "margin-of-safety",
+    "mutual-funds",
+    "rule-1-investing"
+  ],
+  "structureType": "chapters",
+  "summary": "Ngày Đòi Nợ, the Vietnamese edition of Phil Town's Payback Time: Making Big Money Is the Best Revenge!, is the follow-up to Town's earlier bestseller Rule #1, aimed at readers who have absorbed the basics of value investing and are ready for a more systematic approach to building long-term wealth. Where Rule #1 was framed around individual stock trades, Payback Time widens the lens to a full strategy Town calls \"stockpiling\": deliberately buying more shares of a small number of thoroughly researched, high-quality businesses whenever their price falls below a calculated intrinsic value, treating market downturns not as a threat but as a recurring buying opportunity.\n\nThe book opens with a sustained critique of mutual fund investing, arguing that the combination of management fees, chronic underperformance relative to index benchmarks, and marketing-driven asset gathering makes mutual funds a systematically poor vehicle for most retail investors' retirement savings, even though they are the default choice recommended by much of the financial advice industry. From this critique, Town pivots to his central alternative: rather than diversifying broadly across funds an investor doesn't understand, an investor should concentrate on a small number of \"wonderful businesses\" they do understand, buy them only when the price offers a substantial margin of safety below calculated value, and use market panics to buy more rather than to sell.\n\nThe middle of the book supplies the practical machinery for doing this: the \"Three Ms\" framework (Meaning, Moat, Management) for identifying businesses worth owning at all; a method for calculating a company's \"Sticker Price\" (its estimated intrinsic value) from earnings, growth projections, and a minimum acceptable rate of return; the concept of Margin of Safety as the buffer between that calculated value and the price an investor is actually willing to pay; and two complementary methods — Monthly Allocation of Capital and the more technical \"Floors and Ceilings\" approach — for deciding when, specifically, to deploy stockpiling capital.\n\nThe book closes with an extended worked example following a fictionalized couple, the Connellys, through several years of applying the stockpiling method to their own retirement portfolio during the 2008–2009 financial crisis, followed by practical guidance on setting up tax-advantaged \"Berky\" accounts (named after Berkshire Hathaway) to fund the strategy, and a closing call to action urging readers to audit their existing mutual fund holdings using the book's own criteria. Throughout, the tone is confident, motivational, and explicitly aimed at retail investors who feel they have been failed by the traditional financial advice industry, with Town positioning \"payback time\" as both a financial and a personal reckoning.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "How the Wealthy Use Down to Go Up",
+      "summary": "This opening chapter introduces the book's central strategy, \"stockpiling,\" by reframing stock ownership away from speculative trading and toward literal partial ownership of a real business. It argues that the wealthiest long-term investors, most notably Warren Buffett, made much of their fortune by buying more of businesses they already believed in whenever the market pushed prices down, rather than treating a falling price as a signal to sell.\n\nThe chapter develops the crucial distinction between a stock's price and a business's underlying value, using everyday comparisons (like judging a used car by its actual condition rather than its sticker price) to argue that a falling price, on its own, tells an investor nothing about whether a business has actually gotten worse. It introduces the \"10-10 Rule\" as a simple gut-check for long-term conviction: if you wouldn't be comfortable owning a stock for ten years, you shouldn't be comfortable owning it for even ten minutes.\n\nThe chapter closes by previewing the emotional dimension of the strategy — that successfully stockpiling requires resisting the instinct to panic-sell during downturns — setting up the book's recurring argument that discipline and temperament matter as much as analytical skill in this approach to investing.",
+      "keyLessons": [
+        "Treat a stock purchase as buying a real piece of a business, not as a speculative bet on a moving number.",
+        "A falling price alone tells you nothing about whether the underlying business has gotten worse.",
+        "Use a long-term \"would I hold this for ten years\" test to filter out speculative, low-conviction positions."
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Why Mutual Fund Investing Makes No Sense",
+      "summary": "This chapter builds the book's case against mutual funds as the default retirement vehicle for most investors, arguing that layered management fees can consume a large share of an investor's total lifetime returns even when each individual fee looks small in isolation. It cites the finding that only a small minority of actively managed mutual funds beat a simple market index over long time horizons, arguing that most investors are effectively paying premium prices for underperformance.\n\nThe chapter walks through how the mutual fund industry's business incentives are structured around gathering assets under management rather than directly around investor returns, meaning marketing and distribution costs are baked into the fee structure investors pay regardless of the fund's actual performance. It uses illustrative long-horizon examples to show how a seemingly modest fee difference compounds into a dramatic gap in final retirement savings.\n\nThe chapter closes by pointing toward lower-cost alternatives such as index-tracking ETFs, framing the rest of the book's stockpiling method as a further step beyond even passive indexing, for readers willing to put in the work of picking individual businesses themselves.",
+      "keyLessons": [
+        "Layered mutual fund fees can consume a large share of an investor's total returns over a multi-decade horizon, even when they look small year to year.",
+        "Most actively managed funds do not reliably beat a simple market index over long periods.",
+        "Fund industry incentives are often structured around gathering assets rather than directly around investor performance."
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Three Ms Equal No-Risk Investments",
+      "summary": "This chapter introduces the core filter for deciding which businesses are worth stockpiling at all, opening with a wish-list of qualities an ideal business would have (simplicity, durable competitive protection, broad appeal, pricing power, high margins, trustworthy management) before conceding that no real business hits every mark, and distilling the search down to three essential qualities: Meaning, Moat, and Management.\n\n\"Meaning\" asks whether the investor genuinely understands and has some personal connection to the industry, using a \"three circles\" exercise to find the overlap between what an investor understands, is passionate about, and can realistically make money from. \"Moat\" asks whether the business has a durable competitive advantage protecting it from rivals — the chapter lists several types (brand, secret know-how, toll-like positioning, high switching costs, structurally low costs). \"Management\" asks whether the people running the business act like trustworthy owners focused on long-term stakeholder value rather than short-term self-enrichment.\n\nThe chapter closes by cautioning against businesses that fail any of the Three Ms tests — those outside an investor's understanding, without meaningful competitive protection, or run by untrustworthy management — and sets up the next chapter's focus on price and timing as a separate question from whether a business is worth owning at all.",
+      "keyLessons": [
+        "Only invest in industries and businesses you genuinely understand well enough to judge, rather than chasing unfamiliar trends.",
+        "Look specifically for a durable competitive advantage (a \"moat\") that protects a business's long-term profitability from rivals.",
+        "Assess whether management behaves like trustworthy long-term owners before considering the business further, regardless of its numbers."
+      ]
+    },
+    {
+      "order": 4,
+      "title": "Payback Time Means \"No Fear\"",
+      "summary": "This chapter turns from which businesses to buy toward when and at what price, introducing the concept of Margin of Safety: the gap between a business's calculated intrinsic value and the price an investor is actually willing to pay, sized large enough to protect against errors in the investor's own valuation. It argues that most investors confuse a falling price with a \"sale,\" when in reality a price only represents a genuine opportunity if it falls meaningfully below calculated value.\n\nThe chapter lays out the mechanics of calculating a company's \"Sticker Price,\" combining current earnings per share, a projected growth rate, an assumed future price-to-earnings ratio, and the investor's own minimum acceptable rate of return into a single estimate of fair value, from which a target \"Margin of Safety\" buying price (commonly framed as roughly half of calculated value for a new investor) is derived.\n\nThe chapter closes on the psychological reframe that gives the book its title: because a substantial Margin of Safety price is calculated to allow an investor to \"get their money back\" within a defined payback period even under conservative assumptions, buying at that price should feel less like a risky bet and more like recovering money that is rightfully theirs — hence \"payback time.\"",
+      "keyLessons": [
+        "Distinguish a genuine \"sale\" (price well below calculated intrinsic value) from an ordinary price decline that tells you nothing on its own.",
+        "Build a deliberate Margin of Safety into your buying price to protect against errors in your own valuation assumptions.",
+        "A well-calculated buying price is meant to shorten the time it takes to recover your investment, reducing the sense of risk in holding through volatility."
+      ]
+    },
+    {
+      "order": 5,
+      "title": "Eight Baby Steps to Wealth",
+      "summary": "This chapter lays out the book's full operational sequence for turning the previous chapters' concepts into an ongoing practice: finding a wonderful business, valuing it, watching it on a dedicated watch list, buying at the target price, actively owning and monitoring it, stockpiling more as the price falls further without a change in fundamentals, selling under specific defined conditions, and repeating the process indefinitely.\n\nThe chapter goes into detail on the earlier, more research-heavy steps — using online stock-screening tools to generate initial candidates, building and maintaining a personal watch list with target stockpile prices attached to each business, and doing enough industry research to genuinely understand a candidate business before committing capital — while also flagging clear disqualifying red flags such as excessive debt, adversarial labor relations, or exposure to fast-moving, hard-to-predict technology shifts.\n\nThe chapter closes by describing the later, more behavioral steps: staying emotionally steady while owning a position, deciding in advance the specific circumstances (need for cash, deteriorating fundamentals, or price rising well above value) under which a stockpiled position should be sold, and treating the whole eight-step cycle as something to repeat continuously over a working lifetime rather than a one-time project.",
+      "keyLessons": [
+        "Build and actively maintain a personal watch list of pre-vetted businesses with target buying prices attached, rather than deciding what to buy only when you already have cash to deploy.",
+        "Screen out businesses with clear disqualifying red flags (excessive debt, volatile industries, adversarial management-labor relations) before doing deeper valuation work.",
+        "Decide your selling criteria in advance, before you own a position, rather than improvising a decision under emotional pressure later."
+      ]
+    },
+    {
+      "order": 6,
+      "title": "Just the FACs, Ma'am",
+      "summary": "This chapter addresses the practical challenge of deciding exactly when, within a broader window of \"the price is below my target,\" to actually deploy stockpiling capital, introducing two complementary methods: Monthly Allocation of Capital (MAC), a simple rule of investing a fixed amount on a set date each month whenever the price is below target, and the more technical Floors and Ceilings (FAC) approach, which uses recurring price support and resistance levels to time purchases more precisely.\n\nThe chapter explains the psychological trap it calls the \"Emotional Rule of Investing\" — the frustrating tendency for a stock's price to dip right after a purchase and rise right after a decision not to buy — and argues that the simpler MAC method exists partly to remove emotional second-guessing from the process, at some cost in precision, while the more effortful FAC method rewards investors willing to study a stock's recurring price patterns over time.\n\nThe chapter closes with a detailed worked example applying the Floors and Ceilings method to a real company's price history, walking through how repeated bounces off a support level and repeated stalls at a resistance level can help an investor judge more precisely when a price is likely to be near a local low, while acknowledging this skill takes practice to develop reliably.",
+      "keyLessons": [
+        "A simple, automated monthly buying rule removes emotional decision-making at some cost in precision, which is a reasonable tradeoff for many investors.",
+        "Stock prices often show recurring support (\"floor\") and resistance (\"ceiling\") levels that can help time purchases within a broader valuation-based buying range.",
+        "Expect the frustrating pattern of prices often moving against you immediately after a decision, and plan your process to be resilient to it rather than reactive."
+      ]
+    },
+    {
+      "order": 7,
+      "title": "A Tale of One Family",
+      "summary": "This chapter follows a fictionalized couple, the Connellys, through a multi-year worked example of applying the stockpiling method to their own retirement savings, beginning with calculating how much they would actually need to retire comfortably and moving away from mutual funds toward direct Rule #1-style stock selection.\n\nIt walks through their process of researching and narrowing candidate businesses in the fast-food and casual dining sector, applying the Three Ms and Sticker Price calculations to compare several options, and gradually building positions in two of them using a staged buying approach that pays close attention to price floors and ceilings rather than committing all their capital at once.\n\nThe chapter closes by tracking their portfolio through the 2008–2009 financial crisis, showing how their disciplined re-valuation and continued stockpiling during the downturn led to a substantial recovery and growth in portfolio value by late 2009, using their story to make the book's abstract framework feel concrete and achievable for an ordinary working couple.",
+      "keyLessons": [
+        "Running the numbers on your actual retirement savings target early makes the rest of the investing process feel concrete rather than abstract.",
+        "Comparing several candidate businesses side by side using the same valuation criteria helps surface real differences rather than relying on gut preference alone.",
+        "A market crisis, approached with a pre-existing valuation framework, can be treated as an opportunity to acquire more of businesses you already believe in, rather than only as a threat to your existing holdings."
+      ]
+    },
+    {
+      "order": 8,
+      "title": "Free Money with a Berky",
+      "summary": "This chapter introduces the practical account structure Town recommends for funding an ongoing stockpiling strategy: a \"Berky\" (named after Berkshire Hathaway), meaning any account designed to receive a recurring, dedicated flow of investment capital with favorable tax treatment, built for long-term concentrated investment rather than broad diversification.\n\nIt reviews several real account types that can serve this function — employer retirement plans, individual retirement accounts, and health savings accounts — comparing their contribution limits, tax treatment, and investment flexibility, and noting the tradeoffs of each (for instance, employer plans often restrict investment choices to a limited menu of funds, which can work against the book's stock-picking approach).\n\nThe chapter closes by tying the Berky concept back to everyday financial discipline, arguing that consistent contributions funded by deliberate, modest spending discipline are what actually make the stockpiling strategy work over a twenty-year horizon, regardless of how sophisticated the valuation technique behind it is.",
+      "keyLessons": [
+        "Set up a dedicated, tax-advantaged account structure specifically built to receive recurring investment contributions, rather than treating investing capital as an afterthought.",
+        "Compare the tradeoffs of different account types (contribution limits, tax treatment, investment flexibility) against your specific stockpiling plan before choosing where to direct new savings.",
+        "Long-term investing success depends as much on consistent, disciplined saving as on the sophistication of your valuation method."
+      ]
+    },
+    {
+      "order": 9,
+      "title": "Join the Rule One Revolution",
+      "summary": "This chapter turns outward, framing widespread reliance on high-fee mutual funds as a systemic problem the book calls investors to actively push back against by auditing their own existing holdings and, where warranted, moving their money elsewhere. It provides a step-by-step process for pulling up a current mutual fund's top holdings and evaluating each one using the book's own Three Ms plus Margin of Safety criteria, to judge whether the fund is genuinely holding well-chosen businesses at reasonable prices or coasting on marketing momentum.\n\nThe chapter extends the same evaluative lens to other common asset classes, encouraging readers to ask the same basic questions (is this a good business, bought at a good price) of real estate and other holdings, not only individual stocks.\n\nIt closes with an explicit call to share the book's approach with others, framing financial literacy as something with positive value when spread through a reader's own social network, and setting up the following chapter's more personal reflections.",
+      "keyLessons": [
+        "Periodically audit your own existing mutual fund or other holdings using the same criteria you'd apply to a new individual stock purchase.",
+        "Apply the same basic \"good business, bought at a good price\" logic across different asset classes, not only individual equities.",
+        "Treat improving your own financial literacy as something worth actively sharing with people close to you, rather than keeping to yourself."
+      ]
+    },
+    {
+      "order": 10,
+      "title": "Epilogue",
+      "summary": "The closing chapter shifts to a more personal register, with Town reflecting on his own path from a young, financially struggling backpacking guide to a self-made multimillionaire, crediting early mentorship for teaching him the value of committed action over passive hoping. It uses this personal narrative to reinforce the book's title theme: that \"payback time\" carries a triple meaning of recovering one's investment, achieving substantial wealth as a kind of vindication after past struggle, and eventually giving back to those who helped along the way.\n\nThe chapter closes with promotional material directing readers to Town's in-person investing workshops and further educational resources, alongside acknowledgments to mentors, his publishing team, and his family, ending on an explicitly motivational note urging readers to take the book's first concrete step (auditing an existing mutual fund) rather than treating the reading experience alone as sufficient.",
+      "keyLessons": [
+        "Sustained, committed action rather than passive hope is presented as the actual differentiator behind Town's own financial turnaround.",
+        "The book's framing treats financial independence as inseparable from giving back once achieved, not purely as a personal accumulation goal.",
+        "A book's ideas only matter if translated into a first concrete action; the chapter is explicit that reading alone is not the finish line."
+      ]
+    }
+  ],
+  "keyLessons": [
+    "Buy stock as if you are buying a real, understandable business, not a speculative number on a screen.",
+    "A falling price is not automatically a bargain; it is only a bargain if it falls meaningfully below a calculated intrinsic value.",
+    "Filter every candidate business through Meaning, Moat, and Management before considering price at all.",
+    "Build in a deliberate Margin of Safety to protect against your own valuation errors.",
+    "Maintain an active watch list of pre-vetted businesses with target buying prices so you're never forced to decide under time pressure.",
+    "Decide your selling criteria in advance, before emotions are involved in an actual downturn.",
+    "Set up a dedicated, tax-advantaged account structure to fund consistent, ongoing investment contributions.",
+    "Periodically audit your existing mutual funds and other holdings using the same rigor you'd apply to a new purchase."
+  ],
+  "quotes": [
+    {
+      "text": "Mutual fund management fees will steal as much as 60 percent of your capital over the lifetime of your investments.",
+      "attribution": "Phil Town, Chapter 1/2 framing (per publisher summary)",
+      "category": "Value vs. Price"
+    },
+    {
+      "text": "Only four percent of mutual fund managers ever succeed in beating the S&P 500 index over the long term.",
+      "attribution": "Phil Town, Chapter 2 framing (per publisher summary)",
+      "category": "Value vs. Price"
+    },
+    {
+      "text": "Beyond the two figures above, which are consistently reported across multiple independent publisher and summary sources, further verbatim sentence-level quotations from the Vietnamese translation \"Ngày Đòi Nợ\" could not be confirmed against a directly accessible copy of that specific edition. In keeping with the batch's copyright rules, no additional invented quotations are included; the numbered claims above should be treated as commonly cited figures associated with the book's argument rather than as page-verified exact wording.",
+      "attribution": "",
+      "category": "Source Note on Additional Quotations"
+    }
+  ],
+  "whoThisIsFor": "Retail investors who have outgrown a purely passive, \"set and forget\" mutual fund approach and want a structured, rules-based method for buying individual stocks over a long horizon.",
+  "whenToReadThis": "Most useful read after (or alongside) Town's earlier book Rule #1, and best absorbed slowly with a notebook in hand to actually work through the Sticker Price calculations on real companies rather than read passively.",
+  "relatedBooks": [],
+  "authorBio": {
+    "name": "Phil Town",
+    "bio": "Phil Town (born 1948) is an American investor, hedge fund manager, motivational speaker, and author. According to his own frequently repeated account, he transformed a borrowed $1,000 into roughly $1 million within about five years after being introduced to Warren Buffett-style value investing principles by a grateful client during his earlier career, an origin story that features prominently across his books and public speaking.\n\nHis first book, Rule #1: The Simple Strategy for Successful Investing in Only 15 Minutes a Week!, was published in 2006 and became a #1 New York Times bestseller, establishing the \"Rule #1\" framework (centered on Warren Buffett's stated first rule of investing, \"don't lose money\") that underpins his later work. Payback Time, published in 2010, extended this framework into the \"stockpiling\" approach for long-term investors described in this entry. Town later founded the hedge fund Rule One Partners and continues to run investing workshops and educational programs under the Rule One Investing brand.",
+    "notableWorks": [
+      "Rule #1: The Simple Strategy for Successful Investing in Only 15 Minutes a Week!",
+      "InvestED (co-written with Danielle Town)"
+    ]
+  },
+  "conceptsFrameworks": [
+    {
+      "name": "Stockpiling",
+      "definition": "The book's central strategy of concentrating investment in a small number of thoroughly understood, high-quality businesses and deliberately buying more shares whenever the price falls below calculated value, treating market downturns as a recurring opportunity rather than a threat."
+    },
+    {
+      "name": "The Three Ms (Meaning, Moat, Management)",
+      "definition": "A three-part filter for judging whether a business is worth owning at all, before any question of price is considered: Meaning (do you genuinely understand and connect with the business), Moat (does it have a durable competitive advantage), and Management (do the people running it act like trustworthy long-term owners).",
+      "sourceSection": "Section 3"
+    },
+    {
+      "name": "Margin of Safety / Sticker Price",
+      "definition": "A valuation method combining current earnings, projected growth, an assumed future valuation multiple, and a minimum acceptable rate of return into an estimated \"Sticker Price\" for a business, alongside a deliberately discounted buying target (the Margin of Safety price) sized to protect against errors in that valuation.",
+      "sourceSection": "Section 4"
+    },
+    {
+      "name": "Floors and Ceilings (FAC)",
+      "definition": "A price-timing technique that identifies recurring support (\"floor\") and resistance (\"ceiling\") levels in a stock's trading history, used to help judge when a price is likely near a local low within a broader valuation-based buying range, as a complement to the simpler Monthly Allocation of Capital approach.",
+      "sourceSection": "Section 6"
+    }
+  ],
+  "applyThis": {
+    "actionSteps": [
+      "Pull up the top ten to twenty-five holdings of your current mutual fund or retirement account and evaluate a handful of them against the Three Ms — do you actually understand what they do, do they have a durable competitive edge, and does management seem trustworthy?",
+      "Pick one business you already understand well from personal experience (as a customer, employee, or close observer of the industry) and attempt a rough Sticker Price calculation using its recent earnings, a conservative growth estimate, and your own minimum acceptable return.",
+      "Build a simple watch list of three to five candidate businesses with a specific target buying price written down for each, before you have any spare cash to invest, so a future decision isn't made under time pressure.",
+      "Decide today, in writing, the specific conditions under which you would sell a future stock position (need for cash, deteriorating fundamentals, or price rising well above calculated value) so a future decision isn't improvised emotionally.",
+      "Open or identify one tax-advantaged account you could use as your own \"Berky\" for recurring, dedicated investment contributions, and set up an automatic contribution schedule into it."
+    ],
+    "reflectionQuestions": [
+      "Where in your current investments are you relying on trust in a fund manager or advertising rather than your own understanding of what you actually own?",
+      "How would your reaction to a sudden 30% market drop change if you had a pre-written watch list with target buying prices already in hand?",
+      "What is one business or industry you already understand deeply from your own life or work that you have never considered evaluating as a potential investment?"
+    ]
+  },
+  "criticalTake": {
+    "points": [
+      "Town's critique of mutual fund fees and active-management underperformance is broadly consistent with well-documented academic findings on fund costs and persistence of outperformance, but his framing sometimes presents these as more universally damning than the more nuanced academic literature, which does identify some funds and strategies with more durable edges.",
+      "The book's central strategy assumes an investor has the time, temperament, and analytical skill to genuinely evaluate individual businesses well — a significant undertaking that many readers who buy the book for a quick fix are unlikely to sustain in practice, a gap noted by several reader reviews of the book.",
+      "Town's own investment record and public claims about turning borrowed capital into a fortune have drawn skepticism and scrutiny in the financial media and investing community, and the book's before/after strategy positioning (contrasting an earlier \"trading\" book with this \"investing\" one) has been read by some critics as partly a marketing device across a multi-book product line.",
+      "The \"Floors and Ceilings\" technical timing method sits closer to technical/chart-based trading than to the fundamentals-based value investing philosophy (associated with Benjamin Graham and Warren Buffett) the book otherwise claims to follow, which some value-investing purists consider methodologically inconsistent within the same book."
+    ],
+    "contextNote": "Published in 2010 in the aftermath of the 2008–2009 financial crisis, the book's central pitch — that market crashes are buying opportunities for patient, business-focused investors — has aged reasonably well as a general principle, even as some of its specific worked examples and market conditions are now well over a decade old."
+  },
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-08-01",
+  "sourceNotes": "Chapter structure, chapter titles, and thematic content are based on a detailed publicly available chapter-by-chapter summary (Bookey) cross-referenced against publisher, retailer, and author-website descriptions of the English-language original, Payback Time: Making Big Money Is the Best Revenge! Content has been synthesized and rewritten in original language throughout rather than paraphrased closely from the summary source. The two verbatim statistics quoted (60% fee erosion, 4% of managers beating the index) are reported consistently across multiple independent sources and are treated as reliable enough to attribute directly; all other content is original synthesis. The specific Vietnamese-edition title \"Ngày Đòi Nợ\" and its exact translated wording could not be independently verified against a physical copy of that edition, so quotations are drawn from the English original's commonly reported figures rather than the Vietnamese translation's specific phrasing."
+}

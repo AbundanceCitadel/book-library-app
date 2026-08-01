@@ -1,0 +1,128 @@
+{
+  "id": "rise",
+  "code": "218",
+  "title": "RISE",
+  "author": "Mark Bouris",
+  "categories": [
+    "business"
+  ],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 360,
+  "tags": [
+    "entrepreneurship",
+    "resilience",
+    "australian-business",
+    "personal-growth",
+    "self-made-success"
+  ],
+  "structureType": "chapters",
+  "summary": "RISE is Mark Bouris's more personal, biographically grounded follow-up to his earlier business advice books, written and published during a period of major global disruption (the early COVID-19 pandemic era) as both a memoir of his own path from a working-class upbringing in Punchbowl, a western Sydney suburb, to founding two major Australian financial institutions, and a broader argument that resilience, self-belief, and willingness to work hard are more foundational to success than talent, credentials, or advantage. Bouris frames the book explicitly as a response to a specific historical moment — widespread disruption and lost confidence in existing systems — arguing that individuals and small business owners need to take ownership of their own reinvention rather than waiting for external conditions to improve.\n\nThe book weaves Bouris's own biography (his working-class family background, his early career, and the founding and growth of Wizard Home Loans and later Yellow Brick Road) together with the practical and psychological lessons he draws from that path, including a recurring emphasis on resilience under pressure, financial literacy as a foundation for confidence, and the specific soft skills (relationship-building, reading people, negotiation) he attributes partly to mentors and formative experiences, referenced in reader commentary as including lessons drawn from his relationship with prominent Australian businessman Kerry Packer.\n\nUnlike a pure how-to business book, RISE spends significant space on mindset and self-belief as prerequisites for any tactical business advice to matter — Bouris's argument is that people often reject entrepreneurial or career risk not because the tactics are wrong but because they don't believe, at a deeper level, that someone like them is allowed to succeed at that level. The book works to dismantle that belief through Bouris's own example of starting without financial advantage.\n\nThe book closes with a call to action aimed particularly at small business owners and entrepreneurs navigating disruption, urging readers to treat major disruption as an opportunity for reinvention rather than purely a threat, and positioning resilience and self-belief, built through the specific psychological and practical habits Bouris describes, as the foundation for rising to meet that opportunity.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "Punchbowl Beginnings",
+      "summary": "This opening section covers Bouris's working-class upbringing in Punchbowl, western Sydney, establishing the biographical foundation for the book's central argument that starting position doesn't determine outcome. Bouris describes the absence of financial advantage or connections in his early life and the specific formative lessons — resilience, self-reliance, willingness to work hard — he attributes to that upbringing.\n\nThe section works through early formative experiences that shaped Bouris's drive and resourcefulness, framing them not as disadvantages to overcome incidentally but as the actual training ground for the entrepreneurial resilience the rest of the book argues is essential to success.\n\nThe section closes by transitioning into Bouris's early career and the beginning of his path toward founding his own financial institutions, setting the stage for the book's business-founding narrative.",
+      "keyLessons": [
+        "Treat a lack of early financial advantage as a potential source of resilience rather than only a disadvantage.",
+        "Identify the specific formative experiences in your own background that built skills you may be undervaluing.",
+        "Recognize that self-reliance built under constrained circumstances is a transferable entrepreneurial asset."
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Building Wizard and Yellow Brick Road",
+      "summary": "This section covers the founding and growth of Bouris's two major financial institutions, using the business-building narrative to illustrate practical lessons about disruption, competing against entrenched larger players, and building a brand and customer trust from a challenger position.\n\nBouris describes the strategic and psychological challenges of building a disruptive financial services business against established banks, and the specific decisions and setbacks along the way that tested and ultimately reinforced the resilience-focused mindset introduced in the prior section.\n\nThe section closes by connecting the practical business-building lessons back to the book's broader thesis: that the same resilience and self-belief that got him through a difficult upbringing were directly load-bearing in the much later challenge of building disruptive businesses against larger competitors.",
+      "keyLessons": [
+        "Approach competing against larger, entrenched players as a challenger-brand problem, not just a resourcing problem.",
+        "Expect major business-building efforts to test the same resilience built in earlier, unrelated life challenges.",
+        "Treat setbacks during a business build as data to adjust strategy, not as evidence to abandon the underlying belief in the venture."
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Relationships, Mentors, and Soft Skills",
+      "summary": "This section examines the interpersonal and relational skills Bouris credits as essential to his career, including lessons drawn from formative mentor relationships and the specific soft skills — reading people, building trust, negotiating — that reader commentary on the book highlights as some of its most valued content.\n\nBouris argues that technical business knowledge alone doesn't build a career or a company; the ability to build genuine relationships, earn trust, and navigate high-stakes interpersonal situations is what actually converts opportunity into results, and he uses his own mentor relationships as concrete illustration of how these skills were built and sharpened.\n\nThe section closes by connecting relational skill-building back to the book's central resilience theme, arguing that the confidence to build strong relationships with more powerful or experienced people is itself a form of the self-belief the book has been building toward throughout.",
+      "keyLessons": [
+        "Treat relationship-building and trust-earning as core business skills, not soft extras separate from real strategy.",
+        "Seek out and actively learn from mentor relationships, even (or especially) with people far more experienced or senior.",
+        "Build the specific confidence needed to engage as an equal with more powerful or experienced people in your field."
+      ]
+    },
+    {
+      "order": 4,
+      "title": "Rising Through Disruption",
+      "summary": "This closing section applies the book's cumulative lessons directly to its publication moment — the early pandemic-era disruption facing individuals, small business owners, and the broader economy — arguing that major disruption should be treated as an opportunity for reinvention rather than only a threat to survive.\n\nBouris urges readers, and small business owners specifically, to apply the resilience, self-belief, and relationship-building principles from earlier in the book to actively reposition and reinvent themselves during a period when old assumptions about how business and careers work are being upended.\n\nThe book closes on a call to action: that readers, like Bouris himself starting without advantage, have more capacity to rise to a moment of disruption than they typically believe, and that the specific habits and mindset covered throughout the book are the practical path to doing so.",
+      "keyLessons": [
+        "Treat periods of major disruption as windows for reinvention, not only as threats to be survived defensively.",
+        "Apply resilience and self-belief actively during disruption, rather than waiting for stable conditions to return.",
+        "Recognize that your capacity to rise to a disrupted moment is likely greater than your default assumptions suggest."
+      ]
+    }
+  ],
+  "keyLessons": [
+    "Treat a lack of early financial advantage as potential fuel for resilience, not only as a disadvantage to overcome.",
+    "Identify formative experiences from your own background that built skills you may currently be undervaluing.",
+    "Approach competing against larger, entrenched competitors as a challenger-brand and positioning problem.",
+    "Treat business setbacks as data to adjust strategy, not evidence to abandon belief in the underlying venture.",
+    "Build relationship and trust-earning skills deliberately as core business capability, not as a soft extra.",
+    "Actively seek mentor relationships with people more experienced or senior than you, and extract specific lessons from them.",
+    "Reframe major disruption as an opportunity for reinvention rather than purely a threat to defend against.",
+    "Build the specific self-belief needed to engage confidently with more powerful or experienced people in your field."
+  ],
+  "quotes": [
+    {
+      "text": "Anyone can better themselves, better their life, better their situation. You've got to think big.",
+      "attribution": "Mark Bouris, RISE",
+      "category": "Resilience and Self-Belief"
+    }
+  ],
+  "whoThisIsFor": "Small business owners and individuals facing a period of major disruption or setback who want a resilience-and-mindset-focused perspective grounded in a real founder's story, rather than a step-by-step tactical playbook.",
+  "whenToReadThis": "Read it during a period of personal or business disruption, when self-belief rather than technical knowledge feels like the bigger obstacle.",
+  "relatedBooks": [],
+  "authorBio": {
+    "name": "Mark Bouris",
+    "bio": "Mark Bouris is an Australian businessman who grew up in the working-class Sydney suburb of Punchbowl and went on to found Wizard Home Loans, a disruptive non-bank home loan lender, followed later by Yellow Brick Road, a diversified financial services and wealth advisory business. He became a well-known public figure in Australian business media partly through hosting the Australian versions of The Apprentice and The Celebrity Apprentice, and later through his own business advice podcast and platform, The Mentor.\n\nBouris has been recognized publicly for his contribution to the Australian finance industry, including being appointed a Member of the Order of Australia, and holds adjunct academic roles related to banking, finance, and business law. His public persona blends media visibility with a specific focus on small business mentorship and financial literacy education.\n\nRISE followed his earlier, more directly instructional business book, and reflects a more personal, biographical turn in his published work, using his own life story as the throughline for lessons about resilience and self-belief.",
+    "notableWorks": [
+      "Wild Bull: The Rise and Fall and Rise of an Entrepreneur"
+    ]
+  },
+  "conceptsFrameworks": [
+    {
+      "name": "Resilience as Foundational Skill",
+      "definition": "Bouris's recurring framing of resilience — built through early hardship and reinforced through later business setbacks — as the true foundation underneath tactical business skill, without which technical or financial advice has little practical effect.",
+      "sourceSection": "Punchbowl Beginnings"
+    },
+    {
+      "name": "Challenger Positioning",
+      "definition": "Bouris's approach to competing against larger, entrenched incumbents (established banks, in his own business-building narrative) by leveraging brand, trust, and disruptive positioning rather than trying to out-resource them directly.",
+      "sourceSection": "Building Wizard and Yellow Brick Road"
+    }
+  ],
+  "applyThis": {
+    "actionSteps": [
+      "Write down one specific hardship from your own background and identify a transferable skill it actually built in you, rather than only its cost.",
+      "If you're competing against a larger or more established player in your field, write out your challenger positioning — what you can credibly claim that they can't.",
+      "Identify one person more experienced or senior than you and reach out this month to build or deepen that relationship intentionally.",
+      "Pick one area of current disruption in your work or industry and list two ways it could be treated as a reinvention opportunity rather than only a threat."
+    ],
+    "reflectionQuestions": [
+      "What belief about who is \"allowed\" to succeed at a high level might be quietly limiting your own ambition?",
+      "Where in your career have you treated a setback as proof you should quit, when it might have just been useful data?"
+    ]
+  },
+  "criticalTake": {
+    "points": [
+      "As a personal memoir-driven business book, RISE generalizes heavily from one individual's specific path (founding financial institutions in a particular Australian regulatory and market environment); readers in very different industries or contexts may find the specific business lessons less transferable than the general resilience themes.",
+      "At least one reader review notes the book is \"light on depth\" relative to Bouris's earlier, more directly instructional business book, suggesting readers looking for tactical, step-by-step guidance may find the memoir format less immediately actionable.",
+      "Bouris's own financial-services career has included periods of public and regulatory scrutiny common to the mortgage and non-bank lending sector he operated in; this is relevant context for readers weighing his authority on financial resilience specifically, separate from the value of the general life lessons in the book.",
+      "The book's central message — that self-belief and resilience are the primary bottleneck to success — can understate the role of structural and market-timing factors (access to capital, favorable regulatory openings in non-bank lending at the time Bouris entered it) that also shaped his specific success."
+    ],
+    "contextNote": "Published in the early stages of the COVID-19 pandemic, the book's disruption-and-reinvention framing was written for that specific moment; the underlying resilience and mindset content is more evergreen than the book's situational framing around global disruption."
+  },
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-08-01",
+  "sourceNotes": "Synthesis is based on general knowledge of Mark Bouris's public business career plus web-verified publisher and reader-review descriptions confirming the book's biographical structure (Punchbowl upbringing, founding of Wizard and Yellow Brick Road, mentor relationships including reader-referenced Kerry Packer connections, and the pandemic-era disruption framing). An original, verified chapter-by-chapter table of contents could not be located through available search — only a single reader-referenced chapter title (\"Heavyweight\") surfaced — so the section breakdown above is an honest thematic reconstruction based on confirmed book content rather than a verified original chapter list; flagged here rather than presented as confirmed. Quote availability for direct verbatim lines from this specific title is thin, so only one representative, verified line is included."
+}

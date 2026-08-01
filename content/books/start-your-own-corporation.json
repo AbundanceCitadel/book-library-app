@@ -1,0 +1,194 @@
+{
+  "id": "start-your-own-corporation",
+  "code": "232",
+  "title": "Start Your Own Corporation: Why the Rich Own Their Own Companies and Everyone Else Works for Them",
+  "author": "Garrett Sutton, Esq.",
+  "categories": [
+    "business"
+  ],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 360,
+  "tags": [
+    "asset-protection",
+    "corporations",
+    "llc",
+    "business-structure",
+    "legal-planning",
+    "rich-dad-advisors"
+  ],
+  "structureType": "chapters",
+  "summary": "Garrett Sutton, a corporate attorney and one of Robert Kiyosaki's \"Rich Dad Advisors,\" wrote this book to answer a question he says he hears constantly from clients: why does forming a corporate or LLC entity matter so much, and how does someone actually go about doing it? His central argument is that in a litigious business environment, operating as a sole proprietor or general partnership exposes a person's personal assets — their house, savings, and other property — directly to business debts and lawsuits, while properly formed and maintained entities create a legal shield between business risk and personal wealth.\n\nThe book opens by walking through the major entity types available to U.S. business owners — sole proprietorships, general and limited partnerships, C corporations, S corporations, professional corporations, and limited liability companies — explaining the liability exposure, tax treatment, and practical tradeoffs of each. Sutton is blunt about the dangers of the \"default\" options: he uses case examples (some framed as illustrative scenarios, some drawn from real client situations) of business owners who lost personal assets in lawsuits specifically because they never formalized their business into a liability-limiting entity.\n\nA substantial portion of the book focuses on jurisdiction and structure strategy: why Sutton recommends Nevada and Wyoming entities for many clients (favorable corporate law, privacy protections, and no state income tax), how to use multiple entities across different states to compartmentalize risk (for example, holding real estate in one entity and operating a business in another), and how corporate formalities — separate bank accounts, proper documentation of major decisions, annual meetings, and clean recordkeeping — are what actually preserve the liability shield in court. Sutton is emphatic that failing to observe these formalities is the single most common way business owners lose the very protection they thought they'd secured, a legal vulnerability known as \"piercing the corporate veil.\"\n\nLater chapters turn to specific tactical topics: choosing and understanding the roles of directors and officers, structuring employee compensation and benefits plans to maximize legitimate tax advantages, using business tax deductions correctly, and building business credit independent of personal credit. Throughout, Sutton writes in plain, non-technical language aimed at entrepreneurs and real estate investors rather than lawyers, consistently returning to his central thesis: the specific entity chosen matters less than actually choosing one deliberately and maintaining it correctly, since an unprotected sole proprietorship is, in his view, the single most dangerous \"choice\" a growing business can make.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "Why You Need an Entity",
+      "summary": "This opening chapter establishes the book's foundational argument: operating without a formal business entity leaves a person's personal assets exposed to business liabilities, and this exposure is often invisible until a lawsuit or major debt actually arrives. Sutton opens with illustrative scenarios — such as a sole proprietor facing personal liability after a workplace incident — to make the abstract risk concrete.\n\nThe chapter's substance walks through why litigation risk in modern business is high and unpredictable, and why waiting until a business is \"big enough to worry about\" is a common but costly mistake, since even small businesses can face claims that exceed their insurance coverage. Sutton introduces the basic concept of an entity as a legal identity separate from its owners, which is the mechanism that actually creates the liability separation he's arguing for.\n\nThe chapter closes by previewing the entity comparison that follows: readers will need to understand not just that an entity is necessary, but which type of entity fits their specific situation.",
+      "keyLessons": [
+        "Personal liability exposure in a sole proprietorship or general partnership is often invisible until a lawsuit or major debt actually arrives.",
+        "Waiting until a business feels \"big enough to worry about\" is a common but potentially costly delay.",
+        "A legal entity's core function is creating a separate legal identity between the business and the owner's personal assets."
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Sole Proprietorships and General Partnerships: The Dangerous Choices",
+      "summary": "This chapter details why Sutton considers the default, no-paperwork business structures — sole proprietorships and general partnerships — the riskiest choices available, despite being the most common way small businesses actually start. He explains that in both structures, personal assets are directly exposed to business debts and lawsuits, and in a general partnership, each partner can be held liable not just for their own actions but for the actions of their partners.\n\nThe chapter's substance includes case examples illustrating how a lawsuit against one aspect of a sole proprietorship or partnership can reach into an owner's personal savings, home equity, and other assets, since no legal boundary separates the business from the individual. Sutton also notes that these structures dissolve automatically on the death or exit of an owner, creating business continuity risk beyond the liability issue.\n\nThe chapter closes by transitioning into the corporate and LLC alternatives that address these specific weaknesses, which occupy the bulk of the book's middle chapters.",
+      "keyLessons": [
+        "In sole proprietorships and general partnerships, personal assets are directly exposed to business debts and lawsuits.",
+        "In a general partnership, each partner can be held liable for the actions of the other partners, not just their own.",
+        "These default structures also create business continuity risk, since they can dissolve automatically upon an owner's exit or death."
+      ]
+    },
+    {
+      "order": 3,
+      "title": "C Corporations, S Corporations, and Professional Corporations",
+      "summary": "This chapter compares the major corporate structures available, focusing on their liability protection, tax treatment, and ownership rules. Sutton explains that C corporations are taxed as separate entities from their owners (creating the possibility of double taxation on distributed profits, but also offering the most flexibility for growth and raising capital), while S corporations pass income through to owners' personal tax returns while still preserving liability protection, subject to ownership restrictions.\n\nThe chapter's substance also covers professional corporations, a specialized structure for licensed professionals like doctors and lawyers, noting the important caveat that these structures still don't protect against personal liability for one's own malpractice, even though they do protect against other business liabilities. Sutton discusses the tradeoffs entrepreneurs face in choosing between these structures based on their growth plans, number of owners, and tax situation.\n\nThe chapter closes by turning to the increasingly popular alternative that blends features of corporations and partnerships: the limited liability company, addressed next.",
+      "keyLessons": [
+        "C corporations offer flexibility and access to capital but can create double taxation on distributed profits.",
+        "S corporations pass income through to owners' personal returns while preserving liability protection, within ownership limits.",
+        "Professional corporations protect against general business liability but not against personal liability for one's own professional malpractice."
+      ]
+    },
+    {
+      "order": 4,
+      "title": "Limited Liability Companies and Limited Partnerships",
+      "summary": "This chapter covers the LLC structure that has become a default choice for many small business owners and real estate investors, explaining how it combines the liability protection of a corporation with the tax simplicity and operational flexibility of a partnership. Sutton also covers limited partnerships, which he frequently recommends for real estate holdings specifically, where limited partners get liability protection while a general partner retains management control.\n\nThe chapter's substance includes guidance on LLC operating agreements, member-managed versus manager-managed structures, and how LLCs can be taxed differently depending on elections made with tax authorities. Sutton emphasizes that LLCs are particularly well suited to holding appreciating assets like real estate, since gains can often be distributed with more tax flexibility than through a standard corporation.\n\nThe chapter closes by moving from choosing an entity to the geographic question of where to form it, since state law significantly affects both privacy and asset protection.",
+      "keyLessons": [
+        "LLCs combine corporate-style liability protection with partnership-style tax and operational flexibility.",
+        "Limited partnerships allow limited partners liability protection while a general partner retains management control — a structure Sutton frequently recommends for real estate.",
+        "LLCs are often well suited to holding appreciating assets, offering more tax flexibility on distributions than standard corporations."
+      ]
+    },
+    {
+      "order": 5,
+      "title": "Choosing Your State: Nevada and Wyoming",
+      "summary": "This chapter makes Sutton's specific jurisdictional recommendation, explaining why he frequently advises clients to form entities in Nevada or Wyoming even when they operate primarily in another state. He covers these states' favorable corporate law (strong protections for directors and officers), lack of state income tax, and stronger privacy protections around ownership disclosure compared to many other states.\n\nThe chapter's substance also addresses the practical mechanics and costs of forming an out-of-state entity, including the need for a registered agent and potential requirements to register as a \"foreign entity\" doing business in one's home state, which Sutton is careful to note adds complexity and cost that must be weighed against the jurisdictional benefits.\n\nThe chapter closes by turning from where to form an entity to the ongoing discipline required to keep its protections intact once formed, setting up the book's discussion of corporate formalities.",
+      "keyLessons": [
+        "Nevada and Wyoming offer strong director/officer protections, no state income tax, and stronger ownership privacy than many states.",
+        "Forming an entity out of state typically requires a registered agent and may trigger \"foreign entity\" registration requirements in your home state.",
+        "Jurisdictional benefits must be weighed against the added complexity and cost of operating an out-of-state entity."
+      ]
+    },
+    {
+      "order": 6,
+      "title": "Corporate Formalities and Piercing the Corporate Veil",
+      "summary": "This chapter covers what Sutton frames as the single most important — and most commonly neglected — discipline in the entire book: maintaining the formalities that keep an entity's liability shield legally intact. He explains the concept of \"piercing the corporate veil,\" the legal process by which a court disregards an entity's separate status and holds an owner personally liable, usually because the owner failed to treat the entity as genuinely separate from themselves.\n\nThe chapter's substance includes concrete formalities: maintaining a separate business bank account and never commingling personal and business funds, documenting major decisions through minutes or written consents, holding required annual meetings, and keeping the entity in good standing with the state through timely filings. Sutton stresses that these formalities are inexpensive and simple compared to the catastrophic cost of losing liability protection because they were neglected.\n\nThe chapter closes by turning to the people responsible for observing these formalities — a company's directors and officers — introducing the next chapter's focus.",
+      "keyLessons": [
+        "\"Piercing the corporate veil\" is the legal process by which courts disregard an entity's liability protection, usually due to neglected formalities.",
+        "Never commingle personal and business funds; maintain a completely separate business bank account.",
+        "Documenting major decisions and holding required annual meetings are inexpensive but essential habits for preserving liability protection."
+      ]
+    },
+    {
+      "order": 7,
+      "title": "Know Who Your Directors and Officers Are!",
+      "summary": "This chapter covers the governance roles within a corporation — directors, who set overall policy and major decisions, and officers, who manage day-to-day operations — and why understanding these roles matters even for very small, closely held companies where the same person may hold multiple roles.\n\nThe chapter's substance includes guidance on the legal responsibilities and potential liabilities directors and officers can face, how to properly document their appointment and authority, and why even a single-owner company benefits from formally observing these distinct roles rather than treating governance informally. Sutton frames this formal role-observance as another layer of the same discipline discussed in the corporate-formalities chapter.\n\nThe chapter closes by shifting from governance structure to the practical financial tools available once an entity is properly formed and maintained: tax deductions, compensation planning, and business credit.",
+      "keyLessons": [
+        "Directors set overall policy while officers manage daily operations — distinct roles even in a small, closely held company.",
+        "Formally documenting director and officer appointments and authority is another layer of the discipline that protects liability status.",
+        "Even single-owner companies benefit from observing these roles formally rather than informally blending them."
+      ]
+    },
+    {
+      "order": 8,
+      "title": "Tax Deductions, Compensation, and Building Business Credit",
+      "summary": "This closing chapter turns from liability protection to the financial advantages a properly structured entity can offer: legitimate business tax deductions, strategies for structuring owner and employee compensation and benefits, and building business credit that is independent of the owner's personal credit history.\n\nThe chapter's substance covers the categories of expenses that can typically be deducted through a business entity, cautions against aggressive or improper deduction claims that invite audit risk, and explains how establishing trade credit and a business credit profile can eventually allow a company to borrow and operate without relying solely on the owner's personal creditworthiness or guarantees.\n\nThe chapter closes the book by tying financial strategy back to the entity-and-formalities foundation established earlier: these tax and credit advantages are only reliably available to entities that have been properly formed and consistently maintained.",
+      "keyLessons": [
+        "A properly structured entity opens access to legitimate business tax deductions unavailable to informal, unincorporated operations.",
+        "Aggressive or improper deduction claims create real audit risk and should be approached conservatively.",
+        "Building an independent business credit profile allows a company to eventually borrow without relying solely on the owner's personal credit."
+      ]
+    }
+  ],
+  "keyLessons": [
+    "Operating without a formal entity exposes personal assets directly to business debts and lawsuits — often invisibly, until a claim actually arrives.",
+    "Sole proprietorships and general partnerships are the riskiest structures, offering no liability separation between the business and the owner.",
+    "Understand the tradeoffs between C corporations, S corporations, and LLCs before choosing a structure, since each has different liability, tax, and ownership implications.",
+    "Consider Nevada or Wyoming for entity formation if privacy, favorable corporate law, or no state income tax matter to your situation — but weigh this against added out-of-state complexity.",
+    "Never commingle personal and business funds; this is one of the most common ways owners accidentally forfeit liability protection.",
+    "Document major business decisions and hold required formal meetings, even in a small, closely held company.",
+    "Understand and formally observe the distinct roles of directors and officers, even if the same person fills both.",
+    "Use legitimate business tax deductions conservatively, and build independent business credit over time.",
+    "The specific entity chosen matters less than choosing one deliberately and maintaining its formalities consistently — most protection failures come from neglect, not from choosing the \"wrong\" structure."
+  ],
+  "quotes": [
+    {
+      "text": "We live in a highly litigious world. As you live your life you must keep your guard up. As you grow your wealth you must protect it.",
+      "attribution": "Garrett Sutton",
+      "category": "The Core Risk Argument"
+    },
+    {
+      "text": "Start Your Own Corporation is a must read for anyone with any assets to protect.",
+      "attribution": "Robert Kiyosaki, foreword/endorsement",
+      "category": "Endorsement"
+    },
+    {
+      "text": "(Verification note: beyond the two lines above, a substantial, reliably verified quote footprint for this specific title could not be located; this is a practical, instructional legal-and-business guide with a thinner public quotation trail than narrative or motivational books, and no additional lines have been included to avoid the risk of misattribution. See Source Notes below.)",
+      "attribution": "",
+      "category": "Source-Note Flag"
+    }
+  ],
+  "whoThisIsFor": "Entrepreneurs, small business owners, and real estate investors who haven't yet formalized their business structure, or who have but aren't confident they're maintaining it correctly.",
+  "whenToReadThis": "Read it before starting a new business or investment activity, or promptly if you're currently operating without a formal entity and want to understand your actual exposure.",
+  "relatedBooks": [],
+  "authorBio": {
+    "name": "Garrett Sutton, Esq.",
+    "bio": "Garrett Sutton is a corporate attorney with more than three decades of experience helping entrepreneurs and real estate investors structure their businesses to limit liability and protect assets. He is a graduate of the University of California, Berkeley, and Hastings College of the Law (UC's law school in San Francisco), and is a member of the State Bar of Nevada, the State Bar of California, and the American Bar Association.\n\nSutton is the founder of Corporate Direct and Sutton Law Center, firms that have provided asset-protection and entity-formation services since 1988, and he serves as one of Robert Kiyosaki's \"Rich Dad Advisors,\" a group of specialists selected to write practical companion guides to the *Rich Dad Poor Dad* personal-finance series. His law offices are based in Reno, Nevada, and Jackson Hole, Wyoming.\n\nBeyond writing, Sutton is a frequent speaker at entrepreneur and real estate investment events, and has been featured in outlets including the Wall Street Journal and the New York Times discussing asset protection and business structuring strategy.",
+    "notableWorks": [
+      "Run Your Own Corporation",
+      "Loopholes of Real Estate",
+      "Writing Winning Business Plans",
+      "Buying and Selling a Business",
+      "How to Use Limited Liability Companies and Limited Partnerships",
+      "The ABC's of Getting Out of Debt",
+      "Veil Not Fail"
+    ]
+  },
+  "conceptsFrameworks": [
+    {
+      "name": "Piercing the Corporate Veil",
+      "definition": "The legal process by which a court disregards a business entity's separate legal status and holds an owner personally liable for business debts or judgments, most commonly triggered by failure to observe basic corporate formalities like separate bank accounts and documented decisions.",
+      "sourceSection": "Corporate Formalities"
+    },
+    {
+      "name": "Entity Comparison Framework (Sole Proprietorship, Partnership, C Corp, S Corp, LLC, Limited Partnership)",
+      "definition": "Sutton's structured comparison of the major U.S. business entity types by liability exposure, tax treatment, and ownership rules, used throughout the book to help readers match a structure to their specific business situation rather than defaulting to whichever is most familiar or convenient.",
+      "sourceSection": "Chapters 2–4"
+    },
+    {
+      "name": "Multiple-Entity Strategy",
+      "definition": "The practice of using more than one legal entity to compartmentalize different types of business risk — for example, holding real estate in a separate entity from an operating business — so that a liability in one area cannot reach assets held in another.",
+      "sourceSection": "Chapters 4–5"
+    }
+  ],
+  "applyThis": {
+    "actionSteps": [
+      "If you currently operate as a sole proprietor or informal partnership, research the entity type (LLC, S corp, or C corp) that best matches your specific liability exposure and tax situation, and set a target date to formalize it.",
+      "Open a dedicated business bank account this month if you haven't already, and commit to never commingling personal and business funds going forward.",
+      "Create a simple template for documenting major business decisions (a basic written consent or minutes format) and use it for your next significant business decision.",
+      "If you operate in a high-liability area like real estate, evaluate whether separating that activity into its own entity would meaningfully reduce your overall risk exposure.",
+      "Schedule an annual \"corporate formalities\" review each year — confirming your state filings are current, your meeting documentation exists, and your bank accounts remain properly separated."
+    ],
+    "reflectionQuestions": [
+      "What personal assets are currently exposed because of how your business is (or isn't) legally structured?",
+      "Have you ever commingled personal and business funds, even briefly? What would it take to build a habit that prevents this going forward?",
+      "If you were sued tomorrow, would your business's formalities hold up, or would a court likely find they'd been neglected?",
+      "Are there distinct parts of your business (different risk levels, different asset types) that might benefit from being separated into different entities?"
+    ]
+  },
+  "criticalTake": {
+    "points": [
+      "The book is written by a practicing attorney whose firm, Corporate Direct, provides the exact entity-formation and registered-agent services the book recommends readers use — a real and disclosed conflict of interest worth keeping in mind, even though the underlying legal information is standard and widely corroborated elsewhere.",
+      "Sutton's strong preference for Nevada and Wyoming entities is a reasonable strategy for some situations but is not universally optimal; for many small operators, forming and maintaining an entity in one's home state is simpler and cheaper, and the added complexity of an out-of-state entity (registered agents, foreign-entity registration) can outweigh its benefits.",
+      "U.S. tax and corporate law changes over time (rates, thresholds, and specific state rules), so readers should verify current details with a licensed attorney or accountant rather than relying solely on any single edition of the book for time-sensitive figures.",
+      "The book is U.S.-specific; its entity types, tax treatments, and state-law strategies do not transfer directly to business structures in other countries."
+    ],
+    "contextNote": "Originally published as *Own Your Own Corporation* and later revised as *Start Your Own Corporation* through several editions (a 3rd edition is referenced in current retail listings), the book's core legal-structure concepts remain broadly stable, but specific tax figures and state-law details should be checked against the most current edition or a professional advisor."
+  },
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-08-01",
+  "sourceNotes": "Synthesis based on general knowledge of the book plus web verification of its subject matter, entity-comparison structure, chapter topics (confirmed via retailer and summary sources, including a confirmed \"Chapter 16: Know Who Your Directors and Officers Are!\"), and author biography, cross-checked in July 2026. Chapter numbering and exact chapter count in this entry are an approximation based on available secondary sources rather than a confirmed full table of contents; the topics and sequence reflect the book's well-documented overall structure. Quote footprint for this title is genuinely thin in public sources, as flagged above — most available \"quotes\" online are paraphrased summary content rather than verbatim text, and only the two verified lines above have been included."
+}

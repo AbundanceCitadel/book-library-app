@@ -1,0 +1,153 @@
+{
+  "id": "on-strategy",
+  "code": "188",
+  "title": "On Strategy (The Boston Consulting Group on Strategy / Perspectives on Strategy)",
+  "author": "The Boston Consulting Group",
+  "categories": [
+    "business-strategy"
+  ],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 540,
+  "tags": [
+    "corporate-strategy",
+    "bcg-matrix",
+    "experience-curve",
+    "competitive-advantage",
+    "management-classics"
+  ],
+  "structureType": "parts",
+  "summary": "On Strategy collects several decades' worth of short strategic essays — BCG calls them \"Perspectives,\" typically under 1,200 words each — written primarily by BCG founder Bruce D. Henderson and other senior BCG consultants between the late 1960s and the mid-2000s. Rather than a single continuous argument, the book is an anthology, organized thematically into sections covering the foundational logic of competitive strategy, portfolio and resource-allocation thinking, time and organizational structure as sources of advantage, and the evolution of strategic thinking as markets globalized and digitized. Read together, the essays trace both the founding logic of the modern strategy-consulting discipline and how BCG's own thinking evolved to meet new competitive conditions over nearly forty years.\n\nThe earliest and most foundational material, largely written by Henderson himself, lays out ideas that have become standard vocabulary in business strategy: the experience curve (the observation that unit costs tend to fall by a predictable percentage with each doubling of cumulative production), the growth-share matrix (BCG's famous framework classifying business units as \"stars,\" \"cash cows,\" \"question marks,\" or \"dogs\" based on market growth and relative market share), and the concept of sustainable competitive advantage as the central object of strategic thinking. Henderson's central claim, developed across many of the earliest Perspectives, is that strategy is fundamentally about deliberately organizing a business to achieve and defend a durable point of differentiation from competitors, rather than simply pursuing efficiency or growth for their own sake.\n\nA second major thread, developed by later BCG partners as markets grew more complex, extends this foundational logic into new terrain: time-based competition (arguing that speed of execution itself becomes a durable competitive advantage), deconstruction of value chains (as technology allowed previously integrated industries to fragment into specialized competitors), and rethinking corporate structure and capability as sources of advantage beyond simple market-share position. These later essays generally retain Henderson's core premise — that differentiation is the essence of strategy — while updating the mechanisms through which that differentiation can be built and sustained as competitive conditions changed.\n\nBecause the book is assembled from many short, independently written pieces rather than a single sustained argument, its cumulative value lies less in narrative coherence and more in giving readers direct access to the original articulation of ideas — the experience curve, the growth-share matrix, time-based competition — that have since become diffused, often in simplified or distorted form, throughout mainstream business thinking. Reading the originals, the book implicitly argues, corrects popularized misunderstandings of concepts like the BCG matrix that have often been taught more crudely than Henderson and his colleagues originally intended.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "The Logic of Strategy and Competitive Advantage",
+      "summary": "This opening section, drawn heavily from Bruce Henderson's earliest and most foundational Perspectives, lays out the basic premise that all durable business success rests on maintaining a unique competitive advantage that persists over time, since competitors who lack any real differentiation are eventually driven into unsustainable price competition. Henderson uses biological and economic analogies (competitive exclusion, niche differentiation) to argue that just as species must differentiate to coexist in an ecosystem, competitors must differentiate to survive in a market, framing strategy as fundamentally the deliberate management of that differentiation. The section closes by setting up the practical tools BCG developed to help firms diagnose and act on this logic, which the following section develops in detail.",
+      "keyLessons": [
+        "Henderson frames the entire discipline of strategy around one organizing question: what is your durable, defensible point of difference from competitors?",
+        "Competitors lacking genuine differentiation are argued to be structurally doomed to unsustainable price competition over time.",
+        "The biological analogy (competitive exclusion) is used to argue that market competition follows patterns with parallels in natural ecosystems, not arbitrary business dynamics."
+      ]
+    },
+    {
+      "order": 2,
+      "title": "The Experience Curve and Cost Position",
+      "summary": "This section presents Henderson's experience curve concept in detail: the empirical observation, drawn from BCG's early research across multiple industries, that unit production costs tend to decline by a fairly consistent percentage (commonly cited around 20–30%) each time cumulative production volume doubles. The essays here work through the strategic implications — that a company with a durable volume/market-share lead in a given product can achieve a durable cost advantage over competitors, provided it invests aggressively enough early to build and defend that lead. The section closes by connecting cost position directly to the resource-allocation logic of the growth-share matrix developed in the next section, since experience-curve thinking underlies why market share itself came to be treated as a strategic asset worth investing in.",
+      "keyLessons": [
+        "The experience curve links accumulated production volume to falling unit costs, giving early market-share leaders a durable, compounding cost advantage.",
+        "This logic reframes market share itself as a strategic asset worth pursuing aggressively, not merely a scoreboard of current success.",
+        "The concept assumes continued aggressive investment to defend a volume lead, since a competitor who out-invests you can erode the advantage over time."
+      ]
+    },
+    {
+      "order": 3,
+      "title": "The Growth-Share Matrix and Portfolio Strategy",
+      "summary": "This section presents BCG's best-known contribution to management thinking: the growth-share matrix, which classifies a company's various business units along two axes (market growth rate and relative market share) into four categories — stars (high growth, high share), cash cows (low growth, high share), question marks (high growth, low share), and dogs (low growth, low share) — as a tool for allocating capital across a diversified corporate portfolio. The essays argue that mature, cash-generating businesses (cash cows) should be used to fund the growth of promising but not-yet-dominant businesses (question marks) toward star status, rather than reinvesting all cash cow profits back into the same mature business or allowing it to be starved by more exciting but unproven ventures. The section closes by acknowledging the tool's later popularization and simplification in business education, and other essays elsewhere in the book push back on some of the matrix's more mechanical popular applications.",
+      "keyLessons": [
+        "The growth-share matrix was originally intended as a capital-allocation diagnostic across a diversified portfolio, not a standalone predictor of individual business unit success.",
+        "The \"cash cow\" concept specifically argues for deliberately funding growth businesses with mature-business cash flow, rather than either starving growth bets or over-investing in already-mature units.",
+        "BCG's own later essays acknowledge the matrix has often been applied more rigidly and mechanically in business education than its original architects intended."
+      ]
+    },
+    {
+      "order": 4,
+      "title": "Time-Based Competition",
+      "summary": "Drawing on later BCG partners' work (notably associated with George Stalk), this section develops the argument that speed — of product development, manufacturing, order fulfillment, and organizational decision-making — became, by the late 1980s, as significant a source of competitive advantage as low cost or product differentiation had been in earlier decades. The essays use case material from manufacturing and retail to show how companies that compressed their cycle times gained compounding advantages in customer responsiveness, inventory efficiency, and market feedback speed, treating time itself as a manageable, strategically significant resource rather than a fixed constraint. The section closes by connecting this shift to changing organizational structure, since compressing time typically required flattening decision layers and reorganizing around end-to-end process flow rather than functional silos.",
+      "keyLessons": [
+        "Speed of execution across the full business cycle is presented as a distinct, durable source of competitive advantage, not merely an operational efficiency metric.",
+        "Cycle-time compression is shown to compound across multiple dimensions: customer responsiveness, inventory cost, and speed of market learning.",
+        "Achieving meaningful time-based advantage typically required organizational restructuring, not just process tweaks within existing functional silos."
+      ]
+    },
+    {
+      "order": 5,
+      "title": "Deconstruction, Organization, and the Modern Corporation",
+      "summary": "This closing section, drawing on later essays written as markets globalized and digitized, extends BCG's strategic logic into questions of corporate structure and industry structure itself — arguing that technology increasingly allowed previously vertically integrated industries to \"deconstruct\" into networks of specialized competitors, each focused on a narrower slice of the value chain where they could build genuine advantage. The essays argue this shift required companies to rethink not just their competitive position but their organizational design and capabilities, since a company built for integrated-industry competition would struggle in a deconstructed one without real structural change. The section, and the book, closes by tying this back to Henderson's founding premise: that strategy's core task, whatever the specific competitive tools and market structure of the moment, remains the deliberate creation and defense of differentiation.",
+      "keyLessons": [
+        "Technological change is shown to enable the \"deconstruction\" of previously integrated industries into networks of specialized competitors, changing where and how differentiation can be built.",
+        "Organizational design and capability, not just market positioning, are treated as strategic variables that must evolve alongside changing industry structure.",
+        "The book's closing argument circles back to Henderson's founding premise, treating differentiation as the constant, unifying object of strategy across every era and tool covered in the collection."
+      ]
+    }
+  ],
+  "keyLessons": [
+    "Strategy's core task, across every era of BCG's thinking, is building and defending a durable point of differentiation from competitors — not efficiency or growth for their own sake.",
+    "The experience curve treats accumulated production volume as a source of compounding cost advantage, making early aggressive investment in market share a strategic, not just operational, decision.",
+    "The growth-share matrix was designed as a capital-allocation tool across a diversified portfolio, and has often been applied more rigidly in business education than its creators intended.",
+    "Cash-generating mature businesses should actively fund promising growth businesses, rather than being milked purely for short-term profit or losing funding to more exciting but unproven ventures.",
+    "Speed of execution across product development, manufacturing, and decision-making became a distinct, durable competitive advantage by the late 20th century.",
+    "Technological change can \"deconstruct\" previously integrated industries into specialized competitor networks, changing where differentiation can actually be built.",
+    "Organizational structure and capability need to evolve alongside strategy — a structure suited to one competitive era can actively hinder a company in the next."
+  ],
+  "quotes": [
+    {
+      "text": "All competitors who persist over time must maintain a unique advantage by differentiation over all others. Managing that differentiation is the essence of long-term business strategy.",
+      "attribution": "Bruce D. Henderson",
+      "category": "The Core Logic of Strategy"
+    },
+    {
+      "text": "For more than forty years, The Boston Consulting Group has been shaping strategic thinking in business.",
+      "attribution": "Carl W. Stern and Michael S. Deimler, editors' introduction",
+      "category": "Editorial Framing"
+    }
+  ],
+  "whoThisIsFor": "Strategy practitioners, MBA students, and executives who want direct access to the original articulation of foundational strategy concepts (experience curve, BCG matrix, time-based competition) rather than secondhand, simplified textbook summaries of them.",
+  "whenToReadThis": "Useful both as a historical grounding in how modern corporate strategy as a discipline developed, and as a practical reference when facing a specific strategic question (portfolio allocation, cost position, speed) that one of the book's sections addresses directly.",
+  "relatedBooks": [],
+  "authorBio": {
+    "name": "The Boston Consulting Group (primary contributor: Bruce D. Henderson)",
+    "bio": "The Boston Consulting Group (BCG) was founded in 1963 by Bruce D. Henderson, an American business consultant who is widely credited, along with BCG, as one of the founding architects of modern corporate strategy as a distinct professional discipline. Henderson led BCG for several decades and personally authored a large share of the firm's most influential early \"Perspectives,\" including the original articulation of the experience curve and the growth-share matrix.\n\nFollowing Henderson, generations of BCG partners continued contributing to the firm's body of published strategic thinking, extending its foundational logic into new areas such as time-based competition, industry deconstruction, and organizational capability as competitive conditions evolved through the late 20th and early 21st centuries. This book compiles work from many of these contributors alongside Henderson's foundational essays.\n\nBCG itself grew from Henderson's original firm into one of the world's largest and most influential management consulting firms, and its published \"Perspectives\" — brief strategic essays distributed to executive clients — became one of the most direct and widely read channels through which its strategic thinking reached the broader business world.",
+    "notableWorks": [
+      "Henderson on Corporate Strategy (Bruce D. Henderson)",
+      "Competing Against Time (George Stalk and Thomas M. Hout)"
+    ]
+  },
+  "conceptsFrameworks": [
+    {
+      "name": "The Experience Curve",
+      "definition": "BCG's empirical finding that unit production costs fall by a fairly consistent percentage each time a company's cumulative production volume doubles, giving companies with an early, sustained volume lead a durable, compounding cost advantage over competitors.",
+      "sourceSection": "The Experience Curve and Cost Position."
+    },
+    {
+      "name": "The Growth-Share Matrix (BCG Matrix)",
+      "definition": "A portfolio-management framework classifying business units into four categories — stars, cash cows, question marks, and dogs — based on market growth rate and relative market share, designed to guide capital allocation decisions across a diversified corporate portfolio.",
+      "sourceSection": "The Growth-Share Matrix and Portfolio Strategy."
+    },
+    {
+      "name": "Time-Based Competition",
+      "definition": "The argument, developed in later BCG essays, that compressing cycle time across product development, manufacturing, and decision-making constitutes a distinct and durable source of competitive advantage, comparable in significance to cost or product differentiation.",
+      "sourceSection": "Time-Based Competition."
+    },
+    {
+      "name": "Industry Deconstruction",
+      "definition": "The concept that technological and market change can break apart previously vertically integrated industries into networks of specialized competitors, each competing on a narrower slice of the value chain, changing where and how firms can build sustainable advantage.",
+      "sourceSection": "Deconstruction, Organization, and the Modern Corporation."
+    }
+  ],
+  "applyThis": {
+    "actionSteps": [
+      "Map your own company's (or your team's) core offerings onto a simplified growth-share logic: which are mature cash generators, and which are promising but underfunded growth bets that could use some of that cash?",
+      "Identify one place in your business where cycle time (not cost or quality) could become a genuine competitive differentiator, and estimate what compressing it by half would actually require organizationally.",
+      "Write down your single clearest answer to \"what is our durable, defensible difference from competitors\" — and note honestly if you can't answer it clearly, since Henderson treats that as a serious strategic gap.",
+      "Look at your industry's value chain and identify one link that could plausibly be \"deconstructed\" by a more specialized competitor, and consider whether that's a threat or an opportunity for you."
+    ],
+    "reflectionQuestions": [
+      "Where in your own portfolio of activities are you unintentionally funding a \"dog\" out of habit rather than an active growth bet?",
+      "Is your organization currently structured for the competitive logic of ten years ago, or for the one you're actually facing today?"
+    ]
+  },
+  "criticalTake": {
+    "points": [
+      "The growth-share matrix, while historically influential, has been widely criticized in later strategy literature for oversimplifying complex business-unit dynamics into just two variables (market growth and relative share), and for encouraging mechanical \"harvest the cash cow\" decisions that can undervalue mature businesses' remaining strategic potential.",
+      "The experience curve does not hold uniformly across all industries, and its predictive power weakens significantly in industries where innovation, branding, or regulatory factors matter more than accumulated production volume — a limitation some later BCG essays in this same volume acknowledge.",
+      "Because the book compiles essays written across nearly four decades, its later sections implicitly critique or complicate ideas presented as more universal in its earliest sections, and the anthology format doesn't always make these tensions explicit for readers moving straight through.",
+      "The essays' brevity (many under 1,200 words, designed for busy executives) prioritizes memorable, actionable framing over rigorous empirical demonstration, meaning many claims are illustrated with a handful of supporting cases rather than exhaustively tested."
+    ],
+    "contextNote": "Several of the book's foundational frameworks (the growth-share matrix especially) have been substantially critiqued and refined by later strategy scholars since their original publication, but they remain widely taught precisely because they were among the first frameworks to make portfolio-level capital allocation logic explicit and teachable, and reading the originals in this volume corrects some of the oversimplification the frameworks picked up as they spread into mainstream business education."
+  },
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-08-01",
+  "sourceNotes": "This entry is based on general, well-established knowledge of BCG's foundational strategy concepts (the experience curve, the growth-share matrix, time-based competition) and on search-verified details about the book's structure, editors, and contributor history, including one directly verified quote from Bruce Henderson. Given the book's nature as a multi-decade anthology of many short, separately authored essays, its public quote footprint is thinner and more fragmented than a single-author bestseller, so this entry uses two verified quotes rather than the fuller 20–30 range used for the batch's mainstream single-author titles."
+}

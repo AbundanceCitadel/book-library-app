@@ -351,7 +351,109 @@ page, and `"No. 377"` rendering correctly on the Atomic Habits detail page.
 
 ---
 
+### Stage 19 — 310-Book New-Content Pipeline, First Pass (12 of 31 batches)
+
+**Status:** Batches 1-20 of 31 done. 170 new books added total (103 from
+batches 1-12, +67 from batches 13-20 this session), library grows from 66 to
+236 of 377 titles. 30 titles excluded pending re-identification across both
+passes (17 from batches 1-12, 13 from batches 13-20 — see below for both
+lists). 11 of 31 batches (21-31, ~110 candidate books) remain queued in
+`New Book Prompts`/`New Book Documents` for a future session.
+
+Thai had already run 12 of the 31 browser-chat batches from `New Book Prompts`
+(310 books total = every catalog title not yet written) and saved the results
+in `New Book Documents/batch-01-books.md` through `batch-12-books.md` (120
+books). Asked to "implement it into the actual app" — i.e. convert that
+markdown into real `content/books/*.json` entries and get them live.
+
+Built a Python parser (kept outside the repo, not committed) to convert each
+batch document's fixed markdown structure into the schema's exact JSON shape,
+cross-referencing `content/catalog.json` by title to pull each book's already-
+assigned permanent `code` (all 120 matched on the first pass, no manual
+disambiguation needed — unlike the Stage 18 code migration).
+
+**Before converting, audited all 120 for schema-depth compliance rather than
+assuming the browser-chat output matched the prompt's own depth bar.** Found
+two real issues, both disclosed rather than silently absorbed:
+
+1. **17 of 120 books came back as honest non-fabrication refusals** — the
+   browser chat couldn't confirm a specific title/author/edition/structure
+   well enough to write real content (ambiguous multi-edition authors like
+   A. Scott Berg, partial/incomplete catalog titles like "Human Life and...",
+   several obscure Vietnamese titles with no locatable source material) and
+   correctly wrote a plain refusal instead of inventing chapters, quotes, or
+   an author bio, per `PROJECT_BRIEF.md` §6's copyright policy. These 17 were
+   excluded from this pass rather than published as near-empty stub pages —
+   full slug list below. They need better identifying information from Thai
+   (a photo of the spine, ISBN, or publisher) for a future targeted re-run.
+2. **Quote counts are systematically below the 20-30/book target across
+   nearly all 103 included books** (average ~2.5, many single digits, several
+   at 0) — not a fabrication problem (every quote present is honestly sourced,
+   consistent with `docs/CONTENT_PIPELINE.md`'s explicit "use fewer rather
+   than pad" fallback) but a real depth shortfall versus both the batch
+   prompts' own stated bar and the existing 66-book library's average. Most
+   likely explained by these 310 books being meaningfully more obscure/niche
+   (many Vietnamese-language or small-press titles) than the original 66,
+   which skewed toward well-known bestsellers with large public quote
+   footprints. Flagged here rather than silently shipped as if it hit the
+   usual bar — a future enrichment pass is possible if Thai wants one, but
+   nothing here is fabricated or wrong, just thinner than ideal.
+
+**Excluded (17, pending re-identification):** `101-loi-khuyen-khoi-nghiep`,
+`47-chieu`, `8-to-chat-tri-tue`, `a-scott-berg-biography-title-unclear`,
+`bach-gia-chu-tu-trong-doi-nhan-xu-the`, `ban-chat-cua-doi-tra`,
+`bat-thay-doc-vi`, `bear-market-investing-strategies`,
+`dai-cuong-lich-su-triet-hoc-phuong-dong`, `danh-ngon-dong-phuong`,
+`dao-tri-gia`, `dung-viec`, `giai-ma-mo-hinh-quan-ca-phe-doc-lap`,
+`hoa-lan-nuoi-trong-va-kinh-doanh`, `human-life-and`,
+`khong-tu-tu-tuong-sach-luoc`, `ky-nang-giao-tiep-thuyet-kiem-tien`.
+
+**Mechanics:** worked in a fresh `/tmp` clone of `origin/main` rather than the
+synced folder directly (100 files already modified there from a parallel
+in-progress track, untouched per established precedent — `DECISIONS.md`
+#161/#173/#196 — plus the synced folder's `node_modules` was a broken partial
+copy, same class of issue as `DECISIONS.md` #183). Also hit and fixed a
+corrupted single-package cache entry (`csstype`, truncated mid-file) that
+`--prefer-offline` had silently accepted — a fresh `npm install` resolved it.
+Verified via 3 separate clean `npm run build` runs (one per checkpoint, Google
+Fonts stubbed in a scratch copy only, real `app/layout.tsx` never touched),
+each confirming the growing book count (98, then 133, then 169 static
+`/book/[id]` pages, zero errors). Pushed in 3 commits of ~35 books each using
+a classic GitHub PAT supplied inline (never persisted), each verified live via
+the Vercel MCP connector (`READY`, correct commit SHA) and a direct fetch of
+a new book page plus the home page's "169 full summaries written" counter.
+
+**Next up:** 19 of 31 batches (batches 13-31, ~190 candidate books) remain to
+be run as browser-chat batches and then converted the same way, whenever Thai
+wants to continue. The 17 excluded titles are a separate, smaller follow-up
+once Thai can supply better identification for them.
+
+---
+
+
+**2026-08-01 — Batches 13-20 conversion pass (67 of 80 candidates added):** Thai had run 8 more browser-chat batches (13-20 of 31) since the last session and saved them in `New Book Documents/batch-13-books.md` through `batch-20-books.md` (80 candidate books — all 80 already written with the full v2.1 8-tab structure, since Stage 15's prompt-file update the prior session had already added Concepts & Frameworks/Apply This/Critical Take to all 31 batch prompts before any of batches 13-31 were run). Asked which of two options to prioritize (convert the backlog now vs. wait for Thai to finish all 31 batches first) — Thai chose converting now, in parallel with him continuing batches 21-31.
+
+Rebuilt the batch-markdown-to-JSON parser from scratch (the prior session's parser was explicitly "kept outside the repo, not committed," so nothing carried over) as a Python script kept outside the repo, worked in a fresh `/tmp` clone of `origin/main` per the established pattern (`DECISIONS.md` #31-35/#121-122/#174).
+
+1. **Refusal detection needed to be broader than a simple `Structure Type: unknown` check.** The first pass caught only the browser chat's cleanest refusal format and missed two real variants: (a) fields left as `"N/A — see Source Notes"` rather than a bare `"unknown"`, and (b) a small number of entries where the *visible* top-level fields still looked normal (e.g. `Structure Type: chapters`) but a nested `### Source Notes (read first — limited-confidence entry)` block partway down the entry re-declared every field as unverified and every section as "Not included." Fixed by also checking whether both the `Sections` and `Key Lessons (Whole Book)` text blocks themselves independently start with a refusal phrase (`"not included"`, `"not completed"`, etc.) — catches the nested-refusal format without needing to special-case its exact wording, and was verified not to over-trigger on legitimate honestly-hedged entries that still have real content (e.g. `quyet-doan-trong-tu-duy-logic-1-phut`, a "best-match identification, moderate confidence" entry with a full 6-chapter breakdown, correctly kept). Landed on **13 of 80 genuine refusals** (up from the code's naive first count of 9) — full slug list below.
+2. **Found and fixed a real Unicode normalization bug that was silently producing wrong catalog-code matches**, not just failing to match: Vietnamese "Đ/đ" (D with stroke, U+0110/U+0111) has no NFKD decomposition to plain "D"/"d" the way accented vowels do (e.g. "á" → "a" + combining acute) — it's dropped entirely by a strip-diacritics-via-NFKD approach instead of degrading to "d". This silently corrupted the normalized match key for every title containing that letter (e.g. `"Sống Đời Hạnh Phúc"` normalized to `"song oi hanh phuc"`, missing both instances of "đ"), which in one case produced a genuine wrong-catalog-code match (`song-doi-hanh-phuc` matched to catalog code 117, "How to Stop Worrying and Start Living," instead of its own catalog row at code 230) before the JSON was ever written. Fixed by explicitly mapping `Đ→D`/`đ→d` before NFKD stripping, then re-ran the full match set to confirm no other Đ-affected titles had silently mismatched.
+3. **Also found and fixed two more real wrong-catalog-code matches, unrelated to the Unicode bug**, caught only by an explicit duplicate-code sweep across the full 236-book set before committing: a Vietnamese-edition book's doc title contains its English original title as a parenthetical gloss (e.g. `"Nghĩ Giàu Làm Giàu (Think and Grow Rich, Vietnamese edition, Yuan Phong translation)"`), and a naive "does the catalog title appear anywhere in this string" substring check matched the *shorter, unrelated* English catalog row (`"Think and Grow Rich"`, code 325) instead of the correct Vietnamese-edition row (`"Nghi Giau & Lam Giau (Think and Grow Rich, VN ed. ...)"`, code 178) — the correct row's "VN ed." wording didn't literally appear in the doc's "Vietnamese edition" phrasing, so only the wrong, shorter match succeeded. Same pattern separately caused `sieu-co-...` to match code 108 instead of its real code 225. Fixed by re-ordering the whole matching strategy to always prefer an **exact** normalized-title match over any substring/containment match, checked across four candidate strings in trust order (the doc's own title, then the batch-prompt file's title — which is quoted directly from `content/catalog.json` and is a much cleaner match key than the browser chat's own diacritic-heavy, subtitle-annotated title — then paren-stripped and colon-stripped variants of each), with raw substring containment demoted to an explicit last resort. Re-ran against all 67 non-refusal entries: **all 67 now resolve via an exact match** (53 via the prompt-file title, 14 via the doc's own title), zero relying on substring containment, zero ambiguous/manual-review cases remaining — a meaningfully more reliable result than the batch 1-12 pass's title-matching (which was manual/hand-verified per book, not exact-match-enforced by construction).
+4. **Caught a schema-conformance bug via the build itself, not just visual review**: the first `npm run build` attempt failed all 67 new pages at static-export time (`TypeError: Cannot read properties of undefined (reading 'map')`) because the parser omitted the `relatedBooks` field entirely for books with no related-book links — `docs/SCHEMA.md` marks it optional, but `lib/books.ts`'s actual `Book` type has it as a required (non-optional) `string[]`, and `app/book/[id]/page.tsx` calls `.map()` on it unconditionally. Fixed by always emitting `"relatedBooks": []` rather than omitting the key. Re-ran a full build afterward: **258 static pages, zero errors** (169 existing + 67 new + non-book routes), confirmed with a clean `tsc --noEmit` and a runtime `npm run start` smoke test (new English and Vietnamese book pages both 200, a "thin" honestly-partial entry renders without crashing, `atomic-habits` still correctly shows `"No. 377"`, category pages still load) — Google Fonts stubbed in the scratch build-test copy only, real `app/layout.tsx` never touched, per the established pattern.
+5. **Audited all 67 for depth same as the batch 1-12 pass, not assumed to match the prompt's stated bar just because the prompt had been updated.** Quote counts remain thinner than the v2 20-30 target (avg 3.1/book, same "honestly thin, not padded" pattern as batch 1-12's 2.5 average) but every other v2.1 field is meaningfully healthier than the first pass: `keyLessons` avg 8.3 (min 5, batch 1-12 had books with 0), `conceptsFrameworks` avg 2.8, `applyThis.actionSteps` avg 4.7 (min 3), `criticalTake.points` avg 3.9 (min 3) — expected, since batches 13-20 were the first batches run after Stage 15's v2.1 prompt-file update, while batches 1-12 predated it and needed no v2.1 audit at all. **5 of 67 books have an honestly-disclosed gap** (no chapter/part-level `sections`, or no `quotes`, or both) where the browser chat explicitly declined to invent chapter content or quotes it couldn't verify rather than padding — `multiply-your-business` and `phuong-hoang-tai-sinh` (no sections), `minh-tam-bao-giam`, `nhung-tu-tuong-gia-vi-dai-phuong-dong`, and `straight-from-the-ceo` (no quotes) — all still included since every other field is fully populated and the gaps are disclosed in each book's own `sourceNotes`, not silently absorbed.
+6. **Found (but did not fix) a pre-existing gap unrelated to this session's work**: 4 already-committed books (`dotcom-secrets`, `delivering-happiness`, `charlie-munger-the-complete-investor`, `built-to-last`) have `code: null` — these are the same four files decision #177 (Session 21) flagged as "genuine new retrofit content from the parallel Stage 15 track... left all four untouched." They predate this session and are outside batches 13-20's scope; flagging again here so a future session (either this parallel track's own continuation, or the next new-books pass) assigns them their real catalog codes rather than the gap persisting silently.
+7. **This session's `origin/main` clone of `ROADMAP.md` was missing the entire "Stage 19, First Pass" status block above** (present in the synced folder, confirmed byte-identical to origin/main otherwise via a full diff, and confirmed `DECISIONS.md` itself was already byte-identical/fully pushed) — i.e. the batch 1-12 session's content commit landed on `origin/main` but that session's own `ROADMAP.md` narrative update apparently didn't get included in the push. Carried the missing block forward into this session's commit (verbatim, only the **Status** line above updated for this session's continuation) rather than leaving the gap, so `origin/main`'s `ROADMAP.md` now matches what both the synced folder and this session's own work actually reflect.
+
+**Excluded, batches 13-20 (13, pending re-identification):** `manipulation-and-dark-psychology`, `muon-lam-ong-chu-gioi`, `nghe-thuat-hieu-nguoi-dung-doanh-nghiep`, `nghe-thuat-xu-the`, `nghe-thuat-xu-the-hoa-giai`, `nguoi-thanh-cong-co-1-cach-nghi-khac-biet`, `nguyen-hien-le-nghe-thuat-ghi-chep`, `nhung-dieu-gian-di-nhu-toi-biet-khi-bat-dau-di-lam`, `nhung-phap-khich-le-nhan-vien-tien-khong-lam-duoc`, `nhung-sai-lam-de-mac-phai-trong-cuoc-song`, `phong-thuy-feng-shui`, `quan-he-quyet-dinh-thanh-bai`, `small-business-planning`.
+
+**Mechanics:** same `/tmp`-clone-and-rebuild pattern as the batch 1-12 pass and the established git-lock workaround (`DECISIONS.md` #31-35/#121-122/#174) — worked in a fresh `/tmp` clone of `origin/main`, never touched the synced folder's own working tree (which still has its own separate uncommitted parallel-track changes, confirmed untouched throughout). Pushed with a classic GitHub PAT supplied inline by Thai (never persisted), verified live via the Vercel MCP connector (`READY`, correct commit SHA) and a direct fetch of a new book page plus the home page's updated book-count.
+
+**Next up:** 11 of 31 batches (batches 21-31, ~110 candidate books) remain to be run as browser-chat batches and converted the same way — Thai is continuing these in parallel. The 30 excluded titles across both passes are a separate, smaller follow-up once Thai can supply better identification for them (a photo of the spine, ISBN, or publisher).
+
+---
+
 ## Session Log
+
+**2026-08-01 — Session 22 (Stage 19 continued, batches 13-20 conversion):** Thai had run 8 more browser-chat batches (13-20 of 31, 80 candidate books) since the last new-content session and asked which to prioritize next — converting that backlog into the app, or waiting until he finishes all 31 batches. Chose to convert now, in parallel with Thai continuing batches 21-31. Rebuilt the batch-to-JSON parser from scratch, found and fixed a Vietnamese "Đ" Unicode-normalization bug and two real wrong-catalog-code matches before they reached committed JSON, added 67 of 80 candidates (13 genuine refusals, up from a naive first pass's undercount of 9), and caught a `relatedBooks`-omission bug via the build itself (first attempt failed all 67 new pages at static-export time). Also found this session's `origin/main` `ROADMAP.md` was missing the entire prior "Stage 19, First Pass" status block (present in the synced folder but apparently never pushed) and carried it forward. Full breakdown, all six real issues found/fixed, and the excluded-title list: see Stage 19 above. Verified via `tsc --noEmit` (clean) and a `/tmp`-mirror `npm run build` + `npm run start` smoke test (258 static pages, zero errors). See `DECISIONS.md` #186+ and the chat response for push/deploy verification.
 
 **2026-07-31 — same session, continued (Stage 18, box-in-box + book codes):** Thai reviewed the live Stage 17 changes ("This is good. I like it.") and asked for two more visual changes plus a new numbering system: separate boxes for each category (2-column grid, since 16 short rows in one wide column left empty space) and for each book (2 rows: code+title+author, then a 2-3 sentence description), and a permanent 001-999 code per book. Implemented all three — see Stage 18 above for the itemized list and `docs/DESIGN_SYSTEM.md` "Design System v5" for full rationale. The book-code migration required real care: 42 of 66 written books' titles didn't exact-match their `content/catalog.json` row (subtitles, punctuation, a Vietnamese-titled duplicate, one book — Atomic Habits — with no catalog row at all since it predates the catalog) — resolved via hand-verified matching, not blind fuzzy matching, with every ambiguous case checked individually before writing anything (`DECISIONS.md` #200-201). Also caught and fixed a self-inflicted diff-hygiene issue: the first migration attempt reformatted every touched JSON file's structure while adding the field, caught via an implausibly large `git diff --stat` before committing, redone as minimal single-line text insertions (`DECISIONS.md` #202). Verified via the same fresh-clone-plus-rsync build workflow as Stage 17 (`npm run build` clean, 88 pages, zero TypeScript errors). See the chat response for push/deploy status.
 

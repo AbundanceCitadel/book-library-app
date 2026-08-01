@@ -1,0 +1,147 @@
+{
+  "id": "renovate-before-you-innovate-cau-tien-truoc-phat-kien-sau",
+  "code": "213",
+  "title": "Renovate Before You Innovate (Cải Tiến Trước, Phát Kiến Sau)",
+  "author": "Sergio Zyman",
+  "categories": [
+    "marketing"
+  ],
+  "language": "vi",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 300,
+  "tags": [
+    "marketing",
+    "branding",
+    "growth-strategy",
+    "coca-cola",
+    "organic-growth"
+  ],
+  "structureType": "chapters",
+  "summary": "Sergio Zyman, the former Chief Marketing Officer of Coca-Cola who famously oversaw the disastrous 1985 launch of New Coke, wrote this book as an argument against his own industry's default instinct: when a brand or business stalls, the reflex is to innovate — launch something new — when the smarter, cheaper, and usually more effective move is to renovate what already exists. Zyman's core claim is blunt: the odds against any new product succeeding are brutal, and companies routinely destroy value chasing a \"big new idea\" when the actual growth was sitting unclaimed inside their existing brand, product line, or customer base the whole time.\n\nThe book's engine is the distinction between innovation (creating something genuinely new) and renovation (extracting more value from what a company already has by better understanding and serving its real essence). Zyman argues most companies overestimate how well they understand their own core essence — the specific combination of attributes, memories, and associations that made a brand successful in the first place — and that renovation starts with rigorously rediscovering that essence rather than assuming leadership already knows it. He uses Coca-Cola's own New Coke failure as his central cautionary case: the company innovated away from an essence (authenticity, continuity, stability) that customers valued precisely because it hadn't changed, and only survived the mistake by renovating back to the original formula.\n\nFrom there the book works through practical renovation levers: redefining the competitive frame a brand or product competes in (sometimes a stalled brand isn't failing at its category, it's competing in the wrong category), creating sharper customer preference through better positioning rather than new features, and building a more compelling end-to-end customer experience around an existing offering. Zyman is skeptical of innovation-for-its-own-sake culture inside large companies, where launching something new is treated as inherently prestigious regardless of whether the underlying math supports it, and argues for a much more disciplined, financially accountable approach to any growth investment, renovation or innovation alike.\n\nThe book doesn't argue that innovation is always wrong — Zyman is explicit that some situations genuinely call for it — but that most companies reach for it too early and too often, skipping the far higher-probability work of renovating what they already have. He frames renovation as demanding in its own right: it isn't a passive, low-effort alternative to innovation, but a continuous, disciplined process of staying ahead of how customer needs and market conditions are shifting around an existing core.\n\nUnderlying the whole argument is a marketing philosophy Zyman is known for across his career: marketing exists to sell more product to more people more often, and any strategy — renovation included — should be judged on whether it demonstrably grows revenue and share, not on how novel or exciting it sounds internally.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "The Innovation Trap",
+      "summary": "This opening section lays out the book's central provocation: companies have been taught, largely by their own internal cultures and by business media, to treat innovation as inherently virtuous and renovation as unglamorous maintenance — a bias Zyman argues is directly responsible for enormous, avoidable value destruction.\n\nZyman lays out the base-rate failure numbers for new product launches and argues that most companies never do the accounting that would reveal how bad these odds actually are, because internal incentives reward proposing bold new ideas rather than rigorously improving existing ones. He introduces his own experience at Coca-Cola as evidence that even world-class marketing organizations are vulnerable to this trap when they lose touch with what actually made their core business work.\n\nThe chapter closes by previewing the book's alternative: a disciplined process for rediscovering and renovating a brand's existing essence before ever greenlighting something genuinely new, setting up the deeper case study that follows.",
+      "keyLessons": [
+        "Treat any new-product proposal with the actual base-rate odds of new product failure in mind, not organizational enthusiasm.",
+        "Notice when \"innovative\" is being used internally as a synonym for \"prestigious\" rather than \"financially justified.\"",
+        "Renovation is not the passive or unambitious option — it is often the higher-probability path to growth."
+      ]
+    },
+    {
+      "order": 2,
+      "title": "The New Coke Lesson",
+      "summary": "This chapter walks through Zyman's own defining professional failure — the 1985 launch of New Coke — as the book's central case study in what happens when a company innovates away from the essence that actually drove its success.\n\nZyman explains that Coca-Cola's classic formula won blind taste tests against a sweeter reformulation, which looked like solid innovation logic on paper, but missed that customers weren't buying Coke for a marginal taste preference — they were buying continuity, authenticity, and a stable relationship with a brand that had always been there. Changing the product broke that essence even though it \"improved\" the product by the metric the company was measuring.\n\nThe chapter closes with Coca-Cola's recovery — reintroducing the original formula as Coca-Cola Classic — as proof that renovating back to a well-understood essence, once the company took the time to actually understand what it had broken, was the fix, not further innovation.",
+      "keyLessons": [
+        "A product can be objectively \"improved\" by one metric while destroying the actual reason customers buy it.",
+        "Blind taste tests and similar isolated metrics can miss the real, relational reasons a brand succeeds.",
+        "When an innovation backfires, the fix is often renovating back to a well-understood essence, not innovating further."
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Finding Your Essence",
+      "summary": "This section develops the book's central diagnostic tool: rigorously identifying a brand or product's true essence — the specific combination of attributes and associations that actually drives customer preference — since Zyman argues most executives believe they know their essence and are frequently wrong.\n\nHe lays out a process for interrogating assumptions about what a brand stands for, using customer research and historical performance data rather than internal folklore about \"what our brand is about.\" The chapter includes examples of companies that renovated successfully once they discovered their assumed essence didn't match what customers actually valued, and pivoted their renovation efforts accordingly.\n\nThe chapter closes by arguing that getting essence right is the highest-leverage single step in the entire renovation process, since every other lever — positioning, competitive frame, customer experience — depends on accurately understanding it, which the following chapters build on.",
+      "keyLessons": [
+        "Test assumptions about your brand's essence against customer data rather than internal folklore.",
+        "Every other renovation lever depends on first getting essence right — treat it as the highest-leverage step.",
+        "Be prepared for research to reveal your assumed essence doesn't match what customers actually value."
+      ]
+    },
+    {
+      "order": 4,
+      "title": "Redefining the Competitive Frame",
+      "summary": "This section introduces the idea that a stalled brand or product is sometimes not failing within its category at all — it's simply competing in the wrong category, against the wrong competitive set, for the wrong occasions.\n\nZyman argues that redefining the competitive frame — deliberately repositioning a product against a different, often larger or more relevant set of competitors and use occasions — can unlock growth without changing the underlying product at all. He works through examples where category-expansion thinking (asking what else this product could be competing against, not just who else makes something similar) surfaced significant untapped demand.\n\nThe chapter closes by connecting competitive-frame redefinition back to the essence work of the prior chapter — you can only credibly redefine the frame if you understand which parts of your essence are genuinely portable to the new frame and which aren't.",
+      "keyLessons": [
+        "Ask what else your product is really competing against, not just who else makes something similar.",
+        "Category-expansion through repositioning can unlock demand without any product change at all.",
+        "Only redefine your competitive frame in ways consistent with your actual, verified brand essence."
+      ]
+    },
+    {
+      "order": 5,
+      "title": "Creating Preference and Customer Experience",
+      "summary": "This section moves from strategic framing to execution, arguing that renovation ultimately succeeds or fails on whether it creates sharper customer preference and a more compelling end-to-end experience — not just cleverer positioning language.\n\nZyman covers how companies can strengthen preference through better communication of existing (not new) product benefits, more disciplined segmentation, and redesigning the customer experience around the existing offering so that the full journey — not just the product itself — reflects the renovated essence and positioning. He stresses financial accountability throughout: every renovation initiative should be tracked against actual revenue and share impact.\n\nThe chapter, and the book's core argument, closes by reiterating that renovation is demanding, continuous work — not a one-time fix — and that companies which build renovation into an ongoing discipline outperform those that treat it as an occasional emergency response to stalled growth.",
+      "keyLessons": [
+        "Renovate the full customer experience around an existing product, not just its positioning language.",
+        "Track every renovation initiative against actual revenue and market-share impact, not internal enthusiasm.",
+        "Build renovation into an ongoing discipline rather than an emergency response reserved for when growth stalls."
+      ]
+    }
+  ],
+  "keyLessons": [
+    "Before proposing something new, rigorously check whether the growth you need is already available by renovating what exists.",
+    "Weigh any new-product proposal against the real base-rate odds of new product failure, not internal excitement.",
+    "Rediscover your brand's actual essence through customer data before attempting to renovate or reposition it.",
+    "Recognize when a product can be \"improved\" by a narrow metric while quietly destroying the real reason customers buy it.",
+    "Ask what else your product is really competing against — the right competitive frame can unlock growth alone.",
+    "Renovate the full customer experience, not just the messaging, around an existing offering.",
+    "Judge every marketing initiative, renovation or innovation, against measurable revenue and share impact.",
+    "Treat renovation as continuous, disciplined work, not a passive fallback when a bold idea isn't available."
+  ],
+  "quotes": [
+    {
+      "text": "Only one of every 58 new product introductions succeeds.",
+      "attribution": "Sergio Zyman, Renovate Before You Innovate",
+      "category": "Innovation Skepticism"
+    }
+  ],
+  "whoThisIsFor": "Marketing leaders and brand managers at established companies with an existing customer base, who are under internal pressure to launch something new rather than fix or extract more value from what they already have.",
+  "whenToReadThis": "Read it when a stalled or declining brand is about to greenlight a costly new product launch, before that decision is finalized.",
+  "relatedBooks": [],
+  "authorBio": {
+    "name": "Sergio Zyman",
+    "bio": "Sergio Zyman is a Mexican-American marketing executive best known for his tenure as Chief Marketing Officer of the Coca-Cola Company, a role in which he oversaw major branding initiatives including the widely studied and criticized 1985 launch of New Coke. He later returned to Coca-Cola and became a prominent, outspoken voice arguing for marketing accountability tied directly to sales results rather than creative prestige.\n\nAfter leaving Coca-Cola, Zyman founded the Zyman Group, a strategic marketing consulting firm whose client roster has included major corporations across industries. He became known for a blunt, results-first marketing philosophy captured in his earlier bestseller, The End of Marketing As We Know It, which argued that marketing's sole legitimate purpose is to sell more product to more people, more often, for more money — a philosophy this book extends into the specific question of when to renovate versus innovate.\n\nZyman has also lent his name to academic marketing scholarship, including an endowed institute for brand science, reflecting his standing as an influential, if polarizing, figure in modern brand marketing thought.",
+    "notableWorks": [
+      "The End of Marketing As We Know It",
+      "The End of Advertising As We Know It",
+      "Building Brandwidth (with Scott Miller)"
+    ]
+  },
+  "conceptsFrameworks": [
+    {
+      "name": "Renovation vs. Innovation",
+      "definition": "Zyman's central distinction between innovation (creating something genuinely new, with steep failure odds) and renovation (extracting more growth from an existing brand, product, or customer base by better understanding and serving its true essence). The book argues renovation is systematically underused relative to its actual success odds.",
+      "sourceSection": "The Innovation Trap"
+    },
+    {
+      "name": "Brand Essence",
+      "definition": "The specific combination of attributes, associations, and customer relationships that actually drives preference for a brand or product — often different from what a company's own executives assume it to be, and the necessary starting point for any credible renovation effort.",
+      "sourceSection": "Finding Your Essence"
+    },
+    {
+      "name": "Redefining the Competitive Frame",
+      "definition": "The practice of deliberately repositioning a product against a different, often broader, set of competitors or use occasions than the ones it has traditionally been benchmarked against, in order to unlock demand without changing the product itself.",
+      "sourceSection": "Redefining the Competitive Frame"
+    }
+  ],
+  "applyThis": {
+    "actionSteps": [
+      "Before greenlighting any \"new\" initiative at work, write out the actual base-rate odds of similar new launches succeeding, and require the new idea to beat the renovation alternative on that basis.",
+      "Run a short customer research exercise (a handful of real conversations) testing whether your team's assumed brand or product essence matches what customers actually say they value.",
+      "List three alternate competitive sets your product could be positioned against, beyond your obvious direct competitors.",
+      "Audit one underperforming product's full customer experience end-to-end, not just its marketing message, for renovation opportunities.",
+      "Set up a simple revenue/share tracking check for your next marketing initiative so its actual impact, not its internal buzz, determines whether it continues."
+    ],
+    "reflectionQuestions": [
+      "Where in your own work has \"let's build something new\" been the reflexive answer to a problem that renovation could have solved faster and cheaper?",
+      "What do you actually know — from data, not assumption — about why your best customers chose you in the first place?",
+      "If you had to defend your last major initiative purely on revenue impact, with no credit for \"innovation\" as a value in itself, would it survive?"
+    ]
+  },
+  "criticalTake": {
+    "points": [
+      "Zyman writes from deep experience in large, mature consumer packaged-goods marketing (Coca-Cola); the renovation-first framework is less obviously applicable to early-stage companies or genuinely new categories where there is no existing essence yet to renovate.",
+      "The book leans heavily on a small set of familiar large-brand examples (Coca-Cola above all); readers get less guidance on how a smaller company with thinner brand equity and less customer data should actually execute the essence-discovery research Zyman recommends.",
+      "Zyman's authority rests partly on his own admitted failure (New Coke) being framed as a teaching moment; this is persuasive but means the book's central case study is also the author's own most public professional mistake, which is worth reading with that context in mind.",
+      "\"Renovate before you innovate\" as a maxim risks being used to justify under-investment in genuine innovation at companies facing real disruption, where the existing essence may be exactly what needs to change."
+    ],
+    "contextNote": "Published in 2004, the book's framing predates the digital-platform and social-media-driven marketing environment that has since made brand essence and competitive frames considerably more fluid and fast-moving than the mostly traditional CPG examples in the book."
+  },
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-08-01",
+  "sourceNotes": "Synthesis is based on general knowledge of Zyman's marketing philosophy plus web-verified publisher, reviewer, and third-party summary descriptions of the book's core argument and the New Coke case study; the specific chapter/section titles above are thematic reconstructions of the book's known content rather than a verified original table of contents, since a full original TOC could not be independently located — flagged here rather than presented as confirmed. Quotes are limited given thin, largely paraphrased public quote availability for this title."
+}

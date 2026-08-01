@@ -1,0 +1,136 @@
+{
+  "id": "minh-tam-bao-giam",
+  "code": "161",
+  "title": "Minh Tâm Bảo Giám (明心寶鑑, \"Precious Mirror for Enlightening the Mind\")",
+  "author": "Traditional compilation, historically attributed to Fan Liben (范立本); Vietnamese circulation associated with early translators including Trương Vĩnh Ký",
+  "categories": [
+    "philosophy-psychology"
+  ],
+  "language": "vi",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 180,
+  "tags": [
+    "classical-text",
+    "confucian-ethics",
+    "moral-philosophy",
+    "proverbs",
+    "vietnamese-heritage"
+  ],
+  "structureType": "parts",
+  "summary": "*Minh Tâm Bảo Giám* is a classical East Asian moral compilation — not a single-author book in the modern sense, but a curated anthology of proverbs, maxims, and short teachings drawn from Confucian, Daoist, and Buddhist sources, along with sayings attributed to historical sages and scholars. Compiled in China during the Ming dynasty era and widely circulated across East and Southeast Asia, including a long history of use and translation in Vietnam, the text functioned historically as both a moral primer for children learning to read and a general reference of practical ethical wisdom for adults — closer in spirit to a curated wisdom anthology than a single argued thesis.\n\nThe book is organized into thematic chapters (often around twenty in traditional editions), each gathering short sayings around a specific virtue or life domain — filial piety, honesty, moderation, the consequences of good and bad conduct, governance, friendship, and self-cultivation among them. Rather than building a sustained argument, each chapter accumulates short, often self-contained aphorisms that reinforce a shared worldview: that moral conduct has real consequences (not necessarily supernatural, though some sayings carry that flavor), that self-restraint and humility are consistently praised over ambition and excess, and that a well-ordered inner life is the foundation of a well-ordered outer life — family, community, and state, in that order of scale.\n\nBecause it's an anthology rather than a single connected argument, the text rewards being read in short sessions — a few sayings at a time, reflected on individually — rather than consumed straight through for a continuous narrative or system, the way a modern self-help or business book would be. Its cultural weight in Vietnam comes less from originality (nearly none of the individual sayings are novel arguments) and more from its centuries-long role as a shared moral vocabulary passed through generations, quoted in the way a Western reader might reference a proverb or biblical verse without needing to trace its exact origin.\n\nModern readers typically approach it either as a piece of cultural and literary heritage, as a source of concise ethical reminders for daily reflection, or as a historical window into pre-modern Confucian-influenced moral education across East and Southeast Asia.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "On Continuing in Goodness (Kế Thiện)",
+      "summary": "This opening section gathers sayings on the principle that good conduct compounds and is ultimately rewarded, while wrongdoing eventually brings its own consequences, setting the moral framework the rest of the text builds on.\nThe sayings draw from Confucian and folk-wisdom sources rather than a single named philosopher, using short, memorable phrasing suited to memorization.\nIt establishes the cause-and-consequence worldview that recurs across nearly every later section.",
+      "keyLessons": [
+        "Good conduct is presented as cumulative and self-reinforcing over a lifetime.",
+        "The text frames ethics in terms of consequence, not abstract duty alone."
+      ]
+    },
+    {
+      "order": 2,
+      "title": "On Heaven's Principle / Natural Order (Thiên Lý)",
+      "summary": "This section's sayings frame moral order as connected to a broader natural or cosmic order, a common feature of pre-modern Confucian-influenced texts.\nIt reinforces humility before forces larger than the individual, cautioning against arrogance or the assumption that clever scheming can escape consequences indefinitely.\nThe section transitions into more personally-focused chapters on individual character and conduct.",
+      "keyLessons": [
+        "Humility before forces larger than oneself is repeatedly emphasized over self-assured cleverness.",
+        "Long-term consequence is treated as more reliable than short-term advantage gained through scheming."
+      ]
+    },
+    {
+      "order": 3,
+      "title": "On Moderation and Contentment (Tri Túc / An Phận)",
+      "summary": "Sayings here caution against greed and excessive ambition, praising contentment with what one has as a source of lasting peace over the anxious pursuit of more.\nThis reflects a broader theme in the text of favoring restraint over accumulation, a recurring contrast with more modern Western self-help material that often emphasizes ambition.\nIt hands off to sections on family and social conduct by extending the same restraint principle to relationships.",
+      "keyLessons": [
+        "Contentment with sufficiency is repeatedly praised over restless ambition.",
+        "Excess and greed are treated as sources of instability rather than success."
+      ]
+    },
+    {
+      "order": 4,
+      "title": "On Filial Piety and Family (Hiếu Hạnh)",
+      "summary": "This section gathers sayings on duty to parents and elders, framing the family as the foundational unit where moral character is first formed and tested.\nIt reflects the broader Confucian ordering principle that a well-ordered self leads to a well-ordered family, which in turn supports a well-ordered community.\nThe section transitions to broader social and friendship-focused sayings, extending family-based ethics outward.",
+      "keyLessons": [
+        "Family duty is treated as the training ground where broader moral character is formed.",
+        "Moral order is framed as scaling outward from self to family to community."
+      ]
+    },
+    {
+      "order": 5,
+      "title": "On Friendship and Social Conduct (Giao Hữu)",
+      "summary": "Sayings here address choosing trustworthy companions, the value of honest speech, and caution against flattery or superficial relationships.\nThis section extends the text's consequence-based worldview to social life specifically, warning that poor company shapes character just as strongly as good company does.\nIt hands off to the closing sections on self-cultivation, tying social conduct back to the individual's own character work.",
+      "keyLessons": [
+        "Choice of companions is treated as a meaningful influence on one's own character.",
+        "Honest speech is consistently praised over flattery or superficial sociability."
+      ]
+    },
+    {
+      "order": 6,
+      "title": "On Self-Cultivation and Learning (Tu Thân / Học)",
+      "summary": "The concluding sections return to the individual, gathering sayings on continuous self-improvement, humility in learning, and restraint of one's own impulses as the ultimate foundation for everything covered earlier.\nThis closes the moral arc of the text: order begins and ends with disciplined self-cultivation, and the accumulated sayings throughout function as prompts for ongoing reflection rather than a program to be finished once.\nThe text ends without a dramatic conclusion, consistent with its nature as a living reference to be revisited rather than read once and set aside.",
+      "keyLessons": [
+        "Self-cultivation is framed as continuous and never fully finished, not a program with an end point.",
+        "The text closes by returning responsibility to the individual reader's own ongoing conduct."
+      ]
+    }
+  ],
+  "keyLessons": [
+    "Good conduct is presented as cumulative — small consistent choices compound into character over time.",
+    "Contentment with sufficiency is praised over restless ambition and accumulation.",
+    "Family relationships are treated as the foundational training ground for broader moral character.",
+    "Choice of companions meaningfully shapes one's own character, according to the text's recurring warnings.",
+    "Honest, restrained speech is consistently valued over flattery or cleverness.",
+    "Humility before larger forces (natural order, consequence, fate) is favored over arrogance or scheming.",
+    "Self-cultivation is framed as a continuous, never-finished practice rather than a completed achievement.",
+    "Moral order is understood as scaling outward — from self, to family, to community — rather than starting from external rules."
+  ],
+  "quotes": [],
+  "whoThisIsFor": "Readers interested in Vietnamese and East Asian cultural heritage, classical Confucian ethics, or a proverb-style source of short daily reflections, rather than readers looking for a modern, systematically argued self-help book.",
+  "whenToReadThis": "In short, unhurried sessions — a section or a handful of sayings at a time — well suited to periodic revisiting rather than a single continuous read-through.",
+  "relatedBooks": [],
+  "authorBio": {
+    "name": "Traditional compilation (no single modern author)",
+    "bio": "*Minh Tâm Bảo Giám* is not the work of a single identifiable modern author but a compiled anthology, historically associated in its Chinese origins with a compiler named Fan Liben during the Ming dynasty era, drawing on much older Confucian, Daoist, and Buddhist source material along with folk proverbs and sayings attributed to historical figures. It circulated widely across East and Southeast Asia over subsequent centuries.\n\nIn Vietnam, the text has a long history of circulation and translation, historically associated with early Vietnamese scholars and translators working to render it into quốc ngữ (the modern Vietnamese script) for wider readership, including figures from the late 19th/early 20th century period of Vietnamese print culture; exact attribution varies across editions and I would not want to assert one specific named translator as definitive without seeing your copy's specific edition credits.",
+    "notableWorks": [
+      "(not applicable — this is a compiled traditional text, not a single author's bibliography)"
+    ]
+  },
+  "conceptsFrameworks": [
+    {
+      "name": "Kế Thiện (Continuing in Goodness)",
+      "definition": "The opening principle of the text holding that virtuous conduct accumulates and reinforces itself over time, while wrongdoing carries its own eventual consequences — the foundational cause-and-effect moral logic underlying the rest of the anthology.",
+      "sourceSection": "On Continuing in Goodness"
+    },
+    {
+      "name": "Tu Thân (Self-Cultivation)",
+      "definition": "The Confucian-derived principle, closing out the text, that ongoing personal moral discipline is the necessary foundation for order in the family, community, and beyond — an unending practice rather than a fixed accomplishment.",
+      "sourceSection": "On Self-Cultivation and Learning"
+    }
+  ],
+  "applyThis": {
+    "actionSteps": [
+      "Choose one section (e.g., moderation, family, friendship) and read only its sayings slowly, sitting with two or three that resonate, rather than reading the whole book in one sitting.",
+      "Pick one specific saying about contentment or moderation and apply it to one concrete area of ambition or acquisition in your own week.",
+      "Reflect on one relationship in your life through the \"choice of companions shapes character\" lens and note what influence it's had on you.",
+      "Identify one habit of self-restraint (in speech, spending, or reaction) you could practice deliberately this week as a form of \"tu thân.\""
+    ],
+    "reflectionQuestions": [
+      "Which of the text's themes — moderation, filial duty, honest speech, humility — feels most personally relevant to where you are right now?",
+      "Where in your life is restless ambition currently outweighing contentment with what you already have?",
+      "How has the company you keep shaped aspects of your own character, for better or worse?"
+    ]
+  },
+  "criticalTake": {
+    "points": [
+      "As a centuries-old anthology transmitted through many editions and translations, there is no single authoritative \"original text\" — different printings include different selections and orderings of sayings, so treating it as a fixed, single work (the way a modern authored book would be) somewhat misrepresents its actual textual history.",
+      "Its Confucian-influenced framing of family hierarchy, gender roles, and social order reflects pre-modern social structures that many modern readers, including in Vietnam, would consider outdated or in tension with contemporary values around gender and individual autonomy.",
+      "Because sayings are drawn from multiple, sometimes philosophically distinct traditions (Confucian, Daoist, Buddhist, folk proverb), the text is not internally systematic in the way a single-author philosophical work would be — some sayings sit in mild tension with each other rather than forming one coherent doctrine."
+    ],
+    "contextNote": "The text is best approached as a piece of cultural and literary heritage and a source of proverb-level reflection rather than as a systematic ethical treatise meant to be evaluated the way a modern argued book would be."
+  },
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-08-01",
+  "sourceNotes": "Based on general knowledge of *Minh Tâm Bảo Giám* as a well-documented traditional Confucian-influenced compilation with a long circulation history in Vietnam; I deliberately did not include invented \"exact quotes\" given the genuine textual-variation problem across editions/translations of a centuries-old anthology — flagging this honestly rather than fabricating a precise wording. If your physical copy names a specific modern editor/translator, that name should be added to the Author Bio for accuracy."
+}

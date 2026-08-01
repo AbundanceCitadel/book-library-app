@@ -1,0 +1,159 @@
+{
+  "id": "quyet-doan-trong-tu-duy-logic-1-phut",
+  "code": "211",
+  "title": "Quyết Đoán Trong Tư Duy Logic - 1 Phút (likely: Rèn Luyện Kỹ Năng Tư Duy Logic Trong 1 Phút / \"One-Minute Logical Thinking Training\")",
+  "author": "Katsumi Nishimura (best-match identification — see Source Notes)",
+  "categories": [
+    "personal-growth"
+  ],
+  "language": "vi",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 180,
+  "tags": [
+    "logical-thinking",
+    "decision-making",
+    "japanese-business",
+    "problem-solving",
+    "unverified-title-match"
+  ],
+  "structureType": "chapters",
+  "summary": "*Rèn Luyện Kỹ Năng Tư Duy Logic 1 Phút* is a practical, exercise-driven guide to logical thinking by Japanese author Katsumi Nishimura, built around a distinctive question-and-answer format: each concept is introduced through a specific problem or puzzle that the reader is asked to think through in about one minute before the author walks through the reasoning and lesson behind it. The book's premise is that logical thinking is a trainable skill, not an innate talent, and that short, repeated exercises — rather than lengthy theoretical study — are the most effective way to build it.\n\nThe book draws its examples primarily from Japanese business contexts, walking readers through how real companies and professionals apply structured thinking to see the \"whole picture\" of a problem before diving into details, to trace root causes rather than stopping at surface symptoms, and to organize scattered information into clear, layered structures that can actually be acted on and communicated to others.\n\nA recurring theme throughout is that logical thinking isn't purely an abstract intellectual exercise — it directly supports better prioritization (working out what actually deserves the most time and investment), clearer communication (organizing information so others can follow your reasoning, not just conclusions), and faster, more confident decision-making under real time pressure, which is where the book's \"one minute\" framing pays off: training the mind to reach sound structured judgments quickly, not just eventually.\n\nThe book closes by connecting its individual reasoning exercises back to practical daily and professional application — encouraging readers to treat the six chapters not as a one-time read but as a repeatable set of mental exercises to revisit, since the author frames logical thinking as a muscle that continues to strengthen with ongoing practice, not a concept that's absorbed once and then simply known.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "Làm Mất Góc Chết (Eliminating Blind Spots — Cultivating a Whole-Picture View)",
+      "summary": "This opening chapter addresses a common failure mode in problem-solving: focusing too narrowly on a familiar piece of a problem while missing other, equally important angles — the reader's \"blind spots.\"\n\nNishimura uses one-minute business puzzles to demonstrate how easy it is to miss an obvious factor simply because attention narrows too early, and introduces techniques for deliberately widening perspective before committing to an analysis or decision.\n\nThe chapter closes by setting up the book's foundational discipline: before applying any of the later logical tools, first make sure you're actually looking at the whole picture, not a partial one.",
+      "keyLessons": [
+        "Narrow early focus is a common cause of missed factors in problem-solving.",
+        "Deliberately widening perspective before analysis helps catch blind spots.",
+        "Whole-picture thinking is presented as the foundational discipline underlying the book's later tools."
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Lý Giải Cơ Sở Của Năng Lực Tư Duy Logic (Understanding the Foundations of Logical Thinking Ability)",
+      "summary": "This chapter lays out the basic building blocks of logical thinking as the author defines it — the ability to break a complex situation into distinct, addressable components and reason about each clearly.\n\nNishimura uses further one-minute exercises to illustrate the difference between vague, intuitive reactions to a problem and structured, component-based reasoning, arguing the latter is trainable through consistent practice rather than being a fixed trait.\n\nThe chapter closes by transitioning into the book's core structuring technique, covered next: organizing information hierarchically once the components of a problem are identified.",
+      "keyLessons": [
+        "Logical thinking is framed as breaking a complex situation into distinct, addressable components.",
+        "Structured, component-based reasoning outperforms vague intuitive reaction to problems.",
+        "This ability is presented as trainable through consistent practice, not fixed by nature."
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Sắp Xếp Thông Tin Theo Cách Chia Tầng (Organizing Information by Layered Structure)",
+      "summary": "This chapter introduces a practical technique for organizing scattered information into a clear, layered (hierarchical) structure — distinguishing top-level conclusions from supporting reasons and from underlying evidence.\n\nNishimura demonstrates this layered organization through business communication examples, showing how the same underlying facts, poorly organized, confuse a listener, while the same facts organized into clear layers communicate quickly and persuasively.\n\nThe chapter closes by linking this structuring skill directly to the next chapter's focus: using layered structure specifically for prioritization decisions.",
+      "keyLessons": [
+        "Organizing information into clear layers (conclusion, reasons, evidence) improves both clarity and persuasiveness.",
+        "The same underlying facts can confuse or clarify depending purely on how they're structured.",
+        "Layered structuring is presented as a practical communication skill, not just an internal thinking tool."
+      ]
+    },
+    {
+      "order": 4,
+      "title": "Lập Danh Sách Ưu Tiên Để Tối Đa Hóa Hiệu Quả Đầu Tư (Prioritizing to Maximize Return on Effort)",
+      "summary": "This chapter applies logical structuring specifically to prioritization — helping readers identify which tasks, problems, or investments of time and effort actually deserve the most attention, rather than treating all items on a list as equally urgent.\n\nNishimura works through one-minute business scenarios where poor prioritization (treating urgent-but-low-value tasks the same as high-value ones) led to inefficient outcomes, and demonstrates a structured approach to ranking items by actual impact.\n\nThe chapter closes by connecting prioritization skill back to the book's broader promise: that structured thinking directly improves practical, everyday effectiveness, not just abstract reasoning ability.",
+      "keyLessons": [
+        "Not all tasks deserve equal attention — structured prioritization identifies genuinely high-value items.",
+        "Treating urgent-but-low-value tasks as equally important to high-value ones produces inefficient outcomes.",
+        "Prioritization skill is framed as a direct, practical payoff of logical thinking training."
+      ]
+    },
+    {
+      "order": 5,
+      "title": "Điều Tra Nguyên Nhân Và Đưa Ra Biện Pháp Triệt Để (Investigating Root Causes and Proposing Thorough Solutions)",
+      "summary": "This chapter addresses root-cause analysis, teaching readers to trace a problem beyond its surface symptom to its true underlying cause before proposing a solution, so that solutions actually resolve the problem rather than temporarily masking it.\n\nNishimura uses one-minute business case exercises to show the difference between a surface fix and a thorough, root-cause-informed solution, reinforcing the pattern established in earlier chapters of moving from scattered observation to structured, actionable conclusion.\n\nThe chapter closes by setting up the book's final chapter: once you've correctly diagnosed a problem and identified a solution, you still need to communicate it effectively.",
+      "keyLessons": [
+        "Surface-level fixes often fail because they don't address the true underlying cause of a problem.",
+        "Root-cause analysis is presented as a repeatable, structured process, not a one-off insight.",
+        "A correct diagnosis is only useful if it leads to a genuinely thorough (not superficial) solution."
+      ]
+    },
+    {
+      "order": 6,
+      "title": "Học Kỹ Năng Truyền Đạt (Learning Communication Skills)",
+      "summary": "The closing chapter shifts from internal reasoning to communicating that reasoning clearly to others, arguing that even excellent logical analysis is wasted if it can't be conveyed in a way that persuades and informs an audience.\n\nNishimura ties this chapter back to the layered-structuring technique from earlier in the book, showing how the same clear hierarchy used to organize one's own thinking (conclusion, reasons, evidence) also makes for clear, persuasive verbal or written communication.\n\nThe book closes by reinforcing its central premise: logical thinking, communication, and effective decision-making are inseparable skills that together determine real-world effectiveness, and all of them improve with the kind of short, repeated practice the book's one-minute exercises are designed to build.",
+      "keyLessons": [
+        "Excellent internal reasoning is wasted without the ability to communicate it clearly to others.",
+        "The same layered structure (conclusion, reasons, evidence) used for internal reasoning also makes communication clearer.",
+        "Logical thinking, prioritization, root-cause analysis, and communication are presented as inseparable, mutually reinforcing skills."
+      ]
+    }
+  ],
+  "keyLessons": [
+    "Deliberately check for blind spots by widening your perspective before committing to an analysis of a problem.",
+    "Break complex situations into distinct, addressable components rather than reacting to them as one undifferentiated whole.",
+    "Organize information into clear layers (conclusion, supporting reasons, underlying evidence) for both clearer thinking and clearer communication.",
+    "Rank tasks and problems by actual impact rather than treating everything on your list as equally urgent.",
+    "Trace problems to their true root cause before proposing a solution, so fixes don't just mask symptoms.",
+    "Practice structured reasoning in short, frequent bursts (the \"one minute\" method) rather than relying only on occasional deep study.",
+    "Treat logical thinking as a trainable skill that improves with repeated practice, not a fixed trait some people simply have.",
+    "Use the same layered structure you use for internal reasoning when communicating conclusions to others.",
+    "Logical thinking, prioritization, root-cause analysis, and communication function together as one integrated skill set."
+  ],
+  "quotes": [
+    {
+      "text": "\"Làm mất góc chết\" (\"Eliminating the dead angle/blind spot\") — chapter title, Katsumi Nishimura",
+      "attribution": "",
+      "category": "On Blind Spots and Whole-Picture Thinking"
+    },
+    {
+      "text": "\"Rèn luyện kỹ năng tư duy logic trong 1 phút\" gồm 6 chương, được trình bày dưới dạng câu hỏi và câu trả lời. (\"Structured as six chapters, presented in a question-and-answer format.\") — as described across multiple Vietnamese bookseller listings",
+      "attribution": "",
+      "category": "On Structured Communication"
+    }
+  ],
+  "whoThisIsFor": "Readers wanting quick, practical exercises to build structured, logical thinking skills for business and daily decision-making, especially those drawn to short, exercise-based learning over long-form theory.",
+  "whenToReadThis": "When you want a fast, practical warm-up for improving structured thinking and communication before tackling more comprehensive critical-thinking or problem-solving material.",
+  "relatedBooks": [],
+  "authorBio": {
+    "name": "Katsumi Nishimura",
+    "bio": "Katsumi Nishimura is a Japanese author whose work, based on available Vietnamese-market book descriptions, focuses on practical business thinking skills, including logical thinking training presented through short, exercise-based formats aimed at general business readers. Detailed, verified English-language biographical information about this author was limited in available search results.\n\nAvailable Vietnamese book-market sources describe *Rèn Luyện Kỹ Năng Tư Duy Logic 1 Phút* as drawing on real Japanese corporate and business examples, suggesting a background connected to Japanese business or management training, though this could not be independently confirmed to a high standard.\n\nGiven the limited verified biographical detail available, this bio should be treated as a lower-confidence summary based on secondary Vietnamese book-market descriptions rather than a verified author profile.",
+    "notableWorks": []
+  },
+  "conceptsFrameworks": [
+    {
+      "name": "One-Minute Thinking Exercises",
+      "definition": "The book's core teaching method: presenting a specific business problem or puzzle and asking the reader to reason through it in about one minute before revealing the underlying lesson, designed to build structured-thinking speed and confidence through short, frequent, active practice rather than passive reading.",
+      "sourceSection": "throughout the book"
+    },
+    {
+      "name": "Layered Information Structuring",
+      "definition": "A technique for organizing scattered information into a clear hierarchy — separating top-level conclusions from the reasons supporting them and the evidence underlying those reasons — used both for clearer personal reasoning and clearer communication to others.",
+      "sourceSection": "Sắp Xếp Thông Tin Theo Cách Chia Tầng"
+    },
+    {
+      "name": "Root-Cause Investigation",
+      "definition": "A structured process for tracing a problem past its surface symptom to its true underlying cause before proposing a solution, so that the resulting fix actually resolves the problem rather than temporarily masking it.",
+      "sourceSection": "Điều Tra Nguyên Nhân Và Đưa Ra Biện Pháp Triệt Để"
+    }
+  ],
+  "applyThis": {
+    "actionSteps": [
+      "Before your next significant decision, deliberately spend one minute listing factors outside your first instinctive focus, specifically checking for blind spots.",
+      "Take one piece of information you need to communicate this week and restructure it into three clear layers: conclusion first, then supporting reasons, then evidence.",
+      "Review your current task list and rank each item by actual impact rather than urgency alone, then reallocate today's time toward the top-ranked items.",
+      "The next time you're tempted to apply a quick fix to a recurring problem, pause and trace it back at least two levels to find its likely root cause before acting.",
+      "Practice one \"one-minute\" reasoning exercise daily this week — pick any small work problem, give yourself sixty seconds to reason through a structured answer, then check your reasoning against a colleague's perspective."
+    ],
+    "reflectionQuestions": [
+      "Where in your recent work have you jumped to a familiar solution without checking for a blind spot you might have missed?",
+      "What's a recurring problem in your work where you suspect you've only ever addressed the surface symptom, not the root cause?",
+      "How do you currently decide what deserves your time each day, and does that method actually track real impact?"
+    ]
+  },
+  "criticalTake": {
+    "points": [
+      "Because this entry is built on a best-match identification rather than a confirmed exact title match, readers should treat the whole entry with more caution than usual — if the physical book differs from *Rèn Luyện Kỹ Năng Tư Duy Logic 1 Phút* by Katsumi Nishimura, the content here may not accurately reflect it.",
+      "The book's examples are drawn specifically from Japanese business culture and management contexts, and some readers outside that context may find certain scenarios (workplace hierarchy norms, specific industry examples) less directly transferable without adaptation.",
+      "The \"one minute\" framing, while an effective teaching device, risks oversimplifying that genuine logical/structured thinking under real complexity and stakes typically takes longer than sixty seconds — the format is best understood as a training aid for building underlying habits, not a literal claim that complex real-world problems can be solved in one minute.",
+      "As a relatively short, exercise-driven book (roughly 230 pages in the Vietnamese edition), it covers foundational logical-thinking skills accessibly but with less depth than more comprehensive texts on structured problem-solving or critical thinking."
+    ],
+    "contextNote": "This entry's identification confidence is meaningfully lower than most others in this batch — treat the specific chapter content as representative of the best-matched title rather than independently verified against the exact book on the shelf."
+  },
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-08-01",
+  "sourceNotes": "I could not find an exact match for the title \"Quyết Đoán Trong Tư Duy Logic - 1 Phút\" as given. This entry is built around the closest identifiable real title found via web search, *Rèn Luyện Kỹ Năng Tư Duy Logic 1 Phút* by Katsumi Nishimura, whose confirmed six-chapter structure (Làm mất góc chết; Lý giải cơ sở của năng lực tư duy logic; Sắp xếp thông tin theo cách chia tầng; Lập danh sách ưu tiên; Điều tra nguyên nhân; Học kỹ năng truyền đạt) was cross-checked across multiple independent Vietnamese bookseller and library listings (Thư viện Quảng Ninh library catalog record, Macawshop, and others). However, given the title mismatch, treat this whole entry as a best-effort match rather than a confirmed identification, and verify against the physical book's exact title and byline before relying on it. Author biographical detail is thin and lower-confidence than other entries in this batch. Quotes are limited to the confirmed chapter title and structural description, since individual verbatim passages from within the book were not available through search."
+}

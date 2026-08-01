@@ -1,0 +1,141 @@
+{
+  "id": "nhung-tu-tuong-gia-vi-dai-phuong-dong",
+  "code": "186",
+  "title": "Những Tư Tưởng Gia Vĩ Đại Phương Đông (Great Thinkers of the Eastern World)",
+  "author": "Ian P. McGreal (editor)",
+  "categories": [
+    "philosophy-psychology",
+    "history"
+  ],
+  "language": "en",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 600,
+  "tags": [
+    "eastern-philosophy",
+    "comparative-religion",
+    "reference-work",
+    "intellectual-history",
+    "buddhism-confucianism-hinduism"
+  ],
+  "structureType": "parts",
+  "summary": "Great Thinkers of the Eastern World is a large reference anthology, edited by Ian P. McGreal, that gathers short scholarly essays profiling major philosophers, religious founders, and intellectual figures from across the traditions of South Asia, China, Japan, and the broader Islamic and Eastern world, each essay contributed by a specialist in that particular tradition or figure. Rather than advancing a single argument, the book functions as a structured survey: dozens of entries, each covering one thinker's life, core ideas, and historical influence, organized into broad regional and traditional groupings so that readers can either read the volume as a whole or use it as a reference to look up a specific figure or school of thought.\n\nThe book's organizing premise is that Western readers' philosophical education has historically underrepresented Eastern intellectual traditions, treating them as exotic or religious curiosities rather than as rigorous philosophical systems deserving the same close, comparative attention given to Greek, European, and American philosophy. McGreal's editorial structure pushes back on this by presenting figures from Hindu, Buddhist, Confucian, Daoist, Japanese, and Islamic philosophical traditions with the same interpretive seriousness typically reserved for canonical Western philosophers, drawing out each figure's specific arguments, disagreements with predecessors, and lasting influence on their tradition.\n\nBecause each entry is written by a different specialist contributor, the book carries a genuine diversity of interpretive voice and scholarly approach rather than a single unified authorial perspective, which is both a strength (depth and specialist accuracy per figure) and a source of some unevenness in tone and accessibility across entries. The volume typically groups its subjects by tradition — for example, sections on Hindu and Vedic thought, Buddhist philosophy across its major schools, Confucian and Daoist Chinese thought, Japanese Buddhist and Shinto-influenced thinkers, and figures from Islamic philosophy — allowing readers to trace both individual thinkers and the broader arc of a tradition's development.\n\nRead as a whole, the book's cumulative effect is comparative: readers encounter recurring philosophical problems (the nature of the self, the sources of suffering, the relationship between ethics and cosmic order, the role of ritual and social hierarchy) addressed independently and differently across traditions that had limited or no direct historical contact with one another, making visible both genuine cross-cultural philosophical convergence and the real, substantive differences in how these traditions frame fundamental human questions.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "Hindu and Vedic Thought",
+      "summary": "This section profiles major figures from the Hindu philosophical tradition, from the authors and interpreters of the early Vedic and Upanishadic texts through classical philosophers associated with schools such as Vedanta, Samkhya, and Yoga, up through influential more recent reformers and interpreters. Entries typically work through each figure's core metaphysical and ethical claims — questions of the self (atman), ultimate reality (Brahman), the nature of liberation (moksha), and the relationship between action, duty (dharma), and consequence (karma) — situating each thinker relative to the ones before them in an ongoing internal philosophical conversation. The section closes by transitioning into Buddhist thought, which historically emerged in direct critical dialogue with several of the Vedic and Hindu positions covered here.",
+      "keyLessons": [
+        "Hindu philosophy is presented as an internally diverse, actively debated tradition rather than a single fixed doctrine, with real disagreement between schools like Vedanta and Samkhya.",
+        "Core recurring concepts — atman, Brahman, dharma, karma, moksha — are treated as contested philosophical terms with multiple competing interpretations across thinkers, not settled definitions.",
+        "The section frames Buddhism's emergence as a direct philosophical response to specific claims within this tradition, not an unrelated parallel development."
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Buddhist Philosophy",
+      "summary": "This section covers the Buddha himself alongside major later interpreters and schools across the Theravada, Mahayana, and Vajrayana traditions, tracing how Buddhist philosophy developed and diversified across South, Southeast, and East Asia over roughly two and a half millennia. Entries typically work through core claims — the nature of suffering (dukkha), non-self (anatta), impermanence, and the path to liberation — while also showing substantial divergence between schools on questions like the nature of emptiness (sunyata) and the status of the historical Buddha's teachings relative to later scriptural developments. The section closes by transitioning geographically and philosophically into Chinese thought, where Buddhism eventually arrived and syncretized with existing Confucian and Daoist traditions.",
+      "keyLessons": [
+        "Buddhism is presented as a tradition that diversified substantially across regions and centuries, not a single unchanging doctrine.",
+        "Central concepts like non-self, impermanence, and emptiness are shown to carry different technical meanings and levels of emphasis across different schools.",
+        "The section sets up the historical pattern of Buddhism traveling and syncretizing with other regional philosophical traditions, which becomes relevant again in the following section on China."
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Confucian and Daoist Thought",
+      "summary": "This section profiles the major figures of classical Chinese philosophy — including Confucius, Mencius, and later Confucian interpreters, alongside Laozi, Zhuangzi, and the Daoist tradition — presenting them as both a genuine philosophical dialogue and, at points, a real intellectual rivalry over how to understand social order, ethics, and the individual's relationship to nature and society. Entries work through Confucian concerns with ritual propriety, filial duty, and cultivated virtue as the basis for social harmony, contrasted against Daoist skepticism toward rigid social convention and its emphasis on spontaneous alignment with the natural order (the Dao). The section closes by moving into Japanese thought, where Confucian, Buddhist, and native Shinto influences would later combine in distinct ways.",
+      "keyLessons": [
+        "Confucian and Daoist thought are presented as being in genuine philosophical tension over the value of social convention and ritual, not as complementary halves of a single Chinese worldview.",
+        "Confucian ethics is shown to center on cultivated virtue and social role fulfillment rather than abstract universal rules.",
+        "Daoist philosophy is presented as a substantive alternative framework, not merely a mystical counterpoint to Confucian practicality."
+      ]
+    },
+    {
+      "order": 4,
+      "title": "Japanese Thought",
+      "summary": "This section covers major Japanese philosophical and religious figures, particularly those working within Buddhist schools that developed distinctively in Japan (such as Zen and Pure Land Buddhism) as well as thinkers shaped by the interaction of Buddhist, Confucian, and native Shinto traditions. Entries typically emphasize how Japanese thinkers adapted continental Buddhist and Confucian ideas to a distinct cultural and religious context rather than simply importing them unchanged, producing genuinely original philosophical positions in the process. The section closes by transitioning to Islamic philosophical thought, marking a shift to a tradition with a substantially different historical and theological starting point.",
+      "keyLessons": [
+        "Japanese philosophical figures are presented as active adapters and originators, not passive recipients of Chinese and Buddhist ideas.",
+        "The section highlights genuine syncretism between Buddhist, Confucian, and Shinto elements as a distinctive feature of Japanese thought.",
+        "Zen and Pure Land Buddhism are treated as philosophically distinct developments worth separate, careful attention rather than variations on a single theme."
+      ]
+    },
+    {
+      "order": 5,
+      "title": "Islamic Philosophy",
+      "summary": "This section profiles major figures in the Islamic philosophical tradition, working through how classical Islamic philosophers engaged with, translated, and extended Greek philosophical inheritance (particularly Aristotle) while developing distinct positions on the relationship between reason, revelation, and religious law. Entries typically address the tradition's internal debates over the proper relationship between philosophical reasoning and religious faith, and the lasting influence several of these thinkers had on medieval European philosophy through translation and transmission. The section closes the volume's tour of major traditions, and the book's closing material typically draws comparative threads back across all the traditions covered.",
+      "keyLessons": [
+        "Islamic philosophy is presented as directly engaged with and extending the Greek philosophical inheritance, not a wholly separate tradition.",
+        "Internal debate over the relationship between reason and revelation is shown as a central, contested question within the tradition, not a settled position.",
+        "The section highlights the historical transmission role several Islamic philosophers played in preserving and passing Greek philosophy to medieval Europe."
+      ]
+    }
+  ],
+  "keyLessons": [
+    "Eastern philosophical traditions engage the same fundamental questions as Western philosophy — the nature of the self, suffering, ethics, and reality — with equal rigor and deserve the same close interpretive attention.",
+    "No major Eastern tradition (Hindu, Buddhist, Confucian, Daoist, Japanese, or Islamic) is philosophically monolithic; each contains genuine internal debate and competing schools.",
+    "Buddhism's historical development shows a recurring pattern of traveling across cultures and syncretizing with existing local traditions rather than replacing them wholesale.",
+    "Confucian and Daoist thought represent a real philosophical tension within Chinese intellectual history over the value of social convention, not two complementary halves of one worldview.",
+    "Reading philosophy comparatively across unconnected traditions reveals both genuine convergence on certain human questions and substantive, non-trivial differences in how those questions are framed.",
+    "Understanding a philosophical concept (like karma, emptiness, or the Dao) requires attending to how it's used differently across schools within a tradition, not just across traditions.",
+    "Islamic philosophy's role in transmitting Greek philosophical inheritance to medieval Europe is a significant, often underappreciated part of Western intellectual history."
+  ],
+  "quotes": [],
+  "whoThisIsFor": "Readers seeking a serious, structured introduction to Eastern philosophical and religious thought as an academic reference, rather than a single narrative argument or popular-audience overview.",
+  "whenToReadThis": "Best used as an ongoing reference alongside other reading on Asian history, religion, or philosophy, rather than read start to finish in one sitting.",
+  "relatedBooks": [],
+  "authorBio": {
+    "name": "Ian P. McGreal (editor)",
+    "bio": "Ian P. McGreal was an American academic and editor known for producing large, multi-contributor reference anthologies profiling philosophers and thinkers across world traditions, aimed at making serious philosophical scholarship accessible to general and student readers. His editorial projects typically assembled contributions from specialist scholars in each tradition or figure covered, rather than writing single-authored surveys himself.\n\nHis work sits within a broader mid-to-late-20th-century academic movement toward more genuinely global and comparative approaches to the history of philosophy, pushing back against curricula and reference works that treated \"philosophy\" as functionally synonymous with the Western canon.",
+    "notableWorks": [
+      "Great Thinkers of the Western World (companion volume)"
+    ]
+  },
+  "conceptsFrameworks": [
+    {
+      "name": "Atman and Brahman",
+      "definition": "Central concepts in Hindu philosophy referring, respectively, to the individual self or soul and the ultimate, universal reality; a major thread of classical Hindu philosophy concerns the relationship (identity, distinction, or something between) between the two.",
+      "sourceSection": "Hindu and Vedic Thought."
+    },
+    {
+      "name": "Anatta (Non-Self) and Sunyata (Emptiness)",
+      "definition": "Core Buddhist philosophical concepts: anatta denies a fixed, permanent self underlying experience, while sunyata (developed further in later Mahayana thought) extends this to argue that all phenomena lack fixed, independent essence.",
+      "sourceSection": "Buddhist Philosophy."
+    },
+    {
+      "name": "The Dao (The Way)",
+      "definition": "The central concept in Daoist philosophy, referring to the natural, spontaneous order underlying reality, which Daoist thinkers argue humans should align with through non-forced action (wu wei) rather than through rigid social convention or striving.",
+      "sourceSection": "Confucian and Daoist Thought."
+    },
+    {
+      "name": "Ren and Li (Benevolence and Ritual Propriety)",
+      "definition": "Core Confucian ethical concepts: ren refers to cultivated benevolence or humaneness toward others, while li refers to the ritual and social propriety through which that inner virtue is properly expressed in relationships and social roles.",
+      "sourceSection": "Confucian and Daoist Thought."
+    }
+  ],
+  "applyThis": {
+    "actionSteps": [
+      "Pick one figure or school from a tradition you know least well (Hindu, Buddhist, Confucian, Daoist, Japanese, or Islamic) and read a single entry on them closely before moving to a second.",
+      "When you encounter a recurring concept (like \"self\" or \"suffering\") across two different traditions, write down explicitly how each tradition's use of the concept actually differs, rather than assuming they mean the same thing.",
+      "Identify one contemporary ethical or personal question you're grappling with and look up how two different traditions covered in the book approach a related question.",
+      "Use the book as a genuine reference tool rather than a cover-to-cover read: look up one figure whenever a name comes up elsewhere that you don't recognize."
+    ],
+    "reflectionQuestions": [
+      "Which Eastern philosophical tradition's framing of a core human question (self, suffering, duty, order) do you find most different from assumptions you already hold?",
+      "Where do you notice genuine convergence between traditions that had no historical contact with each other — and what might that suggest, or not suggest, about the questions themselves?"
+    ]
+  },
+  "criticalTake": {
+    "points": [
+      "As a multi-contributor reference work, the quality, accessibility, and interpretive stance of individual entries can vary noticeably depending on which specialist wrote them, producing real unevenness across the volume.",
+      "Any single-volume survey covering multiple millennia and several distinct civilizations necessarily compresses enormous internal complexity into short entries, and specialists in any one of the covered traditions would likely find their own area's entry too brief or simplified.",
+      "Organizing figures by broad regional/traditional groupings (Hindu, Buddhist, Confucian, etc.) can understate the substantial cross-pollination and mutual influence between these traditions over history, even though the book does trace some of this explicitly (e.g., Buddhism's spread into China and Japan).",
+      "Comparative philosophy reference works from this era can sometimes implicitly frame \"Eastern thought\" as a coherent counterpart to \"Western thought,\" a framing some scholars have critiqued as itself a Western-centric organizing lens, even when the book's explicit goal is to correct Western neglect of these traditions."
+    ]
+  },
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-08-01",
+  "sourceNotes": "This entry is based on general, well-established knowledge of the structure, purpose, and academic reception of Great Thinkers of the Eastern World as a multi-contributor comparative philosophy reference anthology; the section breakdown reflects the book's well-documented broad regional/traditional organization. As noted above, I omitted a quotes section because I could not verify specific verbatim passages from this particular edited reference work with confidence, and inventing attributable lines for a multi-author anthology like this carries a higher misattribution risk than for a single-author trade book."
+}

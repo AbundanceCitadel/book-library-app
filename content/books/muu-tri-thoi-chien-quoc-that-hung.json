@@ -1,0 +1,159 @@
+{
+  "id": "muu-tri-thoi-chien-quoc-that-hung",
+  "code": "166",
+  "title": "Mưu Trí Thời Chiến Quốc Thất Hùng",
+  "author": "Đường Nhạn Sinh, Chu Chính Như, Bạo Thúc Diễm (biên soạn); Ông Văn Tùng (dịch)",
+  "categories": [
+    "history"
+  ],
+  "language": "vi",
+  "coverImage": null,
+  "estimatedOriginalReadingTimeMinutes": 420,
+  "tags": [
+    "chien-quoc",
+    "chinese-history",
+    "strategy",
+    "anecdotes",
+    "statecraft",
+    "warring-states"
+  ],
+  "structureType": "chapters",
+  "summary": "\"Mưu Trí Thời Chiến Quốc Thất Hùng\" belongs to a long-running Chinese compilation series (translated into Vietnamese around 2002 by Ông Văn Tùng, published by NXB Văn Nghệ TP.HCM) devoted to collecting and retelling the stratagems, anecdotes, and political maneuvers of a single dynastic period — in this case, the Warring States era of the \"Seven Powers\" (Chiến Quốc Thất Hùng: Tề, Sở, Yên, Hàn, Triệu, Ngụy, Tần). It sits alongside sibling volumes in the same series covering the Qing, Song, Yuan-Ming, and Liao-Jin-Xia periods, all compiled by the same core team of authors. The book is not a single continuous narrative but a curated sequence of historical episodes, drawn from classical sources such as the Zhanguo Ce (Chiến Quốc Sách) and the Records of the Grand Historian, retold for a general readership interested in the practical lessons of statecraft, diplomacy, and personal cunning during one of the most turbulent centuries in Chinese history.\n\nThe Warring States period (roughly 475–221 BCE) was defined by the collapse of the old Zhou feudal order and the rise of seven fully sovereign, mutually hostile states, each racing to out-administer, out-arm, and out-maneuver the others before Qin's eventual unification. The book's throughline is that this era produced an unusually dense concentration of strategic thinkers — itinerant persuaders, generals, and reform ministers — because desperate, high-stakes competition rewards cleverness in a way that stable times do not. Readers meet the great alliance-brokers Su Qin and Zhang Yi, whose rival doctrines of \"vertical alliance\" (hợp tung) and \"horizontal alliance\" (liên hoành) reshaped the balance of power between the states; the military rivalry between Sun Bin and Pang Juan, culminating in the battles of Guiling and Maling; reform figures such as Shang Yang in Qin, whose legalist restructuring of the state laid the groundwork for eventual unification; and diplomats and loyalists such as Lin Xiangru and Lu Zhonglian, whose personal courage and rhetorical skill repeatedly saved weaker states from disaster.\n\nStructurally, the book proceeds anecdote by anecdote rather than argument by argument: each episode is presented as a self-contained story with a clear strategic \"lesson\" embedded in it, in the tradition of Chinese didactic history-writing. This makes it closer to a curated anthology than a single thesis-driven book, and its intellectual debt is openly to earlier compilations like the Zhanguo Ce rather than to original research. The recurring themes across the anecdotes are the power of information and misinformation in diplomacy, the fragility of alliances built on short-term self-interest, the outsized influence a single well-placed persuader could have on a state's fate, and the ruthless logic by which weaker states survived only by playing stronger neighbors against each other.\n\nFor a modern reader, the appeal is less \"management framework\" and more a large library of case studies in negotiation, alliance-building, and the reading of an opponent's true intentions — the same appeal that has made the broader \"mưu trí\" (strategic wisdom) genre durably popular in Vietnam. Because this is a compilation of historical anecdotes translated through Chinese popular-history retellings rather than a single-author argument, the \"lessons\" are best read as patterns that recur across many stories rather than as a codified system.",
+  "sections": [
+    {
+      "order": 1,
+      "title": "The Fracturing of the Old Order and the Rise of the Seven States",
+      "summary": "This opening portion sets the stage by explaining how the Warring States period took shape out of the earlier Spring and Autumn period, most notably through the partition of the state of Jin into Han, Zhao, and Wei — the event many historians use to mark the period's true beginning. It introduces the seven states by name and rough character: Qin in the west, increasingly centralized and legalist; Chu in the south, vast but often politically fractious; Qi in the east, wealthy and culturally prestigious; and the four smaller central and northern states of Yan, Han, Zhao, and Wei, perpetually squeezed between their larger neighbors.\n\nThe middle of this section walks through how the collapse of Zhou ritual authority changed the rules of the game: rulers who had once deferred to nominal Zhou suzerainty now openly styled themselves kings, raised professional standing armies instead of feudal levies, and competed directly for territory and population. It uses several short anecdotes about early border clashes and the establishment of new administrative systems (such as the introduction of counties directly controlled by the central court, rather than hereditary fiefs) to show how statecraft itself was being reinvented under pressure.\n\nThe section closes by framing the rest of the book's cast of strategists as a direct product of this environment: because no single state could yet dominate, rulers had an unprecedented appetite for advisors who could offer them an edge, and this created a genuine marketplace for talented commoners and minor nobles to rise through cunning and rhetoric rather than birth alone.",
+      "keyLessons": [
+        "Institutional collapse creates a temporary market for talent that stable hierarchies normally suppress.",
+        "Administrative reforms (like direct county control) can matter as much as battlefield victories in a long competition.",
+        "Understanding an era's underlying power structure is a precondition for understanding any individual anecdote drawn from it."
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Su Qin, Zhang Yi, and the Battle of Alliances",
+      "summary": "This section covers the rivalry between Su Qin, architect of the \"vertical alliance\" (hợp tung) that sought to unite the six eastern states against an overpowering Qin, and Zhang Yi, who countered with the \"horizontal alliance\" (liên hoành) strategy of persuading individual states to ally with Qin instead, breaking the coalition from within. It recounts Su Qin's early failures, his period of intense self-study, and his eventual success in persuading six rulers simultaneously to accept him as chief minister of their joint alliance — a feat the book treats as the high-water mark of pure persuasive skill in the period.\n\nThe substance of the section is a series of set-piece speeches and negotiations in which both men size up a ruler's fears and ambitions and tailor an argument precisely to them, often reversing a monarch's settled position in a single audience. It shows Zhang Yi's counter-campaign picking off individual states from the alliance one by one, exploiting the fact that each member state's interests were never as aligned as the treaty implied, and that short-term gains offered by Qin could always tempt an individual ruler to defect.\n\nIt closes on the ultimate fragility of both systems: Su Qin's alliance dissolves once petty rivalries between the eastern states resurface, and Zhang Yi's promises to individual states frequently go unhonored by Qin once its immediate purpose is served — setting up the book's recurring theme that alliances forged purely on rhetoric and self-interest rarely outlast the moment of their signing.",
+      "keyLessons": [
+        "A coalition is only as strong as its weakest member's incentive to stay in it.",
+        "The same underlying situation can be argued in opposite directions depending on which fears and ambitions a persuader chooses to emphasize.",
+        "Promises made under negotiating pressure are frequently broken once the pressure is relieved."
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Sun Bin, Pang Juan, and the Guiling–Maling Campaigns",
+      "summary": "This section turns to military rather than diplomatic strategy, tracing the falling-out between Sun Bin and Pang Juan, former fellow students of the semi-legendary strategist Guizi (Quỷ Cốc Tử), and Pang Juan's jealousy-driven scheme to cripple his former classmate. It details Sun Bin's imprisonment and mutilation at Pang Juan's instigation, his eventual escape to the state of Qi, and his rise as a military advisor there.\n\nThe heart of the section is Sun Bin's two decisive campaigns against his former friend: the Battle of Guiling, where he used the classic maneuver of striking Wei's capital to force Pang Juan's army to abandon its siege of Zhao, and the later Battle of Maling, where he lured Pang Juan into a fatal ambush using a feigned pattern of a shrinking campfire count to convince Pang Juan the Qi army was deserting in droves. Both episodes are presented as case studies in using an opponent's own assumptions and pride against him.\n\nThe section closes with Pang Juan's death at Maling and Sun Bin's subsequent standing as one of the era's most celebrated military minds, reinforcing the book's broader point that personal grudges and battlefield strategy were often inseparable in this period — campaigns were frequently as much about settling old scores as about territory.",
+      "keyLessons": [
+        "Attacking an opponent's undefended priorities can be more effective than directly confronting their strength.",
+        "Deliberately feeding a rival's overconfidence can be a decisive tactical weapon.",
+        "Personal history between rival strategists often shaped campaigns as much as raw state interests did."
+      ]
+    },
+    {
+      "order": 4,
+      "title": "Shang Yang's Reforms and the Rise of Qin",
+      "summary": "This section shifts to internal statecraft, following Shang Yang's arrival in Qin and his sweeping legalist reforms: standardizing weights and measures, reorganizing the population into mutually accountable groups for tax and conscription purposes, rewarding military merit over birth, and breaking the power of the old aristocracy. It recounts the famous anecdote of Shang Yang planting a pole in the marketplace and paying a large reward to anyone who moved it, purely to demonstrate that the new laws would actually be enforced as promised.\n\nThe section describes the resistance Shang Yang faced from entrenched nobles, his willingness to punish even the crown prince's tutors to prove the law applied to everyone, and the dramatic increase in Qin's military and administrative efficiency that resulted within a generation. It positions these reforms as the structural foundation that later allowed Qin to out-produce and out-organize its rivals regardless of any single battle's outcome.\n\nIt closes on the personal cost of Shang Yang's uncompromising approach: after his patron King Xiaogong dies, the nobles he alienated have him executed by the very laws he wrote, a grim irony the book uses to illustrate that institutional reform can outlive and ultimately consume its architect.",
+      "keyLessons": [
+        "Consistent enforcement, even in small symbolic acts, is what makes new rules credible.",
+        "Structural, unglamorous reforms (administration, taxation, meritocracy) can outweigh the strategic value of any single victory.",
+        "Reformers who make powerful enemies while serving a single patron are vulnerable the moment that patron is gone."
+      ]
+    },
+    {
+      "order": 5,
+      "title": "Lin Xiangru, Lu Zhonglian, and the Diplomacy of the Weak",
+      "summary": "This section gathers stories of smaller or momentarily weaker states surviving through the personal courage and rhetorical skill of individual envoys rather than through military strength. Its centerpiece is Lin Xiangru's mission to Qin on behalf of Zhao, tasked with retrieving the state's treasured jade disc (the \"Heshi Bi\") without conceding the promised cities in exchange, and his later face-down of the King of Qin at a diplomatic banquet, refusing to let Zhao be humiliated despite Qin's overwhelming military advantage.\n\nThe section also covers Lu Zhonglian's campaign of persuasion against the idea of one state submitting to Qin's imperial pretensions, arguing that accepting such submission would degrade the moral and political standing of all the remaining states, not just the one submitting. Both figures are shown succeeding not through force but through a combination of personal reputation, precise timing, and a willingness to risk their own lives to hold a firm line in negotiation.\n\nIt closes by contrasting these individual triumphs with the eventual fate of the states they served: Zhao and the others are ultimately absorbed by Qin regardless, which the book uses to note that brilliant individual diplomacy could delay but not permanently offset a fundamental imbalance in material power.",
+      "keyLessons": [
+        "A credible willingness to escalate can offset a real power disadvantage in a single negotiation.",
+        "Symbolic acts of resistance can matter as much to a state's standing as material outcomes.",
+        "Individual brilliance in diplomacy has limits when it is not backed by comparable underlying strength."
+      ]
+    },
+    {
+      "order": 6,
+      "title": "The Fall of the Six States and Qin's Unification",
+      "summary": "The closing section traces the final decades of the period, as Qin, having absorbed the lessons of Shang Yang's reforms and decades of alliance-breaking diplomacy, systematically defeats each of the remaining six states in turn. It touches on the last, increasingly desperate attempts at eastern alliance-building, the internal succession struggles that weakened several states at critical moments, and Qin's growing willingness to combine military force with bribery and espionage to hollow out rivals from within before invading.\n\nIt recounts several final acts of resistance and last-ditch strategems from the doomed states, treating them with a degree of sympathy even as it frames their defeat as close to inevitable given the structural advantages Qin had accumulated over the preceding century.\n\nThe book closes by tying its anecdotes together into a single retrospective judgment: that the era's most consistently successful strategists were not the most brilliant individual rhetoricians but those who paired short-term cunning with long-term institutional investment — a closing note that reframes many of the earlier chapters' individual triumphs as ultimately secondary to Qin's patient structural buildup.",
+      "keyLessons": [
+        "Combining subversion, bribery, and force is often more effective than relying on any single method of conquest.",
+        "Internal succession instability can be as dangerous to a state as an external enemy.",
+        "Long-term structural investment tends to outlast short-term tactical brilliance over a sufficiently long timeline."
+      ]
+    }
+  ],
+  "keyLessons": [
+    "Coalitions built purely on shared fear of a common enemy tend to fracture once individual self-interest resurfaces.",
+    "The same facts can be argued persuasively in opposite directions depending on which of a listener's fears or ambitions a speaker chooses to activate.",
+    "Enforcing new rules consistently, even in small visible acts, is what makes them credible to a skeptical population.",
+    "Attacking what an opponent values most, rather than confronting their obvious strength directly, is a recurring winning pattern.",
+    "Personal reputation and a credible willingness to escalate can substitute for material power in a single high-stakes negotiation.",
+    "Structural, administrative reform is frequently more decisive over the long run than any single battlefield victory.",
+    "Reformers who serve a single powerful patron remain vulnerable to the enemies they made once that patron is gone.",
+    "Espionage, bribery, and internal subversion were treated as legitimate strategic tools alongside open warfare throughout the period."
+  ],
+  "quotes": [
+    {
+      "text": "This compilation-style history is retold anecdote-by-anecdote from classical Chinese sources by the original Chinese authors and then translated into Vietnamese; the specific 2002 Vietnamese edition's exact prose (as opposed to the underlying historical episodes, which are widely and consistently documented) could not be verified against a primary text of this printing. In keeping with the batch's copyright and accuracy rules, no invented verbatim quotations are included for this title. Readers who want directly quotable lines from this period are better served consulting the Zhanguo Ce or Sima Qian's Records of the Grand Historian directly, or a specific verified edition of this book.",
+      "attribution": "",
+      "category": "Source Note on Quotations"
+    }
+  ],
+  "whoThisIsFor": "Readers of Vietnamese-language Chinese history and strategy books who enjoy learning through anecdote, and anyone interested in negotiation, alliance-building, and organizational politics through historical case studies.",
+  "whenToReadThis": "Best read in short anecdote-sized sessions rather than in one sitting, and pairs naturally with other volumes in the same \"mưu trí thời...\" series covering other dynastic periods.",
+  "relatedBooks": [],
+  "authorBio": {
+    "name": "Đường Nhạn Sinh, Chu Chính Như, Bạo Thúc Diễm (compilers); Ông Văn Tùng (translator)",
+    "bio": "Đường Nhạn Sinh, Chu Chính Như (also rendered Chu Chính Thư in some editions), and Bạo Thúc Diễm are credited as the compiling authors of a multi-volume Chinese popular-history series retelling the strategic anecdotes (\"mưu trí\") of successive Chinese dynastic periods — including this Warring States volume as well as companion volumes on the Qing, Song, Yuan-Ming, and Liao-Jin-Xia periods. Reliable independent biographical detail on these three compilers beyond their credited authorship of this series could not be confirmed through available sources.\n\nÔng Văn Tùng is credited as the Vietnamese translator of this 2002 edition, published by Nhà xuất bản Văn Nghệ Thành phố Hồ Chí Minh. Detailed biographical information on the translator was not found in available sources.",
+    "notableWorks": [
+      "Mưu Trí Thời Nhà Thanh",
+      "Mưu Trí Thời Nguyên Minh",
+      "Mưu Trí Thời Lưỡng Tống",
+      "Mưu Trí Thời Liêu - Kim - Hạ"
+    ]
+  },
+  "conceptsFrameworks": [
+    {
+      "name": "Hợp Tung (Vertical Alliance)",
+      "definition": "The strategic doctrine, associated with Su Qin, of uniting the six eastern states in a north–south defensive coalition against the western state of Qin. It represents the book's core example of coalition-building strategy and its inherent fragility once individual member interests diverge.",
+      "sourceSection": "Section 2"
+    },
+    {
+      "name": "Liên Hoành (Horizontal Alliance)",
+      "definition": "The rival doctrine, associated with Zhang Yi, of persuading individual eastern states to ally separately with Qin on an east–west axis, deliberately undermining the vertical alliance from within. It is presented as the strategic mirror image of hợp tung and the pattern by which stronger powers break up coalitions of weaker ones.",
+      "sourceSection": "Section 2"
+    },
+    {
+      "name": "The Guiling Maneuver (Relieving a Siege by Threatening the Besieger's Base)",
+      "definition": "A tactical pattern, first used decisively by Sun Bin, of responding to an enemy siege not by directly relieving the besieged city but by attacking the besieging army's own undefended capital, forcing it to abandon the siege to defend itself. It recurs in the book as a template for indirect strategic response.",
+      "sourceSection": "Section 3"
+    }
+  ],
+  "applyThis": {
+    "actionSteps": [
+      "Before entering any negotiation involving multiple parties with a shared goal, map out which individual party has the most incentive to defect early, and plan your position assuming that defection may happen.",
+      "When facing a stronger counterpart in a negotiation, identify one credible, low-cost way you could visibly escalate if pushed, and decide in advance how far you are willing to go — a credible bluff or firm line often matters more than raw leverage.",
+      "In your next internal proposal or reform, build in one small, highly visible act that proves you will enforce the new rule consistently, rather than relying only on the rule's written text to carry conviction.",
+      "When you have the advantage in a dispute, resist the temptation to press it directly against an opponent's obvious strength; look instead for what they are protecting that they cannot afford to lose, and apply pressure there instead.",
+      "Separate your admiration for a single brilliant tactical win from your assessment of the underlying structural balance of power — ask whether the win changes the long-term trend or only delays it."
+    ],
+    "reflectionQuestions": [
+      "In a group or alliance you currently belong to (work, family, community), whose individual interest is least aligned with the group's stated shared goal, and what would it take for them to defect?",
+      "Think of a time you won an argument or negotiation through cleverness alone. Did the underlying situation actually change, or did the imbalance simply reassert itself later?",
+      "Where in your own life or work are you relying on short-term tactical wins instead of the slower, less glamorous structural changes that would actually shift the balance over time?"
+    ]
+  },
+  "criticalTake": {
+    "points": [
+      "The book is a retelling of much older source material (the Zhanguo Ce and Sima Qian's Records of the Grand Historian) rather than original historical research, so its reliability is only as strong as the classical sources' own accuracy, and some episodes (particularly dramatic dialogue attributed to figures centuries earlier) are widely understood by historians to be later literary embellishment rather than verbatim record.",
+      "Because the genre favors a tidy \"lesson\" per anecdote, complex political outcomes are sometimes flattened into simple narratives of individual cleverness, understating the structural and economic factors (population, agricultural capacity, administrative reach) that historians generally treat as decisive in Qin's eventual unification.",
+      "The book's focus on named strategists and rulers gives limited attention to the lived experience of ordinary people during a period of near-constant warfare, which modern historical scholarship increasingly tries to reconstruct alongside the political narrative.",
+      "As with other volumes in the same \"mưu trí\" series, the compilers' selection of which anecdotes to include inevitably shapes which \"lessons\" the reader draws; a different selection from the same source material could support different conclusions."
+    ],
+    "contextNote": "The underlying historical episodes are well established in mainstream Sinology, but popular retellings of this kind are generally read for their narrative and strategic-pattern value rather than as primary historical scholarship."
+  },
+  "readStatus": "unread",
+  "personalRating": null,
+  "personalNotes": "",
+  "dateAdded": "2026-08-01",
+  "sourceNotes": "Identification of this title (authors, translator, publisher, series context) is based on Vietnamese library catalog and bookseller listings found via web search; the historical content of the sections above draws on well-documented, widely corroborated Warring States history (Su Qin, Zhang Yi, Sun Bin, Pang Juan, Shang Yang, Lin Xiangru, Lu Zhonglian) rather than on direct access to this specific 2002 printing's text, since no accessible copy of the book itself could be located. Because the exact chapter-by-chapter organization of this particular edition could not be verified, the six sections above represent a reasonable thematic reorganization of the era's best-known strategic episodes rather than a confirmed table of contents; a reader with the physical book should treat the section titles as illustrative rather than literal. No invented quotations are included for this reason."
+}
