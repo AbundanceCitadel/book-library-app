@@ -1,0 +1,88 @@
+{
+  "id": "zen-engaged-buddhism",
+  "name": "Zen Buddhism / Engaged Buddhism",
+  "category": "eastern-philosophy",
+  "founder": "Zen: traditionally Bodhidharma (carried the practice from India into China, early 6th century CE); Engaged Buddhism: Thich Nhat Hanh (coined the term in 1967)",
+  "origin": "Zen (Chan): China, early 6th century CE, later flowering in Japan; Engaged Buddhism: Vietnam, 1960s, during the Vietnam War",
+  "overview": "This entry covers two closely related strands kept together deliberately rather than split apart: Zen, the meditation-centered school of Mahayana Buddhism that prizes direct, wordless present-moment awareness over doctrine and scripture, and Engaged Buddhism, the 20th-century movement founded by Vietnamese Zen teacher Thich Nhat Hanh that insists that awakening is empty if it doesn't translate into compassionate action in the world. The two are historically and philosophically continuous — Thich Nhat Hanh trained as a Zen monk in the Lam Te (Vietnamese Rinzai) lineage before developing Engaged Buddhism as an explicit response to the suffering he witnessed during the Vietnam War — and together they represent the strand of the broader Buddhist tradition with the deepest personal resonance in this library, given the dedicated Thich Nhat Hanh book category already here. This entry deliberately sits alongside, not folded into, the library's general Buddhism entry: where that entry covers the tradition at its broadest (Theravada/Mahayana/Vajrayana, the Four Noble Truths, 2,500 years of history), this one goes deep on one specific lineage and its most consequential modern offshoot.",
+  "originFounder": "Zen traces itself, by tradition, to Bodhidharma, a semi-legendary Buddhist monk who is said to have carried meditation-focused practice from India into China in the early 6th century CE, founding what became Chan Buddhism; Chan later spread to Vietnam (as Thien), Korea (as Seon), and Japan (as Zen, the name by which it's now known worldwide), splitting into major schools including Soto (gradual, 'just sitting' zazen practice, associated with the teacher Dogen) and Rinzai (koan-focused practice aimed at sudden breakthroughs). Engaged Buddhism has a single, well-documented modern founder: Thich Nhat Hanh, a Vietnamese Zen monk who, from the early 1960s, worked to apply Buddhist ethics directly to the suffering of the Vietnam War, co-founding the School of Youth for Social Service in 1964 to provide humanitarian relief in war zones. He coined the term 'Engaged Buddhism' in 1967, was exiled from Vietnam in 1966 for his peace activism, and went on to found the Plum Village monastic community in France in 1982, which became the base for spreading his mindfulness-centered, socially engaged teaching worldwide until his death in Hue, Vietnam in January 2022.",
+  "coreBeliefs": [
+    "Direct, non-conceptual awakening: Zen holds that insight is found in immediate present-moment awareness through seated meditation (zazen), not through studying scripture or doctrine",
+    "'A special transmission outside the scriptures, not founded on words and letters' — the traditional Zen description of how understanding passes directly from teacher to student",
+    "Interbeing (Thich Nhat Hanh's own term, from the Vietnamese tiep hien): the idea that nothing exists independently — a sheet of paper 'inter-is' with the rain, the tree, and the logger who cut it — extended by Thich Nhat Hanh into an ethical claim that recognizing this connection is what makes compassionate action possible",
+    "Awakening is meaningless if it doesn't translate into compassionate action — Engaged Buddhism's central innovation, insisting mindfulness and social/political engagement are not in tension but are the same practice",
+    "Mindfulness of the present moment (walking, breathing, eating) as the actual site of practice, not a preparation for some later spiritual achievement"
+  ],
+  "keyTexts": [
+    {
+      "title": "The Platform Sutra of the Sixth Patriarch",
+      "description": "the foundational Chan text attributed to Huineng, central to Zen's claim to a direct, non-scriptural transmission of insight"
+    },
+    {
+      "title": "Shobogenzo by Dogen",
+      "description": "the foundational text of Soto Zen, written by the 13th-century monk who brought the school to Japan"
+    },
+    {
+      "title": "The Blue Cliff Record",
+      "description": "a classic 12th-century collection of koans central to Rinzai Zen training"
+    },
+    {
+      "title": "The Miracle of Mindfulness by Thich Nhat Hanh",
+      "description": "already in this library's book collection — his most widely read introduction to everyday mindfulness practice"
+    },
+    {
+      "title": "Being Peace by Thich Nhat Hanh",
+      "description": "already in this library's book collection — lays out Engaged Buddhism's link between inner peace and social action"
+    },
+    {
+      "title": "Peace Is Every Step by Thich Nhat Hanh",
+      "description": "already in this library's book collection — one of the clearest statements of present-moment mindfulness as daily practice"
+    }
+  ],
+  "practiceToday": "Zen today is practiced worldwide through both traditional monastic training (Soto and Rinzai lineages in Japan, Thien in Vietnam, Seon in Korea) and a large network of lay meditation centers across Europe and North America, many tracing their lineage to Japanese teachers who emigrated in the mid-20th century. Engaged Buddhism, specifically, is carried on through Thich Nhat Hanh's Plum Village tradition — monasteries and practice centers on multiple continents that teach mindfulness bells, walking meditation, and the Five Mindfulness Trainings (a modern reframing of the traditional Buddhist precepts) — and through a wider movement of socially engaged Buddhist organizations addressing prison reform, environmental activism ('ecodharma'), and peace work, including groups like the Buddhist Peace Fellowship and the International Network of Engaged Buddhists. Zen's emphasis on direct present-moment attention, filtered through Thich Nhat Hanh's especially accessible teaching style, is also one of the most direct historical roots of the secular Western mindfulness movement — Jon Kabat-Zinn, who founded the clinical Mindfulness-Based Stress Reduction program, studied under Zen and Engaged Buddhist teachers before adapting the practice for a secular medical context.",
+  "notableFollowers": [
+    "Sister Chan Khong — Thich Nhat Hanh's closest collaborator for over 60 years, co-founder of Plum Village and a central figure in Engaged Buddhism's relief and social work",
+    "Shunryu Suzuki — Japanese Soto Zen teacher who founded the San Francisco Zen Center in 1962 and wrote Zen Mind, Beginner's Mind, one of the most influential books in bringing Zen practice to the West",
+    "D.T. Suzuki — scholar whose early-to-mid-20th-century English writings were the single biggest force in introducing Zen to Western intellectual audiences, decades before Thich Nhat Hanh's own teaching reached the West",
+    "Sulak Sivaraksa — Thai social critic and activist who founded the International Network of Engaged Buddhists in 1989, extending Engaged Buddhism's reach well beyond Thich Nhat Hanh's own direct lineage"
+  ],
+  "legacyGlobalInfluence": "Zen's influence on Western culture runs well beyond religious practice — the Beat poets (Kerouac, Ginsberg, Snyder), popularizers like Alan Watts, and later figures like Steve Jobs (who practiced Zen meditation and cited it as a direct influence on Apple's minimalist design philosophy) all helped carry a version of Zen aesthetics and attention into mainstream Western art, design, and pop psychology from the 1950s onward. In Japan, Zen shaped the tea ceremony, ink painting, rock gardens, and martial arts traditions that are now recognized worldwide as part of Japanese culture generally, not just Buddhist practice specifically. Engaged Buddhism's legacy is more recent but arguably just as far-reaching: Thich Nhat Hanh is widely credited, alongside Jon Kabat-Zinn, as one of the two figures most responsible for the secular mindfulness movement now embedded in Western healthcare, education, and corporate wellness programs — a genuinely unusual case of a specific monastic teacher's practice reshaping mainstream secular life within his own lifetime.",
+  "criticalTake": {
+    "points": [
+      "Zen's popular Western image — minimalist, aesthetic, oriented around sudden 'enlightenment' — is often a commodified simplification of a tradition that, in its actual monastic form, involves years of rigorous, structured training under a teacher, not a lifestyle branding exercise.",
+      "Zen institutions in Japan have a real, documented history of entanglement with Japanese militarism and nationalism during the 1930s-40s — several prominent Zen teachers, including some of D.T. Suzuki's own wartime writings, provided religious justification for Japanese imperial expansion, a history laid out in detail in Brian Victoria's Zen at War, and one that complicates Zen's popular image as an apolitical, purely contemplative tradition.",
+      "Thich Nhat Hanh's Plum Village community faced real, publicly reported internal succession and governance tensions following his 2014 stroke and 2022 death — a reminder that founder-centered spiritual movements face genuine institutional continuity challenges after their founder's death, not just doctrinal ones.",
+      "Engaged Buddhism's explicit political and social activism has drawn criticism from more traditionalist Buddhists, who argue that directing meditative practice toward social and political ends risks diluting the tradition's original, narrower soteriological aim (individual liberation from suffering) — a live tension within Buddhism generally, not a settled question."
+    ],
+    "contextNote": "The Zen-at-war history in particular deserves more space than a single bullet point in a future deeper pass on this entry; included here as a real, sourced criticism rather than omitted for being uncomfortable."
+  },
+  "relatedIds": [
+    {
+      "section": "philosophies",
+      "id": "buddhism",
+      "label": "Buddhism"
+    },
+    {
+      "section": "books",
+      "id": "the-miracle-of-mindfulness",
+      "label": "The Miracle of Mindfulness"
+    },
+    {
+      "section": "books",
+      "id": "peace-is-every-step",
+      "label": "Peace Is Every Step"
+    },
+    {
+      "section": "books",
+      "id": "being-peace",
+      "label": "Being Peace"
+    },
+    {
+      "section": "library-category",
+      "id": "thich-nhat-hanh",
+      "label": "Thich Nhat Hanh (book library category)"
+    }
+  ],
+  "dateAdded": "2026-08-03",
+  "sourceNotes": "Original synthesis per PROJECT_BRIEF.md §6, from general Buddhist-studies and biographical knowledge of Thich Nhat Hanh. Combined into one entry (rather than two separate Zen and Engaged Buddhism entries) per New Section Research/philosophies.md's own explicit framing of these as one candidate line, and per the existing buddhism.json entry's criticalTake.contextNote, which already flagged this as planned future work. Thich Nhat Hanh's death (Hue, Vietnam, January 2022) and the Plum Village succession tensions are stated as general public-record knowledge, not sourced from any single site; the Zen-at-war history is drawn from the well-documented Brian Victoria scholarship on the subject, not a single-source claim. Book relatedIds (the-miracle-of-mindfulness, peace-is-every-step, being-peace) were checked against actual content/books/*.json filenames before adding, not assumed."
+}

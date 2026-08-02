@@ -46,7 +46,7 @@
       "The Western 'mindfulness' movement has been criticized from within Buddhist communities as a commercialized, secularized extraction of meditation technique from its original ethical and philosophical framework, sold as a productivity or stress-management tool stripped of the tradition's teachings on non-self and liberation from craving.",
       "Historical claims within the tradition — the Buddha's exact dates, the authenticity and dating of specific sutras, the reliability of oral transmission before texts were written down centuries after his death — are genuinely contested by modern textual scholars, not settled fact, even though they're often presented with more certainty in popular accounts."
     ],
-    "contextNote": "This entry describes Buddhism at a global, cross-tradition level; a future dedicated Zen/Engaged Buddhism entry (already flagged in New Section Research/philosophies.md) would cover that particular school's own history and debates in more depth."
+    "contextNote": "This entry describes Buddhism at a global, cross-tradition level; see the dedicated Zen Buddhism / Engaged Buddhism entry for that particular school's own deeper history and debates, including its Thich Nhat Hanh lineage."
   },
   "relatedIds": [
     {
@@ -58,6 +58,11 @@
       "section": "library-category",
       "id": "philosophy-psychology",
       "label": "Philosophy & Psychology (book library category)"
+    },
+    {
+      "section": "philosophies",
+      "id": "zen-engaged-buddhism",
+      "label": "Zen Buddhism / Engaged Buddhism"
     }
   ],
   "dateAdded": "2026-08-02",
