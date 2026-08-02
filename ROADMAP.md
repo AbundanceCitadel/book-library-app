@@ -453,9 +453,10 @@ Rebuilt the batch-markdown-to-JSON parser from scratch (the prior session's pars
 
 ### Stage 20 — Quote Retrofit Pass ("Highlights & Quotes," 20-30/book target)
 
-**Status:** Started, 55 of 195 sub-target books touched (round 1: 27 of 27
-zero-quote books; round 2: 28 of 123 books in the 1-4 quote range). 140
-books remain below the 20-30 target for a future session to continue.
+**Status:** 63 of 236 books touched across 3 rounds (round 1: 27 zero-quote
+books; round 2: 28 books in the 1-4 range; round 3: 8 books in the 1-4
+range). 182 books remain below the 20-30 target for a future session to
+continue.
 
 Every content-writing pass to date (the original 66 books, batches 1-12,
 batches 13-20) consistently undershot `docs/SCHEMA.md`'s v2 20-30-quotes-
@@ -516,10 +517,44 @@ verified live via direct fetch of the home page's updated "236 full
 summaries written" counter and two retrofitted book pages resolving
 correctly.
 
-**Next up:** 140 of 195 originally-thin books remain — the rest of the 1-4
-bucket (95 books), all of the 5-9 bucket (34), all of the 10-14 bucket (8),
-all of the 15-19 bucket (3). See `docs/SESSION_23_CONTINUATION_PROMPT.md`
-for the exact worklist and instructions.
+**Round 3 (2026-08-02, Session 25 — 8 books from the 1-4 bucket, worst-first,
+English-language only this round):** Continued from `docs/SESSION_23_CONTINUATION_PROMPT.md`,
+picked up after Session 24's Nine-Section Design Foundation work had already
+landed on `origin/main` (confirmed via a fresh `/tmp` clone + `git diff
+origin/main` rather than trusting the synced folder, which was 170 books
+stale — see `DECISIONS.md` #228). Deliberately scoped to English-language
+titles only this round (Vietnamese-language sourcing verification is a real,
+distinct skill gap worth its own session rather than rushing) via 3 parallel
+researcher-only subagents: `wine-folly-magnum-edition` (1→2, format doesn't
+support more), `dollars-and-sense` (1→18), `rich-dads-guide-to-becoming-rich-
+without-cutting-up-your-credit-cards` (1→0, honest zero after a Kiyosaki
+contamination check found nothing book-specific verifiable),
+`how-to-pay-off-your-mortgage-in-5-years` (2→5, near-zero public footprint),
+`how-i-made-2-000-000-in-the-stock-market-updated-for-the-21st-century`
+(2→27), `limitless` (2→28), `leading-without-authority` (2→30, cross-checked
+against the same author's other library title), `help-them-grow-or-watch-
+them-go` (2→22). Discarded 8 more pre-existing fake/blurb quotes across
+these 8 books (same data-quality pattern as round 2 — publisher jacket copy
+and back-cover marketing lines stored as if they were manuscript quotes).
+4 of the 8 crossed into the >=20 bucket. New breakdown: 32 at 0, 92 at 1-4,
+44 at 5-9, 9 at 10-14, 5 at 15-19, 54 at >=20 (236 total). Verified: JSON-
+parse + duplicate-id + duplicate-code + empty-category sweep clean, `npx tsc
+--noEmit` clean, `npm run build` hit the same known intermittent sandbox
+SIGBUS limitation as Session 23 (`DECISIONS.md` #108/#111/#128/#211) — used
+the established `tsc`+JSON-sweep fallback. Pushed with a classic PAT
+supplied inline by Thai (never persisted); live deploy confirmed via direct
+fetch of `/book/limitless` rendering correctly post-push. Full rationale in
+`DECISIONS.md` #228-230.
+
+**Next up:** 182 of 236 books remain below the 20-30 target — 32 at 0 (many
+already attempted once and honestly unfindable, per Session 23's note),
+92 at 1-4 (the highest-value bucket — largely untried, best hit rate),
+44 at 5-9, 9 at 10-14, 5 at 15-19. Vietnamese-language titles were
+deliberately skipped this round and make up a large share of the 0-and-thin
+buckets — worth a session that specifically budgets for Vietnamese-language
+sourcing/verification rather than defaulting to English-language picks
+again. See `docs/SESSION_25_CONTINUATION_PROMPT.md` for the exact worklist
+and instructions.
 
 ---
 
