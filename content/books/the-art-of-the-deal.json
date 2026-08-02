@@ -1,5 +1,6 @@
 {
   "id": "the-art-of-the-deal",
+  "code": "255",
   "title": "Trump: The Art of the Deal",
   "author": "Donald J. Trump with Tony Schwartz",
   "categories": ["bio-business", "business"],
@@ -8,70 +9,204 @@
   "estimatedOriginalReadingTimeMinutes": 420,
   "tags": ["negotiation", "real-estate", "business-biography", "dealmaking", "new-york"],
   "structureType": "chapters",
-  "summary": "The Art of the Deal is part memoir and part negotiating philosophy, structured around a single working week in Trump's life interspersed with chapters recounting the real estate deals that built his early reputation, from renovating the Commodore Hotel into the Grand Hyatt to developing Trump Tower on Fifth Avenue and acquiring the Trump Plaza and Trump Castle casinos in Atlantic City. The book opens with Trump's list of eleven personal rules for making deals — including \"think big,\" \"maximize your options,\" \"know your market,\" \"use your leverage,\" \"enhance your location,\" \"get the word out,\" \"fight back,\" and \"deliver the goods\" — and structures its argument around the idea that dealmaking is a distinct skill combining salesmanship, timing, and a willingness to take on risk that more cautious operators avoid. A recurring theme is Trump's account of learning the New York real estate business as a young developer working for his father Fred Trump's outer-borough housing business before pushing into more prestigious and much riskier Manhattan projects, arguing that ambition and reputation-building required visibly bigger, more prominent deals than the steady, lower-profile business his father had built. The book gives detailed, deal-by-deal accounts of Trump's early breakthrough projects: the politically complex negotiation to redevelop the derelict Commodore Hotel next to Grand Central Terminal using a novel property-tax abatement structure, the assembly of the site and air rights needed for Trump Tower, and the acquisition and branding of the Atlantic City casino properties during the early legalized-gambling boom in New Jersey. Throughout these accounts, Trump emphasizes negotiating leverage as the single most important factor in any deal — arguing that a good negotiator creates leverage by developing alternatives, understanding what the other side actually needs (which is often different from what they say they want), and maintaining a credible willingness to walk away. The book also devotes substantial attention to publicity and self-promotion as a business tool in their own right, with Trump arguing that media attention, even controversial attention, has direct commercial value for a real estate brand by creating demand and negotiating leverage independent of a project's underlying merits. Later chapters turn from specific deals to broader philosophy: managing risk by always having a fallback position, protecting personal reputation as a long-term asset even in adversarial negotiations, and staying personally involved in the details of a deal rather than delegating entirely to lawyers, bankers, or executives. The book closes with reflections on ambition and the relentless pursuit of bigger projects as both a business strategy and, by Trump's own account, a defining personal drive that shaped his approach to nearly every deal described in the book.",
+  "summary": "Trump: The Art of the Deal is part memoir and part business-advice book, built around Donald Trump's account of the real estate deals that built his reputation in New York and Atlantic City through the mid-1980s. It opens with a chapter following a single week of Trump's business activity in 1987, juggling several deals and negotiations at once, before moving to a chapter that lays out an explicit eleven-point personal framework for dealmaking — among them thinking big, protecting the downside, maximizing options, using leverage, and treating publicity as a business asset in its own right. The rest of the book alternates between biography and deal-by-deal narrative: Trump's account of growing up in Queens as the son of developer Fred Trump, an early apprenticeship on a modest apartment complex in Cincinnati, the calculated move into higher-profile Manhattan real estate, and then the string of projects — the Commodore Hotel's conversion into the Grand Hyatt, the site assembly and design ambitions behind Trump Tower, entry into the Atlantic City casino business, and a contested Central Park South redevelopment — that the book presents as the direct application of the framework laid out earlier.\n\nTwo chapters late in the book depart from clean success stories. One covers Trump's ownership of the New Jersey Generals in the United States Football League and the league's ultimately hollow antitrust victory over the NFL, which the book treats candidly as a bet made without the fallback position its own framework calls for. Another covers the long-running effort to develop Manhattan's West Side rail yards into a project branded Television City, presented as unresolved business at the time of publication rather than a finished win. A shorter, publicity-friendly chapter recounts Trump privately financing and completing a stalled city renovation of Central Park's Wollman Rink faster and more cheaply than the city itself had managed over several years, offered as proof of the book's cost-and-schedule-discipline claims. The book closes by returning to the opening week-in-the-life chapter and reporting how its various open threads were ultimately resolved.\n\nAn important fact about how the book came to exist shapes how it should be read: while credited to Trump, it was substantially written by journalist Tony Schwartz, who spent roughly eighteen months observing Trump's office, meetings, and phone calls to produce the manuscript, and received a joint cover credit and half of the book's advance and royalties under the agreement that produced it. Both Schwartz and the book's original publisher have said Trump's direct role in drafting the text was minimal. Schwartz has spoken at length in later years, including in a widely read 2016 New Yorker profile, about his own view of the book and his role in producing it.\n\nCommercially, the book was a significant success on publication in November 1987, reaching number one on the New York Times bestseller list and remaining on it for nearly a year, and it played a large role in establishing Trump's public reputation as a dealmaker well beyond the New York real estate industry that had previously known him. It has remained in print and widely read in the decades since, cited by admirers as a distillation of aggressive, publicity-conscious dealmaking and examined by biographers and journalists for how its account of specific deals compares with the more contested historical record around them.",
   "sections": [
     {
       "order": 1,
-      "title": "Trump's Eleven Rules for Dealmaking",
-      "summary": "Lays out the book's core framework of personal rules — think big, maximize your options, know your market, use your leverage, get the word out, fight back, deliver the goods — that structure the deals described later."
+      "title": "Dealing: A Week in the Life",
+      "summary": "This opening chapter sets out to introduce Trump's working style through demonstration rather than explanation, following a single week of his business activity in the spring of 1987 before any of the book's biography or deal history has been presented.\n\nThe chapter's substance moves through a week of overlapping business: phone calls and meetings on the West Side rail yards project, press activity connected to the Wollman Rink renovation, casino management issues in Atlantic City, and a steady stream of smaller decisions handled personally rather than delegated. The effect is closer to a diary than a narrative argument, showing several deals in different stages of progress running at once rather than a single story resolving from beginning to end.\n\nThe chapter closes without resolving any of the individual threads it introduces, deliberately leaving them open. That gap is the reason the book's final chapter exists: it returns to this same week later to report how each thread actually turned out, once the reader has the framework and deal history from the chapters in between.",
+      "keyLessons": [
+        "Personal involvement in day-to-day details, not just high-level strategy, is presented as central to Trump's account of his own method.",
+        "Running multiple deals in different stages simultaneously means a single week can include both routine management and career-defining negotiations.",
+        "Immediate responsiveness to press and public events is treated as an ordinary part of business operations, not a separate activity."
+      ]
     },
     {
       "order": 2,
-      "title": "Learning the Business from Fred Trump",
-      "summary": "Covers Trump's early career working in his father's outer-borough housing business before deliberately pushing into higher-profile, higher-risk Manhattan development."
+      "title": "Trump Cards: The Elements of the Deal",
+      "summary": "This chapter sets out to convert the anecdotal impression built by the opening chapter into an explicit, named framework: eleven personal rules the book presents as the elements behind every deal that follows.\n\nThe chapter's substance walks through each rule in turn — think big, protect the downside and the upside will take care of itself, maximize your options, know your market, use your leverage, enhance your location, get the word out, fight back, deliver the goods, contain the costs, and have fun — pairing each with a short illustrative example drawn from Trump's deals, such as using a hotel's threatened closure as leverage in the Commodore Hotel negotiation, or promoting Trump Tower's design to justify premium pricing.\n\nThe chapter closes by establishing the vocabulary the rest of the book depends on: later chapters narrating specific deals repeatedly return to these same eleven terms, so this chapter functions as the philosophical spine the deal-by-deal chapters hang from.",
+      "keyLessons": [
+        "Protecting the downside is presented as a precondition for pursuing the upside, not a separate, lesser concern.",
+        "Keeping multiple live options on any deal matters because first-choice plans routinely fall through.",
+        "Public attention, favorable or not, is framed as a form of leverage to be actively managed rather than avoided."
+      ]
     },
     {
       "order": 3,
-      "title": "The Commodore Hotel / Grand Hyatt Deal",
-      "summary": "Details the politically complex negotiation to redevelop the derelict Commodore Hotel next to Grand Central Terminal, including the novel property-tax abatement structure that made the deal financially viable."
+      "title": "Growing Up",
+      "summary": "This chapter sets out to locate the origin of Trump's business instincts in his upbringing, and does so mainly by profiling his father Fred Trump's own career rather than young Donald's childhood directly.\n\nThe chapter's substance traces Fred Trump's path from a teenage carpenter's helper in Queens building modest garages, through founding Elizabeth Trump & Son, to constructing thousands of outer-borough housing units across Queens and Brooklyn through the Depression and beyond — building a track record for discipline, cost-consciousness, and steady expansion. Donald Trump's own early ambition and competitiveness, and his years at New York Military Academy, are covered as evidence of a temperament shaped by, but already pushing beyond, his father's model.\n\nThe chapter closes by establishing Fred Trump's hands-on, cost-conscious building philosophy as the direct inheritance Trump carries into his own career, setting up the next chapter's account of his first deal made largely on his own.",
+      "keyLessons": [
+        "A disciplined, hands-on family business apprenticeship is presented as formative as any formal training.",
+        "Learning cost-consciousness early, from a parent who tracked every expense, is framed as shaping later large-scale decisions.",
+        "Ambition is presented as something inherited as a value system — loving the work itself — rather than only as a set of technical skills."
+      ]
     },
     {
       "order": 4,
-      "title": "Building Trump Tower",
-      "summary": "Covers the site assembly and air-rights negotiations required to develop Trump Tower on Fifth Avenue, presented as a case study in patient, multi-party deal assembly."
+      "title": "The Cincinnati Kid: Prudence Pays",
+      "summary": "This chapter sets out to cover Trump's account of his first substantial deal, made in partnership with his father and located far from the Manhattan skyline the rest of the book is mostly about.\n\nThe chapter's substance covers the purchase of Swifton Village, a struggling apartment complex in Cincinnati, the multi-year effort to raise occupancy and improve cash flow, and the eventual sale years later at a price the book presents as a strong return on the original investment.\n\nThe chapter closes by framing patience through a long, unglamorous hold as the real lesson of the deal, distinct from the leverage-and-timing lessons later chapters emphasize, and sets up the next chapter's account of Trump's deliberate move into the higher-profile, higher-risk Manhattan market.",
+      "keyLessons": [
+        "A first deal doesn't need to be glamorous to be instructive — mastering the mechanics on a modest asset is presented as building skill for larger ones later.",
+        "A multi-year hold and patient management of an asset is treated as mattering as much as the initial purchase decision.",
+        "Partnering with an experienced operator, in this case a parent, on an early deal is framed as reducing risk while skills are still being built."
+      ]
     },
     {
       "order": 5,
-      "title": "Atlantic City and the Casino Business",
-      "summary": "Recounts the acquisition and branding of the Trump Plaza and Trump Castle casino properties during New Jersey's early legalized-gambling boom."
+      "title": "The Move to Manhattan",
+      "summary": "This chapter sets out to cover the deliberate transition from the outer-borough housing business described in earlier chapters to pursuing prestige real estate in Manhattan.\n\nThe chapter's substance covers Trump relocating to Manhattan, building social and business relationships there, and scouting potential sites, including an early option on the Penn Central West Side rail yards, where an initial plan for government-financed middle-income housing fell apart when city financing dried up, prompting a pivot toward promoting the site for a possible convention center instead.\n\nThe chapter closes with Trump positioned to pursue the Commodore Hotel, the project the book treats as his true breakout deal, handing off directly to the next chapter.",
+      "keyLessons": [
+        "Deliberately relocating into a more competitive, higher-visibility market is framed as a strategic decision rather than an accident of circumstance.",
+        "An early setback, such as financing collapsing on a first plan, is treated as a reason to pivot rather than abandon a site.",
+        "Building relationships and visibility in a new market is presented as mattering before the first deal in that market has even closed."
+      ]
     },
     {
       "order": 6,
-      "title": "Leverage and Knowing What the Other Side Wants",
-      "summary": "Presents Trump's core negotiating principle: leverage comes from developing real alternatives and understanding what a counterparty actually needs, which often differs from their stated position."
+      "title": "Grand Hotel: Reviving 42nd Street",
+      "summary": "This chapter sets out to detail Trump's account of the Commodore Hotel deal, the project the book presents as his first major Manhattan success and the true origin of his broader career.\n\nThe chapter's substance covers negotiating a purchase option on the derelict, near-Grand-Central hotel despite limited capital, using the hotel's publicized threat of closure as leverage to press New York City toward an unusual property-tax abatement structure that made the numbers work, and bringing in Hyatt as an operating and financing partner to convert the building into the Grand Hyatt.\n\nThe chapter closes by treating the deal as proof-of-concept for the leverage-and-timing philosophy from chapter two, and as the credibility investment that the book presents as unlocking the larger projects that follow.",
+      "keyLessons": [
+        "Securing a purchase option before financing is fully arranged is framed as a way to preserve a deal while other pieces come together.",
+        "A public negotiating problem can sometimes be reframed for the other side, turning a liability (a boarded-up hotel) into an argument for cooperation.",
+        "A single high-visibility project is presented as a credibility investment whose value shows up in the deals that follow it, not just in itself."
+      ]
     },
     {
       "order": 7,
-      "title": "Publicity as a Business Asset",
-      "summary": "Argues media attention, including controversial attention, has direct commercial value for a real estate brand by creating demand and negotiating leverage independent of a project's underlying merits."
+      "title": "Trump Tower: The Tiffany Location",
+      "summary": "This chapter sets out to cover the site assembly and design ambitions behind Trump Tower on Fifth Avenue, presented as a case study in patient, multi-party deal assembly.\n\nThe chapter's substance covers negotiating adjacent parcels and air rights, including a negotiation involving the neighboring Tiffany's store ownership, and the architectural and retail decisions, most notably a large atrium, meant to create a landmark building rather than an ordinary office or residential tower.\n\nThe chapter closes with Trump Tower established as the signature project that cemented the Trump name as a luxury real estate brand, a branding logic the book carries directly into the Atlantic City chapters that follow.",
+      "keyLessons": [
+        "Assembling a site through adjacent-parcel and air-rights negotiations is presented as unlocking value a single lot alone could not capture.",
+        "A flagship project is framed as a brand investment whose returns extend to later, unrelated projects carrying the same name.",
+        "Design ambition, such as a landmark atrium, is treated as a marketing decision as much as an architectural one."
+      ]
     },
     {
       "order": 8,
-      "title": "Risk, Reputation, and Staying Personally Involved",
-      "summary": "Closes on broader philosophy: always maintaining a fallback position, protecting personal reputation as a long-term asset, and staying personally engaged in deal details rather than delegating entirely to advisors."
+      "title": "Gaming: The Building on the Boardwalk",
+      "summary": "This chapter sets out to cover Trump's entry into the Atlantic City casino business through what became the Trump Plaza Hotel and Casino.\n\nThe chapter's substance covers assembling a Boardwalk site parcel by parcel, deliberately obtaining a gaming license before committing to full-scale construction to limit exposure, and structuring a partnership with Holiday Inns that traded away half the profits in exchange for financing, repayment of money already invested, and a guarantee against losses.\n\nThe chapter closes by framing the deal as a direct application of the \"protect the downside\" principle from chapter two, and sets up the complications with Holiday Inns and rival operators that later chapters return to.",
+      "keyLessons": [
+        "Sequencing licensing before construction is presented as reducing exposure even when it costs time.",
+        "A partnership that trades some upside for downside protection is framed as the right trade in a heavily regulated, capital-intensive business.",
+        "Managing carrying costs during a long site-assembly period is treated as a distinct skill from managing construction costs later."
+      ]
+    },
+    {
+      "order": 9,
+      "title": "Wynn-Fall: The Battle for Hilton",
+      "summary": "This chapter sets out to cover the acquisition of what became Trump Castle, and the parallel rivalry with casino operator Steve Wynn that the book frames as part of the same competitive story.\n\nThe chapter's substance covers Barron Hilton's Atlantic City casino losing its gaming license just before its scheduled opening, forcing a distressed, last-minute sale that Trump acquired and renamed, alongside an account of competing with Wynn's Golden Nugget for position and reputation in the Atlantic City casino market.\n\nThe chapter closes by using the episode as an example of capitalizing on a competitor's regulatory setback, tying directly back to the leverage and flexibility themes established in chapter two.",
+      "keyLessons": [
+        "Being positioned with financing and readiness in place is presented as what allows quick action when a competitor's deal collapses.",
+        "A distressed acquisition of a nearly finished asset is framed as potentially faster and cheaper than building from scratch.",
+        "Ongoing rivalries within a market are treated as part of the competitive landscape to manage deliberately, not incidental background."
+      ]
+    },
+    {
+      "order": 10,
+      "title": "Low Rent, High Stakes: The Showdown on Central Park South",
+      "summary": "This chapter sets out to cover the contentious effort to redevelop 100 Central Park South, a building with long-term rent-controlled and rent-stabilized tenants.\n\nThe chapter's substance covers the tension between the site's redevelopment value and the tenants' rights and public sympathy, and the adversarial negotiating and legal posture the book describes Trump taking toward the dispute, weighed against the reputational cost of a prolonged public fight with sitting tenants.\n\nThe chapter closes by presenting this as one of the harder, more contested deals in the book, an example of the \"fight back\" principle from chapter two applied in a legally and publicly complicated setting rather than a clean win.",
+      "keyLessons": [
+        "Not every deal resolves cleanly; some remain contested for years with real reputational cost attached.",
+        "A legally defensible negotiating position is not shown to guarantee a favorable public narrative.",
+        "Long, adversarial disputes are framed as testing whether \"fighting back\" is worth its cost case by case, not as an automatic strategy."
+      ]
+    },
+    {
+      "order": 11,
+      "title": "Long Shot: The Spring and Fall of the USFL",
+      "summary": "This chapter sets out to cover Trump's ownership of the New Jersey Generals in the United States Football League and the league's antitrust lawsuit against the National Football League.\n\nThe chapter's substance covers buying into a financially struggling league, pushing for a shift to a fall schedule to compete directly against the NFL, and the resulting antitrust suit, which the league won on the underlying legal claim but for only nominal damages, an outcome that did not save the league from collapse.\n\nThe chapter closes candidly, presenting the episode as the clearest example in the book of a bet that did not pay off, explicitly tying it back to chapter two's warning against deals made without a real fallback position.",
+      "keyLessons": [
+        "A legal or strategic win is shown not to guarantee a business win if the underlying venture still collapses.",
+        "Betting on a long shot without a genuine fallback plan is presented as a departure from the book's own stated risk discipline, acknowledged here as a lesson learned the hard way.",
+        "Aggressive competitive strategy against an established incumbent is framed as carrying real downside risk, not only upside."
+      ]
+    },
+    {
+      "order": 12,
+      "title": "Ice Capades: Rebuilding Wollman Rink",
+      "summary": "This chapter sets out to cover Trump's offer to take over New York City's stalled renovation of the Wollman Rink in Central Park after years of delay.\n\nThe chapter's substance covers the city's multi-year, over-budget failure to complete the rink, Trump's public offer to finish the project himself at his own cost on a fast timeline, and the project's actual completion in a few months, well under the city's spending and far ahead of its schedule.\n\nThe chapter closes by using the episode as a publicity-friendly, comparatively low-risk demonstration of the cost-and-schedule discipline claimed in chapter two, framed against a public-sector comparison the book treats as self-evidently favorable to Trump's approach.",
+      "keyLessons": [
+        "A visible project delivered on a fixed budget and short timeline is presented as generating outsized publicity relative to its actual cost.",
+        "Direct, hands-on project oversight, including personally checking contractor costs, is framed as a habitual practice rather than a one-time gesture.",
+        "Volunteering to fix a visible public failure is presented as both a genuine service and a calculated reputational move, treated here as compatible rather than contradictory."
+      ]
+    },
+    {
+      "order": 13,
+      "title": "Comeback: A West Side Story",
+      "summary": "This chapter sets out to cover the long-running effort to develop the Penn Central West Side rail yards into a project branded Television City, including outreach aimed at keeping NBC as an anchor tenant in New York.\n\nThe chapter's substance covers assembling the roughly hundred-acre site, proposing a project anchored by a major broadcast tenant, promoting an ambition for one of the world's tallest buildings to generate public attention, and navigating sustained opposition from West Side community and civic groups skeptical of the project's scale.\n\nThe chapter closes with the project still unresolved at the time of the book's publication, explicitly presented as an open thread rather than a completed win, distinguishing it from the finished-deal chapters earlier in the book.",
+      "keyLessons": [
+        "Some of the largest deals take years to resolve and may still be unresolved when a book about them goes to print.",
+        "Anchoring a large project around a single high-profile tenant is presented as a deliberate way to build momentum and legitimacy.",
+        "Persistent local opposition to a project's scale is treated as an expected cost of large urban development, not a signal to abandon it."
+      ]
+    },
+    {
+      "order": 14,
+      "title": "The Week That Was: How the Deals Came Out",
+      "summary": "This closing chapter sets out to return to the single week covered in chapter one and report how each of that week's open threads was ultimately resolved, closing the loop the opening chapter deliberately left open.\n\nThe chapter's substance revisits the specific negotiations, meetings, and disputes mentioned in the first chapter one by one, giving the reader a concrete sense of resolution, continuation, or in some cases ongoing uncertainty for each.\n\nThe book closes by tying this granular, week-to-week busyness back to the eleven-point philosophy from chapter two, presenting a life organized around constant negotiation as both a business method and, in the book's own account, a defining personal identity.",
+      "keyLessons": [
+        "Following a single week of business activity through to its resolution illustrates how many threads a large dealmaking career runs simultaneously.",
+        "Not every open question is shown resolving quickly or favorably; the closing chapter is candid that some threads remained unresolved.",
+        "The book's closing argument treats an appetite for constant dealmaking as inseparable from its account of personal motivation and identity."
+      ]
     }
   ],
   "keyLessons": [
-    "Treat leverage as the single most important factor in a negotiation — build it by developing real alternatives before you need them.",
-    "Understand what the other side actually needs, which is often different from what they say they want, and negotiate toward that.",
-    "Maintain a credible willingness to walk away; leverage without that credibility is mostly theoretical.",
-    "Publicity and attention have direct commercial value independent of a project's underlying merits — treat visibility as a deliberate business tool.",
-    "Always keep a fallback position in any major deal or commitment rather than betting everything on a single outcome.",
-    "Stay personally involved in the details of major deals rather than delegating entirely to lawyers, bankers, or executives.",
-    "Reputation is a long-term asset worth protecting even in the middle of an adversarial, short-term negotiation.",
-    "Bigger, more visible projects can build reputation and momentum faster than steady, lower-profile ones — but they also carry proportionally higher risk."
+    "Treat leverage — having something the other side wants, needs, or simply can't do without — as the foundation of a negotiation, and build it before you need it.",
+    "Protect the downside before chasing the upside: plan for a deal's worst-case outcome so a bad result is survivable.",
+    "Keep multiple live options open on any deal, since first-choice plans routinely fall through.",
+    "Treat public attention as a business asset to manage deliberately, not a byproduct to avoid or ignore.",
+    "Stay personally involved in a deal's details, including costs, contracts, and schedules, rather than delegating entirely to advisors.",
+    "Sequence risk carefully — for example, securing regulatory approval before committing to full-scale construction.",
+    "A visible project delivered on time and under budget can generate reputational returns well beyond its actual cost.",
+    "Not every ambitious bet pays off; the book's own account of the USFL venture is presented candidly as a long shot pursued without a real fallback plan.",
+    "A single flagship project can function as a brand investment whose value extends to later, unrelated projects carrying the same name.",
+    "Fighting a contested negotiation to the end can pay off, but it carries real reputational and financial cost that should be weighed deal by deal."
   ],
   "quotes": [
-    { "text": "I like thinking big. I always have. To me it's very simple: if you're going to be thinking anyway, you might as well think big.", "attribution": "Donald J. Trump, Trump: The Art of the Deal" },
-    { "text": "My style of deal-making is quite simple and straightforward. I aim very high, and then I just keep pushing and pushing to get what I'm after.", "attribution": "Donald J. Trump, Trump: The Art of the Deal" },
-    { "text": "Sometimes it pays to be a little wild.", "attribution": "Donald J. Trump, Trump: The Art of the Deal" }
+    { "text": "I don't do it for the money. I've got enough, much more than I'll ever need. I do it to do it. Deals are my art form.", "attribution": "Donald J. Trump, Trump: The Art of the Deal, Chapter 1", "category": "Dealmaking Philosophy & Style" },
+    { "text": "Sometimes it pays to be a little wild.", "attribution": "Donald J. Trump, Trump: The Art of the Deal, Chapter 1", "category": "Dealmaking Philosophy & Style" },
+    { "text": "My style of deal-making is quite simple and straightforward. I aim very high, and then I just keep pushing and pushing and pushing to get what I'm after.", "attribution": "Donald J. Trump, Trump: The Art of the Deal, Chapter 2", "category": "Dealmaking Philosophy & Style" },
+    { "text": "I like thinking big. I always have. To me it's very simple: if you're going to be thinking anyway, you might as well think big.", "attribution": "Donald J. Trump, Trump: The Art of the Deal, Chapter 2", "category": "Thinking Big, Risk & the Downside" },
+    { "text": "People think I'm a gambler. I've never gambled in my life. To me, a gambler is someone who plays slot machines. I prefer to own slot machines.", "attribution": "Donald J. Trump, Trump: The Art of the Deal, Chapter 2", "category": "Thinking Big, Risk & the Downside" },
+    { "text": "It's been said that I believe in the power of positive thinking. In fact, I believe in the power of negative thinking.", "attribution": "Donald J. Trump, Trump: The Art of the Deal, Chapter 2", "category": "Thinking Big, Risk & the Downside" },
+    { "text": "If you plan for the worst — if you can live with the worst — the good will always take care of itself.", "attribution": "Donald J. Trump, Trump: The Art of the Deal, Chapter 2", "category": "Thinking Big, Risk & the Downside" },
+    { "text": "The point is that you can't be too greedy. If you go for a home run on every pitch, you're also going to strike out a lot.", "attribution": "Donald J. Trump, Trump: The Art of the Deal, Chapter 2", "category": "Thinking Big, Risk & the Downside" },
+    { "text": "I also protect myself by being flexible. I never get too attached to one deal or one approach.", "attribution": "Donald J. Trump, Trump: The Art of the Deal, Chapter 2", "category": "Thinking Big, Risk & the Downside" },
+    { "text": "The worst thing you can possibly do in a deal is seem desperate to make it. That makes the other guy smell blood, and then you're dead.", "attribution": "Donald J. Trump, Trump: The Art of the Deal, Chapter 2", "category": "Leverage, Location & Promotion" },
+    { "text": "Leverage is having something the other guy wants. Or better yet, needs. Or best of all, simply can't do without.", "attribution": "Donald J. Trump, Trump: The Art of the Deal, Chapter 2", "category": "Leverage, Location & Promotion" },
+    { "text": "Leverage: don't make deals without it.", "attribution": "Donald J. Trump, Trump: The Art of the Deal, Chapter 2", "category": "Leverage, Location & Promotion" },
+    { "text": "Perhaps the most misunderstood concept in all of real estate is that the key to success is location, location, location.", "attribution": "Donald J. Trump, Trump: The Art of the Deal, Chapter 2", "category": "Leverage, Location & Promotion" },
+    { "text": "You can have the most wonderful product in the world, but if people don't know about it, it's not going to be worth much.", "attribution": "Donald J. Trump, Trump: The Art of the Deal, Chapter 2", "category": "Leverage, Location & Promotion" },
+    { "text": "I call it truthful hyperbole. It's an innocent form of exaggeration — and a very effective form of promotion.", "attribution": "Donald J. Trump, Trump: The Art of the Deal, Chapter 2", "category": "Leverage, Location & Promotion" },
+    { "text": "I play to people's fantasies. People may not always think big themselves, but they can still get very excited by those who do.", "attribution": "Donald J. Trump, Trump: The Art of the Deal, Chapter 2", "category": "Leverage, Location & Promotion" },
+    { "text": "When people treat me badly or unfairly or try to take advantage of me, my general attitude, all my life, has been to fight back very hard.", "attribution": "Donald J. Trump, Trump: The Art of the Deal, Chapter 2", "category": "Fighting Back, Delivering & Cost Discipline" },
+    { "text": "You can't con people, at least not for long.", "attribution": "Donald J. Trump, Trump: The Art of the Deal, Chapter 2", "category": "Fighting Back, Delivering & Cost Discipline" },
+    { "text": "The dollar always talks in the end.", "attribution": "Donald J. Trump, Trump: The Art of the Deal, Chapter 2", "category": "Fighting Back, Delivering & Cost Discipline" },
+    { "text": "I believe in spending what you have to. But I also believe in not spending more than you should.", "attribution": "Donald J. Trump, Trump: The Art of the Deal, Chapter 2", "category": "Fighting Back, Delivering & Cost Discipline" },
+    { "text": "I learned from my father that every penny counts, because before too long your pennies turn into dollars.", "attribution": "Donald J. Trump, Trump: The Art of the Deal, Chapter 2", "category": "Fighting Back, Delivering & Cost Discipline" },
+    { "text": "Life is very fragile, and success doesn't change that. If anything, success makes it more fragile.", "attribution": "Donald J. Trump, Trump: The Art of the Deal, Chapter 2", "category": "Family, Motivation & Perspective" },
+    { "text": "Money was never a big motivation for me, except as a way to keep score. The real excitement is playing the game.", "attribution": "Donald J. Trump, Trump: The Art of the Deal, Chapter 2", "category": "Family, Motivation & Perspective" },
+    { "text": "The most important thing in life is to love what you're doing, because that's the only way you'll ever be really good at it.", "attribution": "Fred Trump, as quoted by Donald J. Trump in Trump: The Art of the Deal, Chapter 3", "category": "Family, Motivation & Perspective" }
   ],
-  "whoThisIsFor": "Readers interested in negotiation tactics and real estate dealmaking told through detailed first-person deal accounts rather than abstract theory.",
-  "whenToReadThis": "Read before a high-stakes negotiation where leverage, alternatives, and public perception all matter to the outcome.",
+  "whoThisIsFor": "Readers interested in a first-person account of 1980s New York and Atlantic City real estate dealmaking and self-promotion, approached alongside the well-documented history of how the book itself was actually written.",
+  "whenToReadThis": "Read as a primary artifact of image-building and publicity-driven negotiation rather than a neutral instruction manual — useful before studying leverage-heavy tactics, or alongside independent reporting on the deals and the book's own authorship.",
   "relatedBooks": ["trillion-dollar-coach", "never-split-the-difference"],
   "readStatus": "unread",
   "personalRating": null,
   "personalNotes": "",
   "dateAdded": "2026-07-24",
-  "sourceNotes": "Original synthesis from general knowledge of the book's well-documented deal accounts and negotiating framework. Three short, widely-cited quotes included with attribution; no passages reproduced."
+  "authorBio": {
+    "name": "Donald J. Trump (credited author) and Tony Schwartz (ghostwriter)",
+    "bio": "Donald J. Trump (born June 14, 1946, in Queens, New York) is the credited author of Trump: The Art of the Deal and the real estate developer whose early career the book describes. After attending Fordham University and then the Wharton School of the University of Pennsylvania, he joined his father Fred Trump's outer-borough real estate business before moving into Manhattan development in the mid-1970s. The deals covered in this book — the Commodore Hotel's conversion into the Grand Hyatt, the construction of Trump Tower, and the entry into Atlantic City casinos — cover roughly the first decade of that Manhattan-focused career, through the book's 1987 publication. In the decades since, Trump expanded into further real estate, licensing, and media ventures, hosted the reality television series The Apprentice beginning in 2004, and later entered politics, serving as the 45th and 47th President of the United States.\n\nTony Schwartz (born May 2, 1952) is the journalist who wrote the book's text. A former reporter for The New York Times and a contributor to New York Magazine and other publications, Schwartz was hired by Trump in 1985 after Trump read a critical Schwartz profile of him and, to Schwartz's surprise, responded favorably. Schwartz has said he spent roughly eighteen months observing Trump's office, meetings, and phone calls to gather material for the manuscript, since direct interviews with Trump proved less productive than simply listening to him work. He received a joint cover credit — \"Donald Trump with Tony Schwartz\" — along with half of the book's advance and royalties. Both Schwartz and the book's original publisher, Random House's Howard Kaminsky, have said Trump's direct role in drafting the text was minimal.\n\nSchwartz has written and spoken publicly at length about the experience in the years since, most notably in a widely read 2016 New Yorker profile by Jane Mayer, in which he described regretting having written the book and said that if he were writing it in 2016 he would title it differently. He later suggested the book be reclassified and donated portions of its royalties to charitable and advocacy organizations. Outside of his work on this book, Schwartz built a separate career as a management consultant and author, founding The Energy Project, a firm focused on workplace productivity and energy management, in the early 2000s.",
+    "notableWorks": [
+      "Trump: The Art of the Comeback",
+      "Trump: Surviving at the Top",
+      "Trump: How to Get Rich",
+      "The Power of Full Engagement (Tony Schwartz, with Jim Loehr)",
+      "The Way We're Working Isn't Working (Tony Schwartz)"
+    ]
+  },
+  "sourceNotes": "v2 retrofit. Chapter structure completely replaced: the v1 entry's eight thematic sections were invented and did not match the book's real table of contents. The actual fourteen-chapter structure and titles (Dealing: A Week in the Life; Trump Cards: The Elements of the Deal; Growing Up; The Cincinnati Kid: Prudence Pays; The Move to Manhattan; Grand Hotel: Reviving 42nd Street; Trump Tower: The Tiffany Location; Gaming: The Building on the Boardwalk; Wynn-Fall: The Battle for Hilton; Low Rent, High Stakes: The Showdown on Central Park South; Long Shot: The Spring and Fall of the USFL; Ice Capades: Rebuilding Wollman Rink; Comeback: A West Side Story; The Week That Was: How the Deals Came Out) were verified directly against a full-text scan of the 1987 first edition (archive.org, 'Trump's The Art Of The Deal,' djvu text derived from the original Random House hardcover), cross-checked against the book's table of contents and chapter openings in that scan, and against Wikipedia's summary of the book's structure and reception. All 24 quotes were verified as exact wording against that same primary-source scan (correcting obvious OCR artifacts, e.g. '1' misread for 'I', stray spacing, and curly-quote characters, to standard punctuation) rather than recalled from memory or drawn from a secondary quote-aggregator; quotes are grouped into 4 categories. Section and whole-book summaries, keyLessons, and authorBio are original synthesis and do not reproduce book text outside the quoted lines. Authorship framing (Tony Schwartz's ghostwriting role, the ~18-month research process, the joint byline and 50/50 royalty split, and Schwartz's later public statements) was verified via Wikipedia's 'The Art of the Deal' article and its citation of Jane Mayer, 'Donald Trump's Ghostwriter Tells All,' The New Yorker, July 25, 2016, plus corroborating CBS News, ABC News, and New York Times coverage of Schwartz's subsequent public statements (2016 and 2019). Both Trump's pre-1987 real estate career facts and Tony Schwartz's journalism/Energy Project background were cross-checked against Wikipedia biographical entries for each. Kept deliberately descriptive and even-handed throughout per this entry's business-biography framing, consistent with how buffett-the-making-of-an-american-capitalist.json and charlie-munger-the-complete-investor.json handle the distinction between a book's credited/biographical subject and its actual writer."
 }

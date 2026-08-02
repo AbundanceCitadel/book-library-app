@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
   getAllBooks,
@@ -8,6 +7,7 @@ import {
 } from "@/lib/books";
 import Badge from "@/app/components/Badge";
 import BookTabs from "@/app/components/BookTabs";
+import BackLink from "@/app/components/BackLink";
 
 export function generateStaticParams() {
   return getAllBooks().map((book) => ({ id: book.id }));
@@ -26,21 +26,17 @@ export default function BookPage({ params }: { params: { id: string } }) {
 
   return (
     <main className="mx-auto max-w-2xl px-4 py-8 sm:px-6">
-      <Link
-        href="/"
-        className="tap-target -ml-1 text-sm text-muted hover:text-gold-400 hover:underline"
-      >
-        ← Library
-      </Link>
+      <BackLink label="Back" fallbackHref="/" />
 
-      <h1 className="mt-3 text-3xl font-semibold leading-tight tracking-tight sm:text-4xl">
+      <p className="mt-3 font-mono text-xs text-amber-400">No. {book.code}</p>
+      <h1 className="mt-1 text-3xl font-semibold leading-tight tracking-tight sm:text-4xl">
         {book.title}
       </h1>
       <p className="mt-1 text-muted">{book.author}</p>
 
       <div className="mt-3 flex flex-wrap items-center gap-1.5">
         {book.categories.map((cat) => (
-          <Badge key={cat} tone="gold">
+          <Badge key={cat} tone="orange">
             {CATEGORY_LABELS[cat] ?? cat}
           </Badge>
         ))}

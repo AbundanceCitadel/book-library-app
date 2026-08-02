@@ -1,56 +1,40 @@
 import Link from "next/link";
 import type { Book } from "@/lib/books";
-import { CATEGORY_LABELS, CATEGORY_ICONS } from "@/lib/categories";
-import { coverGradientCss } from "@/lib/covers";
-import Badge from "./Badge";
 
-// v3 (Stage 16, premium redesign): cover-forward tile, replacing the plain
-// text-row card. See docs/DESIGN_SYSTEM.md "Visual richness without real
-// cover art" — the top panel is a deterministic generative gradient (falls
-// back-compatible with a real `coverImage` later, preferred over the
-// gradient if/when populated) with the book's primary category emoji
-// rendered large as a central emblem, echoing the category-browsing badge
-// treatment in CategoryAccordion so browsing-by-book and browsing-by-category
-// feel like the same visual system.
+// v5 (Stage 18): each book is now its own separate box (own border, gap to
+// its neighbor) rather than one row inside a shared-border list — Thai's
+// explicit ask: "each one is a separate box," "box in box." Two rows inside
+// the box: row 1 is the code + title + author together, row 2 is a short
+// (2-3 sentence) description — replaces v4's three-stacked-lines layout.
+// See docs/DESIGN_SYSTEM.md v5 and app/components/BookList.tsx (the grid
+// wrapper that gives each card its gap).
+function firstSentences(text: string, maxSentences = 3, maxLen = 280): string {
+  const clean = text.replace(/\s+/g, " ").trim();
+  const sentences = clean.match(/[^.!?]+[.!?]+(\s|$)/g) ?? [clean];
+  let out = sentences.slice(0, maxSentences).join("").trim();
+  if (out.length > maxLen) {
+    out = `${out.slice(0, maxLen).replace(/\s+\S*$/, "")}…`;
+  } else if (sentences.length > maxSentences) {
+    out = `${out}…`.replace(/\.…$/, "…");
+  }
+  return out;
+}
+
 export default function BookCard({ book }: { book: Book }) {
-  const primaryCategory = book.categories[0];
-  const emblem = CATEGORY_ICONS[primaryCategory] ?? "📚";
-
   return (
     <Link
       href={`/book/${book.id}`}
-      className="book-card group flex flex-col overflow-hidden rounded-xl border border-border bg-surface"
+      className="book-row motion-premium tap-target block rounded-xl border-2 border-orange-600/70 bg-surface p-4"
     >
-      <div
-        className="book-cover flex aspect-[5/3] items-center justify-center border-b border-border sm:aspect-[16/9]"
-        style={
-          book.coverImage
-            ? { backgroundImage: `url(${book.coverImage})`, backgroundSize: "cover", backgroundPosition: "center" }
-            : { backgroundImage: coverGradientCss(book.id) }
-        }
-        aria-hidden="true"
-      >
-        {!book.coverImage && (
-          <span className="text-4xl opacity-90 drop-shadow-sm sm:text-5xl">
-            {emblem}
-          </span>
-        )}
+      <div className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
+        <span className="shrink-0 font-mono text-xs text-amber-400">
+          {book.code}
+        </span>
+        <span className="font-medium leading-snug">{book.title}</span>
+        <span className="text-sm text-muted">— {book.author}</span>
       </div>
-      <div className="flex flex-1 flex-col gap-2 p-4">
-        <div>
-          <div className="font-medium leading-snug">{book.title}</div>
-          <div className="mt-0.5 text-sm text-muted">{book.author}</div>
-        </div>
-        <div className="mt-auto flex flex-wrap items-center gap-1.5">
-          {book.categories.slice(0, 2).map((cat) => (
-            <Badge key={cat} tone="gold">
-              {CATEGORY_LABELS[cat] ?? cat}
-            </Badge>
-          ))}
-          <span className="ml-auto whitespace-nowrap text-xs text-muted">
-            ~{book.estimatedOriginalReadingTimeMinutes} min
-          </span>
-        </div>
+      <div className="mt-1.5 text-sm text-muted">
+        {firstSentences(book.summary)}
       </div>
     </Link>
   );

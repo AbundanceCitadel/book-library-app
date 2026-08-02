@@ -208,9 +208,17 @@ Picked up the Stage 15 retrofit next (alphabetical order, per `DECISIONS.md` #10
 
 **Stage 15 paused here, same session — pivot decided by Thai:** rather than continuing to retrofit books one batch at a time against a template that might still need changes, Thai asked to park the retrofit and instead do a full review/fix pass across the whole app — every page type, every tab, all templates and design — so that the app itself reaches a finished, "nothing left to tweak" state first. The explicit goal: once this pass is done, all future sessions should need to do is add/retrofit book content, with no more template or design changes required. This pulls Stage 12 (Polish & QA) forward, ahead of finishing Stage 15, and folds in Thai's own list of specific things he wants looked at (not yet captured in this doc — the next session should ask him directly rather than guess). Wrote `docs/SESSION_11_CONTINUATION_PROMPT.md` for the fresh chat that will execute this. Domain link recorded in `PROJECT_BRIEF.md` §5 this session too (`https://library.abundancecitadel.app`, HTTPS still pending as of this writing).
 
-### Stage 16 — Premium Visual Redesign (review-first, not merged)
+### Stage 16 — Premium Visual Redesign (merged and live)
 
-**Status:** Built and build-verified on branch `redesign/premium-v3` — 2026-07-31. Awaiting Thai's review before any merge/deploy. Ran in parallel with the Stage 15 content retrofit and the 310-book new-content pipeline, on a separate branch, touching zero content files.
+**Status:** **Merged to `main` and deployed to production — 2026-07-31.** Thai reviewed and explicitly asked to push everything live in the same session the 8-Tab Content Structure Rollout (v2.1) work above was done. Pushed as commit `b52dcc8` (on top of `origin/main`'s `a235cd6`) via a fresh `/tmp` clone + rsync of the validated working tree (see `DECISIONS.md` #174 for the exact process — local `main` was stale and HEAD was on the redesign branch, so this avoided fighting the synced folder's known `.git` lock bug). Vercel auto-deployed from the push (`dpl_GYhyEZWvyqjwx9sbfEe7MjH3ie9F`, READY within ~35s, target production), aliased to `library.abundancecitadel.app` / `book-library-app-abundance-citadel.vercel.app` / `book-library-app-fawn.vercel.app`. Verified live via a direct fetch of the `.vercel.app` URL (not just the Vercel API's READY status): homepage renders the redesigned dark UI with 376 titles across 16 sections, and the Atomic Habits book page shows the new "Highlights & Quotes" tab label. `library.abundancecitadel.app` itself timed out on this session's HTTPS fetch attempt (same intermittent pattern noted in Session 10 — DNS/cert, not a deploy problem; the `.vercel.app` aliases confirm the deploy itself is healthy) — worth a real-browser check from Thai's own device to confirm the custom domain resolves for him. The synced folder's local `git` branch pointer itself is still on `redesign/premium-v3`/stale `main` (cosmetic only, see `DECISIONS.md` #175) — the live app and GitHub `main` are correct regardless.
+
+**Original build/verification note (unchanged):** built and build-verified on branch `redesign/premium-v3`. Ran in parallel with the Stage 15 content retrofit and the 310-book new-content pipeline, on a separate branch, touching zero content files.
+
+**Open follow-up, flagged 2026-07-31 (no code changed this pass):** Thai looked at the live site and correctly noticed only 5 tabs render, not 8 — confirmed this is expected given current state, not a deploy bug. The "8-Tab Content Structure Rollout (v2.1)" above only shipped schema/pipeline/content changes; the 3 new tabs (Concepts & Frameworks, Apply This, Critical Take) were explicitly never built in `BookTabs.tsx` (see the code comment at the top of that file, and `DECISIONS.md` #170). Wrote `docs/SESSION_20_CONTINUATION_PROMPT.md` — a full, self-contained handoff for building those 3 tabs — for Thai to run in a fresh chat/session. **Next session's job: read that file and build the 3 missing tabs.** See `DECISIONS.md` #176.
+
+**Status update, 2026-07-31 — Session 21: 3-tab UI build complete, 8-Tab Content Structure Rollout now fully shipped end to end (schema + content + UI).** Executed `docs/SESSION_20_CONTINUATION_PROMPT.md` in a different account/sandbox per that prompt's own instructions. Built `Concepts & Frameworks`, `Apply This`, and `Critical Take` in `app/components/BookTabs.tsx`, completing the 8-tab set exactly as specified in `docs/CONTENT_STRUCTURE_PROPOSAL.md` §1: Summary, Chapters, Key Lessons, Concepts & Frameworks, Apply This, Highlights & Quotes, Critical Take, Author. Each new tab follows the Author tab's established fallback pattern (plain `text-sm text-muted` message, shown independently per field since a book can have some of the three fields populated and not others) — necessary since only 11 of 66 books have this data as of this writing (re-verified programmatically; the prompt's own "7 of 48" figure had already drifted). Visual treatment: Concepts & Frameworks as cards matching the existing Summary-tab card style, with a working jump-back-to-Chapters link; Apply This splits Action Steps (numbered, sequential) from Reflection Questions (dashed border, italic, visually distinct); Critical Take uses the app's existing teal secondary accent rather than a warning color, reading as "a different perspective" not an error state. Full rationale for every visual/copy judgment call in `DECISIONS.md` #177-184.
+
+Validated via the established `/tmp`-mirror workaround (this session's synced-folder `node_modules` turned out to be a partial/broken cloud-sync copy, unrelated to the code change — see `DECISIONS.md` #183): `tsc --noEmit` clean, `npm run build` clean (87 static pages), and — new this session — an actual `npm run start` + `curl` check of both a v2.1-retrofitted book (`atomic-habits`) and a pre-v2.1 book (`essentialism`), confirming the identical 8-tab bar renders correctly and without error on both, not just a static-HTML grep. Left the four `content/books/*.json` files with genuine uncommitted parallel-retrofit-track work (`built-to-last`, `charlie-munger-the-complete-investor`, `delivering-happiness`, `dotcom-secrets`) untouched throughout, per the established pattern (`DECISIONS.md` #161, #173) — committed only the files this pass actually changed. See the Session Log entry below for push/deploy/live-verification results.
 
 **2026-07-31 — new session:** Executed `docs/PREMIUM_REDESIGN_SESSION_PROMPT.md` in full. Read `PROJECT_BRIEF.md`/`ROADMAP.md`/`docs/DESIGN_SYSTEM.md`/`docs/SCHEMA.md` first. Confirmed via `git status` that `content/books/*.json`, `ROADMAP.md`, and `DECISIONS.md` already had real uncommitted work from the parallel retrofit track sitting in the working tree — left every `content/books/*.json` file untouched throughout, per the hard constraint.
 
@@ -222,9 +230,426 @@ Built, in the actual shared components (not a mockup): a `--shadow-sm/md/lg` ele
 
 Verified: `npx tsc --noEmit` clean, `npm run build` clean (87 static pages, `/tmp`-mirror build with the two `next/font/google` calls stubbed in the scratch copy only, per the established sandbox workaround — real source untouched). Spot-checked generated static HTML for the home page, a category page, and the Atomic Habits book detail page to confirm the redesigned markup actually renders (generative cover divs, drop-cap class, accordion panel structure all present in the output). See the session's chat response for the Preview URL, whether Vercel deploy access was available this session, and whether mobile/desktop were checked visually (Chrome browser tools) versus via generated HTML only — that gap, if any, is named plainly there rather than implied to be covered.
 
+### Stage 17 — Density, Navigation & Color Overhaul + Search + Wishlist Scaffold
+
+**Status:** **Done, committed, and live in production — 2026-07-31.** Executed
+directly from Thai's own numbered feedback in chat (no continuation-prompt
+handoff this time), then Thai asked to push and deploy immediately. Full
+rationale for every point in `docs/DESIGN_SYSTEM.md` "Design System v4" (new
+top section) and `DECISIONS.md`.
+
+- **Navigation fixed.** Home page's category list (`CategoryAccordion`, a
+  client-side expand-in-place accordion that never actually navigated) replaced
+  with real `<Link href="/category/[slug]">` rows. A hardcoded `<Link href="/">`
+  on both the book-detail and category pages (always jumped to home regardless of
+  where the visitor came from) replaced with a new `BackLink` component that calls
+  `router.back()` — both together are the "act like a browser" fix: every forward
+  tap is a real navigation, every back tap walks real history.
+- **BookCard redesigned: no images, three lines, no gaps.** The v3 cover-forward
+  tile (generative gradient panel + category emoji + badges + reading-time chip)
+  is removed entirely. New `BookCard` is title/author/short-description only,
+  three lines, no image. A new `BookList` wrapper draws one shared orange border
+  around a `divide-y` single-column list per shelf instead of each card drawing
+  its own bordered box with a gap next to it. `lib/covers.ts` is now dead code
+  (left in place, not deleted — see the file's own header comment for why).
+- **Color: orange primary, pine (forest green) secondary.** `gold`/`teal` renamed
+  to `orange`/`pine` throughout (~45 call sites) with genuinely new values, not
+  just a relabel — true saturated orange (`#ed6c11`) instead of the old
+  desaturated gold, and a green (not blue/teal-leaning-blue) secondary at `#2c8a5e`.
+  Every card/box across the app now carries a visible 2px orange border.
+- **Header search shipped — Stage 8 ("Search & Filtering") no longer "Not
+  Started."** `lib/search.ts` + `app/components/SearchOverlay.tsx`: search by
+  title or author across the full 376-title catalog (not just the ~70 written
+  entries), tap a result to jump straight to it.
+- **Wishlist / `owned` scaffold added**, ahead of any actual non-owned book
+  existing. `Book.owned`/`CatalogEntry.owned` (optional, default `true` via
+  `isOwned()`), every read site powering the 16 shelves filtered through it, and
+  an isolated `/wishlist` route reserved for future non-owned entries — empty
+  today, real empty-state copy, not a stub page.
+
+**Verified pre-push:** fresh `/tmp`-mirror `npm install` + `npm run build` (Google
+Fonts stubbed in the scratch copy only, per the established sandbox workaround —
+real committed source untouched) — clean compile, zero TypeScript errors, **88
+static pages** (up from 87: the new `/wishlist` route). `npm run start` + `curl`
+spot checks confirmed: zero `<img>` tags on category pages, search/Wishlist
+controls present in the header/home markup, orange borders present on
+book-detail cards, wishlist empty-state renders correctly.
+
+**Pushed and deployed, same session, once Thai asked to make it live:** the
+synced folder's local git index had silently lost track of several already-
+correct files (`lib/categories.ts`, a few `docs/*.md` files) — same class of
+FUSE-mount corruption as the historic `.git` lock-file bug (`DECISIONS.md`
+#28/#31/#43) — so rather than trust `git status` in the synced folder, cloned
+`origin/main` fresh into `/tmp`, rsynced the real working-tree content on top
+(explicitly excluding the 4 `content/books/*.json` files with genuine
+uncommitted parallel-retrofit-track work — `built-to-last`,
+`charlie-munger-the-complete-investor`, `delivering-happiness`,
+`dotcom-secrets` — per the established precedent of leaving those untouched,
+`DECISIONS.md` #161/#173/#177/#183), rebuilt clean in that exact clone, then
+committed (`be422bf`) and pushed with a classic PAT Thai supplied for this push
+only (used inline on the push command, never written to disk/config). Full
+mechanics in `DECISIONS.md` #196.
+
+Vercel auto-deployed from the push (`dpl_Gz9P8653p4nkHNwDjPbpsJmRdvV1`, READY in
+~40s, target production), aliased to `library.abundancecitadel.app` /
+`book-library-app-fawn.vercel.app` / `book-library-app-abundance-citadel.vercel.app`.
+**Verified live, not just deployment-status-READY:** fetched both the `.vercel.app`
+alias and the custom domain directly — both render the new UI. A subagent
+grepped the live home page and confirmed `CategoryAccordion` and `<img` both
+return 0 matches (old accordion and cover images genuinely gone in production,
+not just locally), `Search`/`book-row`/`border-orange-600` all present; the live
+`/category/business` page confirmed 0 `<img>` tags and `book-row`/`line-clamp`
+present; the live `/wishlist` page confirmed the empty-state copy renders.
+`library.abundancecitadel.app` resolved cleanly this time (no repeat of the
+intermittent DNS/cert timeout noted in Sessions 10/16/21).
+
+### Stage 18 — Box-in-Box Layout + Permanent Book Codes
+
+**Status:** Done (build-verified) — 2026-07-31, same day as Stage 17. Thai's
+follow-up after seeing Stage 17 live: he liked it, wanted the category shelf and
+book listings to each read as separate boxes rather than one continuous list
+("box in box"), the category shelf split into 2 columns since 16 short rows in
+one column left too much empty width, and — a new ask — a permanent 001-999
+numbering system for every book. Full rationale in `docs/DESIGN_SYSTEM.md`
+"Design System v5" and `DECISIONS.md` #200+.
+
+- **Category shelf** (`app/page.tsx`): from one shared-border `divide-y` list to
+  a `grid grid-cols-2` of individually-boxed, compact category tiles.
+- **BookCard/BookList**: from one shared-border list back to individually-boxed
+  cards with a gap between them. Content reduced from 3 stacked lines to 2:
+  row 1 is code + title + author together, row 2 is a 2-3 sentence description
+  (up from a single 140-character truncated line).
+- **Book code system**: every book (`content/books/*.json`) and catalog row
+  (`content/catalog.json`) now has a permanent, unique 3-digit `code`
+  (`"001"`-`"377"` today, ceiling `"999"`). Migration: `content/catalog.json`'s
+  376 existing rows got `001`-`376` in their existing stable order; `atomic-habits`
+  (the one written book with no catalog match — it predates the catalog) was
+  appended as row 377 and got code `377`; the other 65 written books had their
+  `code` copied from their real catalog match, resolved via hand-verified title
+  matching (not blind fuzzy matching) to correctly handle ambiguous cases like
+  `"Mindset"` vs. the unrelated catalog title `"Trend Following Mindset"`. `code`
+  is now a required field on both `Book` and `CatalogEntry` (`lib/books.ts`) —
+  enforced by the type system, not just convention. Displayed everywhere a book
+  appears: `BookCard`, unwritten-catalog lists, search results, and the book
+  detail page (`"No. 377"`).
+- **Migration hygiene:** the first attempt at adding `code` used a full JSON
+  parse-and-`json.dump()` re-serialize, which correctly added the field but also
+  silently reformatted every touched file's compact arrays/objects into a
+  different multi-line style — a 50-200+ line diff per file for what should've
+  been a 1-line change. Caught via an implausibly large `git diff --stat` before
+  committing anything, redone as targeted regex text-surgery instead (insert one
+  line, touch nothing else). Final diff: every book file `+1` line,
+  `content/catalog.json` additions-only.
+
+**Verified:** fresh `/tmp`-clone + rsync (same reconciliation method as Stage 17,
+excluding the same 4 in-progress parallel-retrofit files), `npm install` clean,
+`npm run build` clean (88 static pages, zero TypeScript errors — confirming the
+new required `code` field is satisfied on every one of the 377 entries), `npm run
+start` + `curl` spot checks confirmed `grid-cols-2` and per-box orange borders on
+the home page, per-book orange borders and 3-digit codes rendering on a category
+page, and `"No. 377"` rendering correctly on the Atomic Habits detail page.
+
+---
+
+### Stage 19 — 310-Book New-Content Pipeline, First Pass (12 of 31 batches)
+
+**Status:** 103 new books added (batches 1-12 of 31), library grows from 66 to
+169 of 377 titles. 17 titles excluded pending re-identification (see below). 19
+of 31 batches remain queued in `New Book Prompts`/`New Book Documents` for a
+future session.
+
+Thai had already run 12 of the 31 browser-chat batches from `New Book Prompts`
+(310 books total = every catalog title not yet written) and saved the results
+in `New Book Documents/batch-01-books.md` through `batch-12-books.md` (120
+books). Asked to "implement it into the actual app" — i.e. convert that
+markdown into real `content/books/*.json` entries and get them live.
+
+Built a Python parser (kept outside the repo, not committed) to convert each
+batch document's fixed markdown structure into the schema's exact JSON shape,
+cross-referencing `content/catalog.json` by title to pull each book's already-
+assigned permanent `code` (all 120 matched on the first pass, no manual
+disambiguation needed — unlike the Stage 18 code migration).
+
+**Before converting, audited all 120 for schema-depth compliance rather than
+assuming the browser-chat output matched the prompt's own depth bar.** Found
+two real issues, both disclosed rather than silently absorbed:
+
+1. **17 of 120 books came back as honest non-fabrication refusals** — the
+   browser chat couldn't confirm a specific title/author/edition/structure
+   well enough to write real content (ambiguous multi-edition authors like
+   A. Scott Berg, partial/incomplete catalog titles like "Human Life and...",
+   several obscure Vietnamese titles with no locatable source material) and
+   correctly wrote a plain refusal instead of inventing chapters, quotes, or
+   an author bio, per `PROJECT_BRIEF.md` §6's copyright policy. These 17 were
+   excluded from this pass rather than published as near-empty stub pages —
+   full slug list below. They need better identifying information from Thai
+   (a photo of the spine, ISBN, or publisher) for a future targeted re-run.
+2. **Quote counts are systematically below the 20-30/book target across
+   nearly all 103 included books** (average ~2.5, many single digits, several
+   at 0) — not a fabrication problem (every quote present is honestly sourced,
+   consistent with `docs/CONTENT_PIPELINE.md`'s explicit "use fewer rather
+   than pad" fallback) but a real depth shortfall versus both the batch
+   prompts' own stated bar and the existing 66-book library's average. Most
+   likely explained by these 310 books being meaningfully more obscure/niche
+   (many Vietnamese-language or small-press titles) than the original 66,
+   which skewed toward well-known bestsellers with large public quote
+   footprints. Flagged here rather than silently shipped as if it hit the
+   usual bar — a future enrichment pass is possible if Thai wants one, but
+   nothing here is fabricated or wrong, just thinner than ideal.
+
+**Excluded (17, pending re-identification):** `101-loi-khuyen-khoi-nghiep`,
+`47-chieu`, `8-to-chat-tri-tue`, `a-scott-berg-biography-title-unclear`,
+`bach-gia-chu-tu-trong-doi-nhan-xu-the`, `ban-chat-cua-doi-tra`,
+`bat-thay-doc-vi`, `bear-market-investing-strategies`,
+`dai-cuong-lich-su-triet-hoc-phuong-dong`, `danh-ngon-dong-phuong`,
+`dao-tri-gia`, `dung-viec`, `giai-ma-mo-hinh-quan-ca-phe-doc-lap`,
+`hoa-lan-nuoi-trong-va-kinh-doanh`, `human-life-and`,
+`khong-tu-tu-tuong-sach-luoc`, `ky-nang-giao-tiep-thuyet-kiem-tien`.
+
+**Mechanics:** worked in a fresh `/tmp` clone of `origin/main` rather than the
+synced folder directly (100 files already modified there from a parallel
+in-progress track, untouched per established precedent — `DECISIONS.md`
+#161/#173/#196 — plus the synced folder's `node_modules` was a broken partial
+copy, same class of issue as `DECISIONS.md` #183). Also hit and fixed a
+corrupted single-package cache entry (`csstype`, truncated mid-file) that
+`--prefer-offline` had silently accepted — a fresh `npm install` resolved it.
+Verified via 3 separate clean `npm run build` runs (one per checkpoint, Google
+Fonts stubbed in a scratch copy only, real `app/layout.tsx` never touched),
+each confirming the growing book count (98, then 133, then 169 static
+`/book/[id]` pages, zero errors). Pushed in 3 commits of ~35 books each using
+a classic GitHub PAT supplied inline (never persisted), each verified live via
+the Vercel MCP connector (`READY`, correct commit SHA) and a direct fetch of
+a new book page plus the home page's "169 full summaries written" counter.
+
+**Next up:** 19 of 31 batches (batches 13-31, ~190 candidate books) remain to
+be run as browser-chat batches and then converted the same way, whenever Thai
+wants to continue. The 17 excluded titles are a separate, smaller follow-up
+once Thai can supply better identification for them.
+
+---
+
+### Stage 20 — Dark Luxury Palette Refinement (v6)
+
+**Status:** color system complete and verified; nine-section architecture
+(the other half of the `Design_Foundation_Continuation_Prompt.md` handoff)
+explicitly not started this session — see below.
+
+Thai had an uploaded continuation prompt proposing a nine-section rebuild
+(Book Library becoming one of nine tabs) whose headline design change was
+flipping the app's default theme from dark to light. Before doing any of that
+work, verified via `git log`, the live `tailwind.config.ts`/`app/globals.css`,
+and the `app/` route tree that **none of it had been executed yet** — no `v6`
+design doc section, no `espresso` scale, no nine-section routes existed
+anywhere. Reported this back, and Thai's actual direction turned out to
+reverse the uploaded prompt's premise: he wants to **stay in dark mode**, just
+make the existing dark theme read as premium/luxury rather than flat — "even
+though I want to be in dark mode, I want it to stand out... not very pale and
+dark."
+
+Showed 3 palette options as visual swatches (current orange+pine, a refined
+orange+jade+amber option, and a gold+navy option matching another of Thai's
+projects) and confirmed both open questions directly with him before touching
+code: dark stays the permanent default (overriding the uploaded prompt), and
+the refined orange+jade+amber direction over reverting to gold+navy.
+
+Implemented:
+- New warm "espresso" brown-black background/surface/border tokens
+  (`app/globals.css`), replacing the old neutral cool-gray near-black —
+  `--color-bg` `#0b0c0e` → `#170f0a`, `--color-surface` `#16171b` → `#21160c`,
+  `--color-border` `#2a2c31` → `#4a3620`. Light theme untouched (still opt-in,
+  not default).
+- Renamed the `pine` Tailwind scale to `jade` and re-picked it brighter/more
+  saturated (jewel-tone emerald, `500` `#10b981`) while keeping v4's hue
+  guardrail (>= 150°, never drifting toward teal/blue).
+- Added a new `amber` scale as a sparing tertiary highlight, given exactly one
+  job: the book-code number (`No. 377` etc., moved off orange so it doesn't
+  compete with orange's primary-emphasis role).
+- Updated `app/layout.tsx`'s static `themeColor`, `public/manifest.json`'s
+  `theme_color`/`background_color`, and bumped `public/sw.js`'s
+  `CACHE_VERSION` to `v3` (manifest is precached — same staleness risk as the
+  Stage 12 icon-color bump) so mobile browser chrome and the PWA splash screen
+  match the new background too.
+
+Full rationale, contrast checks (WCAG relative-luminance, computed not
+eyeballed), and the gold+navy-rejection reasoning in `docs/DESIGN_SYSTEM.md`
+"Design System v6."
+
+**Verified:** `tsc --noEmit` clean; `npm run build` clean (88 static pages,
+zero errors, Google Fonts stubbed in a `/tmp` scratch mirror only — real
+`app/layout.tsx` never touched); `npm run start` + `curl` against the home
+page and the Atomic Habits book page confirmed the compiled CSS actually
+contains the new `--color-bg:#170f0a`/`--color-surface:#21160c`/
+`--color-border:#4a3620` values (light-mode values unchanged alongside them),
+and that `No. 377` renders in the new `text-amber-400` class. Did not spot-
+check a screenshot via browser tools this session (not connected) — curl'd
+HTML/CSS inspection only, flagged as the one verification gap versus the
+fullest prior sessions.
+
+**Not done, deliberately:** the nine-section scaffolding (new content types,
+routes, tabs for the other eight sections) — substantial enough work that
+bundling it into the same session as a live color decision risked building
+all of it on a palette Thai hadn't seen rendered yet. Also not done: app icon
+regeneration (the raster PNG icons weren't touched, only the manifest's flat
+theme/background colors — a smaller residual item if Thai wants full icon
+consistency later, same class of gap as decision below). Git commit/push and
+live deploy verification are also pending — same standing limitation as every
+prior session, needs a PAT from Thai.
+
+---
+
+### Stage 21 — Nine-Section Detail-Page Schema/Architecture (Structure Only)
+
+**Status:** schema, types, loaders, and detail-page UI built and verified for
+all 7 tabbed sections + Quotes — 2026-08-02
+
+Picked up the "New Section Research" chat's approved proposal
+(`New Section Research/Section_Detail_Tab_Structures.md`, all 8 sections
+signed off by Thai) and turned it into real code — the nine-section
+scaffolding Stage 20 had explicitly deferred. Full field-level spec in the
+new `docs/SECTIONS_SCHEMA.md`. Summary:
+
+- **7 new lib files** (`lib/people.ts`, `lib/richlist.ts`, `lib/rulers.ts`,
+  `lib/organizations.ts`, `lib/companies.ts`, `lib/civilizations.ts`,
+  `lib/philosophies.ts`) — one TypeScript entry type each, matching its
+  approved tab structure exactly (People/Rich List/Rulers/Organizations 7
+  tabs, Companies/Civilizations/Philosophies 8 tabs, Critical Take required
+  on every one, no exceptions). Plus `lib/quotes.ts` for the flat Quotes
+  model (§9 below). Shared sub-types factored into `lib/sectionTypes.ts`;
+  cross-link references into `lib/relatedTypes.ts` (dependency-free, type-only)
+  and `lib/related.ts` (the resolver, mirrors `getRelatedBooksInfo()`'s
+  silently-drop-unresolved pattern). All loaders share one factory
+  (`lib/sectionLoader.ts#createJsonLoader<T>()`) with the same graceful-empty
+  read as `getAllBooks()`.
+- **Detail-page UI:** a new shared `app/components/SectionTabs.tsx` (the tab
+  chrome extracted from `BookTabs.tsx` — sticky bar, sliding pill, hash-synced
+  active tab — reused by all 7 sections instead of reimplemented 7 times) plus
+  `app/components/SectionBlocks.tsx` (shared bullet-list/timeline/quote-card/
+  critical-take presentational blocks) and one `*Tabs.tsx` component per
+  section. `BookTabs.tsx` itself was left untouched.
+- **Routes:** `app/people/[id]/page.tsx` through `app/philosophies/[id]/page.tsx`
+  (7 routes) plus `app/quotes/page.tsx`. All read from `content/<section>/`
+  directories that don't exist yet — `generateStaticParams()` returns `[]` for
+  all 7, so these routes currently produce zero static pages, exactly as
+  expected until the future content-gathering pass writes real entries.
+- **Related cross-links:** every section has an optional `related?:
+  RelatedLinkRef[]` field, rendered inside the Overview tab (mirroring exactly
+  how `BookTabs.tsx` already renders "Related Books" inside Summary, not as a
+  9th tab). Civilizations' Notable Rulers and Philosophies' Notable Followers
+  & Thinkers are each their own dedicated tab (cross-link-heavy), separate
+  from the general `related` field.
+- **Book's own tab count verified, not assumed:** read `BookTabs.tsx` directly
+  — 8 tabs (Summary, Chapters, Key Lessons, Concepts & Frameworks, Apply This,
+  Highlights & Quotes, Critical Take, Author), already under Thai's 9-tab
+  ceiling. No merge needed, nothing changed.
+- **Quotes — the exception:** per the proposal's own flagged open question,
+  asked Thai directly via `AskUserQuestion` rather than treating his earlier
+  blanket "I agree" as covering it. He chose **flat filterable list + a
+  lightweight expand card** (exact text, context, link to the speaker's own
+  profile) over a no-expansion alternative — built as `app/quotes/page.tsx` +
+  `app/components/QuotesBrowser.tsx`, no `[id]` detail routes.
+- **Deliberately not built this session** (per the session brief's own
+  "structure only" scope): no real section content (the 8 candidate lists in
+  `New Section Research/` stay untouched), no home-page/nav wiring for the new
+  sections, no category/browse-listing pages. See `docs/SECTIONS_SCHEMA.md`
+  §10 and `docs/SESSION_23_CONTINUATION_PROMPT.md`.
+
+**Verified:** this sandbox's synced `node_modules` was a broken partial
+cloud-sync copy (empty `.bin`, `next` and `typescript` missing real package
+content) — same class of issue as `DECISIONS.md` #183, and the sandbox's
+usual `/tmp`-mirror workaround was itself blocked this session (permission
+errors on `/tmp`, and the `mnt/outputs` scratch path turned out to share the
+cloud-sync mount's rename/delete restriction). Found that the sandbox home
+directory outside any `mnt/` mount (`/sessions/.../`) has no such restriction
+and mirrored the project there instead — see `DECISIONS.md` for the full
+diagnosis. `npx tsc --noEmit` clean (zero errors) and a full `next build`
+clean (89 static pages, Google Fonts stubbed in the scratch copy only, real
+`app/layout.tsx` never touched) — confirmed all 7 new `[id]` routes and
+`/quotes` compile and are correctly wired end to end, generating 0 pages each
+as expected (no content yet).
+
 ---
 
 ## Session Log
+
+**2026-08-02 — new session (Stage 21, nine-section detail-page schema/architecture):**
+Picked up `New Section Research/Section_Tab_Structure_Implementation_Prompt.md`
+(the research chat's handoff, its approved tab-structure proposal already
+signed off by Thai). Read `PROJECT_BRIEF.md`/`ROADMAP.md`/`DECISIONS.md` plus
+`Section_Detail_Tab_Structures.md` in full first, then searched for any
+existing nine-section schema work — found none (Stage 20 had explicitly
+deferred it), so this was a from-scratch build, not a reconciliation. Verified
+the book's live tab count directly in `BookTabs.tsx` (8, already under the
+9-tab ceiling — no merge needed). Asked Thai directly via `AskUserQuestion`
+on the one open item the proposal flagged (Quotes UI) rather than assuming
+his blanket approval covered it — he confirmed flat list + expand card. Built
+the full schema/types/loaders/UI for all 7 tabbed sections + Quotes — see
+Stage 21 above for the itemized breakdown. Verification required a real
+detour: the synced `node_modules` was a broken partial cloud-sync copy and
+this sandbox's usual `/tmp`-mirror workaround was itself blocked (`/tmp`
+permission errors; `mnt/outputs` shared the same rename/delete restriction as
+the cloud-synced project folder) — found the sandbox home directory outside
+`mnt/` had no such restriction, mirrored the project there, and got a clean
+`npx tsc --noEmit` and `next build` (89 static pages, Google Fonts stubbed in
+the scratch copy only). Wrote `docs/SECTIONS_SCHEMA.md` (the field-level spec)
+and `docs/SESSION_23_CONTINUATION_PROMPT.md` per Thai's standing instruction.
+Did not touch git this session (no commit/push — needs a PAT from Thai, same
+standing limitation as every prior session). See `DECISIONS.md` for the
+itemized judgment calls.
+
+**2026-08-02 — new session (Stage 20, dark luxury palette refinement):** Thai
+uploaded `Design_Foundation_Continuation_Prompt.md` (a nine-section rebuild
+handoff, headline change: flip default theme to light) and asked to verify
+whether it had been executed, then either finish it or audit it. Checked `git
+log`, the live `tailwind.config.ts`/`app/globals.css`, and the `app/` route
+tree directly rather than trusting the prompt's own framing — confirmed none
+of it had been built (still dark-default, no `espresso` scale, no nine-section
+routes, `docs/DESIGN_SYSTEM.md` still at v5). Reported this back. Thai's actual
+message reversed the uploaded prompt's core premise — he wants to stay in dark
+mode, just make the existing dark theme read as premium/luxury rather than
+flat, and asked to discuss the color direction before continuing. Showed 3
+palette options as visual swatches, then used `AskUserQuestion` to confirm two
+real forks before touching any code: (1) dark stays the permanent default,
+overriding the uploaded prompt's light-flip plan, and (2) a refined
+orange+jade+amber palette over reverting to a gold+navy combo from another of
+Thai's projects. See Stage 20 above for the full implementation (espresso
+background tokens, jade/amber Tailwind scales, manifest/theme-color/
+service-worker updates) and `docs/DESIGN_SYSTEM.md` "Design System v6" for the
+full rationale and contrast checks. Verified via a clean `/tmp`-mirror
+`tsc --noEmit` + `npm run build` (88 pages, zero errors) and a `npm run start`
++ `curl` check confirming the new hex values are actually present in the
+compiled CSS and rendered HTML, not just the source files. Explicitly did not
+start the nine-section architecture work (Sections 3-4 of the uploaded
+prompt) — flagged as a deliberate scope cut, not an oversight, since it's
+substantial enough to deserve its own session once Thai has seen this palette
+live. Git commit/push/deploy verification still pending a PAT from Thai. See
+`DECISIONS.md` for the itemized judgment calls.
+
+**2026-07-31 — new session (Stage 19, 310-book pipeline first pass):** Read
+`PROJECT_BRIEF.md`/`ROADMAP.md`/`docs/SCHEMA.md`/`docs/CONTENT_PIPELINE.md`
+plus the `New Book Prompts`/`New Book Documents` folders in full before doing
+anything, per the standing rule. Thai asked to convert the 12 already-run
+browser-chat batches (120 candidate books) into real app entries; confirmed
+the plan and pacing (3 checkpoints of ~40 candidate books each) with him
+before starting, per his own request to "confirm exactly what you are going
+to do" first. See Stage 19 above for the full breakdown: 103 of 120 converted
+and pushed across 3 commits/deploys, 17 excluded as genuine non-fabrication
+refusals (full list above), and a systemic quote-count shortfall flagged
+(not fabricated, just thinner than the usual bar — see Stage 19 for why).
+Library grows from 66 to 169 of 377 titles this session. Wrote no new
+continuation-prompt doc this session (mid-project, not a session handoff) —
+see the chat response for the full excluded-book list and next-batch options.
+
+**2026-07-31 — same session, continued (Stage 18, box-in-box + book codes):** Thai reviewed the live Stage 17 changes ("This is good. I like it.") and asked for two more visual changes plus a new numbering system: separate boxes for each category (2-column grid, since 16 short rows in one wide column left empty space) and for each book (2 rows: code+title+author, then a 2-3 sentence description), and a permanent 001-999 code per book. Implemented all three — see Stage 18 above for the itemized list and `docs/DESIGN_SYSTEM.md` "Design System v5" for full rationale. The book-code migration required real care: 42 of 66 written books' titles didn't exact-match their `content/catalog.json` row (subtitles, punctuation, a Vietnamese-titled duplicate, one book — Atomic Habits — with no catalog row at all since it predates the catalog) — resolved via hand-verified matching, not blind fuzzy matching, with every ambiguous case checked individually before writing anything (`DECISIONS.md` #200-201). Also caught and fixed a self-inflicted diff-hygiene issue: the first migration attempt reformatted every touched JSON file's structure while adding the field, caught via an implausibly large `git diff --stat` before committing, redone as minimal single-line text insertions (`DECISIONS.md` #202). Verified via the same fresh-clone-plus-rsync build workflow as Stage 17 (`npm run build` clean, 88 pages, zero TypeScript errors). See the chat response for push/deploy status.
+
+**2026-07-31 — same session, continued (push + deploy Stage 17 live):** Thai reviewed the Stage 17 summary and asked directly to push and deploy everything. Reconciled the synced folder's unreliable git index by cloning `origin/main` fresh into `/tmp` and rsyncing the real working tree on top (excluding the 4 in-progress parallel-retrofit content files, per established precedent) rather than trusting `git status` in place — see `DECISIONS.md` #196 for the full diagnosis and process, and the Stage 17 entry above for the outcome. Got a classic GitHub PAT from Thai (used inline on the push only), committed as `be422bf`, pushed clean. Vercel auto-deployed (`dpl_Gz9P8653p4nkHNwDjPbpsJmRdvV1`, READY ~40s). Verified live against both the `.vercel.app` alias and the `library.abundancecitadel.app` custom domain (which resolved cleanly this time) — confirmed via direct fetch + grep (not just deployment status) that the old accordion and cover images are genuinely gone in production and the new search/wishlist/color/density changes are all present.
+
+**2026-07-31 — new session (Stage 17, UX overhaul from Thai's direct chat feedback, no continuation-prompt handoff):** Thai gave four numbered pieces of feedback directly in chat rather than via a written prompt file — read the live source (`app/page.tsx`, `CategoryAccordion.tsx`, `BookCard.tsx`, `Header.tsx`, `BookTabs.tsx`, `globals.css`, `tailwind.config.ts`, `lib/books.ts`) plus `PROJECT_BRIEF.md`/`ROADMAP.md`/`DECISIONS.md`/`docs/DESIGN_SYSTEM.md`/`docs/SCHEMA.md` first, per the standing rule. See Stage 17 above for the itemized feature list; full point-by-point design rationale in `docs/DESIGN_SYSTEM.md`'s new "Design System v4" section and `DECISIONS.md` #185+.
+
+Mechanically: renamed the `gold`/`teal` accent tokens to `orange`/`pine` across ~45 call sites via a scoped `sed` pass (verified with a before/after grep, zero stray matches left), then hand-edited `tailwind.config.ts`/`globals.css` for the actual new color values (true orange primary, forest-green secondary) and every structural change (BookCard/BookList rewrite, CategoryAccordion removal, BackLink component, lib/search.ts + SearchOverlay, owned/wishlist scaffold in lib/books.ts + new /wishlist route). Two files (`lib/covers.ts`, `app/components/CategoryAccordion.tsx`) are now dead code but couldn't be deleted — this sandbox's cloud-synced mount can create/rename files but not delete them (same `Operation not permitted` limitation as the historic `.git` lock-file bug, `DECISIONS.md` #28/#31/#43) — both were overwritten with a `export {}` stub plus a comment explaining why, safe for Thai to delete manually via File Explorer whenever convenient.
+
+Verified via the established `/tmp`-mirror workflow: fresh `npm install` (clean, 107 packages), `npm run build` with the two `next/font/google` calls stubbed in the scratch copy only per the standard sandbox workaround (real committed `app/layout.tsx` untouched) — clean compile, zero TypeScript errors, 88 static pages (87 before + the new `/wishlist` route). Ran `npm run start` and `curl`'d the home page, a category page, the wishlist page, and a book detail page to confirm the actual rendered HTML matches intent: zero `<img>` tags on the business category page, `book-row`/`line-clamp` classes present (dense text-only rows), `border-orange-600` present on cards, the header markup contains both "Search" and a "Wishlist" link, and the wishlist page's empty state renders. Did not touch git this session (no commit/push) — see the chat response for what Thai should do next (review the live look, then decide on committing/deploying).
+
+**2026-07-31 — Session 21:** Read `PROJECT_BRIEF.md`/`ROADMAP.md`/`DECISIONS.md` plus `docs/SESSION_20_CONTINUATION_PROMPT.md` in full first, running in a different account/sandbox than Session 20 per that prompt's own warning — verified project identity via `PROJECT_BRIEF.md`'s owner line and re-verified git state (local `HEAD` 2 commits behind `origin/main`, working tree otherwise matched except Session 20's own doc updates and 4 books' worth of genuine parallel-retrofit-track content, both left/handled correctly — see `DECISIONS.md` #177). Built the 3 tabs the rollout's UI build had explicitly deferred: Concepts & Frameworks, Apply This, Critical Take, completing the 8-tab structure from `docs/CONTENT_STRUCTURE_PROPOSAL.md` §1 end to end. Full design/copy rationale in `DECISIONS.md` #178-182. Validated via `tsc --noEmit` (clean) and a `/tmp`-mirror `npm run build` (87 pages, clean) — the synced folder's own `node_modules` turned out to be a broken partial cloud-sync copy, unrelated to the code (`DECISIONS.md` #183) — plus a live `npm run start` + `curl` check confirming the 8-tab bar renders correctly on both a v2.1-retrofitted book and a pre-v2.1 book. Committed and pushed via the `/tmp`-clone-and-rsync pattern using a fresh classic PAT from Thai, excluding the 4 in-progress content files per the established pattern. See the chat response for push/deploy verification and the mobile/desktop visual-check result (Chrome tools were connected to Thai's local browser only, not the sandbox's local build server, so that check ran against the live URL post-deploy). Wrote `docs/SESSION_21_CONTINUATION_PROMPT.md` per Thai's standing instruction. See `DECISIONS.md` #177-184 (+ any post-deploy entries).
 
 **2026-07-26 — Session 18:** Read `PROJECT_BRIEF.md`/`ROADMAP.md`/`DECISIONS.md` in full, per the standing rule, with particular attention to the Session 17 log and decisions #149-155. Verified git state via `git fetch` + `rev-parse` comparison (local and `origin/main` both at `90ac05f`, clean) and re-derived the Stage 15 retrofit count programmatically before trusting the documented "43 of 66" — this time it was accurate, no recovery needed. Retrofitted 5 more books via parallel subagents, continuing alphabetically per decision #104: The Bitcoin Standard, The E-Myth Revisited, The Hard Thing About Hard Things, The Infinite Game, The Intelligent Investor. Corrected invented/incomplete v1 section structures on all 5 against real tables of contents/catalog records — The Bitcoin Standard's v1 entry had invented a nonexistent chapter and silently dropped three real ones, the most substantially wrong v1 structure found so far. The Infinite Game and The Intelligent Investor retrofits both caught and dropped quotes that duplicated material already verified as belonging to other Sinek/Graham books in this library (`start-with-why.json`, `security-analysis.json`), continuing the established cross-book contamination pattern. The Intelligent Investor also established a reusable pattern for books with an uncredited later annotator (Zweig's commentary in the 2003 edition). Independently re-validated all 5 programmatically and via a full clean `/tmp`-mirror build (`npm install` clean, `npx tsc --noEmit` zero errors, `npm run build` 87 static pages zero errors, SIGBUS still hasn't reproduced) plus the full JSON-parse/duplicate-id/section-order/dangling-`relatedBooks` sweep across all 66 books — zero issues. **Stage 15 now at 48 of 66 books, 18 remain** — next session should continue alphabetically from "The Lion, the Witch and the Wardrobe." Committed locally only (no push credentials available this session — a separate step handles the push). See `DECISIONS.md` #156-160.
 

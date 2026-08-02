@@ -1,77 +1,238 @@
 {
   "id": "the-alchemist",
+  "code": "251",
   "title": "The Alchemist",
   "author": "Paulo Coelho",
-  "categories": ["fiction-literature", "philosophy-psychology"],
+  "categories": [
+    "fiction-literature",
+    "philosophy-psychology"
+  ],
   "language": "en",
   "coverImage": null,
   "estimatedOriginalReadingTimeMinutes": 240,
-  "tags": ["fable", "personal-legend", "self-discovery", "allegory", "spirituality"],
+  "tags": [
+    "fable",
+    "personal-legend",
+    "self-discovery",
+    "allegory",
+    "spirituality"
+  ],
   "structureType": "parts",
-  "summary": "The Alchemist follows Santiago, an Andalusian shepherd boy, who abandons his flock after a recurring dream points him toward a treasure buried near the Egyptian pyramids, and structures its story as a modern fable about pursuing what Coelho calls one's \"Personal Legend\" — the unique purpose a person is meant to fulfill, which the novel presents as something the universe actively conspires to help a person achieve once they commit to pursuing it. Santiago's journey begins in Spain, where an old man claiming to be the King of Salem, Melchizedek, convinces him to sell his sheep and travel to Africa in search of the treasure from his dream, introducing the book's central philosophical claim early: that most people abandon their Personal Legend at some point in life, settling instead into safety and routine, and that the fear of failure and the comfort of the familiar are the real obstacles standing between a person and their true purpose — not external circumstance. After being robbed in Tangier, Santiago works for a crystal merchant, and this section of the novel becomes an extended meditation on the difference between people who use a dream as an excuse never to act (the merchant, who has wanted to visit Mecca his whole life but keeps deferring it, ultimately realizing the deferred dream has become more valuable to him than actually achieving it) and people willing to risk everything to pursue theirs. Santiago eventually joins a caravan crossing the Sahara toward Egypt, where he meets an Englishman studying alchemy and, more significantly, falls in love with Fatima, an oasis woman, in an encounter the novel uses to explore whether love and pursuing a Personal Legend are in tension or, properly understood, the same impulse — Fatima explicitly tells Santiago that a woman who is truly of the desert understands that her man must leave to pursue his purpose, and that true love doesn't require someone to stay. The novel's back half introduces the title character, an alchemist living in the desert who becomes Santiago's guide and teacher, using alchemy itself as an extended metaphor: the alchemist's craft of turning base metal into gold mirrors the process of a person burning away fear and attachment to reveal their true purpose, and the philosopher's stone and Elixir of Life the alchemist seeks are treated as symbols for the wisdom and vitality gained through fully committing to one's path rather than literal magical objects. Recurring throughout the novel is the concept of the Soul of the World (Coelho's term for a universal, interconnected life force) and the idea that paying attention to \"omens\" — small signs in the natural world — is a skill available to anyone willing to quiet themselves and pay attention, not a mystical gift limited to a few. The novel closes with a twist that reframes its own central metaphor: after enduring the full journey and nearly dying in the process, Santiago discovers the treasure was never really about the specific gold at the end, since the real transformation happened through the pursuit itself — though Coelho still has him find literal treasure buried back where his journey started, insisting the physical reward and the internal transformation aren't mutually exclusive, just that the internal one was the actual point all along.",
+  "summary": "The Alchemist opens with a brief framing tale — the alchemist himself reading a retelling of the Narcissus myth — before settling into the story of Santiago, a young Andalusian shepherd who gives up traveling with his flock to chase a recurring dream: a child leading him to treasure buried near the Egyptian pyramids. A fortune-teller and then an old man who calls himself Melchizedek, King of Salem, convince Santiago the dream is real guidance, introducing the term the novel returns to constantly — a person's \"Personal Legend,\" the thing they were put on earth to do — and the claim that most people quietly abandon theirs and settle for what Melchizedek calls \"the world's greatest lie\": that at some point we lose control of our own lives.\n\nSantiago sells his sheep and crosses to Tangier, where he's promptly robbed and left with nothing. Rather than turning back, he takes work with a crystal merchant, and this stretch of the novel becomes a quieter counter-story to Santiago's own: the merchant has wanted his whole life to make the pilgrimage to Mecca, can now genuinely afford it, and keeps finding reasons to put it off, because he's come to prefer the dream of the trip to the risk of actually taking it. Santiago helps the shop prosper, earns enough to buy a flock again and return home safely — and instead, on the edge of that safe choice, decides to keep going.\n\nJoining a caravan across the Sahara, Santiago meets an Englishman chasing a different kind of treasure — an alchemist rumored to live at a desert oasis who can explain the \"universal language\" beneath all things — and a camel driver who has already lost everything once and made peace with it. At the oasis he falls for a woman named Fatima, and the novel uses their romance to test its own central idea: whether loving someone and leaving to pursue your purpose are in conflict. Fatima's answer — that a woman of the desert already knows her man must go, and that this doesn't make the love less real — reframes the rest of Santiago's journey as something Fatima is also choosing, not something happening to her.\n\nThe alchemist, once Santiago finally meets him, becomes both guide and antagonist — pushing Santiago through a captivity by a rival tribe, a demand that he learn to \"turn himself into the wind,\" and a string of lessons about listening to his own heart and the Soul of the World, Coelho's term for the shared, living current he believes runs through everything. Alchemy itself works throughout as the book's controlling image: turning lead into gold stands in for burning away fear and attachment until what's essential in a person is what's left.\n\nSantiago finally reaches the pyramids, only to be robbed again by desperate refugees — and it's the leader of that group, mocking Santiago's story, who unknowingly hands him the real ending: years earlier he had the same recurring dream, about a treasure buried in a ruined Spanish church, and dismissed it as nothing. Santiago returns to where his journey started and finds the treasure exactly there. The novel's closing move isn't a plot twist so much as its whole argument made literal: the transformation was the point, the gold was real too, and neither one cancels the other out.",
   "sections": [
     {
       "order": 1,
-      "title": "The Recurring Dream",
-      "summary": "Introduces Santiago the shepherd and his recurring dream of treasure near the Egyptian pyramids, and his encounter with the King of Salem, Melchizedek, who convinces him to pursue his Personal Legend."
+      "title": "Prologue",
+      "summary": "The novel opens before Santiago's story begins, with the alchemist — the character who will guide the second half of the book — reading a retelling of the Narcissus myth from a book someone in a caravan has brought along. It's a brief, self-contained tale, and Coelho uses it as a kind of key placed in the reader's pocket before the main story starts.\n\nIn this version, Narcissus doesn't just drown admiring his own reflection; after his death, the forest goddesses find the lake he knelt beside transformed into a lake of tears, and assume it weeps for the beauty it lost. The lake corrects them: it never noticed Narcissus was beautiful — it wept because each time he leaned over the water, it could see its own beauty reflected in his eyes. The alchemist's only reaction is quiet appreciation for the story he's just read.\n\nAs a prologue, the scene does more work than its length suggests. It signals that the novel will treat familiar stories and signs as things that mean something because of what the person encountering them already carries — a premise Santiago's entire journey, and its omens, dreams, and treasure, will depend on.",
+      "keyLessons": [
+        "Even a well-known story can be retold from an unexpected point of view to reveal a different truth — a technique Coelho uses again with omens and signs throughout the novel.",
+        "The lake's insight — that it was moved by its own reflection, not Narcissus himself — previews the book's larger claim that meaning in the world often depends on what a person already carries within them."
+      ]
     },
     {
       "order": 2,
-      "title": "Robbed in Tangier",
-      "summary": "Santiago loses his money shortly after arriving in Africa, forcing him to work and rebuild — an early test of commitment to the journey despite an immediate, discouraging setback."
+      "title": "Part One",
+      "summary": "Part One establishes who Santiago is before it sends him anywhere: a shepherd who chose the job specifically because it let him travel, having turned down the priesthood his family wanted for him. It opens with the recurring dream that will drive the whole book — a child leading him to hidden treasure near the Egyptian pyramids — and with Santiago's plan to visit an Andalusian village where, the year before, he met a merchant's daughter who made him wish, for the first time, that he could stay in one place.\n\nOn the way there, Santiago pays a fortune-teller to interpret the dream, then meets an old man who calls himself Melchizedek, King of Salem. Melchizedek tells him he has discovered his \"Personal Legend\" — what a person has always wanted to accomplish — and that most people quietly give up on theirs, deceived by what he calls the world's greatest lie: that at some point in life we lose control of what happens to us. Santiago sells his flock, receives two stones (Urim and Thummim) for reading omens, and sails to Tangier, where he's robbed within hours of arriving. Broke, he takes work cleaning glass for a crystal merchant, and this section becomes as much about the merchant as about Santiago: the older man has wanted his whole life to make the pilgrimage to Mecca and can now afford it, but keeps deferring the trip, because he's realized he prefers having something left to dream about to the risk of actually going.\n\nBusiness at the shop improves under Santiago's ideas, and within a year he has earned enough to buy an even larger flock than he started with — the safe, obvious ending to his story. Instead, he finds the stones Melchizedek gave him buried in his old shepherd's bag, takes it as a sign, and chooses to keep going. Part One ends with that choice made, and Santiago joining a caravan bound across the desert toward Egypt.",
+      "keyLessons": [
+        "Melchizedek's \"world's greatest lie\" — that we eventually lose control of our own lives — reframes some obstacles as excuses people accept rather than forces actually beyond their control.",
+        "The crystal merchant shows how an unfulfilled dream can become more valuable to hold onto than to actually risk pursuing, once it's safely permanent.",
+        "An early setback (being robbed on arrival) doesn't have to mean the pursuit was a mistake — it can be what forces the patience and resourcefulness the rest of the journey will require.",
+        "Reaching the safe, comfortable version of a goal (Santiago could have bought his flock back and gone home) is its own kind of test, not just a finish line."
+      ]
     },
     {
       "order": 3,
-      "title": "The Crystal Merchant",
-      "summary": "Working for a merchant who has deferred his own dream of visiting Mecca indefinitely, Santiago encounters the novel's central warning: a dream can become more comfortable unfulfilled than pursued."
+      "title": "Part Two",
+      "summary": "Part Two follows Santiago across the desert and into the second half of his education. Crossing with the caravan, he meets an Englishman searching for an alchemist rumored to live at the oasis of Al-Fayoum, and a camel driver who lost his land to a flood years earlier and found, in the aftermath, that fearing further loss was pointless once he understood that all lives are written by the same hand. By the time the caravan reaches the oasis, Santiago has started noticing omens on his own, without needing the stones.\n\nAt the oasis he meets and falls for Fatima, and the novel uses their relationship to test its own premise about love and purpose directly: Fatima tells him that a woman of the desert already knows her man must leave to pursue what he's meant to do, and that this doesn't make her love any less real. A vision Santiago has — a hawk attacking another hawk, read as an omen of a coming raid — leads him to warn the oasis's chieftains, and to his first real meeting with the alchemist, who tests his courage before agreeing to guide him. After the raid Santiago predicted actually happens, the alchemist takes him further into the desert for direct instruction: to listen to his own heart, because it comes from the same Soul of the World that omens and alchemy both draw on. Captured by a rival tribe, Santiago is forced to prove he can \"turn himself into the wind\" within three days or be killed — and only succeeds by appealing past the desert, the wind, and the sun themselves to what the book calls the Soul of God.\n\nReleased, Santiago and the alchemist reach a monastery, where the alchemist demonstrates the alchemical transformation the novel has been using as metaphor throughout, turning lead into gold and dividing it three ways before sending Santiago on alone. Part Two ends with Santiago finally reaching the pyramids, dropping to his knees, and beginning to dig where his tears fall — the literal payoff of the dream that opened the book, arriving right before the story's final turn.",
+      "keyLessons": [
+        "Fatima's choice to encourage Santiago's departure reframes supporting someone's purpose as an act of love, not a threat to the relationship.",
+        "The alchemist's teaching that courage matters more once a person is already deep into a pursuit, not just at the start, applies as much outside the fable as inside it.",
+        "The wind episode — Santiago succeeding only by appealing beyond what he already understands to something larger — suggests that finishing a hard pursuit sometimes requires more than applying skills already learned.",
+        "The alchemist splitting his transmuted gold three ways treats generosity as part of a completed pursuit, not separate from it."
+      ]
     },
     {
       "order": 4,
-      "title": "Crossing the Desert",
-      "summary": "Santiago joins a caravan crossing the Sahara, encountering tribal warfare, an Englishman studying alchemy, and lessons in reading omens and the natural world."
-    },
-    {
-      "order": 5,
-      "title": "Fatima and the Oasis",
-      "summary": "Santiago falls in love with Fatima at a desert oasis, and the novel explores whether love and pursuing one's purpose are in conflict or ultimately the same commitment."
-    },
-    {
-      "order": 6,
-      "title": "The Alchemist's Teaching",
-      "summary": "The title character becomes Santiago's guide, using the craft of alchemy as an extended metaphor for burning away fear and attachment to reveal one's true purpose."
-    },
-    {
-      "order": 7,
-      "title": "The Soul of the World",
-      "summary": "Develops Coelho's concept of a universal, interconnected life force and the idea that reading omens is a skill available to anyone who learns to pay attention."
-    },
-    {
-      "order": 8,
-      "title": "The Treasure's True Meaning",
-      "summary": "Closes with Santiago discovering that the internal transformation from the journey was the real point, while still finding literal treasure — Coelho treats the two rewards as compatible, not mutually exclusive."
+      "title": "Epilogue",
+      "summary": "The Epilogue delivers the novel's final irony in a few short pages. Santiago has barely started digging at the pyramids when a group of refugees fleeing the desert's tribal wars finds him, beats him, and takes the gold the alchemist gave him, refusing to believe a shepherd traveled this far chasing nothing but a dream.\n\nBefore leaving, the group's leader mocks Santiago's story by telling one of his own: two years earlier, he had the exact same recurring dream — treasure buried at the roots of a sycamore growing through the ruins of an abandoned church in Spain — and dismissed it, because it was, after all, just a dream. He has no idea he's just told Santiago exactly where his treasure actually is. Santiago, beaten and broke, laughs out loud once the refugees leave, understanding at last where the story was always going to end.\n\nHe makes his way back to the same abandoned church where the book opened, digs at the roots of the tree, and finds a chest of gold and jewels. As the wind picks up, it carries a scent of perfume he recognizes, and the novel closes with Santiago's final words, addressed to Fatima, confirming he's already on his way back to her — pairing the literal treasure with his return to the person he left behind, and refusing to treat the two as a trade-off.",
+      "keyLessons": [
+        "The refugee leader unknowingly describes Santiago's own treasure and dismisses it as \"just a dream\" — the novel's clearest illustration that other people receive the same kind of guidance Santiago acted on and simply don't follow it.",
+        "Placing the treasure back at the story's starting point reframes the entire outward journey as necessary for who Santiago had to become, not because the treasure itself was ever far away.",
+        "The ending pairs the literal treasure with Fatima rather than choosing between them, closing the book's long-running question of whether pursuing a purpose and loving someone are opposing rewards."
+      ]
     }
   ],
   "keyLessons": [
-    "Fear of failure and comfort with routine are usually bigger obstacles to pursuing your purpose than external circumstances are.",
-    "A dream deferred indefinitely can become more valuable to you unfulfilled than actually pursued — notice if you're doing this to yourself.",
-    "Setbacks early in a pursuit (like Santiago being robbed) don't necessarily mean the pursuit was wrong; they can be part of the process.",
-    "Pursuing your own purpose and supporting someone you love aren't automatically in conflict — sometimes real love means allowing someone to leave to pursue theirs.",
-    "Pay attention to small signals in your environment and circumstances; noticing them is a learnable skill, not a rare gift.",
-    "The internal transformation from committing fully to a difficult pursuit can matter more than whatever external reward you were originally chasing.",
-    "Teachers and guides often appear at points of genuine readiness — but you still have to do the actual work yourself.",
-    "Physical reward and personal transformation aren't mutually exclusive outcomes of the same pursuit."
+    "Fear of failure, more than actual circumstances, is usually what stands between you and something you actually want to pursue.",
+    "A dream you keep putting off can quietly become more comfortable to hold onto unfulfilled than to actually risk chasing — notice if that's happened to you.",
+    "Treat \"omens\" — small, easy-to-miss signals in your circumstances — as something you get better at noticing with practice, not a gift only some people have.",
+    "Supporting someone you love in leaving to pursue their own path can be an act of love, not a threat to the relationship.",
+    "An early setback in a new pursuit isn't necessarily proof you're on the wrong path — it can be part of what the pursuit requires of you.",
+    "The person capable of reaching a difficult goal is usually built during the pursuit of it, not fully formed before starting.",
+    "What feels like fate working against you is sometimes a story that's easier to believe than admitting you're avoiding a choice.",
+    "The internal change a difficult pursuit produces can matter as much as whatever external reward you set out chasing.",
+    "Guides and teachers tend to show up once you've already committed to moving — waiting for one before you start usually means waiting indefinitely."
   ],
   "quotes": [
-    { "text": "And, when you want something, all the universe conspires in helping you to achieve it.", "attribution": "Paulo Coelho, The Alchemist" },
-    { "text": "It's the possibility of having a dream come true that makes life interesting.", "attribution": "Paulo Coelho, The Alchemist" },
-    { "text": "People are capable, at any time in their lives, of doing what they dream of.", "attribution": "Paulo Coelho, The Alchemist" }
+    {
+      "text": "And, when you want something, all the universe conspires in helping you to achieve it.",
+      "attribution": "Paulo Coelho, The Alchemist",
+      "category": "The Soul of the World & Omens"
+    },
+    {
+      "text": "It's the possibility of having a dream come true that makes life interesting.",
+      "attribution": "Paulo Coelho, The Alchemist",
+      "category": "Personal Legend & Destiny"
+    },
+    {
+      "text": "There is only one thing that makes a dream impossible to achieve: the fear of failure.",
+      "attribution": "Paulo Coelho, The Alchemist",
+      "category": "Fear, Failure & Courage"
+    },
+    {
+      "text": "People are capable, at any time in their lives, of doing what they dream of.",
+      "attribution": "Paulo Coelho, The Alchemist",
+      "category": "Personal Legend & Destiny"
+    },
+    {
+      "text": "To realize one's destiny is a person's only obligation.",
+      "attribution": "Paulo Coelho, The Alchemist",
+      "category": "Personal Legend & Destiny"
+    },
+    {
+      "text": "The secret of life, though, is to fall seven times and to get up eight times.",
+      "attribution": "Paulo Coelho, The Alchemist",
+      "category": "Fear, Failure & Courage"
+    },
+    {
+      "text": "The simple things are also the most extraordinary things, and only the wise can see them.",
+      "attribution": "Paulo Coelho, The Alchemist",
+      "category": "Wisdom, Presence & Simple Things"
+    },
+    {
+      "text": "Everyone seems to have a clear idea of how other people should lead their lives, but none about his or her own.",
+      "attribution": "Paulo Coelho, The Alchemist",
+      "category": "Wisdom, Presence & Simple Things"
+    },
+    {
+      "text": "Remember that wherever your heart is, there you will find your treasure.",
+      "attribution": "Paulo Coelho, The Alchemist",
+      "category": "Personal Legend & Destiny"
+    },
+    {
+      "text": "Tell your heart that the fear of suffering is worse than the suffering itself. And that no heart has ever suffered when it goes in search of its dreams, because every second of the search is a second's encounter with God and with eternity.",
+      "attribution": "Paulo Coelho, The Alchemist",
+      "category": "Fear, Failure & Courage"
+    },
+    {
+      "text": "No matter what he does, every person on earth plays a central role in the history of the world. And normally he doesn't know it.",
+      "attribution": "Paulo Coelho, The Alchemist",
+      "category": "Personal Legend & Destiny"
+    },
+    {
+      "text": "Don't give in to your fears. If you do, you won't be able to talk to your heart.",
+      "attribution": "Paulo Coelho, The Alchemist",
+      "category": "Fear, Failure & Courage"
+    },
+    {
+      "text": "When we love, we always strive to become better than we are. When we strive to become better than we are, everything around us becomes better too.",
+      "attribution": "Paulo Coelho, The Alchemist",
+      "category": "Love & Connection"
+    },
+    {
+      "text": "One is loved because one is loved. No reason is needed for loving.",
+      "attribution": "Paulo Coelho, The Alchemist",
+      "category": "Love & Connection"
+    },
+    {
+      "text": "So, I love you because the entire universe conspired to help me find you.",
+      "attribution": "Paulo Coelho, The Alchemist",
+      "category": "Love & Connection"
+    },
+    {
+      "text": "Maktub.",
+      "attribution": "Paulo Coelho, The Alchemist — Arabic for \"it is written,\" repeated by several characters as a phrase of acceptance",
+      "category": "The Soul of the World & Omens"
+    },
+    {
+      "text": "Intuition is really a sudden immersion of the soul into the universal current of life.",
+      "attribution": "Paulo Coelho, The Alchemist",
+      "category": "The Soul of the World & Omens"
+    },
+    {
+      "text": "I don't live in either my past or my future. I'm interested only in the present. If you can concentrate always on the present, you'll be a happy man. Life will be a party for you, a grand festival, because life is the moment we're living now.",
+      "attribution": "Paulo Coelho, The Alchemist",
+      "category": "Wisdom, Presence & Simple Things"
+    },
+    {
+      "text": "When each day is the same as the next, it's because people fail to recognize the good things that happen in their lives every day that the sun rises.",
+      "attribution": "Paulo Coelho, The Alchemist",
+      "category": "Wisdom, Presence & Simple Things"
+    },
+    {
+      "text": "Every blessing ignored becomes a curse.",
+      "attribution": "Paulo Coelho, The Alchemist",
+      "category": "Wisdom, Presence & Simple Things"
+    },
+    {
+      "text": "At a certain point in our lives, we lose control of what's happening to us, and our lives become controlled by fate. That's the world's greatest lie.",
+      "attribution": "Paulo Coelho, The Alchemist — Melchizedek to Santiago",
+      "category": "Personal Legend & Destiny"
+    },
+    {
+      "text": "God only rarely reveals the future. When he does so, it is for one reason: it's a future that was written so as to be altered.",
+      "attribution": "Paulo Coelho, The Alchemist",
+      "category": "The Soul of the World & Omens"
+    },
+    {
+      "text": "Before a dream is realized, the Soul of the World tests everything that was learned along the way. It does this not because it is evil, but so that we can, in addition to realizing our dreams, master the lessons we've learned as we've moved toward that dream. That's the point at which most people give up.",
+      "attribution": "Paulo Coelho, The Alchemist",
+      "category": "Fear, Failure & Courage"
+    },
+    {
+      "text": "People are afraid to pursue their most important dreams, because they feel that they don't deserve them, or that they'll be unable to achieve them.",
+      "attribution": "Paulo Coelho, The Alchemist",
+      "category": "Fear, Failure & Courage"
+    },
+    {
+      "text": "Because true love never keeps a man from pursuing his destiny",
+      "attribution": "Paulo Coelho, The Alchemist",
+      "category": "Love & Connection"
+    },
+    {
+      "text": "There is only one way to learn. It's through action. Everything you need to know you have learned through your journey.",
+      "attribution": "Paulo Coelho, The Alchemist",
+      "category": "Wisdom, Presence & Simple Things"
+    },
+    {
+      "text": "I'm coming, Fatima.",
+      "attribution": "Paulo Coelho, The Alchemist — the novel's final line",
+      "category": "Love & Connection"
+    }
   ],
-  "whoThisIsFor": "Readers who want a short, allegorical fable about pursuing purpose and overcoming fear, rather than a plot-driven novel.",
-  "whenToReadThis": "Read when weighing whether to pursue a significant, uncertain change, or when a deferred dream has quietly become permanent.",
+  "whoThisIsFor": "Readers drawn to short, symbol-rich fables about purpose and risk rather than plot-heavy fiction, and anyone who wants permission to take a leap they've been circling for years.",
+  "whenToReadThis": "Read when you're weighing a real but uncertain change — a move, a career shift, leaving something safe — or when you notice a long-held dream has quietly become something you only talk about.",
   "relatedBooks": [],
+  "authorBio": {
+    "name": "Paulo Coelho",
+    "bio": "Paulo Coelho was born on August 24, 1947, in Rio de Janeiro, Brazil, to a middle-class Catholic family. As a teenager and young adult he resisted the conventional career his parents expected of him, and was committed by his family to psychiatric institutions more than once during that period — an experience he has referenced only obliquely in his later writing. He briefly studied law before dropping out to travel and pursue writing, moving through Brazil's counterculture, theater, and journalism scenes through the 1960s and 70s.\n\nBefore becoming a novelist, Coelho spent years as a songwriter, co-writing lyrics for prominent Brazilian musicians, including the rock singer Raul Seixas, during the period of Brazil's military dictatorship; some of their songs drew government scrutiny, and Coelho was briefly imprisoned over his writing. A pilgrimage he undertook along the Camino de Santiago route in Spain in the mid-1980s became a personal turning point, renewing his interest in mysticism and directly inspiring his first book, The Pilgrimage (1987).\n\nThe Alchemist followed in 1988. It sold modestly at first, but a re-release by HarperCollins in the early 1990s turned it into a global phenomenon, and it has since been translated into more languages than any other book by a living author. Coelho has gone on to publish roughly thirty books blending fable, spirituality, and personal transformation, has been a member of the Brazilian Academy of Letters since 2002, and has served as a United Nations Messenger of Peace since 2007.",
+    "notableWorks": [
+      "The Pilgrimage",
+      "Brida",
+      "The Valkyries",
+      "By the River Piedra I Sat Down and Wept",
+      "Veronika Decides to Die",
+      "Eleven Minutes",
+      "The Zahir",
+      "Aleph",
+      "Manuscript Found in Accra",
+      "The Spy",
+      "Hippie"
+    ]
+  },
   "readStatus": "unread",
   "personalRating": null,
   "personalNotes": "",
   "dateAdded": "2026-07-24",
-  "sourceNotes": "Original synthesis from general knowledge of the novel's well-documented plot, characters, and central allegorical themes. Three short, widely-cited quotes included with attribution; no passages reproduced."
+  "sourceNotes": "v2 retrofit. Real chapter/part structure verified against LitCharts' scene-by-scene summary of The Alchemist (litcharts.com/lit/the-alchemist/summary), confirming the novel is organized as Prologue / Part One / Part Two / Epilogue rather than the eight invented chapter titles used in the prior v1 entry; sections were rebuilt to match this real four-part structure (structureType remains \"parts\", which was already correct). All summary and keyLessons prose (whole-book, section-level, and author bio) is original synthesis from general knowledge of the novel and Coelho's life — no text was copied or lightly reworded from LitCharts, Goodreads, Britannica, or any other source. All 27 quotes were cross-checked verbatim against Goodreads' book-specific quotes page (goodreads.com/work/quotes/4835472-alquimista, pages 1-2, sorted by reader popularity) rather than recalled from memory, including the widely misquoted 'universe conspires' line, which is reproduced here in its exact, most-quoted English translation wording. Author bio facts (birth date/place, Raul Seixas songwriting collaboration and imprisonment, Camino de Santiago pilgrimage, Brazilian Academy of Letters membership, UN Messenger of Peace role, translation/sales history) were checked against Britannica's Paulo Coelho biography and a web search summarizing Wikipedia/Goodreads author-page content."
 }

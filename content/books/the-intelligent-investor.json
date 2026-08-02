@@ -1,81 +1,371 @@
 {
   "id": "the-intelligent-investor",
+  "code": "281",
   "title": "The Intelligent Investor",
   "author": "Benjamin Graham",
-  "categories": ["finance-investing"],
+  "categories": [
+    "finance-investing"
+  ],
   "language": "en",
   "coverImage": null,
   "estimatedOriginalReadingTimeMinutes": 600,
-  "tags": ["value-investing", "stocks", "risk-management", "margin-of-safety", "graham"],
+  "tags": [
+    "value-investing",
+    "stocks",
+    "risk-management",
+    "margin-of-safety",
+    "graham",
+    "mr-market"
+  ],
   "structureType": "chapters",
-  "summary": "The Intelligent Investor lays out Benjamin Graham's foundational philosophy of value investing, built on the core premise that intelligent investing is not about predicting the market or outsmarting other investors on information, but about disciplined analysis, patience, and — above all — protecting yourself from your own psychology. Graham's central metaphor, Mr. Market, personifies the stock market as an emotionally erratic business partner who shows up daily offering to buy or sell shares at wildly different prices depending on his mood — sometimes euphoric, sometimes despondent — and Graham's argument is that the intelligent investor's job is never to be swayed by Mr. Market's moods, but to take advantage of them: buying when he's irrationally pessimistic and offering low prices, ignoring or selling when he's irrationally euphoric. From this comes Graham's most famous principle, the margin of safety — always buying a security for meaningfully less than a conservative estimate of its intrinsic value, so that even if your analysis is somewhat wrong or conditions turn unfavorable, there's enough of a buffer to avoid serious loss. The book draws a sharp distinction between investment and speculation, arguing an operation is only truly an investment if, upon thorough analysis, it promises safety of principal and an adequate return — anything else, regardless of how it's marketed, is speculation, and Graham insists there's nothing wrong with speculating as long as an investor is honest with themselves about which one they're doing and never speculates with money they can't afford to lose. A major structural theme is Graham's distinction between the 'defensive' investor (who wants a simple, low-maintenance portfolio requiring minimal effort and decision-making, for whom Graham recommends a fixed stock/bond allocation, broad diversification, and a mechanical approach to avoid emotional decisions) and the 'enterprising' investor (who is willing to put in substantially more time and effort in exchange for potentially better returns through more active security selection, but only if that added effort is genuinely matched by genuine analytical skill and discipline). Graham is skeptical of most investors' ability to reliably outperform the market through active stock-picking or market-timing, and much of the book's guidance is really about avoiding costly mistakes — overpaying for growth stories, following market trends or hot tips, trying to time market cycles — rather than finding brilliant opportunities. The book, particularly through Warren Buffett's added commentary in later editions, repeatedly returns to two core rules that Graham considered the whole foundation of sound investing: the idea that a stock represents fractional ownership of a real business, so its analysis should start with the business's fundamentals rather than its price chart, and the idea that temperament — patience, discipline, and the ability to think independently of the crowd — matters more to long-term investment success than intellect or technical sophistication.",
+  "summary": "The Intelligent Investor, first published in 1949 and revised by Benjamin Graham through a fourth edition in 1973, is Graham's attempt to translate the technical value-investing discipline he and David Dodd had developed for professional analysts in Security Analysis (1934) into a philosophy any individual investor could actually apply. Where that earlier, denser book teaches the mechanics of valuing bonds and stocks chapter by chapter for analysts, this one assumes far less technical background and argues that investment success has less to do with intelligence or specialized skill than with temperament — the discipline to think and act independently of the crowd, and the patience to let a sound approach compound over time rather than chasing whatever the market currently rewards.\n\nThe book's most enduring idea is the Mr. Market allegory, introduced in Chapter 8: imagine a business partner who shows up every day offering to buy your shares or sell you more, at a price that swings from euphorically high to despondently low depending entirely on his mood, with no fixed relationship to the business's actual value. Graham's point is that Mr. Market exists to serve the investor, not to instruct him — the intelligent investor uses his wild quotations opportunistically, buying when fear has pushed prices well below value and selling or ignoring him when greed has pushed them well above it, but never lets his moods dictate a decision about the underlying business. From this comes Graham's other central concept, the margin of safety, which he calls in Chapter 20 the three words that distill the whole discipline: buy only when the price paid leaves enough of a cushion below a conservative estimate of value that even a flawed analysis, bad luck, or an unforeseen setback won't translate into a permanent loss.\n\nStructurally, the book works through two parallel tracks for two kinds of readers. The 'defensive' investor wants a simple, low-maintenance approach — a fixed stock/bond allocation, broad diversification across financially sound companies, and a mechanical discipline that removes emotional decision-making almost entirely. The 'enterprising' investor is willing to commit substantially more time to individual security selection in pursuit of better returns, but only, Graham insists repeatedly, if that effort is genuinely matched by real analytical skill and discipline — otherwise the defensive approach will serve better, and there is no shame in choosing it. Both paths rest on the same definitional foundation laid out in Chapter 1: an investment operation must, upon thorough analysis, promise safety of principal and an adequate return, and anything that doesn't meet that test is speculation, which isn't wrong so long as the investor is honest about which one they're doing.\n\nThe book's middle stretch works through the practical mechanics an intelligent investor needs — reading financial statements without being fooled by reported earnings, comparing real companies side by side to sharpen judgment, evaluating convertible securities and investment funds, and dealing sensibly with financial advisers and the inevitable dividend-policy disputes between shareholders and management. It closes by returning to where it started: the investor's real enemy is rarely a lack of information or technical sophistication, but a failure of temperament — the tendency to be swept up in the market's own emotional weather rather than treating a stock as a fractional share of a real, analyzable business. That closing argument, more than any specific formula in the book, is what later commentators — including Warren Buffett, who studied under Graham at Columbia and has called this 'by far the best book on investing ever written' — have pointed to as the source of the book's lasting influence.",
   "sections": [
     {
       "order": 1,
-      "title": "Investment versus Speculation",
-      "summary": "Establishes Graham's core definitional distinction: a true investment requires analysis promising safety of principal and adequate return; anything else is speculation, which isn't wrong but must be recognized honestly for what it is."
+      "title": "Investment versus Speculation: Results to Be Expected by the Intelligent Investor",
+      "summary": "The opening chapter establishes the definitional line the rest of the book depends on: what separates an investment from a speculation, and why an intelligent investor needs to be honest about which one they're doing at any given moment. Graham wants the reader to understand this isn't a matter of which security is bought but of the analysis and discipline behind the decision to buy it.\n\nThe chapter's substance is Graham's core test — an investment operation is one which, upon thorough analysis, promises safety of principal and an adequate return, and anything that doesn't meet that bar is speculation, regardless of how respectable it looks. From there Graham introduces the book's other foundational split: the 'defensive' investor, who wants safety and freedom from constant decision-making, versus the 'enterprising' investor, willing to commit real time and effort in pursuit of better results. He's careful to note that speculation isn't inherently wrong, only dangerous when confused with investing, done with money that can't be lost, or pursued without the discipline it demands.\n\nBy the chapter's end, the book has set its two central distinctions — investment versus speculation, and defensive versus enterprising — that every later chapter builds on, and hands off to Chapter 2's treatment of inflation as the first practical topic those distinctions get applied to.",
+      "keyLessons": [
+        "Draw the line between investment and speculation using Graham's test: an investment must promise, upon thorough analysis, safety of principal and an adequate return.",
+        "Speculation isn't inherently wrong, but it becomes dangerous when mistaken for investing or pursued with money you can't afford to lose.",
+        "Decide early whether you're a defensive or enterprising investor — the choice shapes every portfolio decision that follows, not just your stock picks."
+      ]
     },
     {
       "order": 2,
       "title": "The Investor and Inflation",
-      "summary": "Covers how inflation affects real investment returns and Graham's early treatment of how stocks and bonds each respond differently to inflationary periods."
+      "summary": "This chapter takes up a risk that's easy to ignore because it erodes wealth slowly rather than through a dramatic loss: inflation's effect on real, purchasing-power-adjusted investment returns. Graham's goal is to make sure the reader weighs inflation deliberately rather than either ignoring it or overreacting to it with speculative hedges.\n\nThe chapter's substance walks through how inflation affects bonds and stocks differently: bond payments are fixed in nominal dollars, so inflation directly erodes their real value, while stocks represent ownership in businesses whose earnings and prices can in principle rise with prices — but Graham is careful to show, using historical data, that corporate earning power doesn't reliably keep pace with inflation, so stocks are an imperfect hedge at best, not an automatic one. He also examines gold, real estate, and other commonly proposed inflation hedges and finds them unreliable as a core solution for the ordinary investor.\n\nThe chapter concludes that inflation is a reason to hold a meaningful stock allocation, not a reason to hold only stocks or to chase speculative hedges, and it hands off to Chapter 3's broader historical review of market behavior.",
+      "keyLessons": [
+        "Don't assume stocks automatically protect you from inflation — corporate earning power doesn't reliably rise in lockstep with prices.",
+        "Recognize that bonds carry a direct, mechanical inflation risk because their payments are fixed in nominal dollars.",
+        "Be skeptical of gold, real estate, or other assets marketed as a simple, reliable inflation hedge for the ordinary investor."
+      ]
     },
     {
       "order": 3,
-      "title": "A Century of Stock Market History",
-      "summary": "Reviews long-run historical stock market behavior to caution against both excessive pessimism and excessive optimism about future returns based on any single recent period."
+      "title": "A Century of Stock-Market History: The Level of Stock Prices in Early 1972",
+      "summary": "This chapter steps back to survey decades of stock-market history, aiming to give the reader a long enough baseline to judge whether current price levels are reasonable, rather than anchoring only on recent years' performance.\n\nThe substance is a walk through repeated market cycles across the twentieth century, including periods of 'new era' thinking where investors convinced themselves that historically high valuations were newly justified, only to be proven wrong when conditions reverted. Graham applies this lens to the stock price levels of the early 1970s specifically, using historical valuation norms as a check against the optimism of the moment, while acknowledging there's no fixed formula that reliably identifies a market top or bottom in advance.\n\nThe chapter closes by cautioning against extrapolating any single period — bullish or bearish — indefinitely into the future, a discipline that underpins the specific portfolio recommendations Chapter 4 begins laying out next.",
+      "keyLessons": [
+        "Study long-run market history to calibrate your expectations, rather than anchoring on whatever the market has done in the past few years.",
+        "Treat 'this time is different' reasoning used to justify unusually high valuations with real suspicion.",
+        "Accept that no formula reliably predicts market tops or bottoms in advance — historical perspective disciplines judgment, it doesn't replace it."
+      ]
     },
     {
       "order": 4,
-      "title": "General Portfolio Policy — The Defensive Investor",
-      "summary": "Lays out Graham's recommendations for the defensive investor: simple fixed stock/bond allocations, broad diversification, and avoiding active decision-making that invites emotional error."
+      "title": "General Portfolio Policy: The Defensive Investor",
+      "summary": "This chapter begins the book's concrete portfolio guidance by addressing the reader who wants a simple, low-effort approach requiring minimal ongoing decisions. Graham's task here is to translate the defensive philosophy introduced in Chapter 1 into an actual allocation policy.\n\nThe substance is Graham's classic guidance to keep a stock/bond split within disciplined bounds — never letting stocks fall below roughly 25% or rise above roughly 75% of the portfolio — with a simple baseline near an even split, adjusted modestly and rebalanced periodically according to a fixed rule rather than in response to market forecasts or feelings about where prices are headed. He argues explicitly against trying to time large allocation shifts based on predictions of market direction, since that kind of forecasting is exactly the emotional decision-making the defensive approach is meant to avoid.\n\nThe chapter concludes that consistency and discipline in following a simple allocation rule matter far more than precision in choosing the 'ideal' split, and it hands off to Chapter 5's specific guidance on the common-stock portion of that allocation.",
+      "keyLessons": [
+        "Keep your stock/bond allocation within disciplined bounds (Graham's rough 25%–75% range) rather than trying to time market tops and bottoms.",
+        "Rebalance according to a fixed, predetermined rule rather than reacting emotionally to where you think the market is headed.",
+        "Value consistency and simplicity in portfolio policy over precision — a disciplined rough split beats an undisciplined attempt at a perfect one."
+      ]
     },
     {
       "order": 5,
-      "title": "Portfolio Policy for the Enterprising Investor",
-      "summary": "Covers the more active approach available to investors willing to do significant extra work, with Graham's repeated caution that added effort only pays off if matched by genuine skill and discipline — otherwise it's better to default to the defensive approach."
+      "title": "The Defensive Investor and Common Stocks",
+      "summary": "This chapter narrows in on the common-stock portion of the defensive investor's portfolio specifically, making the case that even a low-effort investor should hold real equity exposure rather than retreating entirely into the apparent safety of bonds.\n\nThe substance lays out Graham's practical rules: diversify broadly across roughly ten to thirty issues rather than concentrating in a handful of favorites, favor large, prominent, conservatively financed companies with long, uninterrupted records of paying dividends, and stay disciplined about price — a genuinely excellent company can still be a poor defensive holding if bought at too high a price relative to its earnings and assets.\n\nThe chapter closes by tying diversification, quality, and price discipline together as the three pillars of a defensive common-stock strategy, and hands off to Chapters 6 and 7, which take up the more active alternative available to the enterprising investor.",
+      "keyLessons": [
+        "Diversify broadly across quality companies (roughly ten to thirty issues) rather than concentrating in a few convictions, however strong.",
+        "Favor large, established, conservatively financed companies with long, uninterrupted dividend records for the defensive portion of a portfolio.",
+        "Remember that price discipline still applies to defensive holdings — an excellent company bought at too high a price is no longer a safe purchase."
+      ]
     },
     {
       "order": 6,
-      "title": "The Investor and Market Fluctuations",
-      "summary": "Introduces the Mr. Market allegory — the market as an emotionally erratic business partner offering daily prices — and argues the intelligent investor exploits Mr. Market's moods rather than being ruled by them."
+      "title": "Portfolio Policy for the Enterprising Investor: Negative Approach",
+      "summary": "This chapter opens the book's treatment of the more active, enterprising investor by starting deliberately with what to avoid, on the premise that avoiding serious losses matters more to long-term results than chasing exceptional gains.\n\nThe substance is a set of specific warnings: against stretching for extra yield in lower-grade bonds and preferred stocks, where the added risk usually isn't fairly compensated; against foreign government bonds, which carry risks difficult for an ordinary investor to assess; against new stock issues sold aggressively during hot markets, which are disproportionately likely to be overpriced; and against paying up for popular growth stocks at prices that already assume years of flawless execution.\n\nThe chapter concludes that even an investor willing to do real analytical work benefits more from a short list of avoided mistakes than from a long list of clever ideas, setting up Chapter 7's turn to what the enterprising investor can actively pursue.",
+      "keyLessons": [
+        "Avoid stretching for extra yield in lower-quality bonds and preferred stocks — the additional risk usually isn't fairly compensated.",
+        "Be especially cautious of new stock issues marketed aggressively during hot, optimistic markets.",
+        "Recognize that avoiding a handful of serious mistakes protects long-term results more than finding a handful of brilliant picks."
+      ]
     },
     {
       "order": 7,
-      "title": "Margin of Safety as the Central Concept of Investment",
-      "summary": "Presents Graham's central principle: always buy with a meaningful gap between price and conservatively estimated intrinsic value, so analytical errors or bad luck don't translate directly into serious loss."
+      "title": "Portfolio Policy for the Enterprising Investor: The Positive Side",
+      "summary": "Having established what to avoid, this chapter turns to what the enterprising investor can actually pursue in exchange for the extra time and analytical effort they're willing to commit.\n\nThe substance covers several concrete strategies: buying financially sound, large companies that are temporarily out of favor and priced below their normal valuation; purchasing 'bargain issues' trading below their net current asset value, which Graham treats as some of the most demonstrable opportunities available to a careful analyst; and special situations such as pending mergers or reorganizations, where a specific, analyzable catalyst allows for more confident conclusions than ordinary market analysis permits. Graham treats popular growth-stock investing with real caution throughout, since the price of a well-known growth story usually already reflects optimistic assumptions about years of continued success.\n\nThe chapter closes by arguing that genuine opportunity for the enterprising investor lies in situations analysis can actually resolve with confidence, not in guessing which popular narrative continues, and it hands off to Chapter 8's treatment of market psychology.",
+      "keyLessons": [
+        "Look for temporarily unpopular but financially sound large companies rather than chasing the market's current favorites.",
+        "Treat bargain issues trading below net current asset value as some of the most demonstrable opportunities available to a careful analyst.",
+        "Be wary of paying premium prices for growth stories, since the price often already assumes years of uninterrupted future success."
+      ]
+    },
+    {
+      "order": 8,
+      "title": "The Investor and Market Fluctuations",
+      "summary": "This chapter introduces the book's most famous idea, addressing directly how an investor should relate — emotionally and practically — to the market's constant, often irrational price swings.\n\nThe substance is the Mr. Market parable: imagine owning a share of a private business alongside a partner named Mr. Market, who shows up every day offering to buy your interest or sell you more, at a price that swings from euphorically high to despondently low depending entirely on his mood, with no fixed relationship to the business's actual value. Graham's point is that the investor's job is never to be swayed by Mr. Market's moods, but to use his wild quotations opportunistically — buying when he's irrationally pessimistic, selling or ignoring him when he's irrationally euphoric — while judging the business on its own merits.\n\nThe chapter closes with the observation that the investor's real enemy is usually themselves, not external market conditions, and hands off to Chapter 9's narrower, related topic of investment funds as one practical way to structure a portfolio around this discipline.",
+      "keyLessons": [
+        "Treat daily price quotations as an opportunity to exploit selectively, never as a signal to act on automatically.",
+        "Use Mr. Market's mood swings — excessive optimism and excessive pessimism — as the source of the best buying and selling opportunities.",
+        "Guard against adopting the market's emotional weather as your own; your greatest risk is usually your own psychology, not external conditions."
+      ]
+    },
+    {
+      "order": 9,
+      "title": "Investing in Investment Funds",
+      "summary": "This chapter addresses an alternative to picking individual stocks directly: delegating selection to a mutual fund, for investors who want diversification and professional management without doing their own analysis.\n\nThe substance compares different fund types — balanced funds versus common-stock funds, load funds versus no-load funds — and examines whether professionally managed funds reliably outperform a simple, disciplined defensive approach over time. Graham cautions against selecting a fund based on standout recent performance, arguing that costs and consistency of policy matter far more to long-run results than a few strong recent years, which are as likely to reflect luck or elevated risk-taking as skill.\n\nThe chapter concludes that funds are a reasonable tool for defensive diversification when chosen for low costs and sound, consistent policy, not a guaranteed shortcut to superior returns, and it hands off to Chapter 10's related discussion of financial advisers.",
+      "keyLessons": [
+        "Judge investment funds by costs and policy consistency, not by whichever fund had the best returns over the last year or two.",
+        "Understand that most professionally managed funds don't reliably outperform a disciplined, low-cost approach over the long run.",
+        "Treat funds as a legitimate tool for defensive diversification, not as a guaranteed shortcut to market-beating results."
+      ]
+    },
+    {
+      "order": 10,
+      "title": "The Investor and His Advisers",
+      "summary": "This chapter takes up the practical question of when and how to use outside financial advice, for investors who either can't or shouldn't manage every decision themselves.\n\nThe substance distinguishes competent, conservative guidance — generally appropriate for helping a defensive investor stick to sound policy — from advisers who promise consistently market-beating stock tips, which Graham treats with real skepticism. He argues that no adviser can reliably deliver extraordinary results, and that the investor remains responsible for understanding and approving any strategy applied to their money, rather than handing over blind trust in exchange for confidence-inspiring promises.\n\nThe chapter closes by framing good advice as help in sticking to sound, unglamorous policy rather than a substitute for the investor's own understanding of what they own and why, and it hands off to Chapter 11's shift into the investor's own analytical toolkit.",
+      "keyLessons": [
+        "Use advisers mainly for conservative, policy-level guidance rather than expecting reliably market-beating stock tips.",
+        "Never fully delegate your understanding of your own portfolio to someone else, however credentialed they are.",
+        "Treat any adviser or scheme promising unusually high returns with little effort or risk as a warning sign, not reassurance."
+      ]
+    },
+    {
+      "order": 11,
+      "title": "Security Analysis for the Lay Investor: General Approach",
+      "summary": "This chapter opens the book's more technical middle stretch, giving the ordinary reader — not a professional analyst — a general framework for evaluating a company's securities on their own.\n\nThe substance covers assessing a bond's safety through earnings-coverage tests, and evaluating a common stock through a combination of its financial condition, earnings record, dividend history, and future prospects, while repeatedly cautioning that precision in valuation is impossible and a reasonable, defensible range of value is the realistic goal rather than an exact figure. Graham frames this as a simplified, accessible version of the more exhaustive technique laid out for professionals in Security Analysis.\n\nThe chapter concludes that lay investors can apply a consistent, disciplined analytical framework without needing a professional analyst's full technical depth, and it hands off to Chapter 12's narrower focus on one of the most commonly misused figures in that framework: reported earnings.",
+      "keyLessons": [
+        "Apply a consistent framework — financial condition, earnings record, dividend record, and prospects — to any stock before buying it.",
+        "Accept that a defensible range of value, not a precise number, is the realistic goal of lay-investor analysis.",
+        "Don't assume professional-grade analysis is out of reach; a disciplined, simplified version is available to any careful individual investor."
+      ]
+    },
+    {
+      "order": 12,
+      "title": "Things to Consider About Per-Share Earnings",
+      "summary": "This chapter narrows in on one of the most commonly misused numbers in investing: a company's reported per-share earnings, and how easily that figure can mislead an investor who takes it at face value.\n\nThe substance warns about the distorting effects of dilution from convertible securities and stock options, one-time gains or losses that flatter or depress a single year's results, and the general unreliability of any single year's earnings as a basis for valuation. Graham recommends averaging earnings over a period of several years to smooth out these distortions and get closer to a company's sustainable, repeatable earning power.\n\nThe chapter closes by reinforcing that earnings figures require real scrutiny before they can be trusted for valuation purposes, a theme the book returns to directly when it compares actual companies side by side in the two chapters that follow.",
+      "keyLessons": [
+        "Adjust reported per-share earnings for dilution and one-time items before using them to judge a company's value.",
+        "Average earnings over several years rather than relying on a single year's figure, however strong that year looks.",
+        "Read earnings numbers with active skepticism — companies have real incentive to present them as favorably as possible."
+      ]
+    },
+    {
+      "order": 13,
+      "title": "A Comparison of Four Listed Companies",
+      "summary": "This chapter puts the analytical framework built across the preceding chapters to concrete use, comparing four real, differently situated companies side by side rather than discussing analysis only in the abstract.\n\nThe substance walks through differences in growth rate, financial strength, and how the market's price-to-earnings treatment of each company diverges from what the underlying figures alone would justify, illustrating how superficially similar-looking stocks — comparable size, similar industry visibility — can warrant very different valuations once the numbers are actually examined.\n\nThe chapter closes having demonstrated, rather than merely asserted, that careful side-by-side comparison reveals mispricing a surface-level look at price alone would miss, setting up the further comparative exercises in Chapters 17 and 18 later in the book.",
+      "keyLessons": [
+        "Compare companies side by side on the same set of financial measures rather than judging each one in isolation.",
+        "Recognize that similar-looking stocks can warrant very different valuations once the underlying figures are actually examined.",
+        "Use concrete company comparisons as a practical exercise to sharpen judgment, not just an abstract framework to read about."
+      ]
+    },
+    {
+      "order": 14,
+      "title": "Stock Selection for the Defensive Investor",
+      "summary": "This chapter returns to the defensive investor with concrete, checklist-style guidance for choosing individual common stocks directly, for those who want to go beyond a purely fund-based approach.\n\nThe substance is Graham's seven quantitative criteria, meant to function together as a screen: adequate size of the enterprise, a sufficiently strong financial condition (such as a two-to-one current-asset-to-liability ratio), earnings stability over the prior ten years, an uninterrupted dividend record, meaningful earnings growth over a decade, a moderate price-to-earnings ratio, and a moderate price-to-book ratio. Graham is explicit that these criteria are a filter against obviously risky candidates, not a formula guaranteed to identify winners.\n\nThe chapter closes by reinforcing that the criteria enforce discipline and demand a demonstrated record rather than optimistic projections, and it hands off to Chapter 15's parallel, looser criteria for the more active enterprising investor.",
+      "keyLessons": [
+        "Apply concrete, quantitative screening criteria — size, financial strength, earnings and dividend stability, moderate valuation — before buying any stock defensively.",
+        "Treat these criteria as a filter against obviously risky candidates, not as a formula that guarantees a winning pick.",
+        "Require a demonstrated record — a decade of stable earnings and an uninterrupted dividend history — rather than relying on optimistic projections."
+      ]
+    },
+    {
+      "order": 15,
+      "title": "Stock Selection for the Enterprising Investor",
+      "summary": "This chapter provides the more active investor's parallel to Chapter 14, with looser but still disciplined criteria appropriate for someone willing to do more analytical work in exchange for potentially better results.\n\nThe substance discusses relaxed size and dividend requirements in exchange for a stronger emphasis on verified financial condition and demonstrable undervaluation, and revisits smaller, less prominent 'secondary' companies that the defensive investor's stricter criteria would screen out entirely but that can still meet a genuine margin-of-safety test once properly analyzed.\n\nThe chapter concludes that the enterprising investor is trading some of the defensive investor's built-in safety margins for the extra work of individually verifying each candidate meets a real value test, and it hands off to Chapter 16's specific coverage of convertible securities and warrants.",
+      "keyLessons": [
+        "Accept looser size and dividend requirements only if you compensate with more rigorous, individual verification of financial condition and value.",
+        "Consider financially sound secondary companies the defensive screen would exclude, but only when a genuine margin of safety is demonstrable.",
+        "Match the extra risk you take to the extra analytical work you actually do — not to ambition or conviction alone."
+      ]
+    },
+    {
+      "order": 16,
+      "title": "Convertible Issues and Warrants",
+      "summary": "This chapter covers hybrid securities designed to combine bond-like safety with some participation in a common stock's upside, along with the more purely speculative instrument of stock warrants.\n\nThe substance explains how convertible bonds and preferred stocks behave more like ordinary bonds when the underlying stock trades well below the conversion price, and more like the stock itself once the price rises meaningfully above it — meaning a convertible's real character can shift substantially over its life. Graham treats warrants, which carry none of a bond's downside protection and dilute existing shareholders, as a largely speculative instrument prone to gross overvaluation whenever markets turn speculative.\n\nThe chapter closes by arguing that convertibles can occasionally offer a reasonable middle ground but still require the same rigorous analysis as any other security, while warrants generally don't belong in an intelligent investor's portfolio at all, and it hands off to Chapter 17's real-world case histories.",
+      "keyLessons": [
+        "Recognize that a convertible security's behavior shifts from bond-like to stock-like depending on how far the underlying stock trades from the conversion price.",
+        "Don't assume a convertible's safety features are automatic — they require the same analysis as any other security.",
+        "Treat stock warrants with particular caution; they carry none of a bond's downside protection and are frequently overvalued in speculative markets."
+      ]
+    },
+    {
+      "order": 17,
+      "title": "Four Extremely Instructive Case Histories",
+      "summary": "This chapter shifts from general principles to specific real corporate case studies, each chosen because it illustrates a distinct, concrete way investors and markets can go wrong.\n\nThe substance examines cases involving accounting-driven earnings distortion, aggressive acquisition-fueled growth that masked underlying business weakness, and market prices that assumed permanent, uninterrupted growth rates no company sustains indefinitely — showing concretely how the analytical mistakes warned about earlier in the book actually played out with real money and real losses.\n\nThe chapter closes by grounding the book's earlier, more abstract warnings in demonstrated consequences, reinforcing that skepticism toward reported growth and earnings is protection against real, repeated failure modes rather than academic caution, and it hands off to Chapter 18's further comparative case material.",
+      "keyLessons": [
+        "Study real cases of investor overconfidence and analytical failure, not just abstract principles, to recognize warning signs in practice.",
+        "Be alert to acquisition-fueled 'growth' that can mask a weakening underlying business.",
+        "Remember that markets have repeatedly priced stocks as if rapid growth would continue indefinitely, and been proven wrong."
+      ]
+    },
+    {
+      "order": 18,
+      "title": "A Comparison of Eight Pairs of Companies",
+      "summary": "This chapter extends Chapter 13's side-by-side comparative method across eight pairs of companies, deepening the book's case for hands-on comparative analysis over relying on reputation or surface impressions.\n\nThe substance draws each pair from companies that appear near each other alphabetically or share an industry, then examines them on profitability, financial strength, and how the market's pricing of each diverges from what the underlying figures would justify — repeatedly showing that surface similarity, like comparable size or sector, hides real differences in quality and value once the numbers are actually compared.\n\nThe chapter closes by reinforcing, through repetition across eight distinct examples, that disciplined comparative analysis reliably surfaces mispricing that a cursory look would miss, and it hands off to Chapter 19's shift toward the shareholder's relationship with company management.",
+      "keyLessons": [
+        "Don't assume companies in the same industry or of similar size deserve similar valuations — verify with the underlying figures.",
+        "Use repeated, structured comparison across many pairs of companies to build pattern recognition for spotting mispricing.",
+        "Let the comparative exercise itself, not any single company's story, build your confidence in the analytical method."
+      ]
+    },
+    {
+      "order": 19,
+      "title": "Shareholders and Managements: Dividend Policy",
+      "summary": "This chapter turns to the shareholder's relationship with the companies they own, using dividend policy as the clearest practical arena where that relationship plays out in real decisions.\n\nThe substance argues that shareholders are, in principle, the owners of a business and are entitled to competent management and honest answers to legitimate questions, and it criticizes passive shareholder bodies that rubber-stamp management's dividend and capital-allocation decisions without real scrutiny. Graham discusses when retaining earnings for reinvestment is genuinely justified by opportunity versus when it mainly benefits management's control and convenience at shareholders' expense.\n\nThe chapter closes by framing active, informed shareholder oversight as a meaningful check on management rather than a mere formality, and it hands off to Chapter 20's closing statement of the book's central principle.",
+      "keyLessons": [
+        "Remember that as a shareholder you are a part owner of the business, entitled to ask real questions and expect real answers from management.",
+        "Scrutinize whether a company's earnings retention is genuinely justified by reinvestment opportunity, not just convenient for management.",
+        "Don't treat shareholder votes and annual meetings as a formality — passive oversight lets weak management persist unchecked."
+      ]
+    },
+    {
+      "order": 20,
+      "title": "\"Margin of Safety\" as the Central Concept of Investment",
+      "summary": "The book's closing chapter returns explicitly to the single idea Graham considers the foundation of everything preceding it: the margin of safety, which he calls the three words that distill the whole discipline of sound investment.\n\nThe substance defines the margin of safety as the buffer between the price paid and a conservative estimate of value, large enough that being somewhat wrong in the analysis doesn't produce a serious loss; Graham extends the concept to diversified groups of undervalued securities, where the safety of the group as a whole matters more than any single pick being exactly right, and closes with four business principles for investors: know what you are doing and know your business, don't let anyone else run it without real oversight or unusually strong justified trust, don't enter an operation without a reliable calculation showing a fair chance of profit, and have the courage to act on your own sound judgment even when others hesitate or disagree.\n\nThe chapter, and the book, close by tying everything together: investing is, at bottom, no more mysterious than running any other business carefully, and the margin of safety is the single discipline that makes that careful approach actually protect the investor from being badly wrong.",
+      "keyLessons": [
+        "Treat the margin of safety — a real buffer between price and conservative value — as the central discipline underlying every other technique in the book.",
+        "Apply the margin-of-safety concept across a diversified group of undervalued securities, not just to a single 'sure thing' pick.",
+        "Run your investing like any other business: know what you're doing, verify a reasonable chance of profit before committing, and act on your own sound judgment."
+      ]
     }
   ],
   "keyLessons": [
-    "Distinguish investment from speculation honestly — an investment requires analysis promising safety of principal and adequate return; anything else is speculation, which is fine only if you know that's what it is.",
-    "Always buy with a margin of safety — a meaningful gap between price paid and a conservative estimate of intrinsic value.",
-    "Treat the market's daily price swings (Mr. Market) as an opportunity to exploit, not a signal to follow emotionally.",
-    "A stock is fractional ownership in a real business — analyze the business's fundamentals, not just its price chart.",
-    "If you're a defensive investor, keep your approach simple and mechanical: fixed allocation, broad diversification, minimal active decision-making.",
-    "If you're an enterprising investor doing more active analysis, make sure your extra effort is matched by genuine skill — otherwise the defensive approach will likely serve you better.",
-    "Investment success depends more on temperament (patience, discipline, independence from crowd sentiment) than on intellect or technical sophistication.",
-    "Be skeptical of your own ability to reliably time the market or pick winners; most costly mistakes come from overconfidence, not lack of information."
+    "Distinguish investment from speculation honestly: an investment must promise, upon thorough analysis, safety of principal and an adequate return — anything else is speculation, which is fine only if you're honest with yourself about which one you're doing.",
+    "Use Mr. Market's daily mood swings as an opportunity to exploit, never as a signal to follow — buy when he's pessimistic, sell or ignore him when he's euphoric.",
+    "Always buy with a margin of safety: a meaningful gap between the price paid and a conservative estimate of intrinsic value, large enough to absorb analytical error or bad luck.",
+    "Choose deliberately between a defensive (simple, low-effort, diversified) and enterprising (active, more time-intensive) approach, and only take the enterprising path if your extra effort is genuinely matched by real skill and discipline.",
+    "Treat a stock as fractional ownership in a real, analyzable business, not a price chart to be traded on sentiment or momentum.",
+    "Be skeptical of reported earnings and growth stories: adjust for one-time items, average over multiple years, and remember the market usually already prices in optimistic assumptions for popular growth stocks.",
+    "Diversify broadly rather than concentrating on a few convictions, whether through individual stock selection or well-chosen funds.",
+    "Recognize that your own psychology, not lack of information or technical sophistication, is usually your greatest risk as an investor.",
+    "As a shareholder, take real ownership seriously: ask legitimate questions of management and expect real answers, rather than passively rubber-stamping decisions.",
+    "Match the risk you take to the analytical work you're actually willing to do — there's no shame in choosing the simpler defensive path."
   ],
   "quotes": [
     {
-      "text": "The intelligent investor is a realist who sells to optimists and buys from pessimists.",
-      "attribution": "Benjamin Graham, The Intelligent Investor"
+      "text": "An investment operation is one which, upon thorough analysis, promises safety of principal and an adequate return. Operations not meeting these requirements are speculative.",
+      "attribution": "Benjamin Graham, The Intelligent Investor, Ch. 1",
+      "category": "Investment versus Speculation"
     },
     {
-      "text": "In the short run, the market is a voting machine but in the long run, it is a weighing machine.",
-      "attribution": "Benjamin Graham, The Intelligent Investor"
+      "text": "The most realistic distinction between the investor and the speculator is found in their attitude toward stock-market movements. The speculator's primary interest lies in anticipating and profiting from market fluctuations. The investor's primary interest lies in acquiring and holding suitable securities at suitable prices.",
+      "attribution": "Benjamin Graham, The Intelligent Investor, Ch. 1",
+      "category": "Investment versus Speculation"
+    },
+    {
+      "text": "Investment is most intelligent when it is most businesslike.",
+      "attribution": "Benjamin Graham, The Intelligent Investor, Ch. 20",
+      "category": "Investment versus Speculation"
+    },
+    {
+      "text": "People who invest make money for themselves; people who speculate make money for their brokers.",
+      "attribution": "Benjamin Graham, The Intelligent Investor, Ch. 1",
+      "category": "Investment versus Speculation"
+    },
+    {
+      "text": "The individual investor should act consistently as an investor and not as a speculator.",
+      "attribution": "Benjamin Graham, The Intelligent Investor, Ch. 1",
+      "category": "Investment versus Speculation"
+    },
+    {
+      "text": "Imagine that in some private business you own a small share that cost you $1,000. One of your partners, named Mr. Market, is very obliging indeed. Every day he tells you what he thinks your interest is worth and furthermore offers either to buy you out or sell you an additional interest at that price.",
+      "attribution": "Benjamin Graham, The Intelligent Investor, Ch. 8",
+      "category": "Mr. Market & Market Psychology"
     },
     {
       "text": "The investor's chief problem — and even his worst enemy — is likely to be himself.",
-      "attribution": "Benjamin Graham, The Intelligent Investor"
+      "attribution": "Benjamin Graham, The Intelligent Investor, Ch. 8",
+      "category": "Mr. Market & Market Psychology"
+    },
+    {
+      "text": "The intelligent investor is a realist who sells to optimists and buys from pessimists.",
+      "attribution": "Benjamin Graham, The Intelligent Investor, Ch. 8",
+      "category": "Mr. Market & Market Psychology"
+    },
+    {
+      "text": "In the short run, the market is a voting machine, but in the long run it is a weighing machine.",
+      "attribution": "Benjamin Graham, The Intelligent Investor, Ch. 8 (1965 edition, p.179)",
+      "category": "Mr. Market & Market Psychology"
+    },
+    {
+      "text": "While enthusiasm may be necessary for great accomplishments elsewhere, on Wall Street it almost invariably leads to disaster.",
+      "attribution": "Benjamin Graham, The Intelligent Investor",
+      "category": "Mr. Market & Market Psychology"
+    },
+    {
+      "text": "If you are shopping for common stocks, choose them the way you would buy groceries, not the way you would buy perfume.",
+      "attribution": "Benjamin Graham, The Intelligent Investor, Ch. 8",
+      "category": "Mr. Market & Market Psychology"
+    },
+    {
+      "text": "Confronted with a like challenge to distill the secret of sound investment into three words, we venture the motto, MARGIN OF SAFETY.",
+      "attribution": "Benjamin Graham, The Intelligent Investor, Ch. 20",
+      "category": "Margin of Safety"
+    },
+    {
+      "text": "The function of the margin of safety is, in essence, that of rendering unnecessary an accurate estimate of the future.",
+      "attribution": "Benjamin Graham, The Intelligent Investor, Ch. 20",
+      "category": "Margin of Safety"
+    },
+    {
+      "text": "To have a true investment, there must be present a true margin of safety. And a true margin of safety is one that can be demonstrated by figures, by persuasive reasoning, and by reference to a body of actual experience.",
+      "attribution": "Benjamin Graham, The Intelligent Investor, Ch. 20",
+      "category": "Margin of Safety"
+    },
+    {
+      "text": "The defensive (or passive) investor will place his chief emphasis on the avoidance of serious mistakes or losses. His second aim will be freedom from effort, annoyance, and the need for making frequent decisions.",
+      "attribution": "Benjamin Graham, The Intelligent Investor, Ch. 1",
+      "category": "Defensive vs. Enterprising Investor"
+    },
+    {
+      "text": "The determining trait of the enterprising (or active, or aggressive) investor is his willingness to devote time and care to the selection of securities that are both sound and more attractive than the average.",
+      "attribution": "Benjamin Graham, The Intelligent Investor, Ch. 1",
+      "category": "Defensive vs. Enterprising Investor"
+    },
+    {
+      "text": "Know what you are doing — know your business.",
+      "attribution": "Benjamin Graham, The Intelligent Investor, Ch. 20",
+      "category": "Defensive vs. Enterprising Investor"
+    },
+    {
+      "text": "Don't let anyone else run your business, unless (1) you can supervise his performance with adequate care and comprehension or (2) you have unusually strong reasons for placing implicit confidence in his integrity and ability.",
+      "attribution": "Benjamin Graham, The Intelligent Investor, Ch. 20",
+      "category": "Defensive vs. Enterprising Investor"
+    },
+    {
+      "text": "Don't enter upon an operation — that is, manufacturing or trading in an item — unless a reliable calculation shows that it has a fair chance to yield a reasonable profit.",
+      "attribution": "Benjamin Graham, The Intelligent Investor, Ch. 20",
+      "category": "Defensive vs. Enterprising Investor"
+    },
+    {
+      "text": "Have the courage of your knowledge and experience. If you have formed a conclusion from the facts and if you know your judgment is sound, act on it — even though others may hesitate or differ.",
+      "attribution": "Benjamin Graham, The Intelligent Investor, Ch. 20",
+      "category": "Defensive vs. Enterprising Investor"
+    },
+    {
+      "text": "Obvious prospects for physical growth in a business do not translate into obvious profits for investors.",
+      "attribution": "Benjamin Graham, The Intelligent Investor, Ch. 7",
+      "category": "Growth Stocks & Independent Thinking"
+    },
+    {
+      "text": "The stock investor is neither right nor wrong because others agreed or disagreed with him; he is right because his facts and analysis are right.",
+      "attribution": "Benjamin Graham, The Intelligent Investor, Postscript",
+      "category": "Growth Stocks & Independent Thinking"
     }
   ],
+  "authorBio": {
+    "name": "Benjamin Graham",
+    "bio": "Benjamin Graham was born Benjamin Grossbaum in London in 1894 and moved with his family to New York before he was two years old; his father's early death left the family in real financial hardship, an experience biographers often connect to Graham's later preoccupation with safety and downside protection in investing. He graduated from Columbia University in 1914 near the top of his class and went to work on Wall Street rather than accepting an academic offer, beginning at the brokerage firm Newburger, Henderson and Loeb and rising quickly through the volatile markets of the 1920s.\n\nGraham founded his own investment partnership, Graham-Newman Corporation, in 1926, and began teaching a course on security analysis at Columbia Business School in 1928 — a course whose students eventually included a young Warren Buffett. In 1934, in the direct aftermath of the 1929 crash, Graham co-wrote Security Analysis with his Columbia colleague David Dodd, the dense, technical textbook aimed at professional analysts; The Intelligent Investor, published in 1949 and revised by Graham through a fourth edition in 1973, was his attempt to distill that same value-investing philosophy into a book any individual investor could read and apply directly, without the earlier book's technical depth.\n\nGraham is widely regarded as the father of value investing. He continued teaching, investing, and writing until his death in 1976, and his influence runs most visibly through Buffett, who has repeatedly said Graham was, after his own father, the most important influence on how he thinks about markets. The Intelligent Investor's widely-read 2003 revised edition adds extensive updating commentary by financial journalist Jason Zweig alongside Graham's original text, but Graham remains the book's sole credited author and the sole subject of this entry.",
+    "notableWorks": [
+      "Security Analysis (with David Dodd)",
+      "The Interpretation of Financial Statements (with Spencer B. Meredith)"
+    ]
+  },
   "whoThisIsFor": "Anyone investing their own money who wants a rigorous, temperament-first framework rather than market-timing or trend-following strategies.",
   "whenToReadThis": "Read before building an investment strategy, and reread during periods of market euphoria or panic when emotional discipline matters most.",
-  "relatedBooks": ["thinking-fast-and-slow", "the-little-book-of-common-sense-investing", "same-as-ever", "buffett-the-making-of-an-american-capitalist", "charlie-munger-the-complete-investor"],
+  "relatedBooks": [
+    "security-analysis",
+    "thinking-fast-and-slow",
+    "the-little-book-of-common-sense-investing",
+    "same-as-ever",
+    "buffett-the-making-of-an-american-capitalist",
+    "charlie-munger-the-complete-investor"
+  ],
   "readStatus": "unread",
   "personalRating": null,
   "personalNotes": "",
   "dateAdded": "2026-07-24",
-  "sourceNotes": "Original synthesis by Claude from general knowledge of Graham's well-documented value investing framework (Mr. Market, margin of safety, defensive vs. enterprising investor). Three short verbatim quotes included with attribution per copyright policy; no chapter text reproduced."
+  "sourceNotes": "v2 retrofit (Session 18). Whole-book and section summaries are original synthesis; no book text was copied or paraphrased into the summary, section, or lesson fields. Chapter structure corrected from v1's incomplete 7-chapter list to the book's real 20-chapter table of contents, verified against O'Reilly's published Contents page for the HarperCollins Revised Edition and cross-checked against David Cappelucci's chapter-by-chapter 'Intelligent Investor Series' (Medium), which covers all 20 chapters individually. 22 quotes were verified against multiple independent sources (Goodreads' Intelligent Investor work-quotes page, AZQuotes, QuoteFancy, and chapter-specific reviews quoting exact passages with edition/page citations) rather than relied on from memory alone — e.g. the 'voting machine/weighing machine' line was confirmed to the 1965 edition (p.179) with wording distinct from Security Analysis's 1934 original. Zweig-commentary handling: the widely-read 2003 revised edition interleaves Jason Zweig's added chapter commentary with Graham's original 1949/1973 text; Graham is the sole credited author of the book and the only author reflected in authorBio and the quotes list. Candidate quotes identified as Zweig's own commentary rather than Graham's original words (e.g. an extended 'pendulum that forever swings between unsustainable optimism' passage that Goodreads itself attributes to Zweig, and a Santayana line Zweig cites in his added material) were deliberately excluded rather than misattributed to Graham. Security Analysis conflation check (per DECISIONS.md #147): the full quote set and section content here were cross-checked against content/books/security-analysis.json; two candidate lines were excluded specifically because they are already used, verbatim, as Security Analysis's own quotes there ('The margin of safety is always dependent on the price paid' and 'Abnormally good or abnormally bad conditions do not last forever' — both from the 1934 Security Analysis text) to avoid duplicating content across the two entries. 'Investment is most intelligent when it is most businesslike' (Ch. 20) was reconfirmed as genuinely this book's line, consistent with decision #147's earlier finding when retrofitting Security Analysis. Author bio drawn from Wikipedia (Benjamin Graham) and general biographical sources on his Columbia and Graham-Newman career."
 }

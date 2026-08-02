@@ -15,17 +15,23 @@ import Badge from "./Badge";
 // of the Quotes tab — see docs/DESIGN_SYSTEM.md "Quotes get special
 // treatment."
 // v2.1 (8-Tab Content Structure Rollout): "Quotes" renamed to "Highlights &
-// Quotes" below (label-only change, same data/tab). The three other approved
-// new tabs (Concepts & Frameworks, Apply This, Critical Take) are NOT built
-// here yet — this rollout's scope was schema/pipeline/content, not the UI
-// build. `Book.conceptsFrameworks` / `applyThis` / `criticalTake` (lib/books.ts)
-// exist and are being populated by content retrofits, but nothing renders them
-// yet. Building the 3 new tabs is a separate follow-up session.
+// Quotes" below (label-only change, same data/tab).
+// Session 21: built the three remaining new tabs — Concepts & Frameworks,
+// Apply This, Critical Take — completing the 8-tab set from
+// docs/CONTENT_STRUCTURE_PROPOSAL.md §1. Tab order matches that proposal
+// exactly. Each new tab follows the Author tab's established fallback
+// pattern: always shown, plain "not written yet" message
+// (className="text-sm text-muted") when the book's corresponding
+// `Book.conceptsFrameworks` / `applyThis` / `criticalTake` field (lib/books.ts)
+// is absent — most books don't have this data yet, see ROADMAP.md Stage 15.
 const TABS = [
   { key: "summary", label: "Summary" },
   { key: "chapters", label: "Chapters" },
   { key: "lessons", label: "Key Lessons" },
+  { key: "concepts", label: "Concepts & Frameworks" },
+  { key: "apply", label: "Apply This" },
   { key: "quotes", label: "Highlights & Quotes" },
+  { key: "critical", label: "Critical Take" },
   { key: "author", label: "Author" },
 ] as const;
 
@@ -87,7 +93,7 @@ export default function BookTabs({
         {pillStyle && (
           <span
             aria-hidden="true"
-            className="motion-premium absolute bottom-1.5 top-1.5 rounded-full bg-[var(--badge-gold-bg)]"
+            className="motion-premium absolute bottom-1.5 top-1.5 rounded-full bg-[var(--badge-orange-bg)]"
             style={{
               left: pillStyle.left,
               width: pillStyle.width,
@@ -108,7 +114,7 @@ export default function BookTabs({
             onClick={() => selectTab(tab.key)}
             className={`motion-premium tap-target relative z-[1] shrink-0 whitespace-nowrap rounded-full px-3 text-sm font-medium ${
               active === tab.key
-                ? "text-[var(--badge-gold-fg)]"
+                ? "text-[var(--badge-orange-fg)]"
                 : "text-muted hover:bg-surface2"
             }`}
           >
@@ -128,11 +134,11 @@ export default function BookTabs({
               ))}
             </div>
             <div className="mt-8 grid gap-6 sm:grid-cols-2">
-              <div className="elevate-sm rounded-xl border border-border bg-surface p-4">
+              <div className="elevate-sm rounded-xl border-2 border-orange-600/60 bg-surface p-4">
                 <h2 className="text-base font-semibold">Who This Is For</h2>
                 <p className="prose-reading mt-2 text-sm">{book.whoThisIsFor}</p>
               </div>
-              <div className="elevate-sm rounded-xl border border-border bg-surface p-4">
+              <div className="elevate-sm rounded-xl border-2 border-orange-600/60 bg-surface p-4">
                 <h2 className="text-base font-semibold">When To Read This</h2>
                 <p className="prose-reading mt-2 text-sm">{book.whenToReadThis}</p>
               </div>
@@ -145,7 +151,7 @@ export default function BookTabs({
                     <li key={rel.id}>
                       <Link
                         href={`/book/${rel.id}`}
-                        className="tap-target text-sm text-teal-400 hover:underline"
+                        className="tap-target text-sm text-jade-400 hover:underline"
                       >
                         {rel.title}
                       </Link>
@@ -167,11 +173,11 @@ export default function BookTabs({
                   <li key={section.order} className="relative">
                     <span
                       aria-hidden="true"
-                      className="absolute -left-[1.45rem] top-1 flex h-6 w-6 items-center justify-center rounded-full bg-[var(--badge-gold-bg)] text-[10px] font-semibold text-[var(--badge-gold-fg)]"
+                      className="absolute -left-[1.45rem] top-1 flex h-6 w-6 items-center justify-center rounded-full bg-[var(--badge-orange-bg)] text-[10px] font-semibold text-[var(--badge-orange-fg)]"
                     >
                       {section.order}
                     </span>
-                    <div className="text-xs font-semibold uppercase tracking-wide text-gold-400">
+                    <div className="text-xs font-semibold uppercase tracking-wide text-orange-400">
                       {chapterLabel} {section.order}
                     </div>
                     <h3 className="mt-0.5 text-base font-semibold">{section.title}</h3>
@@ -184,7 +190,7 @@ export default function BookTabs({
                       <ul className="elevate-sm mt-3 space-y-1.5 rounded-lg bg-surface p-3">
                         {section.keyLessons.map((l, i) => (
                           <li key={i} className="flex gap-2 text-sm">
-                            <span className="mt-0.5 text-gold-500" aria-hidden="true">
+                            <span className="mt-0.5 text-orange-500" aria-hidden="true">
                               ›
                             </span>
                             <span>{l}</span>
@@ -204,15 +210,95 @@ export default function BookTabs({
               {book.keyLessons.map((lesson, i) => (
                 <li
                   key={i}
-                  className="elevate-sm flex gap-3 rounded-lg border border-border bg-surface p-3 text-sm"
+                  className="elevate-sm flex gap-3 rounded-lg border-2 border-orange-600/60 bg-surface p-3 text-sm"
                 >
-                  <span className="mt-0.5 text-gold-500" aria-hidden="true">
+                  <span className="mt-0.5 text-orange-500" aria-hidden="true">
                     ✓
                   </span>
                   <span className="prose-reading text-sm">{lesson}</span>
                 </li>
               ))}
             </ul>
+          </section>
+        )}
+
+        {active === "concepts" && (
+          <section>
+            {book.conceptsFrameworks && book.conceptsFrameworks.length > 0 ? (
+              <div className="space-y-4">
+                {book.conceptsFrameworks.map((c, i) => (
+                  <div
+                    key={i}
+                    className="elevate-sm rounded-xl border-2 border-orange-600/60 bg-surface p-4"
+                  >
+                    <h3 className="text-base font-semibold">{c.name}</h3>
+                    <p className="prose-reading mt-2 text-sm">{c.definition}</p>
+                    {c.sourceSection && (
+                      <button
+                        type="button"
+                        onClick={() => selectTab("chapters")}
+                        className="tap-target motion-premium mt-3 inline-flex items-center gap-1 rounded-full border border-border px-3 text-xs font-medium text-muted hover:border-orange-500 hover:text-orange-400"
+                      >
+                        <span aria-hidden="true">←</span>
+                        {c.sourceSection}
+                      </button>
+                    )}
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <p className="text-sm text-muted">
+                Concepts & Frameworks not written yet for this entry — part of
+                the ongoing v2.1 content rollout, see <code>ROADMAP.md</code>{" "}
+                for retrofit status.
+              </p>
+            )}
+          </section>
+        )}
+
+        {active === "apply" && (
+          <section>
+            {book.applyThis ? (
+              <>
+                <h2 className="text-xl font-semibold">Action Steps</h2>
+                <ol className="mt-3 space-y-3">
+                  {book.applyThis.actionSteps.map((step, i) => (
+                    <li
+                      key={i}
+                      className="elevate-sm flex gap-3 rounded-lg border-2 border-orange-600/60 bg-surface p-3 text-sm"
+                    >
+                      <span
+                        aria-hidden="true"
+                        className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[var(--badge-orange-bg)] text-[11px] font-semibold text-[var(--badge-orange-fg)]"
+                      >
+                        {i + 1}
+                      </span>
+                      <span className="prose-reading text-sm">{step}</span>
+                    </li>
+                  ))}
+                </ol>
+
+                <h2 className="mt-8 text-xl font-semibold">
+                  Reflection Questions
+                </h2>
+                <ul className="mt-3 space-y-3">
+                  {book.applyThis.reflectionQuestions.map((q, i) => (
+                    <li
+                      key={i}
+                      className="rounded-lg border border-dashed border-border bg-transparent p-3 text-sm"
+                    >
+                      <span className="prose-reading text-sm italic">{q}</span>
+                    </li>
+                  ))}
+                </ul>
+              </>
+            ) : (
+              <p className="text-sm text-muted">
+                Apply This not written yet for this entry — part of the
+                ongoing v2.1 content rollout, see <code>ROADMAP.md</code> for
+                retrofit status.
+              </p>
+            )}
           </section>
         )}
 
@@ -225,7 +311,7 @@ export default function BookTabs({
                   onClick={() => setQuoteFilter(null)}
                   className={`motion-premium tap-target rounded-full border px-3 text-xs font-medium ${
                     quoteFilter === null
-                      ? "border-transparent bg-[var(--badge-gold-bg)] text-[var(--badge-gold-fg)]"
+                      ? "border-transparent bg-[var(--badge-orange-bg)] text-[var(--badge-orange-fg)]"
                       : "border-border text-muted hover:bg-surface2"
                   }`}
                 >
@@ -238,7 +324,7 @@ export default function BookTabs({
                     onClick={() => setQuoteFilter(cat)}
                     className={`motion-premium tap-target rounded-full border px-3 text-xs font-medium ${
                       quoteFilter === cat
-                        ? "border-transparent bg-[var(--badge-gold-bg)] text-[var(--badge-gold-fg)]"
+                        ? "border-transparent bg-[var(--badge-orange-bg)] text-[var(--badge-orange-fg)]"
                         : "border-border text-muted hover:bg-surface2"
                     }`}
                   >
@@ -251,13 +337,13 @@ export default function BookTabs({
               {visibleQuoteEntries.map(([cat, quotes]) => (
                 <div key={cat}>
                   {!quoteFilter && (
-                    <h3 className="mb-3 text-sm font-semibold text-teal-400">{cat}</h3>
+                    <h3 className="mb-3 text-sm font-semibold text-jade-400">{cat}</h3>
                   )}
                   <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
                     {quotes.map((q, i) => (
                       <blockquote
                         key={i}
-                        className="quote-card elevate-lg rounded-xl border border-border bg-surface p-5 pt-7"
+                        className="quote-card elevate-lg rounded-xl border-2 border-orange-600/60 bg-surface p-5 pt-7"
                       >
                         <p className="prose-reading italic">{q.text}</p>
                         <div className="mt-3 text-xs not-italic text-muted">
@@ -269,6 +355,47 @@ export default function BookTabs({
                 </div>
               ))}
             </div>
+          </section>
+        )}
+
+        {active === "critical" && (
+          <section>
+            {book.criticalTake ? (
+              <>
+                <ul className="space-y-3">
+                  {book.criticalTake.points.map((point, i) => (
+                    <li
+                      key={i}
+                      className="flex gap-3 rounded-lg border border-[var(--badge-jade-bg)] bg-surface p-3 text-sm"
+                    >
+                      <span
+                        className="mt-0.5 text-jade-400"
+                        aria-hidden="true"
+                      >
+                        ◆
+                      </span>
+                      <span className="prose-reading text-sm">{point}</span>
+                    </li>
+                  ))}
+                </ul>
+                {book.criticalTake.contextNote && (
+                  <div className="elevate-sm mt-6 rounded-xl border-l-4 border-jade-400 bg-surface p-4">
+                    <h3 className="text-sm font-semibold text-jade-400">
+                      Since Publication
+                    </h3>
+                    <p className="prose-reading mt-2 text-sm">
+                      {book.criticalTake.contextNote}
+                    </p>
+                  </div>
+                )}
+              </>
+            ) : (
+              <p className="text-sm text-muted">
+                Critical Take not written yet for this entry — part of the
+                ongoing v2.1 content rollout, see <code>ROADMAP.md</code> for
+                retrofit status.
+              </p>
+            )}
           </section>
         )}
 
@@ -287,7 +414,7 @@ export default function BookTabs({
                     <h3 className="text-sm font-semibold">Other Notable Works</h3>
                     <div className="mt-2 flex flex-wrap gap-1.5">
                       {book.authorBio.notableWorks.map((w) => (
-                        <Badge key={w} tone="teal">
+                        <Badge key={w} tone="jade">
                           {w}
                         </Badge>
                       ))}

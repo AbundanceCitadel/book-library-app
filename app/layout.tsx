@@ -54,8 +54,9 @@ export const viewport: Viewport = {
   viewportFit: "cover",
   // v2: dark is the single default theme-color now — light is opt-in via the
   // toggle, not OS-driven, so one static value is correct here (unlike the old
-  // prefers-color-scheme pair).
-  themeColor: "#0b0c0e",
+  // prefers-color-scheme pair). v6: updated to the new espresso --color-bg so
+  // the OS/browser chrome (mobile address bar tint) matches the page.
+  themeColor: "#170f0a",
 };
 
 // Runs before paint. v2 (Stage 15): dark is the default for a first-time

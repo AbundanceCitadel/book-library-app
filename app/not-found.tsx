@@ -11,7 +11,7 @@ export default function NotFound() {
         className="mx-auto flex h-16 w-16 items-center justify-center rounded-full text-3xl"
         style={{
           background:
-            "radial-gradient(circle at 30% 30%, var(--badge-gold-bg), transparent 70%)",
+            "radial-gradient(circle at 30% 30%, var(--badge-orange-bg), transparent 70%)",
         }}
         aria-hidden="true"
       >
@@ -24,7 +24,7 @@ export default function NotFound() {
       </p>
       <Link
         href="/"
-        className="tap-target mt-6 inline-flex text-sm text-teal-400 hover:underline"
+        className="tap-target mt-6 inline-flex text-sm text-jade-400 hover:underline"
       >
         ← Back to the library
       </Link>

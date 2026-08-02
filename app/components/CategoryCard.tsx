@@ -15,7 +15,7 @@ export default function CategoryCard({
   return (
     <Link
       href={`/category/${category}`}
-      className="tap-target flex flex-col justify-between rounded-xl border border-border bg-surface p-4 transition-colors hover:border-gold-700"
+      className="tap-target flex flex-col justify-between rounded-xl border border-border bg-surface p-4 transition-colors hover:border-orange-700"
     >
       <span className="text-2xl" aria-hidden="true">
         {CATEGORY_ICONS[category] ?? "📚"}

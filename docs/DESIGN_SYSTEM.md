@@ -1,3 +1,411 @@
+# Design System v6 — Dark Luxury Palette Refinement (Stage 20)
+
+Supersedes v2's "Dark / Light Mode" section on one point only: **dark is
+confirmed as the permanent default**, not a placeholder pending a future flip
+to light. Everything else — typography, box-in-box layout, book codes, tab
+pattern, elevation/motion — is unchanged. This session's actual work is
+narrower and more specific than a full theme switch: keep dark, but fix the
+specific quality Thai flagged as missing ("I don't see the brightness... I
+want luxury and premium, not pale and dark").
+
+## 0. Context this supersedes
+
+An earlier planning document (`Design_Foundation_Continuation_Prompt.md`,
+written before this session) had proposed flipping the app's default theme to
+light, on the reasoning that dark mode "doesn't excite" Thai. That plan was
+never executed — verified before starting this session by checking `git log`,
+the working tree's actual `tailwind.config.ts`/`app/globals.css` (still
+dark-default, no `espresso` scale, no `v6` section existed anywhere), and the
+`app/` directory (no nine-section routes exist — `book`, `category`, and
+`wishlist` are still the only routes). Thai's direct feedback in this session
+reversed that plan before it was ever built: he wants to **stay in dark mode**,
+he just wants the existing dark theme to stop reading as flat/muted and start
+reading as rich/premium. This section documents that reversal explicitly so a
+future session doesn't rediscover the old planning doc and re-flip the
+default by mistake. The nine-section architecture work the same planning
+document describes (Sections 3-4 — new content types, routes, tabs for the
+other eight sections) has **not** been started and is explicitly out of scope
+for this session — see the end of this section for what's next.
+
+## 1. The actual problem: neutral near-black has no color temperature
+
+v2 through v5's dark background (`--color-bg: #0b0c0e`, `--color-surface:
+#16171b`) is a cool, desaturated near-black — technically "dark" but with no
+hue of its own. Thai's complaint ("I don't see the brightness, I don't see
+the thing... it doesn't excite me") reads as a reaction to that neutrality,
+not to darkness itself: a hue-less near-black makes everything sitting on top
+of it look muted by comparison, because there's no warmth in the base for a
+warm accent color to contrast against. The fix isn't lightening the
+background (that's the light-mode flip that got shelved) — it's giving the
+dark background an actual color temperature to play off of.
+
+## 2. Espresso — a warm brown-black base, replacing neutral gray-black
+
+New scale (not exposed as a Tailwind color scale like orange/jade/amber,
+since it's only ever used as the semantic `bg`/`surface`/`surface-2`/`border`
+tokens in `app/globals.css`, never referenced directly as a utility class):
+
+| Token | Old (neutral) | New (espresso) | Role |
+|---|---|---|---|
+| `--color-bg` | `#0b0c0e` | `#170f0a` | Page background |
+| `--color-surface` | `#16171b` | `#21160c` | Card/component surface |
+| `--color-surface-2` | `#1e2024` | `#2b1e11` | Hover/elevated surface |
+| `--color-border` | `#2a2c31` | `#4a3620` | Neutral structural hairline |
+| `--color-fg` | `#f2ede4` | `#f4ede1` | Body text (barely changed — already warm) |
+| `--color-muted` | `#9a978d` | `#a89985` | Secondary text |
+
+`#170f0a` sits at roughly the same *lightness* as the old `#0b0c0e` (still
+reads as "dark" at a glance, still passes as `color-scheme: dark`), but shifts
+the hue into a warm brown (~30° hue vs. neutral gray's hue-less 0-saturation)
+— the same principle as why a leather-and-walnut room reads as "warm and rich"
+at the same light level a poured-concrete room reads as "cold," even though
+both are dim. This is also the natural home for the "little bit of dark,
+grounding" quality the original planning doc wanted `espresso` to provide as
+a light-mode accent — instead it becomes the dark theme's actual foundation,
+which is a more direct way to get the same "grounded, not sterile" quality
+Thai's been asking for since v2.
+
+**Contrast checked** (WCAG relative-luminance formula, computed directly
+rather than eyeballed):
+
+- Body text (`#f4ede1`) on bg (`#170f0a`): **16.3:1** (AAA)
+- Muted text (`#a89985`) on bg: **6.8:1** (AA, comfortably passes at 14px+)
+- Structural border (`#4a3620`) on bg: **~2:1** — deliberately low; this token
+  is a subtle hairline for neutral dividers, not a load-bearing edge. Every
+  visually-important border in the app (card outlines, active states) uses
+  the orange/jade/amber accent colors below, which all clear 6:1+ against
+  this background — the neutral border was never meant to carry contrast on
+  its own, same as v3/v4's neutral border before it.
+
+## 3. Jade replaces pine as the secondary accent
+
+v4's `pine` scale (`#2c8a5e` primary) was deliberately desaturated forest
+green — the right call for a dense reading UI, but it reads closer to
+"hunting jacket" than "jewel" next to a rich background, which was part of
+what made the whole page feel muted rather than premium. Renamed to `jade`
+and re-picked with more saturation and lightness, while keeping the exact
+same hue guardrail v4 established (hue stays >= 150° throughout the scale, so
+it never drifts toward teal/cyan territory the way the old pre-v4 "slate-teal"
+did):
+
+| Stop | Value | Note |
+|---|---|---|
+| 400 | `#34d399` | Links, tags, freeform accents on dark bg — **9.9:1** against espresso bg |
+| 500 | `#10b981` | Primary secondary — borders, active states — **7.5:1** against espresso bg |
+| 900 | `#064e3b` | Dark-mode badge background fill |
+
+Renamed mechanically across every call site (`Badge.tsx`, `BookTabs.tsx`,
+`not-found.tsx`, `offline/page.tsx`, `page.tsx`) — same approach as v4's
+gold→orange rename, a scoped find-and-replace verified with a before/after
+grep, zero stray `pine` references left outside one explanatory code comment.
+
+## 4. Amber — a new tertiary highlight, used in exactly one place
+
+Thai's own suggestion in chat was "orange as the main color, and then amber,
+green, or something" — read as: orange stays primary, green stays the
+cool-contrast secondary, and amber becomes a third, sparing highlight color
+rather than a second secondary (three co-equal accents on one page gets
+noisy fast, which is exactly the "hard to keep looking premium" risk the
+original nine-section planning doc flagged about giving every section its
+own hue). Added a proper `amber` Tailwind scale (`500`: `#f59e0b`, `400`:
+`#fbbf24`, both 8.8:1/11.3:1 against the espresso bg) and gave it exactly one
+job: the book-code number (`No. 377`, and the same code prefix in
+`BookCard`, `SearchOverlay`, category/wishlist listings) — previously styled
+in orange, which meant the code number competed visually with orange's other
+job as the primary border/emphasis color. Splitting them out means a book's
+title/border reads as "the primary orange language" and its code number
+reads as a distinct, deliberately smaller accent — three colors with three
+distinct jobs (orange = primary emphasis, jade = secondary/cool contrast,
+amber = small numeric/highlight detail) instead of three colors competing
+for the same job.
+
+**Not done:** a second full accent rollout (amber borders, amber section
+headers, etc.) — that would recreate the exact "too many hues, hard to keep
+premium" problem this session is trying to avoid. Amber stays confined to the
+book-code treatment until/unless Thai asks for more.
+
+## 5. Why not gold + navy (the Citadel palette)
+
+Thai raised this explicitly as a fallback: another project of his already
+uses gold + navy for a premium dark look, and asked whether to just reuse it
+here if orange + jade didn't land. Recommended against reusing it (a) to keep
+this app's identity distinct from that other project rather than reading as
+a reskin of it, and (b) orange is already a settled, deliberate choice from
+v4 with its own documented rationale (Thai's explicit "orange is attractive...
+orange will be the primary color") — nothing about the "flat/not premium"
+complaint was actually about orange itself, it was about the neutral
+background orange was sitting on. Fixing the background and refining the
+secondary/tertiary accents addresses the actual complaint without discarding
+a color decision that was never in question. Flagging this as the one place
+this session second-guessed a literal reading of "or if any other combination
+is better" — easy to revisit if Thai sees it live and still prefers gold+navy.
+
+## 6. What this session did not touch
+
+Per the original planning doc's own scope split, this session addressed
+**only** the color system (its Section 2). The nine-section architecture
+(Section 3: content types, routes, tabs for Famous People, Rich List, Quotes,
+Kings/Generals/Presidents, Groups & Organizations, Companies & Brands,
+Civilizations & Empires, Philosophies/Religions) has not been started —
+`app/` still only has `book`, `category`, and `wishlist` routes. That work is
+substantial enough (8 new content models, 8 new route trees, a homepage
+rebuild, nav rework) that bundling it into the same session as a live color
+decision risked building all of it on top of a palette Thai hadn't actually
+seen rendered yet. Recommended next step: review this palette live, then
+scope the nine-section scaffolding as its own session.
+
+---
+
+# Design System v5 — Box-in-Box Layout & Book Codes (Stage 18)
+
+Supersedes v4's density layout on two specific points below — everything else in
+v4 (color palette, navigation fix, search, wishlist scaffold) is unchanged. Thai's
+follow-up feedback after seeing v4 live: he liked it, but wanted the category
+shelf and book listings to each read as a set of separate, self-contained boxes
+("box in box") rather than one continuous shared-border list — a partial reversal
+of v4's "no gaps, sell more space" framing, now that he'd actually seen it
+rendered. Also introduces a permanent per-book numbering system.
+
+## 1. Category shelf: 2-column grid of separate boxes
+
+v4 rendered the 16 category shelves as one continuous list sharing a single
+border (`divide-y` rows inside one `border-2 border-orange-600` container).
+Thai's follow-up: each section needs its own separate box ("I don't want just a
+box... each of the sections to have its own box type"), and the single-column
+layout was too wide/thin for how little content each row actually has (icon +
+label + count) — split into two columns so each box is shorter and more compact.
+Implemented as a plain `grid grid-cols-2 gap-3` of individual `rounded-xl
+border-2 border-orange-600/70` boxes in `app/page.tsx` (no shared container
+border anymore) — two columns at every breakpoint, not just above a `sm:`
+breakpoint, since the content per box is short enough that two columns work even
+on a narrow phone width.
+
+## 2. BookCard: separate boxes again, two-row content
+
+Also reversed from v4: `BookList` no longer draws one shared border around a
+`divide-y` list of rows — each `BookCard` is its own box (own `border-2
+border-orange-600/70`, own `rounded-xl`), stacked with a `gap-3` between them
+(`app/components/BookList.tsx` is now just a plain flex column). Content inside
+each box is two rows, not three: row 1 is the book's code + title + author
+together (wrapped, so it reads as one line on wide screens and wraps gracefully
+on narrow ones); row 2 is a short description — now the first 2-3 sentences of
+`book.summary` (`firstSentences()` in `BookCard.tsx`, replacing v4's single-line,
+140-character `firstLine()` truncation) since Thai asked for "two sentences or
+three sentences of description," not one truncated line.
+
+## 3. Book code — a permanent, unique 001-999 identifier
+
+Thai's ask: every book gets its own number, "treated like a number, but also
+treated like a code... a unique number, and it is a code as well," 3 digits,
+001-999, with the first 376 (the existing bookcase catalog) getting the first
+block of codes and anything added later continuing the sequence. Full field spec,
+migration method, and the going-forward rule for future sessions are in
+`docs/SCHEMA.md` "Book code" (not duplicated here) — summary: `code` is now a
+required field on both `Book` and `CatalogEntry` (`lib/books.ts`), a one-time
+script assigned `001`-`376` to `content/catalog.json`'s existing row order and
+`377` to `atomic-habits` (the one written book with no matching catalog row,
+appended as a new 377th entry), and every one of the other 65 written books had
+its `code` copied from its real catalog match — resolved by hand-verified title
+matching, not blind fuzzy matching, since several titles needed disambiguation
+(e.g. `"Mindset"` vs. the unrelated catalog title `"Trend Following Mindset"`).
+Displayed as a small `font-mono text-orange-400` prefix everywhere a book
+appears: `BookCard`, the unwritten-catalog lists (category and wishlist pages),
+search results, and the book detail page header (`"No. 377"`).
+
+**Migration diff hygiene:** the codes were inserted via targeted regex text
+surgery (one line inserted per file/entry), not a full JSON parse-and-re-serialize
+— an earlier attempt using `json.dump()` correctly added the codes but also
+silently reformatted every touched file's existing compact arrays/objects into
+Python's multi-line style, producing 50-200+ line diffs per file for what should
+have been a 1-line change. Caught before committing (`git diff --stat` showed
+implausibly large diffs for a "just add one field" change) and redone surgically
+— every one of the 66 book files now shows exactly `+1` line, `content/catalog.json`
+shows only additions (one line per existing entry, plus the appended new entry),
+zero reformatting noise. See `DECISIONS.md` for the full story.
+
+---
+
+# Design System v4 — Density, Navigation & Color Overhaul (Stage 17)
+
+Supersedes v3 below on every point this session touched — v3's cover-forward,
+image-heavy tile treatment is explicitly reversed, not kept. Everything v3 didn't
+touch (typography, dark-first strategy, elevation/motion tokens, tab structure)
+carries forward unchanged. Responds directly to Thai's own numbered feedback in one
+session; each subsection below is one of his points.
+
+## 1. Navigation: real pages, not in-place expansion
+
+Thai's exact complaint: selecting a category "doesn't go into business, it still
+stays in the library" — v3's `CategoryAccordion` expanded a category's books in
+place on the home page with client state (`useState`), never actually navigating.
+No URL change, no history entry, so the browser's back button had nothing real to
+undo. Fixed by removing `CategoryAccordion` entirely and rendering the category
+list as plain `<Link href="/category/[slug]">` rows directly in `app/page.tsx` —
+every tap is now a real navigation.
+
+The second half of the complaint — "when I click backward it goes backward rather
+than going to the home page" — was a separate bug even before this: `BookPage` and
+`CategoryPage` both had a hardcoded `<Link href="/">`, so "back" always jumped to
+the home page regardless of where the visitor actually came from (a search result,
+a related-book link, another category). Replaced with a new `BackLink` client
+component (`app/components/BackLink.tsx`) that calls `router.back()` — a real walk
+back through whatever history the browser actually built, falling back to `/` only
+when there's no prior entry (e.g. a bookmarked/direct link). This is the literal
+"act as a browser" fix: forward always adds a history entry now (real `<Link>`s
+everywhere), and every in-app "back" affordance uses that same history instead of
+a hardcoded destination.
+
+## 2. Density over imagery — BookCard redesign
+
+Thai's ask: remove every cover image/icon from book listings, keep exactly three
+lines per entry (title, author, a short description), and remove the gaps between
+cards so a shelf reads as one dense list rather than a grid of separate boxes —
+his own framing was that unused space is space that could otherwise show another
+title ("sell more space").
+
+v3's `BookCard` was a cover-forward tile: a generative CSS-gradient "cover" panel
+(deterministic per book id, see the now-removed `lib/covers.ts`) with a large
+category-emoji emblem, category badges, and a reading-time chip below. All of that
+is gone. The new `BookCard` renders three lines only — title, author, and the
+opening ~140 characters of `book.summary` (no new schema field; a short dedicated
+"blurb" field would be a real content-pipeline addition across 70+ books, and the
+existing `summary` already opens with a strong single-sentence hook in every
+written entry, so truncating it costs nothing and needed no data migration).
+Category badges and the reading-time chip are dropped from the list view entirely
+(they still show on the book detail page itself) per Thai's explicit "that's it."
+
+Rows no longer draw their own border/radius/shadow — a new `BookList` wrapper
+(`app/components/BookList.tsx`) draws one shared container per shelf (`rounded-xl
+border-2 border-orange-600`) around a `divide-y` list of rows, so many books share
+one border instead of each row being its own boxed card with a gap next to its
+neighbor. This is a **single column at every breakpoint**, not a 2-column grid —
+a grid still has visible gutters between columns; a single dense list was the more
+literal read of "remove the space between them."
+
+## 3. Color: orange primary, a non-blue complement
+
+Thai's explicit, non-negotiable direction this time (v2's "orange+blue,
+blue+orange, or gold" question in Stage 15 landed on desaturated gold+slate-teal
+instead — this session reopens that specifically): **orange is the primary color**,
+full stop, not a desaturated gold standing in for it. He asked for a second color
+to complement it, ruled out blue/navy explicitly, and asked for a visible orange
+border on "the boxes" as the signature look.
+
+- **Primary — true orange** (`tailwind.config.ts` `orange` scale, primary
+  `#ed6c11`). Meaningfully more saturated than v2/v3's gold (`#c68a2e`), which was
+  gold specifically *because* it was deliberately desaturated to avoid vibrating on
+  near-black — this session accepts that trade-off in the other direction since
+  Thai was explicit ("I just find our orange is attractive... orange will be the
+  primary color of this design," not "something orange-adjacent that's easier on a
+  dark screen"). Checked against both surface colors: readable at 400/500 weight on
+  `--color-surface` (`#16171b` dark / `#ffffff` light) for text and border use; not
+  used as a full-bleed background fill anywhere (see the callout below on why).
+- **Secondary — pine (forest) green** (`pine` scale, primary `#2c8a5e`). The literal
+  wheel-complement of orange sits in blue territory (~210°) — the one option Thai
+  explicitly excluded. Pine's hue sits at ~150-155° across its whole scale,
+  which reads unambiguously as **green**, not blue-green/cyan/teal (that range
+  starts around 185-200°, where v2/v3's old "slate-teal" secondary actually lived —
+  part of why it read close enough to "blue" to be worth replacing, not just a
+  naming change). Green is the nearest fully-committed *cool* counterpoint to a
+  warm orange that isn't blue: it sits on the opposite side of the color wheel from
+  red (orange's neighbor) without crossing into blue's territory at all, so it
+  still reads as a genuine temperature contrast against orange rather than a
+  same-family variation (compare to keeping something orange-adjacent like a
+  reds/yellows secondary, which wouldn't contrast at all).
+- **Borders on boxes:** every card-like container (the category-shelf list,
+  `BookList`, the stat tiles, the Who-This-Is-For/When-To-Read cards, key-lesson
+  and action-step rows, concept cards, quote cards) now draws a visible 2px orange
+  border (`border-orange-600/60` on content cards, solid `border-orange-600` on the
+  two full-width list containers) instead of the previous neutral
+  `border-border`. The Critical Take tab's context-note callout deliberately kept
+  its pine-colored left border rather than switching to orange — the one place in
+  the app that intentionally signals "this is the contrasting/critical content," a
+  natural home for the secondary color instead of the primary one.
+- **Not done:** literally painting the whole page background orange. Thai's message
+  reads as wanting orange to be *the* dominant color of the design, but a solid
+  orange fill behind 17px/1.8-line-height reading text would directly fight the
+  dark-mode reading-comfort work every prior session did (Stage 15's whole
+  rationale for the warm-near-black background). Interpreted "orange as the main
+  color" as "orange is the color that shows up everywhere as the deliberate accent
+  and every box gets an orange border," not a literal background-color swap —
+  flagging this interpretation explicitly rather than silently deciding it, since
+  it's the one place this session second-guessed a literal reading of the brief.
+  Easy to revisit if that's not what Thai meant.
+- **Rename, not just re-tint:** the old `gold`/`teal` Tailwind keys and
+  `--badge-gold-*`/`--badge-teal-*` CSS variables are renamed to `orange`/`pine`
+  throughout (mechanical, ~45 call sites across every component) rather than kept
+  under their old names with new values — a future session grepping for "why is
+  this called gold when it's rendering orange" was judged a worse outcome than a
+  same-session rename while every touched file was already open.
+
+## 4. Header search (Stage 8 finally implemented)
+
+Stage 8 ("Search & Filtering") had been "Not Started" since the roadmap was
+written. Thai's ask this session was concrete enough to just build it: a search
+icon in the header, search by title or author, results list, tap a result to go
+straight to that book instead of drilling into a category first.
+
+- `lib/search.ts` — `getSearchIndex()` builds one flat list from **both**
+  `getAllBooks()` (full written entries, linked straight to `/book/[id]`) and
+  `content/catalog.json` (the other ~300+ owned titles with no full entry yet,
+  linked to their category page and labeled "not yet summarized"). Deliberately
+  covers the whole 376-title catalog, not just the ~70 written so far — Thai's own
+  framing was that search is "another way to access the book" across "300 or 400
+  books already," not a shortcut only for finished entries.
+- `app/components/SearchOverlay.tsx` — a client modal (button in `Header`, opens a
+  full-text filter over the index, Escape/backdrop-click to close). Filters on a
+  plain case-insensitive substring match against title OR author — no fuzzy
+  matching added; the library is small enough (low hundreds) that substring match
+  on real titles/authors is sufficient, and it's simple enough to have zero
+  failure modes to debug later.
+- Selecting a result calls `router.push`, a real navigation (adds a history entry),
+  consistent with point 1 above rather than a special case.
+- The index is computed server-side in `Header.tsx` (a server component, free to
+  use `lib/search.ts`'s `fs`-backed reads) and passed to `SearchOverlay` as a plain
+  prop — the same client/server split `lib/categories.ts` established in Stage 16
+  for the same reason (keep `fs`/`path` out of the browser bundle).
+
+## 5. Wishlist / owned — scaffold for books Thai doesn't own yet
+
+Thai flagged this as something he's genuinely unsure how to solve, not a spec to
+implement literally: he wants to eventually add books he doesn't own, but doesn't
+want that to dilute the 16 existing category shelves (already substantial,
+376-title work), and doesn't want it to feel "rude" to mix owned/non-owned books
+together once it happens. He asked for the **data model** to be right now even
+though there's nothing to migrate yet, specifically so a later session doesn't have
+to rework the whole app to bolt this on.
+
+- `Book.owned` and `CatalogEntry.owned` — both optional `boolean`, default `true`
+  via a single `isOwned()` helper in `lib/books.ts`. No backfill needed: every one
+  of the ~70 written books and 376 catalog rows genuinely is a book Thai owns, so
+  leaving the field absent (rather than writing `"owned": true` into 400+ JSON
+  entries) is correct, not lazy — `isOwned()` is the one choke point every
+  category/home/search read goes through, so a future `owned: false` entry
+  automatically excludes itself everywhere it should without touching this code
+  again.
+- Every read site that powers the 16 shelves (`app/page.tsx`, `app/category/
+  [category]/page.tsx`, `getUnwrittenCatalogEntries`) now filters through
+  `isOwned()` explicitly, so a future non-owned entry can never quietly show up
+  mixed into "the library" even if some other part of the code forgets to filter.
+- A new, isolated `/wishlist` route (`app/wishlist/page.tsx`) is the "somewhere
+  else" Thai was looking for — `getWishlistBooks()`/`getWishlistCatalogEntries()`
+  surface only `owned: false` entries. Reachable via a single low-key text link
+  under the home page's shelf list ("Looking for a book you don't own yet? →
+  Wishlist"), not a header nav item competing for attention with the 16 real
+  shelves. Empty today (real empty state copy, not a broken page) since nothing is
+  marked non-owned yet.
+- **On "not rude":** the mechanism itself (a separate page, not a badge stamped on
+  every wishlist book everywhere it appears) is the answer to Thai's own concern —
+  a non-owned book never appears next to an owned one on a shared shelf where a
+  visible "you don't own this" tag would feel pointed. The one exception is inside
+  search results, which deliberately cut across every section — there, a plain
+  "· Wishlist" suffix (same visual weight as the "· not yet summarized" suffix
+  already used for unwritten catalog entries) marks a non-owned result, since
+  search is the one place owned and non-owned entries can legitimately appear side
+  by side and Thai should be able to tell which is which.
+
+---
+
 # Design System v3 — Premium Redesign (Stage 16)
 
 Supersedes v2 below (v2's palette/typography/tokens are **kept, not replaced** —

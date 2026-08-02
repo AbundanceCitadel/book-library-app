@@ -52,6 +52,17 @@ export type ReadStatus = "unread" | "reading" | "read";
 
 export type Book = {
   id: string;
+  // v4 (Stage 17): permanent, unique 3-digit identifier (e.g. "001", "377") —
+  // see docs/SCHEMA.md "Book code" and DECISIONS.md for the full system.
+  // Required, not optional: every one of the 377 catalog/book entries as of
+  // this addition already has one (a one-time migration script assigned
+  // 001-376 from `content/catalog.json`'s existing stable row order, plus
+  // 377 for `atomic-habits`, the one written book that predated the catalog
+  // and had no matching row), so making this required going forward is a
+  // deliberate enforcement choice, not an oversight — a future book entry
+  // missing this field should fail type-checking, not render with a blank
+  // number.
+  code: string;
   title: string;
   author: string;
   categories: string[];
@@ -83,7 +94,21 @@ export type Book = {
   conceptsFrameworks?: ConceptFramework[];
   applyThis?: ApplyThis;
   criticalTake?: CriticalTake;
+  // v4 (Stage 17): scaffold for a future expansion beyond Thai's own shelves —
+  // see docs/SCHEMA.md and DECISIONS.md. Optional, defaults to `true` via
+  // `isOwned()` below rather than requiring every one of the ~70 existing
+  // `content/books/*.json` files to be edited right now — every book written
+  // so far genuinely is one Thai owns, so there's nothing to backfill, just a
+  // field to check going forward once non-owned entries start getting added.
+  owned?: boolean;
 };
+
+// A book/catalog entry counts as "owned" unless explicitly marked otherwise.
+// Centralized here so every read site (category pages, home, search) applies
+// the same rule instead of repeating `!== false` checks inline.
+export function isOwned(entry: { owned?: boolean }): boolean {
+  return entry.owned !== false;
+}
 
 const BOOKS_DIR = path.join(process.cwd(), "content", "books");
 const CATALOG_PATH = path.join(process.cwd(), "content", "catalog.json");
@@ -108,10 +133,19 @@ export function getAllBooks(): Book[] {
 // so far. Cross-referenced against getAllBooks() by title match at read
 // time (not a stored flag) so it never goes stale as new entries are added.
 export type CatalogEntry = {
+  // v4 (Stage 17): same permanent code system as `Book.code` above — every
+  // catalog row (001-377) already has one after the migration, so this is
+  // required rather than optional. See docs/SCHEMA.md "Book code."
+  code: string;
   title: string;
   author: string;
   categories: string[];
   language: "en" | "vi" | "other";
+  // v4 (Stage 17): same scaffold/rationale as `Book.owned` above — every one
+  // of the 376 catalog rows today is a book on Thai's actual shelves, so this
+  // is left absent (treated as owned via `isOwned()`) rather than backfilled
+  // across the whole catalog file for a distinction that doesn't exist yet.
+  owned?: boolean;
 };
 
 function normalizeTitle(t: string): string {
@@ -125,12 +159,39 @@ export function getLibraryCatalog(): CatalogEntry[] {
 }
 
 // Catalog entries that don't yet have a written content/books/*.json entry.
+// v4: excludes wishlist (non-owned) entries by default — the 16 category
+// shelves are meant to stay exactly what Thai already owns, per his explicit
+// "don't dilute the sections" instruction. Wishlist entries surface only on
+// /wishlist (see getWishlistCatalogEntries below).
 export function getUnwrittenCatalogEntries(category?: string): CatalogEntry[] {
   const written = new Set(getAllBooks().map((b) => normalizeTitle(b.title)));
   return getLibraryCatalog().filter(
     (c) =>
+      isOwned(c) &&
       !written.has(normalizeTitle(c.title)) &&
       (!category || c.categories.includes(category))
+  );
+}
+
+// v4 (Stage 17): the isolated home for books Thai wants but doesn't own yet —
+// see docs/SCHEMA.md "Wishlist / owned" and DECISIONS.md for the full
+// rationale. Deliberately kept separate from every `getAllBooks()`/
+// `getLibraryCatalog()` consumer that powers the 16 category shelves, so
+// future non-owned entries never quietly show up mixed into "his library."
+// Returns both written entries (full summaries he had already queued/written
+// before deciding not to buy the book) and catalog-only entries (title/author
+// only, no summary yet) — both empty today since nothing is marked
+// `owned: false` yet.
+export function getWishlistBooks(): Book[] {
+  return getAllBooks().filter((b) => !isOwned(b));
+}
+
+export function getWishlistCatalogEntries(): CatalogEntry[] {
+  const writtenWishlistTitles = new Set(
+    getWishlistBooks().map((b) => normalizeTitle(b.title))
+  );
+  return getLibraryCatalog().filter(
+    (c) => !isOwned(c) && !writtenWishlistTitles.has(normalizeTitle(c.title))
   );
 }
 
