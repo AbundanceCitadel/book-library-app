@@ -86,14 +86,19 @@
   ],
   "quotes": [
     {
-      "text": "The Midas Touch is a skill anyone can learn.",
-      "attribution": "Donald J. Trump & Robert T. Kiyosaki, *Midas Touch*",
-      "category": "Wealth Mindset"
+      "text": "I like to think of the word FOCUS as Follow One Course Until Successful.",
+      "attribution": "Donald J. Trump, Midas Touch",
+      "category": "Focus & Success"
     },
     {
-      "text": "An asset puts money in your pocket.",
-      "attribution": "Robert T. Kiyosaki, *Midas Touch*",
-      "category": "Financial Literacy"
+      "text": "Success comes from failure, not from memorizing the right answers.",
+      "attribution": "Donald J. Trump, Midas Touch",
+      "category": "Focus & Success"
+    },
+    {
+      "text": "Once you focus on your life's objectives, you need to focus on your instructors to make sure they are qualified to teach you what you want to know. They should have already been where you want to go and have lived to tell about it.",
+      "attribution": "Donald J. Trump, Midas Touch",
+      "category": "Mentorship"
     }
   ],
   "whoThisIsFor": "Aspiring entrepreneurs and small-business owners looking for mindset and branding motivation alongside basic financial-literacy framing, rather than a technical investing or business-planning manual.",
@@ -154,5 +159,5 @@
   "personalRating": null,
   "personalNotes": "",
   "dateAdded": "2026-08-01",
-  "sourceNotes": "Synthesized from general knowledge of both authors' well-documented, widely covered frameworks (Kiyosaki's cashflow quadrant and asset/liability model; Trump's real estate/branding public record) applied to this book's known co-written structure and theme. Given the difficulty of verifying an exact chapter-by-chapter table of contents for this specific title, section titles above are a best-effort thematic reconstruction — worth checking against your copy's contents page for exact wording/order."
+  "sourceNotes": "Synthesized from general knowledge of both authors' well-documented, widely covered frameworks (Kiyosaki's cashflow quadrant and asset/liability model; Trump's real estate/branding public record) applied to this book's known co-written structure and theme. Given the difficulty of verifying an exact chapter-by-chapter table of contents for this specific title, section titles above are a best-effort thematic reconstruction — worth checking against your copy's contents page for exact wording/order.\n\n---\n\nQuote retrofit (Session 26, round 7 / \"Session 28\"): only 3 of this book's 52 Goodreads-tagged quotes could be individually confirmed via direct permalink this round — a tool-side rendering issue prevented the researching subagent from loading the full Goodreads work page, not evidence the book lacks quotable material. Deliberately excluded a near-identical \"FOCUS\" catchphrase that Goodreads attributes to a different Trump/Kiyosaki book (Why We Want You to Be Rich) — the same reused-catchphrase-across-books contamination risk this author pairing has hit before. Flagging this one for a priority re-attempt in a future round with direct browser access rather than the fetch tool, since the shortfall is access-related, not source-scarcity."
 }

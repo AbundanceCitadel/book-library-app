@@ -453,14 +453,16 @@ Rebuilt the batch-markdown-to-JSON parser from scratch (the prior session's pars
 
 ### Stage 20 — Quote Retrofit Pass ("Highlights & Quotes," 20-30/book target)
 
-**Status:** 93 of 236 books touched across 6 rounds (round 1: 27 zero-quote
+**Status:** 101 of 236 books touched across 7 rounds (round 1: 27 zero-quote
 books; round 2: 28 books in the 1-4 range; round 3: 8 books in the 1-4
 range; round 4: 13 English 0-quote books plus a genuine Vietnamese-sourcing
 attempt on 4 more, Session 26; round 5: the remaining seven 1-quote books,
 same session; round 6: 9 books in the 2-quote bucket, same session,
 including 2 data-quality corrections that dropped fake pre-existing
-"quotes"). 175 books remain below the 20-30 target for a future session
-to continue.
+"quotes"; round 7: 8 more books in the 2-quote bucket, same session, mixing
+straightforward English titles with more VN-edition-of-English-original
+identifications). 174 books remain below the 20-30 target for a future
+session to continue.
 
 Every content-writing pass to date (the original 66 books, batches 1-12,
 batches 13-20) consistently undershot `docs/SCHEMA.md`'s v2 20-30-quotes-
@@ -704,6 +706,10 @@ scope, same as Stage 21) and no PWA icon regeneration (same known gap Stage
 ---
 
 ## Session Log
+
+**2026-08-02 — Session 26, continued (round 7, more of the 2-quote bucket):** Thai supplied a classic GitHub PAT partway through this sitting — pushed rounds 4-6's two pending local commits to `origin/main` cleanly (fast-forward, `7f8b8f4..8c4ee4d`, verified via `git ls-remote` against the real remote, not local state) and confirmed live via direct fetch of two retrofitted pages (`/book/rise`, `/book/on-strategy`) on the `.vercel.app` alias. Continued straight into round 7 per the same standing autonomy instruction. Picked 8 more low-contamination-risk books from the 2-quote bucket (2 parallel subagent batches of 4): `201-great-ideas`-style English-original sourcing for 3 VN-edition titles (`quan-ly-nghiep`/*Karmic Management* 2->20, `lam-giau-qua-chung-khoan-how-to-make-money-in-stocks`/O'Neil 2->15, `bi-quyet-cua-thanh-cong-100-simple-secrets`/Niven 2->15, `ke-toan-via-he-doc-vi-bat-ky-ai`/Lieberman 2->19 verified directly against a primary-source OCR scan), plus `mortgage-free-like-me` (2->14, via two "edited extract" news articles), `madiba-a-to-z-the-many-faces-of-nelson-mandela` (2->9, single reviewer source, honestly thin), `million-dollar-consulting` (2->17), and `midas-touch` (2->3 — flagged as an access-tooling shortfall, not source scarcity: Goodreads lists 52 quotes for this title but the researching subagent's fetch tool couldn't render the full work page; worth a priority re-attempt with better page access rather than assumed exhausted).
+
+Net this round: `>=20` bucket grew 61->62 (`quan-ly-nghiep` crossed), several others landed solidly in the 10-19 range short of >=20 but far better than 2. **174 of 236 books remain below the 20-30 target.** Verified via the same `tsc --noEmit` + full JSON-parse/dup-id/dup-code/empty-category sweep (clean). Committed and pushed this round using the same PAT. Live-deploy spot-check confirmed post-push. Wrote `docs/SESSION_28_CONTINUATION_PROMPT.md`. See `DECISIONS.md` #249-251.
 
 **2026-08-02 — Session 26, continued (round 6, the 2-quote bucket):** Same sitting as the round 4/5 entry below; Thai gave a standing instruction mid-session to keep working through as many rounds as useful without stopping for approval, so continued directly into a third round rather than stopping after round 5. Targeted the 31-book 2-quote bucket, picking 9 with low contamination risk (no other same-author titles in the library, or an easily-disambiguated one): 2 parallel researcher-only subagent batches (4 + 5 books). 6 gained substantially more real quotes — `201-great-ideas-for-your-small-business-3rd-ed` (2->20, via a confirmed full-text scan of the 3rd edition), `debt-free-for-life` (2->25, cross-validated across two independent quote-extraction sources), `leading-with-questions` (2->20, Goodreads-verified), `on-strategy` (2->21, sourced directly from BCG's own site's reprints of the original Bruce Henderson essays this book anthologizes — noted the 1970 essay's original "pets" terminology predates the later-popularized "dogs," a good authenticity marker), `more-than-enough` (2->3, genuinely thin after filtering out Dave Ramsey's other, more-quoted titles), `wine-folly-magnum-edition` (kept at 2, but replaced a truncated quote with its full correct sentence).
 
