@@ -1,21 +1,17 @@
 import { notFound } from "next/navigation";
-import {
-  getAllOrganizations,
-  getOrganizationById,
-  ORG_CATEGORY_LABELS,
-} from "@/lib/organizations";
+import { getAllOrganizations, getOrganizationById, ORG_CATEGORY_LABELS } from "@/lib/organizations";
 import BackLink from "@/app/components/BackLink";
-import RelatedLinks from "@/app/components/RelatedLinks";
 import Badge from "@/app/components/Badge";
-import DetailTabs from "@/app/components/DetailTabs";
+import OrganizationsTabs from "@/app/components/OrganizationsTabs";
 
 export function generateStaticParams() {
   return getAllOrganizations().map((o) => ({ id: o.id }));
 }
 
-// Design Foundation session — Section 6 detail page. Tab set: Overview /
-// History / Impact — exactly the 3-tab set proposed as the worked example
-// for this section in the session brief itself.
+// Groups & Organizations detail page. 7 tabs via OrganizationsTabs —
+// Overview, History & Founding, Structure & How It Works, Major
+// Achievements & Impact, Key People, By the Numbers, Critical Take — per
+// the approved nine-section tab structure (see docs/SECTIONS_SCHEMA.md).
 export default function OrganizationPage({ params }: { params: { id: string } }) {
   const org = getOrganizationById(params.id);
   if (!org) notFound();
@@ -32,40 +28,8 @@ export default function OrganizationPage({ params }: { params: { id: string } })
       </div>
 
       <div className="mt-6">
-        <DetailTabs
-          tabs={[
-            {
-              key: "overview",
-              label: "Overview",
-              content: <p className="prose-reading">{org.summary}</p>,
-            },
-            {
-              key: "history",
-              label: "History",
-              content: (
-                <div className="prose-reading">
-                  {org.history.split(/\n\s*\n/).map((p, i) => (
-                    <p key={i}>{p.trim()}</p>
-                  ))}
-                </div>
-              ),
-            },
-            {
-              key: "impact",
-              label: "Impact",
-              content: (
-                <div className="prose-reading">
-                  {org.impact.split(/\n\s*\n/).map((p, i) => (
-                    <p key={i}>{p.trim()}</p>
-                  ))}
-                </div>
-              ),
-            },
-          ]}
-        />
+        <OrganizationsTabs org={org} related={org.relatedIds} />
       </div>
-
-      <RelatedLinks items={org.relatedIds} />
     </main>
   );
 }

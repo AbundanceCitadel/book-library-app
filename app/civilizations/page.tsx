@@ -41,7 +41,7 @@ export default function CivilizationsPage() {
                   href={`/civilizations/${c.id}`}
                   title={c.name}
                   meta={c.era}
-                  blurb={firstSentences(c.summary)}
+                  blurb={firstSentences(c.overview)}
                 />
               ))}
             </div>

@@ -1,21 +1,33 @@
 import { loadJsonEntries } from "./content";
+import type { CriticalTake } from "./sectionTypes";
 
-// Design Foundation session — Section 8, Civilizations & Empires. Gives
-// macro (region/era-spanning) context around Section 5's individual rulers —
-// `notableRulerIds` cross-links to lib/rulers.ts entries where one already
-// exists, but is plain text otherwise (most civilizations will have far more
-// notable rulers than the Rulers section has entries for at any given time,
-// especially during this scaffolding pass). See docs/SCHEMA_SECTIONS.md
-// "Civilization."
+// Civilizations & Empires. Gives macro (region/era-spanning) context around
+// the Rulers section's individual rulers. Field shape follows the approved
+// nine-section tab structure — 8 tabs: Overview, Rise & Origins, Golden
+// Age/Peak, Society & Culture, Decline & Fall, Legacy — What It Left Behind,
+// Notable Rulers, Critical Take. Supersedes the earlier "Design Foundation"
+// scaffolding shape — the 1 already-live entry (Roman Empire) was migrated
+// onto this shape in the same pass that added these fields: old
+// `riseAndFall` (which covered both eras in one field) carries over
+// unchanged into `riseOrigins`; `goldenAgePeak`, `societyCulture`,
+// `declineFall`, and `criticalTake` are genuinely new and start
+// empty/unwritten pending a backfill pass rather than fabricated or
+// force-split from the old combined field.
 export type Civilization = {
   id: string;
   name: string;
   region: string; // one of CIVILIZATION_REGION_LABELS' keys
-  era: string; // e.g. "27 BC – 476 AD (Western)"
-  summary: string;
-  riseAndFall: string;
-  legacy: string;
-  notableRulers: string[]; // plain names; cross-linked to lib/rulers.ts by id match where one exists
+  era: string;
+
+  overview: string;
+  riseOrigins: string;
+  goldenAgePeak: string;
+  societyCulture: string;
+  declineFall: string;
+  legacy: string; // "Legacy — What It Left Behind"
+  notableRulers: string[]; // plain names; cross-linked to lib/rulers.ts by name match where one exists
+
+  criticalTake: CriticalTake;
   relatedIds?: { section: string; id: string; label: string }[];
   dateAdded: string;
   sourceNotes?: string;

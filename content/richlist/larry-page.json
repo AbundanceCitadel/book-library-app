@@ -5,13 +5,27 @@
   "netWorthUsdBillions": 257,
   "category": "technology",
   "country": "United States",
-  "bio": "Larry Page co-founded Google with Sergey Brin in 1998 out of a Stanford PhD research project on ranking web pages by their link structure (PageRank, which he co-authored and which lends the algorithm its name). He served as Google's CEO twice — from founding until 2001, and again from 2011 to 2015, when he became CEO of Alphabet, the holding company created to structurally separate Google's core search/ads business from its more speculative ventures (self-driving cars, life sciences, and others). He stepped down as Alphabet CEO in 2019 but remains a board member and controlling shareholder.\n\nMost of his fortune is Alphabet stock, supplemented by a dual-class share structure (along with Brin and Eric Schmidt) that has preserved outsized voting control relative to economic ownership even as their percentage of shares outstanding has declined over two decades.",
-  "portfolio": [
-    { "holding": "Alphabet Inc.", "description": "Parent company of Google; Page holds a large share position plus Class B supervoting shares.", "approxStake": "~6% economic stake, larger effective voting control via Class B shares" },
-    { "holding": "Kitty Hawk / other aviation ventures", "description": "Page has personally funded several electric vertical-takeoff-and-landing (eVTOL) aircraft startups outside Alphabet.", "approxStake": "Private, undisclosed" }
-  ],
   "asOfDate": "2026-03-11",
+  "overview": "Larry Page co-founded Google with Sergey Brin in 1998 out of a Stanford PhD research project on ranking web pages by their link structure (PageRank, which he co-authored and which lends the algorithm its name). He served as Google's CEO twice — from founding until 2001, and again from 2011 to 2015, when he became CEO of Alphabet, the holding company created to structurally separate Google's core search/ads business from its more speculative ventures (self-driving cars, life sciences, and others). He stepped down as Alphabet CEO in 2019 but remains a board member and controlling shareholder.\n\nMost of his fortune is Alphabet stock, supplemented by a dual-class share structure (along with Brin and Eric Schmidt) that has preserved outsized voting control relative to economic ownership even as their percentage of shares outstanding has declined over two decades.",
+  "wealthTimeline": [],
+  "portfolio": [
+    {
+      "holding": "Alphabet Inc.",
+      "description": "Parent company of Google; Page holds a large share position plus Class B supervoting shares.",
+      "approxStake": "~6% economic stake, larger effective voting control via Class B shares"
+    },
+    {
+      "holding": "Kitty Hawk / other aviation ventures",
+      "description": "Page has personally funded several electric vertical-takeoff-and-landing (eVTOL) aircraft startups outside Alphabet.",
+      "approxStake": "Private, undisclosed"
+    }
+  ],
+  "notableQuotes": [],
+  "playbookLessons": [],
+  "criticalTake": {
+    "points": []
+  },
   "relatedIds": [],
   "dateAdded": "2026-08-02",
-  "sourceNotes": "Net worth and rank per Forbes' 2026 World's Billionaires real-time list (forbes.com, accessed 2026-08-02). Snapshot for scaffolding purposes — see elon-musk.json's sourceNotes for the same caveat on figures moving continuously."
+  "sourceNotes": "Net worth and rank per Forbes' 2026 World's Billionaires real-time list (forbes.com, accessed 2026-08-02). Snapshot for scaffolding purposes — see elon-musk.json's sourceNotes for the same caveat on figures moving continuously. Timeline/Critical Take (and this section's other net-new tab fields) start empty pending a real research backfill pass — deliberately left as an honest 'not written yet' placeholder rather than fabricated."
 }

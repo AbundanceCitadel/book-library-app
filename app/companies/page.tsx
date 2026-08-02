@@ -41,7 +41,7 @@ export default function CompaniesPage() {
                   href={`/companies/${c.id}`}
                   title={c.name}
                   meta={`Founded ${c.founded}`}
-                  blurb={firstSentences(c.summary)}
+                  blurb={firstSentences(c.overview)}
                 />
               ))}
             </div>

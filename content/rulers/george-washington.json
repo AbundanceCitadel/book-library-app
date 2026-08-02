@@ -4,20 +4,31 @@
   "country": "united-states",
   "title": "General / First President",
   "era": "1732–1799",
-  "summary": "George Washington commanded the Continental Army through the American Revolutionary War (1775–1783), leading a poorly supplied, frequently outnumbered force to eventual victory over the British through a strategy of attrition and endurance rather than decisive early battlefield wins. He presided over the 1787 Constitutional Convention and was unanimously elected the first President of the United States in 1789, serving two terms before voluntarily stepping down in 1797 — a decision, made when no constitutional term limit yet existed, that set the enduring precedent for peaceful transfer of power in the American presidency.\n\nHis decision to relinquish military command after the war rather than seize political power (he was widely expected by contemporaries, including some of his own officers, to have the option of becoming a monarch or military dictator) is one of the most cited examples in American civic history of voluntary limitation of power.",
-  "reignAchievements": [
+  "overview": "George Washington commanded the Continental Army through the American Revolutionary War (1775–1783), leading a poorly supplied, frequently outnumbered force to eventual victory over the British through a strategy of attrition and endurance rather than decisive early battlefield wins. He presided over the 1787 Constitutional Convention and was unanimously elected the first President of the United States in 1789, serving two terms before voluntarily stepping down in 1797 — a decision, made when no constitutional term limit yet existed, that set the enduring precedent for peaceful transfer of power in the American presidency.\n\nHis decision to relinquish military command after the war rather than seize political power (he was widely expected by contemporaries, including some of his own officers, to have the option of becoming a monarch or military dictator) is one of the most cited examples in American civic history of voluntary limitation of power.",
+  "riseToPower": "",
+  "reignEvents": [],
+  "achievementsReforms": [
     "Commanded the Continental Army to victory in the American Revolutionary War, 1775–1783",
     "Presided over the Constitutional Convention of 1787",
     "Elected first President of the United States, serving 1789–1797",
     "Established the presidential two-term informal precedent, unbroken until Franklin D. Roosevelt in 1940",
     "Declined a proposal from some of his own officers (the Newburgh Conspiracy, 1783) to install him as a military ruler"
   ],
-  "legacy": "Washington's voluntary relinquishment of power — first as commanding general, then as president — became a founding template for the American republic's civilian, term-limited executive. He is commonly referred to as the \"Father of His Country\" and appears on U.S. currency and the national capital's namesake. Modern historical scholarship has also given increased attention to his ownership of enslaved people at Mount Vernon throughout his life, a part of the historical record increasingly discussed alongside his political legacy rather than omitted from it.",
-  "quotes": [
-    { "text": "It is better to offer no excuse than a bad one.", "source": "Personal correspondence, widely cited" },
-    { "text": "Associate with men of good quality if you esteem your own reputation.", "source": "Rules of Civility (as a young man, adapted from a French Jesuit text)" }
+  "deathSuccession": "Washington's voluntary relinquishment of power — first as commanding general, then as president — became a founding template for the American republic's civilian, term-limited executive. He is commonly referred to as the \"Father of His Country\" and appears on U.S. currency and the national capital's namesake. Modern historical scholarship has also given increased attention to his ownership of enslaved people at Mount Vernon throughout his life, a part of the historical record increasingly discussed alongside his political legacy rather than omitted from it.",
+  "notableQuotes": [
+    {
+      "text": "It is better to offer no excuse than a bad one.",
+      "attribution": "Personal correspondence, widely cited"
+    },
+    {
+      "text": "Associate with men of good quality if you esteem your own reputation.",
+      "attribution": "Rules of Civility (as a young man, adapted from a French Jesuit text)"
+    }
   ],
+  "criticalTake": {
+    "points": []
+  },
   "relatedIds": [],
   "dateAdded": "2026-08-02",
-  "sourceNotes": "Synthesized from standard public historical record (Mount Vernon's own educational materials, Library of Congress records) for this scaffolding pass. Original synthesis per PROJECT_BRIEF.md §6."
+  "sourceNotes": "Synthesized from standard public historical record (Mount Vernon's own educational materials, Library of Congress records) for this scaffolding pass. Original synthesis per PROJECT_BRIEF.md §6. Timeline/Critical Take (and this section's other net-new tab fields) start empty pending a real research backfill pass — deliberately left as an honest 'not written yet' placeholder rather than fabricated."
 }

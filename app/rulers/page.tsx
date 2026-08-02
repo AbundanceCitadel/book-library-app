@@ -44,7 +44,7 @@ export default function RulersPage() {
                   href={`/rulers/${r.id}`}
                   title={r.name}
                   meta={`${r.title}, ${r.era}`}
-                  blurb={firstSentences(r.summary)}
+                  blurb={firstSentences(r.overview)}
                 />
               ))}
             </div>

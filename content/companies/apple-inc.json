@@ -3,23 +3,74 @@
   "name": "Apple Inc.",
   "category": "technology",
   "founded": "1976",
-  "founders": ["Steve Jobs", "Steve Wozniak", "Ronald Wayne"],
-  "summary": "Apple designs and sells consumer hardware (iPhone, Mac, iPad, Apple Watch), software, and services, and is one of a small handful of companies to have reached a $3 trillion market capitalization. Its business model has shifted over the past decade from being almost entirely hardware-revenue-driven toward a growing share from Services (App Store, subscriptions, licensing), which now makes up a significant and fast-growing minority of total revenue.",
-  "foundingStory": "Steve Jobs, Steve Wozniak, and Ronald Wayne founded Apple Computer Company on April 1, 1976, initially to sell Wozniak's hand-built Apple I computer kits. Wayne, the least well-known of the three founders, sold his 10% stake back to Jobs and Wozniak for $800 just twelve days later, reportedly wary of the personal financial liability of a partnership structure — a stake that would have been worth well over $100 billion at Apple's peak valuation decades later, making it one of the most cited \"what if\" stories in business history. The Apple II (1977) was the company's first mass-market commercial success, followed by the Macintosh in 1984, which introduced the graphical user interface to a mainstream consumer audience.",
-  "milestones": [
-    { "year": "1976", "event": "Founded by Jobs, Wozniak, and Wayne; Apple I released" },
-    { "year": "1984", "event": "Macintosh launched, introducing GUI computing to a mass consumer market" },
-    { "year": "1985", "event": "Steve Jobs forced out following a boardroom dispute with CEO John Sculley" },
-    { "year": "1997", "event": "Jobs returns as Apple acquires NeXT; begins the turnaround from near-bankruptcy" },
-    { "year": "2001", "event": "iPod launched, Apple's entry into digital music" },
-    { "year": "2007", "event": "iPhone launched, redefining the smartphone category" },
-    { "year": "2011", "event": "Steve Jobs resigns as CEO (dies later that year); Tim Cook becomes CEO" },
-    { "year": "2018", "event": "First U.S. public company to reach a $1 trillion market capitalization" }
+  "founders": [
+    "Steve Jobs",
+    "Steve Wozniak",
+    "Ronald Wayne"
   ],
-  "culture": "Apple is known for an unusually tight, design-led product development process, extensive secrecy around unreleased products, and a deliberately small public-facing leadership team relative to its size. Under Jobs, the culture was frequently described as demanding and occasionally combative in pursuit of design perfection; under Tim Cook, outside accounts generally describe a more operationally disciplined, less confrontational management style while maintaining the same secrecy and design-review rigor.",
+  "overview": "Apple designs and sells consumer hardware (iPhone, Mac, iPad, Apple Watch), software, and services, and is one of a small handful of companies to have reached a $3 trillion market capitalization. Its business model has shifted over the past decade from being almost entirely hardware-revenue-driven toward a growing share from Services (App Store, subscriptions, licensing), which now makes up a significant and fast-growing minority of total revenue.\n\nApple is known for an unusually tight, design-led product development process, extensive secrecy around unreleased products, and a deliberately small public-facing leadership team relative to its size. Under Jobs, the culture was frequently described as demanding and occasionally combative in pursuit of design perfection; under Tim Cook, outside accounts generally describe a more operationally disciplined, less confrontational management style while maintaining the same secrecy and design-review rigor.",
+  "foundingStory": "Steve Jobs, Steve Wozniak, and Ronald Wayne founded Apple Computer Company on April 1, 1976, initially to sell Wozniak's hand-built Apple I computer kits. Wayne, the least well-known of the three founders, sold his 10% stake back to Jobs and Wozniak for $800 just twelve days later, reportedly wary of the personal financial liability of a partnership structure — a stake that would have been worth well over $100 billion at Apple's peak valuation decades later, making it one of the most cited \"what if\" stories in business history. The Apple II (1977) was the company's first mass-market commercial success, followed by the Macintosh in 1984, which introduced the graphical user interface to a mainstream consumer audience.",
+  "businessModelProducts": "",
+  "growthTimeline": [
+    {
+      "period": "1976",
+      "event": "Founded by Jobs, Wozniak, and Wayne; Apple I released"
+    },
+    {
+      "period": "1984",
+      "event": "Macintosh launched, introducing GUI computing to a mass consumer market"
+    },
+    {
+      "period": "1985",
+      "event": "Steve Jobs forced out following a boardroom dispute with CEO John Sculley"
+    },
+    {
+      "period": "1997",
+      "event": "Jobs returns as Apple acquires NeXT; begins the turnaround from near-bankruptcy"
+    },
+    {
+      "period": "2001",
+      "event": "iPod launched, Apple's entry into digital music"
+    },
+    {
+      "period": "2007",
+      "event": "iPhone launched, redefining the smartphone category"
+    },
+    {
+      "period": "2011",
+      "event": "Steve Jobs resigns as CEO (dies later that year); Tim Cook becomes CEO"
+    },
+    {
+      "period": "2018",
+      "event": "First U.S. public company to reach a $1 trillion market capitalization"
+    }
+  ],
+  "leadership": [
+    {
+      "name": "Steve Jobs",
+      "role": "Co-Founder"
+    },
+    {
+      "name": "Steve Wozniak",
+      "role": "Co-Founder"
+    },
+    {
+      "name": "Ronald Wayne",
+      "role": "Co-Founder"
+    }
+  ],
+  "legacyImpact": "",
+  "lessonsForEntrepreneurs": [],
+  "criticalTake": {
+    "points": []
+  },
   "relatedIds": [
-    { "section": "people", "id": "steve-jobs", "label": "Steve Jobs" }
+    {
+      "section": "people",
+      "id": "steve-jobs",
+      "label": "Steve Jobs"
+    }
   ],
   "dateAdded": "2026-08-02",
-  "sourceNotes": "Synthesized from Apple's own public corporate history, standard business-history sources, and Walter Isaacson's Steve Jobs (2011) for this scaffolding pass. Original synthesis per PROJECT_BRIEF.md §6."
+  "sourceNotes": "Synthesized from Apple's own public corporate history, standard business-history sources, and Walter Isaacson's Steve Jobs (2011) for this scaffolding pass. Original synthesis per PROJECT_BRIEF.md §6. Old 'culture' paragraph folded into overview (kept, not dropped); 'milestones' carried over unchanged as growthTimeline; 'founders' seeded leadership directly (real data, not fabricated). Timeline/Critical Take (and this section's other net-new tab fields) start empty pending a real research backfill pass — deliberately left as an honest 'not written yet' placeholder rather than fabricated."
 }

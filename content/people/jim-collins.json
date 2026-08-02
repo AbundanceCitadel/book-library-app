@@ -3,25 +3,29 @@
   "name": "Jim Collins",
   "category": "business",
   "timeframe": "b. 1958",
-  "summary": "Jim Collins was born in 1958 in Aurora, Colorado, and earned a bachelor's degree in mathematical sciences and an MBA, both from Stanford, before returning to Stanford's business school as faculty — teaching and researching entrepreneurship and organizational performance and winning the school's Distinguished Teaching Award in 1992.\n\nIn 1995 he founded an independent management research laboratory in Boulder, Colorado, where he has run large-scale, team-based research projects built around a specific method: pairing companies that made a documented leap in performance against closely matched peers that never did, in an effort to isolate what actually causes sustained organizational greatness rather than simply describing traits successful companies happen to share. He first applied this method with Jerry Porras for Built to Last, then made it the signature of Good to Great, which produced some of the most widely cited frameworks in modern management writing — Level 5 Leadership, First Who Then What, the Hedgehog Concept, and the flywheel among them.\n\nBeyond his own books, Collins has spent much of his career consulting directly with CEOs and senior leadership teams, and has extended his research into the social sector — nonprofits, government, healthcare, and education — arguing the same underlying discipline separates great organizations from good ones regardless of how they measure success. He served a two-year appointment as the Class of 1951 Chair for the Study of Leadership at West Point, holds honorary doctorates from the University of Colorado and Claremont Graduate University's Drucker School, and was named one of Forbes' 100 Greatest Living Business Minds in 2017.",
-  "achievements": [
+  "overview": "Jim Collins was born in 1958 in Aurora, Colorado, and earned a bachelor's degree in mathematical sciences and an MBA, both from Stanford, before returning to Stanford's business school as faculty — teaching and researching entrepreneurship and organizational performance and winning the school's Distinguished Teaching Award in 1992.\n\nIn 1995 he founded an independent management research laboratory in Boulder, Colorado, where he has run large-scale, team-based research projects built around a specific method: pairing companies that made a documented leap in performance against closely matched peers that never did, in an effort to isolate what actually causes sustained organizational greatness rather than simply describing traits successful companies happen to share. He first applied this method with Jerry Porras for Built to Last, then made it the signature of Good to Great, which produced some of the most widely cited frameworks in modern management writing — Level 5 Leadership, First Who Then What, the Hedgehog Concept, and the flywheel among them.\n\nBeyond his own books, Collins has spent much of his career consulting directly with CEOs and senior leadership teams, and has extended his research into the social sector — nonprofits, government, healthcare, and education — arguing the same underlying discipline separates great organizations from good ones regardless of how they measure success. He served a two-year appointment as the Class of 1951 Chair for the Study of Leadership at West Point, holds honorary doctorates from the University of Colorado and Claremont Graduate University's Drucker School, and was named one of Forbes' 100 Greatest Living Business Minds in 2017.",
+  "timeline": [],
+  "keyAchievements": [
     "Wrote Good to Great (2001), which introduced Level 5 Leadership, the Hedgehog Concept, First Who Then What, and the flywheel — now among the most widely cited frameworks in management writing",
     "Co-wrote Built to Last (1994) with Jerry Porras, establishing the paired-comparison research method he has used across his career",
     "Founded an independent management research laboratory in Boulder, Colorado in 1995, running large-scale team-based studies rather than working from a single-author theory",
     "Extended his research method into the nonprofit, government, healthcare, and education sectors, arguing the same discipline applies regardless of how success is measured",
     "Named one of Forbes' 100 Greatest Living Business Minds (2017) and held the Class of 1951 Chair for the Study of Leadership at the U.S. Military Academy at West Point (2012–2013)"
   ],
-  "quotes": [
+  "notableQuotes": [
     {
       "text": "Level 5 leaders are a study in duality: modest and willful, humble and fearless.",
-      "source": "Good to Great"
+      "attribution": "Good to Great"
     },
     {
       "text": "Level 5 leaders channel their ego needs away from themselves and into the larger goal of building a great company. It's not that Level 5 leaders have no ego or self-interest. Indeed, they are incredibly ambitious—but their ambition is first and foremost for the institution, not themselves.",
-      "source": "Good to Great"
+      "attribution": "Good to Great"
     }
   ],
-  "legacy": "Collins' paired-comparison research method — matching a company that made a real leap in performance against a closely similar peer that didn't — became a template other management researchers and writers have tried to replicate, and terms like 'Level 5 leader,' 'Hedgehog Concept,' and 'First Who Then What' entered everyday corporate vocabulary well beyond readers of the book itself. His extension of the same method into nonprofits and government pushed 'good to great' thinking outside the for-profit context it started in.",
+  "legacyImpact": "Collins' paired-comparison research method — matching a company that made a real leap in performance against a closely similar peer that didn't — became a template other management researchers and writers have tried to replicate, and terms like 'Level 5 leader,' 'Hedgehog Concept,' and 'First Who Then What' entered everyday corporate vocabulary well beyond readers of the book itself. His extension of the same method into nonprofits and government pushed 'good to great' thinking outside the for-profit context it started in.",
+  "criticalTake": {
+    "points": []
+  },
   "relatedIds": [
     {
       "section": "library",
@@ -30,5 +34,5 @@
     }
   ],
   "dateAdded": "2026-08-02",
-  "sourceNotes": "Summary, achievements, and legacy reshaped from this library's own good-to-great.json authorBio field (original synthesis produced during this project's book-content pipeline, not a third-party source per PROJECT_BRIEF.md §6). Quotes copied verbatim from that same file's verified quotes[] array."
+  "sourceNotes": "Summary, achievements, and legacy reshaped from this library's own good-to-great.json authorBio field (original synthesis produced during this project's book-content pipeline, not a third-party source per PROJECT_BRIEF.md §6). Quotes copied verbatim from that same file's verified quotes[] array. Timeline/Critical Take (and this section's other net-new tab fields) start empty pending a real research backfill pass — deliberately left as an honest 'not written yet' placeholder rather than fabricated."
 }

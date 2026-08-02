@@ -46,7 +46,7 @@ export default function PeoplePage() {
                   href={`/people/${p.id}`}
                   title={p.name}
                   meta={p.timeframe}
-                  blurb={firstSentences(p.summary)}
+                  blurb={firstSentences(p.overview)}
                 />
               ))}
             </div>

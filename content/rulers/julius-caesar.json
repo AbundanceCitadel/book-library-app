@@ -4,21 +4,36 @@
   "country": "rome",
   "title": "General / Dictator",
   "era": "100–44 BC",
-  "summary": "Gaius Julius Caesar rose through Roman politics as a general and statesman, most famously conquering Gaul (roughly modern France and Belgium) in a nine-year campaign chronicled in his own Commentarii de Bello Gallico. His crossing of the Rubicon River in 49 BC with his army — defying the Senate's order to disband — triggered a civil war he won decisively, after which he was declared dictator, eventually dictator perpetuo (\"in perpetuity\") in 44 BC.\n\nHis accumulation of personal power, seen by many senators as a fatal threat to the centuries-old Roman Republic, led directly to his assassination on the Ides of March (March 15), 44 BC, by a group of senators including Brutus and Cassius. His death did not restore the Republic — it triggered another round of civil wars that ended with his adopted heir Octavian (later Augustus) becoming the first Roman emperor, closing the Republic for good.",
-  "reignAchievements": [
+  "overview": "Gaius Julius Caesar rose through Roman politics as a general and statesman, most famously conquering Gaul (roughly modern France and Belgium) in a nine-year campaign chronicled in his own Commentarii de Bello Gallico. His crossing of the Rubicon River in 49 BC with his army — defying the Senate's order to disband — triggered a civil war he won decisively, after which he was declared dictator, eventually dictator perpetuo (\"in perpetuity\") in 44 BC.\n\nHis accumulation of personal power, seen by many senators as a fatal threat to the centuries-old Roman Republic, led directly to his assassination on the Ides of March (March 15), 44 BC, by a group of senators including Brutus and Cassius. His death did not restore the Republic — it triggered another round of civil wars that ended with his adopted heir Octavian (later Augustus) becoming the first Roman emperor, closing the Republic for good.",
+  "riseToPower": "",
+  "reignEvents": [],
+  "achievementsReforms": [
     "Conquered Gaul over a nine-year campaign (58–50 BC), later documented in his own Commentarii de Bello Gallico",
     "Crossed the Rubicon in 49 BC, triggering and then winning a Roman civil war against Pompey and the Senate",
     "Reformed the Roman calendar, introducing the Julian calendar (365.25-day year), the direct ancestor of the modern Gregorian calendar",
     "Centralized power as dictator, then dictator perpetuo, ending the effective functioning of the Roman Republic's collective governance"
   ],
-  "legacy": "Caesar's assassination is one of history's most direct examples of a political killing failing to achieve its stated goal — instead of restoring the Republic, it accelerated its collapse into the Roman Empire under his heir Augustus. His name became a title in its own right (Kaiser, Tsar both derive from \"Caesar\"), and his military and political career remains one of the most extensively documented and studied in ancient history, partly because he was also one of the era's most prolific self-chroniclers.",
-  "quotes": [
-    { "text": "Veni, vidi, vici.", "source": "Reported by Suetonius and Plutarch, describing his victory at the Battle of Zela, 47 BC" },
-    { "text": "The die is cast.", "source": "Reported by Suetonius, said upon crossing the Rubicon, 49 BC" }
+  "deathSuccession": "Caesar's assassination is one of history's most direct examples of a political killing failing to achieve its stated goal — instead of restoring the Republic, it accelerated its collapse into the Roman Empire under his heir Augustus. His name became a title in its own right (Kaiser, Tsar both derive from \"Caesar\"), and his military and political career remains one of the most extensively documented and studied in ancient history, partly because he was also one of the era's most prolific self-chroniclers.",
+  "notableQuotes": [
+    {
+      "text": "Veni, vidi, vici.",
+      "attribution": "Reported by Suetonius and Plutarch, describing his victory at the Battle of Zela, 47 BC"
+    },
+    {
+      "text": "The die is cast.",
+      "attribution": "Reported by Suetonius, said upon crossing the Rubicon, 49 BC"
+    }
   ],
+  "criticalTake": {
+    "points": []
+  },
   "relatedIds": [
-    { "section": "civilizations", "id": "roman-empire", "label": "Roman Empire" }
+    {
+      "section": "civilizations",
+      "id": "roman-empire",
+      "label": "Roman Empire"
+    }
   ],
   "dateAdded": "2026-08-02",
-  "sourceNotes": "Synthesized from standard classical-history sources (Suetonius's Lives of the Twelve Caesars, Plutarch's Parallel Lives) for this scaffolding pass. Original synthesis per PROJECT_BRIEF.md §6; the two quotes are the one exception for exact wording, per the same policy applied to book quotes."
+  "sourceNotes": "Synthesized from standard classical-history sources (Suetonius's Lives of the Twelve Caesars, Plutarch's Parallel Lives) for this scaffolding pass. Original synthesis per PROJECT_BRIEF.md §6; the two quotes are the one exception for exact wording, per the same policy applied to book quotes. Timeline/Critical Take (and this section's other net-new tab fields) start empty pending a real research backfill pass — deliberately left as an honest 'not written yet' placeholder rather than fabricated."
 }

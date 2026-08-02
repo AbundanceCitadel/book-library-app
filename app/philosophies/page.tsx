@@ -41,7 +41,7 @@ export default function PhilosophiesPage() {
                   href={`/philosophies/${p.id}`}
                   title={p.name}
                   meta={p.founder}
-                  blurb={firstSentences(p.summary)}
+                  blurb={firstSentences(p.overview)}
                 />
               ))}
             </div>

@@ -1,96 +1,43 @@
 import { notFound } from "next/navigation";
-import {
-  getAllPhilosophies,
-  getPhilosophyById,
-  PHILOSOPHY_CATEGORY_LABELS,
-} from "@/lib/philosophies";
+import { getAllPhilosophies, getPhilosophyById, PHILOSOPHY_CATEGORY_LABELS } from "@/lib/philosophies";
+import { getAllProfiles } from "@/lib/people";
 import BackLink from "@/app/components/BackLink";
-import RelatedLinks from "@/app/components/RelatedLinks";
 import Badge from "@/app/components/Badge";
-import DetailTabs from "@/app/components/DetailTabs";
+import PhilosophiesTabs from "@/app/components/PhilosophiesTabs";
 
 export function generateStaticParams() {
   return getAllPhilosophies().map((p) => ({ id: p.id }));
 }
 
-// Design Foundation session — Section 9 detail page. Tab set: Overview /
-// Core Teachings / Founder & History / Key Texts — matches the session
-// brief's own field description (core teachings, founders, key texts) with
-// one added Overview tab for a short synthesis, same pattern as every other
-// new section.
+// Philosophies, Religions & Belief Systems detail page. 8 tabs via
+// PhilosophiesTabs — Overview / Core Idea, Origin & Founder, Core Beliefs &
+// Principles, Key Texts & Teachings, Practice Today, Notable Followers &
+// Thinkers, Legacy & Global Influence, Critical Take / Debates — per the
+// approved nine-section tab structure (see docs/SECTIONS_SCHEMA.md).
 export default function PhilosophyPage({ params }: { params: { id: string } }) {
-  const item = getPhilosophyById(params.id);
-  if (!item) notFound();
+  const philosophy = getPhilosophyById(params.id);
+  if (!philosophy) notFound();
+
+  const allProfiles = getAllProfiles();
+  const notableFollowers = philosophy.notableFollowers.map((name) => {
+    const match = allProfiles.find((p) => p.name === name);
+    return { name, href: match ? `/people/${match.id}` : undefined };
+  });
 
   return (
     <main className="mx-auto max-w-2xl px-4 py-8 sm:px-6">
       <BackLink label="Back" fallbackHref="/philosophies" />
       <h1 className="mt-3 text-3xl font-semibold leading-tight tracking-tight sm:text-4xl">
-        {item.name}
+        {philosophy.name}
       </h1>
-      <p className="mt-1 text-muted">{item.origin}</p>
+      <p className="mt-1 text-muted">{philosophy.origin}</p>
       <div className="mt-3">
-        <Badge tone="orange">{PHILOSOPHY_CATEGORY_LABELS[item.category] ?? item.category}</Badge>
+        <Badge tone="orange">{PHILOSOPHY_CATEGORY_LABELS[philosophy.category] ?? philosophy.category}</Badge>
       </div>
 
       <div className="mt-6">
-        <DetailTabs
-          tabs={[
-            {
-              key: "overview",
-              label: "Overview",
-              content: (
-                <div className="prose-reading">
-                  {item.summary.split(/\n\s*\n/).map((p, i) => (
-                    <p key={i}>{p.trim()}</p>
-                  ))}
-                </div>
-              ),
-            },
-            {
-              key: "teachings",
-              label: "Core Teachings",
-              content: (
-                <ul className="space-y-3">
-                  {item.coreTeachings.map((t, i) => (
-                    <li key={i} className="elevate-sm flex gap-3 rounded-lg border-2 border-orange-600/60 bg-surface p-3 text-sm">
-                      <span className="mt-0.5 text-orange-500" aria-hidden="true">✓</span>
-                      <span className="prose-reading text-sm">{t}</span>
-                    </li>
-                  ))}
-                </ul>
-              ),
-            },
-            {
-              key: "founder",
-              label: "Founder & History",
-              content: (
-                <p className="prose-reading">
-                  <strong>{item.founder}</strong> — origin: {item.origin}.
-                </p>
-              ),
-            },
-            {
-              key: "texts",
-              label: "Key Texts",
-              content: (
-                <ul className="flex flex-wrap gap-1.5">
-                  {item.keyTexts.map((t) => (
-                    <li
-                      key={t}
-                      className="inline-flex items-center rounded-full bg-[var(--badge-jade-bg)] px-3 py-1 text-xs font-medium text-[var(--badge-jade-fg)]"
-                    >
-                      {t}
-                    </li>
-                  ))}
-                </ul>
-              ),
-            },
-          ]}
-        />
+        <PhilosophiesTabs philosophy={philosophy} related={philosophy.relatedIds} notableFollowers={notableFollowers} />
       </div>
-
-      <RelatedLinks items={item.relatedIds} />
     </main>
   );
 }

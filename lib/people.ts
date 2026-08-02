@@ -1,36 +1,45 @@
 import { loadJsonEntries } from "./content";
+import type { TimelineEvent, NamedIdea, SectionQuote, CriticalTake } from "./sectionTypes";
 
-// Design Foundation session — Section 2, Famous People / Profiles. Field
-// shape follows docs/SCHEMA.md's book schema as the rigor template (per the
-// session brief): metadata, a brief life summary, structured achievement/
-// legacy fields, and a short quotes array. See docs/SCHEMA_SECTIONS.md
-// "Profile" for the full field reference and tab-set rationale.
-export type ProfileQuote = {
-  text: string;
-  source?: string;
-};
-
-export type Profile = {
+// Famous People / Profiles. Field shape follows the approved nine-section
+// tab structure (docs/SECTIONS_SCHEMA.md, New Section Research/
+// Section_Detail_Tab_Structures.md §2) — 7 tabs: Overview, Timeline &
+// Career, Key Achievements, Ideas & Principles, Notable Quotes, Legacy &
+// Impact, Critical Take. Supersedes the earlier 4-field "Design Foundation"
+// scaffolding (Bio/Achievements/Quotes/Legacy) — the 6 already-live entries
+// were migrated onto this shape in the same pass that added these fields;
+// `timeline` and `criticalTake` are genuinely new and start empty pending a
+// backfill pass (rendered as an honest "not written yet" placeholder, see
+// NotWritten.tsx, rather than fabricated).
+export type Person = {
   id: string;
   name: string;
   category: string; // one of PEOPLE_CATEGORY_LABELS' keys
   timeframe: string; // e.g. "1955–2011" or "b. 1961"
-  summary: string; // brief life summary, 150-300 words
-  achievements: string[];
-  quotes: ProfileQuote[];
-  legacy: string;
-  relatedIds?: { section: string; id: string; label: string }[]; // cross-links, e.g. to a Company entry
+
+  overview: string;
+  timeline: TimelineEvent[];
+  keyAchievements: string[];
+  // Optional: the approved proposal explicitly allows skip/shrink where a
+  // person has no named, reusable approach — not every entry needs this tab
+  // to carry real weight.
+  ideasPrinciples?: NamedIdea[];
+  notableQuotes: SectionQuote[];
+  legacyImpact: string;
+  criticalTake: CriticalTake;
+
+  relatedIds?: { section: string; id: string; label: string }[];
   dateAdded: string;
   sourceNotes?: string;
 };
 
-export function getAllProfiles(): Profile[] {
-  return loadJsonEntries<Profile>("people").sort((a, b) =>
+export function getAllProfiles(): Person[] {
+  return loadJsonEntries<Person>("people").sort((a, b) =>
     a.name.localeCompare(b.name)
   );
 }
 
-export function getProfileById(id: string): Profile | undefined {
+export function getProfileById(id: string): Person | undefined {
   return getAllProfiles().find((p) => p.id === id);
 }
 

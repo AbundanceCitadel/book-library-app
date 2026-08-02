@@ -41,7 +41,7 @@ export default function OrganizationsPage() {
                   href={`/organizations/${o.id}`}
                   title={o.name}
                   meta={`Founded ${o.founded}`}
-                  blurb={firstSentences(o.summary)}
+                  blurb={firstSentences(o.overview)}
                 />
               ))}
             </div>
