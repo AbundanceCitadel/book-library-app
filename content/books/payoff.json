@@ -81,9 +81,34 @@
   ],
   "quotes": [
     {
-      "text": "Payoff",
-      "attribution": "Dan Ariely, title framing motivation as a hidden logic to be understood rather than assumed",
-      "category": "On Motivation and Meaning"
+      "text": "We're motivated by meaning and connection because their effects extend beyond ourselves, beyond our social circle, and maybe beyond our existence.",
+      "attribution": "Dan Ariely, Payoff",
+      "category": "Meaning & Motivation"
+    },
+    {
+      "text": "If work has meaning, a person will be motivated to complete it, even for lower pay.",
+      "attribution": "Dan Ariely, Payoff",
+      "category": "Meaning & Motivation"
+    },
+    {
+      "text": "A society without trust isn't a society: it's a collection of people who are continuously afraid of each other.",
+      "attribution": "Dan Ariely, Payoff",
+      "category": "Trust & Society"
+    },
+    {
+      "text": "The consultant experiment showed that people dramatically underappreciate the extent and depth to which a feeling of accomplishment influences people.",
+      "attribution": "Dan Ariely, Payoff",
+      "category": "Effort & Accomplishment"
+    },
+    {
+      "text": "We have also learned that we're much more driven by all kinds of intangible, emotional forces: the need to be recognized and to feel ownership; to feel a sense of accomplishment; to find the security of a long-term commitment and a sense of shared purpose.",
+      "attribution": "Dan Ariely, Payoff",
+      "category": "Effort & Accomplishment"
+    },
+    {
+      "text": "Acknowledgment is a kind of human magic—a small human connection, a gift from one person to another that translates into a much larger, more meaningful outcome.",
+      "attribution": "Dan Ariely, Payoff",
+      "category": "Acknowledgment & Connection"
     }
   ],
   "whoThisIsFor": "Managers, team leads, and anyone curious about why financial incentives alone often fail to produce the engagement they're designed for.",
@@ -136,5 +161,5 @@
   "personalRating": null,
   "personalNotes": "",
   "dateAdded": "2026-08-01",
-  "sourceNotes": "Synthesis is based on general knowledge of Ariely's published research on motivation, ownership effects, and the \"IKEA effect,\" which is well-documented and widely cited; the book's short chapter structure is approximated from general knowledge of its content rather than a verified table of contents, and the Critical Take point about Ariely's separate data-integrity scrutiny is a widely reported matter of public record as of my training, not a claim requiring further verification for this batch."
+  "sourceNotes": "Synthesis is based on general knowledge of Ariely's published research on motivation, ownership effects, and the \"IKEA effect,\" which is well-documented and widely cited; the book's short chapter structure is approximated from general knowledge of its content rather than a verified table of contents, and the Critical Take point about Ariely's separate data-integrity scrutiny is a widely reported matter of public record as of my training, not a claim requiring further verification for this batch.\n\nQuote verification (session 23, quote retrofit pass): the prior \"quote\" was just the book's own title -- discarded. 6 quotes verified via Goodreads' dedicated \"Payoff\" work-quotes page (work id 49695336), confirmed distinct from Ariely's Predictably Irrational/Upside of Irrationality quote pages. Explicitly excluded a tempting quote (\"Greater labor leads to greater love\") since it traces to Ariely's separate academic IKEA-effect paper, not confirmed verbatim in this book. Also confirmed no overlap with this library's two apparent Predictably Irrational VN-edition entries (phi-ly-tri-predictably-irrational-vn-ed, predictably-irrational-phi-ly-tri-vn-ed) -- flagging that these two entries look like they may be duplicates of the same underlying book, out of scope to fix in this pass. Payoff is a short TED Books-format title (~112pp), so 6 is an honest, non-padded count."
 }

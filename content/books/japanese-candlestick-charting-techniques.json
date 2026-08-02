@@ -102,7 +102,33 @@
     "Study real historical chart case studies, including failed patterns, not just idealized textbook examples.",
     "Approach any single pattern with appropriate humility — it is a probability signal, not a guarantee."
   ],
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "There is nothing so disastrous as a rational investment policy in an irrational world.",
+      "attribution": "Steve Nison, Japanese Candlestick Charting Techniques",
+      "category": "Market Psychology"
+    },
+    {
+      "text": "Before the publication of this book in 1991 B.C. (Before Candlesticks), who ever heard of a candlestick chart?",
+      "attribution": "Steve Nison, Japanese Candlestick Charting Techniques",
+      "category": "Origins & Legacy"
+    },
+    {
+      "text": "Then a white bullish real body wraps around, or engulfs, the prior period's black real body (hence its name). Another nickname is a \"hugging line\" for obvious reasons.",
+      "attribution": "Steve Nison, Japanese Candlestick Charting Techniques",
+      "category": "Candlestick Patterns"
+    },
+    {
+      "text": "If an umbrella line emerges during a downtrend, it is a signal that the downtrend should end.",
+      "attribution": "Steve Nison, Japanese Candlestick Charting Techniques",
+      "category": "Candlestick Patterns"
+    },
+    {
+      "text": "It is potentially more bearish if the market opens above the prior day's high and then fails.",
+      "attribution": "Steve Nison, Japanese Candlestick Charting Techniques",
+      "category": "Candlestick Patterns"
+    }
+  ],
   "conceptsFrameworks": [
     {
       "name": "Candlestick (Real Body and Shadow)",
@@ -168,5 +194,5 @@
   "personalRating": null,
   "personalNotes": "",
   "dateAdded": "2026-07-31",
-  "sourceNotes": "Synthesis is based on general knowledge of this well-established, widely taught technical analysis classic and its known pattern catalog and structure. Chapter organization reflects the book's known general structure as commonly referenced in trading education material; exact original chapter titles/order may vary slightly by edition. Quotes section is intentionally thin and flagged rather than padded, since exact verbatim passages from this specific edition could not be confidently verified.\n\n---"
+  "sourceNotes": "Synthesis is based on general knowledge of this well-established, widely taught technical analysis classic and its known pattern catalog and structure. Chapter organization reflects the book's known general structure as commonly referenced in trading education material; exact original chapter titles/order may vary slightly by edition. Quotes section is intentionally thin and flagged rather than padded, since exact verbatim passages from this specific edition could not be confidently verified.\n\n---\n\nQuote verification (session 23, quote retrofit pass): 5 quotes sourced from Goodreads' dedicated book-specific quotes page for this title (Second Edition). Excluded one quote found on Steve Nison's general author-quotes page after confirming it is attributed there to a different Nison book (The Candlestick Course), per this project's cross-book contamination standard. As a technical/instructional trading manual, quotable narrative prose is genuinely limited — 5 is the honest ceiling from verifiable sources."
 }

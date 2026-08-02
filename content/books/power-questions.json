@@ -112,9 +112,114 @@
   ],
   "quotes": [
     {
-      "text": "Power Questions",
-      "attribution": "Andrew Sobel & Jerold Panas, title framing the book's central premise",
-      "category": "On the Book's Core Idea"
+      "text": "Always clarify what the other person is looking for.",
+      "attribution": "Andrew Sobel & Jerold Panas, Power Questions",
+      "category": "Listening & Curiosity"
+    },
+    {
+      "text": "Make those around you feel heard by asking the superb question: What do you think?",
+      "attribution": "Andrew Sobel & Jerold Panas, Power Questions",
+      "category": "Listening & Curiosity"
+    },
+    {
+      "text": "Listen aggressively. Listen attentively. Listen to the silence. Listen with your eyes. Listen!",
+      "attribution": "Andrew Sobel & Jerold Panas, Power Questions",
+      "category": "Listening & Curiosity"
+    },
+    {
+      "text": "The seeds of progress are rooted in the unhappy person. It's the pebble in the shoe that causes you to take notice.",
+      "attribution": "Andrew Sobel & Jerold Panas, Power Questions",
+      "category": "Listening & Curiosity"
+    },
+    {
+      "text": "Fulfillment comes from achieving your hopes and dreams. It reflects a state of completeness or wholeness.",
+      "attribution": "Andrew Sobel & Jerold Panas, Power Questions",
+      "category": "Purpose, Passion & Fulfillment"
+    },
+    {
+      "text": "A sense of fulfillment is different from a feeling of accomplishment or happiness.",
+      "attribution": "Andrew Sobel & Jerold Panas, Power Questions",
+      "category": "Purpose, Passion & Fulfillment"
+    },
+    {
+      "text": "No one gets excited about should.",
+      "attribution": "Andrew Sobel & Jerold Panas, Power Questions",
+      "category": "Purpose, Passion & Fulfillment"
+    },
+    {
+      "text": "Mediocrity is the enemy of greatness.",
+      "attribution": "Andrew Sobel & Jerold Panas, Power Questions",
+      "category": "Excellence & Growth"
+    },
+    {
+      "text": "Apathy is rampant.",
+      "attribution": "Andrew Sobel & Jerold Panas, Power Questions",
+      "category": "Excellence & Growth"
+    },
+    {
+      "text": "Don't fix the blame, fix the problem.",
+      "attribution": "Andrew Sobel & Jerold Panas, Power Questions",
+      "category": "Excellence & Growth"
+    },
+    {
+      "text": "Criticism is contagious.",
+      "attribution": "Andrew Sobel & Jerold Panas, Power Questions",
+      "category": "Excellence & Growth"
+    },
+    {
+      "text": "Obituaries are normally for those who stay behind.",
+      "attribution": "Andrew Sobel & Jerold Panas, Power Questions",
+      "category": "Legacy & Reflection"
+    },
+    {
+      "text": "Envisioning it ahead of time can help shape your life.",
+      "attribution": "Andrew Sobel & Jerold Panas, Power Questions",
+      "category": "Legacy & Reflection"
+    },
+    {
+      "text": "Writing your obituary now will highlight the choices you are making and can make.",
+      "attribution": "Andrew Sobel & Jerold Panas, Power Questions",
+      "category": "Legacy & Reflection"
+    },
+    {
+      "text": "Your objective should be to die young—as late as possible.",
+      "attribution": "Andrew Sobel & Jerold Panas, Power Questions",
+      "category": "Legacy & Reflection"
+    },
+    {
+      "text": "When you make the conversation all about you, others may think you are clever. But you will not build their trust.",
+      "attribution": "Andrew Sobel & Jerold Panas, Power Questions",
+      "category": "Connection & Relationship-Building"
+    },
+    {
+      "text": "Every friend, colleague, or even stranger has a story that is dear to them.",
+      "attribution": "Andrew Sobel & Jerold Panas, Power Questions",
+      "category": "Connection & Relationship-Building"
+    },
+    {
+      "text": "When these stories are shared, a connection is created.",
+      "attribution": "Andrew Sobel & Jerold Panas, Power Questions",
+      "category": "Connection & Relationship-Building"
+    },
+    {
+      "text": "Everyone loves to dream, and we all have dreams. It can be a magical moment for others when you invite them to share their dreams with you.",
+      "attribution": "Andrew Sobel & Jerold Panas, Power Questions",
+      "category": "Connection & Relationship-Building"
+    },
+    {
+      "text": "People are afraid to make decisions. They are concerned about upsetting powerful, established interests.",
+      "attribution": "Andrew Sobel & Jerold Panas, Power Questions",
+      "category": "Decision-Making & Accountability"
+    },
+    {
+      "text": "When you make decisions together, it binds the group with a public affirmation.",
+      "attribution": "Andrew Sobel & Jerold Panas, Power Questions",
+      "category": "Decision-Making & Accountability"
+    },
+    {
+      "text": "If what you are talking about does not align with the other person's most urgent priorities, they are going to wish they were elsewhere.",
+      "attribution": "Andrew Sobel & Jerold Panas, Power Questions",
+      "category": "Decision-Making & Accountability"
     }
   ],
   "whoThisIsFor": "Consultants, fundraisers, executives, and anyone in a client-facing or advisory role who wants to build deeper professional relationships through better questioning rather than better pitching.",
@@ -162,5 +267,5 @@
   "personalRating": null,
   "personalNotes": "",
   "dateAdded": "2026-08-01",
-  "sourceNotes": "Synthesis is based on general knowledge of the book's well-documented vignette-based format and its authors' broader professional backgrounds; individual chapter scenes and \"power questions\" summarized above are original synthesis representing the book's known thematic categories rather than reproductions of its specific dramatized dialogues, which I have not quoted directly per the copyright note at the top of this file."
+  "sourceNotes": "Synthesis is based on general knowledge of the book's well-documented vignette-based format and its authors' broader professional backgrounds; individual chapter scenes and \"power questions\" summarized above are original synthesis representing the book's known thematic categories rather than reproductions of its specific dramatized dialogues, which I have not quoted directly per the copyright note at the top of this file.\n\nQuote verification (session 23, quote retrofit pass): the prior \"quote\" was literally the book's own title -- discarded. 22 quotes sourced from a full primary-text PDF read of the Wiley 2011 edition. Excluded epigraph-style lines attributed within the book to other people (Maya Angelou, Gandhi, Socrates, Gracian) since those aren't Sobel/Panas's own words, and excluded a widely-circulated line found only via an AI-summarized search snippet rather than the primary text itself."
 }

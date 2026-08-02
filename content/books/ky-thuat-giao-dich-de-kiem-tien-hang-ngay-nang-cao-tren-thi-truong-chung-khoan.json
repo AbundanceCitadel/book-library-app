@@ -104,9 +104,64 @@
   ],
   "quotes": [
     {
-      "text": "An extensive 'case review' of proven trading strategies, illustrated with real trade examples.",
-      "attribution": "paraphrased characterization from publisher/bookseller descriptions of the book (paraphrase, not a direct quote from Aziz's text)",
-      "category": "On the Book's Purpose"
+      "text": "Success in trading is not a revolution; it is an evolution.",
+      "attribution": "Andrew Aziz, Advanced Techniques in Day Trading",
+      "category": "Trading Philosophy"
+    },
+    {
+      "text": "Prices go up and down, and anything can happen at any moment, but there are certain patterns that show themselves over and over again.",
+      "attribution": "Andrew Aziz, Advanced Techniques in Day Trading",
+      "category": "Trading Philosophy"
+    },
+    {
+      "text": "There is never any money to be made in the obvious conclusions.",
+      "attribution": "Andrew Aziz, Advanced Techniques in Day Trading",
+      "category": "Trading Philosophy"
+    },
+    {
+      "text": "Trading is a minus-sum game.",
+      "attribution": "Andrew Aziz, Advanced Techniques in Day Trading",
+      "category": "Risk & Money Management"
+    },
+    {
+      "text": "The market is not a level playing field; it is slanted against you.",
+      "attribution": "Andrew Aziz, Advanced Techniques in Day Trading",
+      "category": "Risk & Money Management"
+    },
+    {
+      "text": "You have to be significantly above the crowd to win in day trading.",
+      "attribution": "Andrew Aziz, Advanced Techniques in Day Trading",
+      "category": "Risk & Money Management"
+    },
+    {
+      "text": "Winners think, feel, and act differently than losers, and this will reflect in all aspects of your life.",
+      "attribution": "Andrew Aziz, Advanced Techniques in Day Trading",
+      "category": "Trader Psychology"
+    },
+    {
+      "text": "A loss in trading is not personal, it's simply to be expected from time to time.",
+      "attribution": "Andrew Aziz, Advanced Techniques in Day Trading",
+      "category": "Trader Psychology"
+    },
+    {
+      "text": "Day trading is not a hobby. It's not a weekend pursuit.",
+      "attribution": "Andrew Aziz, Advanced Techniques in Day Trading",
+      "category": "Discipline & Mindset"
+    },
+    {
+      "text": "I'm always saying that trading is a career and a business.",
+      "attribution": "Andrew Aziz, Advanced Techniques in Day Trading",
+      "category": "Discipline & Mindset"
+    },
+    {
+      "text": "You are only as good as the stocks that you trade.",
+      "attribution": "Andrew Aziz, Advanced Techniques in Day Trading",
+      "category": "Stock Selection"
+    },
+    {
+      "text": "Trading a stock that doesn't move is a trading day wasted.",
+      "attribution": "Andrew Aziz, Advanced Techniques in Day Trading",
+      "category": "Stock Selection"
     }
   ],
   "conceptsFrameworks": [
@@ -153,5 +208,5 @@
   "personalRating": null,
   "personalNotes": "",
   "dateAdded": "2026-07-31",
-  "sourceNotes": "Based on general knowledge of the Day Trade for a Living series plus web search confirming this specific sequel's structure, chapter list, and framing as an \"extensive case review\" of proven strategies illustrated with real trade examples; exact chapter titles were partially confirmed via Vietnamese bookseller tables of contents found in search, though full verification against the physical book was not possible, and the quote section was kept minimal given no verified exact-wording source text.\n\n---"
+  "sourceNotes": "Based on general knowledge of the Day Trade for a Living series plus web search confirming this specific sequel's structure, chapter list, and framing as an \"extensive case review\" of proven strategies illustrated with real trade examples; exact chapter titles were partially confirmed via Vietnamese bookseller tables of contents found in search, though full verification against the physical book was not possible, and the quote section was kept minimal given no verified exact-wording source text.\n\n---\n\nQuote verification (session 23, quote retrofit pass): the prior quote was a paraphrased publisher characterization -- discarded. 12 quotes sourced from a direct primary-text read of the actual book (Ch.1-3), confirmed unique to this sequel (the text explicitly frames itself as distinct from \"my first book,\" How to Day Trade for a Living) -- no cross-attribution risk with this library's other Aziz title. English-original wording; only ~40% of the book's chapters were accessible this pass, so more verifiable quotes likely exist in later chapters (support/resistance, advanced strategies, risk management) for a future pass."
 }

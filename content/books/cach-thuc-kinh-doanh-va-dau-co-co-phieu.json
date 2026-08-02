@@ -104,9 +104,34 @@
   ],
   "quotes": [
     {
-      "text": "Đầu cơ và kinh doanh cổ phiếu thành công là tìm kiếm các quy tắc hoạt động hiệu quả và sau đó tuân thủ những quy tắc đó.",
-      "attribution": "summary framing of Livermore's philosophy, from the Vietnamese edition's promotional description (Successful stock speculation and trading means finding rules that work and then following them.)",
-      "category": "On Discipline and Rules"
+      "text": "There is only one side of the market and it is not the bull side or the bear side, but the right side.",
+      "attribution": "Jesse Livermore, How to Trade in Stocks",
+      "category": "Market Timing & Trend"
+    },
+    {
+      "text": "It has always been my experience that I never benefited much from a move if I did not get in at somewhere near the beginning of that move.",
+      "attribution": "Jesse Livermore, How to Trade in Stocks",
+      "category": "Market Timing & Trend"
+    },
+    {
+      "text": "If you have timed the movement correctly, your first commitment will show you a profit at the start. From then on, all that is required of you is to be alert, watching for the appearance of the danger signal to tell you to step aside and convert paper profits into real money.",
+      "attribution": "Jesse Livermore, How to Trade in Stocks",
+      "category": "Market Timing & Trend"
+    },
+    {
+      "text": "All a person needs to do is observe what the market is telling him and evaluate it.",
+      "attribution": "Jesse Livermore, How to Trade in Stocks",
+      "category": "Trading Discipline"
+    },
+    {
+      "text": "Profits always take care of themselves but losses never do.",
+      "attribution": "Jesse Livermore, How to Trade in Stocks",
+      "category": "Risk Management"
+    },
+    {
+      "text": "Set your own rules and stick to them; never argue with the market; never make a play you can't afford; never give way to irrational exuberance. Above all, don't be a sucker.",
+      "attribution": "Jesse Livermore, How to Trade in Stocks",
+      "category": "Risk Management"
     }
   ],
   "conceptsFrameworks": [
@@ -161,5 +186,5 @@
   "personalRating": null,
   "personalNotes": "",
   "dateAdded": "2026-07-31",
-  "sourceNotes": "The original 1940 seven-chapter structure was verified against two independent full-text table-of-contents listings (DOKUMEN.PUB scans of the physical book), which agreed closely on chapter titles and ordering; supplementary material specific to the Smitten-edited edition (Livermore Market Key, modern application guidance) was verified against the same source and against a third independent table-of-contents listing. Section content synthesis draws on these confirmed chapter titles plus independent chapter-summary sources (Elearnmarkets, TraderLion, Shortform, Bookey) for substantive detail, cross-checked for general consistency. The Vietnamese edition's specific promotional framing was verified against Vietnamese retailer sources (Happy.live, ThaiPham.live). Note that this edition is Richard Smitten's annotated version of Livermore's original text rather than an unaltered reprint, which is reflected in the Critical Take above; biographical details about Livermore, including his death, are drawn from general, well-established biographical knowledge of this widely documented historical figure.\n\n---"
+  "sourceNotes": "The original 1940 seven-chapter structure was verified against two independent full-text table-of-contents listings (DOKUMEN.PUB scans of the physical book), which agreed closely on chapter titles and ordering; supplementary material specific to the Smitten-edited edition (Livermore Market Key, modern application guidance) was verified against the same source and against a third independent table-of-contents listing. Section content synthesis draws on these confirmed chapter titles plus independent chapter-summary sources (Elearnmarkets, TraderLion, Shortform, Bookey) for substantive detail, cross-checked for general consistency. The Vietnamese edition's specific promotional framing was verified against Vietnamese retailer sources (Happy.live, ThaiPham.live). Note that this edition is Richard Smitten's annotated version of Livermore's original text rather than an unaltered reprint, which is reflected in the Critical Take above; biographical details about Livermore, including his death, are drawn from general, well-established biographical knowledge of this widely documented historical figure.\n\n---\n\nQuote verification (session 23, quote retrofit pass): the prior quote was explicit marketing-copy paraphrase -- discarded. 6 quotes verified via Goodreads' work-quotes page specific to this exact book (\"How to Trade in Stocks\"), independently cross-checked. Deliberately excluded a much larger set of \"Livermore quotes\" circulating online, since most trace to Reminiscences of a Stock Operator (Edwin Lefevre's fictionalized book about Livermore) rather than Livermore's own How to Trade in Stocks -- the specific cross-book contamination risk flagged for this title."
 }

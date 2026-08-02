@@ -59,7 +59,28 @@
     "Reframe apparent setbacks as potential advantages rather than reacting to them purely defensively.",
     "Treat strategic thinking as an ethically adaptable tool, applying the book's contemporary reframing rather than the original text's more ethically loaded historical framings."
   ],
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "Kế là biện pháp, là cách thức, là kỹ năng giải quyết vấn đề.",
+      "attribution": "Hầu Gia (36 Kế & 36 Đối Kế — catalog lists author as \"Ngô Như Tùng & Hoàng Phác Dân\"; see discrepancy note)",
+      "category": "Định Nghĩa - Tư Tưởng"
+    },
+    {
+      "text": "Kế được định nghĩa là “cách khôn khéo được nghĩ ra để giải quyết một vấn đề khó khăn nào đó”.",
+      "attribution": "Hầu Gia (36 Kế & 36 Đối Kế — catalog lists author as \"Ngô Như Tùng & Hoàng Phác Dân\"; see discrepancy note)",
+      "category": "Định Nghĩa - Tư Tưởng"
+    },
+    {
+      "text": "Nói nôm na, kế là những biện pháp đặc biệt để giải quyết các tình huống khó khăn.",
+      "attribution": "Hầu Gia (36 Kế & 36 Đối Kế — catalog lists author as \"Ngô Như Tùng & Hoàng Phác Dân\"; see discrepancy note)",
+      "category": "Định Nghĩa - Tư Tưởng"
+    },
+    {
+      "text": "Mỗi kế đều có đối kế, ví dụ có \"Khổ nhục kế\" thì có \"Phú quý kế\", có \"Giương đông kích tây\" thì cũng có \"Giương đông kích đông\", có \"Thái cực kế\" thì cũng có \"Lưỡng cực kế\".",
+      "attribution": "Hầu Gia (36 Kế & 36 Đối Kế — catalog lists author as \"Ngô Như Tùng & Hoàng Phác Dân\"; see discrepancy note)",
+      "category": "Định Nghĩa - Tư Tưởng"
+    }
+  ],
   "conceptsFrameworks": [
     {
       "name": "Tam Thập Lục Kế (The Thirty-Six Stratagems)",
@@ -106,5 +127,5 @@
   "personalRating": null,
   "personalNotes": "",
   "dateAdded": "2026-07-31",
-  "sourceNotes": "Synthesis is based on web-search verification of the book's content, structure, and stated purpose (36 paired stratagem/counter-stratagem sets, contemporary reworking of the classical Tam Thập Lục Kế), drawn from Vietnamese bookseller descriptions (Khai Tâm, Oreka.vn, and others). These sources consistently attribute the book to an author named \"Hầu Gia\" rather than the \"Ngô Như Tùng & Hoàng Phác Dân\" attribution provided in the source catalog for this project; this discrepancy is flagged honestly rather than resolved by guesswork, since it could reflect a different edition, translator, or a catalog error. Given this uncertainty, author-specific biographical claims have been withheld rather than fabricated.\n\n---"
+  "sourceNotes": "Synthesis is based on web-search verification of the book's content, structure, and stated purpose (36 paired stratagem/counter-stratagem sets, contemporary reworking of the classical Tam Thập Lục Kế), drawn from Vietnamese bookseller descriptions (Khai Tâm, Oreka.vn, and others). These sources consistently attribute the book to an author named \"Hầu Gia\" rather than the \"Ngô Như Tùng & Hoàng Phác Dân\" attribution provided in the source catalog for this project; this discrepancy is flagged honestly rather than resolved by guesswork, since it could reflect a different edition, translator, or a catalog error. Given this uncertainty, author-specific biographical claims have been withheld rather than fabricated.\n\n---\n\nQuote verification (session 23, quote retrofit pass): 4 preface-only quotes verified verbatim via khaitam.com's 2019 reprint product page, which reproduces the book's signed preface (signed \"HAU GIA\"). This independently corroborates other sources (publisher's Facebook page, sachmoi.net) attributing the book to author Hau Gia rather than \"Ngo Nhu Tung & Hoang Phac Dan\" as listed in the source catalog — author discrepancy remains unresolved, flagged for human reconciliation, consistent with the prior pass's note. Only the preface was accessible; the 72 individual stratagem entries have titles findable online but no accompanying body text, so quotes are capped at 4 rather than padded with paraphrased stratagem titles."
 }

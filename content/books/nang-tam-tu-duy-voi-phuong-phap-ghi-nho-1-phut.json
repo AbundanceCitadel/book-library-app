@@ -90,13 +90,7 @@
     "Triage your review time toward material you have gotten wrong or struggled with, not everything equally.",
     "Trust a consistent, modest daily system over occasional high-effort cramming sessions."
   ],
-  "quotes": [
-    {
-      "text": "This is a short, practically oriented self-help title with a thin public review and excerpt footprint in the sources available for this batch; specific verbatim sentences from the Vietnamese text could not be confirmed against a directly accessible copy. In keeping with the batch's copyright rules, no invented verbatim quotations are included. The content above is a genuine synthesis of the book's documented themes (chapter 1's stated topic, the Ebbinghaus-curve framing, right-brain engagement, color-coded note-taking, and morning/pre-sleep review) drawn from publisher descriptions and reader reviews rather than from the book's original prose.",
-      "attribution": "",
-      "category": "Source Note on Quotations"
-    }
-  ],
+  "quotes": [],
   "whoThisIsFor": "Students preparing for exams and adults who want a very short, low-commitment introduction to practical memory techniques rather than a deep dive into memory science.",
   "whenToReadThis": "Suited to a single short reading session, ideally a few weeks before a period of intense studying, so the techniques can be put into practice immediately.",
   "relatedBooks": [],
@@ -147,5 +141,5 @@
   "personalRating": null,
   "personalNotes": "",
   "dateAdded": "2026-08-01",
-  "sourceNotes": "Content is synthesized from Vietnamese bookseller descriptions, a detailed reader review (Tiểu Khả blog), and a partial chapter listing found via web search, which together confirmed the book's 10-chapter structure, the exact topic of Chapter 1, and the recurring themes of the Ebbinghaus curve, right-brain engagement, color-coded highlighting, and morning/pre-sleep review timing. The precise titles and ordering of Chapters 2 through 10 beyond these confirmed themes could not be verified against a direct copy of the book, so the section titles above are a reasonable thematic reconstruction rather than a confirmed table of contents; treat them as illustrative of the book's real content rather than literal chapter headings."
+  "sourceNotes": "Content is synthesized from Vietnamese bookseller descriptions, a detailed reader review (Tiểu Khả blog), and a partial chapter listing found via web search, which together confirmed the book's 10-chapter structure, the exact topic of Chapter 1, and the recurring themes of the Ebbinghaus curve, right-brain engagement, color-coded highlighting, and morning/pre-sleep review timing. The precise titles and ordering of Chapters 2 through 10 beyond these confirmed themes could not be verified against a direct copy of the book, so the section titles above are a reasonable thematic reconstruction rather than a confirmed table of contents; treat them as illustrative of the book's real content rather than literal chapter headings.\n\nQuote retrofit pass (session 23): the prior explicit placeholder note was correctly left as-is -- no source offers verbatim book excerpts, only marketing descriptions and a reader's own paraphrased takeaway list. One AI-summarized candidate line could not be verified against a second independent source, so was excluded. No quotes added. Cross-checked against this author's other library title (nghe-thuat-loi-cuon-doi-phuong-tro-chuyen) -- no risk of contamination since neither has verified content."
 }

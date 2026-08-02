@@ -80,7 +80,38 @@
     "Historical outcomes (Han Fei's own death, Qin's rise and fall) are used within the text and its later interpretation as evidence for and cautionary counterpoints to Legalist claims.",
     "Practical governance and organizational systems benefit from designing for predictable enforcement rather than relying on individual goodwill."
   ],
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "Pháp là cái chép để ở trong sách vở, đặt nơi cửa công, ban bố cho trăm họ.",
+      "attribution": "Hàn Phi Tử",
+      "category": "Pháp Trị (Rule of Law)"
+    },
+    {
+      "text": "Pháp luật không hùa theo người sang… Khi đã thi hành pháp luật thì kẻ khôn cũng không thể từ, kẻ dũng cũng không dám tranh.",
+      "attribution": "Hàn Phi Tử",
+      "category": "Pháp Trị (Rule of Law)"
+    },
+    {
+      "text": "Có quyền thế thì sẽ có được sự tôn quý, còn nếu bị mất quyền thế thì sẽ bị mất luôn quốc gia, sẽ có nguy cơ bị giết hại.",
+      "attribution": "Hàn Phi Tử",
+      "category": "Thế (Power & Position)"
+    },
+    {
+      "text": "Thời thay mà pháp luật không đổi thì nước loạn, đời đã thay đổi mà cấm lệnh không biến thì nước bị cắt.",
+      "attribution": "Hàn Phi Tử",
+      "category": "Thế (Power & Position)"
+    },
+    {
+      "text": "Bậc vua sáng khiến pháp luật chọn người chứ không tự mình tiến cử, khiến cho pháp luật đo lường công lao, chứ không tự mình tính toán.",
+      "attribution": "Hàn Phi Tử",
+      "category": "Thuật Trị Nước (Statecraft)"
+    },
+    {
+      "text": "Bậc thánh nhân nắm lấy cái chủ yếu, bốn phương đến phục dịch.",
+      "attribution": "Hàn Phi Tử",
+      "category": "Thuật Trị Nước (Statecraft)"
+    }
+  ],
   "conceptsFrameworks": [
     {
       "name": "Pháp – Thế – Thuật (Law – Position – Method)",
@@ -127,5 +158,5 @@
   "personalRating": null,
   "personalNotes": "",
   "dateAdded": "2026-07-31",
-  "sourceNotes": "Synthesis based on general knowledge of classical Chinese Legalist philosophy and Han Fei's biography and core doctrines (Pháp-Thế-Thuật), cross-checked against Vietnamese publisher descriptions of this specific edition (Omega Plus, part of their Eastern classics series) confirming its scope and framing. The specific translator/editor of this Vietnamese edition and its exact internal chapter divisions could not be confirmed from available sources, so section titles above are thematic organizations of Han Fei's well-documented core doctrines rather than a verified table of contents matching this specific print edition — this should be treated as an approximation. No direct quotations are included; see the flag under Highlights & Quotes.\n\n---"
+  "sourceNotes": "Synthesis based on general knowledge of classical Chinese Legalist philosophy and Han Fei's biography and core doctrines (Pháp-Thế-Thuật), cross-checked against Vietnamese publisher descriptions of this specific edition (Omega Plus, part of their Eastern classics series) confirming its scope and framing. The specific translator/editor of this Vietnamese edition and its exact internal chapter divisions could not be confirmed from available sources, so section titles above are thematic organizations of Han Fei's well-documented core doctrines rather than a verified table of contents matching this specific print edition — this should be treated as an approximation. No direct quotations are included; see the flag under Highlights & Quotes.\n\n---\n\nQuote retrofit pass (session 23): 6 quotes attributable to Han Fei's actual Legalist text, cross-checked between two independent Vietnamese sources discussing/quoting the text plus confirmation of this specific Vietnamese edition (Omega Plus, \"Han Phi Tu - Tu tuong va sach luoc\") via its publisher page. Not confirmed to specific page numbers of this exact edition (internal text of the Omega Plus edition was not accessible) — kept deliberately short rather than pad with paraphrased Legalist aphorisms from secondary summaries."
 }

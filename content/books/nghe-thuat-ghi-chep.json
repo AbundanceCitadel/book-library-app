@@ -37,13 +37,7 @@
     "Cross-reference related notes across different sources and time periods so patterns and connections become visible later.",
     "Cite the source of each note precisely at the time you take it, since reconstructing a source later is far harder than recording it immediately."
   ],
-  "quotes": [
-    {
-      "text": "No verified quotations from this specific title are included in this entry. A directly accessible copy of \"Nghệ Thuật Ghi Chép\" could not be located during research for this batch, and inventing quotations attributed to Nguyễn Hiến Lê would violate the batch's core accuracy requirement. Readers wanting verified quotations from this author's documented working method should consult his memoir, Hồi Ký Nguyễn Hiến Lê, which is well-sourced in secondary literature.",
-      "attribution": "",
-      "category": "Source Note on Quotations"
-    }
-  ],
+  "quotes": [],
   "whoThisIsFor": "Readers of Nguyễn Hiến Lê's other self-study and self-cultivation works looking for guidance specifically on organizing research and reading notes for long-term use.",
   "whenToReadThis": "Best read alongside an active, ongoing area of study or research, so its organizational principles can be applied immediately rather than absorbed abstractly.",
   "relatedBooks": [],
@@ -87,5 +81,5 @@
   "personalRating": null,
   "personalNotes": "",
   "dateAdded": "2026-08-01",
-  "sourceNotes": "A directly accessible copy of this specific title's full text could not be located during research for this batch. This entry's content is an honest, clearly-flagged extrapolation from Nguyễn Hiến Lê's well-documented broader working method and self-study philosophy (drawn from his memoir and biographical secondary sources found via web search), not from verified chapter-by-chapter content of this particular book. In keeping with the batch's instructions, this entry is deliberately shorter than the others in this batch and avoids inventing specific chapter titles, quotations, or Critical Take points that cannot be honestly grounded in verified material."
+  "sourceNotes": "A directly accessible copy of this specific title's full text could not be located during research for this batch. This entry's content is an honest, clearly-flagged extrapolation from Nguyễn Hiến Lê's well-documented broader working method and self-study philosophy (drawn from his memoir and biographical secondary sources found via web search), not from verified chapter-by-chapter content of this particular book. In keeping with the batch's instructions, this entry is deliberately shorter than the others in this batch and avoids inventing specific chapter titles, quotations, or Critical Take points that cannot be honestly grounded in verified material.\n\nQuote retrofit pass (session 23): the prior explicit placeholder note was correctly left as-is. Could not confirm a book titled \"Nghe Thuat Ghi Chep\" exists in Nguyen Hien Le's known ~120-work bibliography (Tu Hoc, Luyen Van, Kim Chi Nam Cua Hoc Sinh, his memoir, etc.) -- the only \"Nghe Thuat Ghi Chep\"-titled books findable in the Vietnamese market are by different, unrelated authors. This entry may be mistitled or misattributed, or refer to an obscure/out-of-print work not indexed online. No quotes added -- recommend flagging this book id for a title/attribution correction in a future pass rather than further quote-hunting."
 }

@@ -52,9 +52,99 @@
   ],
   "quotes": [
     {
-      "text": "Breathing in, I calm my body. Breathing out, I smile.",
-      "attribution": "Thich Nhat Hanh, a widely used verse from his broader teaching reflected in the Mindfulness Essentials series",
-      "category": "Presence and the Breath"
+      "text": "Whenever animals in the forest are wounded, they rest. They look for a very quiet place and just stay there without moving for many days.",
+      "attribution": "Thich Nhat Hanh, How to Relax",
+      "category": "Rest & Healing"
+    },
+    {
+      "text": "We have to relearn the art of resting. Even when we have a vacation, we don't know how to make use of it. Very often we are more tired after a vacation than before it.",
+      "attribution": "Thich Nhat Hanh, How to Relax",
+      "category": "Rest & Healing"
+    },
+    {
+      "text": "If we can't rest, it's because we haven't stopped running. We began running a long time ago.",
+      "attribution": "Thich Nhat Hanh, How to Relax",
+      "category": "Rest & Healing"
+    },
+    {
+      "text": "Resting is almost as beneficial as sleeping, and you'll know you're doing the best that you can.",
+      "attribution": "Thich Nhat Hanh, How to Relax",
+      "category": "Rest & Healing"
+    },
+    {
+      "text": "A lazy day is a chance to train ourselves not to be afraid of doing nothing.",
+      "attribution": "Thich Nhat Hanh, How to Relax",
+      "category": "Rest & Healing"
+    },
+    {
+      "text": "When we have tension in our body, we can't sleep well or eat well.",
+      "attribution": "Thich Nhat Hanh, How to Relax",
+      "category": "Rest & Healing"
+    },
+    {
+      "text": "Mindful breathing helps us to relearn the art of resting. Mindful breathing is like a loving parent cradling a baby, saying, 'Don't worry, I'll take good care of you; just rest.'",
+      "attribution": "Thich Nhat Hanh, How to Relax",
+      "category": "Mindful Breathing"
+    },
+    {
+      "text": "Your breathing is a stable, solid ground where you can take refuge. No matter what thoughts, emotions, and perceptions are going on inside you, your breath is always there, like a faithful friend.",
+      "attribution": "Thich Nhat Hanh, How to Relax",
+      "category": "Mindful Breathing"
+    },
+    {
+      "text": "Breathing in, I know I am breathing in. Breathing out, I know I am breathing out.",
+      "attribution": "Thich Nhat Hanh, How to Relax",
+      "category": "Mindful Breathing"
+    },
+    {
+      "text": "Calmness in us; we just need to know how to make it manifest.",
+      "attribution": "Thich Nhat Hanh, How to Relax",
+      "category": "Mindful Breathing"
+    },
+    {
+      "text": "To be mindful is to be truly present with your body and your mind, to harmonize your intentions and actions, and to be in harmony with those around you.",
+      "attribution": "Thich Nhat Hanh, How to Relax",
+      "category": "Mindfulness in Daily Life"
+    },
+    {
+      "text": "It's not because you have the intention to relax that you can relax.",
+      "attribution": "Thich Nhat Hanh, How to Relax",
+      "category": "Mindfulness in Daily Life"
+    },
+    {
+      "text": "To be mindful is already to be awakened.",
+      "attribution": "Thich Nhat Hanh, How to Relax",
+      "category": "Mindfulness in Daily Life"
+    },
+    {
+      "text": "Action must be based on non-action.",
+      "attribution": "Thich Nhat Hanh, How to Relax",
+      "category": "Mindfulness in Daily Life"
+    },
+    {
+      "text": "The world needs joyous and loving people who are capable of just being.",
+      "attribution": "Thich Nhat Hanh, How to Relax",
+      "category": "Mindfulness in Daily Life"
+    },
+    {
+      "text": "Bringing your mind home to your body, you become established in the here and the now.",
+      "attribution": "Thich Nhat Hanh, How to Relax",
+      "category": "Mindfulness in Daily Life"
+    },
+    {
+      "text": "Everyone who participates and everyone who witnesses this collective practice has a chance to get in touch with the energy of peace, freedom, healing, and joy.",
+      "attribution": "Thich Nhat Hanh, How to Relax",
+      "category": "Community & Collective Practice"
+    },
+    {
+      "text": "When we practice together as a community, our practice of mindfulness becomes more joyful, more relaxed, and steady.",
+      "attribution": "Thich Nhat Hanh, How to Relax",
+      "category": "Community & Collective Practice"
+    },
+    {
+      "text": "Even if nobody else knows you are meditating, the energy you produce is very beneficial for you and for the world.",
+      "attribution": "Thich Nhat Hanh, How to Relax",
+      "category": "Community & Collective Practice"
     }
   ],
   "conceptsFrameworks": [
@@ -112,5 +202,5 @@
   "personalRating": null,
   "personalNotes": "",
   "dateAdded": "2026-07-31",
-  "sourceNotes": "Two-part Notes/Meditations structure confirmed as consistent across the Mindfulness Essentials series via publisher descriptions found through web search; whole-book and section summaries are original synthesis based on that verified structure and general knowledge of Thich Nhat Hanh's teaching on breath and relaxation. Only two short quotes were verified through available sources rather than the requested full range, reflecting both the book's brief pocket format and strict limits on reproducing material from any single source; this is flagged as a \"thin quote footprint\" case.\n\n---"
+  "sourceNotes": "Two-part Notes/Meditations structure confirmed as consistent across the Mindfulness Essentials series via publisher descriptions found through web search; whole-book and section summaries are original synthesis based on that verified structure and general knowledge of Thich Nhat Hanh's teaching on breath and relaxation. Only two short quotes were verified through available sources rather than the requested full range, reflecting both the book's brief pocket format and strict limits on reproducing material from any single source; this is flagged as a \"thin quote footprint\" case.\n\n---\n\nQuote verification (session 23, quote retrofit pass): the prior quote -- verify status uncertain -- was superseded by a fuller, more rigorously sourced set. 19 quotes sourced from Bookey.app's page-numbered chapter extraction specific to \"How to Relax\" (pages 10-50, matching this book's own table of contents: rest, mindful breathing, community practice), deliberately avoiding generic Thich Nhat Hanh quote aggregators that don't specify source book, given the high cross-book contamination risk across this library's 15 Thich Nhat Hanh titles."
 }

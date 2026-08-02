@@ -102,13 +102,7 @@
     "Financial planning should serve your authentic purpose rather than become an end in itself.",
     "A genuinely prosperous life requires alignment across mindset, purpose, habits, career, relationships, health, and finances together."
   ],
-  "quotes": [
-    {
-      "text": "Người thông minh là người học được nhiều từ sai lầm của mình, còn người thông thái là người học được nhiều bài học từ thành công và thất bại của người khác.",
-      "attribution": "Thái Phạm, *Thiết Kế Cuộc Đời Thịnh Vượng* (\"A smart person learns a lot from their own mistakes, but a wise person learns from the successes and failures of others.\")",
-      "category": "Wisdom from Mistakes"
-    }
-  ],
+  "quotes": [],
   "conceptsFrameworks": [
     {
       "name": "Bảy Trụ Cột Cuộc Đời Thịnh Vượng (The Seven Pillars of a Prosperous Life)",
@@ -158,5 +152,5 @@
   "personalRating": null,
   "personalNotes": "",
   "dateAdded": "2026-07-31",
-  "sourceNotes": "Author background and book structure (seven chapters, memoir-guide hybrid format, newer-edition additions) were confirmed via web search of Vietnamese-language sources. Only one quote could be reliably verified as verbatim from available research; the quote list is intentionally short rather than padded.\n\n---"
+  "sourceNotes": "Author background and book structure (seven chapters, memoir-guide hybrid format, newer-edition additions) were confirmed via web search of Vietnamese-language sources. Only one quote could be reliably verified as verbatim from available research; the quote list is intentionally short rather than padded.\n\n---\n\nQuote retrofit pass (session 23): the prior single quote could not be re-confirmed against any primary source. The only \"quotes\" source found (a bookfun.vn listicle) reads as SEO/AI-generated filler with invented meaning/application annotations, not verbatim excerpts, and could not be cross-checked against a second source. Discarded both the old and any candidate new quotes rather than pass off unverifiable paraphrases as exact wording. No quotes added."
 }

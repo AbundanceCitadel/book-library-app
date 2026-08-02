@@ -80,13 +80,7 @@
     "Select team members for shared client-centered values as well as technical skill when scaling a practice.",
     "Build systems that preserve client experience quality as a practice grows beyond what one advisor can personally serve."
   ],
-  "quotes": [
-    {
-      "text": "How do you deliver raving results for your clients, and thrill them beyond measure?",
-      "attribution": "publisher/retailer description of Secrets to Become a Trusted Financial Advisor Everyone Raves About, Mark Purnell",
-      "category": "Client Relationships (publisher-sourced promotional framing, not verified as direct in-text quotation)"
-    }
-  ],
+  "quotes": [],
   "conceptsFrameworks": [
     {
       "name": "The Practice Plateau",
@@ -132,5 +126,5 @@
   "personalRating": null,
   "personalNotes": "",
   "dateAdded": "2026-07-31",
-  "sourceNotes": "Web search confirmed the book's full title, author background, page count (232 pages), 2018 self-published (CreateSpace) release, and its publisher/retailer description of core themes and promised takeaways, but did not surface a verified literal chapter-by-chapter table of contents; the Sections above are organized by well-supported thematic grouping drawn from that description rather than the book's exact original chapter titles or sequence, which is flagged per this project's instruction not to invent unverified structure. For the same reason, the Highlights & Quotes section relies only on short lines already used verbatim in publisher/retailer descriptions rather than a fuller set of in-text quotations that could not be independently verified."
+  "sourceNotes": "Web search confirmed the book's full title, author background, page count (232 pages), 2018 self-published (CreateSpace) release, and its publisher/retailer description of core themes and promised takeaways, but did not surface a verified literal chapter-by-chapter table of contents; the Sections above are organized by well-supported thematic grouping drawn from that description rather than the book's exact original chapter titles or sequence, which is flagged per this project's instruction not to invent unverified structure. For the same reason, the Highlights & Quotes section relies only on short lines already used verbatim in publisher/retailer descriptions rather than a fuller set of in-text quotations that could not be independently verified.\n\nQuote retrofit pass (session 23): the prior quote was explicitly marked as unverified promotional framing -- discarded. Confirmed as niche/obscure with essentially no public excerpt footprint (Goodreads, Amazon, Bookey, Indigo, LinkedIn reviews, and the author's own site all lack a quotes page or verbatim excerpts). No quotes added."
 }

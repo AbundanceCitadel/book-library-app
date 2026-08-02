@@ -80,7 +80,143 @@
     "Many painful emotional patterns share the common feature of pulling attention into the past or future rather than the present.",
     "Returning attention to present sensory experience is a repeatable, practical tool for interrupting rumination."
   ],
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "Không có thiên đường nào chỉ toàn là hạnh phúc bởi ý niệm hạnh phúc chỉ có khi con người biết cảm nhận khổ đau.",
+      "attribution": "Minh Niệm, Hiểu Về Trái Tim",
+      "category": "Hạnh Phúc & Khổ Đau"
+    },
+    {
+      "text": "Hạnh phúc không thể thiếu khổ đau và cũng không thể tách rời với khổ đau. Vậy còn nơi nào tuyệt diệu hơn cõi đời này, vì nó có cả hạnh phúc lẫn khổ đau!",
+      "attribution": "Minh Niệm, Hiểu Về Trái Tim",
+      "category": "Hạnh Phúc & Khổ Đau"
+    },
+    {
+      "text": "Tâm ta như thế nào thì ta sẽ cảm nhận hạnh phúc như thế ấy. Bởi hạnh phúc vốn luôn có sẵn trong tâm ta - ở đây và ngay bây giờ.",
+      "attribution": "Minh Niệm, Hiểu Về Trái Tim",
+      "category": "Hạnh Phúc & Khổ Đau"
+    },
+    {
+      "text": "Ta cứ bỏ hình bắt bóng, đứng núi này trông núi nọ. Rốt cuộc, ta chẳng biết hạnh phúc là gì cả.",
+      "attribution": "Minh Niệm, Hiểu Về Trái Tim",
+      "category": "Hạnh Phúc & Khổ Đau"
+    },
+    {
+      "text": "Chính cái khổ đau ấy sẽ giúp ta nhận ra được giá trị của hạnh phúc. Cho nên ta đừng sợ khổ đau, cũng đừng chia cắt rạch ròi giữa hạnh phúc và khổ đau, vì nếu không có khổ đau thì ta sẽ không biết thế nào là hạnh phúc.",
+      "attribution": "Minh Niệm, Hiểu Về Trái Tim",
+      "category": "Hạnh Phúc & Khổ Đau"
+    },
+    {
+      "text": "Muốn nắm bắt được sự sống, ta phải luyện cho mình có khả năng đặt nỗi lo lắng trong một khuôn khổ thích hợp.",
+      "attribution": "Minh Niệm, Hiểu Về Trái Tim",
+      "category": "Tâm An & Chấp Nhận"
+    },
+    {
+      "text": "Chỉ khi nào tâm ta không còn những khắc khoải mong cầu hay chống đối, chấp nhận và tùy thuận mọi hoàn cảnh thì ta mới nếm được chất liệu bình yên và hạnh phúc chân thật.",
+      "attribution": "Minh Niệm, Hiểu Về Trái Tim",
+      "category": "Tâm An & Chấp Nhận"
+    },
+    {
+      "text": "Không có con đường nào đưa tới sự thảnh thơi mà bản thân nó không phải là thảnh thơi.",
+      "attribution": "Minh Niệm, Hiểu Về Trái Tim",
+      "category": "Tâm An & Chấp Nhận"
+    },
+    {
+      "text": "Không ai có thể làm cho ta khổ được cả, nếu ta có hiểu biết đúng đắn và khả năng chấp nhận đủ lớn.",
+      "attribution": "Minh Niệm, Hiểu Về Trái Tim",
+      "category": "Tâm An & Chấp Nhận"
+    },
+    {
+      "text": "Dù ta có tài năng đến đâu, dù ta có chuẩn bị kỹ lưỡng đến mức nào thì những điều bất như ý vẫn cứ xảy ra theo lẽ tự nhiên của nó.",
+      "attribution": "Minh Niệm, Hiểu Về Trái Tim",
+      "category": "Tâm An & Chấp Nhận"
+    },
+    {
+      "text": "Tình thương là món quà quý nhất mà ai cũng cần. Dù ta hiến tặng bất cứ món quà nào thì tấm lòng chân thật mới thật sự quyết định nên giá trị đích thực của sự hiến tặng.",
+      "attribution": "Minh Niệm, Hiểu Về Trái Tim",
+      "category": "Tình Yêu & Tình Thương"
+    },
+    {
+      "text": "Tình yêu có thật hay không là tùy thuộc vào sức mạnh và dung lượng trái tim của mỗi người. Bí quyết là ta phải luôn tỉnh táo để nhận ra mình và hiểu được người mình thương.",
+      "attribution": "Minh Niệm, Hiểu Về Trái Tim",
+      "category": "Tình Yêu & Tình Thương"
+    },
+    {
+      "text": "Lòng phải hiểu được lòng mới là tình thương chân thật.",
+      "attribution": "Minh Niệm, Hiểu Về Trái Tim",
+      "category": "Tình Yêu & Tình Thương"
+    },
+    {
+      "text": "Một tình yêu đích thực phải chứa đựng tình thương, phải có thái độ muốn hiến tặng và chia sớt để nâng đỡ cuộc đời của nhau.",
+      "attribution": "Minh Niệm, Hiểu Về Trái Tim",
+      "category": "Tình Yêu & Tình Thương"
+    },
+    {
+      "text": "Tình yêu cũng như một loại cây xanh, nếu ta không biết cách chăm sóc dưỡng nuôi hoặc thừa hoặc thiếu thì nó sẽ héo tàn và lụn bại.",
+      "attribution": "Minh Niệm, Hiểu Về Trái Tim",
+      "category": "Tình Yêu & Tình Thương"
+    },
+    {
+      "text": "Sống mà không yêu thương thì sự sống đâu còn ý nghĩa gì nữa. Hãy cứ yêu đi. Càng yêu ta sẽ thấy cuộc đời này càng thêm mầu nhiệm.",
+      "attribution": "Minh Niệm, Hiểu Về Trái Tim",
+      "category": "Tình Yêu & Tình Thương"
+    },
+    {
+      "text": "Tha thứ luôn là linh dược có thể chữa trị mọi nỗi khổ niềm đau cho kẻ được tha thứ và cả người tha thứ.",
+      "attribution": "Minh Niệm, Hiểu Về Trái Tim",
+      "category": "Cơn Giận, Tha Thứ & Lắng Nghe"
+    },
+    {
+      "text": "Khi nào ta vẫn còn quá quan trọng và luôn tìm cách nâng niu cái tôi của mình thì cơn giận sẽ vẫn còn. Trong khi đó tình thương là \"khắc tinh\" của cơn giận.",
+      "attribution": "Minh Niệm, Hiểu Về Trái Tim",
+      "category": "Cơn Giận, Tha Thứ & Lắng Nghe"
+    },
+    {
+      "text": "Nhẫn nhục không phải là thái độ hèn nhất mà đó là sự tập mở rộng dung lượng trái tim để chứa đựng được những khó khăn lớn hơn.",
+      "attribution": "Minh Niệm, Hiểu Về Trái Tim",
+      "category": "Cơn Giận, Tha Thứ & Lắng Nghe"
+    },
+    {
+      "text": "Phải lắng nghe và thấu hiểu chính mình thì ta mới lắng nghe và thấu hiểu được những kẻ khác.",
+      "attribution": "Minh Niệm, Hiểu Về Trái Tim",
+      "category": "Cơn Giận, Tha Thứ & Lắng Nghe"
+    },
+    {
+      "text": "Đừng lắng nghe một cách hình thức mà làm hư tâm mình. Một khi đánh mất khả năng lắng nghe chân thật, ta sẽ đánh mất cơ hội thấu hiểu chân thật.",
+      "attribution": "Minh Niệm, Hiểu Về Trái Tim",
+      "category": "Cơn Giận, Tha Thứ & Lắng Nghe"
+    },
+    {
+      "text": "Thà tha lầm còn hơn chấp lỡ.",
+      "attribution": "Minh Niệm, Hiểu Về Trái Tim",
+      "category": "Cơn Giận, Tha Thứ & Lắng Nghe"
+    },
+    {
+      "text": "Ta phải có khả năng thu dọn bớt những nhu cầu thỏa mãn sự ích kỷ thì trái tim mới có chỗ để chứa đựng người khác. Nên nhớ, càng vị kỷ thì càng không thể vị tha.",
+      "attribution": "Minh Niệm, Hiểu Về Trái Tim",
+      "category": "Cơn Giận, Tha Thứ & Lắng Nghe"
+    },
+    {
+      "text": "Nếu chúng ta luôn tỏ lòng biết ơn nhau thì mọi vết thương sẽ mau lành, khó khăn nào cũng vượt qua, đỉnh cao nào cũng sẽ đạt tới.",
+      "attribution": "Minh Niệm, Hiểu Về Trái Tim",
+      "category": "Tham Vọng & Thành Công"
+    },
+    {
+      "text": "Một kẻ sống không có đạo đức mới đích thực là một kẻ thất bại thảm hại.",
+      "attribution": "Minh Niệm, Hiểu Về Trái Tim",
+      "category": "Tham Vọng & Thành Công"
+    },
+    {
+      "text": "Cuộc đời này không có cái thành công lớn hay nhỏ, mà chỉ có cái đem tới cảm xúc nhất thời hay giá trị hạnh phúc chân thật mà thôi.",
+      "attribution": "Minh Niệm, Hiểu Về Trái Tim",
+      "category": "Tham Vọng & Thành Công"
+    },
+    {
+      "text": "Chỉ cần hiểu câu chuyện của trái tim, tự khắc, mỗi người sẽ quyết định được câu chuyện của chính mình.",
+      "attribution": "Minh Niệm, Hiểu Về Trái Tim",
+      "category": "Tham Vọng & Thành Công"
+    }
+  ],
   "conceptsFrameworks": [
     {
       "name": "Nhận Diện Cảm Xúc (Emotional Recognition)",
@@ -129,5 +265,5 @@
   "personalRating": null,
   "personalNotes": "",
   "dateAdded": "2026-07-31",
-  "sourceNotes": "Synthesis based on well-established general knowledge of the book's essay-based structure, core recurring themes (emotional recognition, love and possessiveness, jealousy and comparison, self-forgiveness, present-moment awareness), and its status as a major Vietnamese bestseller. This entry was not built from direct, verified access to the book's full original Vietnamese text in this research pass, so section groupings represent a reasonable thematic reconstruction of its well-documented content rather than a confirmed table of contents, and no direct quotations are included — see the flag under Highlights & Quotes.\n\n---"
+  "sourceNotes": "Synthesis based on well-established general knowledge of the book's essay-based structure, core recurring themes (emotional recognition, love and possessiveness, jealousy and comparison, self-forgiveness, present-moment awareness), and its status as a major Vietnamese bestseller. This entry was not built from direct, verified access to the book's full original Vietnamese text in this research pass, so section groupings represent a reasonable thematic reconstruction of its well-documented content rather than a confirmed table of contents, and no direct quotations are included — see the flag under Highlights & Quotes.\n\n---\n\nQuote verification (session 23, quote retrofit pass): 27 quotes cross-checked between bookcity.vn's 66-quote compilation explicitly attributed to Hieu Ve Trai Tim (not Lam Nhu Choi, the library's other Minh Niem title) and Goodreads' book-specific quotes page (exact-text match on 2 lines), with a targeted spot-check confirming \"Tha tha lam con hon chap lo\" against independent Vietnamese press coverage of the book. Cross-checked against lam-nhu-choi to guard against cross-book contamination — no overlap found."
 }

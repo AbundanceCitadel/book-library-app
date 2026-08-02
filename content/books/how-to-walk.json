@@ -52,9 +52,29 @@
   ],
   "quotes": [
     {
-      "text": "Peace is every step.",
-      "attribution": "Thich Nhat Hanh, a widely used core teaching phrase closely associated with his walking meditation instruction, reflected throughout his broader body of work",
-      "category": "Gratitude for the Ordinary"
+      "text": "When you walk, arrive with every step. That is walking meditation. There's nothing else to it.",
+      "attribution": "Thich Nhat Hanh, How to Walk",
+      "category": "Walking Meditation"
+    },
+    {
+      "text": "When we walk, we can walk for our ancestors and future generations. Maybe they had to walk with sorrow; perhaps they were forced to march or migrate. When we walk freely, we are walking for them.",
+      "attribution": "Thich Nhat Hanh, How to Walk",
+      "category": "Ancestors and Legacy"
+    },
+    {
+      "text": "Walk slowly, but not so slowly that you draw too much attention to yourself. This is a kind of invisible practice. Enjoy nature and your own serenity without making others uncomfortable or making a show of it.",
+      "attribution": "Thich Nhat Hanh, How to Walk",
+      "category": "Practical Guidance"
+    },
+    {
+      "text": "In. Out. Deep. Slow. Calm. Ease. Smile. Release. Present moment. Wonderful moment.",
+      "attribution": "Thich Nhat Hanh, How to Walk",
+      "category": "Breathing Verses"
+    },
+    {
+      "text": "In every one of us, there's a tendency to run. There's a belief that happiness is not possible here and now, so we have the tendency to run into the future in order to look for happiness.",
+      "attribution": "Thich Nhat Hanh, How to Walk",
+      "category": "Presence and Happiness"
     }
   ],
   "conceptsFrameworks": [
@@ -112,5 +132,5 @@
   "personalRating": null,
   "personalNotes": "",
   "dateAdded": "2026-07-31",
-  "sourceNotes": "Two-part Notes/Meditations structure confirmed as consistent across the Mindfulness Essentials series via publisher descriptions found through web search; whole-book and section summaries are original synthesis based on that verified structure and general knowledge of Thich Nhat Hanh's teaching on walking meditation. Only two short quotes were verified through available sources rather than the requested full range, reflecting both the book's brief pocket format and strict limits on reproducing material from any single source; this is flagged as a \"thin quote footprint\" case."
+  "sourceNotes": "Two-part Notes/Meditations structure confirmed as consistent across the Mindfulness Essentials series via publisher descriptions found through web search; whole-book and section summaries are original synthesis based on that verified structure and general knowledge of Thich Nhat Hanh's teaching on walking meditation. Only two short quotes were verified through available sources rather than the requested full range, reflecting both the book's brief pocket format and strict limits on reproducing material from any single source; this is flagged as a \"thin quote footprint\" case.\n\nQuote verification (session 23, quote retrofit pass): the prior single quote (\"Peace is every step\") was confirmed misattributed -- it's the title of a different Thich Nhat Hanh book already in this library (peace-is-every-step) -- and discarded. 5 replacement quotes verified against Goodreads' book-specific work-quotes page for \"How to Walk (Mindfulness Essentials, #4)\" and one individual quote page explicitly tagged \"This Quote Is From: How to Walk,\" given the high cross-book contamination risk across this library's 15 Thich Nhat Hanh titles. The full Goodreads work-quotes page (~17 quotes) could not be completely loaded this pass -- this is a partial, conservative set; a future pass could likely reach closer to 20."
 }

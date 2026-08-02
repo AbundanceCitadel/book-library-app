@@ -50,7 +50,18 @@
     "Ground your read on someone in multiple consistent cues, not a single isolated signal.",
     "Apply the same underlying diagnostic principles across personal, professional, and transactional relationships."
   ],
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "Whenever you are questioning a person's desire for something, consider what he does, not necessarily what he says.",
+      "attribution": "David J. Lieberman, You Can Read Anyone",
+      "category": "Reading People"
+    },
+    {
+      "text": "If you know how much reality is getting in, then you know a great deal about what a person sees to be true.",
+      "attribution": "David J. Lieberman, You Can Read Anyone",
+      "category": "Perception & Truth"
+    }
+  ],
   "conceptsFrameworks": [
     {
       "name": "The S.N.A.P. Approach",
@@ -101,5 +112,5 @@
   "personalRating": null,
   "personalNotes": "",
   "dateAdded": "2026-07-31",
-  "sourceNotes": "Synthesis is based on general knowledge of David J. Lieberman's well-known \"You Can Read Anyone\" and its S.N.A.P.-based, question-driven approach, cross-checked against Vietnamese-language search results describing this specific translated edition's two-part structure (\"Bảy câu hỏi cơ bản\" / Seven Basic Questions, and a second part on understanding decision-making). I want to flag clearly, as noted at the top of the Summary, that your original catalog entry combined two unrelated books under one title/slug — this entry covers only the Lieberman book matching the given author; \"Kế Toán Vỉa Hè\" (The Accounting Game, by Mullis & Orloff) is a separate, unrelated title that should get its own entry if you want it included. Quotes section is intentionally thin and flagged rather than padded, since verified exact-wording passages could not be confidently located.\n\n---"
+  "sourceNotes": "Synthesis is based on general knowledge of David J. Lieberman's well-known \"You Can Read Anyone\" and its S.N.A.P.-based, question-driven approach, cross-checked against Vietnamese-language search results describing this specific translated edition's two-part structure (\"Bảy câu hỏi cơ bản\" / Seven Basic Questions, and a second part on understanding decision-making). I want to flag clearly, as noted at the top of the Summary, that your original catalog entry combined two unrelated books under one title/slug — this entry covers only the Lieberman book matching the given author; \"Kế Toán Vỉa Hè\" (The Accounting Game, by Mullis & Orloff) is a separate, unrelated title that should get its own entry if you want it included. Quotes section is intentionally thin and flagged rather than padded, since verified exact-wording passages could not be confidently located.\n\n---\n\nQuote verification (session 23, quote retrofit pass): 2 quotes confirmed via cross-check of Goodreads' work-specific quote page against AZQuotes' page-cited entries (p.61, p.109) for this specific title. David J. Lieberman has ~11 books with many similar-sounding quotes circulating online attributed only to \"Lieberman\" with no work specified; excluded all quotes independently traceable by AZQuotes to other Lieberman titles (Never Be Lied to Again, Mindreader, Get Anyone to Do Anything, Make Peace with Anyone, Find Out Who's Normal and Who's Not, Executive Power) per this project's cross-book contamination standard. No accessible excerpt of the Vietnamese translation itself was found, so quotes are the verified English originals."
 }

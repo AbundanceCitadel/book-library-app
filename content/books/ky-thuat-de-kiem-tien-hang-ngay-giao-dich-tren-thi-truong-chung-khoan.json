@@ -123,9 +123,49 @@
   ],
   "quotes": [
     {
-      "text": "Day trading can be an extremely profitable career, but it is a serious profession that requires proper training, capital, and discipline — not a way to get rich quick.",
-      "attribution": "Andrew Aziz, paraphrased framing repeated throughout the book's introduction (paraphrase, not exact wording)",
-      "category": "Trading as a Profession"
+      "text": "Day trading is not a strategy to get rich quickly.",
+      "attribution": "Andrew Aziz, How to Day Trade for a Living",
+      "category": "Trading Mindset"
+    },
+    {
+      "text": "Day trading is not easy. It is a serious business, and you should treat it as such.",
+      "attribution": "Andrew Aziz, How to Day Trade for a Living",
+      "category": "Trading Mindset"
+    },
+    {
+      "text": "Emotional trading is the number one reason traders fail.",
+      "attribution": "Andrew Aziz, How to Day Trade for a Living",
+      "category": "Trading Psychology"
+    },
+    {
+      "text": "Success in trading is not a revolution, it is an evolution.",
+      "attribution": "Andrew Aziz, How to Day Trade for a Living",
+      "category": "Trading Psychology"
+    },
+    {
+      "text": "The main objective of day trading is to take money from other traders while they are trying to take yours.",
+      "attribution": "Andrew Aziz, How to Day Trade for a Living",
+      "category": "Market Reality"
+    },
+    {
+      "text": "You do not generate money in the stock market. The only reason there is money in the market is that other traders have put it there.",
+      "attribution": "Andrew Aziz, How to Day Trade for a Living",
+      "category": "Market Reality"
+    },
+    {
+      "text": "Day trading looks deceptively easy, but it is not.",
+      "attribution": "Andrew Aziz, How to Day Trade for a Living",
+      "category": "Market Reality"
+    },
+    {
+      "text": "Profits in trading do not come from reading one or two books, but, as I will explain later, profits can come with practice, the right tools and software, and proper ongoing education.",
+      "attribution": "Andrew Aziz, How to Day Trade for a Living",
+      "category": "Education & Preparation"
+    },
+    {
+      "text": "The 2% rule: no matter how good of an opportunity, you may not risk more than 2% of your account in one trade. Live to trade another day.",
+      "attribution": "Andrew Aziz, How to Day Trade for a Living",
+      "category": "Risk Management"
     }
   ],
   "conceptsFrameworks": [
@@ -182,5 +222,5 @@
   "personalRating": null,
   "personalNotes": "",
   "dateAdded": "2026-07-31",
-  "sourceNotes": "Based on general knowledge of Day Trade for a Living's well-established structure and content, cross-checked against Vietnamese bookseller descriptions and the confirmed related-title chapter list found via web search for the companion \"Advanced\" book; exact Vietnamese-edition chapter titles were not independently verified against the physical translation, and the quote section was kept minimal given uncertainty about verified exact wording in translation.\n\n---"
+  "sourceNotes": "Based on general knowledge of Day Trade for a Living's well-established structure and content, cross-checked against Vietnamese bookseller descriptions and the confirmed related-title chapter list found via web search for the companion \"Advanced\" book; exact Vietnamese-edition chapter titles were not independently verified against the physical translation, and the quote section was kept minimal given uncertainty about verified exact wording in translation.\n\n---\n\nQuote verification (session 23, quote retrofit pass): the prior quote was an explicit paraphrase (\"not exact wording\") -- discarded. 9 quotes sourced from a direct primary-text read of the actual book (not Goodreads, whose \"work\" page for this title is mismerged -- every quote shown there is explicitly attributed on-page to the sequel, Advanced Techniques in Day Trading, despite the URL claiming this book; none of those were used). Kept deliberately conservative and well under target since only the early chapters were accessible this pass; the library's other Aziz title (ky-thuat-giao-dich-de-kiem-tien-hang-ngay-nang-cao) was independently verified with no overlap. English-original wording; Vietnamese translation text not located online."
 }

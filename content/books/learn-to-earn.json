@@ -72,9 +72,29 @@
   ],
   "quotes": [
     {
-      "text": "Know what you own, and know why you own it.",
-      "attribution": "Peter Lynch (attributed principle widely associated with Lynch's investing philosophy)",
-      "category": "Investing Philosophy"
+      "text": "Public companies are everywhere, and they surround you from morning to night... Nearly everything you eat, wear, read, listen to, ride in, lie on, or gargle with is made by one. Perfume to penknives, hot tubs to hot dogs, nuts to nail polish are made by businesses that you can own.",
+      "attribution": "Peter Lynch and John Rothchild, Learn to Earn",
+      "category": "Understanding Business"
+    },
+    {
+      "text": "There's no shame in losing money on a stock, or worse, to buy more of it when the fundamentals are deteriorating.",
+      "attribution": "Peter Lynch and John Rothchild, Learn to Earn",
+      "category": "Investing Principles"
+    },
+    {
+      "text": "Find something you enjoy doing and give it everything you've got, and the money will take care of itself.",
+      "attribution": "Peter Lynch and John Rothchild, Learn to Earn",
+      "category": "Career and Purpose"
+    },
+    {
+      "text": "A person who owns property and has a stake in the enterprise is likely to work harder and feel happier and do a better job than a person who doesn't.",
+      "attribution": "Peter Lynch and John Rothchild, Learn to Earn",
+      "category": "Ownership and Capitalism"
+    },
+    {
+      "text": "This is a crucial safeguard of our capitalist system, because if shareholders could be sued whenever a company made a mistake, people like you and me would be afraid to buy shares and become investors.",
+      "attribution": "Peter Lynch and John Rothchild, Learn to Earn",
+      "category": "Ownership and Capitalism"
     }
   ],
   "whoThisIsFor": "Complete beginners to investing and personal finance, including students, young adults, or anyone who has avoided the stock market because it feels intimidating or inaccessible.",
@@ -126,5 +146,5 @@
   "personalRating": null,
   "personalNotes": "",
   "dateAdded": "2026-08-01",
-  "sourceNotes": "Synthesis is based on general knowledge of Peter Lynch's public investing philosophy and the well-documented structure and purpose of Learn to Earn as a beginner-oriented history-and-basics primer; the book's public quote footprint is thin outside of Lynch's more famous quotes from his other books, so only one widely and consistently attributed line is included here rather than padding with unverifiable material — treat the Highlights & Quotes section as intentionally minimal for that reason."
+  "sourceNotes": "Synthesis is based on general knowledge of Peter Lynch's public investing philosophy and the well-documented structure and purpose of Learn to Earn as a beginner-oriented history-and-basics primer; the book's public quote footprint is thin outside of Lynch's more famous quotes from his other books, so only one widely and consistently attributed line is included here rather than padding with unverifiable material — treat the Highlights & Quotes section as intentionally minimal for that reason.\n\nQuote verification (session 23, quote retrofit pass): the prior single quote (\"Know what you own, and know why you own it\") was confirmed strongly associated with Lynch's other book, One Up on Wall Street, not this one -- discarded per cross-book contamination standard. 5 replacement quotes verified via Goodreads' book-specific work-quotes page for \"Learn to Earn\" (work id 803472), independently cross-checked via two WebSearch queries returning identical text. The full ~17-quote Goodreads page could not be completely loaded this pass -- this is a partial, conservative set."
 }
