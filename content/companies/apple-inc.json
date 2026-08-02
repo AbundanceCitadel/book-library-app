@@ -10,7 +10,7 @@
   ],
   "overview": "Apple designs and sells consumer hardware (iPhone, Mac, iPad, Apple Watch), software, and services, and is one of a small handful of companies to have reached a $3 trillion market capitalization. Its business model has shifted over the past decade from being almost entirely hardware-revenue-driven toward a growing share from Services (App Store, subscriptions, licensing), which now makes up a significant and fast-growing minority of total revenue.\n\nApple is known for an unusually tight, design-led product development process, extensive secrecy around unreleased products, and a deliberately small public-facing leadership team relative to its size. Under Jobs, the culture was frequently described as demanding and occasionally combative in pursuit of design perfection; under Tim Cook, outside accounts generally describe a more operationally disciplined, less confrontational management style while maintaining the same secrecy and design-review rigor.",
   "foundingStory": "Steve Jobs, Steve Wozniak, and Ronald Wayne founded Apple Computer Company on April 1, 1976, initially to sell Wozniak's hand-built Apple I computer kits. Wayne, the least well-known of the three founders, sold his 10% stake back to Jobs and Wozniak for $800 just twelve days later, reportedly wary of the personal financial liability of a partnership structure — a stake that would have been worth well over $100 billion at Apple's peak valuation decades later, making it one of the most cited \"what if\" stories in business history. The Apple II (1977) was the company's first mass-market commercial success, followed by the Macintosh in 1984, which introduced the graphical user interface to a mainstream consumer audience.",
-  "businessModelProducts": "",
+  "businessModelProducts": "Apple's core business model is a hardware-led ecosystem with software and services as the retention and monetization layer. It designs its own chips (the Apple Silicon M-series and A-series processors) and operating systems (iOS, macOS, watchOS) in-house so hardware and software ship as one tightly matched product, then extends that ecosystem's stickiness through Services — the App Store's commission on third-party app sales, iCloud storage subscriptions, Apple Music, Apple TV+, and AppleCare. The iPhone remains the single largest revenue driver by a wide margin, but Services has become Apple's fastest-growing and highest-margin segment, which is exactly why the App Store's commission structure has drawn sustained antitrust scrutiny. Unlike most PC-era hardware makers, Apple has never chased the low end of the market on price — its strategy has consistently been to compete on design, integration, and margin rather than volume-at-any-cost.",
   "growthTimeline": [
     {
       "period": "1976",
@@ -59,10 +59,22 @@
       "role": "Co-Founder"
     }
   ],
-  "legacyImpact": "",
-  "lessonsForEntrepreneurs": [],
+  "legacyImpact": "Apple didn't invent the personal computer, the MP3 player, the smartphone, or the tablet, but in each case it redefined what a mass-market version of that category should look and feel like — the iPhone in particular reset the entire mobile industry around touchscreens and app stores, forcing every competitor to follow. The App Store model it pioneered in 2008 became the default distribution and monetization structure copied by essentially every other software platform. Beyond products, Apple popularized a design-led, ruthlessly simplified approach to consumer technology — visible in its retail stores, packaging, and marketing as much as its hardware — that reshaped customer expectations across the entire tech industry, well beyond companies that compete with it directly.",
+  "lessonsForEntrepreneurs": [
+    "Vertical integration — owning both the hardware and the software stack — can be a durable moat precisely because it's hard and expensive to copy, not despite that.",
+    "Saying no to far more ideas than you say yes to (Jobs's own stated philosophy) is what makes a tightly focused product line possible; Apple's catalog has stayed remarkably narrow for a company its size.",
+    "A near-death experience doesn't have to be terminal — Apple was months from bankruptcy in 1997 before the NeXT acquisition and Jobs's return reversed its trajectory entirely.",
+    "Design and user experience can be treated as a primary competitive strategy, not a cosmetic layer applied after the engineering is done.",
+    "Retail and brand experience (the Apple Store model) can be built as deliberately as the product itself, and can become a genuine differentiator rather than an afterthought."
+  ],
   "criticalTake": {
-    "points": []
+    "points": [
+      "Labor conditions across Apple's supply chain — most visibly at Foxconn's Chinese manufacturing facilities, including reports of excessive overtime, worker suicides in the early 2010s, and student/dispatch labor violations — have been a recurring criticism for over a decade, despite Apple's supplier-responsibility auditing program.",
+      "Apple has faced sustained antitrust scrutiny over the App Store's mandatory in-app payment system and up-to-30% commission, including the US Department of Justice's 2024 antitrust lawsuit, the EU's Digital Markets Act enforcement actions, and the Epic Games v. Apple litigation, which forced changes to how developers can direct users to outside payment options in some jurisdictions.",
+      "Right-to-repair advocates and regulators have criticized Apple's historical use of parts pairing, restrictive repair documentation, and design choices (glued batteries, proprietary screws) that made third-party and self-repair difficult — pressure that has pushed Apple toward self-service repair programs and support for right-to-repair legislation it once opposed.",
+      "Apple's premium pricing strategy and tightly closed ecosystem mean it captures outsized industry profit relative to its unit market share, which critics frame as a lock-in tax on loyal customers rather than a fair reflection of value delivered."
+    ],
+    "contextNote": "Labor and antitrust issues are ongoing and evolving (active litigation and regulatory proceedings as of this writing) rather than settled history."
   },
   "relatedIds": [
     {

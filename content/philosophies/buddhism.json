@@ -31,11 +31,22 @@
       "description": "a modern, practice-oriented text already represented in this library's book collection"
     }
   ],
-  "practiceToday": "",
-  "notableFollowers": [],
-  "legacyGlobalInfluence": "",
+  "practiceToday": "Buddhism today spans three major traditions that developed distinct emphases over centuries: Theravada ('Teaching of the Elders'), dominant in Sri Lanka and Southeast Asia, which hews closest to the earliest Pali Canon texts and emphasizes individual liberation through monastic discipline and meditation; Mahayana ('Great Vehicle'), dominant in China, Korea, and Japan, which broadened the tradition's aim toward liberating all beings and produced Zen and Pure Land Buddhism among other schools; and Vajrayana ('Diamond Vehicle'), centered in Tibet and the Himalayan region, which layers esoteric ritual and visualization practices onto Mahayana foundations. Lay practice today ranges from temple ritual and merit-making to serious meditation retreat, but the single biggest global shift of the last half-century has been the spread of Buddhist-derived meditation into secular Western contexts — mindfulness-based stress reduction, therapy, and workplace wellness programs draw directly on Buddhist meditation technique while deliberately stripping out its religious and metaphysical framework, a development that's proven both hugely popular and genuinely controversial within Buddhist communities themselves.",
+  "notableFollowers": [
+    "The 14th Dalai Lama (Tenzin Gyatso) — global spokesperson for Tibetan Buddhism and human rights since his 1959 exile from Tibet",
+    "Thich Nhat Hanh — Vietnamese Zen teacher who coined 'Engaged Buddhism' in 1967, already the subject of a dedicated category in this library",
+    "Ashoka the Great — 3rd-century BC Mauryan emperor whose conversion and patronage were pivotal in spreading Buddhism across ancient India and beyond",
+    "Bodhidharma — semi-legendary monk traditionally credited with carrying Chan/Zen practice from India into China"
+  ],
+  "legacyGlobalInfluence": "Buddhism shaped art, politics, philosophy, and daily life across most of Asia for roughly 2,500 years — from Ashoka's conversion and patronage in 3rd-century-BC India, to its transmission along the Silk Road into China, Korea, and Japan, to its central role in Tibetan and Southeast Asian statecraft and culture. In the 20th century, the tradition gained a major new global audience through figures who translated it for Western readers, most notably the Dalai Lama and Thich Nhat Hanh, whose 'Engaged Buddhism' linked meditation practice directly to social and political action. Beyond religious practice, Buddhist concepts and meditation techniques have become deeply embedded in Western psychology, clinical therapy, and the broader mindfulness movement, extending the tradition's influence into secular contexts its early adherents never anticipated.",
   "criticalTake": {
-    "points": []
+    "points": [
+      "Buddhism is not one unified doctrine but a family of often significantly divergent traditions (Theravada, Mahayana, Vajrayana, and dozens of schools within each) that disagree on core questions, including how literally to take rebirth and how central monastic versus lay practice should be.",
+      "Buddhist institutions have, at various points in history and into the present, been closely entangled with state power and nationalism rather than existing purely outside politics — most visibly in Sri Lanka and Myanmar, where Buddhist-nationalist movements have been directly implicated in ethnic and religious violence against minority populations, a sharp tension with the tradition's own core teaching of compassion (metta) toward all beings.",
+      "The Western 'mindfulness' movement has been criticized from within Buddhist communities as a commercialized, secularized extraction of meditation technique from its original ethical and philosophical framework, sold as a productivity or stress-management tool stripped of the tradition's teachings on non-self and liberation from craving.",
+      "Historical claims within the tradition — the Buddha's exact dates, the authenticity and dating of specific sutras, the reliability of oral transmission before texts were written down centuries after his death — are genuinely contested by modern textual scholars, not settled fact, even though they're often presented with more certainty in popular accounts."
+    ],
+    "contextNote": "This entry describes Buddhism at a global, cross-tradition level; a future dedicated Zen/Engaged Buddhism entry (already flagged in New Section Research/philosophies.md) would cover that particular school's own history and debates in more depth."
   },
   "relatedIds": [
     {

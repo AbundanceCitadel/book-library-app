@@ -645,7 +645,28 @@ continue depth-first on People/Quotes with any remaining authorBio-reuse
 candidates, or shift to breadth-first fresh research (subagent-dispatched)
 on the 6 research-required sections — the latter is increasingly the
 better use of a session, since the reuse-shortcut candidate pool is
-thinning out.
+thinning out. Session 32 (round 3) took a third
+direction: a depth pass backfilling the previously-empty tab fields on
+each of the 4 sections still at their original 1-entry Design Foundation
+scaffolding depth (Organizations, Companies, Civilizations, Philosophies),
+rather than either extending People/Quotes further or starting a 5th
+section's first entry. World Health Organization, Apple Inc., Roman
+Empire, and Buddhism now each have every required tab field populated
+(`structureHowItWorks`/`majorAchievements`/`keyPeople`/`byTheNumbers`/
+`criticalTake` for WHO; `businessModelProducts`/`legacyImpact`/
+`lessonsForEntrepreneurs`/`criticalTake` for Apple; `goldenAgePeak`/
+`societyCulture`/`declineFall`/`criticalTake` for Roman Empire;
+`practiceToday`/`notableFollowers`/`legacyGlobalInfluence`/`criticalTake`
+for Buddhism) — see `DECISIONS.md` #278-284. Section entry *counts* are
+unchanged (still 1 each); Rich List, Rulers, Organizations, Companies,
+Civilizations, and Philosophies all still need either more entries (the
+first two) or both more entries and this same backfill treatment applied
+to any future new entries in the latter four. Also surfaced two stale-docs
+findings worth a future cleanup pass: `docs/SCHEMA_SECTIONS.md` describes
+the pre-merge schema shape, not what actually shipped, and
+`scripts/validate_sections.py`'s required-field lists are similarly stale
+and currently false-fail every entry in the library, not just this
+round's.
 
 Thai is expanding the app from a single-purpose book library into a
 nine-section personal knowledge library (Book Library plus Famous People/

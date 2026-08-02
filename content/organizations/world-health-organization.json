@@ -5,12 +5,58 @@
   "founded": "1948",
   "overview": "The World Health Organization is the United Nations' specialized agency for international public health, headquartered in Geneva, Switzerland. It sets global health norms and standards, coordinates responses to international disease outbreaks, and provides technical support to national health systems, particularly in lower-income countries. It is funded through a mix of mandatory member-state assessments and voluntary contributions, the latter of which make up the large majority of its budget and give major donors significant informal influence over its priorities.\n\nWHO's clearest historical impact is smallpox eradication, which by most estimates has prevented hundreds of millions of deaths in the decades since. It maintains the International Classification of Diseases (ICD), used by virtually every national health system for diagnostic coding and mortality statistics, and its Essential Medicines List influences drug procurement policy worldwide. It is also a genuinely contested institution: criticized from different directions for being too slow and diplomatically cautious in emergencies (raised repeatedly around COVID-19), for being overly dependent on a small number of large voluntary donors, and for the practical limits of an organization with no enforcement power over sovereign member states.",
   "historyFounding": "Founded in 1948 as part of the post-World War II push to build permanent international institutions, WHO's constitution formally took effect on April 7, 1948 — still marked annually as World Health Day. Its early flagship achievement was the global smallpox eradication campaign, declared successful in 1980, the only human disease eradicated through deliberate intervention to date. It later led global responses to HIV/AIDS, established the International Health Regulations framework governing how countries report outbreaks, and played a central, closely scrutinized role during the COVID-19 pandemic beginning in 2020, including its much-debated early timeline for declaring a Public Health Emergency of International Concern.",
-  "structureHowItWorks": "",
-  "majorAchievements": [],
-  "keyPeople": [],
-  "byTheNumbers": [],
+  "structureHowItWorks": "WHO is governed by the World Health Assembly, made up of delegates from all member states, which meets annually in Geneva to set policy, approve the budget, and elect the Director-General to a five-year term. Day-to-day authority sits with a 34-member Executive Board and the Secretariat, led by the Director-General (Dr. Tedros Adhanom Ghebreyesus of Ethiopia, in office since 2017 and re-elected in 2022). Operationally, WHO is decentralized into six regional offices (Africa, Americas, Southeast Asia, Europe, Eastern Mediterranean, Western Pacific) that carry out much of the country-level work, plus roughly 150 country offices. Funding comes from two very different sources: assessed contributions, mandatory dues set by each country's share of the global economy, and voluntary contributions from member states, foundations, and other donors, which fund specific earmarked programs and have for years made up the large majority of the total budget — the structural reason a single major donor's exit can destabilize the organization's finances so sharply.",
+  "majorAchievements": [
+    "Global smallpox eradication, declared in 1980 — the only human disease ever fully eradicated worldwide, achieved through coordinated surveillance-and-containment vaccination across dozens of countries.",
+    "Near-elimination of polio, down from an estimated 350,000 annual cases in 1988 to a small number of wild-poliovirus cases confined to a couple of endemic countries today, via the Global Polio Eradication Initiative WHO helped launch and coordinate.",
+    "Coordinating international outbreak response — SARS (2003), H1N1 (2009), West African Ebola (2014-2016), and COVID-19 (2020-2023) — including declaring Public Health Emergencies of International Concern that trigger coordinated member-state action.",
+    "Setting binding, widely adopted global health instruments, including the International Health Regulations (2005) and the Framework Convention on Tobacco Control, the first treaty ever negotiated under WHO's auspices.",
+    "Maintaining the International Classification of Diseases (ICD) and the Model List of Essential Medicines, both used by the large majority of national health systems worldwide for diagnostic coding and drug procurement policy."
+  ],
+  "keyPeople": [
+    {
+      "name": "Dr. Tedros Adhanom Ghebreyesus",
+      "role": "Director-General (2017-present)"
+    },
+    {
+      "name": "Dr. Brock Chisholm",
+      "role": "First Director-General (1948-1953)"
+    },
+    {
+      "name": "Dr. Halfdan T. Mahler",
+      "role": "Director-General (1973-1988) — led the smallpox eradication era and the 'Health for All' primary-care push"
+    },
+    {
+      "name": "Dr. Gro Harlem Brundtland",
+      "role": "Director-General (1998-2003) — led the SARS response and tobacco-control treaty negotiations"
+    }
+  ],
+  "byTheNumbers": [
+    {
+      "label": "Member states",
+      "value": "194"
+    },
+    {
+      "label": "2026-2027 approved budget",
+      "value": "$4.2 billion (cut from an original $5.3 billion proposal after the US withdrawal)"
+    },
+    {
+      "label": "Country offices",
+      "value": "~150, plus 6 regional offices"
+    },
+    {
+      "label": "Founded",
+      "value": "1948, from a 1946 constitution"
+    }
+  ],
   "criticalTake": {
-    "points": []
+    "points": [
+      "The COVID-19 pandemic response exposed how dependent WHO's authority is on member-state cooperation rather than enforcement power: it praised China's transparency in January 2020 in ways that look, in hindsight, badly out of step with what was actually happening in Wuhan, and it took until January 30, 2020 to declare a Public Health Emergency of International Concern — criticized by many public health experts as too slow given the evidence available at the time.",
+      "The United States, historically WHO's single largest funder, formally completed its withdrawal on January 22, 2026 under an executive order signed on President Trump's first day back in office in January 2025, also withholding its assessed contributions for 2024 and 2025. The exit forced WHO to cut its already-reduced 2026-2027 budget from $5.3 billion to $4.2 billion and left a reported funding gap in the range of $1.7-1.9 billion, triggering layoffs and program cuts — a live, ongoing crisis rather than settled history.",
+      "Heavy reliance on voluntary, earmarked funding rather than flexible assessed dues means large donors — historically the US, and increasingly the Gates Foundation and a handful of other funders — can effectively steer WHO's priorities toward their own preferred issues, a structural criticism that predates and outlasts any single administration's politics.",
+      "WHO has faced recurring criticism for being slow and consensus-bound during fast-moving crises, a direct consequence of being a body that can only recommend, not compel, 194 sovereign governments — a real design tradeoff, not simply a leadership failure, but one with real costs when speed matters most."
+    ],
+    "contextNote": "Facts on the 2025-2026 US withdrawal and budget cuts verified via web search on 2026-08-03; this remains a fast-moving, unresolved situation and figures should be re-verified before long-term reliance."
   },
   "relatedIds": [],
   "dateAdded": "2026-08-02",
