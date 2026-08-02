@@ -7,7 +7,44 @@
   "country": "United States",
   "asOfDate": "2026-03-11",
   "overview": "Larry Page co-founded Google with Sergey Brin in 1998 out of a Stanford PhD research project on ranking web pages by their link structure (PageRank, which he co-authored and which lends the algorithm its name). He served as Google's CEO twice — from founding until 2001, and again from 2011 to 2015, when he became CEO of Alphabet, the holding company created to structurally separate Google's core search/ads business from its more speculative ventures (self-driving cars, life sciences, and others). He stepped down as Alphabet CEO in 2019 but remains a board member and controlling shareholder.\n\nMost of his fortune is Alphabet stock, supplemented by a dual-class share structure (along with Brin and Eric Schmidt) that has preserved outsized voting control relative to economic ownership even as their percentage of shares outstanding has declined over two decades.",
-  "wealthTimeline": [],
+  "wealthTimeline": [
+    {
+      "period": "1995",
+      "event": "Meets Sergey Brin as a Stanford PhD student; the two begin collaborating on the research that becomes PageRank"
+    },
+    {
+      "period": "1998",
+      "event": "Co-founds Google with Brin, initially operating out of a friend's Menlo Park garage"
+    },
+    {
+      "period": "1998-2001",
+      "event": "Serves as Google's first CEO before the board brings in Eric Schmidt as a more experienced executive"
+    },
+    {
+      "period": "2004",
+      "event": "Google's IPO, structured with a dual-class share system that preserves Page's and Brin's outsized voting control"
+    },
+    {
+      "period": "2011",
+      "event": "Returns as Google CEO, succeeding Eric Schmidt"
+    },
+    {
+      "period": "2015",
+      "event": "Becomes CEO of Alphabet, the newly created holding company formed to separate Google's core business from more speculative ventures"
+    },
+    {
+      "period": "2019",
+      "event": "Steps down as Alphabet CEO (succeeded by Sundar Pichai), remaining a board member and controlling shareholder while withdrawing from public life"
+    },
+    {
+      "period": "2022",
+      "event": "Kitty Hawk, the personally funded electric vertical-takeoff-and-landing aircraft startup he backed for nearly a decade, shuts down without reaching commercial production"
+    },
+    {
+      "period": "2024-2026",
+      "event": "Alphabet loses a series of major US antitrust rulings (search monopoly in 2024, ad-tech monopoly in 2025) with structural remedies still being litigated into 2026 — decisions affecting the company Page co-founded and still substantially controls, even though he no longer runs it day to day"
+    }
+  ],
   "portfolio": [
     {
       "holding": "Alphabet Inc.",
@@ -20,12 +57,33 @@
       "approxStake": "Private, undisclosed"
     }
   ],
-  "notableQuotes": [],
-  "playbookLessons": [],
+  "notableQuotes": [
+    {
+      "text": "Always deliver more than expected.",
+      "attribution": "Widely cited as one of Google's early stated operating philosophies, associated with Page's own management approach"
+    },
+    {
+      "text": "If you're changing the world, you're working on important things. You're excited to get up in the morning.",
+      "attribution": "Wired magazine interview, 2013, on Google X's 'moonshot' projects"
+    }
+  ],
+  "playbookLessons": [
+    "A single, genuinely novel piece of technology (PageRank's use of link structure to rank search results) can be enough to found a company on, if it solves the core problem competitors are solving worse.",
+    "Restructuring a company's corporate form (the 2015 Alphabet holding-company split) can create room for long-shot bets without forcing them to justify themselves against the core business's quarterly numbers.",
+    "Retaining founder control through a dual-class share structure lets leadership prioritize long-term bets over short-term shareholder pressure, though it does so by design at the expense of one-share-one-vote accountability.",
+    "Stepping back from day-to-day CEO duties (2019) doesn't have to mean losing influence — Page retained board membership and controlling voting power, keeping ultimate authority without the daily operating burden.",
+    "Not every well-funded moonshot succeeds: Kitty Hawk had nearly a decade of Page's personal backing and still wound down in 2022 without reaching commercial viability, a reminder that even founder conviction and capital can't guarantee a hardware moonshot pays off."
+  ],
   "criticalTake": {
-    "points": []
+    "points": [
+      "Alphabet has lost or is actively contesting two major US antitrust rulings in the 2020s — a 2024 ruling that Google holds an illegal monopoly in search, and a 2025 ruling on illegal monopolization of the digital advertising technology stack — with remedies still being litigated into 2026 that could force structural changes including data-sharing with competitors and potentially the divestiture of parts of Google's ad business. These are a direct legacy consequence of the dominant market position Page and Brin spent two decades building, even though Page has had no operational role at the company since 2019.",
+      "The dual-class share structure that lets Page (alongside Brin and former CEO Eric Schmidt) retain outsized voting control despite owning a much smaller share of Alphabet's actual equity draws standard corporate-governance criticism: it separates economic ownership from voting power in a way that reduces founder accountability to other shareholders.",
+      "Page has become one of the most media-shy major tech founders of his generation, rarely giving interviews or public statements since stepping back in 2019 — in sharp contrast to Sundar Pichai, who has had to testify before the US Congress on Alphabet's business practices. Critics note this leaves someone with major continuing influence over the company largely outside public accountability.",
+      "Kitty Hawk's 2022 shutdown, after roughly nine years of Page's personal financial backing, is a reminder that his post-Google moonshot investing hasn't matched his earlier success — a useful counterweight to a purely triumphant reading of his post-CEO career."
+    ],
+    "contextNote": "Alphabet's antitrust remedies (data-sharing requirements, possible ad-business or Chrome divestiture) were still being actively litigated as of this entry's writing (2026) rather than finally settled — verified via live web search on 2026-08-03; figures and outcomes here should be re-checked before long-term reliance."
   },
   "relatedIds": [],
   "dateAdded": "2026-08-02",
-  "sourceNotes": "Net worth and rank per Forbes' 2026 World's Billionaires real-time list (forbes.com, accessed 2026-08-02). Snapshot for scaffolding purposes — see elon-musk.json's sourceNotes for the same caveat on figures moving continuously. Timeline/Critical Take (and this section's other net-new tab fields) start empty pending a real research backfill pass — deliberately left as an honest 'not written yet' placeholder rather than fabricated."
+  "sourceNotes": "Net worth and rank per Forbes' 2026 World's Billionaires real-time list (forbes.com, accessed 2026-08-02). Snapshot for scaffolding purposes — see elon-musk.json's sourceNotes for the same caveat on figures moving continuously. Timeline/Critical Take (and this section's other net-new tab fields) start empty pending a real research backfill pass — deliberately left as an honest 'not written yet' placeholder rather than fabricated. Round 8 (2026-08-03) backfilled the previously-empty wealthTimeline/notableQuotes/playbookLessons/criticalTake fields, following the same discipline Round 3 established for Organizations/Companies/Civilizations/Philosophies (decision #281): only genuinely empty fields were written, netWorthUsdBillions/rank/asOfDate/portfolio/overview were left untouched. Google/Alphabet founding history and quotes verified against standard, widely-cited public sourcing (Wired 2013 interview and Google's own frequently-reprinted early operating philosophy); Alphabet's 2024-2026 antitrust rulings and remedy litigation verified via live web search on 2026-08-03."
 }

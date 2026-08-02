@@ -7,7 +7,48 @@
   "country": "United States",
   "asOfDate": "2026-03-11",
   "overview": "Elon Musk built his fortune across a sequence of companies rather than one: an early stake in the payments company that became PayPal (sold to eBay in 2002), then Tesla (electric vehicles, joined as an early investor/chairman and became CEO in 2008), SpaceX (founded 2002, now the dominant private launch provider and operator of the Starlink satellite network), and more recently xAI, his AI company, along with The Boring Company, Neuralink, and X (formerly Twitter, acquired in 2022).\n\nHis net worth is unusually concentrated in equity stakes in companies he still runs — most of it is not liquid cash — which makes it move by tens of billions of dollars with Tesla's and SpaceX's valuations. Forbes' 2026 real-time list put him well ahead of the next-richest person, a gap Forbes itself has described as the widest in the history of its rankings.",
-  "wealthTimeline": [],
+  "wealthTimeline": [
+    {
+      "period": "1995",
+      "event": "Co-founds Zip2, an online city-guide software company, with his brother Kimbal"
+    },
+    {
+      "period": "1999",
+      "event": "Zip2 sold to Compaq for ~$307 million; Musk's share funds his next venture, X.com, an online banking/payments startup"
+    },
+    {
+      "period": "2000-2001",
+      "event": "X.com merges with Confinity and is renamed PayPal"
+    },
+    {
+      "period": "2002",
+      "event": "PayPal sold to eBay for $1.5 billion; Musk's roughly $180 million share seeds SpaceX, founded the same year"
+    },
+    {
+      "period": "2004",
+      "event": "Invests in Tesla Motors' Series A round and joins its board as chairman"
+    },
+    {
+      "period": "2008",
+      "event": "Becomes Tesla CEO during a near-bankruptcy crisis, personally funding payroll with his remaining PayPal fortune"
+    },
+    {
+      "period": "2021",
+      "event": "Becomes the world's richest person as Tesla's stock price surges during the pandemic-era EV boom"
+    },
+    {
+      "period": "2022",
+      "event": "Acquires Twitter for $44 billion, later rebranding it as X"
+    },
+    {
+      "period": "2023",
+      "event": "Founds xAI, an artificial intelligence company"
+    },
+    {
+      "period": "2026",
+      "event": "SpaceX acquires xAI and consolidates it with X into a single company in a deal valuing the combined entity at roughly $1.25 trillion, followed by weeks of sharp share-price volatility as investors reassess the conglomerate structure"
+    }
+  ],
   "portfolio": [
     {
       "holding": "Tesla, Inc.",
@@ -30,12 +71,33 @@
       "approxStake": "Majority stake via xAI"
     }
   ],
-  "notableQuotes": [],
-  "playbookLessons": [],
+  "notableQuotes": [
+    {
+      "text": "When something is important enough, you do it even if the odds are not in your favor.",
+      "attribution": "Widely cited interview remarks on Tesla's and SpaceX's early survival odds"
+    },
+    {
+      "text": "Failure is an option here. If things are not failing, you are not innovating enough.",
+      "attribution": "Wired magazine interview, 2012"
+    }
+  ],
+  "playbookLessons": [
+    "Recycling capital from one exit directly into a far riskier, more ambitious venture (PayPal proceeds into SpaceX and Tesla) is a repeatable pattern across his career, not a one-time gamble.",
+    "First-principles thinking — breaking a problem down to its physical/economic fundamentals rather than reasoning by industry analogy — is Musk's own stated method for concluding that reusable rockets and mass-market EVs were viable when conventional industry wisdom said otherwise.",
+    "Being willing to personally fund a company through near-bankruptcy (both Tesla and SpaceX nearly failed in 2008 within months of each other) can preserve founder control through the crisis that would otherwise force a distressed sale or shutdown.",
+    "Vertical integration and in-house manufacturing (SpaceX building its own engines, Tesla building its own batteries and semiconductors) trades short-term complexity for long-term cost control and speed, the same broader principle Toyota's production system is built on.",
+    "A highly public, personal brand can function as a company's primary marketing channel, but the same visibility concentrates reputational and stock-price risk directly onto the founder's personal conduct and statements."
+  ],
   "criticalTake": {
-    "points": []
+    "points": [
+      "Tesla has faced repeated allegations of unsafe working conditions and anti-union pressure at its factories, including National Labor Relations Board rulings against the company for illegal anti-union conduct, criticisms that have persisted even as Tesla's production and safety record have both improved over time.",
+      "Musk's 2022 acquisition of Twitter (renamed X) triggered a sustained advertiser exodus and brand-safety concerns tied to content-moderation changes and his own frequently controversial posting, and by most account estimates the platform's ad revenue and standalone valuation fell sharply below the $44 billion purchase price in the years after the deal.",
+      "His role leading the Department of Government Efficiency (DOGE) under the Trump administration drew sustained conflict-of-interest criticism, given that Musk's companies (Tesla, SpaceX) hold billions of dollars in federal contracts and regulatory approvals from the same government he was tasked with restructuring.",
+      "The February 2026 consolidation of SpaceX, xAI, and X into a single company, and the roughly $684 billion net-worth swing reported in the weeks that followed amid investor skepticism of conglomerate structures, illustrates how concentrated and volatile Musk's fortune is — almost entirely equity in companies he controls, rather than diversified or liquid wealth, which cuts both ways: it's how he built an unprecedented fortune, and why that fortune can lose hundreds of billions of dollars in a matter of weeks."
+    ],
+    "contextNote": "This entry's stored net worth ($839B, as of the 2026-03-11 Forbes snapshot) predates the February 2026 SpaceX/xAI/X merger and the subsequent volatility described above — real-time estimates through mid-2026 ranged from roughly $700B up past $1.1 trillion depending on the week. Updating the stored net-worth figure itself was judged out of scope for this tab-backfill pass (see sourceNotes); the volatility is flagged here in Critical Take instead so the entry isn't silently misleading."
   },
   "relatedIds": [],
   "dateAdded": "2026-08-02",
-  "sourceNotes": "Net worth and rank per Forbes' 2026 World's Billionaires real-time list (forbes.com, accessed 2026-08-02). This is a snapshot for scaffolding purposes — a real Rich List rollout should re-verify figures close to publication, since these estimates move continuously. Timeline/Critical Take (and this section's other net-new tab fields) start empty pending a real research backfill pass — deliberately left as an honest 'not written yet' placeholder rather than fabricated."
+  "sourceNotes": "Net worth and rank per Forbes' 2026 World's Billionaires real-time list (forbes.com, accessed 2026-08-02). This is a snapshot for scaffolding purposes — a real Rich List rollout should re-verify figures close to publication, since these estimates move continuously. Timeline/Critical Take (and this section's other net-new tab fields) start empty pending a real research backfill pass — deliberately left as an honest 'not written yet' placeholder rather than fabricated. Round 8 (2026-08-03) backfilled the previously-empty wealthTimeline/notableQuotes/playbookLessons/criticalTake fields, following the same discipline Round 3 established for Organizations/Companies/Civilizations/Philosophies (decision #281): only genuinely empty fields were written, netWorthUsdBillions/rank/asOfDate/portfolio/overview were left untouched even though live search surfaced a materially different current net-worth picture (see criticalTake.contextNote), since re-baselining the whole Rich List ranking is a separate, larger task than a single-entry tab backfill. Business history (Zip2/PayPal/SpaceX/Tesla founding and funding chain) and quotes verified against standard, widely-cited public sourcing (Wired 2012 interview and other frequently-reprinted remarks); the SpaceX/xAI/X merger and 2026 net-worth volatility verified via live web search on 2026-08-03."
 }

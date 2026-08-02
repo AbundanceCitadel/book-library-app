@@ -5,8 +5,53 @@
   "title": "General / First President",
   "era": "1732–1799",
   "overview": "George Washington commanded the Continental Army through the American Revolutionary War (1775–1783), leading a poorly supplied, frequently outnumbered force to eventual victory over the British through a strategy of attrition and endurance rather than decisive early battlefield wins. He presided over the 1787 Constitutional Convention and was unanimously elected the first President of the United States in 1789, serving two terms before voluntarily stepping down in 1797 — a decision, made when no constitutional term limit yet existed, that set the enduring precedent for peaceful transfer of power in the American presidency.\n\nHis decision to relinquish military command after the war rather than seize political power (he was widely expected by contemporaries, including some of his own officers, to have the option of becoming a monarch or military dictator) is one of the most cited examples in American civic history of voluntary limitation of power.",
-  "riseToPower": "",
-  "reignEvents": [],
+  "riseToPower": "Washington's rise began not in politics but as a young surveyor and militia officer on Virginia's western frontier. He gained his first military reputation, for better and worse, during the French and Indian War: a 1754 skirmish he led helped spark the war itself, and in 1755 he survived the catastrophic Braddock Expedition ambush with four bullet holes through his coat, emerging as one of the few officers to keep his composure under fire. That reputation, combined with his marriage in 1759 to the wealthy widow Martha Dandridge Custis (which made him one of Virginia's richest planters through her estate) and his service in the Virginia House of Burgesses, gave him the standing to be elected a Virginia delegate to the First and Second Continental Congresses. In June 1775, the Second Continental Congress unanimously selected him to command the newly formed Continental Army — chosen partly on military merit and partly for the political symbolism of a Southern, Virginian commander leading what had so far been a New England-centered rebellion.",
+  "reignEvents": [
+    {
+      "period": "1775",
+      "event": "Appointed Commander-in-Chief of the Continental Army by the Second Continental Congress"
+    },
+    {
+      "period": "1776",
+      "event": "Crosses the Delaware River on Christmas night for a surprise victory at Trenton, reviving a demoralized army after a string of defeats"
+    },
+    {
+      "period": "1777-1778",
+      "event": "Winters at Valley Forge, where roughly a quarter of his army dies of disease and exposure but emerges reorganized and drilled under Baron von Steuben"
+    },
+    {
+      "period": "1781",
+      "event": "Combined American and French forces force the British surrender at Yorktown, effectively ending the Revolutionary War"
+    },
+    {
+      "period": "1783",
+      "event": "Refuses the Newburgh Conspiracy's suggestion that he seize political power, then resigns his military commission to Congress, voluntarily returning to civilian life"
+    },
+    {
+      "period": "1787",
+      "event": "Presides over the Constitutional Convention in Philadelphia"
+    },
+    {
+      "period": "1789",
+      "event": "Unanimously elected first President of the United States by the Electoral College"
+    },
+    {
+      "period": "1793",
+      "event": "Issues the Proclamation of Neutrality, keeping the US out of the French Revolutionary Wars despite public pressure to support France"
+    },
+    {
+      "period": "1794",
+      "event": "Personally leads federal militia to suppress the Whiskey Rebellion, the first major test of federal authority to enforce law within the states"
+    },
+    {
+      "period": "1796",
+      "event": "Publishes his Farewell Address, warning against permanent foreign alliances and the dangers of political factionalism, and declines to seek a third term"
+    },
+    {
+      "period": "1797",
+      "event": "Leaves office and returns to Mount Vernon, completing the first peaceful transfer of presidential power"
+    }
+  ],
   "achievementsReforms": [
     "Commanded the Continental Army to victory in the American Revolutionary War, 1775–1783",
     "Presided over the Constitutional Convention of 1787",
@@ -26,7 +71,13 @@
     }
   ],
   "criticalTake": {
-    "points": []
+    "points": [
+      "Washington enslaved more than 300 people at Mount Vernon at the time of his death, a stark contradiction with the revolutionary ideals of liberty he championed publicly. He was the only Founding Father among the first four presidents to free the people he enslaved, though even that was arranged to take effect only after his wife Martha's death, and its execution was incomplete and contested.",
+      "His suppression of the Whiskey Rebellion in 1794 — personally leading roughly 13,000 federalized militia against Pennsylvania farmers protesting a federal excise tax — set an early precedent for the federal government's willingness to use military force against its own citizens, a precedent debated ever since as either necessary state-building or an overreach against the same anti-tax sentiment the Revolution itself had been fought over.",
+      "As president, Washington authorized military campaigns against Native American confederacies in the Northwest Territory, including the decisive 1794 Battle of Fallen Timbers, which forced the cession of large tracts of indigenous land under the Treaty of Greenville (1795) — part of a broader pattern of displacement his administration extended rather than reversed.",
+      "The voluntary two-term precedent he set is genuinely celebrated, but historians note it was also a personal choice rather than a legal requirement (no constitutional term limit existed until the 22nd Amendment in 1951) — its durability depended entirely on later presidents choosing to honor a norm rather than any binding rule, a norm Franklin D. Roosevelt eventually broke."
+    ],
+    "contextNote": "Washington's slaveholding and the Whiskey Rebellion/Native American campaigns are treated by contemporary historians (including Mount Vernon's own educational materials) as integral parts of his record, not footnotes — reflected here alongside his more commonly cited achievements rather than omitted."
   },
   "relatedIds": [],
   "dateAdded": "2026-08-02",

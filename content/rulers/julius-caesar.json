@@ -5,8 +5,41 @@
   "title": "General / Dictator",
   "era": "100–44 BC",
   "overview": "Gaius Julius Caesar rose through Roman politics as a general and statesman, most famously conquering Gaul (roughly modern France and Belgium) in a nine-year campaign chronicled in his own Commentarii de Bello Gallico. His crossing of the Rubicon River in 49 BC with his army — defying the Senate's order to disband — triggered a civil war he won decisively, after which he was declared dictator, eventually dictator perpetuo (\"in perpetuity\") in 44 BC.\n\nHis accumulation of personal power, seen by many senators as a fatal threat to the centuries-old Roman Republic, led directly to his assassination on the Ides of March (March 15), 44 BC, by a group of senators including Brutus and Cassius. His death did not restore the Republic — it triggered another round of civil wars that ended with his adopted heir Octavian (later Augustus) becoming the first Roman emperor, closing the Republic for good.",
-  "riseToPower": "",
-  "reignEvents": [],
+  "riseToPower": "Caesar's early career followed Rome's traditional cursus honorum, the ladder of military and political offices, but with distinctive early drama: in 75 BC he was captured by Cilician pirates who held him for ransom, and after his release he raised a fleet, hunted the pirates down himself, and had them executed, an early sign of both his personal boldness and his willingness to act outside official channels. He steadily built political capital through the 60s BC, going deeply into debt to fund lavish public games that bought him popularity with the Roman plebs. In 60 BC he formed the First Triumvirate, an informal power-sharing alliance with the general Pompey and the wealthy Marcus Licinius Crassus, which secured him the consulship in 59 BC and, crucially, the governorship of Gaul in 58 BC — a provincial command that gave him both an army loyal to him personally and nearly a decade to build the military reputation and personal fortune that would make him unstoppable in Roman politics.",
+  "reignEvents": [
+    {
+      "period": "60 BC",
+      "event": "Forms the First Triumvirate with Pompey and Crassus, an informal alliance that sidelines the Senate"
+    },
+    {
+      "period": "58-50 BC",
+      "event": "Conquers Gaul in a nine-year campaign, building an intensely loyal army and enormous personal wealth"
+    },
+    {
+      "period": "53 BC",
+      "event": "Crassus is killed at the Battle of Carrhae, ending the Triumvirate's three-way balance and setting Caesar and Pompey on a collision course"
+    },
+    {
+      "period": "49 BC",
+      "event": "Crosses the Rubicon River with his army in defiance of the Senate, an act of open civil war"
+    },
+    {
+      "period": "48 BC",
+      "event": "Decisively defeats Pompey at the Battle of Pharsalus; Pompey flees to Egypt and is assassinated on arrival"
+    },
+    {
+      "period": "47 BC",
+      "event": "Becomes involved with Cleopatra VII in Egypt, and wins the Battle of Zela in Anatolia so quickly he reports it with the famous line \"Veni, vidi, vici\""
+    },
+    {
+      "period": "46-45 BC",
+      "event": "Defeats the remaining Pompeian forces in North Africa and Spain, becomes Rome's unrivaled ruler, and reforms the Roman calendar"
+    },
+    {
+      "period": "44 BC",
+      "event": "Declared dictator perpetuo (dictator in perpetuity) in February; assassinated by a group of senators on the Ides of March, 15 March 44 BC"
+    }
+  ],
   "achievementsReforms": [
     "Conquered Gaul over a nine-year campaign (58–50 BC), later documented in his own Commentarii de Bello Gallico",
     "Crossed the Rubicon in 49 BC, triggering and then winning a Roman civil war against Pompey and the Senate",
@@ -25,7 +58,13 @@
     }
   ],
   "criticalTake": {
-    "points": []
+    "points": [
+      "Much of what is known about Caesar's most celebrated achievement, the Gallic Wars, comes from his own Commentarii de Bello Gallico — a self-authored account written and circulated in real time explicitly to shape his political image back in Rome, making it a genuinely unreliable narrator problem historians have to work around rather than a neutral historical record.",
+      "By ancient estimates (chiefly Plutarch's, widely cited but not independently verifiable by modern standards), the Gallic Wars killed roughly one million people and enslaved a comparable number — a campaign celebrated in Roman and later Western tradition as a masterstroke of military genius that was, by any modern reckoning, a war of conquest on a catastrophic human scale.",
+      "Caesar's populist alliance with Rome's poorer citizens against the senatorial elite is genuinely debated by historians: was he a reformer extending real material benefits (land redistribution, debt relief, expanded citizenship) to overlooked Romans, or a demagogue using popular support as a tool to accumulate personal power that ultimately destroyed the Republic's collective governance entirely? Both readings have serious scholarly defenders.",
+      "His assassination is frequently cited as history's clearest example of a political killing achieving the opposite of its goal: rather than restoring the Republic, it triggered another 13 years of civil war that ended with the Republic permanently replaced by the one-man rule of his heir Augustus — the very outcome the conspirators killed him to prevent."
+    ],
+    "contextNote": "Casualty figures from the Gallic Wars derive from ancient sources (chiefly Plutarch) using estimation methods that would not meet modern historiographical standards — cited here as the commonly repeated figures with that caveat, not as precise counts."
   },
   "relatedIds": [
     {
