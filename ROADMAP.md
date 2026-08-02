@@ -628,16 +628,24 @@ Status line above.
 
 ### Stage 21 — Nine-Section Personal Library: Design Foundation
 
-**Status:** Foundation complete (Session 24). Population underway as of
-Session 29: People and Quotes sections grew from 1 example entry each to 6
-each (5 new entries per section, reshaped from this library's own
-already-verified `authorBio`/`quotes[]` book data — see `DECISIONS.md`
-#258-266). Rich List, Rulers, Organizations, Companies, Civilizations, and
-Philosophies remain at Stage 21 scaffolding depth (1-2 entries each) —
-those need fresh research, not a book-pipeline shortcut. 20 entries total
-across 8 sections, up from 10. Next round should continue depth-first on
-People/Quotes with more authorBio-reuse candidates, or shift to
-breadth-first fresh research on the other 6 sections, per Thai's call.
+**Status:** Foundation complete (Session 24). Population underway: Session 29
+(round 1) grew People and Quotes from 1 example entry each to 6 each (5 new
+entries per section, reshaped from this library's own already-verified
+`authorBio`/`quotes[]` book data — see `DECISIONS.md` #258-266 in that
+session's own numbering). Session 30 (round 2) continued depth-first on
+People only, adding 4 more authorBio-reuse entries (Morgan Housel, Susan
+Cain, Peter Lynch, Robert Cialdini) — People now at 10, Quotes unchanged at
+6 (see `DECISIONS.md` #268-277). Rich List, Rulers, Organizations,
+Companies, Civilizations, and Philosophies remain at Stage 21 scaffolding
+depth (1-2 entries each) — those still need fresh research, not a
+book-pipeline shortcut; Daniel Kahneman was also considered and skipped for
+People (his book's `authorBio` is empty, no reuse shortcut exists). 24
+entries total across 8 sections, up from 20. Next round should either
+continue depth-first on People/Quotes with any remaining authorBio-reuse
+candidates, or shift to breadth-first fresh research (subagent-dispatched)
+on the 6 research-required sections — the latter is increasingly the
+better use of a session, since the reuse-shortcut candidate pool is
+thinning out.
 
 Thai is expanding the app from a single-purpose book library into a
 nine-section personal knowledge library (Book Library plus Famous People/
