@@ -1,0 +1,33 @@
+{
+  "id": "james-clear",
+  "name": "James Clear",
+  "category": "business",
+  "timeframe": "b. 1986",
+  "summary": "James Clear was born in Hamilton, Ohio, in 1986. A standout high school baseball player, he was struck in the face by a swung bat during a game — an injury severe enough to briefly stop his breathing — and spent a long, difficult stretch relearning basic physical and cognitive skills before he could return to any kind of normal life, let alone sports. That slow, incremental recovery is the origin of his lifelong interest in how small, consistent actions compound into large outcomes, and it's the story he opens Atomic Habits with.\n\nHe went on to captain the baseball team at Denison University, graduating in 2008 with a degree in biomechanics and later earning a spot on the ESPN Academic All-America team — a result he credits to the same one-percent-at-a-time approach rather than any single dramatic turnaround. Starting in the early 2010s, Clear built a large following through his '3-2-1' newsletter and long-form articles on habit formation and decision-making at jamesclear.com, establishing the audience that Atomic Habits (2018) was written for.\n\nThe book became a #1 New York Times bestseller, sold tens of millions of copies, and has been translated into dozens of languages. As of this writing, Clear has deliberately not published a second full-length book, choosing instead to keep developing the same idea through his newsletter, speaking engagements, and an app built around the book's Four Laws of Behavior Change — a single, thoroughly developed body of work rather than a wide bibliography.",
+  "achievements": [
+    "Wrote Atomic Habits (2018), a #1 New York Times bestseller that has sold tens of millions of copies and been translated into dozens of languages",
+    "Built the '3-2-1' newsletter and jamesclear.com into one of the largest habit-formation and self-improvement audiences online, prior to the book's release",
+    "Developed the Four Laws of Behavior Change framework (make it obvious, attractive, easy, satisfying), now widely referenced in habit-formation writing and coaching beyond his own work",
+    "Named to the ESPN Academic All-America team as a collegiate baseball player at Denison University, crediting the same incremental-improvement approach he later wrote about"
+  ],
+  "quotes": [
+    {
+      "text": "You do not rise to the level of your goals. You fall to the level of your systems.",
+      "source": "Atomic Habits"
+    },
+    {
+      "text": "Goals are good for setting a direction, but systems are best for making progress.",
+      "source": "Atomic Habits"
+    }
+  ],
+  "legacy": "Atomic Habits helped popularize 'systems over goals' and 'identity-based habits' as mainstream vocabulary well beyond the productivity niche it started in, and the book's Four Laws framework is now commonly cited (with or without attribution) across coaching, corporate training, and other self-help writing. Clear's deliberate choice to keep building one idea rather than chase a second book is itself a notable departure from the usual bestselling-author career pattern, and has kept Atomic Habits unusually dominant in its category years after publication.",
+  "relatedIds": [
+    {
+      "section": "library",
+      "id": "atomic-habits",
+      "label": "Atomic Habits"
+    }
+  ],
+  "dateAdded": "2026-08-02",
+  "sourceNotes": "Summary, achievements, and legacy reshaped from this library's own atomic-habits.json authorBio field (original synthesis produced during this project's book-content pipeline, itself explicitly sourced via web search per that book's own sourceNotes — see DECISIONS.md). Quotes copied verbatim from that same file's verified quotes[] array."
+}

@@ -1,0 +1,34 @@
+{
+  "id": "dale-carnegie",
+  "name": "Dale Carnegie",
+  "category": "business",
+  "timeframe": "1888–1955",
+  "summary": "Dale Carnegie was born Dale Breckenridge Carnagey on a Missouri farm in 1888 and worked his way through college before a string of unsuccessful sales jobs and a failed attempt at acting. His break came almost by accident: teaching a public-speaking class at a New York YMCA in exchange for a cut of the tuition, he ran out of prepared material on the first night and improvised by asking students to speak about something that had genuinely angered them — and found they spoke far more confidently about material they actually cared about.\n\nThat improvisation became the seed of Dale Carnegie Training, an organization built on public speaking, salesmanship, and interpersonal skills that still operates internationally today. Carnegie spent years refining the material through direct feedback from thousands of adult students before distilling it into How to Win Friends and Influence People (1936), which became one of the best-selling nonfiction books ever published. He followed it in 1948 with How to Stop Worrying and Start Living, a companion volume on managing anxiety that became nearly as influential.\n\nHe died of Hodgkin lymphoma in 1955, but the training organization and the underlying idea — that lasting influence comes from genuine attention and respect for other people, not argument or authority — outlived him by decades and remains one of the most widely cited premises in popular self-help and business writing.",
+  "achievements": [
+    "Wrote How to Win Friends and Influence People (1936), one of the best-selling nonfiction books ever published",
+    "Founded Dale Carnegie Training, a public-speaking and interpersonal-skills organization that still operates internationally today",
+    "Wrote How to Stop Worrying and Start Living (1948), a companion bestseller on managing anxiety",
+    "Refined his core material over years of direct, in-person feedback from thousands of adult students rather than from an academic or theoretical starting point",
+    "Also published a biography of Abraham Lincoln, reflecting a lifelong interest in leadership and character beyond his self-help writing"
+  ],
+  "quotes": [
+    {
+      "text": "Any fool can criticize, complain, and condemn—and most fools do. But it takes character and self-control to be understanding and forgiving.",
+      "source": "How to Win Friends and Influence People"
+    },
+    {
+      "text": "Instead of condemning people, let's try to understand them. Let's try to figure out why they do what they do. That's a lot more profitable and intriguing than criticism; and it breeds sympathy, tolerance and kindness.",
+      "source": "How to Win Friends and Influence People"
+    }
+  ],
+  "legacy": "Carnegie's central claim — that people are moved far more by genuine interest, appreciation, and respect than by criticism or argument — became one of the founding premises of the modern self-help and business-communication genre, and Dale Carnegie Training has carried that premise into corporate seminar rooms for close to a century. His influence shows up, credited or not, throughout later interpersonal-skills and leadership writing, and How to Win Friends and Influence People remains in active print and translation nearly ninety years after publication.",
+  "relatedIds": [
+    {
+      "section": "library",
+      "id": "how-to-win-friends-and-influence-people",
+      "label": "How to Win Friends and Influence People"
+    }
+  ],
+  "dateAdded": "2026-08-02",
+  "sourceNotes": "Summary, achievements, and legacy reshaped from this library's own how-to-win-friends-and-influence-people.json authorBio field (original synthesis produced during this project's book-content pipeline, not a third-party source per PROJECT_BRIEF.md §6). Quotes copied verbatim from that same file's Stage-15/v2-verified quotes[] array."
+}

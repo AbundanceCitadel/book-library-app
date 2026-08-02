@@ -1,0 +1,34 @@
+{
+  "id": "viktor-frankl",
+  "name": "Viktor E. Frankl",
+  "category": "science-technology",
+  "timeframe": "1905–1997",
+  "summary": "Viktor Frankl was born in Vienna in 1905, corresponded with Sigmund Freud as a teenager, and studied under Alfred Adler before breaking from both to develop his own approach to psychiatry. He earned his medical degree from the University of Vienna in 1930, specializing in neurology and psychiatry, and before the war ran a program counseling suicidal patients — work that shaped his early conviction that a sense of purpose was central to psychological survival.\n\nIn 1942 Frankl and his family were deported by the Nazis. Over the next three years he was held in four camps, including Auschwitz and Dachau, and lost his wife, his parents, and his brother to the Holocaust; only he and a sister survived. A manuscript he had been developing before his arrest was confiscated and destroyed, and after liberation he reconstructed it from memory in a matter of days — the material that became Man's Search for Meaning.\n\nAfter the war, Frankl led Vienna's Neurological Policlinic for roughly a quarter-century and taught at the University of Vienna, formalizing logotherapy — often called the 'third Viennese school of psychotherapy' after Freud's psychoanalysis and Adler's individual psychology — as a clinical approach built around the human need for meaning. He went on to write nearly forty books, lectured and held visiting professorships across the United States for decades, and continued teaching, writing, and mountaineering into his eighties before his death in Vienna in 1997 at age 92.",
+  "achievements": [
+    "Wrote Man's Search for Meaning, reconstructed from memory after the Nazis destroyed his original prewar manuscript, which has sold more than 16 million copies worldwide across dozens of languages",
+    "Developed logotherapy, described as the 'third Viennese school of psychotherapy' after Freud's psychoanalysis and Adler's individual psychology, built around the human need to find meaning",
+    "Led Vienna's Neurological Policlinic for roughly 25 years while continuing to teach at the University of Vienna",
+    "Published nearly 40 books over his career and held numerous visiting professorships at American universities",
+    "Survived internment in four Nazi concentration camps, including Auschwitz and Dachau, and turned that experience into the clinical and philosophical framework for which he is best known"
+  ],
+  "quotes": [
+    {
+      "text": "Everything can be taken from a man but one thing: the last of the human freedoms—to choose one's attitude in any given set of circumstances, to choose one's own way.",
+      "source": "Man's Search for Meaning"
+    },
+    {
+      "text": "When we are no longer able to change a situation, we are challenged to change ourselves.",
+      "source": "Man's Search for Meaning"
+    }
+  ],
+  "legacy": "Frankl's central claim — that meaning, not pleasure or power, is the primary human drive, and that it can be found even under the most extreme suffering — reshaped 20th-century psychiatry and gave logotherapy a lasting place alongside Freudian and Adlerian traditions. Man's Search for Meaning is frequently cited among the most influential books of the 20th century and remains widely assigned in psychology, philosophy, and theology courses; its central argument continues to inform contemporary work in trauma psychology and resilience research well beyond logotherapy's own clinical practitioners.",
+  "relatedIds": [
+    {
+      "section": "library",
+      "id": "mans-search-for-meaning",
+      "label": "Man's Search for Meaning"
+    }
+  ],
+  "dateAdded": "2026-08-02",
+  "sourceNotes": "Summary, achievements, and legacy reshaped from this library's own mans-search-for-meaning.json authorBio field (original synthesis produced during this project's book-content pipeline, not a third-party source per PROJECT_BRIEF.md §6). Quotes copied verbatim from that same file's verified quotes[] array."
+}

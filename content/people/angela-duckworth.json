@@ -1,0 +1,35 @@
+{
+  "id": "angela-duckworth",
+  "name": "Angela Duckworth",
+  "category": "science-technology",
+  "timeframe": "b. 1970",
+  "summary": "Angela Duckworth was born in 1970 and grew up near Philadelphia, the daughter of a chemist. She earned an undergraduate degree in neurobiology from Harvard, graduating magna cum laude, then won a Marshall Scholarship to complete a master's in neuroscience at Oxford. Rather than continuing straight into research, she spent several years as a McKinsey management consultant and then as a math and science teacher in public schools in New York City, San Francisco, and Philadelphia — the classroom experience that led her, in her thirties, back to graduate school for a PhD in psychology at the University of Pennsylvania, studying under positive-psychology researcher Martin Seligman.\n\nDuckworth is now the Rosa Lee and Egbert Chang Professor of Psychology at the University of Pennsylvania, where her research centers on grit and self-control as predictors of achievement distinct from IQ or talent. In 2013 she was named a MacArthur Fellow for this work, and her 2013 TED Talk on grit is among the most-viewed TED talks ever recorded. She co-founded Character Lab, a nonprofit dedicated to research on character development in young people, and the Grit Scale she developed has been used by organizations ranging from the U.S. military to professional sports teams to Fortune 500 companies.\n\nHer first book, Grit: The Power of Passion and Perseverance (2016), was a #1 New York Times bestseller and became the primary vehicle through which 'grit' entered mainstream discussion of education, parenting, and workplace performance. She followed it with a second book, Situated, extending her research into how environment and surrounding circumstances shape performance and behavior.",
+  "achievements": [
+    "Wrote Grit: The Power of Passion and Perseverance (2016), a #1 New York Times bestseller that brought the concept of 'grit' into mainstream discussion of education and performance",
+    "Named a MacArthur Fellow (the 'genius grant') in 2013 for her research on grit and self-control as predictors of achievement distinct from IQ or talent",
+    "Delivered a 2013 TED Talk on grit that remains among the most-viewed TED talks ever recorded",
+    "Developed the Grit Scale, now used by organizations including the U.S. military, professional sports teams, and Fortune 500 companies",
+    "Co-founded Character Lab, a nonprofit advancing scientific research on character development in young people",
+    "Holds the Rosa Lee and Egbert Chang professorship in psychology at the University of Pennsylvania"
+  ],
+  "quotes": [
+    {
+      "text": "Grit is passion and perseverance for very long-term goals.",
+      "source": "Grit"
+    },
+    {
+      "text": "Enthusiasm is common. Endurance is rare.",
+      "source": "Grit"
+    }
+  ],
+  "legacy": "Duckworth's research reframed a long-running debate about talent versus effort by giving 'grit' a measurable definition and a validated scale, which schools, sports organizations, and employers have since adopted directly. The concept has also drawn serious academic pushback and debate over how much it adds beyond existing personality measures like conscientiousness — a genuinely open scholarly discussion Duckworth herself has engaged with directly rather than treating grit as settled science.",
+  "relatedIds": [
+    {
+      "section": "library",
+      "id": "grit",
+      "label": "Grit"
+    }
+  ],
+  "dateAdded": "2026-08-02",
+  "sourceNotes": "Summary, achievements, and legacy reshaped from this library's own grit.json authorBio field (original synthesis produced during this project's book-content pipeline, not a third-party source per PROJECT_BRIEF.md §6). Quotes copied verbatim from that same file's verified quotes[] array. Legacy paragraph adds a factual note (academic debate over the grit construct's incremental validity vs. conscientiousness) not present in the source authorBio — general scholarly-record knowledge, flagged here since it wasn't in the reused source text."
+}

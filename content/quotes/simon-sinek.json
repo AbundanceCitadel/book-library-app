@@ -1,0 +1,61 @@
+{
+  "id": "simon-sinek",
+  "attributedTo": "Simon Sinek",
+  "about": "Author and speaker known for the 'Golden Circle' framework (Why/How/What) and its application to leadership and organizational culture. Already covered in the book library via Start With Why, Leaders Eat Last, and The Infinite Game.",
+  "quotes": [
+    {
+      "text": "People don't buy what you do; they buy why you do it. And what you do simply proves what you believe.",
+      "category": "marketing",
+      "source": "Simon Sinek, Start With Why"
+    },
+    {
+      "text": "There are only two ways to influence human behavior: you can manipulate it or you can inspire it.",
+      "category": "leadership",
+      "source": "Simon Sinek, Start With Why"
+    },
+    {
+      "text": "You don't hire for skills, you hire for attitude. You can always teach skills.",
+      "category": "leadership",
+      "source": "Simon Sinek, Start With Why"
+    },
+    {
+      "text": "Leadership is not about being in charge. Leadership is about taking care of those in your charge.",
+      "category": "leadership",
+      "source": "Simon Sinek, Start With Why"
+    },
+    {
+      "text": "Charisma has nothing to do with energy; it comes from a clarity of WHY. It comes from absolute conviction in an ideal bigger than oneself. Energy, in contrast, comes from a good night's sleep or lots of caffeine. Energy can excite. But only charisma can inspire. Charisma commands loyalty. Energy does not.",
+      "category": "philosophy",
+      "source": "Simon Sinek, Start With Why"
+    },
+    {
+      "text": "When you compete against everyone else, no one wants to help you. But when you compete against yourself, everyone wants to help you.",
+      "category": "motivation",
+      "source": "Simon Sinek, Start With Why"
+    },
+    {
+      "text": "Working hard for something we do not care about is called stress, working hard for something we love is called passion.",
+      "category": "motivation",
+      "source": "Simon Sinek, Start With Why"
+    }
+  ],
+  "relatedIds": [
+    {
+      "section": "library",
+      "id": "start-with-why",
+      "label": "Start With Why"
+    },
+    {
+      "section": "library",
+      "id": "leaders-eat-last",
+      "label": "Leaders Eat Last"
+    },
+    {
+      "section": "library",
+      "id": "the-infinite-game",
+      "label": "The Infinite Game"
+    }
+  ],
+  "dateAdded": "2026-08-02",
+  "sourceNotes": "Quotes copied verbatim from this library's own start-with-why.json (Stage 15 v2-depth retrofit, quote-verification standard applied at that time). Categories reassigned here to this section's own 6-category taxonomy. Cross-linked to all three of Sinek's book-library entries since Start With Why is his foundational text but Leaders Eat Last and The Infinite Game are equally present in this library."
+}

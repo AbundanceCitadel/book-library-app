@@ -1,0 +1,51 @@
+{
+  "id": "robert-cialdini",
+  "attributedTo": "Robert Cialdini",
+  "about": "Social psychologist and Regents' Professor Emeritus of Psychology and Marketing at Arizona State University, best known for field-based research into persuasion and influence — including going undercover in sales, fundraising, and other 'compliance professions' to study real-world influence tactics rather than relying only on lab studies. Already covered in the book library via Pre-Suasion.",
+  "quotes": [
+    {
+      "text": "As a kind of secret agent, I once infiltrated the training programs of a broad range of professions dedicated to getting us to say yes.",
+      "category": "business",
+      "source": "Robert Cialdini, Pre-Suasion"
+    },
+    {
+      "text": "In large measure, who we are with respect to any choice is where we are, attentionally, in the moment before the choice.",
+      "category": "philosophy",
+      "source": "Robert Cialdini, Pre-Suasion"
+    },
+    {
+      "text": "A communicator who gets an audience to focus on a key element of a message pre-loads it with importance.",
+      "category": "marketing",
+      "source": "Robert Cialdini, Pre-Suasion"
+    },
+    {
+      "text": "The number one rule for salespeople is to show customers that you genuinely like them.",
+      "category": "business",
+      "source": "Robert Cialdini, Pre-Suasion"
+    },
+    {
+      "text": "A communicator who references a weakness early on is immediately seen as more honest.",
+      "category": "marketing",
+      "source": "Robert Cialdini, Pre-Suasion"
+    },
+    {
+      "text": "Loss is the ultimate form of scarcity, rendering the valued item or opportunity unavailable.",
+      "category": "marketing",
+      "source": "Robert Cialdini, Pre-Suasion"
+    },
+    {
+      "text": "We'd be right to acknowledge its considerable power and wise to understand its inner workings.",
+      "category": "philosophy",
+      "source": "Robert Cialdini, Pre-Suasion"
+    }
+  ],
+  "relatedIds": [
+    {
+      "section": "library",
+      "id": "pre-suasion",
+      "label": "Pre-Suasion"
+    }
+  ],
+  "dateAdded": "2026-08-02",
+  "sourceNotes": "Quotes copied verbatim from this library's own pre-suasion.json, which was fully re-verified against real sources during the Stage 20 quote-retrofit pass (see DECISIONS.md #255) rather than reused from the original pre-Stage-20 pass. Categories reassigned here to this section's own 6-category taxonomy (business/marketing/motivation/religion-spirituality/philosophy/leadership); the book file's own per-chapter category labels were not reused directly."
+}

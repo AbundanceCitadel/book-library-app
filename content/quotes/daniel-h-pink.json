@@ -1,0 +1,51 @@
+{
+  "id": "daniel-h-pink",
+  "attributedTo": "Daniel H. Pink",
+  "about": "American author focused on business, work, and behavioral science, known for translating academic research into accessible frameworks for general readers. Already covered in the book library via Drive.",
+  "quotes": [
+    {
+      "text": "Control leads to compliance; autonomy leads to engagement.",
+      "category": "business",
+      "source": "Daniel H. Pink, Drive"
+    },
+    {
+      "text": "Human beings have an innate inner drive to be autonomous, self-determined, and connected to one another. And when that drive is liberated, people achieve more and live richer lives.",
+      "category": "philosophy",
+      "source": "Daniel H. Pink, Drive"
+    },
+    {
+      "text": "This is the nature of mastery: Mastery is an asymptote. You can approach it. You can home in on it. You can get really, really, really close to it. But like Cézanne, you can never touch it. Mastery is impossible to realize fully.",
+      "category": "philosophy",
+      "source": "Daniel H. Pink, Drive"
+    },
+    {
+      "text": "Mastery: the desire to get better and better at something that matters.",
+      "category": "motivation",
+      "source": "Daniel H. Pink, Drive"
+    },
+    {
+      "text": "Pursue purpose—and use profit as the catalyst rather than the objective.",
+      "category": "business",
+      "source": "Daniel H. Pink, Drive"
+    },
+    {
+      "text": "A healthy society—and healthy business organizations—begins with purpose and considers profit a way to move toward that end or a happy by-product of its attainment.",
+      "category": "business",
+      "source": "Daniel H. Pink, Drive"
+    },
+    {
+      "text": "When the reward is the activity itself—deepening learning, delighting customers, doing one's best—there are no shortcuts.",
+      "category": "motivation",
+      "source": "Daniel H. Pink, Drive"
+    }
+  ],
+  "relatedIds": [
+    {
+      "section": "library",
+      "id": "drive",
+      "label": "Drive"
+    }
+  ],
+  "dateAdded": "2026-08-02",
+  "sourceNotes": "Quotes copied verbatim from this library's own drive.json, which was fully re-verified against real sources during the Stage 20 quote-retrofit pass (see DECISIONS.md #255 — the original pre-Stage-20 quote set for this book was found to be a set of bare terminology labels never actually written as standalone sentences in the book, and was rebuilt from scratch). Categories reassigned here to this section's own 6-category taxonomy."
+}

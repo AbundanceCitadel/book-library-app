@@ -1,0 +1,51 @@
+{
+  "id": "gary-vaynerchuk",
+  "attributedTo": "Gary Vaynerchuk",
+  "about": "Belarusian-American entrepreneur, author, and media personality, known for growing his family's wine business into an early e-commerce and online-video success before founding VaynerMedia, a digital and social media marketing agency. Already covered in the book library via Crushing It!",
+  "quotes": [
+    {
+      "text": "An entrepreneur is someone who finds a way.",
+      "category": "motivation",
+      "source": "Gary Vaynerchuk, Crushing It!"
+    },
+    {
+      "text": "A strong personal brand is your ticket to complete personal and professional freedom.",
+      "category": "business",
+      "source": "Gary Vaynerchuk, Crushing It!"
+    },
+    {
+      "text": "Document, don't create.",
+      "category": "marketing",
+      "source": "Gary Vaynerchuk, Crushing It!"
+    },
+    {
+      "text": "There's no secret to being successful on the Internet. You need to be good at what you do; you need to be passionate about it and go crush it.",
+      "category": "business",
+      "source": "Gary Vaynerchuk, Crushing It!"
+    },
+    {
+      "text": "Your intent will be reflected in your authenticity.",
+      "category": "philosophy",
+      "source": "Gary Vaynerchuk, Crushing It!"
+    },
+    {
+      "text": "If you're seeking to build your audience, go where the audience goes, wherever that may lead.",
+      "category": "marketing",
+      "source": "Gary Vaynerchuk, Crushing It!"
+    },
+    {
+      "text": "It pays to be brave.",
+      "category": "motivation",
+      "source": "Gary Vaynerchuk, Crushing It!"
+    }
+  ],
+  "relatedIds": [
+    {
+      "section": "library",
+      "id": "crushing-it",
+      "label": "Crushing It!"
+    }
+  ],
+  "dateAdded": "2026-08-02",
+  "sourceNotes": "Quotes copied verbatim from this library's own crushing-it.json, which was fully re-verified against real sources during the Stage 20 quote-retrofit pass (see DECISIONS.md #255). A small number of the book's own quotes were deliberately excluded from this curated set for containing casual profanity not suited to a short representative selection; nothing about their sourcing was in question. Categories reassigned here to this section's own 6-category taxonomy."
+}

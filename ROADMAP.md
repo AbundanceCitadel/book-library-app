@@ -628,10 +628,16 @@ Status line above.
 
 ### Stage 21 — Nine-Section Personal Library: Design Foundation
 
-**Status:** Foundation complete — color system + architecture shipped in
-full; all 8 new sections scaffolded with 1-2 real example entries each.
-Full population of any new section is future work (see
-`docs/SESSION_24_CONTINUATION_PROMPT.md`).
+**Status:** Foundation complete (Session 24). Population underway as of
+Session 29: People and Quotes sections grew from 1 example entry each to 6
+each (5 new entries per section, reshaped from this library's own
+already-verified `authorBio`/`quotes[]` book data — see `DECISIONS.md`
+#258-266). Rich List, Rulers, Organizations, Companies, Civilizations, and
+Philosophies remain at Stage 21 scaffolding depth (1-2 entries each) —
+those need fresh research, not a book-pipeline shortcut. 20 entries total
+across 8 sections, up from 10. Next round should continue depth-first on
+People/Quotes with more authorBio-reuse candidates, or shift to
+breadth-first fresh research on the other 6 sections, per Thai's call.
 
 Thai is expanding the app from a single-purpose book library into a
 nine-section personal knowledge library (Book Library plus Famous People/

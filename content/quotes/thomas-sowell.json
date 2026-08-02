@@ -1,0 +1,51 @@
+{
+  "id": "thomas-sowell",
+  "attributedTo": "Thomas Sowell",
+  "about": "American economist and social theorist in the Chicago School free-market tradition, and a prolific author across economics, education, and social policy. Already covered in the book library via Basic Economics.",
+  "quotes": [
+    {
+      "text": "Economics is not simply a topic on which to express opinions or vent emotions. It is a systematic study of what happens when you do specific things in specific ways.",
+      "category": "philosophy",
+      "source": "Thomas Sowell, Basic Economics"
+    },
+    {
+      "text": "Seldom do people think things through foolishly. More often, they do not bother to think things through at all, so that even brainy individuals can reach untenable conclusions because their brainpower means little if it is not deployed and applied.",
+      "category": "philosophy",
+      "source": "Thomas Sowell, Basic Economics"
+    },
+    {
+      "text": "Prices play a crucial role in determining how much of each resource gets used where and how the resulting products get transferred to millions of people. Yet this role is seldom understood by the public and it is often disregarded entirely by politicians.",
+      "category": "business",
+      "source": "Thomas Sowell, Basic Economics"
+    },
+    {
+      "text": "The big advantage of a free market is that you don't have to convince anybody of anything. You simply compete with them in the marketplace and let that be the test of what works best.",
+      "category": "business",
+      "source": "Thomas Sowell, Basic Economics"
+    },
+    {
+      "text": "Neither individuals nor companies are successful forever. Death alone guarantees turnover in management.",
+      "category": "business",
+      "source": "Thomas Sowell, Basic Economics"
+    },
+    {
+      "text": "Unfortunately, the real minimum wage is always zero, regardless of the laws, and that is the wage that many workers receive in the wake of the creation or escalation of a government-mandated minimum wage, because they lose their jobs or fail to find jobs when they enter the labor force. Making it illegal to pay less than a given amount does not make a worker’s productivity worth that amount—and, if it is not, that worker is unlikely to be employed.",
+      "category": "business",
+      "source": "Thomas Sowell, Basic Economics"
+    },
+    {
+      "text": "Perhaps the most important thing about risk is its inescapability. Particular individuals, groups, or institutions may be sheltered from risk - but only at the cost of having someone else bear that risk. For a society as a whole, there is no someone else.",
+      "category": "philosophy",
+      "source": "Thomas Sowell, Basic Economics"
+    }
+  ],
+  "relatedIds": [
+    {
+      "section": "library",
+      "id": "basic-economics",
+      "label": "Basic Economics"
+    }
+  ],
+  "dateAdded": "2026-08-02",
+  "sourceNotes": "Quotes copied verbatim from this library's own basic-economics.json, which was fully re-verified against real sources during the Stage 20 quote-retrofit pass (see DECISIONS.md #255 — the original pre-Stage-20 quote set for this book was found to include two quotes that actually trace to different Sowell books and was rebuilt from scratch). Categories reassigned here to this section's own 6-category taxonomy; the book file's own per-chapter category labels were not reused directly."
+}
