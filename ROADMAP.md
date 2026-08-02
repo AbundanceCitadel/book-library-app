@@ -451,7 +451,81 @@ Rebuilt the batch-markdown-to-JSON parser from scratch (the prior session's pars
 
 ---
 
+### Stage 20 — Quote Retrofit Pass ("Highlights & Quotes," 20-30/book target)
+
+**Status:** Started, 55 of 195 sub-target books touched (round 1: 27 of 27
+zero-quote books; round 2: 28 of 123 books in the 1-4 quote range). 140
+books remain below the 20-30 target for a future session to continue.
+
+Every content-writing pass to date (the original 66 books, batches 1-12,
+batches 13-20) consistently undershot `docs/SCHEMA.md`'s v2 20-30-quotes-
+per-book target, honestly disclosed each time rather than padded (see Stage
+19 above). This session was a dedicated, quote-only research pass to close
+that gap — no other field touched, scoped narrowly so it can't regress
+already-reviewed content.
+
+Regenerated the quote-count breakdown programmatically first (confirmed:
+41 books already >=20, 195 below target — 27 at 0, 123 at 1-4, 34 at 5-9, 8
+at 10-14, 3 at 15-19). Worked worst-first via parallel "researcher-only"
+subagents (web search access only, no file tools) that returned proposed
+quotes as structured text; every result was then merged into the actual
+JSON files by a single script to keep formatting consistent and make
+pre-commit review straightforward.
+
+**Round 1 (27 zero-quote books):** 10 gained real, verified quotes
+(`ke-toan-via-he-doc-vi-bat-ky-ai` 2, `minh-tam-bao-giam` 27, `36-ke-36-doi-ke`
+4, `discover-your-destiny-with-the-monk-who-sold-his-ferrari` 23,
+`hanh-phuc-moi-ngay-happiness-every-day` 8, `giau-co-nhung-quy-tac-de` 25,
+`han-phi-tu-tu-tuong-sach-luoc` 6, `japanese-candlestick-charting-techniques`
+5, `hieu-ve-trai-tim` 27, `1-moi-ngay` 4). The other 17 stayed honestly at 0
+after real research turned up nothing verifiable — mostly genuinely obscure
+Vietnamese small-press titles or best-guess title identifications with no
+accessible primary text online.
+
+**Round 2 (28 of 123 books in the 1-4 range) surfaced a real, previously-
+undisclosed data-quality issue**: several prior-pass entries had non-quote
+content sitting in `quotes[]` instead of an honest empty array — publisher
+blurbs, a book's own title used as a fake "quote," paraphrases explicitly
+marked "not exact wording" by whoever wrote them, and at least 2 lines
+confirmed misattributed to a *different* book by the same author. Every
+round-2 subagent was told to evaluate the existing quote before keeping it;
+14 fake entries were discarded (dropping those books to a true, honest 0)
+and 20 books across both rounds gained real newly-verified quotes. Net: the
+>=20 bucket grew from 41 to 50; the 0-quote bucket rose from 17 to 31 (a
+correction, not a regression — see `DECISIONS.md` #205-206 for the full
+accounting) rather than being propped up with content that would have failed
+inspection under this project's own "exact wording" standard.
+
+Cross-book contamination actively guarded against for every author with
+multiple library titles touched this session — Thich Nhat Hanh (3 of 15
+library titles: how-to-walk/how-to-sit/how-to-relax), Robin Sharma, Brian
+Tracy, Dan Ariely, Andrew Sobel, Andrew Aziz (2 titles — caught a real
+Goodreads work-page mismerge between his two day-trading books), Takashi
+Ishii (2 titles), Dale Carnegie, Minh Niệm, Gerry Robert. Full detail in
+`DECISIONS.md` #203-212, including two out-of-scope issues flagged but not
+fixed (an apparent duplicate Predictably Irrational VN-edition entry pair,
+and a likely book-identity problem on `nghe-thuat-ghi-chep`).
+
+**Verification:** JSON-parse + duplicate-id + duplicate-code + empty-
+category sweep clean across all 236 books. `npx tsc --noEmit` clean.
+`npm run build` reproduced the known pre-existing sandbox SIGBUS limitation
+(`DECISIONS.md` #108/#111/#128) — used the established `tsc`+JSON-parse
+fallback per project precedent rather than claiming a full build pass.
+Pushed with a classic GitHub PAT supplied inline by Thai (never persisted),
+verified live via direct fetch of the home page's updated "236 full
+summaries written" counter and two retrofitted book pages resolving
+correctly.
+
+**Next up:** 140 of 195 originally-thin books remain — the rest of the 1-4
+bucket (95 books), all of the 5-9 bucket (34), all of the 10-14 bucket (8),
+all of the 15-19 bucket (3). See `docs/SESSION_23_CONTINUATION_PROMPT.md`
+for the exact worklist and instructions.
+
+---
+
 ## Session Log
+
+**2026-08-02 — Session 23 (Stage 20, quote retrofit pass):** Read `PROJECT_BRIEF.md`/`ROADMAP.md`/`DECISIONS.md` in full per the standing rule, with particular attention to Stage 19 and decisions #186-192 (most recent prior session). Regenerated the quote-count breakdown programmatically before trusting the continuation prompt's cited numbers — confirmed exact match. Ran 2 rounds of 4 parallel research-only subagents each (55 books touched total: all 27 zero-quote books, plus 28 of the 123-book 1-4-quote bucket), applying every verified result via a single merge script rather than letting subagents write files directly. Round 2 surfaced and fixed a real data-quality issue: several prior-pass entries had non-quote content (blurbs, paraphrases, misattributed lines, even a book's own title) sitting in `quotes[]` instead of an honest empty array — discarded 14 fake entries. Net: 20 books gained real verified quotes, `>=20` bucket grew 41->50, 0-quote bucket rose 17->31 (a data-quality correction, not a regression — full accounting in `DECISIONS.md` #203-212). Guarded against cross-book contamination for every multi-title author touched (Thich Nhat Hanh, Robin Sharma, Brian Tracy, Dan Ariely, Andrew Sobel, Andrew Aziz, Takashi Ishii, Dale Carnegie, Minh Niệm, Gerry Robert) — caught a real Goodreads work-page mismerge between Andrew Aziz's two day-trading books. Flagged 2 out-of-scope issues for a future session (an apparent duplicate Predictably Irrational VN-edition entry pair; a likely book-identity problem on `nghe-thuat-ghi-chep`) without fixing them, staying within this session's quotes-only scope. Verified via JSON-parse/dup-id/dup-code/empty-category sweep (clean) and `npx tsc --noEmit` (clean); `npm run build` hit the known pre-existing sandbox SIGBUS limitation (`DECISIONS.md` #108) and fell back to the established `tsc`+JSON-parse verification standard. Committed and pushed using a classic PAT Thai supplied this session, verified live via direct fetch. Wrote `docs/SESSION_23_CONTINUATION_PROMPT.md` for the 140 remaining below-target books. See `DECISIONS.md` #203-212 and Stage 20 above.
 
 **2026-08-01 — Session 22 (Stage 19 continued, batches 13-20 conversion):** Thai had run 8 more browser-chat batches (13-20 of 31, 80 candidate books) since the last new-content session and asked which to prioritize next — converting that backlog into the app, or waiting until he finishes all 31 batches. Chose to convert now, in parallel with Thai continuing batches 21-31. Rebuilt the batch-to-JSON parser from scratch, found and fixed a Vietnamese "Đ" Unicode-normalization bug and two real wrong-catalog-code matches before they reached committed JSON, added 67 of 80 candidates (13 genuine refusals, up from a naive first pass's undercount of 9), and caught a `relatedBooks`-omission bug via the build itself (first attempt failed all 67 new pages at static-export time). Also found this session's `origin/main` `ROADMAP.md` was missing the entire prior "Stage 19, First Pass" status block (present in the synced folder but apparently never pushed) and carried it forward. Full breakdown, all six real issues found/fixed, and the excluded-title list: see Stage 19 above. Verified via `tsc --noEmit` (clean) and a `/tmp`-mirror `npm run build` + `npm run start` smoke test (258 static pages, zero errors). See `DECISIONS.md` #186+ and the chat response for push/deploy verification.
 
