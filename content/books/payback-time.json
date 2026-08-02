@@ -90,18 +90,7 @@
     "Expect mutual fund fees to erode a large share of long-term returns, and weigh that against direct stock ownership.",
     "Build the emotional discipline to hold through downturns rather than reacting to short-term volatility."
   ],
-  "quotes": [
-    {
-      "text": "How the Wealthy Use Down to Go Up",
-      "attribution": "Phil Town, chapter title",
-      "category": "On Downturns as Opportunity"
-    },
-    {
-      "text": "Long-term hoping",
-      "attribution": "Phil Town, on typical mutual-fund investing behavior",
-      "category": "On Mutual Funds"
-    }
-  ],
+  "quotes": [],
   "whoThisIsFor": "Long-term, buy-and-hold-minded investors who want a rules-based alternative to mutual funds and are willing to do individual company research rather than default to index or fund investing.",
   "whenToReadThis": "Most useful during or after a market downturn, when the book's central argument about buying quality businesses cheap is most directly actionable — though the analytical tools apply at any time.",
   "relatedBooks": [],
@@ -162,5 +151,5 @@
   "personalRating": null,
   "personalNotes": "",
   "dateAdded": "2026-08-01",
-  "sourceNotes": "Chapter 1's title and the book's general framing (mutual fund fee critique, stockpiling concept) are confirmed via publisher and retailer descriptions; specific chapter titles beyond chapter 1 were not independently verifiable through available sources, so chapters 2–6 above are organized around the book's well-documented core concepts (moat, valuation, floor/ceiling, dividends, portfolio management) rather than claimed as verbatim original chapter titles — this is flagged rather than presented as confirmed structure."
+  "sourceNotes": "Chapter 1's title and the book's general framing (mutual fund fee critique, stockpiling concept) are confirmed via publisher and retailer descriptions; specific chapter titles beyond chapter 1 were not independently verifiable through available sources, so chapters 2–6 above are organized around the book's well-documented core concepts (moat, valuation, floor/ceiling, dividends, portfolio management) rather than claimed as verbatim original chapter titles — this is flagged rather than presented as confirmed structure.\n\n---\n\nQuote retrofit (Session 26, round 6 / \"Session 27\") — DATA QUALITY CORRECTION: discarded both pre-existing \"quotes.\" One was a chapter title (\"How the Wealthy Use Down to Go Up\"), explicitly labeled as such, not book prose; the other (\"Long-term hoping\") was a 2-word paraphrase/label of Phil Town's critique of typical mutual-fund behavior, not a verbatim sentence. Neither clears this project's exact-wording bar (the same class of issue Session 23 found and fixed elsewhere, DECISIONS.md #203-212). Fresh research confirmed Goodreads' work-quotes page for this exact title explicitly shows 0 quotes, and no publisher excerpt/review/summary site yielded confirmable verbatim text (only jacket-blurb marketing copy, explicitly excluded). Net change: 2 -> 0, a correction, not a regression — this project's standard is that a count going down because fake/mislabeled content was correctly discarded is the right outcome. Note: this library also has a separate Vietnamese-edition entry of the same book (ngay-doi-no-payback-time-vn-ed, catalog code 171 vs. this book's 192) — confirmed via content/catalog.json these are two genuinely distinct physical editions Thai owns (not a duplicate like the phi-ly-tri/predictably-irrational pair), so no dedup flag needed here."
 }

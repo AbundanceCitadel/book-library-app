@@ -81,14 +81,109 @@
   ],
   "quotes": [
     {
-      "text": "All competitors who persist over time must maintain a unique advantage by differentiation over all others. Managing that differentiation is the essence of long-term business strategy.",
-      "attribution": "Bruce D. Henderson",
-      "category": "The Core Logic of Strategy"
+      "text": "There is a hypothesis that costs follow a definite pattern which is a function of accumulated production experience.",
+      "attribution": "Bruce D. Henderson, The Boston Consulting Group on Strategy (\"The Experience Curve,\" 1968)",
+      "category": "The Experience Curve"
     },
     {
-      "text": "For more than forty years, The Boston Consulting Group has been shaping strategic thinking in business.",
-      "attribution": "Carl W. Stern and Michael S. Deimler, editors' introduction",
-      "category": "Editorial Framing"
+      "text": "Price and cost data show that costs decline by some characteristic amount each time accumulated experience is doubled.",
+      "attribution": "Bruce D. Henderson, The Boston Consulting Group on Strategy (\"The Experience Curve,\" 1968)",
+      "category": "The Experience Curve"
+    },
+    {
+      "text": "The characteristic decline is consistently 20-30% each time accumulated production is doubled.",
+      "attribution": "Bruce D. Henderson, The Boston Consulting Group on Strategy (\"The Experience Curve,\" 1968)",
+      "category": "The Experience Curve"
+    },
+    {
+      "text": "New products should be priced as low as necessary to dominate their market segment or probably not be sold at all.",
+      "attribution": "Bruce D. Henderson, The Boston Consulting Group on Strategy (\"The Experience Curve,\" 1968)",
+      "category": "The Experience Curve"
+    },
+    {
+      "text": "Market share must be maintained at all costs as long as growth rate exceeds the anticipated rate of return.",
+      "attribution": "Bruce D. Henderson, The Boston Consulting Group on Strategy (\"The Experience Curve,\" 1968)",
+      "category": "The Experience Curve"
+    },
+    {
+      "text": "Competition characteristically produces survivors who achieve the full potential.",
+      "attribution": "Bruce D. Henderson, The Boston Consulting Group on Strategy (\"The Experience Curve,\" 1968)",
+      "category": "The Experience Curve"
+    },
+    {
+      "text": "To be successful, a company should have a portfolio of products with different growth rates and different market shares.",
+      "attribution": "Bruce D. Henderson, The Boston Consulting Group on Strategy (\"Strategy: The Product Portfolio,\" 1970)",
+      "category": "The Growth-Share Matrix"
+    },
+    {
+      "text": "Products with high market share and slow growth are 'cash cows.'",
+      "attribution": "Bruce D. Henderson, The Boston Consulting Group on Strategy (\"Strategy: The Product Portfolio,\" 1970)",
+      "category": "The Growth-Share Matrix"
+    },
+    {
+      "text": "Products with low market share and slow growth are 'pets'... The product is essentially worthless, except in liquidation.",
+      "attribution": "Bruce D. Henderson, The Boston Consulting Group on Strategy (\"Strategy: The Product Portfolio,\" 1970)",
+      "category": "The Growth-Share Matrix"
+    },
+    {
+      "text": "Low market share, high growth products are the 'question marks.' They almost always require far more cash than they can generate.",
+      "attribution": "Bruce D. Henderson, The Boston Consulting Group on Strategy (\"Strategy: The Product Portfolio,\" 1970)",
+      "category": "The Growth-Share Matrix"
+    },
+    {
+      "text": "The high share, high growth product is the 'star.'",
+      "attribution": "Bruce D. Henderson, The Boston Consulting Group on Strategy (\"Strategy: The Product Portfolio,\" 1970)",
+      "category": "The Growth-Share Matrix"
+    },
+    {
+      "text": "The payoff for leadership is very high indeed, if it is achieved early and maintained until growth slows.",
+      "attribution": "Bruce D. Henderson, The Boston Consulting Group on Strategy (\"Strategy: The Product Portfolio,\" 1970)",
+      "category": "The Growth-Share Matrix"
+    },
+    {
+      "text": "Every company needs products in which to invest cash. Every company needs products that generate cash. And every product should eventually be a cash generator; otherwise it is worthless.",
+      "attribution": "Bruce D. Henderson, The Boston Consulting Group on Strategy (\"Strategy: The Product Portfolio,\" 1970)",
+      "category": "The Growth-Share Matrix"
+    },
+    {
+      "text": "The majority of the products in most companies are cash traps. They will absorb more money forever than they will generate.",
+      "attribution": "Bruce D. Henderson, The Boston Consulting Group on Strategy (\"Cash Traps,\" 1972)",
+      "category": "Cash Traps"
+    },
+    {
+      "text": "Reported profit is really irrelevant to the shareholder who actually holds the shares.",
+      "attribution": "Bruce D. Henderson, The Boston Consulting Group on Strategy (\"Cash Traps,\" 1972)",
+      "category": "Cash Traps"
+    },
+    {
+      "text": "Take at least twice as much of the growth as your leading competitor in any relevant product-market segment. If you cannot, then plan the process of extricating your investment as expeditiously as possible.",
+      "attribution": "Bruce D. Henderson, The Boston Consulting Group on Strategy (\"Cash Traps,\" 1972)",
+      "category": "Cash Traps"
+    },
+    {
+      "text": "The majority of the products in the average company must be cash traps. This means that a majority of the products in the average company are not only worthless but a perpetual drain on corporate resources.",
+      "attribution": "Bruce D. Henderson, The Boston Consulting Group on Strategy (\"Cash Traps,\" 1972)",
+      "category": "Cash Traps"
+    },
+    {
+      "text": "A stable competitive market never has more than three significant competitors, the largest of which has no more than four times the market share of the smallest.",
+      "attribution": "Bruce D. Henderson, The Boston Consulting Group on Strategy (\"The Rule of Three and Four,\" 1976)",
+      "category": "The Rule of Three and Four"
+    },
+    {
+      "text": "The Rule of Three and Four is a hypothesis. It is not subject to rigorous proof.",
+      "attribution": "Bruce D. Henderson, The Boston Consulting Group on Strategy (\"The Rule of Three and Four,\" 1976)",
+      "category": "The Rule of Three and Four"
+    },
+    {
+      "text": "The market leader controls the initiative. If he prices to hold share, there is no way to displace him unless he runs out of the money required to maintain his capacity share.",
+      "attribution": "Bruce D. Henderson, The Boston Consulting Group on Strategy (\"The Rule of Three and Four,\" 1976)",
+      "category": "The Rule of Three and Four"
+    },
+    {
+      "text": "A challenger who expects to displace an entrenched leader must do it indirectly by capturing independent sectors, or be prepared to invest far more than the leader will need to invest to defend himself.",
+      "attribution": "Bruce D. Henderson, The Boston Consulting Group on Strategy (\"The Rule of Three and Four,\" 1976)",
+      "category": "The Rule of Three and Four"
     }
   ],
   "whoThisIsFor": "Strategy practitioners, MBA students, and executives who want direct access to the original articulation of foundational strategy concepts (experience curve, BCG matrix, time-based competition) rather than secondhand, simplified textbook summaries of them.",
@@ -149,5 +244,5 @@
   "personalRating": null,
   "personalNotes": "",
   "dateAdded": "2026-08-01",
-  "sourceNotes": "This entry is based on general, well-established knowledge of BCG's foundational strategy concepts (the experience curve, the growth-share matrix, time-based competition) and on search-verified details about the book's structure, editors, and contributor history, including one directly verified quote from Bruce Henderson. Given the book's nature as a multi-decade anthology of many short, separately authored essays, its public quote footprint is thinner and more fragmented than a single-author bestseller, so this entry uses two verified quotes rather than the fuller 20–30 range used for the batch's mainstream single-author titles."
+  "sourceNotes": "This entry is based on general, well-established knowledge of BCG's foundational strategy concepts (the experience curve, the growth-share matrix, time-based competition) and on search-verified details about the book's structure, editors, and contributor history, including one directly verified quote from Bruce Henderson. Given the book's nature as a multi-decade anthology of many short, separately authored essays, its public quote footprint is thinner and more fragmented than a single-author bestseller, so this entry uses two verified quotes rather than the fuller 20–30 range used for the batch's mainstream single-author titles.\n\n---\n\nQuote retrofit (Session 26, round 6 / \"Session 27\"): 21 quotes sourced directly from bcg.com's own reprints of the original classic Bruce D. Henderson essays anthologized in this book (The Experience Curve 1968, Strategy: The Product Portfolio 1970, Cash Traps 1972, The Rule of Three and Four 1976) rather than loose secondary-site \"BCG quotes.\" High confidence — primary-source essay text, dated and author-attributed. Note the 1970 essay's original term is \"pets,\" not the later-popularized \"dogs\" — kept as a genuine authenticity marker rather than modernized."
 }

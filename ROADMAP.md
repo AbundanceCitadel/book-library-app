@@ -453,12 +453,14 @@ Rebuilt the batch-markdown-to-JSON parser from scratch (the prior session's pars
 
 ### Stage 20 — Quote Retrofit Pass ("Highlights & Quotes," 20-30/book target)
 
-**Status:** 84 of 236 books touched across 5 rounds (round 1: 27 zero-quote
+**Status:** 93 of 236 books touched across 6 rounds (round 1: 27 zero-quote
 books; round 2: 28 books in the 1-4 range; round 3: 8 books in the 1-4
 range; round 4: 13 English 0-quote books plus a genuine Vietnamese-sourcing
 attempt on 4 more, Session 26; round 5: the remaining seven 1-quote books,
-same session). 179 books remain below the 20-30 target for a future
-session to continue.
+same session; round 6: 9 books in the 2-quote bucket, same session,
+including 2 data-quality corrections that dropped fake pre-existing
+"quotes"). 175 books remain below the 20-30 target for a future session
+to continue.
 
 Every content-writing pass to date (the original 66 books, batches 1-12,
 batches 13-20) consistently undershot `docs/SCHEMA.md`'s v2 20-30-quotes-
@@ -702,6 +704,12 @@ scope, same as Stage 21) and no PWA icon regeneration (same known gap Stage
 ---
 
 ## Session Log
+
+**2026-08-02 — Session 26, continued (round 6, the 2-quote bucket):** Same sitting as the round 4/5 entry below; Thai gave a standing instruction mid-session to keep working through as many rounds as useful without stopping for approval, so continued directly into a third round rather than stopping after round 5. Targeted the 31-book 2-quote bucket, picking 9 with low contamination risk (no other same-author titles in the library, or an easily-disambiguated one): 2 parallel researcher-only subagent batches (4 + 5 books). 6 gained substantially more real quotes — `201-great-ideas-for-your-small-business-3rd-ed` (2->20, via a confirmed full-text scan of the 3rd edition), `debt-free-for-life` (2->25, cross-validated across two independent quote-extraction sources), `leading-with-questions` (2->20, Goodreads-verified), `on-strategy` (2->21, sourced directly from BCG's own site's reprints of the original Bruce Henderson essays this book anthologizes — noted the 1970 essay's original "pets" terminology predates the later-popularized "dogs," a good authenticity marker), `more-than-enough` (2->3, genuinely thin after filtering out Dave Ramsey's other, more-quoted titles), `wine-folly-magnum-edition` (kept at 2, but replaced a truncated quote with its full correct sentence).
+
+**Caught 2 real pre-existing data-quality issues, same failure mode Session 23 first identified (`DECISIONS.md` #203-212):** `get-a-grip-verify-title`'s 2 "quotes" turned out to be the book's own subtitle/tagline and a self-labeled "publisher description" (a jacket blurb) — replaced both with 2 newly-verified Goodreads quotes, net count unchanged (2) but now real. `payback-time`'s 2 "quotes" turned out to be a chapter title and a 2-word paraphrase label, neither verbatim — discarded both (2->0), confirmed via Goodreads' own work-quotes page explicitly showing 0 for this title. Also found `encyclopedia-of-chart-patterns-3rd-ed`'s existing quote 1 was the same unverifiable "footprints of the smart money" line the new research independently flagged as unconfirmed to this specific edition, and quote 2 was again a labeled "publisher description" — discarded both (2->0). Also checked and confirmed the `payback-time` (English, code 192) / `ngay-doi-no-payback-time-vn-ed` (Vietnamese, code 171) pair are two genuinely distinct catalog rows for two different physical editions Thai owns, not a duplicate like the `phi-ly-tri`/`predictably-irrational` pair — no flag needed there.
+
+Net this round: 9 books touched, `>=20` bucket grew 57->61, 0-quote bucket rose 25->27 (a data-quality correction on 2 books, not new unresearched gaps). **175 of 236 books remain below the 20-30 target.** Verified via the same `tsc --noEmit` + full JSON-parse/dup-id/dup-code/empty-category sweep (clean). Still not pushed (no PAT this session). Wrote `docs/SESSION_27_CONTINUATION_PROMPT.md`, superseding round 4/5's own `docs/SESSION_26_CONTINUATION_PROMPT.md` "round 6" pointer now that round 6 is done. See `DECISIONS.md` #245-248.
 
 **2026-08-02 — Session 26 (Stage 20 continued, quote retrofit round 4/5):** The uploaded continuation prompt pointed at `docs/SESSION_23_CONTINUATION_PROMPT.md`, but the connected local folder's `book-library-app` checkout turned out to be on an orphaned, never-pushed local branch (`redesign/premium-v3`, forked right after Session 11, one "review-only" commit) — 66 books vs. `origin/main`'s 236, missing Stages 17-22 entirely and an already-shipped Nine-Section Design Foundation. Surfaced this to Thai directly before touching anything (his call: sync to `origin/main` and continue from the real current state) rather than building on the stale branch. Cloned `origin/main` fresh into the sandbox's home directory (outside any `mnt/`-prefixed mount, per the established workaround), confirmed `docs/SESSION_25_CONTINUATION_PROMPT.md` was the real latest handoff (quote retrofit round 4), and re-derived the quote-count breakdown programmatically before trusting any cited number — confirmed exact match to Session 25's reported 32/92/44/9/5/54 split.
 

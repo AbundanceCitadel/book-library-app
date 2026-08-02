@@ -90,18 +90,7 @@
     "Apply consistent position sizing and pattern-specific stop-loss placement across every trade.",
     "Combine multiple confirming signals rather than relying on a single pattern in isolation."
   ],
-  "quotes": [
-    {
-      "text": "When the smart money trades the securities markets, they leave behind financial footprints.",
-      "attribution": "Thomas N. Bulkowski",
-      "category": "On the Book's Approach"
-    },
-    {
-      "text": "This edition reports on statistics from nearly four times the number of samples used in the Second Edition.",
-      "attribution": "Thomas N. Bulkowski (publisher description of the book's methodology)",
-      "category": "On Statistical Rigor"
-    }
-  ],
+  "quotes": [],
   "conceptsFrameworks": [
     {
       "name": "Confirmation and Breakout",
@@ -157,5 +146,5 @@
   "personalRating": null,
   "personalNotes": "",
   "dateAdded": "2026-07-31",
-  "sourceNotes": "Web search was used to confirm the book's title, edition details, publisher description, and general reference-encyclopedia structure (~75 patterns across pattern-family chapters); because this is a statistical reference work rather than a narrative book, individual pattern chapters were grouped into six thematic sections for this synthesis rather than summarized one by one, and the public quote footprint for this title is thin, so only a small number of well-attested lines are included per this project's copyright limits.\n\n---"
+  "sourceNotes": "Web search was used to confirm the book's title, edition details, publisher description, and general reference-encyclopedia structure (~75 patterns across pattern-family chapters); because this is a statistical reference work rather than a narrative book, individual pattern chapters were grouped into six thematic sections for this synthesis rather than summarized one by one, and the public quote footprint for this title is thin, so only a small number of well-attested lines are included per this project's copyright limits.\n\n---\n\n---\n\nQuote retrofit (Session 26, round 6 / \"Session 27\"): genuine attempt, zero quotes found. Goodreads reviews consistently describe this as a lookup reference (\"an encyclopaedia,\" not read for prose) with an empty quotes page. A commonly-circulated line (\"chart patterns are the footprints of the smart money\") is attributed to Bulkowski online but could not be confirmed as appearing in this specific edition rather than one of his other books or interviews, so excluded. The one quotable line tied to this specific title is cover-blurb praise from Larry Williams, not Bulkowski's own writing, so also excluded. Expected outcome for a 1,000+-page statistics/pattern-definition reference."
 }

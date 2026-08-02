@@ -122,14 +122,19 @@
   ],
   "quotes": [
     {
-      "text": "You must gain control over your money or the lack of it will forever control you.",
-      "attribution": "Dave Ramsey, *More Than Enough*",
-      "category": "Financial Discipline"
+      "text": "Requiring nothing of a child gives them no opportunity for failure or success.",
+      "attribution": "Dave Ramsey, More Than Enough",
+      "category": "Parenting & Character"
     },
     {
-      "text": "Personal finance is 80 percent behavior and only 20 percent head knowledge.",
-      "attribution": "Dave Ramsey, *More Than Enough*",
-      "category": "Character and Money"
+      "text": "Henry Ford, who definitely had more than enough, said, 'Failure is the opportunity to begin again more intelligently.'",
+      "attribution": "Dave Ramsey, More Than Enough (quoting Henry Ford)",
+      "category": "Perseverance & Failure"
+    },
+    {
+      "text": "Over the long term you get what you deserve, and none of us like it when what we deserve is pain.",
+      "attribution": "Dave Ramsey, More Than Enough",
+      "category": "Consequences & Discipline"
     }
   ],
   "whoThisIsFor": "Readers carrying consumer debt or living paycheck to paycheck who want a structured, discipline-first approach to financial recovery, rather than readers primarily looking for advanced investment strategy.",
@@ -183,5 +188,5 @@
   "personalRating": null,
   "personalNotes": "",
   "dateAdded": "2026-08-01",
-  "sourceNotes": "Synthesized from general knowledge of Dave Ramsey's well-documented personal history (real estate collapse and bankruptcy) and his consistently recurring financial-teaching framework (budgeting discipline, debt-snowball-style payoff, emergency fund, giving); quotes checked against widely and consistently attributed Ramsey lines associated with this book. Exact chapter count/order for this specific earlier title is a best-effort reconstruction around its known \"ten keys\" structure rather than a verified table of contents — worth checking against your copy's contents page."
+  "sourceNotes": "Synthesized from general knowledge of Dave Ramsey's well-documented personal history (real estate collapse and bankruptcy) and his consistently recurring financial-teaching framework (budgeting discipline, debt-snowball-style payoff, emergency fund, giving); quotes checked against widely and consistently attributed Ramsey lines associated with this book. Exact chapter count/order for this specific earlier title is a best-effort reconstruction around its known \"ten keys\" structure rather than a verified table of contents — worth checking against your copy's contents page.\n\n---\n\nQuote retrofit (Session 26, round 6 / \"Session 27\"): only 3 quotes verified — Goodreads' dedicated work page for this exact title lists exactly 3, and cross-checking Ramsey's full author-quotes index confirmed no other unattributed quotes belong here (everything else there is tagged to Total Money Makeover, EntreLeadership, The Legacy Journey, etc.) — the cross-book contamination risk flagged for this multi-title author was real and successfully filtered out. Landed honestly at 3 rather than padding."
 }
