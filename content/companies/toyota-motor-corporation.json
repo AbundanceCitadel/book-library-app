@@ -1,0 +1,100 @@
+{
+  "id": "toyota-motor-corporation",
+  "name": "Toyota Motor Corporation",
+  "category": "automotive",
+  "founded": "1937",
+  "founders": [
+    "Kiichiro Toyoda"
+  ],
+  "overview": "Toyota is the world's largest automaker by sales, built on a manufacturing philosophy — the Toyota Production System — that has been studied and copied across nearly every industry, not just cars. It sells everything from the best-selling Corolla and Camry to the Lexus luxury line, and pioneered mass-market hybrid technology with the Prius in 1997, decades before hybrids became a mainstream category.\n\nThe company remains substantially controlled by the Toyoda family (three generations removed from founder Kiichiro Toyoda) even though the family holds a comparatively small equity stake, through a culture of long-tenured executives promoted from within and a governance structure that has historically prized stability and long-term thinking over short-term shareholder pressure. That same insular, consensus-driven culture has also been blamed for two of the company's biggest crises: a 2009-2010 unintended-acceleration recall scandal and a 2023-2024 safety-testing fraud scandal at its Daihatsu subsidiary.",
+  "foundingStory": "Toyota's roots are in weaving, not cars. Sakichi Toyoda, Kiichiro's father, was a prolific inventor who built increasingly automated looms, culminating in the Type G automatic loom of 1924, one of the first looms in the world to stop itself automatically the instant a thread broke — the principle Toyota still calls jidoka, \"automation with a human touch,\" and treats as one of its two foundational pillars. In 1929, Sakichi sold the patent rights to the Type G loom to the British textile-machinery firm Platt Brothers for £100,000, and gave the proceeds to his son Kiichiro specifically to fund research into automobile manufacturing, an industry Japan barely had at the time. Kiichiro started an automobile department inside the family's Toyoda Automatic Loom Works in 1933 and spun it off as the independent Toyota Motor Corporation in 1937. The company's name was deliberately changed from the family name \"Toyoda\" to \"Toyota\" for the launch — a katakana-script redesign contest chose \"Toyota\" partly because it takes eight brushstrokes to write, a number considered lucky in Japan, and partly to separate the public company brand from the founding family's personal name.",
+  "businessModelProducts": "Toyota's business is built less around any single car model than around a manufacturing methodology: the Toyota Production System (TPS), developed mainly by engineer Taiichi Ohno in the decades after World War II by studying both Henry Ford's assembly line and, reportedly, the restocking rhythm of American supermarkets. TPS rests on two pillars — jidoka (machines and workers stop production the instant a defect is detected, rather than let a flawed part travel down the line) and just-in-time manufacturing (parts arrive from suppliers exactly when needed, minimizing inventory). Layered on top is kaizen, continuous incremental improvement driven by input from assembly-line workers themselves, not just engineers, and genchi genbutsu, a management principle that decisions should be made by executives who have personally gone to see the actual production floor or problem firsthand. Commercially, Toyota sells mass-market vehicles under the Toyota brand (Corolla, Camry, RAV4, Hilux) and luxury vehicles under Lexus (launched 1989), and has bet more heavily on hybrid and hydrogen powertrains than on pure battery-electric vehicles compared with rivals — a strategic wager that looked cautious for much of the 2020s but left Toyota with deep hybrid-manufacturing expertise as it expands its own battery-EV lineup.",
+  "growthTimeline": [
+    {
+      "period": "1924",
+      "event": "Sakichi Toyoda perfects the Type G automatic loom, introducing the jidoka principle"
+    },
+    {
+      "period": "1937",
+      "event": "Toyota Motor Corporation spun off from Toyoda Automatic Loom Works, founded by Kiichiro Toyoda"
+    },
+    {
+      "period": "1950",
+      "event": "Near-bankruptcy and a bank-mandated layoff of a quarter of the workforce trigger a strike; Kiichiro Toyoda resigns as president to take responsibility"
+    },
+    {
+      "period": "1950",
+      "event": "Korean War procurement orders from the U.S. military give Toyota the demand surge that pulls it back from collapse"
+    },
+    {
+      "period": "1957",
+      "event": "Toyopet Crown becomes the first Japanese car exported to the United States; it sells poorly, exposing how far Toyota still had to go to meet American driving conditions"
+    },
+    {
+      "period": "1966",
+      "event": "Corolla launched; goes on to become the best-selling car nameplate in automotive history"
+    },
+    {
+      "period": "1989",
+      "event": "Lexus luxury division launched"
+    },
+    {
+      "period": "1997",
+      "event": "Prius launched in Japan, the first mass-produced hybrid gasoline-electric car"
+    },
+    {
+      "period": "2007",
+      "event": "Toyota overtakes General Motors to become the world's largest automaker by sales"
+    },
+    {
+      "period": "2009-2010",
+      "event": "Global recall of more than 9 million vehicles over unintended-acceleration complaints; Akio Toyoda testifies before the U.S. Congress"
+    },
+    {
+      "period": "2023",
+      "event": "Daihatsu subsidiary's decades-long safety-test data falsification is exposed, forcing a worldwide shipment suspension of Daihatsu-developed models"
+    },
+    {
+      "period": "2026",
+      "event": "CEO Koji Sato steps down after roughly three years in the role and is succeeded by CFO Kenta Kon, Toyota's second CEO change in three years, while remaining the world's top-selling automaker"
+    }
+  ],
+  "leadership": [
+    {
+      "name": "Kiichiro Toyoda",
+      "role": "Founder & First President (1937-1950)"
+    },
+    {
+      "name": "Taiichi Ohno",
+      "role": "Chief Engineer, architect of the Toyota Production System"
+    },
+    {
+      "name": "Akio Toyoda",
+      "role": "President (2009-2023), then Chairman"
+    },
+    {
+      "name": "Kenta Kon",
+      "role": "President & CEO (from April 2026)"
+    }
+  ],
+  "legacyImpact": "The Toyota Production System is arguably Toyota's single largest export to the rest of the world economy — repackaged and generalized as \"lean manufacturing\" and \"lean thinking,\" it has been adopted far outside the auto industry, from hospitals streamlining patient flow to software teams running kanban boards, and remains a staple of business-school case studies decades after Ohno developed it. The Prius normalized hybrid powertrains for mainstream buyers years before the rest of the industry took electrification seriously, and the Corolla's four-decade run as the best-selling car nameplate in history made \"Toyota reliability\" a byword for dependable, low-drama car ownership across dozens of countries. Toyota's overtaking of General Motors in 2007 also marked a symbolic changing of the guard: the first time a non-U.S. company sat atop global auto sales, a milestone that reshaped how the American auto industry benchmarked itself.",
+  "lessonsForEntrepreneurs": [
+    "A manufacturing process can itself be the product — the Toyota Production System, not any single car, is Toyota's most widely copied and studied contribution to global business.",
+    "Giving frontline workers the authority to stop the entire production line the moment they spot a defect (jidoka, embodied in the physical \"andon cord\") catches small problems before they compound into expensive ones, even though it slows things down in the short term.",
+    "Continuous small improvements suggested by the people doing the work (kaizen) can compound into a durable competitive advantage more reliably than occasional big top-down redesigns.",
+    "Accountability at the top matters symbolically as well as practically — Kiichiro Toyoda resigning as president during the 1950 crisis, and Akio Toyoda personally testifying before Congress during the 2009-2010 recall, both became defining moments precisely because leadership visibly owned the failure rather than deflecting it.",
+    "A slow, methodical bet (Toyota's decades-long hybrid-first strategy over rushing to pure battery-EVs) can look overly cautious for years and still pay off if it's built on real manufacturing expertise rather than hype-chasing."
+  ],
+  "criticalTake": {
+    "points": [
+      "The 2009-2010 unintended-acceleration recall crisis, covering more than 9 million vehicles worldwide, exposed a slow and defensive initial corporate response; a subsequent NHTSA/NASA engineering investigation found no electronic defect (the causes were traced mainly to floor-mat entrapment and sticky accelerator pedals), but Toyota still pleaded guilty in 2014 to concealing safety information from regulators and paid a $1.2 billion U.S. Department of Justice settlement, the largest criminal penalty of its kind against an automaker at the time.",
+      "In 2023-2024, subsidiary Daihatsu was found to have falsified crash-safety test data on dozens of models for decades, in some cases back to the late 1980s, forcing Toyota to suspend all Daihatsu shipments worldwide — a governance failure inside the wider Toyota Group that raised uncomfortable questions about how thoroughly the parent company's quality culture actually extended to its subsidiaries. Toyota Industries, another group company, disclosed separate engine-testing irregularities the same period.",
+      "Toyota's cautious, hybrid-and-hydrogen-first strategy left it visibly behind competitors like Tesla and China's BYD in pure battery-electric vehicle sales and technology for much of the 2020s, a lag critics attributed to institutional caution and reluctance to cannibalize its profitable hybrid and combustion lineup, even as the company has since accelerated its own battery-EV push.",
+      "The family-influenced governance structure that gives Toyota long-term stability has also drawn criticism for insularity and weak external accountability, with two CEO transitions in three years (Akio Toyoda to Koji Sato in 2023, Sato to Kenta Kon in 2026) prompting outside commentary about whether leadership changes were being driven by clear strategic logic or internal family and factional dynamics."
+    ],
+    "contextNote": "The Daihatsu fallout and Toyota's EV transition were both still active, evolving situations as of this entry's writing (2026) rather than settled history; CEO Kenta Kon's tenure and strategic direction had barely begun."
+  },
+  "relatedIds": [],
+  "dateAdded": "2026-08-03",
+  "sourceNotes": "Founding story (Sakichi Toyoda's loom patent sale, Kiichiro Toyoda's 1937 spinoff, the 1950 crisis and Kiichiro's resignation, the Toyota Production System's development under Taiichi Ohno) and general company history through the 2000s are treated as stable, well-documented business history not requiring live verification. Current leadership (CEO Kenta Kon succeeding Koji Sato effective April 2026) and the state of the Daihatsu scandal fallout and EV sales share were verified via live web search on 2026-08-03 (CNBC, Toyota Times, Japan Times, InsideEVs), per the same discipline Round 3's WHO entry established (decision #282) for facts that could have changed since general-knowledge baseline. No existing People or Books entries in this library are substantively about Toyota specifically, so relatedIds is left genuinely empty rather than forcing a weak cross-link (Kiichiro/Sakichi Toyoda are not existing People entries; content/books/the-lean-startup.json cites Toyota's influence but isn't about Toyota itself)."
+}
