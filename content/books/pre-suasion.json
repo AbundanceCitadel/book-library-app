@@ -114,34 +114,134 @@
   ],
   "quotes": [
     {
-      "text": "What's focal is (seen as) causal.",
-      "attribution": "Robert Cialdini",
-      "category": "Attention and Causality"
+      "text": "As a kind of secret agent, I once infiltrated the training programs of a broad range of professions dedicated to getting us to say yes.",
+      "attribution": "Robert Cialdini, Pre-Suasion",
+      "category": "Introduction & Method"
     },
     {
-      "text": "A well-timed appeal to a particular concept, value, or self-image can prime that construct.",
-      "attribution": "Robert Cialdini",
-      "category": "Attention and Causality"
+      "text": "They spent much of their time toiling in the fields of influence thinking about and engaging in cultivation—in ensuring that the situations they were facing had been pretreated and readied for growth.",
+      "attribution": "Robert Cialdini, Pre-Suasion",
+      "category": "Introduction & Method"
     },
     {
-      "text": "There is a Golden Moment when a message is more effective than at any other time.",
-      "attribution": "Robert Cialdini",
+      "text": "In large measure, who we are with respect to any choice is where we are, attentionally, in the moment before the choice.",
+      "attribution": "Robert Cialdini, Pre-Suasion",
       "category": "The Privileged Moment"
     },
     {
-      "text": "Successful persuasion isn't just a function of the strength of a case; it's also a function of the psychological state of the person receiving it.",
-      "attribution": "Robert Cialdini",
+      "text": "We can be channeled to that moment by (choice-relevant) cues we haphazardly bump into in our daily settings; or, of greater concern, by the cues a knowing communicator has tactically placed here; or, to much better and lasting effect, by the cues we have stored in those recurring sites to send us consistently in desired direction.",
+      "attribution": "Robert Cialdini, Pre-Suasion",
       "category": "The Privileged Moment"
     },
     {
-      "text": "The most fundamental way we distinguish between friend and foe is not through liking, but through unity.",
-      "attribution": "Robert Cialdini",
-      "category": "Unity and We-ness"
+      "text": "Immediate, large-scale adjustments begin frequently with practices that do little more than redirect attention.",
+      "attribution": "Robert Cialdini, Pre-Suasion",
+      "category": "The Privileged Moment"
     },
     {
-      "text": "There's a difference between structuring an audience's attention toward something true and relevant, and steering it toward something misleading.",
-      "attribution": "Robert Cialdini",
+      "text": "Directed attention gives focal elements a specific kind of initial weight in any deliberation.",
+      "attribution": "Robert Cialdini, Pre-Suasion",
+      "category": "What's Focal Is Causal"
+    },
+    {
+      "text": "Because we typically allot special attention to the true causes around us, if we see ourselves giving such attention to some factor, we become more likely to think of it as a cause.",
+      "attribution": "Robert Cialdini, Pre-Suasion",
+      "category": "What's Focal Is Causal"
+    },
+    {
+      "text": "A communicator who gets an audience to focus on a key element of a message pre-loads it with importance.",
+      "attribution": "Robert Cialdini, Pre-Suasion",
+      "category": "Attention & Framing"
+    },
+    {
+      "text": "Background information can both guide and distract focus of attention; anyone seeking to influence optimally must manage that information thoughtfully.",
+      "attribution": "Robert Cialdini, Pre-Suasion",
+      "category": "Attention & Framing"
+    },
+    {
+      "text": "A communicator who channels attention to a particular concept in order to heighten audience receptivity to a forthcoming message—via the focus-based, automatic, crudely associative mechanisms of pre-suasion—won't have to worry much about the tactic being defeated by deliberation.",
+      "attribution": "Robert Cialdini, Pre-Suasion",
+      "category": "Attention & Framing"
+    },
+    {
+      "text": "Walking through doorways causes you to forget because the abrupt change in your physical surroundings redirects your attention to the new setting—and consequently from your purpose, which disrupts your memory of it.",
+      "attribution": "Robert Cialdini, Pre-Suasion",
+      "category": "The Doorway Effect"
+    },
+    {
+      "text": "On a task that we feel committed to performing, we will remember all sorts of elements of it better if we have not yet had the chance to finish, because our attention will remain drawn to it.",
+      "attribution": "Robert Cialdini, Pre-Suasion",
+      "category": "The Zeigarnik Effect"
+    },
+    {
+      "text": "If we are engaged in such a task and are interrupted or pulled away, we'll feel a discomforting, gnawing desire to get back to it.",
+      "attribution": "Robert Cialdini, Pre-Suasion",
+      "category": "The Zeigarnik Effect"
+    },
+    {
+      "text": "Research shows that 70 percent to 80 percent of all medical students are afflicted by this disorder, in which they experience the symptoms of whatever disease they happen to be learning about at the time and become convinced that they have contracted it.",
+      "attribution": "Robert Cialdini, Pre-Suasion",
+      "category": "Attention & Suggestion"
+    },
+    {
+      "text": "If we want them to buy a box of expensive chocolates, we can first arrange for them to write down a number that's much larger than the price of the chocolates.",
+      "attribution": "Robert Cialdini, Pre-Suasion",
+      "category": "Pre-Suasion in Action"
+    },
+    {
+      "text": "If we want them to choose a bottle of French wine, we can expose them to French background music before they decide.",
+      "attribution": "Robert Cialdini, Pre-Suasion",
+      "category": "Pre-Suasion in Action"
+    },
+    {
+      "text": "If we want them to agree to try an untested product, we can first inquire whether they consider themselves adventurous.",
+      "attribution": "Robert Cialdini, Pre-Suasion",
+      "category": "Pre-Suasion in Action"
+    },
+    {
+      "text": "The number one rule for salespeople is to show customers that you genuinely like them.",
+      "attribution": "Robert Cialdini, Pre-Suasion",
+      "category": "Trust & Credibility"
+    },
+    {
+      "text": "A communicator who references a weakness early on is immediately seen as more honest.",
+      "attribution": "Robert Cialdini, Pre-Suasion",
+      "category": "Trust & Credibility"
+    },
+    {
+      "text": "A great strength of social-proof information is that it destroys the problem of uncertain achievability.",
+      "attribution": "Robert Cialdini, Pre-Suasion",
+      "category": "Social Proof"
+    },
+    {
+      "text": "Loss is the ultimate form of scarcity, rendering the valued item or opportunity unavailable.",
+      "attribution": "Robert Cialdini, Pre-Suasion",
+      "category": "Scarcity & Loss Aversion"
+    },
+    {
+      "text": "Because humans evolved as a species from small but stable groupings of genetically related individuals, we have also evolved a tendency to favor the people who, outside the home, exist in close proximity to us.",
+      "attribution": "Robert Cialdini, Pre-Suasion",
+      "category": "Unity & We-ness"
+    },
+    {
+      "text": "Pre-suasive openers can produce dramatic, immediate shifts in people, but to turn those shifts into durable changes, it's necessary to get commitments to them, usually in the form of related behavior.",
+      "attribution": "Robert Cialdini, Pre-Suasion",
+      "category": "Commitment & Consistency"
+    },
+    {
+      "text": "The most effective commitments reach into the future by incorporating behaviors that affect one's personal identity.",
+      "attribution": "Robert Cialdini, Pre-Suasion",
+      "category": "Commitment & Consistency"
+    },
+    {
+      "text": "We'd be right to acknowledge its considerable power and wise to understand its inner workings.",
+      "attribution": "Robert Cialdini, Pre-Suasion",
       "category": "Ethics of Influence"
+    },
+    {
+      "text": "We have to become interior designers of our regular living spaces, furnishing them with features that will send us unthinkingly in the directions we most want to go in those spaces.",
+      "attribution": "Robert Cialdini, Pre-Suasion",
+      "category": "Practical Application"
     }
   ],
   "whoThisIsFor": "Marketers, salespeople, negotiators, and managers who want to understand how framing and timing shape persuasion — and anyone who wants to recognize these techniques when used on them.",
@@ -205,5 +305,5 @@
   "personalRating": null,
   "personalNotes": "",
   "dateAdded": "2026-08-01",
-  "sourceNotes": "Synthesis based on general knowledge of the book's structure and arguments; quotes were selected from lines widely and consistently attributed to Cialdini across secondary sources and reviews and were kept short as an extra caution, so treat exact wording as approximate rather than page-verified — a physical copy is the authority for precise phrasing. The critical-take point on replication issues reflects the well-documented, ongoing replication debate in social priming research current as of this writing."
+  "sourceNotes": "Synthesis based on general knowledge of the book's structure and arguments; quotes were selected from lines widely and consistently attributed to Cialdini across secondary sources and reviews and were kept short as an extra caution, so treat exact wording as approximate rather than page-verified — a physical copy is the authority for precise phrasing. The critical-take point on replication issues reflects the well-documented, ongoing replication debate in social priming research current as of this writing.  ---  Quote retrofit pass round 8: Re-verification for this pass used two page/chapter-cited primary sources: r-ght.com's 'Pre-Suasion by Robert Cialdini — Book Review and Quotes' (quotes tied to specific hardback page numbers, in book order) and Bookey.app's chapter-cited quote page for Pre-Suasion; both were cross-checked against Goodreads' work-quotes page and general web search. None of the 6 quotes from the prior pass could be re-confirmed verbatim against these sources (e.g. the real book phrase is 'what's focal seems/is causal' used descriptively rather than the exact prior wording, and the book's actual term is 'privileged moment,' not 'Golden Moment'), so all 6 were dropped rather than carried forward unverified. Two additional candidates found in the source material were excluded because they are lines Cialdini quotes from other people within the book (an adage on caring, and a line from political scientist Bernard Cohen) rather than his own words. Final count is 26, all exact excerpts tied to specific pages/chapters in the verified sources."
 }

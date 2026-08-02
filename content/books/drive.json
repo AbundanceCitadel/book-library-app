@@ -104,29 +104,134 @@
   ],
   "quotes": [
     {
-      "text": "Autonomy, mastery, and purpose.",
-      "attribution": "Daniel Pink, core framework terms, in Drive",
-      "category": "Autonomy, Mastery, Purpose"
+      "text": "Control leads to compliance; autonomy leads to engagement.",
+      "attribution": "Daniel H. Pink, Drive",
+      "category": "Autonomy"
     },
     {
-      "text": "Motivation 2.0.",
-      "attribution": "Daniel Pink, in Drive",
+      "text": "Human beings have an innate inner drive to be autonomous, self-determined, and connected to one another. And when that drive is liberated, people achieve more and live richer lives.",
+      "attribution": "Daniel H. Pink, Drive",
+      "category": "Autonomy"
+    },
+    {
+      "text": "We have three innate psychological needs—competence, autonomy, and relatedness. When those needs are satisfied, we're motivated, productive, and happy.",
+      "attribution": "Daniel H. Pink, Drive",
+      "category": "Autonomy"
+    },
+    {
+      "text": "\"If-then\" rewards require people to forfeit some of their autonomy.",
+      "attribution": "Daniel H. Pink, Drive",
+      "category": "Autonomy"
+    },
+    {
+      "text": "Autonomy, as they see it, is different from independence. It's not the rugged, go-it-alone, rely-on-nobody individualism of the American cowboy. It means acting with choice—which means we can be both autonomous and happily interdependent with others.",
+      "attribution": "Daniel H. Pink, Drive",
+      "category": "Autonomy"
+    },
+    {
+      "text": "When we enter the world, are we wired to be passive and inert? Or are we wired to be active and engaged?",
+      "attribution": "Daniel H. Pink, Drive",
+      "category": "Autonomy"
+    },
+    {
+      "text": "Resist the temptation to control people—and instead do everything we can to reawaken their deep-seated sense of autonomy.",
+      "attribution": "Daniel H. Pink, Drive",
+      "category": "Autonomy"
+    },
+    {
+      "text": "This is the nature of mastery: Mastery is an asymptote. You can approach it. You can home in on it. You can get really, really, really close to it. But like Cézanne, you can never touch it. Mastery is impossible to realize fully.",
+      "attribution": "Daniel H. Pink, Drive",
+      "category": "Mastery"
+    },
+    {
+      "text": "Mastery: the desire to get better and better at something that matters.",
+      "attribution": "Daniel H. Pink, Drive",
+      "category": "Mastery"
+    },
+    {
+      "text": "The challenge wasn't too easy. Nor was it too difficult. It was a notch or two beyond his current abilities, which stretched the body and mind in a way that made the effort itself the most delicious reward.",
+      "attribution": "Daniel H. Pink, Drive",
+      "category": "Mastery"
+    },
+    {
+      "text": "One source of frustration in the workplace is the frequent mismatch between what people must do and what people can do. When what they must do exceeds their capabilities, the result is anxiety. When what they must do falls short of their capabilities, the result is boredom. But when the match is just right, the results can be glorious. This is the essence of flow.",
+      "attribution": "Daniel H. Pink, Drive",
+      "category": "Mastery"
+    },
+    {
+      "text": "Goals that people set for themselves and that are devoted to attaining mastery are usually healthy. But goals imposed by others—sales targets, quarterly returns, standardized test scores, and so on—can sometimes have dangerous side effects.",
+      "attribution": "Daniel H. Pink, Drive",
+      "category": "Mastery"
+    },
+    {
+      "text": "In the end, mastery attracts precisely because mastery eludes.",
+      "attribution": "Daniel H. Pink, Drive",
+      "category": "Mastery"
+    },
+    {
+      "text": "People can have two different mindsets, she says. Those with a \"fixed mindset\" believe that their talents and abilities are carved in stone. Those with a \"growth mindset\" believe that their talents and abilities can be developed. Fixed mindsets see every encounter as a test of their worthiness. Growth mindsets see the same encounters as opportunities to improve.",
+      "attribution": "Daniel H. Pink, Drive",
+      "category": "Mastery"
+    },
+    {
+      "text": "Pursue purpose—and use profit as the catalyst rather than the objective.",
+      "attribution": "Daniel H. Pink, Drive",
+      "category": "Purpose"
+    },
+    {
+      "text": "A healthy society—and healthy business organizations—begins with purpose and considers profit a way to move toward that end or a happy by-product of its attainment.",
+      "attribution": "Daniel H. Pink, Drive",
+      "category": "Purpose"
+    },
+    {
+      "text": "We leave lucrative jobs to take low-paying ones that provide a clearer sense of purpose.",
+      "attribution": "Daniel H. Pink, Drive",
+      "category": "Purpose"
+    },
+    {
+      "text": "Greatness and nearsightedness are incompatible. Meaningful achievement depends on lifting one's sights and pushing toward the horizon.",
+      "attribution": "Daniel H. Pink, Drive",
+      "category": "Purpose"
+    },
+    {
+      "text": "The way to improve performance, increase productivity, and encourage excellence is to reward the good and punish the bad.",
+      "attribution": "Daniel H. Pink, Drive",
       "category": "Motivation 2.0 vs. 3.0"
     },
     {
-      "text": "Motivation 3.0.",
-      "attribution": "Daniel Pink, in Drive",
-      "category": "Motivation 2.0 vs. 3.0"
+      "text": "Rewards can deliver a short-term boost—just as a jolt of caffeine can keep you cranking for a few more hours. But the effect wears off—and, worse, can reduce a person's longer-term motivation to continue the project.",
+      "attribution": "Daniel H. Pink, Drive",
+      "category": "Intrinsic vs. Extrinsic Motivation"
     },
     {
-      "text": "Type I behavior.",
-      "attribution": "Daniel Pink, in Drive",
-      "category": "Type I and Type X"
+      "text": "The problem with making an extrinsic reward the only destination that matters is that some people will choose the quickest route there, even if it means taking the low road. Indeed, most of the scandals and misbehavior that have seemed endemic to modern life involve shortcuts.",
+      "attribution": "Daniel H. Pink, Drive",
+      "category": "Intrinsic vs. Extrinsic Motivation"
     },
     {
-      "text": "Type X behavior.",
-      "attribution": "Daniel Pink, in Drive",
-      "category": "Type I and Type X"
+      "text": "Rewards, by their very nature, narrow our focus. That's helpful when there's a clear path to a solution. They help us stare ahead and race faster.",
+      "attribution": "Daniel H. Pink, Drive",
+      "category": "Intrinsic vs. Extrinsic Motivation"
+    },
+    {
+      "text": "By offering a reward, a principal signals to the agent that the task is undesirable.",
+      "attribution": "Daniel H. Pink, Drive",
+      "category": "Intrinsic vs. Extrinsic Motivation"
+    },
+    {
+      "text": "Ensure that the baseline rewards—wages, salaries, benefits, and so on—are adequate and fair. Without a healthy baseline, motivation of any sort is difficult and often impossible.",
+      "attribution": "Daniel H. Pink, Drive",
+      "category": "Intrinsic vs. Extrinsic Motivation"
+    },
+    {
+      "text": "The monkeys solved the puzzle simply because they found it gratifying to solve puzzles. They enjoyed it. The joy of the task was its own reward.",
+      "attribution": "Daniel H. Pink, Drive",
+      "category": "Intrinsic vs. Extrinsic Motivation"
+    },
+    {
+      "text": "When the reward is the activity itself—deepening learning, delighting customers, doing one's best—there are no shortcuts.",
+      "attribution": "Daniel H. Pink, Drive",
+      "category": "Intrinsic vs. Extrinsic Motivation"
     }
   ],
   "conceptsFrameworks": [
@@ -185,5 +290,5 @@
   "personalRating": null,
   "personalNotes": "",
   "dateAdded": "2026-07-31",
-  "sourceNotes": "Synthesized from strong general knowledge of this well-known, widely covered book's argument, structure, and terminology; I was not able to verify extended verbatim passages from the specific published text through available search results in this session, so the quote list has been limited to core terminology I'm confident is accurate rather than reconstructed longer passages.\n\n---"
+  "sourceNotes": "Synthesized from strong general knowledge of this well-known, widely covered book's argument, structure, and terminology; I was not able to verify extended verbatim passages from the specific published text through available search results in this session, so the quote list has been limited to core terminology I'm confident is accurate rather than reconstructed longer passages.\n\n---  ---  Quote retrofit pass round 8: Re-verified against the book's own Goodreads work-quotes page and individual Goodreads quote pages (each checked for the ‘This Quote Is From: Drive’ attribution tag), a Goodreads Kindle Notes & Highlights entry for Drive (confirming the full ‘Mastery is an asymptote’ passage verbatim), and Derek Sivers' page-by-page reading notes for Drive (sive.rs/book/Drive), cross-checked against overlapping wording on independent quote-listicle sites (graciousquotes.com, brandongaille.com) that explicitly tag their entries as coming from Drive rather than Pink's other books. All 5 of the prior pass's quotes (‘Autonomy, mastery, and purpose.’, ‘Motivation 2.0.’, ‘Motivation 3.0.’, ‘Type I behavior.’, ‘Type X behavior.’) were dropped: none are actual verbatim sentences from the book—they are bare terminology labels with no locatable source as standalone quoted text—so none could be verified under the stricter standard. Final list contains 26 newly verified quotes, all cross-checked to avoid contamination from Pink's other books (A Whole New Mind, To Sell Is Human, When, The Power of Regret), none of which appear elsewhere in this library."
 }

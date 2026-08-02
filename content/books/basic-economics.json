@@ -92,34 +92,139 @@
   ],
   "quotes": [
     {
-      "text": "There are no solutions. There are only trade-offs.",
+      "text": "Economics is not simply a topic on which to express opinions or vent emotions. It is a systematic study of what happens when you do specific things in specific ways.",
       "attribution": "Thomas Sowell, Basic Economics",
-      "category": "Scarcity and Trade-offs"
+      "category": "What Is Economics"
     },
     {
-      "text": "The first lesson of economics is scarcity: there is never enough of anything to fully satisfy all those who want it.",
+      "text": "While there are controversies in economics, as there are in science, this does not mean that the basic principles of economics are just a matter of opinion, any more than the basic principles of chemistry or physics are just a matter of opinion.",
       "attribution": "Thomas Sowell, Basic Economics",
-      "category": "Scarcity and Trade-offs"
+      "category": "What Is Economics"
     },
     {
-      "text": "Prices are not just monetary numbers signifying nothing more than how much money is required to acquire various goods and services. Much more fundamentally, prices are messengers conveying information.",
+      "text": "Economics is a study of cause-and-effect relationships in an economy. Its purpose is to discern the consequences of various ways of allocating scarce resources which have alternative uses. It has nothing to say about social philosophy or moral values, any more than it has anything to say about humor or anger.",
       "attribution": "Thomas Sowell, Basic Economics",
-      "category": "Prices and Information"
+      "category": "What Is Economics"
     },
     {
-      "text": "Much of the history of governments involves attempts to abolish economic laws by political fiat.",
+      "text": "Economics is more than just a way to see patterns or to unravel puzzling anomalies. Its fundamental concern is with the material standard of living of society as a whole and how that is affected by particular decisions made by individuals and institutions. One of the ways of doing this is to look at economic policies and economic systems in terms of the incentives they create, rather than simply the goals they pursue. This means that consequences matter more than intentions—and not just the immediate consequences, but also the longer run repercussions of decisions, policies, and institutions.",
       "attribution": "Thomas Sowell, Basic Economics",
-      "category": "Economic Reasoning vs. Intentions"
+      "category": "What Is Economics"
     },
     {
-      "text": "The first lesson of economics is scarcity... the first lesson of politics is to disregard the first lesson of economics.",
+      "text": "Seldom do people think things through foolishly. More often, they do not bother to think things through at all, so that even brainy individuals can reach untenable conclusions because their brainpower means little if it is not deployed and applied.",
       "attribution": "Thomas Sowell, Basic Economics",
-      "category": "Economic Reasoning vs. Intentions"
+      "category": "Economic Reasoning"
     },
     {
-      "text": "Profits are indispensable for supplying incentives for efficiency, in the many ways that efficiency can manifest itself.",
+      "text": "Newton was not the first man who saw an apple fall. His fame was based on his being the first to understand its implications.",
+      "attribution": "Thomas Sowell, Basic Economics",
+      "category": "Economic Reasoning"
+    },
+    {
+      "text": "Prices play a crucial role in determining how much of each resource gets used where and how the resulting products get transferred to millions of people. Yet this role is seldom understood by the public and it is often disregarded entirely by politicians.",
+      "attribution": "Thomas Sowell, Basic Economics",
+      "category": "Prices & Information"
+    },
+    {
+      "text": "There is perhaps no more basic or more obvious principle of economics than the fact that people tend to buy more at a lower price and less at a higher price. By the same token, people who produce goods or supply services tend to supply more at a higher price and less at a lower price.",
+      "attribution": "Thomas Sowell, Basic Economics",
+      "category": "Prices & Information"
+    },
+    {
+      "text": "However much we may think of ourselves as independent individuals, we are all dependent on other people for our very lives, as well as being dependent on innumerable strangers who produce the amenities of life.",
+      "attribution": "Thomas Sowell, Basic Economics",
+      "category": "Prices & Information"
+    },
+    {
+      "text": "Prices are not costs. Prices are what pay for costs.",
+      "attribution": "Thomas Sowell, Basic Economics",
+      "category": "Prices & Information"
+    },
+    {
+      "text": "People who want special taxes or subsidies for particular things seem not to understand that what they are really asking for is for the prices to misstate the relative scarcities of things and the relative values that the users of these things put on them.",
+      "attribution": "Thomas Sowell, Basic Economics",
+      "category": "Prices & Information"
+    },
+    {
+      "text": "Nothing makes us understand the many roles of electricity in our lives like a power failure. Similarly, nothing shows more vividly the role and importance of price fluctuations in a market economy than the absence of such price fluctuations when the market is controlled.",
+      "attribution": "Thomas Sowell, Basic Economics",
+      "category": "Price Controls"
+    },
+    {
+      "text": "Many have blamed the gasoline shortages and long lines at filling stations in 1973 on the Arab Oil embargo of that year. However, the shortages and long lines began months before the Arab oil embargo, right after price controls were imposed.",
+      "attribution": "Thomas Sowell, Basic Economics",
+      "category": "Price Controls"
+    },
+    {
+      "text": "Just as price fluctuations allocate scarce resources which have alternative uses, price controls which limit those fluctuations reduce the incentives for individuals to limit their own use of scarce resources desired by others.",
+      "attribution": "Thomas Sowell, Basic Economics",
+      "category": "Price Controls"
+    },
+    {
+      "text": "In short, rent control reduces the rate of housing turnover.",
+      "attribution": "Thomas Sowell, Basic Economics",
+      "category": "Price Controls"
+    },
+    {
+      "text": "To those who run businesses, profits are obviously desirable and losses deplorable. But economics is not business administration. From the standpoint of the economy as a whole, and from the standpoint of the central concern of economics—the allocation of scarce resources which have alternative uses—profits and losses play equally important roles in maintaining and advancing the standards of living of the population as a whole.",
       "attribution": "Thomas Sowell, Basic Economics",
       "category": "Profit, Loss, and Markets"
+    },
+    {
+      "text": "Put in different terms, profit is the price paid for efficiency. Clearly, the increase in efficiency must be greater than the profit, or else socialism would in practice have resulted in more affordable prices and greater prosperity, as its theorists hoped, but the latter never materialized in the real world.",
+      "attribution": "Thomas Sowell, Basic Economics",
+      "category": "Profit, Loss, and Markets"
+    },
+    {
+      "text": "The big advantage of a free market is that you don't have to convince anybody of anything. You simply compete with them in the marketplace and let that be the test of what works best.",
+      "attribution": "Thomas Sowell, Basic Economics",
+      "category": "Business & Production"
+    },
+    {
+      "text": "Neither individuals nor companies are successful forever. Death alone guarantees turnover in management.",
+      "attribution": "Thomas Sowell, Basic Economics",
+      "category": "Business & Production"
+    },
+    {
+      "text": "Misconceptions of business are almost inevitable in a society where most people have neither studied nor run businesses. In a society where most people are employees and consumers, it is easy to think of businesses as “them”—as impersonal organizations, whose internal operations are largely unknown and whose sums of money may sometimes be so huge as to be unfathomable.",
+      "attribution": "Thomas Sowell, Basic Economics",
+      "category": "Business & Production"
+    },
+    {
+      "text": "A society in which only members of a hereditary aristocracy, a military junta, or a ruling political party can make major decisions is a society which has thrown away much of the knowledge, insights, and talents of most of its own people. A society in which such decisions can only be made by males has thrown away half of its knowledge, talents, and insights.",
+      "attribution": "Thomas Sowell, Basic Economics",
+      "category": "Knowledge & Decentralization"
+    },
+    {
+      "text": "Unfortunately, little of the knowledge and understanding within the economics profession has reached the average citizen and voter, leaving politicians free to do things that would never be tolerated if most people understood economics as well as Alfred Marshall understood it a century ago or David Ricardo two centuries ago.",
+      "attribution": "Thomas Sowell, Basic Economics",
+      "category": "Knowledge & Decentralization"
+    },
+    {
+      "text": "Unfortunately, the real minimum wage is always zero, regardless of the laws, and that is the wage that many workers receive in the wake of the creation or escalation of a government-mandated minimum wage, because they lose their jobs or fail to find jobs when they enter the labor force. Making it illegal to pay less than a given amount does not make a worker’s productivity worth that amount—and, if it is not, that worker is unlikely to be employed.",
+      "attribution": "Thomas Sowell, Basic Economics",
+      "category": "Labor Markets"
+    },
+    {
+      "text": "As an entrepreneur in India put it: 'Indians have learned from painful experience that the state does not work on behalf of the people. More often than not, it works on behalf of itself.'",
+      "attribution": "Thomas Sowell, Basic Economics",
+      "category": "Government & Public Choice"
+    },
+    {
+      "text": "The fundamental confusion that makes income bracket data and individual income data seem mutually contradictory is the implicit assumption that people in particular income brackets at a given time are an enduring “class” at that level. If that were true, then trends over time in comparisons between income brackets would be the same as trends over time between individuals. Because that is not the case, the two sets of statistics lead not only to different conclusions but even opposite conclusions.",
+      "attribution": "Thomas Sowell, Basic Economics",
+      "category": "Income & Statistics"
+    },
+    {
+      "text": "Although Adam Smith is today often regarded as a “conservative” figure, he in fact attacked some of the dominant ideas and interests of his own times. Moreover, the idea of a spontaneously self-equilibrating system—the market economy—first developed by the Physiocrats and later made part of the tradition of classical economics by Adam Smith, represented a radically new departure, not only in analysis of social causation but also in seeing a reduced role for political, intellectual, or other elites as guides or controllers of the masses.",
+      "attribution": "Thomas Sowell, Basic Economics",
+      "category": "History of Economic Thought"
+    },
+    {
+      "text": "Perhaps the most important thing about risk is its inescapability. Particular individuals, groups, or institutions may be sheltered from risk - but only at the cost of having someone else bear that risk. For a society as a whole, there is no someone else.",
+      "attribution": "Thomas Sowell, Basic Economics",
+      "category": "Risk"
     }
   ],
   "conceptsFrameworks": [
@@ -183,5 +288,5 @@
   "personalRating": null,
   "personalNotes": "",
   "dateAdded": "2026-07-31",
-  "sourceNotes": "Synthesis is based on general knowledge of the book's well-documented structure and arguments; the listed quotes are drawn from lines widely and independently attested across multiple public sources discussing this book, rather than from exhaustive page-by-page verification against a specific edition, and the quote count was kept in the 8-15 range rather than 20-30 to stay within a defensible, non-padded verification standard.\n\n---"
+  "sourceNotes": "Synthesis is based on general knowledge of the book's well-documented structure and arguments; the listed quotes are drawn from lines widely and independently attested across multiple public sources discussing this book, rather than from exhaustive page-by-page verification against a specific edition, and the quote count was kept in the 8-15 range rather than 20-30 to stay within a defensible, non-padded verification standard.\n\n---  ---  Quote retrofit pass round 8: Re-verified against Thomas Sowell's dedicated Wikiquote page for 'Basic Economics (Thomas Sowell)' (chapter-cited excerpts) and cross-checked against bookquoters.com's book-specific quote collection plus individual Goodreads quote pages that explicitly list 'This Quote Is From: Basic Economics: A Citizen's Guide to the Economy'. All 6 prior quotes were dropped: 'There are no solutions. There are only trade-offs' and 'The first lesson of economics is scarcity...the first lesson of politics is to disregard...' both independently trace on Goodreads to 'A Conflict of Visions' and 'Is Reality Optional? And Other Essays' respectively, not Basic Economics; the 'Prices are not just monetary numbers...' and 'Much of the history of governments involves attempts to abolish economic laws...' quotes could not be located verbatim in any checkable source; and 'Profits are indispensable for supplying incentives for efficiency...' did not match the verified Basic Economics text on profit (the closest genuine match, 'Put in different terms, profit is the price paid for efficiency...', was substituted instead). Final count is 27 verified quotes, comfortably within the target range."
 }

@@ -453,7 +453,7 @@ Rebuilt the batch-markdown-to-JSON parser from scratch (the prior session's pars
 
 ### Stage 20 — Quote Retrofit Pass ("Highlights & Quotes," 20-30/book target)
 
-**Status:** 101 of 236 books touched across 7 rounds (round 1: 27 zero-quote
+**Status:** 110 of 236 books touched across 8 rounds (round 1: 27 zero-quote
 books; round 2: 28 books in the 1-4 range; round 3: 8 books in the 1-4
 range; round 4: 13 English 0-quote books plus a genuine Vietnamese-sourcing
 attempt on 4 more, Session 26; round 5: the remaining seven 1-quote books,
@@ -461,8 +461,16 @@ same session; round 6: 9 books in the 2-quote bucket, same session,
 including 2 data-quality corrections that dropped fake pre-existing
 "quotes"; round 7: 8 more books in the 2-quote bucket, same session, mixing
 straightforward English titles with more VN-edition-of-English-original
-identifications). 174 books remain below the 20-30 target for a future
-session to continue.
+identifications; round 8: re-confirmed 5 already-flagged 0-quote books as
+genuine dead ends (2-4 independent prior attempts each, all converging on 0
+again — see round 8 note below), and retrofitted 4 well-known books that
+had never actually been through the Stage 20 verification standard —
+`basic-economics`, `pre-suasion`, `crushing-it`, `drive` — each carrying
+older "approximate wording, not page-verified" quotes from the original
+pre-Stage-20 content pass; re-verification dropped 15 of their combined 22
+old quotes as unconfirmed or misattributed, replacing them with a fully
+Goodreads/page-cited-verified 26-30 count each). 170 books remain below the
+20-30 target for a future session to continue.
 
 Every content-writing pass to date (the original 66 books, batches 1-12,
 batches 13-20) consistently undershot `docs/SCHEMA.md`'s v2 20-30-quotes-
@@ -552,15 +560,69 @@ supplied inline by Thai (never persisted); live deploy confirmed via direct
 fetch of `/book/limitless` rendering correctly post-push. Full rationale in
 `DECISIONS.md` #228-230.
 
-**Next up:** 182 of 236 books remain below the 20-30 target — 32 at 0 (many
-already attempted once and honestly unfindable, per Session 23's note),
-92 at 1-4 (the highest-value bucket — largely untried, best hit rate),
-44 at 5-9, 9 at 10-14, 5 at 15-19. Vietnamese-language titles were
-deliberately skipped this round and make up a large share of the 0-and-thin
-buckets — worth a session that specifically budgets for Vietnamese-language
-sourcing/verification rather than defaulting to English-language picks
-again. See `docs/SESSION_25_CONTINUATION_PROMPT.md` for the exact worklist
-and instructions.
+**Next up (as of the end of round 3):** 182 of 236 books remained below the
+20-30 target — 32 at 0 (many already attempted once and honestly
+unfindable, per Session 23's note), 92 at 1-4 (the highest-value bucket —
+largely untried, best hit rate), 44 at 5-9, 9 at 10-14, 5 at 15-19.
+Vietnamese-language titles were deliberately skipped this round and make up
+a large share of the 0-and-thin buckets — worth a session that specifically
+budgets for Vietnamese-language sourcing/verification rather than
+defaulting to English-language picks again. See
+`docs/SESSION_25_CONTINUATION_PROMPT.md` for the exact worklist and
+instructions. (Rounds 4-7 then closed most of this gap — see the Status
+line above and `DECISIONS.md` #203-251 for the full accounting; this
+paragraph is left as the round-3-era snapshot rather than rewritten, since
+it was already the historical record other sessions cited.)
+
+**Round 8 (2026-08-02, continuation from `docs/SESSION_27_CONTINUATION_
+PROMPT.md`'s "round 7" pointer):** Before any research, discovered the
+connected local folder's `book-library-app` checkout was on a stale,
+long-diverged branch (`redesign/premium-v3`, forked from `main` before the
+236-book expansion, carrying ~80 modified files and a dozen-plus untracked
+new content-type directories from an in-progress "premium redesign" that
+had never been committed) — not `main` at all, despite `git status`
+otherwise looking plausible at a glance. Per Thai's direction, committed
+and pushed that redesign work as a checkpoint (`redesign/premium-v3` on
+`origin`, commit `e73bb81`) to preserve it, then did all quote-retrofit work
+in a proper `origin/main`-tracked `/tmp` clone (same recurring stale-mount
+git workaround as `DECISIONS.md` #28/#31-35/#121-122/#173/#177/#228,
+compounded this session by the sync client also blocking raw `unlink()`
+calls needed for git's own loose-object writes — worked around by cloning
+to real local disk, `/tmp`, rather than any `mnt/`-prefixed path at all).
+Re-derived the quote-count breakdown programmatically before trusting the
+continuation prompt's cited numbers — confirmed an exact match (27 at 0, 79
+at 1-4, 47 at 5-9, 12 at 10-14, 9 at 15-19, 62 at >=20).
+
+Ran 2 batches of parallel researcher-only subagents. Batch A (5 books from
+the 0-quote bucket, picked without first checking each book's own
+`sourceNotes`) came back 5-for-5 honest zeros — a real process lesson, not
+a wasted round: each subagent's independent research converged on the same
+conclusion prior sessions had already reached (2-4 independent attempts on
+some of these titles), confirming the remaining 0-quote bucket is now
+mostly composed of genuinely source-exhausted titles rather than
+untried ones. Adjusted strategy for batch B accordingly — checked
+`sourceNotes` first, and picked 4 well-known books instead (`basic-
+economics`, `pre-suasion`, `crushing-it`, `drive`) that had never been
+through the Stage 20 Goodreads-verified standard at all, still carrying
+older "approximate, not page-verified" quotes from the original pre-Stage-
+20 content-writing pass. All 4 came back strong: `basic-economics` 6→27
+(dropped all 6 old quotes — 2 traced to different Sowell books, the rest
+unverifiable), `pre-suasion` 6→26 (dropped all 6 — wrong terminology,
+e.g. "Golden Moment" vs. the book's actual "privileged moment"), `crushing-
+it` 5→30 (dropped 4 of 5 — one, "Legacy is greater than currency," is
+confirmed to belong to the earlier, differently-titled *Crush It!*, not
+this book), `drive` 5→26 (dropped all 5 — they were bare terminology
+labels like "Motivation 2.0," not actual sentences from the book, so none
+passed the stricter standard). New breakdown: 27 at 0, 79 at 1-4, 43 at
+5-9, 12 at 10-14, 9 at 15-19, 66 at >=20 (236 total) — 170 remain below
+target.
+
+Verified via JSON-parse + id/attribution-field sweep clean across all 9
+touched files (no duplicate quote text, no missing `category`). Committed
+and pushed to `origin/main` using a classic PAT Thai supplied inline this
+session (never persisted). Wrote `docs/SESSION_28_CONTINUATION_PROMPT.md`
+for the 170 remaining below-target books. See `DECISIONS.md` #252+ and the
+Status line above.
 
 ---
 
