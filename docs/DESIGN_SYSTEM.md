@@ -1,3 +1,171 @@
+# Design System v6 — Light-First Color Overhaul & Nine-Section Homepage (Design Foundation session)
+
+Supersedes v4/v5 on the color-theme point only — the orange/pine accent
+scale, box-in-box card treatment, book codes, and tab pattern are all kept
+exactly as v4/v5 left them (see below the divider). This session's brief:
+expand the app from a single-purpose book library into a nine-section
+personal knowledge library. See `PROJECT_BRIEF.md` and
+`docs/SCHEMA_SECTIONS.md` for the eight new sections' content models — this
+file covers only the visual/theme/navigation changes.
+
+## 1. Default theme flipped to light
+
+Thai's direction, given directly in chat: he no longer wants a dark-first
+design — "when I see the dark, I feel off... it doesn't excite me." Every
+v2-v5 session up to this point treated dark as the default, unclassed theme
+and light as the opt-in `.light` class. This session inverts that exactly:
+
+- `app/globals.css` — the light palette that already existed as `.light`
+  (warm paper white `#faf8f4` background, `#ffffff` surface, `#201f1c`
+  foreground — unchanged values, just moved) is now on `:root` (the
+  unclassed default). The dark palette (`#0b0c0e` background, etc. —
+  also unchanged values) now lives under a `.dark` class, the exact inverse
+  of the old `.light` opt-in. Same swap applied to the badge-tone tokens
+  (`--badge-orange-bg/-fg`, `--badge-pine-bg/-fg`) and the elevation/shadow
+  scale (`--shadow-sm/-md/-lg`), which are tuned per-theme since a shadow
+  that reads correctly on near-black is far too subtle on warm-white.
+- `app/layout.tsx` — the no-flash inline script (runs before paint) now only
+  ever adds `.dark`, on the same two conditions the old script used for
+  `.light` but inverted: stored preference is explicitly `"dark"`, or
+  stored preference is `"system"` and the OS itself reports dark. A
+  totally fresh visitor with nothing in `localStorage` gets light,
+  unconditionally — nobody should see a black/near-black background on
+  first visit anymore, which is the literal requirement Thai stated.
+  `viewport.themeColor` moved from `#0b0c0e` to `#faf8f4` to match.
+- `app/components/ThemeToggle.tsx` — same three states (Light / Dark /
+  System) Thai asked to keep, just a swapped default (`useState<ThemePref>`
+  now initializes to `"light"`, not `"dark"`) and an inverted `applyTheme`
+  (toggles the `.dark` class based on `isDark`, not `.light` based on
+  `isLight`).
+- `tailwind.config.ts` — `darkMode: "class"` is unchanged (Tailwind's
+  `dark:` variant prefix still isn't used anywhere in this codebase, same
+  as v2-v5 — every component still reads the semantic `bg-bg`/`text-fg`/etc.
+  tokens, which now resolve correctly under the flipped variable scheme
+  automatically, no per-component changes needed).
+- No other visual value changed — the actual hex values for both themes,
+  the orange/pine accent scales, typography, elevation, and motion tokens
+  are all byte-identical to v4/v5. This is a default-and-direction flip,
+  not a repaint.
+
+## 2. New third color: espresso — the grounding element
+
+Thai's ask, alongside the light-first flip: he still wants "a little bit of
+dark" somewhere, as a grounding element — not a return to a dark-first
+design, but a deliberate small dark accent so the whole app doesn't read as
+uniformly pale. Added a new `espresso` scale to `tailwind.config.ts`
+(`50`-`900`, same 10-step structure as `orange`/`pine`):
+
+```
+espresso:
+  50: #f5efe9   100: #e8dcd0   200: #d3bfa9   300: #b89a7e   400: #96775c
+  500: #6b4f3b  ← primary (dividers, small chrome text/borders on light bg)
+  600: #543d2d  700: #402f22  ← chrome fill (paired with off-white text)
+  800: #2f2219  900: #1f160f
+```
+
+**Why a warm brown, not a cool gray or true black:** the brief was explicit
+that this needed to feel like part of the orange/pine warm family, not a
+generic UI-kit neutral bolted on. Espresso's hue sits in warm brown
+territory across the whole scale (roughly 25-30°), consistent with orange's
+own warm register, so it reads as "the dark member of this same warm
+family" rather than a disconnected gray.
+
+**Contrast-checked, not guessed:** computed WCAG relative-luminance contrast
+ratios before picking final values (see the session's verification work) —
+`espresso-500` (`#6b4f3b`) against the new light background (`#faf8f4`)
+comes out to **7.05:1**, comfortably past the 4.5:1 AA threshold for normal
+text and past the stricter 7:1 AAA threshold too, so it's safe to use for
+small text/borders/dividers directly on the light background. `espresso-700`
+(`#402f22`) paired with `espresso-50` (`#f5efe9`) as text — the pairing used
+for small chrome *fills* (the nav drawer's header strip, homepage tile accent
+stripes) — comes out to **10.93:1** against the espresso-50 text color,
+comfortably legible.
+
+**Usage rule — never a full-surface fill:** per Thai's explicit framing ("a
+little bit of dark," not a section), espresso is deliberately restricted to
+small chrome: the homepage section-tile top accent stripe (`.espresso-chrome`
+utility / `bg-espresso-700`), and the `NavDrawer`'s header strip. It is never
+used as a full-page or full-section background — that would reintroduce the
+dark-first feeling Thai just asked to move away from, just relocated to a
+different surface. Every reading surface (book pages, all 8 new sections'
+detail pages) stays on the shared bg/surface tokens.
+
+## 3. No per-section color schemes — wayfinding via icon + accent stripe instead
+
+Confirmed explicitly with Thai before building: the nine homepage sections
+do **not** each get their own full color palette. Nine distinct hues would
+dilute the orange/pine/cream identity this app has built over v2-v5 and get
+visually noisy fast — hard to keep "premium" at 9 competing colors. Instead,
+`app/components/SectionTile.tsx` gives each homepage tile two small,
+consistent wayfinding marks:
+
+- A **distinct emoji icon** per section (no icon-font/image dependency, same
+  approach `lib/categories.ts` already uses for the 16 book categories).
+- A **badge-color alternation** (orange/pine, alternating tile-to-tile) on
+  the icon's circular badge — decorative variety, not a meaningful
+  per-section code (i.e., "orange" doesn't mean anything specific about
+  Rich List vs. Companies; it's just visual rhythm across the grid).
+- The **espresso top accent stripe** described above — the one shared
+  "grounding" mark every tile carries identically.
+
+Every section's own interior pages (listing + detail) stay on the exact
+same shared orange + pine + cream + espresso system as the book library —
+no section reskins itself once you're inside it. This is the direct answer
+to "hard to keep looking premium at 9 hues": one system, applied
+consistently, with icon + stripe doing the wayfinding work instead of color.
+
+## 4. Header nav — drawer, not a tab bar
+
+Nine top-level sections don't fit a horizontal tab bar on a phone header
+without wrapping to two rows or forcing sideways scroll to discover items
+past the fold — workable for *in-page* tabs (BookTabs/DetailTabs, where the
+visitor already knows what page they're on and is fine scrolling sideways
+through a handful of tabs) but a bad pattern for *global* navigation, where
+every section should be reachable in the same number of taps from anywhere.
+
+Chose a single slide-in drawer (`app/components/NavDrawer.tsx`, a "☰
+Sections" button in the header) — the same modal-dialog interaction pattern
+`SearchOverlay` already established for this header (Escape/backdrop-click
+to close, focus handling), applied at every breakpoint rather than a
+responsive hybrid (bar on desktop, drawer on mobile). **Trade-off flagged
+explicitly, per the project's standing practice of surfacing rather than
+silently deciding this kind of call:** a hybrid pattern could show all 9
+sections inline on a wide desktop viewport without ever opening a drawer,
+which is arguably a nicer desktop experience — not built this session, since
+one nav pattern to maintain and test (rather than two) was judged the better
+trade for a scaffolding-pass session, and this app's actual usage (Thai,
+one-handed, on a phone) is mobile-first per every design decision back to
+Stage 3. Easy to revisit if desktop use turns out to matter more than
+expected.
+
+The header wordmark now links to the global home hub (`/`) instead of the
+book library (`/library`, which used to live at `/`) — the book emoji is
+kept as the app's one brand mark rather than swapped for a new generic logo,
+since the app grew out of the book library and Thai hasn't asked for a
+rebrand. `metadata.title`/`manifest.json`'s `name`/`short_name` all renamed
+from "Book Library" to "Personal Library" / "Library" to match — the app-icon
+PNG assets themselves are **not** regenerated this session (they still carry
+the v2 dark/gold palette baked in as image pixels) — flagged as a known,
+explicitly out-of-scope-for-this-pass follow-up in the session's continuation
+prompt, not silently left inconsistent.
+
+## 5. Homepage restructure
+
+`app/page.tsx` is now the nine-tile global hub (brief intro + a
+`SectionTile` grid: Book Library plus the 8 new sections, in the order
+listed in `PROJECT_BRIEF.md`). The book library's entire previous home page
+— category shelf grid, `LibraryStats`, the wishlist pointer link — moved
+unchanged to `app/library/page.tsx`; every route it links to (`/book/[id]`,
+`/category/[category]`, `/wishlist`) is untouched, including their own
+internal styling and logic. The only follow-on change: `BackLink`'s
+`fallbackHref` on the book-detail, category, and wishlist pages moved from
+`/` to `/library`, since a book's natural "back to where I came from" is the
+library section now, not the global hub.
+
+---
+
+# Design System v5 — Box-in-Box Layout & Book Codes (Stage 18)
+
 # Design System v5 — Box-in-Box Layout & Book Codes (Stage 18)
 
 Supersedes v4's density layout on two specific points below — everything else in

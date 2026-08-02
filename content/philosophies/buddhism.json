@@ -1,0 +1,27 @@
+{
+  "id": "buddhism",
+  "name": "Buddhism",
+  "category": "world-religion",
+  "founder": "Siddhartha Gautama (the Buddha)",
+  "origin": "Northern India/Nepal border region, c. 5th–6th century BC",
+  "summary": "Buddhism began with Siddhartha Gautama, a prince of the Shakya clan who renounced his royal upbringing after encountering old age, sickness, and death, and eventually attained enlightenment (bodhi) through meditation, becoming \"the Buddha\" (the Awakened One). His core teaching, delivered first in a sermon at Sarnath, centers on the Four Noble Truths: that suffering (dukkha) is a universal feature of existence, that it arises from craving and attachment, that it can cease, and that the Eightfold Path is the way to end it. Over roughly 2,500 years it spread from India across Asia, developing into several major branches — Theravada (dominant in Southeast Asia), Mahayana (dominant in East Asia), and Vajrayana (dominant in Tibet) — that differ meaningfully in scripture, practice, and doctrine while sharing this common root.\n\nIn the 20th century, teachers including Thich Nhat Hanh (already a dedicated category in this library's book collection) played a major role in bringing an accessible, practice-oriented form of Buddhism — particularly mindfulness meditation — to a broad Western audience, distinct from but continuous with the tradition's much older monastic and philosophical lineages.",
+  "coreTeachings": [
+    "The Four Noble Truths: the existence of suffering, its cause (craving/attachment), its cessation, and the path to that cessation",
+    "The Eightfold Path: right view, intention, speech, action, livelihood, effort, mindfulness, and concentration",
+    "Impermanence (anicca): all conditioned phenomena are in constant flux, and attachment to permanence is a root source of suffering",
+    "Non-self (anatta): the conventional sense of a fixed, permanent \"self\" is itself a source of clinging and suffering",
+    "Karma and rebirth: intentional actions have consequences that shape future experience, traditionally across multiple lifetimes"
+  ],
+  "keyTexts": [
+    "The Pali Canon (Tipitaka) — the earliest complete surviving collection of Buddhist scripture, foundational to Theravada",
+    "The Diamond Sutra and Heart Sutra — foundational Mahayana texts",
+    "The Dhammapada — a widely read collection of the Buddha's sayings",
+    "The Miracle of Mindfulness by Thich Nhat Hanh — a modern, practice-oriented text already represented in this library's book collection"
+  ],
+  "relatedIds": [
+    { "section": "library-category", "id": "thich-nhat-hanh", "label": "Thich Nhat Hanh (book library category)" },
+    { "section": "library-category", "id": "philosophy-psychology", "label": "Philosophy & Psychology (book library category)" }
+  ],
+  "dateAdded": "2026-08-02",
+  "sourceNotes": "Synthesized from standard comparative-religion and Buddhist-studies sources for this scaffolding pass. Original synthesis per PROJECT_BRIEF.md §6. Chosen as the example entry for this section specifically because of its direct tie to Thai's own Thich Nhat Hanh reading, per the session brief."
+}

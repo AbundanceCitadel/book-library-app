@@ -1,0 +1,17 @@
+{
+  "id": "warren-buffett",
+  "attributedTo": "Warren Buffett",
+  "about": "Chairman and CEO of Berkshire Hathaway since 1970, widely regarded as the most successful long-term value investor of the 20th and early 21st centuries. Already covered in the book library via Buffett: The Making of an American Capitalist and Charlie Munger: The Complete Investor.",
+  "quotes": [
+    { "text": "Price is what you pay. Value is what you get.", "category": "business", "source": "Berkshire Hathaway shareholder letter, 2008" },
+    { "text": "Our favorite holding period is forever.", "category": "business", "source": "Berkshire Hathaway shareholder letter, 1988" },
+    { "text": "Rule No. 1: Never lose money. Rule No. 2: Never forget Rule No. 1.", "category": "motivation", "source": "Widely attributed in interviews; exact origin debated" },
+    { "text": "It takes 20 years to build a reputation and five minutes to ruin it.", "category": "leadership", "source": "Various interviews" },
+    { "text": "The stock market is a device for transferring money from the impatient to the patient.", "category": "business", "source": "Widely attributed; consistent with his long-documented public remarks" }
+  ],
+  "relatedIds": [
+    { "section": "library", "id": "buffett-the-making-of-an-american-capitalist", "label": "Buffett: The Making of an American Capitalist" }
+  ],
+  "dateAdded": "2026-08-02",
+  "sourceNotes": "Quotes cross-checked against widely cited, publicly documented sources (Berkshire Hathaway's own published shareholder letters where noted; otherwise flagged as widely attributed per this project's standing verification standard from docs/SCHEMA.md). Scaffolding example — a full Quotes section pass should verify each line against a primary source the way the book pipeline's quote-verification process already does."
+}

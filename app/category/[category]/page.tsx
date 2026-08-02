@@ -32,7 +32,7 @@ export default function CategoryPage({
 
   return (
     <main className="mx-auto max-w-5xl px-4 py-8 sm:px-6">
-      <BackLink label="Back" fallbackHref="/" />
+      <BackLink label="Back" fallbackHref="/library" />
       <h1 className="mt-2 flex items-center gap-3 text-3xl font-semibold tracking-tight sm:text-4xl">
         <span
           className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full text-2xl"

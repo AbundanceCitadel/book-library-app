@@ -1,73 +1,100 @@
-import Link from "next/link";
-import { getAllBooks, getAllCategories, getLibraryCatalog, isOwned, CATEGORY_LABELS, CATEGORY_ICONS } from "@/lib/books";
-import LibraryStats from "./components/LibraryStats";
+import SectionTile from "./components/SectionTile";
 
-// v4 (Stage 17): the category list used to be a client-side accordion that
-// expanded books in place (CategoryAccordion, now removed) — tapping
-// "Business" never actually navigated anywhere, so the browser's back button
-// had nothing real to go back to and the URL bar never changed. Thai's
-// explicit ask: "act as a browser" — every tap is a real navigation (a
-// `next/link` to `/category/[slug]`), so forward/back both behave exactly
-// like a normal website (back returns to this exact scroll position on this
-// exact page, not to some default state) with zero custom history handling
-// needed — this is just what real `<Link>` navigation already does. See
-// docs/DESIGN_SYSTEM.md v4 "Navigation: real pages, not in-place expansion."
+// Design Foundation session: the app is expanding from a single-purpose book
+// library into a nine-section personal knowledge library. This page is now
+// the global entry point — the book library (formerly the entire home page,
+// now at /library) is one of nine tiles here, not the whole app. See
+// PROJECT_BRIEF.md, docs/DESIGN_SYSTEM.md v6, and docs/SCHEMA_SECTIONS.md
+// for the full rationale behind this restructure.
+const SECTIONS: {
+  href: string;
+  title: string;
+  description: string;
+  icon: string;
+  accent: "orange" | "pine";
+}[] = [
+  {
+    href: "/library",
+    title: "Book Library",
+    description: "Book summaries, chapter breakdowns, and quotes from Thai's own shelves.",
+    icon: "📚",
+    accent: "orange",
+  },
+  {
+    href: "/people",
+    title: "Famous People / Profiles",
+    description: "Biographical profiles — life summary, achievements, and legacy.",
+    icon: "🧑‍🎓",
+    accent: "pine",
+  },
+  {
+    href: "/richlist",
+    title: "Rich List",
+    description: "The world's richest people, ranked, with a portfolio breakdown per person.",
+    icon: "💵",
+    accent: "orange",
+  },
+  {
+    href: "/quotes",
+    title: "Quotes",
+    description: "Quotes by famous people, categorized by theme.",
+    icon: "💬",
+    accent: "pine",
+  },
+  {
+    href: "/rulers",
+    title: "Kings, Generals & Presidents",
+    description: "Rulers, military leaders, and statesmen across history, by country.",
+    icon: "👑",
+    accent: "orange",
+  },
+  {
+    href: "/organizations",
+    title: "Groups & Organizations",
+    description: "Significant institutions — charities, governments, and international bodies.",
+    icon: "🏢",
+    accent: "pine",
+  },
+  {
+    href: "/companies",
+    title: "Companies & Brands",
+    description: "Iconic companies — founding story, milestones, and culture.",
+    icon: "🏭",
+    accent: "orange",
+  },
+  {
+    href: "/civilizations",
+    title: "Civilizations & Empires",
+    description: "Major historical civilizations and empires — the macro context around history's rulers.",
+    icon: "🏺",
+    accent: "pine",
+  },
+  {
+    href: "/philosophies",
+    title: "Philosophies, Religions & Belief Systems",
+    description: "Core teachings, founders, and key texts — from Stoicism to Buddhism.",
+    icon: "☯️",
+    accent: "orange",
+  },
+];
+
 export default function HomePage() {
-  // v4 (Stage 17): the 16 shelves only ever reflect what Thai owns — filtered
-  // here rather than trusting every data file to already exclude wishlist
-  // entries, so a future non-owned book added anywhere never quietly dilutes
-  // a shelf count. See lib/books.ts isOwned() and docs/SCHEMA.md.
-  const books = getAllBooks().filter(isOwned);
-  const categories = getAllCategories();
-  const catalog = getLibraryCatalog().filter(isOwned);
-
   return (
     <main className="mx-auto max-w-5xl px-4 py-8 sm:px-6">
       <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">
-        Book Library
+        Personal Library
       </h1>
-      <p className="mt-1 text-sm text-muted">
-        Every book on Thai&apos;s shelves, in one place.
+      <p className="mt-2 max-w-2xl text-sm text-muted">
+        Thai&rsquo;s personal knowledge library — nine sections spanning
+        books, people, wealth, history, institutions, and belief systems.
+        Tap a section to explore it.
       </p>
-      <LibraryStats books={books} />
 
-      <h2 className="mt-10 text-xl font-semibold sm:text-2xl">
-        Explore the Shelves
-      </h2>
-      <p className="mt-1 text-sm text-muted">
-        Sixteen sections, each one a shelf — tap to open it.
-      </p>
-      <div className="mt-4 grid grid-cols-2 gap-3">
-        {categories.map((cat) => {
-          const count = catalog.length
-            ? catalog.filter((c) => c.categories.includes(cat)).length
-            : books.filter((b) => b.categories.includes(cat)).length;
-          return (
-            <Link
-              key={cat}
-              href={`/category/${cat}`}
-              className="book-row motion-premium tap-target flex flex-col gap-1 rounded-xl border-2 border-orange-600/70 bg-surface p-3 sm:p-4"
-            >
-              <span className="text-xl" aria-hidden="true">
-                {CATEGORY_ICONS[cat] ?? "📚"}
-              </span>
-              <span className="text-sm font-medium leading-snug">
-                {CATEGORY_LABELS[cat]}
-              </span>
-              <span className="whitespace-nowrap text-xs text-muted">
-                {count} book{count === 1 ? "" : "s"}
-              </span>
-            </Link>
-          );
-        })}
+      <div className="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-2">
+        {SECTIONS.map((s) => (
+          <SectionTile key={s.href} {...s} />
+        ))}
       </div>
-
-      <p className="mt-6 text-sm text-muted">
-        Looking for a book you don&apos;t own yet?{" "}
-        <Link href="/wishlist" className="text-pine-400 hover:underline">
-          Wishlist →
-        </Link>
-      </p>
     </main>
   );
 }

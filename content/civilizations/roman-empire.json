@@ -1,0 +1,15 @@
+{
+  "id": "roman-empire",
+  "name": "Roman Empire",
+  "region": "mediterranean-europe",
+  "era": "27 BC – 476 AD (Western); 27 BC – 1453 AD (Eastern/Byzantine)",
+  "summary": "The Roman Empire began when Octavian (Augustus) became Rome's first emperor in 27 BC, ending nearly five centuries of republican government following Julius Caesar's assassination and the civil wars that followed it. At its territorial height under Trajan (around 117 AD), it controlled roughly 2 million square miles spanning Britain, continental Europe to the Rhine and Danube, the entire Mediterranean coastline, and the Near East. It split into Western and Eastern halves in 285 AD under Diocletian for administrative reasons; the Western Empire fell in 476 AD, while the Eastern half — commonly called the Byzantine Empire by historians, though its own citizens still called themselves Roman — continued for nearly another thousand years until Constantinople fell in 1453.",
+  "riseAndFall": "Rome's expansion from a single city-state to a Mediterranean-spanning empire took centuries and was driven by a combination of military organization (the legion system), engineering (roads, aqueducts, and fortifications that let it project and sustain power over enormous distances), and a relatively pragmatic approach to absorbing conquered peoples' elites into Roman citizenship and administration rather than only ruling by pure force. The Western Empire's decline is one of history's most studied and debated processes — commonly cited contributing factors include repeated civil wars over imperial succession, currency debasement and economic strain, overextended and increasingly difficult-to-defend borders, and sustained pressure from migrating and invading groups including the Goths, Vandals, and Huns, culminating in the deposition of the last Western emperor, Romulus Augustulus, in 476 AD.",
+  "legacy": "Roman law, engineering, and administrative practice directly influenced nearly every European state that followed it, and Latin's descendant Romance languages (Italian, French, Spanish, Portuguese, Romanian) are spoken by hundreds of millions of people today. The Catholic Church inherited much of the Western Empire's administrative geography and, for centuries, some of its Latin-language institutional continuity. \"Fall of Rome\" remains one of the most frequently invoked historical analogies in modern political commentary — often loosely and with real debate among historians about how apt the comparison actually is to any specific modern situation.",
+  "notableRulers": ["Julius Caesar", "Augustus", "Trajan", "Marcus Aurelius", "Constantine the Great", "Diocletian"],
+  "relatedIds": [
+    { "section": "rulers", "id": "julius-caesar", "label": "Julius Caesar" }
+  ],
+  "dateAdded": "2026-08-02",
+  "sourceNotes": "Synthesized from standard classical-history and historiography sources for this scaffolding pass. Original synthesis per PROJECT_BRIEF.md §6. Only Julius Caesar has a full Rulers-section entry as of this pass; the rest of notableRulers are plain names pending future Rulers-section content."
+}

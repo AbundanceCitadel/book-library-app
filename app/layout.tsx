@@ -30,9 +30,12 @@ const literata = Literata({
   style: ["normal", "italic"],
 });
 
+// Design Foundation session: renamed from "Book Library" to "Personal
+// Library" — the app now spans nine sections, not just books. See
+// docs/DESIGN_SYSTEM.md v6.
 export const metadata: Metadata = {
-  title: "Book Library",
-  description: "Personal library of book summaries",
+  title: "Personal Library",
+  description: "Thai's personal knowledge library — books, people, wealth, history, institutions, and belief systems",
   manifest: "/manifest.json",
   icons: {
     icon: [
@@ -44,7 +47,7 @@ export const metadata: Metadata = {
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
-    title: "Book Library",
+    title: "Personal Library",
   },
 };
 
@@ -52,25 +55,26 @@ export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   viewportFit: "cover",
-  // v2: dark is the single default theme-color now — light is opt-in via the
-  // toggle, not OS-driven, so one static value is correct here (unlike the old
-  // prefers-color-scheme pair).
-  themeColor: "#0b0c0e",
+  // v6: light is the single default theme-color now — dark is opt-in via
+  // the toggle, not OS-driven, so one static value is correct here (unlike
+  // the old prefers-color-scheme pair). See docs/DESIGN_SYSTEM.md v6.
+  themeColor: "#faf8f4",
 };
 
-// Runs before paint. v2 (Stage 15): dark is the default for a first-time
-// visitor regardless of OS preference — only adds `.light` if the stored
-// preference is explicitly "light", or "system" and the OS itself reports
-// light. See docs/DESIGN_SYSTEM.md — "Dark / Light Mode."
+// Runs before paint. v6 (Design Foundation session): light is the default
+// for a first-time visitor regardless of OS preference — only adds `.dark`
+// if the stored preference is explicitly "dark", or "system" and the OS
+// itself reports dark. Exact inverse of v2-v5's logic. See
+// docs/DESIGN_SYSTEM.md v6 — "Design System v6."
 const NO_FLASH_SCRIPT = `
 (function () {
   try {
     var stored = localStorage.getItem("theme");
-    var isLight =
-      stored === "light" ||
+    var isDark =
+      stored === "dark" ||
       (stored === "system" &&
-        window.matchMedia("(prefers-color-scheme: dark)").matches === false);
-    document.documentElement.classList.toggle("light", isLight);
+        window.matchMedia("(prefers-color-scheme: dark)").matches === true);
+    document.documentElement.classList.toggle("dark", isDark);
   } catch (e) {}
 })();
 `;

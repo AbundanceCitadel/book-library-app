@@ -1,13 +1,13 @@
 {
-  "name": "Book Library",
-  "short_name": "Books",
-  "description": "Personal library of book summaries — whole-book synthesis, chapter breakdowns, key lessons, and quotes.",
+  "name": "Personal Library",
+  "short_name": "Library",
+  "description": "Thai's personal knowledge library \u2014 books, people, wealth, history, institutions, and belief systems.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
   "orientation": "portrait-primary",
-  "background_color": "#0b0c0e",
-  "theme_color": "#0b0c0e",
+  "background_color": "#faf8f4",
+  "theme_color": "#faf8f4",
   "lang": "en",
   "icons": [
     {

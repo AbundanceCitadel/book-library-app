@@ -523,7 +523,100 @@ for the exact worklist and instructions.
 
 ---
 
+### Stage 21 — Nine-Section Personal Library: Design Foundation
+
+**Status:** Foundation complete — color system + architecture shipped in
+full; all 8 new sections scaffolded with 1-2 real example entries each.
+Full population of any new section is future work (see
+`docs/SESSION_24_CONTINUATION_PROMPT.md`).
+
+Thai is expanding the app from a single-purpose book library into a
+nine-section personal knowledge library (Book Library plus Famous People/
+Profiles, Rich List, Quotes, Kings/Generals/Presidents, Groups &
+Organizations, Companies & Brands, Civilizations & Empires, and
+Philosophies/Religions/Belief Systems). This stage was explicitly scoped as
+foundation-only: homepage restructure, color system change, and the
+reusable architecture each of the eight new sections is built on — not a
+content-writing pass. `content/books/*.json` and the book-specific content
+pipeline were untouched throughout, per the session's own explicit
+instruction (a separate, ongoing track — see `docs/CONTENT_PIPELINE.md`).
+
+**Color system (shipped in full, not scaffolding):** flipped the app's
+default theme from dark-first to light-first per Thai's direct feedback
+("when I see the dark, I feel off"). `:root` now holds the light palette
+(unclassed default); `.dark` is the new opt-in class, the exact inverse of
+v2-v5's `.light`-opt-in-on-dark-default strategy. Orange (primary) and pine
+(secondary) are unchanged. Added a new `espresso` warm-brown scale for "a
+little bit of dark" as a grounding element — contrast-checked
+(`espresso-500` vs. the light background: 7.05:1, past WCAG AAA) and
+restricted by usage rule to small chrome only (never a full-section
+background). Full writeup: `docs/DESIGN_SYSTEM.md` "Design System v6."
+
+**Architecture (shipped in full):** generalized the book library's proven
+content pattern (`content/<type>/*.json` + `lib/<type>.ts` +
+`app/<type>/[id]/page.tsx` + a tabbed detail view) into a reusable shape
+every new section follows: a shared `lib/content.ts` (generic
+`loadJsonEntries`/`groupByKey`/`firstSentences` helpers), a
+`lib/<section>Categories.ts` split (mirroring `lib/categories.ts`'s
+fs-free pattern, avoiding the exact client-bundle bug documented in
+`DECISIONS.md` #167), a new generic `app/components/DetailTabs.tsx` (extracted
+from `BookTabs`' tab-bar mechanics so all 8 sections share one tab-bar
+implementation instead of 8 forks), and `app/components/RelatedLinks.tsx`
+(the one place a `relatedIds: {section, id, label}[]` field resolves to a
+real cross-section link). Full field-level schemas, category taxonomies
+with rationale, and tab-set proposals for all 8 sections:
+`docs/SCHEMA_SECTIONS.md`.
+
+**Homepage & navigation:** `app/page.tsx` is now the nine-tile global hub
+(brief intro + a tile grid); the book library's entire previous home page
+moved unchanged to `app/library/page.tsx` (`/book/[id]`, `/category/[category]`,
+`/wishlist` all untouched). Added `app/components/NavDrawer.tsx` (a
+"Sections" menu button in the header) so all 9 sections are reachable from
+every page — chosen over a horizontal tab bar, which doesn't fit 9 items on
+a phone header; flagged as a trade-off in `docs/DESIGN_SYSTEM.md` v6 §4.
+
+**Example content (1-2 real entries per section, not full population):**
+Steve Jobs (People), Elon Musk + Larry Page (Rich List, real Forbes 2026
+figures), Warren Buffett quote set (Quotes), George Washington + Julius
+Caesar (Rulers), World Health Organization (Organizations), Apple Inc.
+(Companies), Roman Empire (Civilizations), Buddhism (Philosophies) — real,
+cross-linked content, not placeholder lorem ipsum. Buddhism was
+deliberately chosen to tie into Thai's own Thich Nhat Hanh reading, per the
+session brief.
+
+**Verified:** `npx tsc --noEmit` clean; `npm run build` clean (277 static
+pages: 236 existing book/category pages + the new home/library/8-section
+listing/10-example-detail pages; Google Fonts stubbed in a scratch copy
+only, real `app/layout.tsx` untouched); `npm run start` + direct `curl`
+checks against the home page, `/library`, a book page, a category page,
+`/wishlist`, and every one of the 8 new sections' listing + example detail
+pages — confirmed 200s, the light-by-default `<html>` class (no `dark`),
+`theme-color` `#faf8f4`, all 9 homepage tiles present, the espresso accent
+stripe and orange/pine badge gradients rendering, and every cross-section
+`relatedIds` link resolving to the correct URL (Steve Jobs ↔ Apple Inc.,
+Julius Caesar → Roman Empire, Warren Buffett → his existing book-library
+biography, Buddhism → the `thich-nhat-hanh`/`philosophy-psychology` book
+categories). Chrome browser tools were not connected to this sandbox's local
+build server this session (same limitation noted in `DECISIONS.md` #184) —
+no true visual/screenshot QA was possible; flagged as a real gap rather than
+skipped silently, consistent with how Session 11 handled the same gap.
+
+**Known follow-up, flagged not fixed:** the PWA icon PNG assets under
+`public/icons/` still carry the old v2 dark/gold palette baked into their
+pixels — `manifest.json`'s text fields (name/short_name/colors) were updated
+to the new light theme, but regenerating the actual icon images was judged
+out of scope for a foundation/scaffolding session. See
+`docs/SESSION_24_CONTINUATION_PROMPT.md`.
+
+---
+
 ## Session Log
+
+**2026-08-02 — Session 24 (Stage 21, Nine-Section Design Foundation):** Read `PROJECT_BRIEF.md`/`ROADMAP.md`/`DECISIONS.md`/`docs/DESIGN_SYSTEM.md`/`docs/SCHEMA.md` in full per the standing rule, with particular attention to v4's color-overhaul section and the most recent (Session 23, Stage 20 quote-retrofit) log entry, per the continuation prompt's own instructions. Verified git state via a fresh `/tmp` clone of `origin/main` rather than trusting the synced folder's `git status` directly (same recurring stale-index bug documented since `DECISIONS.md` #28/#31-35/#121-122/#173/#177) — confirmed the synced folder's `app/`/`lib/`/`docs/`/`tailwind.config.ts` files were all byte-identical to `origin/main` despite `git status` flagging them "modified" (a stale local-index artifact, not real drift), and that only 4 `content/books/*.json` files (`built-to-last`, `charlie-munger-the-complete-investor`, `delivering-happiness`, `dotcom-secrets`) genuinely differ — the same 4 files identified as the parallel Stage-15-retrofit track's in-progress work in decision #177, left untouched throughout, same as every prior session. Also found the synced folder's `content/books/` (66 files) is far behind `origin/main`'s actual state (236 files, following Sessions 22-23's pushes from other accounts) — confirmed this is expected staleness in this particular sandbox mount, not something this session caused or needed to fix, since `content/books/*.json` was never touched. Did all work in the fresh `/tmp` clone directly rather than rsyncing the synced folder on top of it, since every non-book file there was already confirmed identical to `origin/main`.
+
+Shipped the full color-system flip (Design System v6) and the complete new-section architecture described in Stage 21 above: `app/globals.css`/`tailwind.config.ts`/`app/layout.tsx`/`app/components/ThemeToggle.tsx` (light-first default, new `espresso` scale), `lib/content.ts` (shared fs/grouping/truncation helpers), 8 new `lib/<section>.ts` + `lib/<section>Categories.ts` pairs, `app/components/DetailTabs.tsx` + `app/components/RelatedLinks.tsx` + `app/components/SectionEntryCard.tsx` + `app/components/SectionTile.tsx` + `app/components/NavDrawer.tsx`, the new `app/page.tsx` hub + relocated `app/library/page.tsx`, and 8 new section route trees (listing + `[id]` detail pages) with 10 real example entries across the 8 sections. Full rationale for every taxonomy/tab-set/route-name/hex-value judgment call in `DECISIONS.md` #213+.
+
+Verified via `npx tsc --noEmit` (clean), a clean `npm run build` (277 static pages, Google Fonts stubbed in a scratch copy only), and `npm run start` + direct `curl` checks against every new route plus a sample of existing book-library routes — confirmed the light-by-default theme, all 9 homepage tiles, the espresso accent stripe, and every cross-section `relatedIds` link resolving correctly (see Stage 21 above for the full list). Chrome browser tools weren't connected to this sandbox's local server this session, so no true visual/screenshot QA — flagged rather than skipped silently. See the chat response for push/deploy verification. Wrote `docs/SESSION_24_CONTINUATION_PROMPT.md` for the future population pass. See `DECISIONS.md` #213+ and Stage 21 above.
 
 **2026-08-02 — Session 23 (Stage 20, quote retrofit pass):** Read `PROJECT_BRIEF.md`/`ROADMAP.md`/`DECISIONS.md` in full per the standing rule, with particular attention to Stage 19 and decisions #186-192 (most recent prior session). Regenerated the quote-count breakdown programmatically before trusting the continuation prompt's cited numbers — confirmed exact match. Ran 2 rounds of 4 parallel research-only subagents each (55 books touched total: all 27 zero-quote books, plus 28 of the 123-book 1-4-quote bucket), applying every verified result via a single merge script rather than letting subagents write files directly. Round 2 surfaced and fixed a real data-quality issue: several prior-pass entries had non-quote content (blurbs, paraphrases, misattributed lines, even a book's own title) sitting in `quotes[]` instead of an honest empty array — discarded 14 fake entries. Net: 20 books gained real verified quotes, `>=20` bucket grew 41->50, 0-quote bucket rose 17->31 (a data-quality correction, not a regression — full accounting in `DECISIONS.md` #203-212). Guarded against cross-book contamination for every multi-title author touched (Thich Nhat Hanh, Robin Sharma, Brian Tracy, Dan Ariely, Andrew Sobel, Andrew Aziz, Takashi Ishii, Dale Carnegie, Minh Niệm, Gerry Robert) — caught a real Goodreads work-page mismerge between Andrew Aziz's two day-trading books. Flagged 2 out-of-scope issues for a future session (an apparent duplicate Predictably Irrational VN-edition entry pair; a likely book-identity problem on `nghe-thuat-ghi-chep`) without fixing them, staying within this session's quotes-only scope. Verified via JSON-parse/dup-id/dup-code/empty-category sweep (clean) and `npx tsc --noEmit` (clean); `npm run build` hit the known pre-existing sandbox SIGBUS limitation (`DECISIONS.md` #108) and fell back to the established `tsc`+JSON-parse verification standard. Committed and pushed using a classic PAT Thai supplied this session, verified live via direct fetch. Wrote `docs/SESSION_23_CONTINUATION_PROMPT.md` for the 140 remaining below-target books. See `DECISIONS.md` #203-212 and Stage 20 above.
 

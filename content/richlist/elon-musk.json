@@ -1,0 +1,19 @@
+{
+  "id": "elon-musk",
+  "name": "Elon Musk",
+  "rank": 1,
+  "netWorthUsdBillions": 839,
+  "category": "technology",
+  "country": "United States",
+  "bio": "Elon Musk built his fortune across a sequence of companies rather than one: an early stake in the payments company that became PayPal (sold to eBay in 2002), then Tesla (electric vehicles, joined as an early investor/chairman and became CEO in 2008), SpaceX (founded 2002, now the dominant private launch provider and operator of the Starlink satellite network), and more recently xAI, his AI company, along with The Boring Company, Neuralink, and X (formerly Twitter, acquired in 2022).\n\nHis net worth is unusually concentrated in equity stakes in companies he still runs — most of it is not liquid cash — which makes it move by tens of billions of dollars with Tesla's and SpaceX's valuations. Forbes' 2026 real-time list put him well ahead of the next-richest person, a gap Forbes itself has described as the widest in the history of its rankings.",
+  "portfolio": [
+    { "holding": "Tesla, Inc.", "description": "Electric vehicles, energy storage, and autonomy software. Musk is CEO and largest individual shareholder.", "approxStake": "~13% equity stake as of Forbes' 2026 estimate" },
+    { "holding": "SpaceX", "description": "Private launch provider and operator of the Starlink satellite internet network; the largest single component of Musk's estimated net worth.", "approxStake": "~42% equity stake" },
+    { "holding": "xAI", "description": "AI research and product company, developer of the Grok model family.", "approxStake": "Majority founder stake" },
+    { "holding": "X (formerly Twitter)", "description": "Social media platform, acquired 2022 and later merged into xAI.", "approxStake": "Majority stake via xAI" }
+  ],
+  "asOfDate": "2026-03-11",
+  "relatedIds": [],
+  "dateAdded": "2026-08-02",
+  "sourceNotes": "Net worth and rank per Forbes' 2026 World's Billionaires real-time list (forbes.com, accessed 2026-08-02). This is a snapshot for scaffolding purposes — a real Rich List rollout should re-verify figures close to publication, since these estimates move continuously."
+}

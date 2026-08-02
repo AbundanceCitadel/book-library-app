@@ -22,7 +22,7 @@ export default function WishlistPage() {
 
   return (
     <main className="mx-auto max-w-5xl px-4 py-8 sm:px-6">
-      <BackLink label="Back" fallbackHref="/" />
+      <BackLink label="Back" fallbackHref="/library" />
       <h1 className="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">
         Wishlist
       </h1>

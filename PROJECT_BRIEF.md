@@ -2,9 +2,23 @@
 
 **Owner:** Thai (metacitadel@gmail.com)
 **Status:** Active — see `ROADMAP.md` for stage-by-stage progress
-**Last updated:** 2026-07-24
+**Last updated:** 2026-08-02 (Design Foundation session — nine-section expansion)
 
 ---
+
+## 0. Nine-section expansion (added Design Foundation session, 2026-08-02)
+
+The app is expanding beyond the book library described in this document into
+a **nine-section personal knowledge library**: the book library below
+becomes one of nine tabs, not the whole app. The eight new sections (Famous
+People / Profiles, Rich List, Quotes, Kings/Generals/Presidents, Groups &
+Organizations, Companies & Brands, Civilizations & Empires, Philosophies/
+Religions/Belief Systems) have their own content models, documented in
+`docs/SCHEMA_SECTIONS.md` — **this file's Sections 1-8 below remain accurate
+for the book library specifically** and are intentionally left unchanged.
+See `ROADMAP.md` Stage 21 and `docs/DESIGN_SYSTEM.md` "Design System v6" for
+the full rationale, the color-system change that shipped alongside the
+restructure, and what's scaffolding-only vs. fully built as of that session.
 
 ## 1. Vision
 

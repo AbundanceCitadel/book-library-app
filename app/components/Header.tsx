@@ -1,6 +1,7 @@
 import Link from "next/link";
 import ThemeToggle from "./ThemeToggle";
 import SearchOverlay from "./SearchOverlay";
+import NavDrawer from "./NavDrawer";
 import { getSearchIndex } from "@/lib/search";
 
 // v3 (Stage 16, premium redesign): kept the emoji mark (no schema/category
@@ -13,6 +14,15 @@ import { getSearchIndex } from "@/lib/search";
 // once here (lib/search.ts reads content/books/*.json + catalog.json via
 // fs, server-only) and hand it down as a plain prop to the client
 // SearchOverlay — see that file's header comment for why this split exists.
+// Design Foundation session: the wordmark now links to the global home hub
+// ("/") rather than the book library ("/library", which used to be "/") —
+// the book emoji is kept as the app's anchor brand mark rather than swapped
+// for a new generic logo, a deliberate judgment call since the app grew out
+// of the book library and Thai hasn't asked for a rebrand — see
+// docs/DESIGN_SYSTEM.md v6. Added NavDrawer (a "Sections" menu button) so
+// all 9 sections are reachable from every page without crowding the header
+// on a phone screen — see NavDrawer's own header comment for the drawer-
+// vs-tab-bar trade-off.
 export default function Header() {
   const searchIndex = getSearchIndex();
 
@@ -33,10 +43,11 @@ export default function Header() {
           >
             📚
           </span>
-          Book Library
+          Library
         </Link>
         <div className="flex items-center gap-2">
           <SearchOverlay index={searchIndex} />
+          <NavDrawer />
           <ThemeToggle />
         </div>
       </div>
