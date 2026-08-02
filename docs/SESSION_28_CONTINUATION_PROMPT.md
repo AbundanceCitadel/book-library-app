@@ -1,28 +1,54 @@
-# Continuation Prompt — Quote Retrofit Pass, Round 8 (Highlights & Quotes, 20-30/book target)
+# Continuation Prompt — Quote Retrofit Pass, Round 9 (Highlights & Quotes, 20-30/book target)
 
 Continue the personal book library app project (`book-library-app`,
 `github.com/AbundanceCitadel/book-library-app`). Before doing anything else,
 read `PROJECT_BRIEF.md`, `ROADMAP.md`, and `DECISIONS.md` in full — pay
 particular attention to `ROADMAP.md` Stage 20 (this retrofit pass, rounds
-1-7 done) and `DECISIONS.md` #203-251 (Sessions 23, 25, and 26).
+1-8 done) and `DECISIONS.md` #203-257 (Sessions 23, 25, 26, and 28).
 
-This supersedes `docs/SESSION_27_CONTINUATION_PROMPT.md`'s "round 7"
-pointer — round 7 happened in the same sitting as rounds 4-6, and **this
-round was pushed to `origin/main` and confirmed live** (unlike rounds 4-6,
-which were pushed later in the same session once a PAT arrived — see
-`DECISIONS.md` #249). If you're starting fresh, `git fetch origin main`
-should already show all of rounds 4-7's work; verify the book counts below
-match before assuming anything is missing.
+This supersedes the round-8 continuation prompt. Round 8 happened in this
+sitting and was pushed to `origin/main` and confirmed live at commit
+`bcda41e`. If you're starting fresh, `git fetch origin main` should already
+show round 8's work; verify the book counts below match before assuming
+anything is missing.
 
-## 0. Verify git/environment state before trusting anything below
+## 0. Verify git/environment state before trusting anything below — read this section fully, it's not boilerplate this time
 
-Standard warning, now well-established for this project: don't trust a
-connected local folder's `git status` at face value — `git fetch origin
-main`, compare `git rev-parse HEAD` vs `origin/main`, and check the actual
-`content/books/*.json` file count (236) before proceeding. As of this
-writing, `origin/main` should be at or past commit `8c4ee4d` (or whatever
-Session 26's final push landed as — check the log for "Quote retrofit pass
-round 7").
+Round 8 hit two *new* variants of this project's recurring stale-mount git
+problem, on top of the usual "don't trust `git status` at face value" rule:
+
+1. **The connected local folder's `book-library-app` checkout may not be on
+   `main` at all.** Round 8 found it on `redesign/premium-v3`, a branch
+   forked from `main` before the 236-book expansion, carrying a large
+   uncommitted in-progress feature (a "premium redesign" — new
+   civilizations/companies/organizations/people/philosophies/quotes/
+   richlist/rulers/wishlist sections). Always run `git branch -a` and
+   `git rev-parse --abbrev-ref HEAD` before assuming the checkout is on
+   `main`, and treat any uncommitted changes you find as someone else's
+   real work-in-progress, not scratch state to discard — surface it to
+   Thai before touching it (see `DECISIONS.md` #252 for exactly how round 8
+   handled this; the redesign work is now safely committed and pushed to
+   `origin/redesign/premium-v3` at commit `e73bb81`, so this specific
+   instance is resolved, but the general risk — an unrelated uncommitted
+   feature sitting in the folder — could recur).
+2. **This session's sync client blocked the raw `unlink()` syscall
+   outright** (not just the usual staleness — `rm`/`python os.remove` both
+   returned "Operation not permitted" on `.git/index.lock` and on git's own
+   loose-object temp files), which broke `git add`/`git commit` directly in
+   any `mnt/`-prefixed path, including `outputs`. Confirmed via `df -T`
+   that `/tmp` is real `ext4`, not `fuse` — the fix was doing all git work
+   in a `/tmp` clone, never in a `mnt/`-prefixed path. If you hit "unable to
+   unlink" / "Operation not permitted" errors on git commands, don't fight
+   the mounted folder — clone to `/tmp` (or wherever `df -T` shows a
+   non-`fuse` filesystem) and work there instead. Also note: a local clone
+   of the synced folder's own repo will pick up *its* local `main` branch
+   (which can itself be stale — round 8 found it frozen well before the
+   quote-retrofit rounds even started) rather than the real `origin/main` —
+   fetch from the actual GitHub remote explicitly to be sure, don't trust a
+   clone-of-a-clone's tracking refs.
+
+As of this writing, `origin/main` is at commit `bcda41e` ("Quote retrofit
+pass round 8"), 236 books.
 
 ## 1. Current state (re-verify this programmatically first)
 
@@ -38,86 +64,111 @@ for b in books:
         print(b)
 ```
 
-As of Session 26's final push: 27 at 0, 79 at 1-4, 47 at 5-9, 12 at 10-14,
-9 at 15-19, 62 at >=20. **174 of 236 books remain below target.**
+As of the last push: 27 at 0, 79 at 1-4, 43 at 5-9, 12 at 10-14, 9 at 15-19,
+66 at >=20. 170 of 236 books remain below target.
 
-The 2-quote bucket has 14 books left untouched after rounds 6-7 (23 were
-in it, 9 done in round 6, 8 in round 7, but 2 of round 7's — `mortgage-
-free-like-me` at 14 and others — moved further up the distribution rather
-than staying at 2, so re-run the script above rather than trusting this
-document's arithmetic). Notable remaining 2-quote books, left deliberately
-for a session with more room for contamination-check care: the **Brian
-Tracy cluster** (`get-smart`, `master-your-time`, `maximum-achievement` —
-3 separate 2-quote Tracy books, plus 6 more Tracy titles already in this
-library at higher counts — needs careful per-book source verification to
-avoid the cross-book contamination this project has hit with prolific
-authors before), `like-a-virgin` (Richard Branson, 2 other Branson titles
-in the library), `making-space` (Thich Nhat Hanh — 13 other Thanh Hanh
-titles in the library, the single highest contamination-risk author here).
+**Don't re-attempt these 5 without better tooling/access — they're
+genuinely exhausted, not untried:** `encyclopedia-of-chart-patterns-3rd-ed`,
+`payback-time`, `multiply-your-business`, `golf-anatomy`,
+`rentons-understanding-the-stock-exchange`. Round 8 re-attempted all 5 and
+independently re-confirmed 0 — most had already been through 2-4 prior
+independent attempts per their own `sourceNotes`. **Check every candidate
+book's existing `sourceNotes` before spending a subagent on it** — round
+8's own batch A wasted a full round doing exactly what this note is now
+warning against (see `DECISIONS.md` #254).
 
-## 2. The highest-value pattern from rounds 4 and 7, worth applying
-systematically now rather than book-by-book improvisation
+Notable remaining 2-4-quote books still left deliberately for a session
+with more contamination-check room: the Brian Tracy cluster (`get-smart`,
+`master-your-time`, `maximum-achievement` — 3 separate 2-4-quote Tracy
+books, plus 6 more Tracy titles already in this library at higher counts),
+`like-a-virgin` (Richard Branson, 2 other Branson titles in the library),
+`making-space` (Thich Nhat Hanh — 13 other Thich Nhat Hanh titles in the
+library, the single highest contamination-risk author here).
 
-**Check whether every below-target Vietnamese-language book is a VN
-edition of an identifiable English-original book before assuming it needs
-Vietnamese-language sourcing.** Rounds 4 and 7 both found that VN editions
-of well-documented English books (Guy Spier, John Maxwell, Geshe Michael
-Roach, William O'Neil, David Niven, David Lieberman) reliably yield 15-25
-quotes via the much deeper English sourcing ecosystem (Goodreads, primary-
-text scans, publisher extracts), while books that are genuinely Vietnamese-
-original (no English source to fall back on) reliably yield much less —
-0-20 from a single blog at best, often needing to be honestly declined per
-this project's exact-wording bar (see `DECISIONS.md` #240). **Before
-starting research on any Vietnamese-titled book, spend one search
-confirming whether it's a translation and, if so, of what** — this alone
-would likely be the single highest-leverage thing a future round could do
-given how many of the remaining ~174 books are Vietnamese-language.
+## 2. The highest-value pattern from rounds 4 and 7, still worth applying systematically
 
-## 3. Two ongoing flags, still out of scope for a narrow quotes pass:
+Check whether every below-target Vietnamese-language book is a VN edition
+of an identifiable English-original book before assuming it needs
+Vietnamese-language sourcing. Rounds 4 and 7 both found that VN editions of
+well-documented English books reliably yield 15-25 quotes via the much
+deeper English sourcing ecosystem, while genuinely Vietnamese-original
+books yield much less. 23 of the 79 books in the 1-4 bucket and 14 of the
+43 in the 5-9 bucket are Vietnamese-language — worth a systematic pass
+checking English-original status before picking targets.
+
+## 3. A second pattern round 8 surfaced, worth checking before every batch
+
+Some books in the below-20 buckets have *never* been through the Stage 20
+Goodreads/page-cited verification standard at all — they're pre-Stage-20
+entries whose `sourceNotes` already self-disclose lower confidence
+("approximate," "not exhaustive," "not... through available search results
+in this session"). These are a better use of a research subagent than
+already-exhausted 0-quote titles: round 8's 4 such books (`basic-economics`,
+`pre-suasion`, `crushing-it`, `drive`) all landed 26-30 fully verified
+quotes, catching real misattribution/terminology errors in every single one
+along the way (see `DECISIONS.md` #255). Worth scanning the 5-9 and 1-4
+buckets for more of this pattern — any `sourceNotes` phrase like
+"approximate," "widely and independently attested" (without a specific
+source named), or "was not able to verify... through available search
+results" is a signal this book hasn't had a real Stage-20-standard pass
+yet, as distinct from a book that's genuinely source-exhausted.
+
+## 4. Three ongoing flags, still out of scope for a narrow quotes pass
 
 - `phi-ly-tri-predictably-irrational-vn-ed` / `predictably-irrational-phi-
-  ly-tri-vn-ed`: likely-duplicate catalog rows, flagged 4+ sessions running
+  ly-tri-vn-ed`: likely-duplicate catalog rows, flagged 5+ sessions running
   (`DECISIONS.md` #207, #230, #242, #248). Needs explicit catalog-scope
   sign-off, not another quotes-pass flag.
 - 17 already-committed books with exactly 3 quotes each, all with empty
   `quote.category` (full list `DECISIONS.md` #243) — category backfill,
-  not new research.
-- **New this round:** `midas-touch` landed at only 3 of a possible 52
-  Goodreads-tagged quotes due to a tool-side page-rendering failure, not
-  source scarcity (`DECISIONS.md` #250) — worth a priority re-attempt if
-  you have better fetch/browse tooling available.
+  not new research. Unchanged this round.
+- 10 already-committed books with at least one malformed `quotes[]` entry
+  (empty `attribution` and/or `text` — the same "verification-note or
+  blurb stuffed into quotes[]" pattern as decision #205), found via round
+  8's schema sweep but not fixed: `quyet-doan-trong-tu-duy-logic-1-phut`,
+  `quyen-nang-lam-giau`, `manh-tu-tu-tuong-sach-luoc`,
+  `ngay-doi-no-payback-time-vn-ed`,
+  `nghe-thuat-xay-dung-khach-hang-7l-the-seven-levels-of-communication-vn-ed`,
+  `rockefeller-gui-con-trai-38-la-thu`, `start-your-own-corporation`,
+  `steal-the-show`, `quyen-luc-dich-thuc-true-power`,
+  `qbq-the-question-behind-the-question` (`DECISIONS.md` #257). If a
+  future round happens to pick one of these for quote research anyway, fix
+  the malformed entry as part of that pass rather than carrying it forward
+  again.
+- `midas-touch` landed at only 3 of a possible 52 Goodreads-tagged quotes
+  due to a tool-side page-rendering failure, not source scarcity
+  (`DECISIONS.md` #250) — worth a priority re-attempt if you have better
+  fetch/browse tooling available. Unchanged this round.
 
-## 4. Process, per book (unchanged, see `docs/SESSION_26_CONTINUATION_
-PROMPT.md` §3 / `docs/SESSION_27_CONTINUATION_PROMPT.md` §3 for the full
-version)
+## 5. Process, per book (unchanged)
 
-Check for an English original first (§2 above). Verify every existing
-quote too, not just add new ones — this project has now caught fake
-pre-existing "quotes" (subtitles, chapter titles, publisher blurbs,
-paraphrase labels) in at least 5 books across rounds 3 and 6. Exact
-wording only, cross-book contamination check mandatory, 20-30 target
-never padded, researcher-only-subagent pattern with a single merge script.
+Check `sourceNotes` first (§1, §3 above) before picking a book. Check for
+an English original first if Vietnamese (§2). Verify every existing quote
+too, not just add new ones — round 8 alone dropped 15 of 22 pre-existing
+"quotes" across just 4 books after re-verification. Exact wording only,
+cross-book contamination check mandatory, 20-30 target never padded,
+researcher-only-subagent pattern with a single merge script.
 
-## 5. Pacing
+## 6. Pacing
 
-174 books remain. Same batching pattern: ~4-5 books per subagent batch,
+170 books remain. Same batching pattern: ~4-5 books per subagent batch,
 several batches per round, validate/commit incrementally, write your own
 continuation prompt when you stop.
 
-## 6. Thai's standing instruction (given during Session 26, still in effect)
+## 7. Thai's standing instruction (given during Session 26, still in effect)
 
 Keep working autonomously, round after round / session after session,
 without stopping for approval on routine judgment calls. Doesn't cover
-irreversible structural changes with no undo path, or anything requiring a
-credential only Thai can supply. Flag and continue past those.
+irreversible structural changes with no undo path (like round 8's branch
+discovery — that was correctly escalated, not a routine call), or anything
+requiring a credential only Thai can supply. Flag and continue past those.
 
-## 7. Verification, commit, push
+## 8. Verification, commit, push
 
-Same mechanics as every recent session (`docs/SESSION_26_CONTINUATION_
-PROMPT.md` §6 has the full checklist). Session 26 successfully pushed
-using a PAT Thai supplied mid-session — if a fresh PAT is needed for
-further pushes, ask for one the same way, used inline, never persisted.
+Same mechanics as recent sessions, with the `/tmp`-clone git workaround
+from §0 now the standing approach rather than a one-off. A classic GitHub
+PAT will be needed to push — ask for one, used inline, never persisted.
 
-## 8. One more thing
+## 9. One more thing
 
-If 174 turns out to be an overestimate, report the honest final numbers.
+If 170 turns out to be an overestimate, report the honest final numbers.
