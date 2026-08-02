@@ -93,9 +93,94 @@
   ],
   "quotes": [
     {
-      "text": "Dollars and Sense.",
-      "attribution": "Dan Ariely & Jeff Kreisler, book title",
-      "category": "Book Title and Framing"
+      "text": "Fundamentally, when we value effort over outcome, we're paying for incompetence.",
+      "attribution": "Dan Ariely & Jeff Kreisler, Dollars and Sense",
+      "category": "Effort & Value Perception"
+    },
+    {
+      "text": "Although it is actually irrational, we feel more rational, and more comfortable, paying for incompetence.",
+      "attribution": "Dan Ariely & Jeff Kreisler, Dollars and Sense",
+      "category": "Effort & Value Perception"
+    },
+    {
+      "text": "because we have no way of really knowing how much this precious widget is worth, we compare the price now to the price before the sale (called the \"regular\" price), and take that as an indicator of its high current amazing value.",
+      "attribution": "Dan Ariely & Jeff Kreisler, Dollars and Sense",
+      "category": "Effort & Value Perception"
+    },
+    {
+      "text": "Free is a strange price, and yes, it is a price.",
+      "attribution": "Dan Ariely & Jeff Kreisler, Dollars and Sense",
+      "category": "Pricing, Sales & Perceived Bargains"
+    },
+    {
+      "text": "Which would you buy? A dress shirt priced at $60 or the very same dress shirt, priced at $100, but \"On Sale! 40% off! Only $60!\"?",
+      "attribution": "Dan Ariely & Jeff Kreisler, Dollars and Sense",
+      "category": "Pricing, Sales & Perceived Bargains"
+    },
+    {
+      "text": "Marco Bertini, Elie Ofek and Dan ran an experiment in which they gave coffee to students. They placed milk and sugar nearby in either fancy dishes or Styrofoam cups. Those who got their milk and sugar from the fancier set-up said they liked the coffee more and would pay more for it, even though, unbeknownst to them, it was the same coffee as the one served near the Styrofoam cups.",
+      "attribution": "Dan Ariely & Jeff Kreisler, Dollars and Sense",
+      "category": "Pricing, Sales & Perceived Bargains"
+    },
+    {
+      "text": "This dynamic is key: We are, of course, constantly fighting the complex nature of money and our own failure to consider opportunity costs.",
+      "attribution": "Dan Ariely & Jeff Kreisler, Dollars and Sense",
+      "category": "Opportunity Cost & Rational Choice"
+    },
+    {
+      "text": "rather than trying to work hard and figure out an item's absolute value, when given the choice, we take the path of relatively least resistance.",
+      "attribution": "Dan Ariely & Jeff Kreisler, Dollars and Sense",
+      "category": "Opportunity Cost & Rational Choice"
+    },
+    {
+      "text": "Are these logical choices? No. Are they the right choices? Often not. Are they the easy choices? Absolutely. Most of us take the easy choice, most of the time. That's one of our big problems.",
+      "attribution": "Dan Ariely & Jeff Kreisler, Dollars and Sense",
+      "category": "Opportunity Cost & Rational Choice"
+    },
+    {
+      "text": "We are in an environment that is ever more hostile to making thoughtful, well-reasoned, rational decisions.",
+      "attribution": "Dan Ariely & Jeff Kreisler, Dollars and Sense",
+      "category": "Opportunity Cost & Rational Choice"
+    },
+    {
+      "text": "A few years ago, Dan and a research assistant went to a Toyota dealership and asked people what they would give up if they purchased a new car. Almost no one had an answer.",
+      "attribution": "Dan Ariely & Jeff Kreisler, Dollars and Sense",
+      "category": "Opportunity Cost & Rational Choice"
+    },
+    {
+      "text": "Now that we know that many commercial interests are after our time, our money, and our attention, we may think there's something we can do about it. After all, we believe ourselves to be reasonable and rational beings.",
+      "attribution": "Dan Ariely & Jeff Kreisler, Dollars and Sense",
+      "category": "Opportunity Cost & Rational Choice"
+    },
+    {
+      "text": "Most of the problems we have in modern life are not due to lack of information, which explains why our repeated attempts to improve behavior by providing additional information often fail.",
+      "attribution": "Dan Ariely & Jeff Kreisler, Dollars and Sense",
+      "category": "Opportunity Cost & Rational Choice"
+    },
+    {
+      "text": "Happiness too often seems to be less a reflection of our actual happiness and more a reflection of the ways in which we compare ourselves to others.",
+      "attribution": "Dan Ariely & Jeff Kreisler, Dollars and Sense",
+      "category": "Money, Happiness & Everyday Life"
+    },
+    {
+      "text": "The cost to rent an apartment in some major cities can climb to more than $4,000 per month, and we don't seem to blink. The price of gas rises 15 cents, and it can swing a national election.",
+      "attribution": "Dan Ariely & Jeff Kreisler, Dollars and Sense",
+      "category": "Money, Happiness & Everyday Life"
+    },
+    {
+      "text": "One way Dan demonstrates to his students the concept of sunk cost is through a game in which participants bid to purchase a $100 bill.",
+      "attribution": "Dan Ariely & Jeff Kreisler, Dollars and Sense",
+      "category": "Sunk Cost, Saving & Financial Behavior"
+    },
+    {
+      "text": "We don't think about saving money very often. When we finally do think about it, our thoughts rarely lead us to save more.",
+      "attribution": "Dan Ariely & Jeff Kreisler, Dollars and Sense",
+      "category": "Sunk Cost, Saving & Financial Behavior"
+    },
+    {
+      "text": "Many professional athletes make a lot of money quickly. They also spend a lot of money in a short time and very often declare bankruptcy quickly.",
+      "attribution": "Dan Ariely & Jeff Kreisler, Dollars and Sense",
+      "category": "Sunk Cost, Saving & Financial Behavior"
     }
   ],
   "conceptsFrameworks": [
@@ -149,5 +234,5 @@
   "personalRating": null,
   "personalNotes": "",
   "dateAdded": "2026-07-31",
-  "sourceNotes": "Synthesized from general knowledge of Dan Ariely's well-documented behavioral economics research program and this book's widely covered thesis and thematic structure; I was not able to verify extended verbatim passages from the specific published text through available search results in this session, so quotations have been limited accordingly rather than reconstructed from memory.\n\n---"
+  "sourceNotes": "Synthesized from general knowledge of Dan Ariely's well-documented behavioral economics research program and this book's widely covered thesis and thematic structure; I was not able to verify extended verbatim passages from the specific published text through available search results in this session, so quotations have been limited accordingly rather than reconstructed from memory.\n\n---\n\nSession 24 (quote retrofit round 3): discarded the prior on-file \"quote,\" which was a data-quality bug -- the book's own title stored as a fake quote. Sourced 18 verified quotes from the Goodreads work-quotes page keyed specifically to this title (work ID 55384339), excluding ~9 entries that traced to the Spanish-language edition. Cross-checked every quote against Dan Ariely's two other titles in this library (Predictably Irrational, Payoff) to rule out contamination -- none overlapped. 18 is below the 20-30 target; chose not to pad with weaker/uncertain material."
 }

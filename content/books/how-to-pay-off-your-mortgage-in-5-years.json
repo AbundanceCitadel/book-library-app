@@ -72,14 +72,29 @@
   ],
   "quotes": [
     {
-      "text": "What would your life be like if you had no mortgage?",
-      "attribution": "Clayton Morris and Natali Morris, *How To Pay Off Your Mortgage In 5 Years*",
-      "category": "The Core Promise"
+      "text": "Chances are you picked up this book because you own a house and you're tired of being a slave to your monthly mortgage payments.",
+      "attribution": "Clayton Morris and Natali Morris, How To Pay Off Your Mortgage In 5 Years",
+      "category": "Introduction / The Problem"
     },
     {
-      "text": "How free would you be to live a different life?",
-      "attribution": "Clayton Morris and Natali Morris, *How To Pay Off Your Mortgage In 5 Years*",
-      "category": "The HELOC Strategy"
+      "text": "You're tired of working hard and never seeing any progress in paying down that massive debt.",
+      "attribution": "Clayton Morris and Natali Morris, How To Pay Off Your Mortgage In 5 Years",
+      "category": "Introduction / The Problem"
+    },
+    {
+      "text": "Your mortgage is the thing that keeps you slaving away for a paycheck so that the bank does not claim its stake on your home.",
+      "attribution": "Clayton Morris and Natali Morris, How To Pay Off Your Mortgage In 5 Years",
+      "category": "Introduction / The Problem"
+    },
+    {
+      "text": "This book can change your life.",
+      "attribution": "Clayton Morris and Natali Morris, How To Pay Off Your Mortgage In 5 Years",
+      "category": "Introduction / The Promise"
+    },
+    {
+      "text": "Your mortgage can be a cage but there are many ways to escape that cage and we want to teach you to think like an escape artist!",
+      "attribution": "Clayton Morris and Natali Morris, How To Pay Off Your Mortgage In 5 Years",
+      "category": "Introduction / The Promise"
     }
   ],
   "conceptsFrameworks": [
@@ -133,5 +148,5 @@
   "personalRating": null,
   "personalNotes": "",
   "dateAdded": "2026-07-31",
-  "sourceNotes": "Detailed chapter-by-chapter titles could not be located through available sources; the section breakdown above is organized by theme based on a verified third-party summary outline (Shortform) of the book's actual argument structure — mortgage fundamentals, HELOC mechanics, budgeting execution, and obstacles/limits — rather than a confirmed internal table of contents, flagged here per the instructions for titles with thin public documentation. Quotes are limited to two short lines drawn from the book's own framing questions rather than the requested 20-30, given strict limits on reproducing material from any single source and the limited availability of verifiable original-text excerpts.\n\n---"
+  "sourceNotes": "Detailed chapter-by-chapter titles could not be located through available sources; the section breakdown above is organized by theme based on a verified third-party summary outline (Shortform) of the book's actual argument structure — mortgage fundamentals, HELOC mechanics, budgeting execution, and obstacles/limits — rather than a confirmed internal table of contents, flagged here per the instructions for titles with thin public documentation. Quotes are limited to two short lines drawn from the book's own framing questions rather than the requested 20-30, given strict limits on reproducing material from any single source and the limited availability of verifiable original-text excerpts.\n\n---\n\nSession 24 (quote retrofit round 3): discarded both prior on-file quotes (\"What would your life be like if you had no mortgage?\" / \"How free would you be to live a different life?\") -- these appear consistently as the opening of the marketing/back-cover description across Goodreads, Everand, and Barnes & Noble, not within the manuscript text itself, the same publisher-blurb-as-quote issue flagged elsewhere in this project. This is a very short (~36-38 print pages), thinly-distributed, self-published-style title with almost no public excerpt footprint -- no Amazon Look Inside, no Google Books preview, zero Goodreads community quotes. Only Everand's free preview of the Introduction rendered actual manuscript text, yielding 5 verified quotes. Well short of the 20-30 target; an honest reflection of how little of this book is publicly accessible, not a research shortcut. Revisit if direct ebook access is ever available."
 }

@@ -92,14 +92,139 @@
   ],
   "quotes": [
     {
-      "text": "How to find what stocks to buy? You could not pick them out with a pin. You must have information. That was my major problem: how to obtain it.",
+      "text": "There is no reason to sell a rising stock",
       "attribution": "Nicolas Darvas, How I Made $2,000,000 in the Stock Market",
-      "category": "Method and Information"
+      "category": "Trading Philosophy"
     },
     {
-      "text": "He has no office, not even a desk for his financial dealings. He works from his hotel room or the bar in the Georges V in Paris, the Dorchester in London or the Plaza Hotel in New York.",
-      "attribution": "Publisher's description of Nicolas Darvas, How I Made $2,000,000 in the Stock Market",
-      "category": "The Trader's Life"
+      "text": "There are no good or bad stocks, there are only rising and falling stocks.",
+      "attribution": "Nicolas Darvas, How I Made $2,000,000 in the Stock Market",
+      "category": "Trading Philosophy"
+    },
+    {
+      "text": "I did not know it but I was already coming up against one of the great pitfalls of the small operator -- the almost insoluble problem of when to enter the market.",
+      "attribution": "Nicolas Darvas, How I Made $2,000,000 in the Stock Market",
+      "category": "Trading Philosophy"
+    },
+    {
+      "text": "There is no sure thing in the market -- I was bound to be wrong half of the time.",
+      "attribution": "Nicolas Darvas, How I Made $2,000,000 in the Stock Market",
+      "category": "Trading Philosophy"
+    },
+    {
+      "text": "I knew that being right half of the time was not the answer to success. I began to understand how I could break even and still go broke. There was only one answer to this danger: My profits had to be bigger than my losses.",
+      "attribution": "Nicolas Darvas, How I Made $2,000,000 in the Stock Market",
+      "category": "Trading Philosophy"
+    },
+    {
+      "text": "I listened eagerly to what they had to say and religiously followed their tips. Whatever I was told to buy, I bought. It took me a long time to discover that this is one method that never works.",
+      "attribution": "Nicolas Darvas, How I Made $2,000,000 in the Stock Market",
+      "category": "Lessons from Failure"
+    },
+    {
+      "text": "The truth was that as my pocket had strengthened, my head had weakened.",
+      "attribution": "Nicolas Darvas, How I Made $2,000,000 in the Stock Market",
+      "category": "Lessons from Failure"
+    },
+    {
+      "text": "I started to realize that stock movements were not completely haphazard. Stocks did not fly like balloons in any direction. As if attracted by a magnet, they had a defined upward or downward trend which once established, tended to continue.",
+      "attribution": "Nicolas Darvas, How I Made $2,000,000 in the Stock Market",
+      "category": "The Box Theory"
+    },
+    {
+      "text": "I saw reasons for this; buying tended to generate more buying and progressively higher prices. Conversely, selling at a given price soon exhausts the supply of buyers available at that price, and forces offerings at a lower price -- and this process, too, tends to be progressive.",
+      "attribution": "Nicolas Darvas, How I Made $2,000,000 in the Stock Market",
+      "category": "The Box Theory"
+    },
+    {
+      "text": "Within this trend stocks moved in a series of frames, or what I began to call 'boxes'.",
+      "attribution": "Nicolas Darvas, How I Made $2,000,000 in the Stock Market",
+      "category": "The Box Theory"
+    },
+    {
+      "text": "They would oscillate fairly consistently between a low and a high point. The area which enclosed the up-and-down movement represented the box or frame.",
+      "attribution": "Nicolas Darvas, How I Made $2,000,000 in the Stock Market",
+      "category": "The Box Theory"
+    },
+    {
+      "text": "The task was to define the frame exactly and be sure the stock did not move decisively below the lower edge of the box. If it did, I sold it at once, because it was not acting right.",
+      "attribution": "Nicolas Darvas, How I Made $2,000,000 in the Stock Market",
+      "category": "The Box Theory"
+    },
+    {
+      "text": "While it stayed within its box, I considered a reaction from 55 to 50 as quite normal. It did not mean to me that the stock was going to fall back. Just the contrary.",
+      "attribution": "Nicolas Darvas, How I Made $2,000,000 in the Stock Market",
+      "category": "The Box Theory"
+    },
+    {
+      "text": "It shakes out the weak and frightened stock holders who mistake this reaction for a drop, and enables the stock to advance more rapidly.",
+      "attribution": "Nicolas Darvas, How I Made $2,000,000 in the Stock Market",
+      "category": "The Box Theory"
+    },
+    {
+      "text": "I built a fortune with serenity by avoiding premature selling yet making an exodus from most of my stocks with the use of a single tool: the trailing stop-loss.",
+      "attribution": "Nicolas Darvas, How I Made $2,000,000 in the Stock Market",
+      "category": "Risk Management & Stop-Losses"
+    },
+    {
+      "text": "I have discovered no loss-free Nirvana. But I have been able to limit my losses to less than 10 percent wherever possible. My stop loss method had two effects. It got me out of the wrong stock and into the right one.",
+      "attribution": "Nicolas Darvas, How I Made $2,000,000 in the Stock Market",
+      "category": "Risk Management & Stop-Losses"
+    },
+    {
+      "text": "I decided to give 'on stop' orders to buy at a certain figure with an automatic 'stop-loss' order on them in case the stock went down. This way, I figured, I would never sleep with a loss. If any of my stocks went below the price I thought they should, I would not own them when I went to bed that night.",
+      "attribution": "Nicolas Darvas, How I Made $2,000,000 in the Stock Market",
+      "category": "Risk Management & Stop-Losses"
+    },
+    {
+      "text": "I knew that many times I would be 'stopped out' for the sake of a point just to see my stock climb up immediately after. But I realized that this was not so important as stopping the big losses.",
+      "attribution": "Nicolas Darvas, How I Made $2,000,000 in the Stock Market",
+      "category": "Risk Management & Stop-Losses"
+    },
+    {
+      "text": "I always sold too quickly because I am a coward. I decided that since I could not train myself not to get scared every time, it was better to adopt another method. This was to hold on to a rising stock but, at the same time, keep raising my stop-loss order parallel with its rise.",
+      "attribution": "Nicolas Darvas, How I Made $2,000,000 in the Stock Market",
+      "category": "Risk Management & Stop-Losses"
+    },
+    {
+      "text": "If you find your automatic stop loss selling you out of everything, and the stocks you are watching are not moving towards higher boxes, then it is a signal that the market has changed.",
+      "attribution": "Nicolas Darvas, How I Made $2,000,000 in the Stock Market",
+      "category": "Risk Management & Stop-Losses"
+    },
+    {
+      "text": "Profits are a function of time, and so good reasons have to exist to keep a profitless purchase longer than three weeks.",
+      "attribution": "Nicolas Darvas, How I Made $2,000,000 in the Stock Market",
+      "category": "Risk Management & Stop-Losses"
+    },
+    {
+      "text": "Like human beings, stocks behave differently. Some of them are calm, slow, conservative. Others are jumpy, nervous, tense. Some of them I found easy to predict. They were consistent in their moves, logical in their behavior. They were like dependable friends.",
+      "attribution": "Nicolas Darvas, How I Made $2,000,000 in the Stock Market",
+      "category": "Market Psychology"
+    },
+    {
+      "text": "I would select stocks on their technical action in the market, but I would only buy them when I could give improving earning power as my fundamental reason for doing so.",
+      "attribution": "Nicolas Darvas, How I Made $2,000,000 in the Stock Market",
+      "category": "Market Psychology"
+    },
+    {
+      "text": "I was constantly searching for the stocks that would climb into the stratosphere because of the vision of their future.",
+      "attribution": "Nicolas Darvas, How I Made $2,000,000 in the Stock Market",
+      "category": "Market Psychology"
+    },
+    {
+      "text": "From then on, I made up my mind to keep watching the Dow-Jones Industrial Average, but only in order to determine whether I was in a strong or a weak market.",
+      "attribution": "Nicolas Darvas, How I Made $2,000,000 in the Stock Market",
+      "category": "Discipline & Process"
+    },
+    {
+      "text": "Whenever I bought a stock, I wrote down my reason for doing so. I did the same when I sold it.",
+      "attribution": "Nicolas Darvas, How I Made $2,000,000 in the Stock Market",
+      "category": "Discipline & Process"
+    },
+    {
+      "text": "Rothschild had an agent who, as soon as victory was certain, set off for London and informed Rothschild. Rothschild started buying every British government share he could before anyone else heard the news. When they did, of course, the shares rocketed and Rothschild sold at a huge profit.",
+      "attribution": "Nicolas Darvas, How I Made $2,000,000 in the Stock Market",
+      "category": "Discipline & Process"
     }
   ],
   "conceptsFrameworks": [
@@ -152,5 +277,5 @@
   "personalRating": null,
   "personalNotes": "",
   "dateAdded": "2026-07-31",
-  "sourceNotes": "Synthesis based on the verified original 10-chapter structure of Darvas's 1960 book (via Wikipedia's documented chapter list and an archived full-text scan), publisher and retailer descriptions confirming this updated edition's format of alternating original chapters with Steve Burns's added \"Insights by Steve Burns\" commentary chapters, and biographical detail on Darvas from Wikipedia and multiple bookseller sources. Quote verification was limited to lines confirmed via accessible front-matter and preview excerpts; the full body text of both Darvas's original chapters and Burns's added commentary was not independently re-verified line-by-line in this research pass, so the quote count is intentionally conservative rather than padded — see the flag under Highlights & Quotes."
+  "sourceNotes": "Synthesis based on the verified original 10-chapter structure of Darvas's 1960 book (via Wikipedia's documented chapter list and an archived full-text scan), publisher and retailer descriptions confirming this updated edition's format of alternating original chapters with Steve Burns's added \"Insights by Steve Burns\" commentary chapters, and biographical detail on Darvas from Wikipedia and multiple bookseller sources. Quote verification was limited to lines confirmed via accessible front-matter and preview excerpts; the full body text of both Darvas's original chapters and Burns's added commentary was not independently re-verified line-by-line in this research pass, so the quote count is intentionally conservative rather than padded — see the flag under Highlights & Quotes.\n\nSession 24 (quote retrofit round 3): discarded the prior on-file quote attributed to \"Publisher's description\" -- confirmed jacket copy, not manuscript text, the same publisher-blurb-as-quote issue flagged elsewhere. Could not re-confirm the other prior on-file quote (\"How to find what stocks to buy? You could not pick them out with a pin...\") this pass -- it didn't surface in either primary source checked, so it's dropped as unverified-this-pass rather than re-affirmed; it may still be genuine and could be re-added if independently verified later. Sourced 27 new quotes from Goodreads' work page (ID 174151) and two independent book-notes blogs (whatheheckaboom.wordpress.com, financetrends.blogspot.com) that quote at length with page citations; cross-source overlap where it existed gave good confidence. No contamination risk -- only one Darvas book in this library."
 }

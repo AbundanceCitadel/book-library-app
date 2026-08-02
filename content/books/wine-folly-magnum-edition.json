@@ -3,11 +3,18 @@
   "code": "366",
   "title": "Wine Folly: Magnum Edition — The Master Guide",
   "author": "Madeline Puckette & Justin Hammack",
-  "categories": ["wine"],
+  "categories": [
+    "wine"
+  ],
   "language": "en",
   "coverImage": null,
   "estimatedOriginalReadingTimeMinutes": 240,
-  "tags": ["wine", "reference", "tasting", "grape-varieties"],
+  "tags": [
+    "wine",
+    "reference",
+    "tasting",
+    "grape-varieties"
+  ],
   "structureType": "parts",
   "summary": "Wine Folly: Magnum Edition is the expanded, more comprehensive follow-up to the original Wine Folly guide, built around the same visual-first teaching philosophy: instead of long prose explanations, it relies heavily on infographics, flavor maps, and region-by-region charts to make wine knowledge fast to absorb and easy to reference. The book opens with the fundamentals of how wine is actually made and how that process shapes what ends up in the glass — the roles of grape variety, climate, soil, fermentation choices (temperature, vessel, skin contact), and aging (oak versus neutral vessels, time) in producing the finished wine's body, acidity, tannin, sweetness, and alcohol level, which the authors treat as the five core structural characteristics every wine can be evaluated against, regardless of style or origin. A large central section works through major grape varieties one by one — Cabernet Sauvignon, Pinot Noir, Chardonnay, Riesling, Syrah/Shiraz, Sangiovese, Tempranillo, and dozens more — giving each a visual flavor profile, typical structural characteristics, and the regions where it's grown in its most classic expressions, so a reader can predict roughly what an unfamiliar bottle will taste like just from the label. The book then organizes by major wine region (France, Italy, Spain, the US, and beyond), decoding the label conventions that differ sharply by country — French wines are traditionally labeled by region/appellation rather than grape (so knowing that red Burgundy means Pinot Noir, and red Bordeaux is typically a Cabernet Sauvignon/Merlot blend, is essential background the book supplies directly) — alongside quality classification systems like France's AOC or Italy's DOCG. Practical sections cover how to actually taste wine systematically (look, swirl, smell, taste, and describe using a structured vocabulary rather than vague adjectives), food and wine pairing built around matching intensity and complementary or contrasting structural characteristics (a wine's acidity cutting through fat, tannin pairing with protein, sweetness balancing spice) rather than rigid rules like \"red with meat, white with fish,\" plus practical guidance on serving temperature, glassware, decanting, and storage. Because the book is explicitly a reference guide rather than a linear argument, its real value is as something to return to repeatedly — checking a specific grape or region before opening a bottle or visiting a shop, rather than reading start to finish for a single overarching thesis.",
   "sections": [
@@ -41,14 +48,25 @@
     "Use a structured tasting process (look, swirl, smell, taste, describe) to build a repeatable, comparable vocabulary rather than one-off vague adjectives."
   ],
   "quotes": [
-    { "text": "Wine is a beverage that rewards curiosity.", "attribution": "Madeline Puckette & Justin Hammack, Wine Folly: Magnum Edition" }
+    {
+      "text": "Wine = Science + Art",
+      "attribution": "Madeline Puckette & Justin Hammack, Wine Folly: Magnum Edition (opening line)",
+      "category": "Book's Framing"
+    },
+    {
+      "text": "Some wineries fully embrace it since Brett isn't technically bad.",
+      "attribution": "Madeline Puckette & Justin Hammack, Wine Folly: Magnum Edition",
+      "category": "Wine Faults & Style"
+    }
   ],
   "whoThisIsFor": "Wine enthusiasts who want a fast, visual reference for grape varieties, regions, and label conventions rather than a dense academic wine text.",
   "whenToReadThis": "Best used as a reference to dip into before buying a bottle, visiting a wine shop, or planning a pairing, rather than read cover to cover in one sitting.",
-  "relatedBooks": ["windows-on-the-world-complete-wine-course"],
+  "relatedBooks": [
+    "windows-on-the-world-complete-wine-course"
+  ],
   "readStatus": "unread",
   "personalRating": null,
   "personalNotes": "",
   "dateAdded": "2026-07-24",
-  "sourceNotes": "Original synthesis from general knowledge of the Wine Folly brand's well-documented visual teaching approach (structural characteristics, grape variety profiles, region/label conventions). No source text reproduced; only 1 short, low-risk verbatim line quoted given the book's reference/infographic format rather than continuous narrative prose."
+  "sourceNotes": "Original synthesis from general knowledge of the Wine Folly brand's well-documented visual teaching approach (structural characteristics, grape variety profiles, region/label conventions). No source text reproduced; only 1 short, low-risk verbatim line quoted given the book's reference/infographic format rather than continuous narrative prose.\n\nSession 24 (quote retrofit round 3): discarded the prior on-file quote (\"Wine is a beverage that rewards curiosity\") as unverifiable after searching Goodreads, Google Books, and five review blogs -- it does not appear in any source found. This is a heavily infographic/reference-format book (charts, maps, tasting grids) with very little running prose, so it genuinely does not support the 20-30 quote target; landed on 2 verified lines rather than padding. Not re-attempted beyond this pass -- would need direct access to the physical book to find more."
 }
