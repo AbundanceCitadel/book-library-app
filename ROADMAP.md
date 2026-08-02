@@ -681,8 +681,22 @@ of the existing Roman Empire entry, explicitly flagged as the natural
 pairing in `New Section Research/civilizations.md`'s own notes on the
 Roman Empire's dual end dates. Cross-linked bidirectionally with
 `roman-empire.json`, the section's first real cross-linked pair.
-Organizations and Companies are now the only 2 sections still stuck at
-exactly 1 entry — see `DECISIONS.md` #291-297.
+Organizations and Companies were, until Session 35 (round 6), the only 2
+sections still stuck at exactly 1 entry — see `DECISIONS.md` #291-297.
+Session 35 (round 6) grew Companies from 1 entry to 2, adding Toyota Motor
+Corporation — picked over Organizations (the other tied-for-thinnest
+section) on research-quality grounds: Toyota's founding story and its
+Toyota Production System (jidoka, just-in-time, kaizen) translate
+unusually richly into this schema's `businessModelProducts`/
+`lessonsForEntrepreneurs` tabs, and the pick diversifies Companies beyond
+its single Tech example (Apple) into Automotive. No forced cross-link —
+no existing People or Books entry is substantively about Toyota, so
+`relatedIds` was left genuinely empty rather than fabricated. Current
+leadership (CEO Kenta Kon, since April 2026) and the Daihatsu
+safety-scandal fallout were verified via live web search; founding story
+and 20th-century history relied on stable general knowledge. Organizations
+is now the only section still stuck at exactly 1 entry — see
+`DECISIONS.md` #298-303.
 
 Thai is expanding the app from a single-purpose book library into a
 nine-section personal knowledge library (Book Library plus Famous People/
