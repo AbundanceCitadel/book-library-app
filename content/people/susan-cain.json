@@ -1,0 +1,33 @@
+{
+  "id": "susan-cain",
+  "name": "Susan Cain",
+  "category": "science-technology",
+  "timeframe": "b. 1968",
+  "summary": "Susan Cain was born in 1968 and grew up in Lawrence, New York, the youngest of three children in a family that included a rabbi grandfather and a physician father. She earned a bachelor's degree in English from Princeton in 1989 and a law degree from Harvard Law School in 1993, then spent seven years as a corporate attorney at Cleary Gottlieb Steen & Hamilton in New York before running her own negotiations consulting practice for several more years.\n\nThat legal career, which she has described as feeling like \"time spent in a foreign country,\" gave Cain a firsthand, uncomfortable education in how workplaces built around extroverted norms — constant meetings, open-plan offices, reward for the loudest voice in the room — can sideline quieter people who are just as capable. She spent roughly seven years researching and writing Quiet: The Power of Introverts in a World That Can't Stop Talking, published in 2012.\n\nQuiet became a New York Times bestseller and has sold several million copies worldwide; Cain's companion TED talk is one of the most-viewed in the platform's history. In 2015 she co-founded Quiet Revolution, an organization applying the book's ideas to workplace, school, and parenting training programs. She has since written a young-readers edition of Quiet and a companion self-assessment journal, then shifted focus with Bittersweet: How Sorrow and Longing Make Us Whole (2022), an Oprah's Book Club selection that moved from introversion specifically into the broader emotional territory of sorrow and longing.",
+  "achievements": [
+    "Wrote Quiet: The Power of Introverts in a World That Can't Stop Talking (2012), a New York Times bestseller that has sold several million copies and reframed introversion as a legitimate temperament rather than a deficiency to be corrected",
+    "Delivered a TED talk on the power of introverts that became one of the most-viewed talks in the platform's history",
+    "Co-founded Quiet Revolution in 2015, an organization that develops workplace, school, and parenting programs built on Quiet's research",
+    "Followed Quiet with Bittersweet: How Sorrow and Longing Make Us Whole (2022), an Oprah's Book Club selection, broadening her focus from introversion to the wider emotional territory of sorrow and longing"
+  ],
+  "quotes": [
+    {
+      "text": "Shyness is the fear of social disapproval or humiliation, while introversion is a preference for environments that are not overstimulating. Shyness is inherently painful; introversion is not.",
+      "source": "Quiet"
+    },
+    {
+      "text": "Introverts, in contrast, may have strong social skills and enjoy parties and business meetings, but after a while wish they were home in their pajamas. They prefer to devote their social energies to close friends, colleagues, and family. They listen more than they talk, think before they speak, and often feel as if they express themselves better in writing than in conversation. They tend to dislike conflict. Many have a horror of small talk, but enjoy deep discussions.",
+      "source": "Quiet"
+    }
+  ],
+  "legacy": "Quiet helped move \"introvert\" from a mild personal-development footnote into mainstream vocabulary, prompting a wave of corporate and educational rethinking about open-plan offices, group-brainstorming norms, and classroom participation grading. Cain's Quiet Revolution organization turned that cultural shift into an ongoing training business, and her later pivot to Bittersweet extended her influence into a second, distinct area of popular psychology writing.",
+  "relatedIds": [
+    {
+      "section": "library",
+      "id": "quiet",
+      "label": "Quiet"
+    }
+  ],
+  "dateAdded": "2026-08-02",
+  "sourceNotes": "Summary, achievements, and legacy reshaped from this library's own quiet.json authorBio field (original synthesis produced during this project's book-content pipeline). Quotes copied verbatim from that file's verified quotes[] array."
+}

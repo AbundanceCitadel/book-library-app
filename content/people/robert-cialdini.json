@@ -1,0 +1,33 @@
+{
+  "id": "robert-cialdini",
+  "name": "Robert Cialdini",
+  "category": "science-technology",
+  "timeframe": "b. 1945",
+  "summary": "Robert Cialdini is a social psychologist and Regents' Professor Emeritus of Psychology and Marketing at Arizona State University, born April 27, 1945. He built his reputation on field-based research into persuasion rather than laboratory studies alone — most famously going undercover for nearly three years in sales training programs, fundraising organizations, and other \"compliance professions\" to observe real-world influence tactics as they were actually taught and practiced.\n\nThat research became Influence: The Psychology of Persuasion (1984), which identified a small set of recurring principles — reciprocity, commitment and consistency, social proof, liking, authority, and scarcity — that reliably move people toward agreement. The book became a foundational text in behavioral psychology and marketing, widely taught in business schools and cited across both academic and popular writing on decision-making ever since. Pre-Suasion, published in 2016, extended that work by focusing on the moments and attentional cues immediately preceding a persuasive appeal, rather than the appeal's content itself — arguing that what a communicator does right before asking often matters more than the ask.\n\nCialdini has consulted for corporations, government agencies, and non-profits on ethical influence practices, and has repeatedly emphasized in interviews that his interest lies as much in helping people recognize and resist manipulation as in helping communicators persuade effectively.",
+  "achievements": [
+    "Wrote Influence: The Psychology of Persuasion (1984), which identified six core principles of persuasion (reciprocity, commitment/consistency, social proof, liking, authority, scarcity) now standard in psychology and marketing curricula worldwide",
+    "Conducted nearly three years of undercover field research inside sales, fundraising, and other 'compliance profession' training programs to study real-world influence tactics directly, rather than relying only on laboratory studies",
+    "Wrote Pre-Suasion (2016), extending his influence research to the attentional moments immediately before a persuasive appeal is made",
+    "Served as Regents' Professor Emeritus of Psychology and Marketing at Arizona State University and consulted for corporations, government agencies, and non-profits on ethical influence practices"
+  ],
+  "quotes": [
+    {
+      "text": "As a kind of secret agent, I once infiltrated the training programs of a broad range of professions dedicated to getting us to say yes.",
+      "source": "Pre-Suasion"
+    },
+    {
+      "text": "In large measure, who we are with respect to any choice is where we are, attentionally, in the moment before the choice.",
+      "source": "Pre-Suasion"
+    }
+  ],
+  "legacy": "Cialdini's six principles of influence remain the standard framework taught for understanding persuasion in marketing, sales, negotiation, and behavioral-economics courses decades after Influence's publication, and Pre-Suasion's focus on the moment before an ask has become its own widely cited concept in the same field. His insistence on studying persuasion through direct field observation of real practitioners, rather than lab experiments alone, also influenced how later behavioral-science popularizers approached their own research.",
+  "relatedIds": [
+    {
+      "section": "library",
+      "id": "pre-suasion",
+      "label": "Pre-Suasion"
+    }
+  ],
+  "dateAdded": "2026-08-02",
+  "sourceNotes": "Summary, achievements, and legacy reshaped from this library's own pre-suasion.json authorBio field (original synthesis produced during this project's book-content pipeline). Quotes copied verbatim from that file's verified quotes[] array. Already has a Quotes-section entry (content/quotes/robert-cialdini.json, added Session 29) but no People-section entry until this round — the gap this continuation prompt flagged."
+}

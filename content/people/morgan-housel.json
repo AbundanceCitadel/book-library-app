@@ -1,0 +1,33 @@
+{
+  "id": "morgan-housel",
+  "name": "Morgan Housel",
+  "category": "business",
+  "timeframe": "Contemporary (exact birth year not reliably confirmed across public sources)",
+  "summary": "Morgan Housel studied economics at the University of Southern California, graduating in 2008 just as the 2008 financial crisis was unfolding — timing that shaped his lasting focus on how ordinary people actually behave with money under stress, rather than how textbook models say they should. He started writing as a columnist for The Motley Fool while still in school and stayed there for close to a decade, later contributing to The Wall Street Journal before joining the venture capital firm Collaborative Fund as a partner in 2016, where he still writes.\n\nWhat sets Housel apart from most financial writers is his method: short, plain-language historical and personal stories in place of spreadsheets, forecasts, or technical analysis. That approach turned The Psychology of Money (2020) into one of the best-selling investing books of its era, arguing that success with money has far more to do with behavior, patience, and temperament than with formal financial knowledge. Same As Ever (2023) took the same lens and pointed it at human nature broadly rather than money specifically, and The Art of Spending Money (2025) returned to the practical and psychological side of spending well rather than only saving and investing.\n\nHousel's writing has been recognized twice with the Society of American Business Editors and Writers' Best in Business Award, along with the New York Times Sidney Award and two Gerald Loeb Award finalist nominations — honors that reflect how unusual it is for storytelling-first financial writing to be taken as seriously as traditional financial journalism.",
+  "achievements": [
+    "Wrote The Psychology of Money (2020), one of the best-selling personal-finance books of its era, and the follow-ups Same As Ever (2023) and The Art of Spending Money (2025), together selling over 12 million copies in more than 60 languages",
+    "Won the Society of American Business Editors and Writers' Best in Business Award twice, plus the New York Times Sidney Award and two Gerald Loeb Award finalist nominations",
+    "Built a decade-long financial-writing career at The Motley Fool and The Wall Street Journal before becoming a partner at the venture capital firm Collaborative Fund in 2016",
+    "Popularized a storytelling-driven approach to financial writing — short historical and behavioral narratives instead of forecasts or technical analysis — as a credible alternative to conventional financial journalism"
+  ],
+  "quotes": [
+    {
+      "text": "Viewing events in isolation, without an appreciation of their long roots, helps explain everything from why forecasting is hard to why politics is nasty.",
+      "source": "Same As Ever"
+    },
+    {
+      "text": "The biggest risk and the most important news story of the next ten years will be something nobody is talking about today.",
+      "source": "Same As Ever"
+    }
+  ],
+  "legacy": "Housel's central argument — that financial success is driven more by behavior and temperament than by intelligence or technical knowledge — has become a widely cited counterpoint to the traditional finance-education emphasis on formulas and forecasting, influencing how many popular personal-finance writers and advisors now frame their own advice. Same As Ever extended that same behavioral lens to human nature generally, reinforcing his reputation as one of the most-read financial writers of the 2020s.",
+  "relatedIds": [
+    {
+      "section": "library",
+      "id": "same-as-ever",
+      "label": "Same As Ever"
+    }
+  ],
+  "dateAdded": "2026-08-02",
+  "sourceNotes": "Summary, achievements, and legacy reshaped from this library's own same-as-ever.json authorBio field (original synthesis produced during this project's book-content pipeline). Quotes copied verbatim from that file's verified quotes[] array. Housel's exact birth year is not reliably confirmed — public sources conflict (1983/1984/1990) and none traces to an authoritative primary source — so timeframe is stated as 'Contemporary' rather than guessing a specific year."
+}
