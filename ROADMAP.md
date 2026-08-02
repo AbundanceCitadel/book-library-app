@@ -675,7 +675,14 @@ planned future work, given its direct tie to Thai's own Thich Nhat Hanh
 reading. Cross-linked bidirectionally with `buddhism.json` and with 3
 already-verified Thich Nhat Hanh books in `content/books/`. Organizations,
 Companies, and Civilizations remain the 3 sections still stuck at exactly
-1 entry — see `DECISIONS.md` #285-290.
+1 entry — see `DECISIONS.md` #285-290. Session 34 (round 5) grew Civilizations from
+1 entry to 2, adding Byzantine Empire — the direct historical continuation
+of the existing Roman Empire entry, explicitly flagged as the natural
+pairing in `New Section Research/civilizations.md`'s own notes on the
+Roman Empire's dual end dates. Cross-linked bidirectionally with
+`roman-empire.json`, the section's first real cross-linked pair.
+Organizations and Companies are now the only 2 sections still stuck at
+exactly 1 entry — see `DECISIONS.md` #291-297.
 
 Thai is expanding the app from a single-purpose book library into a
 nine-section personal knowledge library (Book Library plus Famous People/
