@@ -82,9 +82,14 @@
   ],
   "quotes": [
     {
+      "text": "Selling more stuff to more people more often for more money more efficiently",
+      "attribution": "Sergio Zyman, Renovate Before You Innovate",
+      "category": "Core Thesis"
+    },
+    {
       "text": "Only one of every 58 new product introductions succeeds.",
       "attribution": "Sergio Zyman, Renovate Before You Innovate",
-      "category": "Innovation Skepticism"
+      "category": "Innovation Risk"
     }
   ],
   "whoThisIsFor": "Marketing leaders and brand managers at established companies with an existing customer base, who are under internal pressure to launch something new rather than fix or extract more value from what they already have.",
@@ -143,5 +148,5 @@
   "personalRating": null,
   "personalNotes": "",
   "dateAdded": "2026-08-01",
-  "sourceNotes": "Synthesis is based on general knowledge of Zyman's marketing philosophy plus web-verified publisher, reviewer, and third-party summary descriptions of the book's core argument and the New Coke case study; the specific chapter/section titles above are thematic reconstructions of the book's known content rather than a verified original table of contents, since a full original TOC could not be independently located — flagged here rather than presented as confirmed. Quotes are limited given thin, largely paraphrased public quote availability for this title."
+  "sourceNotes": "Synthesis is based on general knowledge of Zyman's marketing philosophy plus web-verified publisher, reviewer, and third-party summary descriptions of the book's core argument and the New Coke case study; the specific chapter/section titles above are thematic reconstructions of the book's known content rather than a verified original table of contents, since a full original TOC could not be independently located — flagged here rather than presented as confirmed. Quotes are limited given thin, largely paraphrased public quote availability for this title.\n\n---\n\nQuote retrofit (Session 26 round 2/\"Session 27\"): VN edition of Renovate Before You Innovate; English original per convention. Goodreads' work-quotes page for this exact title shows 0 quotes. Only 2 fragments could be verified as genuinely from this specific book (not Zyman's more-quoted The End of Marketing/Advertising As We Know It, which is where most \"Zyman quotes\" online actually belong — caught and excluded exactly this contamination risk via AZQuotes' explicit book citations). Landed honestly at 2 rather than padding; this is a genuinely thinly-quoted title online."
 }

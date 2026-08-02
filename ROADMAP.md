@@ -453,10 +453,12 @@ Rebuilt the batch-markdown-to-JSON parser from scratch (the prior session's pars
 
 ### Stage 20 — Quote Retrofit Pass ("Highlights & Quotes," 20-30/book target)
 
-**Status:** 63 of 236 books touched across 3 rounds (round 1: 27 zero-quote
+**Status:** 84 of 236 books touched across 5 rounds (round 1: 27 zero-quote
 books; round 2: 28 books in the 1-4 range; round 3: 8 books in the 1-4
-range). 182 books remain below the 20-30 target for a future session to
-continue.
+range; round 4: 13 English 0-quote books plus a genuine Vietnamese-sourcing
+attempt on 4 more, Session 26; round 5: the remaining seven 1-quote books,
+same session). 179 books remain below the 20-30 target for a future
+session to continue.
 
 Every content-writing pass to date (the original 66 books, batches 1-12,
 batches 13-20) consistently undershot `docs/SCHEMA.md`'s v2 20-30-quotes-
@@ -700,6 +702,18 @@ scope, same as Stage 21) and no PWA icon regeneration (same known gap Stage
 ---
 
 ## Session Log
+
+**2026-08-02 — Session 26 (Stage 20 continued, quote retrofit round 4/5):** The uploaded continuation prompt pointed at `docs/SESSION_23_CONTINUATION_PROMPT.md`, but the connected local folder's `book-library-app` checkout turned out to be on an orphaned, never-pushed local branch (`redesign/premium-v3`, forked right after Session 11, one "review-only" commit) — 66 books vs. `origin/main`'s 236, missing Stages 17-22 entirely and an already-shipped Nine-Section Design Foundation. Surfaced this to Thai directly before touching anything (his call: sync to `origin/main` and continue from the real current state) rather than building on the stale branch. Cloned `origin/main` fresh into the sandbox's home directory (outside any `mnt/`-prefixed mount, per the established workaround), confirmed `docs/SESSION_25_CONTINUATION_PROMPT.md` was the real latest handoff (quote retrofit round 4), and re-derived the quote-count breakdown programmatically before trusting any cited number — confirmed exact match to Session 25's reported 32/92/44/9/5/54 split.
+
+Ran two further rounds of the same worst-first, researcher-only-subagent pattern established since Session 23. **Round 4** (4 parallel subagents): all remaining 13 English-language 0-quote books, plus — per Session 25's explicit ask to try Vietnamese-language sourcing rather than defaulting to English again — a genuine attempt at 4 Vietnamese/VN-edition titles. Landed real, verified quotes on 7 of the 17: `be-the-better-broker` (23, via the author's own site), `lot-xac-de-tro-thanh-nha-dau-tu-gioi` (25, Guy Spier's English-original *Education of a Value Investor*, this being a VN-edition translation), `it-starts-with-clients` (7), `straight-from-the-ceo` (4), `cuon-sach-nho-cho-nha-lanh-dao-lon` (10 — first had to identify which actual Maxwell book the Vietnamese title maps to: *JumpStart Your Leadership*), `rich-dads-guide-to-becoming-rich-without-cutting-up-your-credit-cards` (1, catching and excluding a real Kiyosaki cross-book contamination attempt), and `nhung-tu-tuong-gia-vi-dai-phuong-dong` (1). The other 10 stayed honestly at zero — confirmed via direct research, not skipped — including `nghe-thuat-ghi-chep`, where a second independent pass reached the same conclusion as the prior session (no such title exists in Nguyễn Hiến Lê's real bibliography), and `kheo-an-noi-se-co-duoc-thien-ha`, where 20 Vietnamese quotes were found on a single content blog but deliberately excluded as unverifiable against a second source (this project's exact-wording bar applies regardless of source language).
+
+**Round 5** (1 subagent, the remaining seven exactly-1-quote books): 4 gained real quotes — `21-bi-mat-cua-nhung-nha-dien-thuyet-tai-ba-nhat-lich-su` (21, James Humes' English-original *Speak Like Churchill, Stand Like Lincoln*), `phong-cach-ban-hang-zig-ziglar` (14, *Ziglar on Selling*), `rise` (7, confirming Mark Bouris's English-original book identity first), `renovate-before-you-innovate-cau-tien-truoc-phat-kien-sau` (2, genuinely thin online, not padded). Left the `phi-ly-tri`/`predictably-irrational` pair and `rich-dads-guide...credit-cards` alone this round (already handled or flagged, see below).
+
+Net: 21 books touched across both rounds, `>=20` bucket grew 54->57, 0-quote bucket fell 32->25. **179 of 236 books remain below the 20-30 target.**
+
+**New findings, flagged rather than fixed (out of scope for a quotes-only pass):** confirmed via `content/catalog.json` that `phi-ly-tri-predictably-irrational-vn-ed` (code 196) and `predictably-irrational-phi-ly-tri-vn-ed` (code 202) really are two separate catalog rows for what looks like the same physical Dan Ariely book (same title reordered, same author/category/language) — likely a duplicate transcription from the original bookshelf-photo catalog, not two distinct editions. Did not merge or delete either entry (a real, potentially irreversible catalog change, different in kind from adding quotes) — flagging for a third time now (`DECISIONS.md` #207, #230) for a session with explicit catalog-correction scope. Also found a pre-existing data-quality gap unrelated to this session's changes: 13 already-committed books (none touched this session) have quotes with an empty `category` field — see `DECISIONS.md` for the full list, worth a small targeted fix pass.
+
+Verified via the full JSON-parse/duplicate-id/duplicate-code/empty-category sweep (clean on every file this session touched; the 13-book empty-category issue above predates this session) and `npx tsc --noEmit` (clean). `npm run build` hit the same SIGBUS sandbox limitation documented since `DECISIONS.md` #108/#111/#128/#211/#230 immediately on this attempt (reproduced with and without reduced worker/CPU settings) — fell back to the established `tsc`+JSON-parse standard per precedent. **Not pushed** — no GitHub PAT was available this session; all 21 files are committed locally only in the sandbox's scratch clone, same "committed, push pending" status several earlier sessions (12, 14) have carried before. Wrote `docs/SESSION_26_CONTINUATION_PROMPT.md`. See `DECISIONS.md` #238+ and Stage 20 above.
 
 **2026-08-02 — new session (Stage 22, dark luxury palette reversal):** Thai
 asked to verify whether an uploaded nine-section design continuation prompt

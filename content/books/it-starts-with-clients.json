@@ -132,7 +132,43 @@
     "Audit your strongest relationships specifically, since they're most at risk of quiet neglect.",
     "Think of client trust as a long-term compounding investment built from small, consistent deposits."
   ],
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "Choose clients who can grow with you and eventually provide valuable references and referrals.",
+      "attribution": "Andrew Sobel, It Starts with Clients",
+      "category": "Choosing the Right Clients"
+    },
+    {
+      "text": "Curiosity is a key factor you should intentionally leverage in successful business development.",
+      "attribution": "Andrew Sobel, It Starts with Clients",
+      "category": "First Meetings & Conversations"
+    },
+    {
+      "text": "Leave your client wanting more, not feeling like they have more than they can possibly digest.",
+      "attribution": "Andrew Sobel, It Starts with Clients",
+      "category": "First Meetings & Conversations"
+    },
+    {
+      "text": "Sometimes, we are so full of our own thoughts and ideas that we have trouble listening to and engaging the other person.",
+      "attribution": "Andrew Sobel, It Starts with Clients",
+      "category": "First Meetings & Conversations"
+    },
+    {
+      "text": "You may be doing your client a disservice by accepting their definition of the problem or opportunity.",
+      "attribution": "Andrew Sobel, It Starts with Clients",
+      "category": "Reframing Client Problems"
+    },
+    {
+      "text": "If you don't try to reframe the client's issue, you may be essentially enabling them to go for a partial fix that makes people feel good but doesn't really bring the client closer to achieving their most mission-critical goals.",
+      "attribution": "Andrew Sobel, It Starts with Clients",
+      "category": "Reframing Client Problems"
+    },
+    {
+      "text": "Analysis is something of a commodity, but good synthesis is rare and consequently treasured by clients.",
+      "attribution": "Andrew Sobel, It Starts with Clients",
+      "category": "Big-Picture Thinking"
+    }
+  ],
   "conceptsFrameworks": [
     {
       "name": "Vendor vs. Trusted Advisor",
@@ -190,5 +226,5 @@
   "personalRating": null,
   "personalNotes": "",
   "dateAdded": "2026-07-31",
-  "sourceNotes": "Synthesis is based on general knowledge of Andrew Sobel's well-documented \"trusted advisor\" body of work and this book's publicly described ten-part structure and themes. Specific chapter titles reflect the book's known general framework; exact original wording of section titles may vary slightly from this reconstruction. Quotes section is intentionally thin and flagged rather than padded, since exact verbatim passages could not be confidently verified.\n\n---\n\nQuote retrofit pass (session 23): the prior quote was an unverified paraphrase -- discarded. Despite extensive searching (Goodreads shows 0 quotes on file for this title, Bookey has no page, Google Books returned no usable excerpts, the author's own site paraphrases but doesn't reproduce verbatim text), no verbatim sentence could be independently confirmed. Given the explicit caution against cross-attributing between this author's three library titles (It Starts with Clients / Power Questions / All for One), nothing was substituted from his other books. No quotes added."
+  "sourceNotes": "Synthesis is based on general knowledge of Andrew Sobel's well-documented \"trusted advisor\" body of work and this book's publicly described ten-part structure and themes. Specific chapter titles reflect the book's known general framework; exact original wording of section titles may vary slightly from this reconstruction. Quotes section is intentionally thin and flagged rather than padded, since exact verbatim passages could not be confidently verified.\n\n---\n\nQuote retrofit pass (session 23): the prior quote was an unverified paraphrase -- discarded. Despite extensive searching (Goodreads shows 0 quotes on file for this title, Bookey has no page, Google Books returned no usable excerpts, the author's own site paraphrases but doesn't reproduce verbatim text), no verbatim sentence could be independently confirmed. Given the explicit caution against cross-attributing between this author's three library titles (It Starts with Clients / Power Questions / All for One), nothing was substituted from his other books. No quotes added.\n\n---\n\nQuote retrofit (Session 26, round 4 continued): 7 quotes found on the author's own site (andrewsobel.com), a \"100-Day Client Growth Challenge\" series built chapter-by-chapter around this specific book (articles cite exact hardcover page ranges, e.g. pages 173-188). Treated as very likely verbatim (author's own words about his own book, tied to specific chapters) but not a confirmed direct page-scan match, hence a moderate- rather than high-confidence, below-target (7 of 15-30) count. Explicitly checked against Sobel's other two library titles (All for One; Power Questions, with Jerold Panas) and excluded anything not tied to this book's specific Week/Day chapter structure, per the cross-book contamination risk this author was flagged for."
 }

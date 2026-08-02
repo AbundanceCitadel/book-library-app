@@ -62,7 +62,58 @@
     "Leadership development is relevant to newcomers building influence from a non-formal position, not only established managers.",
     "The material is meant to be revisited repeatedly, since its value compounds with reflection rather than delivering its full impact on a single pass."
   ],
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "Good leadership begins with leaders knowing who they are. Successful leaders know their own strengths and weaknesses. They understand their temperament... They don't pretend to be something they're not. Instead they admit their shortcomings and harness their strengths.",
+      "attribution": "John C. Maxwell, JumpStart Your Leadership",
+      "category": "Self-Awareness"
+    },
+    {
+      "text": "Knowing what to do isn't enough to make someone a good leader. Just because something is right doesn't necessarily mean that people will let you do it. Good leaders take that into account, then they think and plan accordingly.",
+      "attribution": "John C. Maxwell, JumpStart Your Leadership",
+      "category": "Self-Awareness"
+    },
+    {
+      "text": "Too often people associate leadership advancement with their career path. That's the wrong paradigm. What you should be thinking about is your own leadership development! The sign of good leadership isn't personal advancement. It's the advancement of your team.",
+      "attribution": "John C. Maxwell, JumpStart Your Leadership",
+      "category": "Team & Growth"
+    },
+    {
+      "text": "People are any organization's most appreciable asset. Good leaders invest their time, energy, money, and thinking into growing others as leaders.",
+      "attribution": "John C. Maxwell, JumpStart Your Leadership",
+      "category": "Team & Growth"
+    },
+    {
+      "text": "What makes a family great isn't what makes a team great. Families value community over contribution. Businesses value contribution over community. The best teams strike a balance.",
+      "attribution": "John C. Maxwell, JumpStart Your Leadership",
+      "category": "Team & Growth"
+    },
+    {
+      "text": "The path to leadership growth requires that one stops trying to impress others to maintain their position and starts developing trust to maintain their relationships.",
+      "attribution": "John C. Maxwell, JumpStart Your Leadership",
+      "category": "Relationships & Candor"
+    },
+    {
+      "text": "Good leaders understand that the heart of leadership is dealing with people and working with the good, the bad, and the ugly in everyone... Leaders who build relationships understand that conflict is a part of progress.",
+      "attribution": "John C. Maxwell, JumpStart Your Leadership",
+      "category": "Relationships & Candor"
+    },
+    {
+      "text": "Care without candor creates dysfunctional relationships. Candor without care creates distant relationships. But care balanced with candor creates developing relationships.",
+      "attribution": "John C. Maxwell, JumpStart Your Leadership",
+      "category": "Relationships & Candor"
+    },
+    {
+      "text": "Let a vision for making a difference in the lives of the people you lead lift you and your people above the confines of job descriptions and petty rules.",
+      "attribution": "John C. Maxwell, JumpStart Your Leadership",
+      "category": "Vision & Purpose"
+    },
+    {
+      "text": "Success demands more than most people are willing to offer, but not more than they are capable of giving. The thing that often makes the difference is good leadership.",
+      "attribution": "John C. Maxwell, JumpStart Your Leadership",
+      "category": "Perseverance & Success"
+    }
+  ],
   "conceptsFrameworks": [
     {
       "name": "Leadership as Influence",
@@ -115,5 +166,5 @@
   "personalRating": null,
   "personalNotes": "",
   "dateAdded": "2026-07-31",
-  "sourceNotes": "The book's 90-day daily format and three-phase structure were reconstructed from Vietnamese-language publisher descriptions and reader reviews found via web search; the precise English-original source title could not be confirmed with certainty, so this entry is appropriately cautious about exact structural and quotation specifics.\n\n---\n\nQuote retrofit pass (session 23): the prior quote (\"Leadership is influence -- nothing more, nothing less\") was confirmed unconfirmed for this specific title -- Maxwell reuses that definition across 20+ books -- and discarded. This book is explicitly a curated 90-day collection of other people's leadership quotes (e.g. Warren Bennis) paired with Maxwell's own short commentary, not a source of original Maxwell lines; no reliable verbatim excerpt source was found for either the featured quotes or Maxwell's commentary as they appear in this specific edition. No quotes added."
+  "sourceNotes": "The book's 90-day daily format and three-phase structure were reconstructed from Vietnamese-language publisher descriptions and reader reviews found via web search; the precise English-original source title could not be confirmed with certainty, so this entry is appropriately cautious about exact structural and quotation specifics.\n\n---\n\nQuote retrofit pass (session 23): the prior quote (\"Leadership is influence -- nothing more, nothing less\") was confirmed unconfirmed for this specific title -- Maxwell reuses that definition across 20+ books -- and discarded. This book is explicitly a curated 90-day collection of other people's leadership quotes (e.g. Warren Bennis) paired with Maxwell's own short commentary, not a source of original Maxwell lines; no reliable verbatim excerpt source was found for either the featured quotes or Maxwell's commentary as they appear in this specific edition. No quotes added.\n\n---\n\nQuote retrofit (Session 26, round 4 continued): first identified which English-original John C. Maxwell book this Vietnamese title actually is — Goodreads' Vietnamese-edition page canonicalizes to \"JumpStart Your Leadership: A 90-Day Improvement Plan,\" confirmed by the matching 90-day devotional structure. Per this project's VN-edition convention, quotes recorded in verified English original wording. All 10 quotes verified against a single blog (craigtowens.com, \"10 Quotes From John Maxwell In JumpStart Your Leadership\") explicitly quoting this specific book; broader quote aggregators mixed in unattributed quotes from Maxwell's many other books, so those were excluded. Below the 15-30 target (10) rather than padded with unverified generic Maxwell quotes."
 }

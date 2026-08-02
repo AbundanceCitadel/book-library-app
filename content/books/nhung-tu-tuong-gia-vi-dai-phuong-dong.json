@@ -80,7 +80,13 @@
     "Understanding a philosophical concept (like karma, emptiness, or the Dao) requires attending to how it's used differently across schools within a tradition, not just across traditions.",
     "Islamic philosophy's role in transmitting Greek philosophical inheritance to medieval Europe is a significant, often underappreciated part of Western intellectual history."
   ],
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "Great Thinkers of the Eastern World presents informative essays on over 100 of the outstanding philosophical and religious thinkers of China, India, Japan, Korea, and the world of Islam.",
+      "attribution": "Ian P. McGreal (editor), opening line of the Preface, Great Thinkers of the Eastern World",
+      "category": "Editorial Framing / About This Book"
+    }
+  ],
   "whoThisIsFor": "Readers seeking a serious, structured introduction to Eastern philosophical and religious thought as an academic reference, rather than a single narrative argument or popular-audience overview.",
   "whenToReadThis": "Best used as an ongoing reference alongside other reading on Asian history, religion, or philosophy, rather than read start to finish in one sitting.",
   "relatedBooks": [],
@@ -137,5 +143,5 @@
   "personalRating": null,
   "personalNotes": "",
   "dateAdded": "2026-08-01",
-  "sourceNotes": "This entry is based on general, well-established knowledge of the structure, purpose, and academic reception of Great Thinkers of the Eastern World as a multi-contributor comparative philosophy reference anthology; the section breakdown reflects the book's well-documented broad regional/traditional organization. As noted above, I omitted a quotes section because I could not verify specific verbatim passages from this particular edited reference work with confidence, and inventing attributable lines for a multi-author anthology like this carries a higher misattribution risk than for a single-author trade book.\n\nQuote retrofit pass (session 23): confirmed the book on Internet Archive (borrow-restricted, text inaccessible). This is an anthology of essays about ~100+ Eastern philosophers with the editor's own commentary plus translated primary-source excerpts; even if classical lines (Confucius, Lao Tzu, etc.) were found elsewhere online, they couldn't be confirmed to match this specific anthology's translation/wording. No quotes added to avoid misattributing a different translation."
+  "sourceNotes": "This entry is based on general, well-established knowledge of the structure, purpose, and academic reception of Great Thinkers of the Eastern World as a multi-contributor comparative philosophy reference anthology; the section breakdown reflects the book's well-documented broad regional/traditional organization. As noted above, I omitted a quotes section because I could not verify specific verbatim passages from this particular edited reference work with confidence, and inventing attributable lines for a multi-author anthology like this carries a higher misattribution risk than for a single-author trade book.\n\nQuote retrofit pass (session 23): confirmed the book on Internet Archive (borrow-restricted, text inaccessible). This is an anthology of essays about ~100+ Eastern philosophers with the editor's own commentary plus translated primary-source excerpts; even if classical lines (Confucius, Lao Tzu, etc.) were found elsewhere online, they couldn't be confirmed to match this specific anthology's translation/wording. No quotes added to avoid misattributing a different translation.\n\n---\n\nQuote retrofit (Session 26, round 4 continued): only 1 quote verified — LibraryThing's \"Common Knowledge\" field for this exact work lists this as the book's own transcribed \"first words\" (the opening line of McGreal's Preface), a genuinely verbatim source distinct from marketing description. Internet Archive's copy is borrow-only with no full-text search access, so McGreal's individual editorial essays on specific thinkers (Confucius, Laozi, Buddha, etc.) couldn't be pulled this round. Deliberately excluded the many generic quotes attributed to Confucius/Buddha/etc. found elsewhere online, since those aren't verifiably this anthology's own editorial text."
 }
