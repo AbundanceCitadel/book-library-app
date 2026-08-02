@@ -1,3 +1,158 @@
+# Design System v7 — Dark Luxury Palette Reversal (Stage 22)
+
+Supersedes v6's "Default theme flipped to light" section (§1) only —
+everything else v6 built (the nine-section homepage/architecture, no
+per-section colors, the nav drawer, the espresso scale itself) is unchanged.
+This session flips the default back to dark, and uses that same espresso
+scale differently: no longer just a small light-mode grounding accent, but
+the actual dark-theme background.
+
+## 0. Why this reverses v6 so soon
+
+v6's light-first flip was a direct, correct response to Thai's stated
+problem at the time ("when I see the dark, I feel off... it doesn't excite
+me") — but having lived with it, his follow-up was more specific than
+"dark is bad": he wants to stay in dark mode, he just wants the *existing*
+dark theme to stop reading as flat/muted and start reading as rich/premium
+("I want luxury and premium, not pale and dark"). Confirmed this directly
+via `AskUserQuestion` before touching any code — two explicit answers: (1)
+dark becomes the permanent default again, overriding v6 on this one point,
+and (2) refine the palette to orange + a brighter jade green + a sparing
+amber highlight, rather than reverting to a gold + navy combination from
+another of Thai's projects (kept as documented fallback below).
+
+**A mixup worth recording plainly:** before reaching this conclusion, this
+session initially checked git state in the wrong place — the local synced
+folder's checked-out branch, which turned out to be badly stale (missing the
+entire v6/nine-section build and several sessions of content work) — rather
+than the fresh-clone-of-`origin/main` check this project's own standing rule
+requires. That produced an incorrect "the nine-section prompt hasn't been
+built yet" conclusion and a parallel dark-theme pass built against the wrong
+base. Caught before anything was pushed, by actually cloning `origin/main`
+fresh and comparing — see `DECISIONS.md` for the full account. This section
+and the actual shipped changes are the corrected, second pass, built against
+the real current codebase.
+
+## 1. Default theme flipped back to dark
+
+Exact structural inverse of v6 §1, back to the v2-v5 shape:
+
+- `app/globals.css` — dark values move back to `:root` (default); light
+  values move to `.light` (opt-in). Same treatment for the badge-tone tokens
+  and the elevation/shadow scale.
+- `app/layout.tsx` — the no-flash inline script now only ever adds `.light`
+  (inverse of v6's `.dark`-only logic). `viewport.themeColor` moves from
+  `#faf8f4` to the new dark bg value, `#1f160f`.
+- `app/components/ThemeToggle.tsx` — same three states (Light / Dark /
+  System), default `useState<ThemePref>` back to `"dark"`, `applyTheme`
+  inverted back to toggling `.light` based on `isLight`.
+- `tailwind.config.ts` — `darkMode: "class"` unchanged; no per-component
+  changes needed, same as v6's flip required none.
+- `public/manifest.json`'s `theme_color`/`background_color` move from
+  `#faf8f4` back to the new dark value; `public/sw.js`'s `CACHE_VERSION`
+  bumped to `v3` since manifest is precached cache-first (same staleness
+  risk as the Stage 12 icon-color bump — v6 itself missed this bump when it
+  changed these same two manifest values, not repeated here).
+
+## 2. The actual fix: espresso becomes the dark background, not just a chrome accent
+
+v2-v5's original dark background (`#0b0c0e`) was a neutral, hue-less
+near-black — "dark" but with no color temperature of its own, which is the
+likely reason it read as flat rather than rich. Rather than reintroduing that
+exact value, this session reuses v6's own `espresso` scale (already
+established as "the warm brown family, not a cool gray or true black") for
+the actual page background/surface/border tokens:
+
+| Token | v2-v5 (neutral) | v7 (espresso) | Tailwind stop |
+|---|---|---|---|
+| `--color-bg` | `#0b0c0e` | `#1f160f` | `espresso-900` |
+| `--color-surface` | `#16171b` | `#2f2219` | `espresso-800` |
+| `--color-surface-2` | `#1e2024` | `#402f22` | `espresso-700` |
+| `--color-border` | `#2a2c31` | `#543d2d` | `espresso-600` |
+| `--color-fg` | `#f2ede4` | `#f5efe9` | `espresso-50` |
+| `--color-muted` | `#9a978d` | `#b89a7e` | `espresso-300` |
+
+This means the dark theme's background is now literally the same warm-brown
+family as the "little bit of dark" grounding accent v6 introduced — a
+leather-and-walnut room reads as warm/rich at the same light level a
+poured-concrete room reads as cold, even though both are equally dim; that's
+the same principle applied here. It also means `--espresso-chrome-bg`
+(`espresso-700`, used for the `SectionTile` top stripe and `NavDrawer`
+header) now sits *inside* a same-family dark background rather than
+providing contrast against a pale one — kept as-is rather than redesigned,
+since the visual difference is a subtle warm-on-warm shift rather than a
+break, and Thai's complaint was never about that specific 1.5px stripe.
+
+**Contrast checked** (WCAG relative-luminance, computed not eyeballed):
+
+- Body text (`espresso-50` `#f5efe9`) on bg (`espresso-900` `#1f160f`):
+  **15.6:1** (AAA)
+- Muted text (`espresso-300` `#b89a7e`) on bg: **6.7:1** (AA, comfortable at
+  14px+)
+- Orange `500` (`#ed6c11`) on bg: **5.7:1**; jade `500` (`#10b981`) on bg:
+  **7.0:1**; amber `500` (`#f59e0b`) on bg: **8.3:1** — every accent color
+  clears AA against the new background with real margin.
+- Structural border (`espresso-600` `#543d2d`) on bg: **~1.8:1** —
+  deliberately low, a subtle divider rather than a load-bearing edge; every
+  visually-important border (card outlines, active states) uses the
+  orange/jade/amber accents above instead, consistent with how the neutral
+  border has always been treated in this app.
+
+## 3. Jade replaces pine; amber added as a single sparing highlight
+
+Renamed the `pine` Tailwind scale to `jade` and re-picked it brighter/more
+saturated — v4's original pine (`#2c8a5e`) was deliberately desaturated
+forest green, the right call against a neutral near-black but reading
+closer to "hunting jacket" than "jewel" against the new richer background.
+Kept v4's hue guardrail (stays >= 150°, never drifting toward teal/blue).
+`jade-500` is `#10b981`, `jade-400` (used for links/tags on dark bg) is
+`#34d399`. Renamed mechanically across every call site this app now has —
+`Badge.tsx`, `BookTabs.tsx`, `SectionEntryCard.tsx`, `SectionTile.tsx`, the
+book library/not-found/offline/homepage links, and the philosophies/quotes
+detail pages — verified with a before/after grep, zero stray `pine` class
+references left (one explanatory code comment kept, not a live reference).
+
+Added a new `amber` scale (`500` `#f59e0b`, `400` `#fbbf24`) with exactly one
+job across the whole app: the entry-code/rank number previously styled in
+orange (`No. 377` on book pages, `Rank #12` on Rich List pages, and the same
+code prefix in `BookCard`, `SearchOverlay`, category/wishlist listings) —
+moved off orange so it doesn't compete with orange's primary-emphasis role.
+**Not** rolled out anywhere else (no amber borders, no amber section
+headers) — three co-equal full-coverage accents would recreate the exact
+"too many hues, hard to keep looking premium" risk v6 itself flagged and
+avoided for per-section colors; amber stays confined to this one small,
+consistent highlight unless Thai asks for more.
+
+## 4. Why not gold + navy (the other project's palette)
+
+Raised directly by Thai as a fallback if orange + jade didn't land. Kept
+orange rather than switching, since (a) orange is a settled decision from
+v4 with its own documented rationale that was never actually in question —
+the "flat, not premium" complaint was about the *background* orange sat on,
+not about orange itself — and (b) reusing another of Thai's projects' exact
+palette would make this app read as a reskin of that one rather than having
+its own identity. Flagging this as the one place this session
+second-guessed a literal reading of "or if any other combination is better"
+— easy to revisit if Thai sees the live result and still prefers gold+navy.
+
+## 5. Verification
+
+`tsc --noEmit` clean. Full `npm run build` (277 static pages — 236 books +
+16 categories + core pages + all 9 sections' example entries) confirmed
+clean via a webpack-compile-success + partial static-generation pass (the
+sandbox's per-command runtime limit couldn't sustain a full 277-page
+generation run in one shot); a full 46-page build with `content/books`
+temporarily trimmed to 5 example files (content fully restored byte-for-byte
+afterward, verified via `diff -rq` against a pre-trim backup) completed
+100% clean end to end, covering one page from every route type including
+all 9 section detail pages. `npm run start` + `curl` confirmed the compiled
+CSS contains the new dark values (`--color-bg:#1f160f` etc.) alongside the
+untouched light values, the `theme-color` meta tag reads `#1f160f`, and
+`Rank #`/entry-code text renders in the new `amber-400` class on both a
+Rich List page and the book library.
+
+---
+
 # Design System v6 — Light-First Color Overhaul & Nine-Section Homepage (Design Foundation session)
 
 Supersedes v4/v5 on the color-theme point only — the orange/pine accent

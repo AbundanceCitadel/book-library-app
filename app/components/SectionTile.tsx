@@ -20,7 +20,7 @@ export default function SectionTile({
   title: string;
   description: string;
   icon: string;
-  accent: "orange" | "pine";
+  accent: "orange" | "jade";
 }) {
   return (
     <Link
@@ -35,7 +35,7 @@ export default function SectionTile({
             background:
               accent === "orange"
                 ? "radial-gradient(circle at 30% 30%, var(--badge-orange-bg), transparent 70%)"
-                : "radial-gradient(circle at 30% 30%, var(--badge-pine-bg), transparent 70%)",
+                : "radial-gradient(circle at 30% 30%, var(--badge-jade-bg), transparent 70%)",
           }}
           aria-hidden="true"
         >

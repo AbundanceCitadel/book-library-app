@@ -11,7 +11,7 @@ const SECTIONS: {
   title: string;
   description: string;
   icon: string;
-  accent: "orange" | "pine";
+  accent: "orange" | "jade";
 }[] = [
   {
     href: "/library",
@@ -25,7 +25,7 @@ const SECTIONS: {
     title: "Famous People / Profiles",
     description: "Biographical profiles — life summary, achievements, and legacy.",
     icon: "🧑‍🎓",
-    accent: "pine",
+    accent: "jade",
   },
   {
     href: "/richlist",
@@ -39,7 +39,7 @@ const SECTIONS: {
     title: "Quotes",
     description: "Quotes by famous people, categorized by theme.",
     icon: "💬",
-    accent: "pine",
+    accent: "jade",
   },
   {
     href: "/rulers",
@@ -53,7 +53,7 @@ const SECTIONS: {
     title: "Groups & Organizations",
     description: "Significant institutions — charities, governments, and international bodies.",
     icon: "🏢",
-    accent: "pine",
+    accent: "jade",
   },
   {
     href: "/companies",
@@ -67,7 +67,7 @@ const SECTIONS: {
     title: "Civilizations & Empires",
     description: "Major historical civilizations and empires — the macro context around history's rulers.",
     icon: "🏺",
-    accent: "pine",
+    accent: "jade",
   },
   {
     href: "/philosophies",

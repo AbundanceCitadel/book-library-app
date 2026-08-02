@@ -78,7 +78,7 @@ export default function PhilosophyPage({ params }: { params: { id: string } }) {
                   {item.keyTexts.map((t) => (
                     <li
                       key={t}
-                      className="inline-flex items-center rounded-full bg-[var(--badge-pine-bg)] px-3 py-1 text-xs font-medium text-[var(--badge-pine-fg)]"
+                      className="inline-flex items-center rounded-full bg-[var(--badge-jade-bg)] px-3 py-1 text-xs font-medium text-[var(--badge-jade-fg)]"
                     >
                       {t}
                     </li>

@@ -15,7 +15,13 @@
 // theme_color/background_color were updated from the old v1 amber/white
 // scheme to the v2 dark palette. Cache-first means anyone with the old SW
 // already active would otherwise keep serving the stale icon bytes forever.
-const CACHE_VERSION = "v2";
+// Bumped to v3 in the Stage 22 palette reversal: manifest.json's
+// theme_color/background_color moved from the Design Foundation session's
+// light values (#faf8f4) to the new dark espresso value (#1f160f) — same
+// cache-first staleness risk as the v2 bump. (The Design Foundation session
+// itself changed these values without bumping the cache version — flagged
+// as a small gap in that session's work, not repeated here.)
+const CACHE_VERSION = "v3";
 const CACHE_NAME = `book-library-${CACHE_VERSION}`;
 
 const PRECACHE_URLS = [

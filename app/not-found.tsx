@@ -24,7 +24,7 @@ export default function NotFound() {
       </p>
       <Link
         href="/"
-        className="tap-target mt-6 inline-flex text-sm text-pine-400 hover:underline"
+        className="tap-target mt-6 inline-flex text-sm text-jade-400 hover:underline"
       >
         ← Back to the library
       </Link>

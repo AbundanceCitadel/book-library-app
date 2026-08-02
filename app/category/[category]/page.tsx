@@ -72,7 +72,7 @@ export default function CategoryPage({
                 key={entry.title}
                 className="flex items-baseline gap-3 py-2"
               >
-                <span className="shrink-0 font-mono text-xs text-orange-400">
+                <span className="shrink-0 font-mono text-xs text-amber-400">
                   {entry.code}
                 </span>
                 <span className="flex-1">{entry.title}</span>

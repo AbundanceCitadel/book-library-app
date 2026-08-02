@@ -121,7 +121,7 @@ export default function SearchOverlay({ index }: { index: SearchEntry[] }) {
                       className="book-row motion-premium flex w-full flex-col items-start px-4 py-3 text-left"
                     >
                       <span className="flex flex-wrap items-baseline gap-x-2">
-                        <span className="shrink-0 font-mono text-xs text-orange-400">
+                        <span className="shrink-0 font-mono text-xs text-amber-400">
                           {r.code}
                         </span>
                         <span className="font-medium leading-snug">

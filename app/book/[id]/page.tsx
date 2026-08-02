@@ -28,7 +28,7 @@ export default function BookPage({ params }: { params: { id: string } }) {
     <main className="mx-auto max-w-2xl px-4 py-8 sm:px-6">
       <BackLink label="Back" fallbackHref="/library" />
 
-      <p className="mt-3 font-mono text-xs text-orange-400">No. {book.code}</p>
+      <p className="mt-3 font-mono text-xs text-amber-400">No. {book.code}</p>
       <h1 className="mt-1 text-3xl font-semibold leading-tight tracking-tight sm:text-4xl">
         {book.title}
       </h1>

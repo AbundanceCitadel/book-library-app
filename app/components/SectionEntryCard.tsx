@@ -28,7 +28,7 @@ export default function SectionEntryCard({
         <span className="font-medium leading-snug">{title}</span>
         {meta && <span className="text-sm text-muted">— {meta}</span>}
         {badge && (
-          <span className="ml-auto shrink-0 rounded-full bg-[var(--badge-pine-bg)] px-2 py-0.5 text-[10px] font-medium text-[var(--badge-pine-fg)]">
+          <span className="ml-auto shrink-0 rounded-full bg-[var(--badge-jade-bg)] px-2 py-0.5 text-[10px] font-medium text-[var(--badge-jade-fg)]">
             {badge}
           </span>
         )}

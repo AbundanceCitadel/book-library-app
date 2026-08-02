@@ -74,7 +74,7 @@ export default function LibraryHomePage() {
 
       <p className="mt-6 text-sm text-muted">
         Looking for a book you don&apos;t own yet?{" "}
-        <Link href="/wishlist" className="text-pine-400 hover:underline">
+        <Link href="/wishlist" className="text-jade-400 hover:underline">
           Wishlist →
         </Link>
       </p>

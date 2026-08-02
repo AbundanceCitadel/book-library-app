@@ -4,16 +4,16 @@ import { useEffect, useState } from "react";
 
 type ThemePref = "light" | "dark" | "system";
 
-// v6 (Design Foundation session): light is now the default look — toggling
-// TO dark applies a `.dark` class, the inverse of v2-v5's `.light`-opt-in
-// strategy. Same three states as before (Light / Dark / System), just a
-// swapped default and inverted class target. See docs/DESIGN_SYSTEM.md v6.
+// v7 (Stage 22, dark luxury reversal): dark is the default look again —
+// toggling TO light applies a `.light` class, the inverse of v6's
+// `.dark`-opt-in strategy (back to the v2-v5 shape). Same three states as
+// before (Light / Dark / System). See docs/DESIGN_SYSTEM.md v7.
 function applyTheme(pref: ThemePref) {
-  const isDark =
-    pref === "dark" ||
+  const isLight =
+    pref === "light" ||
     (pref === "system" &&
-      window.matchMedia("(prefers-color-scheme: dark)").matches === true);
-  document.documentElement.classList.toggle("dark", isDark);
+      window.matchMedia("(prefers-color-scheme: dark)").matches === false);
+  document.documentElement.classList.toggle("light", isLight);
 }
 
 const NEXT: Record<ThemePref, ThemePref> = {
@@ -35,16 +35,15 @@ const LABEL: Record<ThemePref, string> = {
 };
 
 export default function ThemeToggle() {
-  // Default pref is "light" — matches the no-flash script in
-  // app/layout.tsx, which only ever adds `.dark`, never assumes system on
-  // first visit. Nobody should see a black/near-black background on first
-  // visit per Thai's explicit direction — see docs/DESIGN_SYSTEM.md v6.
-  const [pref, setPref] = useState<ThemePref>("light");
+  // Default pref is "dark" again (v7) — matches the no-flash script in
+  // app/layout.tsx, which only ever adds `.light`, never assumes system on
+  // first visit. See docs/DESIGN_SYSTEM.md v7.
+  const [pref, setPref] = useState<ThemePref>("dark");
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
     const stored = window.localStorage.getItem("theme") as ThemePref | null;
-    setPref(stored ?? "light");
+    setPref(stored ?? "dark");
     setMounted(true);
   }, []);
 
@@ -62,9 +61,9 @@ export default function ThemeToggle() {
       aria-label={`Theme: ${LABEL[pref]}. Tap to change.`}
       className="tap-target rounded-lg border border-border px-3 text-sm hover:bg-surface2"
     >
-      <span aria-hidden="true">{mounted ? ICON[pref] : ICON.light}</span>
+      <span aria-hidden="true">{mounted ? ICON[pref] : ICON.dark}</span>
       <span className="ml-1.5 hidden sm:inline">
-        {mounted ? LABEL[pref] : LABEL.light}
+        {mounted ? LABEL[pref] : LABEL.dark}
       </span>
     </button>
   );

@@ -151,7 +151,7 @@ export default function BookTabs({
                     <li key={rel.id}>
                       <Link
                         href={`/book/${rel.id}`}
-                        className="tap-target text-sm text-pine-400 hover:underline"
+                        className="tap-target text-sm text-jade-400 hover:underline"
                       >
                         {rel.title}
                       </Link>
@@ -337,7 +337,7 @@ export default function BookTabs({
               {visibleQuoteEntries.map(([cat, quotes]) => (
                 <div key={cat}>
                   {!quoteFilter && (
-                    <h3 className="mb-3 text-sm font-semibold text-pine-400">{cat}</h3>
+                    <h3 className="mb-3 text-sm font-semibold text-jade-400">{cat}</h3>
                   )}
                   <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
                     {quotes.map((q, i) => (
@@ -366,10 +366,10 @@ export default function BookTabs({
                   {book.criticalTake.points.map((point, i) => (
                     <li
                       key={i}
-                      className="flex gap-3 rounded-lg border border-[var(--badge-pine-bg)] bg-surface p-3 text-sm"
+                      className="flex gap-3 rounded-lg border border-[var(--badge-jade-bg)] bg-surface p-3 text-sm"
                     >
                       <span
-                        className="mt-0.5 text-pine-400"
+                        className="mt-0.5 text-jade-400"
                         aria-hidden="true"
                       >
                         ◆
@@ -379,8 +379,8 @@ export default function BookTabs({
                   ))}
                 </ul>
                 {book.criticalTake.contextNote && (
-                  <div className="elevate-sm mt-6 rounded-xl border-l-4 border-pine-400 bg-surface p-4">
-                    <h3 className="text-sm font-semibold text-pine-400">
+                  <div className="elevate-sm mt-6 rounded-xl border-l-4 border-jade-400 bg-surface p-4">
+                    <h3 className="text-sm font-semibold text-jade-400">
                       Since Publication
                     </h3>
                     <p className="prose-reading mt-2 text-sm">
@@ -414,7 +414,7 @@ export default function BookTabs({
                     <h3 className="text-sm font-semibold">Other Notable Works</h3>
                     <div className="mt-2 flex flex-wrap gap-1.5">
                       {book.authorBio.notableWorks.map((w) => (
-                        <Badge key={w} tone="pine">
+                        <Badge key={w} tone="jade">
                           {w}
                         </Badge>
                       ))}

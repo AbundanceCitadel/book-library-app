@@ -49,7 +49,7 @@ export default function QuoteCollectionPage({ params }: { params: { id: string }
                 <div className="space-y-8">
                   {Object.entries(byCategory).map(([cat, quotes]) => (
                     <div key={cat}>
-                      <h3 className="mb-3 text-sm font-semibold text-pine-400">
+                      <h3 className="mb-3 text-sm font-semibold text-jade-400">
                         {QUOTE_CATEGORY_LABELS[cat] ?? cat}
                       </h3>
                       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">

@@ -645,7 +645,87 @@ out of scope for a foundation/scaffolding session. See
 
 ---
 
+### Stage 22 — Dark Luxury Palette Reversal (v7)
+
+**Status:** complete and verified.
+
+Thai reviewed Stage 21's light-first result live and asked to reverse
+course on the one point that mattered to him: stay in dark mode, but make
+the existing dark theme read as premium/luxury rather than flat. Confirmed
+two explicit decisions via `AskUserQuestion` before writing any code — dark
+becomes the permanent default again (overriding Stage 21's light-first
+flip), and the palette direction is a refined orange + jade + amber rather
+than reverting to a gold + navy combination from another of Thai's projects
+(kept as documented fallback).
+
+**A process mistake worth recording:** this session initially checked git
+state by looking at the local synced folder's checked-out branch instead of
+doing the fresh-`origin/main`-clone check this project has required since
+decision #28 — the local folder turned out to be badly stale (missing all of
+Stage 21 and Sessions 22-23), which produced an incorrect "nothing's been
+built yet" conclusion and a first pass built against the wrong codebase.
+Caught before pushing by cloning `origin/main` directly and comparing; the
+work described below is the corrected second pass, built against the real
+current app. See `DECISIONS.md` for the full account.
+
+Implemented: default theme flipped back to dark (`app/globals.css`,
+`app/layout.tsx`, `app/components/ThemeToggle.tsx`, exact structural
+inverse of Stage 21's flip); the dark background/surface/border tokens now
+reuse Stage 21's own `espresso` scale's dark stops (`espresso-900`/`800`/
+`700`/`600`) instead of reintroducing the old neutral near-black, so the
+"little bit of dark" accent and the dark theme itself are now the same warm
+family; `pine` renamed to `jade` and re-picked brighter/more saturated
+(jewel-tone emerald); new `amber` scale added, confined to exactly one job
+(the book/entry-code number, moved off orange); `manifest.json`'s
+theme/background colors and `sw.js`'s `CACHE_VERSION` (bumped to `v3`)
+updated to match. Full rationale and contrast checks in
+`docs/DESIGN_SYSTEM.md` "Design System v7."
+
+**Verified:** `tsc --noEmit` clean. Full `npm run build` confirmed a clean
+webpack compile across all 277 pages; a full end-to-end static-generation
+pass was run against a temporarily trimmed content set (5 of 236 books, all
+9 sections' real example entries kept) due to this session's runtime
+constraints on a single build invocation — 46/46 pages generated with zero
+errors, covering one page from every route type. `content/books` restored
+byte-for-byte afterward, verified via `diff -rq` against a pre-trim backup.
+`npm run start` + `curl` confirmed the compiled CSS contains the new dark
+values, the `theme-color` meta tag reads the new dark hex, and entry-code/
+rank numbers render in the new amber class on both the book library and
+Rich List.
+
+**Not done, deliberately:** no further nine-section population work (out of
+scope, same as Stage 21) and no PWA icon regeneration (same known gap Stage
+21 flagged, still unresolved).
+
+---
+
 ## Session Log
+
+**2026-08-02 — new session (Stage 22, dark luxury palette reversal):** Thai
+asked to verify whether an uploaded nine-section design continuation prompt
+had been executed, then to discuss the color direction before continuing —
+he wants a dark theme that reads as premium/luxury, and was weighing an
+orange+jade+amber refinement against reverting to a gold+navy combination
+from another of his projects. Initially checked git state in the local
+synced folder rather than a fresh `origin/main` clone, which was badly stale
+and produced a wrong "nothing's been built" conclusion — did a full
+speculative dark-theme pass against that stale base before catching the
+mistake by cloning `origin/main` directly (which showed Stage 21's entire
+nine-section/light-first build, plus Sessions 22-23, already live). Restarted
+against the real codebase: confirmed with Thai via `AskUserQuestion` (dark
+stays permanent default, orange+jade+amber over gold+navy) and shipped Stage
+22 above — dark-default reversal, `espresso`-scale dark background reusing
+Stage 21's own warm-brown scale, `pine`->`jade` rename, new sparing `amber`
+highlight for entry codes. Verified via `tsc --noEmit` (clean) and a full
+clean `npm run build` (277 pages, webpack-compile-verified in full; a
+temporarily-trimmed 46-page run verified 100% of static generation
+end-to-end since this sandbox can't sustain a full 277-page generation run
+in one command invocation — content restored byte-for-byte afterward,
+diffed against a backup to confirm). `npm run start` + `curl` confirmed the
+new dark hex values in the compiled CSS and rendered HTML. Committed and
+pushed using a classic PAT Thai supplied this session. See `DECISIONS.md`
+#231-236 and Stage 22 above for the full write-up, including the git-state
+mistake and correction.
 
 **2026-08-02 — Session 24 (Stage 21, Nine-Section Design Foundation):** Read `PROJECT_BRIEF.md`/`ROADMAP.md`/`DECISIONS.md`/`docs/DESIGN_SYSTEM.md`/`docs/SCHEMA.md` in full per the standing rule, with particular attention to v4's color-overhaul section and the most recent (Session 23, Stage 20 quote-retrofit) log entry, per the continuation prompt's own instructions. Verified git state via a fresh `/tmp` clone of `origin/main` rather than trusting the synced folder's `git status` directly (same recurring stale-index bug documented since `DECISIONS.md` #28/#31-35/#121-122/#173/#177) — confirmed the synced folder's `app/`/`lib/`/`docs/`/`tailwind.config.ts` files were all byte-identical to `origin/main` despite `git status` flagging them "modified" (a stale local-index artifact, not real drift), and that only 4 `content/books/*.json` files (`built-to-last`, `charlie-munger-the-complete-investor`, `delivering-happiness`, `dotcom-secrets`) genuinely differ — the same 4 files identified as the parallel Stage-15-retrofit track's in-progress work in decision #177, left untouched throughout, same as every prior session. Also found the synced folder's `content/books/` (66 files) is far behind `origin/main`'s actual state (236 files, following Sessions 22-23's pushes from other accounts) — confirmed this is expected staleness in this particular sandbox mount, not something this session caused or needed to fix, since `content/books/*.json` was never touched. Did all work in the fresh `/tmp` clone directly rather than rsyncing the synced folder on top of it, since every non-book file there was already confirmed identical to `origin/main`.
 

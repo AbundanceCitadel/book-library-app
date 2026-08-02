@@ -27,7 +27,7 @@ export default function BookCard({ book }: { book: Book }) {
       className="book-row motion-premium tap-target block rounded-xl border-2 border-orange-600/70 bg-surface p-4"
     >
       <div className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
-        <span className="shrink-0 font-mono text-xs text-orange-400">
+        <span className="shrink-0 font-mono text-xs text-amber-400">
           {book.code}
         </span>
         <span className="font-medium leading-snug">{book.title}</span>

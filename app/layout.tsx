@@ -55,26 +55,27 @@ export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   viewportFit: "cover",
-  // v6: light is the single default theme-color now — dark is opt-in via
-  // the toggle, not OS-driven, so one static value is correct here (unlike
-  // the old prefers-color-scheme pair). See docs/DESIGN_SYSTEM.md v6.
-  themeColor: "#faf8f4",
+  // v7: dark is the single default theme-color again — light is opt-in via
+  // the toggle, not OS-driven, so one static value is correct here. Uses the
+  // new espresso-based dark bg, not v2-v5's old neutral near-black. See
+  // docs/DESIGN_SYSTEM.md v7.
+  themeColor: "#1f160f",
 };
 
-// Runs before paint. v6 (Design Foundation session): light is the default
-// for a first-time visitor regardless of OS preference — only adds `.dark`
-// if the stored preference is explicitly "dark", or "system" and the OS
-// itself reports dark. Exact inverse of v2-v5's logic. See
-// docs/DESIGN_SYSTEM.md v6 — "Design System v6."
+// Runs before paint. v7 (Stage 22, dark luxury reversal): dark is the
+// default for a first-time visitor regardless of OS preference again — only
+// adds `.light` if the stored preference is explicitly "light", or "system"
+// and the OS itself reports light. Exact inverse of v6's logic, back to the
+// v2-v5 shape. See docs/DESIGN_SYSTEM.md v7 — "Design System v7."
 const NO_FLASH_SCRIPT = `
 (function () {
   try {
     var stored = localStorage.getItem("theme");
-    var isDark =
-      stored === "dark" ||
+    var isLight =
+      stored === "light" ||
       (stored === "system" &&
-        window.matchMedia("(prefers-color-scheme: dark)").matches === true);
-    document.documentElement.classList.toggle("dark", isDark);
+        window.matchMedia("(prefers-color-scheme: dark)").matches === false);
+    document.documentElement.classList.toggle("light", isLight);
   } catch (e) {}
 })();
 `;
