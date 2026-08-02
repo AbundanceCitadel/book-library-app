@@ -1,0 +1,72 @@
+{
+  "id": "international-monetary-fund",
+  "name": "International Monetary Fund (IMF)",
+  "category": "financial-institution",
+  "founded": "1944",
+  "overview": "The IMF is the postwar institution charged with keeping the international monetary system stable — originally by managing a system of fixed exchange rates, and since the early 1970s by acting as a lender of last resort to countries in balance-of-payments crises, monitoring the health of national economies, and providing technical assistance on fiscal and monetary policy. Headquartered in Washington DC alongside its sister institution the World Bank, it is funded and governed through a quota system: each of its roughly 191 member countries contributes capital and receives voting power roughly proportional to the size of its economy, which means the largest economies, and the United States in particular, hold outsized formal influence over its decisions.\n\nThe IMF is best known publicly for its bailout programs — multibillion-dollar loans issued to countries facing currency or debt crises, conditional on the borrowing government adopting specific fiscal and structural reforms. That conditionality is also the single most persistent source of criticism leveled at the Fund: economists and the governments of borrowing countries alike have long argued that IMF-mandated austerity has, in specific well-documented cases, deepened the very recessions it was meant to resolve.",
+  "historyFounding": "The IMF was conceived at the Bretton Woods Conference in July 1944, a gathering of representatives from 44 Allied nations convened specifically to design a postwar monetary order that would avoid a repeat of the competitive currency devaluations and trade protectionism that had deepened the Great Depression. The conference's defining intellectual clash was between Britain's John Maynard Keynes, who proposed a global reserve currency (which he called \"bancor\") issued by a powerful international clearing union, and the US Treasury's Harry Dexter White, whose more conservative plan — smaller in scope and centered on the US dollar, itself pegged to gold — ultimately prevailed, reflecting America's overwhelming postwar economic weight. The IMF formally came into existence in December 1945 and began financial operations in 1947, initially managing the resulting dollar-gold fixed exchange rate system. That system collapsed in August 1971 when President Nixon unilaterally ended the dollar's convertibility into gold (the \"Nixon Shock\"), forcing the IMF to reinvent its core mission from exchange-rate manager to the crisis lender and economic surveillance body it has been ever since.",
+  "structureHowItWorks": "The IMF's ultimate authority is its Board of Governors, with one governor per member country, but day-to-day decisions sit with a 24-member Executive Board in Washington, and the organization is run by a Managing Director — by longstanding informal convention among its largest shareholders, always a European, just as the World Bank's president has traditionally always been American. Each member's quota, denominated in Special Drawing Rights (SDRs, an IMF-created reserve asset valued against a basket of major currencies), determines both how much it can borrow in a crisis and how many votes it holds; major decisions require an 85% supermajority, which in practice hands the United States, whose quota share sits at roughly 16-17%, an effective unilateral veto no other single country possesses. Its central tool is conditional lending: a country in a balance-of-payments or debt crisis negotiates a loan program with IMF staff that ties disbursements to specific policy commitments, historically austerity measures, currency devaluation, and structural reforms, though the Fund has moderated some of that conditionality in recent decades after sustained criticism. Alongside lending, the IMF conducts regular \"Article IV\" surveillance consultations with every member country's economy, publishing assessments used by investors, governments, and other institutions worldwide.",
+  "majorAchievements": [
+    "Managed the Bretton Woods fixed exchange-rate system from 1945 until its collapse in 1971, a period of exceptional global monetary stability and rapid postwar economic growth across the Western world.",
+    "Coordinated crisis lending through the 1980s Latin American debt crisis (the Baker and Brady Plans), the 1997-98 Asian Financial Crisis, Russia's 1998 default, and the 2008 Global Financial Crisis, in each case acting as one of the few institutions capable of assembling large, fast, multilateral financing packages.",
+    "Created the Special Drawing Right (SDR) in 1969, the world's first purely international reserve asset, and issued a record $650 billion SDR allocation in August 2021 to help member countries manage the economic shock of the COVID-19 pandemic — the largest such allocation in the Fund's history.",
+    "Runs continuous Article IV economic surveillance across nearly all 191 member countries, producing the World Economic Outlook and Global Financial Stability Report, widely cited baseline references for global growth forecasts and financial-risk assessment.",
+    "Approved a 50% increase to permanent quota resources under the 16th General Review (agreed 2023, still being implemented as of 2026), lifting the Fund's lending capacity toward roughly $1.3 trillion in available resources."
+  ],
+  "keyPeople": [
+    {
+      "name": "John Maynard Keynes",
+      "role": "Lead British negotiator at Bretton Woods, 1944 — proposed the rival \"bancor\" reserve-currency plan"
+    },
+    {
+      "name": "Harry Dexter White",
+      "role": "Lead US Treasury negotiator at Bretton Woods — his dollar-centered plan became the Fund's founding structure"
+    },
+    {
+      "name": "Camille Gutt",
+      "role": "First Managing Director (1946-1951)"
+    },
+    {
+      "name": "Michel Camdessus",
+      "role": "Managing Director (1987-2000) — led the Fund through the Latin American debt restructurings and the 1997-98 Asian Financial Crisis, its longest-serving MD"
+    },
+    {
+      "name": "Kristalina Georgieva",
+      "role": "Managing Director (2019-present, term extended through October 2029)"
+    }
+  ],
+  "byTheNumbers": [
+    {
+      "label": "Member countries",
+      "value": "191"
+    },
+    {
+      "label": "Total lending resources (GRA)",
+      "value": "roughly $1.3 trillion as of 2026, more than triple its 2000 level"
+    },
+    {
+      "label": "Permanent quota resources",
+      "value": "rising to approximately SDR 716 billion (~$960 billion) under the 16th quota review"
+    },
+    {
+      "label": "US voting share",
+      "value": "~16-17%, enough on its own to block any decision requiring the Fund's 85% supermajority threshold"
+    },
+    {
+      "label": "Founded",
+      "value": "Conceived July 1944 at Bretton Woods; began operations 1947"
+    }
+  ],
+  "criticalTake": {
+    "points": [
+      "IMF loan conditionality — historically demanding austerity, currency devaluation, privatization, and other \"Washington Consensus\" reforms in exchange for financing — has been blamed by economists including Nobel laureate Joseph Stiglitz for deepening specific crises rather than resolving them, most notably Argentina's 2001 default despite years of an active IMF program, and the harsh recessions imposed on Greece and other eurozone periphery countries during the 2010-2015 debt crisis, where the IMF's participation in the \"Troika\" alongside the European Commission and European Central Bank remains one of its most controversial episodes.",
+      "The quota-based voting system gives the United States a de facto veto over major Fund decisions and preserves an informal convention that the Managing Director is always European, both of which critics — including many developing-country governments the Fund actually lends to — argue no longer reflects the real balance of the global economy, particularly China's and other emerging markets' growing share of world output.",
+      "As of 2026, the Fund is caught in an escalating geopolitical tension between the United States and China: the Trump administration has pushed for a further IMF quota increase to extend US financial leverage as a counterweight to Chinese influence, while simultaneously pressing Congress-backed conditions on IMF loans to countries with heavy Chinese debt exposure, aimed at preventing IMF resources from indirectly refinancing Chinese lenders — a live policy fight rather than settled precedent.",
+      "Tension has also surfaced between US political pressure for specific bailout outcomes and IMF technical caution, visible in 2026 disagreements over the scale and terms of Argentina's program, illustrating the Fund's structural bind: it depends on its largest shareholder's political backing while also needing to preserve credibility as a technocratic, rules-based lender to all 191 members."
+    ],
+    "contextNote": "The 2026 US-China tension over IMF lending conditions and the Argentina program disagreement are both live, evolving situations verified via web search on 2026-08-03, not settled history — figures and positions here should be re-checked before long-term reliance. Historical material (Bretton Woods, the 1997-98 Asian crisis, the 2010s eurozone crisis) is treated as stable, well-documented economic history."
+  },
+  "relatedIds": [],
+  "dateAdded": "2026-08-03",
+  "sourceNotes": "Founding history (Bretton Woods, the Keynes/White debate, the 1971 collapse of fixed exchange rates) and 20th-century crisis-lending history (Latin America, Asia, the 2008 crisis) are treated as stable, well-documented economic history not requiring live verification. Current leadership (Kristalina Georgieva, term through 2029), current quota/resource figures, and the 2026 US-China/Argentina tensions were verified via live web search on 2026-08-03 (IMF.org, Atlantic Council, Center for Global Development, Buenos Aires Times), per the same discipline Round 3's WHO entry established (decision #282). No existing People or Books entries in this library are substantively about the IMF specifically, so relatedIds is left genuinely empty rather than forcing a weak cross-link."
+}
