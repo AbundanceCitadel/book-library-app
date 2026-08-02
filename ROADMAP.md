@@ -695,8 +695,21 @@ no existing People or Books entry is substantively about Toyota, so
 leadership (CEO Kenta Kon, since April 2026) and the Daihatsu
 safety-scandal fallout were verified via live web search; founding story
 and 20th-century history relied on stable general knowledge. Organizations
-is now the only section still stuck at exactly 1 entry — see
-`DECISIONS.md` #298-303.
+was, until Session 36 (round 7), the only section still stuck at exactly
+1 entry — see `DECISIONS.md` #298-303. Session 36 (round 7) grew
+Organizations from 1 entry to 2, adding the International Monetary Fund
+— the default pick since Organizations was the sole remaining
+1-entry section, with the specific candidate (over the Fed or ICRC)
+chosen because the IMF's Bretton Woods founding and quota-governance
+structure map unusually richly onto this schema's tabs, and because it
+diversifies the section into Central Banks & Financial Institutions
+alongside WHO's International/Government Body. Current leadership,
+resource figures, and live 2026 US-China/Argentina tensions were
+verified via web search; Bretton Woods founding and 20th-century
+crisis-lending history relied on stable general knowledge. **All 8
+launched sections now sit at 2+ entries except People (10) and Quotes
+(6) — no section remains stuck at exactly 1 entry** — see
+`DECISIONS.md` #304-309.
 
 Thai is expanding the app from a single-purpose book library into a
 nine-section personal knowledge library (Book Library plus Famous People/
