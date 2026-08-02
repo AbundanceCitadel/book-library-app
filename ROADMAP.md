@@ -709,7 +709,24 @@ verified via web search; Bretton Woods founding and 20th-century
 crisis-lending history relied on stable general knowledge. **All 8
 launched sections now sit at 2+ entries except People (10) and Quotes
 (6) — no section remains stuck at exactly 1 entry** — see
-`DECISIONS.md` #304-309.
+`DECISIONS.md` #304-309. Session 37 (round 8) shifted from breadth to
+depth: Round 3's original backfill pass (#278-284) had closed the empty
+tab-field gap on Organizations/Companies/Civilizations/Philosophies but
+never reached Rich List or Rulers, both explicitly flagged at the time
+as still needing it. Round 8 closed that gap — `elon-musk.json`/
+`larry-page.json` (wealthTimeline/notableQuotes/playbookLessons/
+criticalTake) and `george-washington.json`/`julius-caesar.json`
+(riseToPower/reignEvents/criticalTake) are now fully populated, using
+the same "only touch genuinely empty fields" discipline as Round 3.
+Rich List's built-in net-worth staleness surfaced directly: Musk's
+stored $839B figure (March 2026) is now well behind real-time 2026
+estimates after SpaceX's IPO and the Feb 2026 SpaceX/xAI/X merger —
+flagged in `criticalTake.contextNote` rather than silently re-baselined,
+since updating the ranking itself is a separate task. **Entry count
+unchanged at 28 across 8 sections; every entry in every launched section
+now has every schema-defined tab field populated — no remaining empty
+placeholders anywhere in the nine-section content** — see
+`DECISIONS.md` #310-316.
 
 Thai is expanding the app from a single-purpose book library into a
 nine-section personal knowledge library (Book Library plus Famous People/
