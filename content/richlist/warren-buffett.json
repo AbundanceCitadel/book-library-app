@@ -1,0 +1,120 @@
+{
+  "id": "warren-buffett",
+  "name": "Warren Buffett",
+  "rank": 9,
+  "netWorthUsdBillions": 149,
+  "category": "finance-investment",
+  "country": "United States",
+  "asOfDate": "2026-03-11",
+  "overview": "Warren Buffett built his fortune through Berkshire Hathaway, the Omaha-based conglomerate he took control of in 1965 and spent six decades transforming from a failing textile mill into a sprawling holding company spanning insurance (GEICO, General Re), railroads (BNSF), energy (Berkshire Hathaway Energy), and a public-equities portfolio (Apple, Coca-Cola, American Express, and dozens more) alongside wholly owned businesses like See's Candies and Dairy Queen. Unlike most people on this list, almost none of his wealth came from founding a single breakout company — it compounded over roughly 70 years of disciplined value investing, applying lessons from his teacher Benjamin Graham at Columbia Business School.\n\nBuffett stepped down as Berkshire's CEO at the end of 2025 after the board approved his hand-picked successor, Greg Abel, who took over as President and CEO effective January 1, 2026. Buffett, then 95, remained on as chairman and attended the May 2026 annual shareholder meeting in Omaha as an audience member for the first time in six decades rather than leading it from the stage. He has also been giving away his fortune faster than it can compound: in July 2026 he redirected nearly $6 billion in Berkshire shares to four family foundations, notably excluding the Gates Foundation from his annual gift for the first time in 20 years, and restated a goal of disposing of his entire Berkshire stake by around 2034.",
+  "wealthTimeline": [
+    {
+      "period": "1956",
+      "event": "Forms the Buffett Partnership Ltd., an investment partnership, with $105,100 pooled from family and friends, applying value-investing principles learned from Benjamin Graham at Columbia"
+    },
+    {
+      "period": "1965",
+      "event": "Takes control of Berkshire Hathaway, then a struggling New England textile manufacturer, after buying shares as a value play; later called walking away from textiles rather than shutting them down sooner his \"biggest investing mistake\""
+    },
+    {
+      "period": "1967",
+      "event": "Uses Berkshire to buy National Indemnity, its first insurance company, beginning the shift from textiles into insurance and investing that defines the company today"
+    },
+    {
+      "period": "1972",
+      "event": "Berkshire buys See's Candies, a deal Buffett later credited with teaching him the value of paying up for a business with real pricing power and brand loyalty, a shift away from his earlier strict \"cigar-butt\" bargain-hunting style"
+    },
+    {
+      "period": "1988",
+      "event": "Begins building Berkshire's stake in Coca-Cola, eventually one of its largest and longest-held public equity positions"
+    },
+    {
+      "period": "2008",
+      "event": "Invests billions in Goldman Sachs and General Electric preferred stock during the global financial crisis, on favorable terms only available to an investor with Berkshire's cash reserves and reputation"
+    },
+    {
+      "period": "2010",
+      "event": "Co-founds the Giving Pledge with Bill and Melinda Gates, publicly committing to give away the majority of his fortune"
+    },
+    {
+      "period": "2023",
+      "event": "Longtime vice chairman and closest business partner Charlie Munger dies at 99; Buffett credits Munger with pushing him toward buying great businesses at fair prices rather than fair businesses at great prices"
+    },
+    {
+      "period": "2025",
+      "event": "Berkshire's board approves Greg Abel, vice chairman of non-insurance operations, as Buffett's successor"
+    },
+    {
+      "period": "2026",
+      "event": "Abel becomes President and CEO effective January 1; Buffett remains chairman and, in July, redirects nearly $6 billion in annual share donations away from the Gates Foundation to four family foundations for the first time in 20 years"
+    }
+  ],
+  "portfolio": [
+    {
+      "holding": "Berkshire Hathaway",
+      "description": "The conglomerate itself — insurance, railroads (BNSF), energy, manufacturing, and a large public-equities portfolio. Buffett remains chairman after stepping down as CEO on January 1, 2026.",
+      "approxStake": "~38% of Class A shares (voting control)"
+    },
+    {
+      "holding": "GEICO",
+      "description": "Auto insurer, wholly owned by Berkshire since 1996; its \"float\" (premiums collected before claims are paid) has funded decades of Buffett's other investments."
+    },
+    {
+      "holding": "Apple",
+      "description": "Berkshire's largest public equity holding for much of the 2020s, though Berkshire trimmed the position substantially starting in 2024 as part of building its record cash reserve."
+    },
+    {
+      "holding": "See's Candies, Dairy Queen, and dozens of other wholly owned operating businesses",
+      "description": "Smaller consumer and industrial businesses bought outright and left largely to run themselves under existing management, Berkshire's long-standing acquisition philosophy."
+    }
+  ],
+  "philanthropy": [
+    "Co-founded the Giving Pledge in 2010 with Bill and Melinda Gates, publicly committing to give away the majority of his fortune during his lifetime or at death.",
+    "Donated more than $47 billion in Berkshire shares to the Bill & Melinda Gates Foundation between 2006 and 2025, one of the largest sustained philanthropic relationships in modern history.",
+    "In July 2026, excluded the Gates Foundation from his annual donation for the first time in 20 years amid the foundation's disclosed historical ties to Jeffrey Epstein, redirecting nearly $6 billion in Berkshire shares instead to four family-run foundations: the Susan Thompson Buffett Foundation, the Sherwood Foundation, the Howard G. Buffett Foundation, and the NoVo Foundation.",
+    "Has stated a goal of disposing of his entire remaining Berkshire stake by approximately 2034, largely through his three children's family foundations rather than his own name attached to the giving."
+  ],
+  "notableQuotes": [
+    {
+      "text": "Be fearful when others are greedy, and be greedy when others are fearful.",
+      "attribution": "Berkshire Hathaway shareholder letter, 2004 (a version of the line recurs across multiple Buffett letters and interviews)"
+    },
+    {
+      "text": "Price is what you pay. Value is what you get.",
+      "attribution": "Berkshire Hathaway shareholder letter, 2008"
+    },
+    {
+      "text": "Our favorite holding period is forever.",
+      "attribution": "Berkshire Hathaway shareholder letter, 1988"
+    },
+    {
+      "text": "It's far better to buy a wonderful company at a fair price than a fair company at a wonderful price.",
+      "attribution": "Berkshire Hathaway shareholder letter, 1989, describing the shift in thinking he credited to Charlie Munger"
+    }
+  ],
+  "playbookLessons": [
+    "Compounding rewards patience over decades far more than it rewards short-term timing skill — Buffett made the large majority of his net worth after age 65, simply because Berkshire kept compounding for that much longer.",
+    "Insurance \"float\" (premiums collected before claims come due) is investable cash that costs nothing if underwritten well, and became the quiet engine funding most of Berkshire's other acquisitions and stock purchases.",
+    "A public annual letter, written in plain language for ordinary shareholders rather than analysts, can become a business's most valuable trust-building asset — Berkshire's shareholder letters and annual meeting are followed far outside the investing world.",
+    "Buying a wonderful business at a fair price beats buying a fair business at a wonderful price — a deliberate correction to his own earlier, stricter bargain-hunting style, credited to Charlie Munger's influence.",
+    "Naming and preparing a successor a decade or more in advance, then stepping back from the CEO role while staying on as chairman, lets a founder-led culture survive a leadership transition instead of being tested for the first time only after the founder is gone."
+  ],
+  "criticalTake": {
+    "points": [
+      "Berkshire's record cash pile (over $397 billion by the end of Q1 2026) has drawn sustained criticism that Buffett and now Abel are sitting on capital that could otherwise be deployed or returned to shareholders, especially as Berkshire has trimmed large equity positions like Apple rather than finding comparably sized new opportunities.",
+      "Buffett's decision to exclude the Gates Foundation from his 2026 donations, tied to the foundation's disclosed historical connections to Jeffrey Epstein, became a genuinely public and controversial break after 20 years of consistent annual giving, and drew scrutiny of both foundations rather than being a quiet redirection.",
+      "The Greg Abel succession, while unusually well-telegraphed compared to most founder transitions, remains an open test: Berkshire's stock dropped when the succession was formally announced, and Abel has never run a company at Berkshire's scale or with its decentralized, trust-based management culture, which Buffett spent 60 years building around his own personal relationships and reputation.",
+      "Buffett's own admitted mistakes — including staying in Berkshire's original textile business years longer than the economics justified, and a handful of high-profile investment errors he has openly discussed in his letters (such as Dexter Shoe and an early, costly stake in USAir preferred stock) — are worth noting against the retrospective narrative of nearly flawless judgment his public reputation often implies."
+    ],
+    "contextNote": "Stored net worth ($149B) follows the same March 2026 Forbes World's Billionaires snapshot used for this section's other entries. Buffett's fortune moves far less dramatically week to week than Musk's or Page's, since it is concentrated in one long-held, relatively stable stock (Berkshire Class A/B shares) rather than newer, more volatile ventures — but it is also being deliberately drawn down through the accelerated share donations described above, so the stored figure will trend downward over time by design, not just by market movement."
+  },
+  "relatedIds": [
+    {
+      "section": "library",
+      "id": "the-snowball",
+      "label": "The Snowball (book, Buffett biography)"
+    }
+  ],
+  "dateAdded": "2026-08-03",
+  "sourceNotes": "Round 9 (2026-08-03), Rich List's 3rd entry, picked from the 98 unused Forbes-sourced candidates in New Section Research/richlist.md (rank #9, $149B, Finance & Investments, per the same March 2026 Forbes snapshot used for Musk/Page) over other candidates on research-quality and diversification grounds — Buffett's decades-long public track record, famously quotable shareholder letters, and a genuinely current, checkable 2026 news cycle (the Greg Abel CEO succession and the Gates Foundation donation break) gave this entry unusually rich, verifiable material across every tab, and it diversifies Rich List's category mix beyond Musk/Page's shared Technology category into Finance & Investment. Real cross-link found (not forced): this library already holds a verified Warren Buffett biography, The Snowball, in content/books/the-snowball.json — relatedIds points to it via the 'library' section prefix. Current 2026 events (Abel's CEO transition effective January 1, 2026; the July 2026 Gates Foundation donation exclusion and $6B family-foundation gift; Berkshire's Q1 2026 cash pile) verified via live web search on 2026-08-03 (CNBC, Forbes, Fortune, Yahoo Finance, Seeking Alpha). Buffett Partnership/Berkshire acquisition history, See's Candies, Coca-Cola stake, 2008 financial-crisis investments, the Giving Pledge founding, and Charlie Munger's 2023 death relied on stable, widely-documented general knowledge. Quotes verified against Berkshire's own publicly archived shareholder letters (specific years cited in each attribution) rather than the many misattributed versions that circulate online."
+}
