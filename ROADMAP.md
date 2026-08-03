@@ -727,6 +727,19 @@ unchanged at 28 across 8 sections; every entry in every launched section
 now has every schema-defined tab field populated — no remaining empty
 placeholders anywhere in the nine-section content** — see
 `DECISIONS.md` #310-316.
+Session 38 (round 9) shifted back to breadth: with every
+section's existing entries fully backfilled after Round 8, picked Rich
+List's 3rd entry from the 98 unused Forbes-sourced candidates in `New
+Section Research/richlist.md` — Warren Buffett (rank #9, $149B, Finance
+& Investments), chosen to diversify Rich List beyond Musk/Page's shared
+Technology category and for an unusually rich, current 2026 news cycle
+(Greg Abel's CEO succession effective January 1, 2026; the July 2026
+Gates Foundation donation break). First Rich List entry with a real,
+non-forced `relatedIds` cross-link — to this library's own Warren
+Buffett biography, `content/books/the-snowball.json`. **Section totals:
+Rich List 3 (was 2); People 10, Quotes 6, Rulers 2, Philosophies 2,
+Civilizations 2, Companies 2, Organizations 2 unchanged — 29 entries
+total across 8 sections, up from 28** — see `DECISIONS.md` #317-324.
 
 Thai is expanding the app from a single-purpose book library into a
 nine-section personal knowledge library (Book Library plus Famous People/
